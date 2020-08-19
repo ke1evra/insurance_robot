@@ -1,0 +1,971 @@
+{
+	"Florida": {
+		"companies": [
+			"21st Century",
+			"Allied",
+			"Allstate",
+			"Amica",
+			"Direct General",
+			"Electric Insurance",
+			"Ensurance",
+			"GEICO",
+			"Infinity",
+			"Liberty Mutual",
+			"MetLife",
+			"Progressive",
+			"State Farm",
+			"Travelers",
+			"USAA"
+		]
+	},
+	"Texas": {
+		"companies": [
+			"21st Century",
+			"Allstate",
+			"Amica",
+			"Ensurance",
+			"GEICO",
+			"Liberty Mutual",
+			"Mercury",
+			"MetLife",
+			"Nationwide",
+			"Progressive",
+			"Safeco",
+			"State Farm",
+			"Texas Farm Bureau",
+			"Travelers",
+			"USAA"
+		]
+	},
+	"New York": {
+		"companies": [
+			"21st Century",
+			"Allstate",
+			"Amica",
+			"Central Mutual",
+			"Erie",
+			"GEICO",
+			"Liberty Mutual",
+			"Mercury",
+			"MetLife",
+			"Nationwide",
+			"New York Central Mutual",
+			"Progressive",
+			"Safeco",
+			"State Farm",
+			"USAA"
+		]
+	},
+	"Arizona": {
+		"companies": [
+			"21st Century",
+			"Allied",
+			"Allstate",
+			"American Family",
+			"Amica",
+			"Auto-Owners",
+			"Cal Casualty",
+			"CSAA",
+			"Farmers",
+			"GEICO",
+			"Liberty Mutual",
+			"MetLife",
+			"Nationwide",
+			"Progressive",
+			"USAA"
+		]
+	},
+	"California": {
+		"companies": [
+			"21st Century",
+			"Allied",
+			"Allstate",
+			"California Capital",
+			"Esurance",
+			"Farmers",
+			"GEICO",
+			"Liberty Mutual",
+			"MetLife",
+			"Nationwide",
+			"Progressive",
+			"State Farm",
+			"Travelers",
+			"USAA",
+			"Wawanesa"
+		]
+	},
+	"Illions": {
+		"companies": [
+			"Allstate",
+			"American Family",
+			"Amica",
+			"Auto-Owners",
+			"Cincinnati Insurance",
+			"Encompass",
+			"Erie",
+			"Esurance",
+			"GEICO",
+			"Hanover",
+			"Hastings Mutual",
+			"MetLife",
+			"Nationwide",
+			"Progressive",
+			"USAA"
+		]
+	},
+	"Connecticut": {
+		"companies": [
+			"Allstate",
+			"Amica",
+			"Electric Insurance",
+			"Encompass",
+			"Foremost",
+			"GEICO",
+			"Hanover",
+			"Liberty Mutual",
+			"MetLife",
+			"Nationwide",
+			"Progressive",
+			"Safeco",
+			"State Farm",
+			"Travelers",
+			"USAA"
+		]
+	},
+	"Georgia": {
+		"companies": [
+			"Allstate",
+			"Auto-Owners",
+			"Cal Casualty",
+			"Central Mutual",
+			"Country",
+			"GEICO",
+			"Georgia Farm Bureau",
+			"Liberty Mutual",
+			"Nationwide",
+			"Progressive",
+			"Safeco",
+			"State Farm",
+			"Travelers",
+			"USAA",
+			"Victoria"
+		]
+	},
+	"Virginia": {
+		"companies": [
+			"ALFA",
+			"Allstate",
+			"Amica",
+			"Chubb",
+			"Erie",
+			"GEICO",
+			"Liberty Mutual",
+			"MetLife",
+			"Nationwide",
+			"Progressive",
+			"State Farm",
+			"Hartford",
+			"Travelers",
+			"USAA",
+			"Virginia Farm Bureau"
+		]
+	},
+	"Utah": {
+		"companies": [
+			"Allied",
+			"Allstate",
+			"American Family",
+			"Bear River",
+			"Encompass",
+			"Farmers",
+			"GEICO",
+			"Liberty Mutual",
+			"MetLife",
+			"Nationwide",
+			"Progressive",
+			"State Farm",
+			"Travelers",
+			"Unigard",
+			"USAA"
+		]
+	},
+	"Maryland": {
+		"companies": [
+			"Allstate",
+			"Amica",
+			"Cal Casualty",
+			"Encompass",
+			"Erie",
+			"GEICO",
+			"Liberty Mutual",
+			"MetLife",
+			"Nationwide",
+			"Penn National",
+			"Progressive",
+			"State Farm",
+			"Travelers",
+			"USAA",
+			"Victoria"
+		]
+	},
+	"Michigan": {
+		"companies": [
+			"Allmerica",
+			"Allstate",
+			"Auto Club Group",
+			"Chubb",
+			"Esurance",
+			"Farmers",
+			"GEICO",
+			"Hanover",
+			"Hastings Mutual",
+			"MetLife",
+			"Nationwide",
+			"Progressive",
+			"Safeco",
+			"State Farm",
+			"USAA"
+		]
+	},
+	"South Carolina": {
+		"companies": [
+			"Allstate",
+			"Auto-Owners",
+			"Bristol West",
+			"GEICO",
+			"Liberty Mutual",
+			"National Grange Mutual",
+			"Nationwide",
+			"Progressive",
+			"Safeco",
+			"Southern Farm Bureau",
+			"State Auto",
+			"State Farm",
+			"Hartford",
+			"Travelers",
+			"USAA"
+		]
+	},
+	"Colorado": {
+		"companies": [
+			"Allied",
+			"Allstate",
+			"American Family",
+			"Amica",
+			"Auto-Owners",
+			"Colorado Farm Bureau",
+			"Encompass",
+			"Farmers",
+			"GEICO",
+			"MetLife",
+			"Nationwide",
+			"Progressive",
+			"State Farm",
+			"Travelers",
+			"USAA"
+		]
+	},
+	"Oklahoma": {
+		"companies": [
+			"Allstate",
+			"Farmers",
+			"GEICO",
+			"Home State",
+			"Liberty Mutual",
+			"Mercury",
+			"MetLife",
+			"Oklahoma Farm Bureau",
+			"Progressive",
+			"Safeco",
+			"Shelter",
+			"State Farm",
+			"Hartford",
+			"Travelers",
+			"USAA"
+		]
+	},
+	"Arkansas": {
+		"companies": [
+			"Allstate",
+			"Auto-Owners",
+			"Cameron Mutual",
+			"Columbia Insurance",
+			"GEICO",
+			"Liberty Mutual",
+			"MetLife",
+			"Nationwide",
+			"Progressive",
+			"Southern Farm Bureau",
+			"State Auto",
+			"State Farm",
+			"Travelers",
+			"United Automobile",
+			"USAA"
+		]
+	},
+	"New Jersey": {
+		"companies": [
+			"21st Century",
+			"Allstate",
+			"Amica",
+			"Cal Casualty",
+			"Esurance",
+			"GEICO",
+			"Hanover",
+			"Liberty Mutual",
+			"MetLife",
+			"Penn National",
+			"Progressive",
+			"State Farm",
+			"Hartford",
+			"Travelers",
+			"USAA"
+		]
+	},
+	"Tennessee": {
+		"companies": [
+			"Allstate",
+			"Celina Insurance",
+			"Chubb",
+			"Cincinnati Insurance",
+			"Direct General",
+			"Erie",
+			"Farmers",
+			"GEICO",
+			"Liberty Mutual",
+			"MetLife",
+			"Nationwide",
+			"Progressive",
+			"State Farm",
+			"USAA",
+			"Westfield"
+		]
+	},
+	"Oregon": {
+		"companies": [
+			"Allstate",
+			"American Family",
+			"Amica",
+			"Country",
+			"Encompass",
+			"Farmers",
+			"GEICO",
+			"Liberty Mutual",
+			"MetLife",
+			"Mutual Enumclaw",
+			"Nationwide",
+			"Progressive",
+			"State Farm",
+			"Travelers",
+			"USAA"
+		]
+	},
+	"Pennsylvania": {
+		"companies": [
+			"Allstate",
+			"Amica",
+			"Auto-Owners",
+			"Donegal Mutual",
+			"Erie",
+			"GEICO",
+			"Harleysville",
+			"Liberty Mutual",
+			"MetLife",
+			"Mutual Benefit Group",
+			"Nationwide",
+			"Progressive",
+			"State Farm",
+			"Travelers",
+			"USAA"
+		]
+	},
+	"Missouri": {
+		"companies": [
+			"21st Century",
+			"Allied",
+			"Allstate",
+			"Cameron Mutual",
+			"Electric Insurance",
+			"Farmers",
+			"GEICO",
+			"MetLife",
+			"Nationwide",
+			"Progressive",
+			"Shelter",
+			"State Farm",
+			"Hartford",
+			"Travelers",
+			"USAA"
+		]
+	},
+	"Indiana": {
+		"companies": [
+			"Allstate",
+			"American Family",
+			"Cal Casualty",
+			"Celina Insurance",
+			"Cincinnati Insurance",
+			"Erie",
+			"Farmers",
+			"First Chicago Maverick",
+			"GEICO",
+			"Liberty Mutual",
+			"MetLife",
+			"Progressive",
+			"State Farm",
+			"Travelers",
+			"USAA"
+		]
+	},
+	"Ohio": {
+		"companies": [
+			"AIG",
+			"Allstate",
+			"Atlantic States",
+			"Erie",
+			"Farmers",
+			"GEICO",
+			"General Casualty",
+			"Liberty Mutual",
+			"MetLife",
+			"Nationwide",
+			"Progressive",
+			"State Farm",
+			"Travelers",
+			"USAA",
+			"Western Reserve"
+		]
+	},
+	"Alabama": {
+		"companies": [
+			"Allstate",
+			"Auto-Owners",
+			"Cal Casualty",
+			"Cincinnati Insurance",
+			"Country",
+			"Farmers",
+			"GEICO",
+			"Liberty Mutual",
+			"MetLife",
+			"Nationwide",
+			"Progressive",
+			"Safeco",
+			"State Farm",
+			"Travelers",
+			"USAA"
+		]
+	},
+	"Nevada": {
+		"companies": [
+			"Allied",
+			"Allstate",
+			"Bristol West",
+			"Country",
+			"Encompass",
+			"Farmers",
+			"GEICO",
+			"Liberty Mutual",
+			"Mercury",
+			"MetLife",
+			"Nationwide",
+			"Progressive",
+			"State Farm",
+			"Travelers",
+			"USAA"
+		]
+	},
+	"North Carolina": {
+		"companies": [
+			"Allstate",
+			"Auto-Owners",
+			"Erie",
+			"GEICO",
+			"Liberty Mutual",
+			"MetLife",
+			"Nationwide",
+			"Peerless",
+			"Penn National",
+			"Progressive",
+			"Safeco",
+			"State Farm",
+			"Travelers",
+			"Unitrin",
+			"Utica National"
+		]
+	},
+	"Kentucky": {
+		"companies": [
+			"Allstate",
+			"Auto-Owners",
+			"Cincinnati Insurance",
+			"Electric Insurance",
+			"GEICO",
+			"Kentucky Farm Bureau",
+			"Liberty Mutual",
+			"MetLife",
+			"Motorists Mutual",
+			"Nationwide",
+			"Progressive",
+			"Shelter",
+			"State Farm",
+			"Travelers",
+			"USAA"
+		]
+	},
+	"Hawaii": {
+		"companies": [
+			"AIG",
+			"Allstate",
+			"GEICO",
+			"Liberty Mutual",
+			"Progressive",
+			"State Farm",
+			"USAA",
+			"FALSE",
+			"FALSE",
+			"FALSE",
+			"FALSE",
+			"FALSE",
+			"FALSE",
+			"FALSE",
+			"FALSE"
+		]
+	},
+	"Maine": {
+		"companies": [
+			"Allstate",
+			"Bristol West",
+			"Concord",
+			"Countryway Insurance",
+			"GEICO",
+			"Hanover",
+			"Liberty Mutual",
+			"MetLife",
+			"Progressive",
+			"Sentry",
+			"State Farm",
+			"Hartford",
+			"Travelers",
+			"USAA",
+			"Vermont Mutual"
+		]
+	},
+	"Wisconsin": {
+		"companies": [
+			"Acuity",
+			"Allstate",
+			"American Family",
+			"Auto-Owners",
+			"Erie",
+			"Farmers",
+			"GEICO",
+			"Liberty Mutual",
+			"MetLife",
+			"Nationwide",
+			"Progressive",
+			"Safeco",
+			"State Farm",
+			"Travelers",
+			"USAA"
+		]
+	},
+	"Vermont": {
+		"companies": [
+			"Allstate",
+			"Cal Casualty",
+			"Co-Operative Insurance",
+			"Concord",
+			"GEICO",
+			"Liberty Mutual",
+			"MetLife",
+			"MMG Insurance",
+			"Nationwide",
+			"Safeco",
+			"State Farm",
+			"Hartford",
+			"Travelers",
+			"USAA",
+			"Vermont Mutual"
+		]
+	},
+	"North Dakota": {
+		"companies": [
+			"Allied",
+			"Allstate",
+			"American Family",
+			"Auto Club Group",
+			"EMC",
+			"Farmers",
+			"GEICO",
+			"Liberty Mutual",
+			"MetLife",
+			"Nodak Mutual",
+			"North Star Mutual",
+			"Progressive",
+			"State Auto",
+			"State Farm",
+			"USAA"
+		]
+	},
+	"Alaska": {
+		"companies": [
+			"Allstate",
+			"GEICO",
+			"Progressive",
+			"Safeco",
+			"State Farm",
+			"Umialik",
+			"USAA",
+			"FALSE",
+			"FALSE",
+			"FALSE",
+			"FALSE",
+			"FALSE",
+			"FALSE",
+			"FALSE",
+			"FALSE"
+		]
+	},
+	"Idaho": {
+		"companies": [
+			"Allied",
+			"Allstate",
+			"American Family",
+			"American National",
+			"Baldwin & Lyons",
+			"Farm Bureau of ID Group",
+			"GEICO",
+			"Liberty Mutual",
+			"MetLife",
+			"Nationwide",
+			"Progressive",
+			"State Farm",
+			"Hartford",
+			"Travelers",
+			"USAA"
+		]
+	},
+	"Louisiana": {
+		"companies": [
+			"Allstate",
+			"Cal Casualty",
+			"Encompass",
+			"GEICO",
+			"Liberty Mutual",
+			"MetLife",
+			"Progressive",
+			"Safeway",
+			"Southern Farm Bureau",
+			"State Farm",
+			"USAA",
+			"FALSE",
+			"FALSE",
+			"FALSE",
+			"FALSE"
+		]
+	},
+	"Minnesota": {
+		"companies": [
+			"Allied",
+			"Allstate",
+			"American Family",
+			"Auto Club Group",
+			"Auto-Owners",
+			"Encompass",
+			"Farmers",
+			"GEICO",
+			"General Casualty",
+			"Liberty Mutual",
+			"MetLife",
+			"Progressive",
+			"State Farm",
+			"Travelers",
+			"USAA"
+		]
+	},
+	"Nebraska": {
+		"companies": [
+			"Allied",
+			"Allstate",
+			"American Family",
+			"Cal Casualty",
+			"EMC",
+			"Farmers",
+			"Farmers Mutual of Nebraska",
+			"GEICO",
+			"Iowa Mutual",
+			"Liberty Mutual",
+			"MetLife",
+			"Nationwide",
+			"Progressive",
+			"State Farm",
+			"USAA"
+		]
+	},
+	"Kansas": {
+		"companies": [
+			"Allied",
+			"Allstate",
+			"American Family",
+			"Cal Casualty",
+			"Encompass",
+			"Farmers",
+			"GEICO",
+			"Liberty Mutual",
+			"MetLife",
+			"Nationwide",
+			"Progressive",
+			"Shelter",
+			"State Farm",
+			"Travelers",
+			"USAA"
+		]
+	},
+	"Montana": {
+		"companies": [
+			"Allied",
+			"Allstate",
+			"Cal Casualty",
+			"Farmers",
+			"GEICO",
+			"MetLife",
+			"National Farmers Union",
+			"Progressive",
+			"Safeco",
+			"State Farm",
+			"USAA",
+			"FALSE",
+			"FALSE",
+			"FALSE",
+			"FALSE"
+		]
+	},
+	"New Mexico": {
+		"companies": [
+			"Allstate",
+			"Cal Casualty",
+			"Central Mutual",
+			"Encompass",
+			"Farmers",
+			"GEICO",
+			"Liberty Mutual",
+			"MetLife",
+			"Progressive",
+			"Safeco",
+			"Sentry",
+			"State Farm",
+			"Hartford",
+			"Travelers",
+			"USAA"
+		]
+	},
+	"Delaware": {
+		"companies": [
+			"Allstate",
+			"Atlantic States",
+			"Cal Casualty",
+			"Donegal Mutual",
+			"GEICO",
+			"Liberty Mutual",
+			"MetLife",
+			"National Grange Mutual",
+			"Nationwide",
+			"Progressive",
+			"Sentry",
+			"State Farm",
+			"Titan",
+			"Travelers",
+			"USAA"
+		]
+	},
+	"South Dakota": {
+		"companies": [
+			"Allstate",
+			"American Family",
+			"Auto-Owners",
+			"Buckeye",
+			"Farmers",
+			"Farmers Mutual of Nebraska",
+			"GEICO",
+			"National Farmers Union",
+			"North Star Mutual",
+			"Progressive",
+			"Safeco",
+			"State Farm",
+			"Unitrin",
+			"USAA",
+			"Western National"
+		]
+	},
+	"West Virginia": {
+		"companies": [
+			"Allstate",
+			"Cal Casualty",
+			"Encompass",
+			"Erie",
+			"GEICO",
+			"Liberty Mutual",
+			"Motorists Mutual",
+			"Nationwide",
+			"Progressive",
+			"Safeco",
+			"State Auto",
+			"State Farm",
+			"Hartford",
+			"USAA",
+			"Westfield"
+		]
+	},
+	"Iowa": {
+		"companies": [
+			"Allstate",
+			"American Family",
+			"EMC",
+			"GEICO",
+			"Grinnell",
+			"Liberty Mutual",
+			"MetLife",
+			"Nationwide",
+			"Progressive",
+			"Safeco",
+			"State Farm",
+			"Travelers",
+			"USAA",
+			"Victoria",
+			"Western National"
+		]
+	},
+	"Massachusetts": {
+		"companies": [
+			"Allstate",
+			"Arbella",
+			"Commerce Insurance",
+			"Encompass",
+			"GEICO",
+			"Hanover",
+			"Liberty Mutual",
+			"MetLife",
+			"Norfolk and Dedham",
+			"OneBeacon",
+			"Progressive",
+			"Quincy Mutual",
+			"State Farm",
+			"Travelers",
+			"USAA"
+		]
+	},
+	"Mississippi": {
+		"companies": [
+			"ALFA",
+			"Allstate",
+			"Direct General",
+			"GEICO",
+			"Liberty Mutual",
+			"Nationwide",
+			"Progressive",
+			"Safeco",
+			"Safeway",
+			"Shelter",
+			"Southern Farm Bureau",
+			"State Farm",
+			"Travelers",
+			"Unitrin",
+			"USAA"
+		]
+	},
+	"New Hampshire": {
+		"companies": [
+			"Allstate",
+			"Amica",
+			"Commerce Insurance",
+			"Concord",
+			"GEICO",
+			"Hanover",
+			"Liberty Mutual",
+			"MetLife",
+			"MMG Insurance",
+			"Nationwide",
+			"Patriot",
+			"Progressive",
+			"Safeco",
+			"State Farm",
+			"USAA"
+		]
+	},
+	"Rhode Island": {
+		"companies": [
+			"Allstate",
+			"Amica",
+			"Cal Casualty",
+			"Encompass",
+			"GEICO",
+			"Liberty Mutual",
+			"MetLife",
+			"National Grange Mutual",
+			"Nationwide",
+			"Peerless",
+			"Progressive",
+			"Quincy Mutual",
+			"State Farm",
+			"Travelers",
+			"USAA"
+		]
+	},
+	"Washington": {
+		"companies": [
+			"Allied",
+			"Allstate",
+			"American Family",
+			"Bristol West",
+			"Cal Casualty",
+			"Chubb",
+			"Farmers",
+			"GEICO",
+			"Liberty Mutual",
+			"MetLife",
+			"Mutual Enumclaw",
+			"Nationwide",
+			"State Farm",
+			"Travelers",
+			"USAA"
+		]
+	},
+	"Washington, D.C.": {
+		"companies": [
+			"FALSE",
+			"FALSE",
+			"FALSE",
+			"FALSE",
+			"FALSE",
+			"FALSE",
+			"FALSE",
+			"FALSE",
+			"FALSE",
+			"FALSE",
+			"FALSE",
+			"FALSE",
+			"FALSE",
+			"FALSE",
+			"FALSE"
+		]
+	},
+	"Wyoming": {
+		"companies": [
+			"Allstate",
+			"Cal Casualty",
+			"GEICO",
+			"Grange",
+			"National Farmers Union",
+			"Safeco",
+			"State Farm",
+			"Hartford",
+			"USAA",
+			"FALSE",
+			"FALSE",
+			"FALSE",
+			"FALSE",
+			"FALSE",
+			"FALSE"
+		]
+	}
+}

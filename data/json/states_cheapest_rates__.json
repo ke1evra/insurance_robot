@@ -1,0 +1,5696 @@
+{
+	"Florida": [
+		{
+			"state": "Florida",
+			"rank": 1,
+			"company_name": "USAA",
+			"avg_annual_premium": 1064
+		},
+		{
+			"state": "Florida",
+			"rank": 2,
+			"company_name": "Allied",
+			"avg_annual_premium": 1778
+		},
+		{
+			"state": "Florida",
+			"rank": 3,
+			"company_name": "State Farm",
+			"avg_annual_premium": 1883
+		},
+		{
+			"state": "Florida",
+			"rank": 4,
+			"company_name": "Travelers",
+			"avg_annual_premium": 1943
+		},
+		{
+			"state": "Florida",
+			"rank": 5,
+			"company_name": "Auto-Owners",
+			"avg_annual_premium": 2113
+		},
+		{
+			"state": "Florida",
+			"rank": 6,
+			"company_name": "GEICO",
+			"avg_annual_premium": 2124
+		},
+		{
+			"state": "Florida",
+			"rank": 7,
+			"company_name": "21st Century",
+			"avg_annual_premium": 2317
+		},
+		{
+			"state": "Florida",
+			"rank": 8,
+			"company_name": "Hanover",
+			"avg_annual_premium": 2513
+		},
+		{
+			"state": "Florida",
+			"rank": 9,
+			"company_name": "Esurance",
+			"avg_annual_premium": 2657
+		},
+		{
+			"state": "Florida",
+			"rank": 10,
+			"company_name": "Direct General",
+			"avg_annual_premium": 2722
+		},
+		{
+			"state": "Florida",
+			"rank": 11,
+			"company_name": "Mercury",
+			"avg_annual_premium": 2801
+		},
+		{
+			"state": "Florida",
+			"rank": 12,
+			"company_name": "Allstate",
+			"avg_annual_premium": 2834
+		},
+		{
+			"state": "Florida",
+			"rank": 13,
+			"company_name": "MetLife",
+			"avg_annual_premium": 2906
+		},
+		{
+			"state": "Florida",
+			"rank": 14,
+			"company_name": "Safeco",
+			"avg_annual_premium": 2998
+		},
+		{
+			"state": "Florida",
+			"rank": 15,
+			"company_name": "Kingsway America Group",
+			"avg_annual_premium": 3127
+		},
+		{
+			"state": "Florida",
+			"rank": 16,
+			"company_name": "United Automobile",
+			"avg_annual_premium": 3184
+		},
+		{
+			"state": "Florida",
+			"rank": 17,
+			"company_name": "Progressive",
+			"avg_annual_premium": 3223
+		},
+		{
+			"state": "Florida",
+			"rank": 18,
+			"company_name": "Metropolitan",
+			"avg_annual_premium": 3552
+		}
+	],
+	"Texas": [
+		{
+			"state": "Texas",
+			"rank": 1,
+			"company_name": "Travelers",
+			"avg_annual_premium": 1058
+		},
+		{
+			"state": "Texas",
+			"rank": 2,
+			"company_name": "Cal Casualty",
+			"avg_annual_premium": 1450
+		},
+		{
+			"state": "Texas",
+			"rank": 3,
+			"company_name": "USAA",
+			"avg_annual_premium": 1481
+		},
+		{
+			"state": "Texas",
+			"rank": 4,
+			"company_name": "Esurance",
+			"avg_annual_premium": 1450
+		},
+		{
+			"state": "Texas",
+			"rank": 5,
+			"company_name": "Mercury",
+			"avg_annual_premium": 1531
+		},
+		{
+			"state": "Texas",
+			"rank": 6,
+			"company_name": "State Farm",
+			"avg_annual_premium": 1548
+		},
+		{
+			"state": "Texas",
+			"rank": 7,
+			"company_name": "GEICO",
+			"avg_annual_premium": 1544
+		},
+		{
+			"state": "Texas",
+			"rank": 8,
+			"company_name": "Texas Farm Bureau",
+			"avg_annual_premium": 1680
+		},
+		{
+			"state": "Texas",
+			"rank": 9,
+			"company_name": "Encompass",
+			"avg_annual_premium": 2015
+		},
+		{
+			"state": "Texas",
+			"rank": 10,
+			"company_name": "Allstate",
+			"avg_annual_premium": 2539
+		},
+		{
+			"state": "Texas",
+			"rank": 11,
+			"company_name": "Metropolitan",
+			"avg_annual_premium": 2873
+		},
+		{
+			"state": "Texas",
+			"rank": 12,
+			"company_name": "Safeco",
+			"avg_annual_premium": 2924
+		},
+		{
+			"state": "Texas",
+			"rank": 13,
+			"company_name": "Dairyland",
+			"avg_annual_premium": 3033
+		},
+		{
+			"state": "Texas",
+			"rank": 14,
+			"company_name": "Liberty Mutual",
+			"avg_annual_premium": 3078
+		},
+		{
+			"state": "Texas",
+			"rank": 15,
+			"company_name": "Unitrin",
+			"avg_annual_premium": 3291
+		},
+		{
+			"state": "Texas",
+			"rank": 16,
+			"company_name": "21st Century",
+			"avg_annual_premium": 3982
+		},
+		{
+			"state": "Texas",
+			"rank": 17,
+			"company_name": "Home State",
+			"avg_annual_premium": 4855
+		}
+	],
+	"New York": [
+		{
+			"state": "New York",
+			"rank": 1,
+			"company_name": "Erie",
+			"avg_annual_premium": 1198
+		},
+		{
+			"state": "New York",
+			"rank": 2,
+			"company_name": "Travelers",
+			"avg_annual_premium": 1495
+		},
+		{
+			"state": "New York",
+			"rank": 3,
+			"company_name": "MetLife",
+			"avg_annual_premium": 1612
+		},
+		{
+			"state": "New York",
+			"rank": 4,
+			"company_name": "Hanover",
+			"avg_annual_premium": 1880
+		},
+		{
+			"state": "New York",
+			"rank": 5,
+			"company_name": "Safeco",
+			"avg_annual_premium": 1919
+		},
+		{
+			"state": "New York",
+			"rank": 6,
+			"company_name": "USAA",
+			"avg_annual_premium": 1941
+		},
+		{
+			"state": "New York",
+			"rank": 7,
+			"company_name": "Allstate",
+			"avg_annual_premium": 2264
+		},
+		{
+			"state": "New York",
+			"rank": 8,
+			"company_name": "Preferred Mutual",
+			"avg_annual_premium": 2282
+		},
+		{
+			"state": "New York",
+			"rank": 9,
+			"company_name": "State Farm",
+			"avg_annual_premium": 2408
+		},
+		{
+			"state": "New York",
+			"rank": 10,
+			"company_name": "Progressive",
+			"avg_annual_premium": 2373
+		},
+		{
+			"state": "New York",
+			"rank": 11,
+			"company_name": "GEICO",
+			"avg_annual_premium": 2367
+		},
+		{
+			"state": "New York",
+			"rank": 12,
+			"company_name": "Metropolitan",
+			"avg_annual_premium": 2517
+		},
+		{
+			"state": "New York",
+			"rank": 13,
+			"company_name": "New York Central Mutual",
+			"avg_annual_premium": 2730
+		},
+		{
+			"state": "New York",
+			"rank": 14,
+			"company_name": "Mercury",
+			"avg_annual_premium": 2832
+		},
+		{
+			"state": "New York",
+			"rank": 15,
+			"company_name": "Utica National",
+			"avg_annual_premium": 3016
+		},
+		{
+			"state": "New York",
+			"rank": 16,
+			"company_name": "Liberty Mutual",
+			"avg_annual_premium": 3119
+		},
+		{
+			"state": "New York",
+			"rank": 17,
+			"company_name": "Encompass",
+			"avg_annual_premium": 3237
+		},
+		{
+			"state": "New York",
+			"rank": 18,
+			"company_name": "Nationwide",
+			"avg_annual_premium": 4821
+		},
+		{
+			"state": "New York",
+			"rank": 19,
+			"company_name": "21st Century",
+			"avg_annual_premium": 5625
+		}
+	],
+	"Arizona": [
+		{
+			"state": "Arizona",
+			"rank": 1,
+			"company_name": "The Hartford",
+			"avg_annual_premium": 495
+		},
+		{
+			"state": "Arizona",
+			"rank": 2,
+			"company_name": "Safeco",
+			"avg_annual_premium": 584
+		},
+		{
+			"state": "Arizona",
+			"rank": 3,
+			"company_name": "Ameriprise Group",
+			"avg_annual_premium": 937
+		},
+		{
+			"state": "Arizona",
+			"rank": 4,
+			"company_name": "Farm Bureau Mutual (IA Group)",
+			"avg_annual_premium": 1001
+		},
+		{
+			"state": "Arizona",
+			"rank": 5,
+			"company_name": "USAA",
+			"avg_annual_premium": 1289
+		},
+		{
+			"state": "Arizona",
+			"rank": 6,
+			"company_name": "GEICO",
+			"avg_annual_premium": 1382
+		},
+		{
+			"state": "Arizona",
+			"rank": 7,
+			"company_name": "State Farm",
+			"avg_annual_premium": 1451
+		},
+		{
+			"state": "Arizona",
+			"rank": 8,
+			"company_name": "Encompass",
+			"avg_annual_premium": 1477
+		},
+		{
+			"state": "Arizona",
+			"rank": 9,
+			"company_name": "American Family",
+			"avg_annual_premium": 1540
+		},
+		{
+			"state": "Arizona",
+			"rank": 10,
+			"company_name": "Nationwide",
+			"avg_annual_premium": 1565
+		},
+		{
+			"state": "Arizona",
+			"rank": 11,
+			"company_name": "Progressive",
+			"avg_annual_premium": 1587
+		},
+		{
+			"state": "Arizona",
+			"rank": 12,
+			"company_name": "Allied",
+			"avg_annual_premium": 1607
+		},
+		{
+			"state": "Arizona",
+			"rank": 13,
+			"company_name": "Safe Auto",
+			"avg_annual_premium": 1764
+		},
+		{
+			"state": "Arizona",
+			"rank": 14,
+			"company_name": "Country",
+			"avg_annual_premium": 2036
+		},
+		{
+			"state": "Arizona",
+			"rank": 15,
+			"company_name": "Metropolitan",
+			"avg_annual_premium": 2063
+		},
+		{
+			"state": "Arizona",
+			"rank": 16,
+			"company_name": "Mercury",
+			"avg_annual_premium": 2435
+		},
+		{
+			"state": "Arizona",
+			"rank": 17,
+			"company_name": "Farmers",
+			"avg_annual_premium": 2506
+		},
+		{
+			"state": "Arizona",
+			"rank": 18,
+			"company_name": "Allstate",
+			"avg_annual_premium": 2721
+		}
+	],
+	"California": [
+		{
+			"state": "California",
+			"rank": 1,
+			"company_name": "Esurance",
+			"avg_annual_premium": 1122
+		},
+		{
+			"state": "California",
+			"rank": 2,
+			"company_name": "Century National",
+			"avg_annual_premium": 1309
+		},
+		{
+			"state": "California",
+			"rank": 3,
+			"company_name": "GEICO",
+			"avg_annual_premium": 1367
+		},
+		{
+			"state": "California",
+			"rank": 4,
+			"company_name": "Progressive",
+			"avg_annual_premium": 1553
+		},
+		{
+			"state": "California",
+			"rank": 5,
+			"company_name": "California Capital",
+			"avg_annual_premium": 1597
+		},
+		{
+			"state": "California",
+			"rank": 6,
+			"company_name": "Mercury",
+			"avg_annual_premium": 1599
+		},
+		{
+			"state": "California",
+			"rank": 7,
+			"company_name": "21st Century",
+			"avg_annual_premium": 1645
+		},
+		{
+			"state": "California",
+			"rank": 8,
+			"company_name": "USAA",
+			"avg_annual_premium": 1674
+		},
+		{
+			"state": "California",
+			"rank": 9,
+			"company_name": "Grange",
+			"avg_annual_premium": 1702
+		},
+		{
+			"state": "California",
+			"rank": 10,
+			"company_name": "Allstate",
+			"avg_annual_premium": 1703
+		},
+		{
+			"state": "California",
+			"rank": 11,
+			"company_name": "Farmers",
+			"avg_annual_premium": 1741
+		},
+		{
+			"state": "California",
+			"rank": 12,
+			"company_name": "Auto Club",
+			"avg_annual_premium": 1771
+		},
+		{
+			"state": "California",
+			"rank": 13,
+			"company_name": "Unitrin",
+			"avg_annual_premium": 1727
+		},
+		{
+			"state": "California",
+			"rank": 14,
+			"company_name": "Metropolitan",
+			"avg_annual_premium": 1804
+		},
+		{
+			"state": "California",
+			"rank": 15,
+			"company_name": "Liberty Mutual",
+			"avg_annual_premium": 1798
+		},
+		{
+			"state": "California",
+			"rank": 16,
+			"company_name": "CSAA",
+			"avg_annual_premium": 1882
+		},
+		{
+			"state": "California",
+			"rank": 17,
+			"company_name": "State Farm",
+			"avg_annual_premium": 1976
+		},
+		{
+			"state": "California",
+			"rank": 18,
+			"company_name": "Nationwide",
+			"avg_annual_premium": 2136
+		},
+		{
+			"state": "California",
+			"rank": 19,
+			"company_name": "Allied",
+			"avg_annual_premium": 2141
+		},
+		{
+			"state": "California",
+			"rank": 20,
+			"company_name": "Bristol West",
+			"avg_annual_premium": 2257
+		}
+	],
+	"Illinois": [
+		{
+			"state": "Illinois",
+			"rank": 1,
+			"company_name": "The Hartford",
+			"avg_annual_premium": 715
+		},
+		{
+			"state": "Illinois",
+			"rank": 2,
+			"company_name": "Pekin Insurance",
+			"avg_annual_premium": 909
+		},
+		{
+			"state": "Illinois",
+			"rank": 3,
+			"company_name": "Travelers",
+			"avg_annual_premium": 937
+		},
+		{
+			"state": "Illinois",
+			"rank": 4,
+			"company_name": "Safeco",
+			"avg_annual_premium": 1094
+		},
+		{
+			"state": "Illinois",
+			"rank": 5,
+			"company_name": "SECURA Insurance",
+			"avg_annual_premium": 1210
+		},
+		{
+			"state": "Illinois",
+			"rank": 6,
+			"company_name": "State Farm",
+			"avg_annual_premium": 1181
+		},
+		{
+			"state": "Illinois",
+			"rank": 7,
+			"company_name": "Rockford Mutual",
+			"avg_annual_premium": 1189
+		},
+		{
+			"state": "Illinois",
+			"rank": 8,
+			"company_name": "Grange Mutual",
+			"avg_annual_premium": 1262
+		},
+		{
+			"state": "Illinois",
+			"rank": 9,
+			"company_name": "USAA",
+			"avg_annual_premium": 1372
+		},
+		{
+			"state": "Illinois",
+			"rank": 10,
+			"company_name": "Nationwide",
+			"avg_annual_premium": 1339
+		},
+		{
+			"state": "Illinois",
+			"rank": 11,
+			"company_name": "Esurance",
+			"avg_annual_premium": 1416
+		},
+		{
+			"state": "Illinois",
+			"rank": 12,
+			"company_name": "Encompass",
+			"avg_annual_premium": 1446
+		},
+		{
+			"state": "Illinois",
+			"rank": 13,
+			"company_name": "21st Century",
+			"avg_annual_premium": 1509
+		},
+		{
+			"state": "Illinois",
+			"rank": 14,
+			"company_name": "Hastings Mutual Insurance Co",
+			"avg_annual_premium": 1470
+		},
+		{
+			"state": "Illinois",
+			"rank": 15,
+			"company_name": "Progressive",
+			"avg_annual_premium": 1676
+		},
+		{
+			"state": "Illinois",
+			"rank": 16,
+			"company_name": "Country",
+			"avg_annual_premium": 1653
+		},
+		{
+			"state": "Illinois",
+			"rank": 17,
+			"company_name": "Mercury",
+			"avg_annual_premium": 1697
+		},
+		{
+			"state": "Illinois",
+			"rank": 18,
+			"company_name": "Metropolitan",
+			"avg_annual_premium": 1782
+		},
+		{
+			"state": "Illinois",
+			"rank": 19,
+			"company_name": "Cincinnati Insurance",
+			"avg_annual_premium": 1851
+		},
+		{
+			"state": "Illinois",
+			"rank": 20,
+			"company_name": "Safe Auto",
+			"avg_annual_premium": 1814
+		},
+		{
+			"state": "Illinois",
+			"rank": 21,
+			"company_name": "General Casualty",
+			"avg_annual_premium": 1833
+		},
+		{
+			"state": "Illinois",
+			"rank": 22,
+			"company_name": "GEICO",
+			"avg_annual_premium": 1941
+		},
+		{
+			"state": "Illinois",
+			"rank": 23,
+			"company_name": "Auto Club Group",
+			"avg_annual_premium": 1944
+		},
+		{
+			"state": "Illinois",
+			"rank": 24,
+			"company_name": "State Auto",
+			"avg_annual_premium": 1920
+		},
+		{
+			"state": "Illinois",
+			"rank": 25,
+			"company_name": "Farmers",
+			"avg_annual_premium": 2237
+		},
+		{
+			"state": "Illinois",
+			"rank": 26,
+			"company_name": "American Family",
+			"avg_annual_premium": 2173
+		},
+		{
+			"state": "Illinois",
+			"rank": 27,
+			"company_name": "Allstate",
+			"avg_annual_premium": 2496
+		},
+		{
+			"state": "Illinois",
+			"rank": 28,
+			"company_name": "Hanover",
+			"avg_annual_premium": 4121
+		}
+	],
+	"Connecticut": [
+		{
+			"state": "Connecticut",
+			"rank": 1,
+			"company_name": "Unitrin",
+			"avg_annual_premium": 1047
+		},
+		{
+			"state": "Connecticut",
+			"rank": 2,
+			"company_name": "General Casualty",
+			"avg_annual_premium": 1157
+		},
+		{
+			"state": "Connecticut",
+			"rank": 3,
+			"company_name": "Utica National",
+			"avg_annual_premium": 1130
+		},
+		{
+			"state": "Connecticut",
+			"rank": 4,
+			"company_name": "Travelers",
+			"avg_annual_premium": 1180
+		},
+		{
+			"state": "Connecticut",
+			"rank": 5,
+			"company_name": "USAA",
+			"avg_annual_premium": 1509
+		},
+		{
+			"state": "Connecticut",
+			"rank": 6,
+			"company_name": "MetLife",
+			"avg_annual_premium": 1586
+		},
+		{
+			"state": "Connecticut",
+			"rank": 7,
+			"company_name": "State Farm",
+			"avg_annual_premium": 1585
+		},
+		{
+			"state": "Connecticut",
+			"rank": 8,
+			"company_name": "Nationwide",
+			"avg_annual_premium": 1692
+		},
+		{
+			"state": "Connecticut",
+			"rank": 9,
+			"company_name": "Electric",
+			"avg_annual_premium": 1781
+		},
+		{
+			"state": "Connecticut",
+			"rank": 10,
+			"company_name": "Amica",
+			"avg_annual_premium": 1860
+		},
+		{
+			"state": "Connecticut",
+			"rank": 11,
+			"company_name": "Progressive",
+			"avg_annual_premium": 2019
+		},
+		{
+			"state": "Connecticut",
+			"rank": 12,
+			"company_name": "GEICO",
+			"avg_annual_premium": 2365
+		},
+		{
+			"state": "Connecticut",
+			"rank": 13,
+			"company_name": "Metropolitan",
+			"avg_annual_premium": 2423
+		},
+		{
+			"state": "Connecticut",
+			"rank": 14,
+			"company_name": "Victoria",
+			"avg_annual_premium": 2559
+		},
+		{
+			"state": "Connecticut",
+			"rank": 15,
+			"company_name": "Allstate",
+			"avg_annual_premium": 2821
+		},
+		{
+			"state": "Connecticut",
+			"rank": 16,
+			"company_name": "Encompass",
+			"avg_annual_premium": 3956
+		},
+		{
+			"state": "Connecticut",
+			"rank": 17,
+			"company_name": "Hanover",
+			"avg_annual_premium": 4677
+		}
+	],
+	"Georgia": [
+		{
+			"state": "Georgia",
+			"rank": 1,
+			"company_name": "Auto-Owners",
+			"avg_annual_premium": 892
+		},
+		{
+			"state": "Georgia",
+			"rank": 2,
+			"company_name": "Travelers",
+			"avg_annual_premium": 1259
+		},
+		{
+			"state": "Georgia",
+			"rank": 3,
+			"company_name": "Allied",
+			"avg_annual_premium": 1335
+		},
+		{
+			"state": "Georgia",
+			"rank": 4,
+			"company_name": "Safeco",
+			"avg_annual_premium": 1390
+		},
+		{
+			"state": "Georgia",
+			"rank": 5,
+			"company_name": "Georgia Farm Bureau",
+			"avg_annual_premium": 1450
+		},
+		{
+			"state": "Georgia",
+			"rank": 6,
+			"company_name": "USAA",
+			"avg_annual_premium": 1566
+		},
+		{
+			"state": "Georgia",
+			"rank": 7,
+			"company_name": "Cal Casualty",
+			"avg_annual_premium": 1594
+		},
+		{
+			"state": "Georgia",
+			"rank": 8,
+			"company_name": "State Farm",
+			"avg_annual_premium": 1717
+		},
+		{
+			"state": "Georgia",
+			"rank": 9,
+			"company_name": "Nationwide",
+			"avg_annual_premium": 1865
+		},
+		{
+			"state": "Georgia",
+			"rank": 10,
+			"company_name": "Metropolitan",
+			"avg_annual_premium": 1835
+		},
+		{
+			"state": "Georgia",
+			"rank": 11,
+			"company_name": "Central Mutual Insurance Co",
+			"avg_annual_premium": 2087
+		},
+		{
+			"state": "Georgia",
+			"rank": 12,
+			"company_name": "Allstate",
+			"avg_annual_premium": 2087
+		},
+		{
+			"state": "Georgia",
+			"rank": 13,
+			"company_name": "Progressive",
+			"avg_annual_premium": 2193
+		},
+		{
+			"state": "Georgia",
+			"rank": 14,
+			"company_name": "Country",
+			"avg_annual_premium": 2275
+		},
+		{
+			"state": "Georgia",
+			"rank": 15,
+			"company_name": "Victoria",
+			"avg_annual_premium": 2427
+		},
+		{
+			"state": "Georgia",
+			"rank": 16,
+			"company_name": "Encompass",
+			"avg_annual_premium": 2610
+		},
+		{
+			"state": "Georgia",
+			"rank": 17,
+			"company_name": "Mercury",
+			"avg_annual_premium": 2603
+		},
+		{
+			"state": "Georgia",
+			"rank": 18,
+			"company_name": "GEICO",
+			"avg_annual_premium": 3256
+		}
+	],
+	"Virginia": [
+		{
+			"state": "Virginia",
+			"rank": 1,
+			"company_name": "Travelers",
+			"avg_annual_premium": 647
+		},
+		{
+			"state": "Virginia",
+			"rank": 2,
+			"company_name": "The Hartford",
+			"avg_annual_premium": 745
+		},
+		{
+			"state": "Virginia",
+			"rank": 3,
+			"company_name": "Penn National",
+			"avg_annual_premium": 868
+		},
+		{
+			"state": "Virginia",
+			"rank": 4,
+			"company_name": "Erie",
+			"avg_annual_premium": 937
+		},
+		{
+			"state": "Virginia",
+			"rank": 5,
+			"company_name": "Utica National",
+			"avg_annual_premium": 976
+		},
+		{
+			"state": "Virginia",
+			"rank": 6,
+			"company_name": "Virginia Farm Bureau",
+			"avg_annual_premium": 1112
+		},
+		{
+			"state": "Virginia",
+			"rank": 7,
+			"company_name": "Progressive",
+			"avg_annual_premium": 1065
+		},
+		{
+			"state": "Virginia",
+			"rank": 8,
+			"company_name": "USAA",
+			"avg_annual_premium": 1113
+		},
+		{
+			"state": "Virginia",
+			"rank": 9,
+			"company_name": "State Farm",
+			"avg_annual_premium": 1180
+		},
+		{
+			"state": "Virginia",
+			"rank": 10,
+			"company_name": "GEICO",
+			"avg_annual_premium": 1212
+		},
+		{
+			"state": "Virginia",
+			"rank": 11,
+			"company_name": "Nationwide",
+			"avg_annual_premium": 1326
+		},
+		{
+			"state": "Virginia",
+			"rank": 12,
+			"company_name": "Donegal Mutual Insurance Co",
+			"avg_annual_premium": 1422
+		},
+		{
+			"state": "Virginia",
+			"rank": 13,
+			"company_name": "ALFA",
+			"avg_annual_premium": 1398
+		},
+		{
+			"state": "Virginia",
+			"rank": 14,
+			"company_name": "Allied",
+			"avg_annual_premium": 1463
+		},
+		{
+			"state": "Virginia",
+			"rank": 15,
+			"company_name": "Chubb",
+			"avg_annual_premium": 1524
+		},
+		{
+			"state": "Virginia",
+			"rank": 16,
+			"company_name": "National Grange Mutual",
+			"avg_annual_premium": 1669
+		},
+		{
+			"state": "Virginia",
+			"rank": 17,
+			"company_name": "Cincinnati Insurance",
+			"avg_annual_premium": 1753
+		},
+		{
+			"state": "Virginia",
+			"rank": 18,
+			"company_name": "Encompass",
+			"avg_annual_premium": 1934
+		},
+		{
+			"state": "Virginia",
+			"rank": 19,
+			"company_name": "Safe Auto",
+			"avg_annual_premium": 1979
+		},
+		{
+			"state": "Virginia",
+			"rank": 20,
+			"company_name": "Mercury",
+			"avg_annual_premium": 2126
+		},
+		{
+			"state": "Virginia",
+			"rank": 21,
+			"company_name": "Metropolitan",
+			"avg_annual_premium": 2336
+		},
+		{
+			"state": "Virginia",
+			"rank": 22,
+			"company_name": "Safeco",
+			"avg_annual_premium": 2314
+		},
+		{
+			"state": "Virginia",
+			"rank": 23,
+			"company_name": "Allstate",
+			"avg_annual_premium": 2398
+		},
+		{
+			"state": "Virginia",
+			"rank": 24,
+			"company_name": "Electric",
+			"avg_annual_premium": 2831
+		}
+	],
+	"Utah": [
+		{
+			"state": "Utah",
+			"rank": 1,
+			"company_name": "Bear River",
+			"avg_annual_premium": 748
+		},
+		{
+			"state": "Utah",
+			"rank": 2,
+			"company_name": "Auto-Owners",
+			"avg_annual_premium": 856
+		},
+		{
+			"state": "Utah",
+			"rank": 3,
+			"company_name": "USAA",
+			"avg_annual_premium": 931
+		},
+		{
+			"state": "Utah",
+			"rank": 4,
+			"company_name": "Farm Bureau Mutual (IA Group)",
+			"avg_annual_premium": 1060
+		},
+		{
+			"state": "Utah",
+			"rank": 5,
+			"company_name": "Safeco",
+			"avg_annual_premium": 1016
+		},
+		{
+			"state": "Utah",
+			"rank": 6,
+			"company_name": "Allied",
+			"avg_annual_premium": 1113
+		},
+		{
+			"state": "Utah",
+			"rank": 7,
+			"company_name": "Nationwide",
+			"avg_annual_premium": 1196
+		},
+		{
+			"state": "Utah",
+			"rank": 8,
+			"company_name": "Cal Casualty",
+			"avg_annual_premium": 1301
+		},
+		{
+			"state": "Utah",
+			"rank": 9,
+			"company_name": "GEICO",
+			"avg_annual_premium": 1432
+		},
+		{
+			"state": "Utah",
+			"rank": 10,
+			"company_name": "Progressive",
+			"avg_annual_premium": 1444
+		},
+		{
+			"state": "Utah",
+			"rank": 11,
+			"company_name": "American Family",
+			"avg_annual_premium": 1452
+		},
+		{
+			"state": "Utah",
+			"rank": 12,
+			"company_name": "Unigard",
+			"avg_annual_premium": 1539
+		},
+		{
+			"state": "Utah",
+			"rank": 13,
+			"company_name": "Travelers",
+			"avg_annual_premium": 1476
+		},
+		{
+			"state": "Utah",
+			"rank": 14,
+			"company_name": "State Farm",
+			"avg_annual_premium": 1858
+		},
+		{
+			"state": "Utah",
+			"rank": 15,
+			"company_name": "Allstate",
+			"avg_annual_premium": 1953
+		},
+		{
+			"state": "Utah",
+			"rank": 16,
+			"company_name": "Metropolitan",
+			"avg_annual_premium": 2259
+		},
+		{
+			"state": "Utah",
+			"rank": 17,
+			"company_name": "Farmers",
+			"avg_annual_premium": 2375
+		},
+		{
+			"state": "Utah",
+			"rank": 18,
+			"company_name": "Encompass",
+			"avg_annual_premium": 5171
+		}
+	],
+	"Maryland": [
+		{
+			"state": "Maryland",
+			"rank": 1,
+			"company_name": "MetLife",
+			"avg_annual_premium": 1421
+		},
+		{
+			"state": "Maryland",
+			"rank": 2,
+			"company_name": "Travelers",
+			"avg_annual_premium": 1421
+		},
+		{
+			"state": "Maryland",
+			"rank": 3,
+			"company_name": "Travelers",
+			"avg_annual_premium": 1369
+		},
+		{
+			"state": "Maryland",
+			"rank": 4,
+			"company_name": "Penn National",
+			"avg_annual_premium": 1472
+		},
+		{
+			"state": "Maryland",
+			"rank": 5,
+			"company_name": "Cal Casualty",
+			"avg_annual_premium": 1535
+		},
+		{
+			"state": "Maryland",
+			"rank": 6,
+			"company_name": "Erie",
+			"avg_annual_premium": 1566
+		},
+		{
+			"state": "Maryland",
+			"rank": 7,
+			"company_name": "USAA",
+			"avg_annual_premium": 1687
+		},
+		{
+			"state": "Maryland",
+			"rank": 8,
+			"company_name": "State Farm",
+			"avg_annual_premium": 2112
+		},
+		{
+			"state": "Maryland",
+			"rank": 9,
+			"company_name": "Allstate",
+			"avg_annual_premium": 2127
+		},
+		{
+			"state": "Maryland",
+			"rank": 10,
+			"company_name": "GEICO",
+			"avg_annual_premium": 2166
+		},
+		{
+			"state": "Maryland",
+			"rank": 11,
+			"company_name": "Nationwide",
+			"avg_annual_premium": 2347
+		},
+		{
+			"state": "Maryland",
+			"rank": 12,
+			"company_name": "State Auto",
+			"avg_annual_premium": 2383
+		},
+		{
+			"state": "Maryland",
+			"rank": 13,
+			"company_name": "Victoria",
+			"avg_annual_premium": 2477
+		},
+		{
+			"state": "Maryland",
+			"rank": 14,
+			"company_name": "Metropolitan",
+			"avg_annual_premium": 2530
+		},
+		{
+			"state": "Maryland",
+			"rank": 15,
+			"company_name": "Progressive",
+			"avg_annual_premium": 2588
+		},
+		{
+			"state": "Maryland",
+			"rank": 16,
+			"company_name": "Encompass",
+			"avg_annual_premium": 3201
+		}
+	],
+	"Michigan": [
+		{
+			"state": "Michigan",
+			"rank": 1,
+			"company_name": "Safeco",
+			"avg_annual_premium": 379
+		},
+		{
+			"state": "Michigan",
+			"rank": 2,
+			"company_name": "SECURA Insurance",
+			"avg_annual_premium": 1169
+		},
+		{
+			"state": "Michigan",
+			"rank": 3,
+			"company_name": "GEICO",
+			"avg_annual_premium": 1317
+		},
+		{
+			"state": "Michigan",
+			"rank": 4,
+			"company_name": "MetLife",
+			"avg_annual_premium": 1359
+		},
+		{
+			"state": "Michigan",
+			"rank": 5,
+			"company_name": "USAA",
+			"avg_annual_premium": 1483
+		},
+		{
+			"state": "Michigan",
+			"rank": 6,
+			"company_name": "Chubb",
+			"avg_annual_premium": 1749
+		},
+		{
+			"state": "Michigan",
+			"rank": 7,
+			"company_name": "Farm Bureau",
+			"avg_annual_premium": 1854
+		},
+		{
+			"state": "Michigan",
+			"rank": 8,
+			"company_name": "Auto-Owners Insurance Co",
+			"avg_annual_premium": 2024
+		},
+		{
+			"state": "Michigan",
+			"rank": 9,
+			"company_name": "Metropolitan",
+			"avg_annual_premium": 2035
+		},
+		{
+			"state": "Michigan",
+			"rank": 10,
+			"company_name": "MEEMIC",
+			"avg_annual_premium": 1965
+		},
+		{
+			"state": "Michigan",
+			"rank": 11,
+			"company_name": "Pioneer State Mutual",
+			"avg_annual_premium": 2142
+		},
+		{
+			"state": "Michigan",
+			"rank": 12,
+			"company_name": "Hastings Mutual Insurance Co",
+			"avg_annual_premium": 2230
+		},
+		{
+			"state": "Michigan",
+			"rank": 13,
+			"company_name": "Progressive",
+			"avg_annual_premium": 2273
+		},
+		{
+			"state": "Michigan",
+			"rank": 14,
+			"company_name": "Nationwide",
+			"avg_annual_premium": 2466
+		},
+		{
+			"state": "Michigan",
+			"rank": 15,
+			"company_name": "Frankenmuth Mutual",
+			"avg_annual_premium": 2481
+		},
+		{
+			"state": "Michigan",
+			"rank": 16,
+			"company_name": "Wolverine Mutual",
+			"avg_annual_premium": 2595
+		},
+		{
+			"state": "Michigan",
+			"rank": 17,
+			"company_name": "Allied",
+			"avg_annual_premium": 2664
+		},
+		{
+			"state": "Michigan",
+			"rank": 18,
+			"company_name": "GMAC Insurance Group",
+			"avg_annual_premium": 2704
+		},
+		{
+			"state": "Michigan",
+			"rank": 19,
+			"company_name": "Allmerica",
+			"avg_annual_premium": 3065
+		},
+		{
+			"state": "Michigan",
+			"rank": 20,
+			"company_name": "State Farm",
+			"avg_annual_premium": 3475
+		},
+		{
+			"state": "Michigan",
+			"rank": 21,
+			"company_name": "Grange Mutual",
+			"avg_annual_premium": 3738
+		},
+		{
+			"state": "Michigan",
+			"rank": 22,
+			"company_name": "Bristol West",
+			"avg_annual_premium": 3934
+		},
+		{
+			"state": "Michigan",
+			"rank": 23,
+			"company_name": "Farmers",
+			"avg_annual_premium": 4087
+		},
+		{
+			"state": "Michigan",
+			"rank": 24,
+			"company_name": "National General",
+			"avg_annual_premium": 4517
+		},
+		{
+			"state": "Michigan",
+			"rank": 25,
+			"company_name": "Mercury",
+			"avg_annual_premium": 4645
+		},
+		{
+			"state": "Michigan",
+			"rank": 26,
+			"company_name": "Auto Club Group",
+			"avg_annual_premium": 4968
+		},
+		{
+			"state": "Michigan",
+			"rank": 27,
+			"company_name": "Hanover",
+			"avg_annual_premium": 5390
+		},
+		{
+			"state": "Michigan",
+			"rank": 28,
+			"company_name": "Allstate",
+			"avg_annual_premium": 7266
+		},
+		{
+			"state": "Michigan",
+			"rank": 29,
+			"company_name": "Encompass",
+			"avg_annual_premium": 12540
+		}
+	],
+	"South Carolina": [
+		{
+			"state": "South Carolina",
+			"rank": 1,
+			"company_name": "The Hartford",
+			"avg_annual_premium": 726
+		},
+		{
+			"state": "South Carolina",
+			"rank": 2,
+			"company_name": "USAA",
+			"avg_annual_premium": 1358
+		},
+		{
+			"state": "South Carolina",
+			"rank": 3,
+			"company_name": "Travelers",
+			"avg_annual_premium": 1395
+		},
+		{
+			"state": "South Carolina",
+			"rank": 4,
+			"company_name": "State Farm",
+			"avg_annual_premium": 1391
+		},
+		{
+			"state": "South Carolina",
+			"rank": 5,
+			"company_name": "Southern Farm Bureau",
+			"avg_annual_premium": 1600
+		},
+		{
+			"state": "South Carolina",
+			"rank": 6,
+			"company_name": "National Grange Mutual",
+			"avg_annual_premium": 1636
+		},
+		{
+			"state": "South Carolina",
+			"rank": 7,
+			"company_name": "Allstate",
+			"avg_annual_premium": 1601
+		},
+		{
+			"state": "South Carolina",
+			"rank": 8,
+			"company_name": "Progressive",
+			"avg_annual_premium": 1675
+		},
+		{
+			"state": "South Carolina",
+			"rank": 9,
+			"company_name": "Nationwide",
+			"avg_annual_premium": 1813
+		},
+		{
+			"state": "South Carolina",
+			"rank": 10,
+			"company_name": "State Auto",
+			"avg_annual_premium": 1830
+		},
+		{
+			"state": "South Carolina",
+			"rank": 11,
+			"company_name": "GEICO",
+			"avg_annual_premium": 2037
+		},
+		{
+			"state": "South Carolina",
+			"rank": 12,
+			"company_name": "Dairyland",
+			"avg_annual_premium": 2437
+		},
+		{
+			"state": "South Carolina",
+			"rank": 13,
+			"company_name": "Bristol West",
+			"avg_annual_premium": 2509
+		},
+		{
+			"state": "South Carolina",
+			"rank": 14,
+			"company_name": "Encompass",
+			"avg_annual_premium": 2722
+		},
+		{
+			"state": "South Carolina",
+			"rank": 15,
+			"company_name": "Safe Auto",
+			"avg_annual_premium": 2840
+		}
+	],
+	"Colorado": [
+		{
+			"state": "Colorado",
+			"rank": 1,
+			"company_name": "The Hartford",
+			"avg_annual_premium": 890
+		},
+		{
+			"state": "Colorado",
+			"rank": 2,
+			"company_name": "Auto-Owners",
+			"avg_annual_premium": 1215
+		},
+		{
+			"state": "Colorado",
+			"rank": 3,
+			"company_name": "Travelers",
+			"avg_annual_premium": 1230
+		},
+		{
+			"state": "Colorado",
+			"rank": 4,
+			"company_name": "USAA",
+			"avg_annual_premium": 1412
+		},
+		{
+			"state": "Colorado",
+			"rank": 5,
+			"company_name": "Cal Casualty",
+			"avg_annual_premium": 1491
+		},
+		{
+			"state": "Colorado",
+			"rank": 6,
+			"company_name": "Allied",
+			"avg_annual_premium": 1466
+		},
+		{
+			"state": "Colorado",
+			"rank": 7,
+			"company_name": "State Farm",
+			"avg_annual_premium": 1511
+		},
+		{
+			"state": "Colorado",
+			"rank": 8,
+			"company_name": "Nationwide",
+			"avg_annual_premium": 1674
+		},
+		{
+			"state": "Colorado",
+			"rank": 9,
+			"company_name": "Titan",
+			"avg_annual_premium": 1774
+		},
+		{
+			"state": "Colorado",
+			"rank": 10,
+			"company_name": "MetLife",
+			"avg_annual_premium": 1866
+		},
+		{
+			"state": "Colorado",
+			"rank": 11,
+			"company_name": "Esurance",
+			"avg_annual_premium": 1882
+		},
+		{
+			"state": "Colorado",
+			"rank": 12,
+			"company_name": "Allstate",
+			"avg_annual_premium": 1932
+		},
+		{
+			"state": "Colorado",
+			"rank": 13,
+			"company_name": "Grange",
+			"avg_annual_premium": 1955
+		},
+		{
+			"state": "Colorado",
+			"rank": 14,
+			"company_name": "GEICO",
+			"avg_annual_premium": 2143
+		},
+		{
+			"state": "Colorado",
+			"rank": 15,
+			"company_name": "American Family",
+			"avg_annual_premium": 2310
+		},
+		{
+			"state": "Colorado",
+			"rank": 16,
+			"company_name": "Unitrin",
+			"avg_annual_premium": 2352
+		},
+		{
+			"state": "Colorado",
+			"rank": 17,
+			"company_name": "Colorado Farm Bureau",
+			"avg_annual_premium": 2505
+		},
+		{
+			"state": "Colorado",
+			"rank": 18,
+			"company_name": "Safeco",
+			"avg_annual_premium": 2472
+		},
+		{
+			"state": "Colorado",
+			"rank": 19,
+			"company_name": "Farmers",
+			"avg_annual_premium": 2586
+		},
+		{
+			"state": "Colorado",
+			"rank": 20,
+			"company_name": "Metropolitan",
+			"avg_annual_premium": 2816
+		},
+		{
+			"state": "Colorado",
+			"rank": 21,
+			"company_name": "Progressive",
+			"avg_annual_premium": 2994
+		},
+		{
+			"state": "Colorado",
+			"rank": 22,
+			"company_name": "Encompass",
+			"avg_annual_premium": 3488
+		}
+	],
+	"Oklahoma": [
+		{
+			"state": "Oklahoma",
+			"rank": 1,
+			"company_name": "The Hartford",
+			"avg_annual_premium": 1391
+		},
+		{
+			"state": "Oklahoma",
+			"rank": 2,
+			"company_name": "USAA",
+			"avg_annual_premium": 1389
+		},
+		{
+			"state": "Oklahoma",
+			"rank": 3,
+			"company_name": "Oklahoma Farmers Union",
+			"avg_annual_premium": 1398
+		},
+		{
+			"state": "Oklahoma",
+			"rank": 4,
+			"company_name": "Progressive",
+			"avg_annual_premium": 1462
+		},
+		{
+			"state": "Oklahoma",
+			"rank": 5,
+			"company_name": "State Farm",
+			"avg_annual_premium": 1456
+		},
+		{
+			"state": "Oklahoma",
+			"rank": 6,
+			"company_name": "GEICO",
+			"avg_annual_premium": 1842
+		},
+		{
+			"state": "Oklahoma",
+			"rank": 7,
+			"company_name": "Oklahoma Farm Bureau",
+			"avg_annual_premium": 1917
+		},
+		{
+			"state": "Oklahoma",
+			"rank": 8,
+			"company_name": "Travelers",
+			"avg_annual_premium": 1870
+		},
+		{
+			"state": "Oklahoma",
+			"rank": 9,
+			"company_name": "Shelter",
+			"avg_annual_premium": 2066
+		},
+		{
+			"state": "Oklahoma",
+			"rank": 10,
+			"company_name": "Mercury",
+			"avg_annual_premium": 2157
+		},
+		{
+			"state": "Oklahoma",
+			"rank": 11,
+			"company_name": "Safe Auto",
+			"avg_annual_premium": 2160
+		},
+		{
+			"state": "Oklahoma",
+			"rank": 12,
+			"company_name": "MetLife",
+			"avg_annual_premium": 2223
+		},
+		{
+			"state": "Oklahoma",
+			"rank": 13,
+			"company_name": "Allstate",
+			"avg_annual_premium": 2283
+		},
+		{
+			"state": "Oklahoma",
+			"rank": 14,
+			"company_name": "Farmers",
+			"avg_annual_premium": 2317
+		},
+		{
+			"state": "Oklahoma",
+			"rank": 15,
+			"company_name": "Home State",
+			"avg_annual_premium": 2926
+		},
+		{
+			"state": "Oklahoma",
+			"rank": 16,
+			"company_name": "Metropolitan",
+			"avg_annual_premium": 3469
+		},
+		{
+			"state": "Oklahoma",
+			"rank": 17,
+			"company_name": "Safeco",
+			"avg_annual_premium": 5081
+		}
+	],
+	"Arkansas": [
+		{
+			"state": "Arkansas",
+			"rank": 1,
+			"company_name": "Travelers",
+			"avg_annual_premium": 1148
+		},
+		{
+			"state": "Arkansas",
+			"rank": 2,
+			"company_name": "USAA",
+			"avg_annual_premium": 1136
+		},
+		{
+			"state": "Arkansas",
+			"rank": 3,
+			"company_name": "Safeco",
+			"avg_annual_premium": 1288
+		},
+		{
+			"state": "Arkansas",
+			"rank": 4,
+			"company_name": "State Farm",
+			"avg_annual_premium": 1386
+		},
+		{
+			"state": "Arkansas",
+			"rank": 5,
+			"company_name": "Southern Farm Bureau",
+			"avg_annual_premium": 1404
+		},
+		{
+			"state": "Arkansas",
+			"rank": 6,
+			"company_name": "Auto-Owners",
+			"avg_annual_premium": 1458
+		},
+		{
+			"state": "Arkansas",
+			"rank": 7,
+			"company_name": "State Auto",
+			"avg_annual_premium": 1516
+		},
+		{
+			"state": "Arkansas",
+			"rank": 8,
+			"company_name": "Shelter",
+			"avg_annual_premium": 1638
+		},
+		{
+			"state": "Arkansas",
+			"rank": 9,
+			"company_name": "Progressive",
+			"avg_annual_premium": 1818
+		},
+		{
+			"state": "Arkansas",
+			"rank": 10,
+			"company_name": "Cameron",
+			"avg_annual_premium": 2172
+		},
+		{
+			"state": "Arkansas",
+			"rank": 11,
+			"company_name": "Nationwide",
+			"avg_annual_premium": 2308
+		},
+		{
+			"state": "Arkansas",
+			"rank": 12,
+			"company_name": "Sentry",
+			"avg_annual_premium": 2409
+		},
+		{
+			"state": "Arkansas",
+			"rank": 13,
+			"company_name": "Farmers",
+			"avg_annual_premium": 2385
+		},
+		{
+			"state": "Arkansas",
+			"rank": 14,
+			"company_name": "MetLife",
+			"avg_annual_premium": 2420
+		},
+		{
+			"state": "Arkansas",
+			"rank": 15,
+			"company_name": "GEICO",
+			"avg_annual_premium": 2432
+		},
+		{
+			"state": "Arkansas",
+			"rank": 16,
+			"company_name": "Allstate",
+			"avg_annual_premium": 3138
+		},
+		{
+			"state": "Arkansas",
+			"rank": 17,
+			"company_name": "Metropolitan",
+			"avg_annual_premium": 3322
+		},
+		{
+			"state": "Arkansas",
+			"rank": 18,
+			"company_name": "Home State",
+			"avg_annual_premium": 3455
+		},
+		{
+			"state": "Arkansas",
+			"rank": 19,
+			"company_name": "United Automobile",
+			"avg_annual_premium": 3788
+		},
+		{
+			"state": "Arkansas",
+			"rank": 20,
+			"company_name": "Hanover",
+			"avg_annual_premium": 4576
+		}
+	],
+	"New Jersey": [
+		{
+			"state": "New Jersey",
+			"rank": 1,
+			"company_name": "Travelers",
+			"avg_annual_premium": 1183
+		},
+		{
+			"state": "New Jersey",
+			"rank": 2,
+			"company_name": "GEICO",
+			"avg_annual_premium": 1397
+		},
+		{
+			"state": "New Jersey",
+			"rank": 3,
+			"company_name": "Cal Casualty",
+			"avg_annual_premium": 1455
+		},
+		{
+			"state": "New Jersey",
+			"rank": 4,
+			"company_name": "New Jersey Manufacturers",
+			"avg_annual_premium": 1584
+		},
+		{
+			"state": "New Jersey",
+			"rank": 5,
+			"company_name": "State Farm",
+			"avg_annual_premium": 1765
+		},
+		{
+			"state": "New Jersey",
+			"rank": 6,
+			"company_name": "Penn National",
+			"avg_annual_premium": 1758
+		},
+		{
+			"state": "New Jersey",
+			"rank": 7,
+			"company_name": "MetLife",
+			"avg_annual_premium": 1991
+		},
+		{
+			"state": "New Jersey",
+			"rank": 8,
+			"company_name": "Progressive",
+			"avg_annual_premium": 2009
+		},
+		{
+			"state": "New Jersey",
+			"rank": 9,
+			"company_name": "Mercury",
+			"avg_annual_premium": 2373
+		},
+		{
+			"state": "New Jersey",
+			"rank": 10,
+			"company_name": "Esurance",
+			"avg_annual_premium": 2443
+		},
+		{
+			"state": "New Jersey",
+			"rank": 11,
+			"company_name": "Allstate",
+			"avg_annual_premium": 2625
+		},
+		{
+			"state": "New Jersey",
+			"rank": 12,
+			"company_name": "Encompass",
+			"avg_annual_premium": 2737
+		},
+		{
+			"state": "New Jersey",
+			"rank": 13,
+			"company_name": "Metropolitan",
+			"avg_annual_premium": 2887
+		},
+		{
+			"state": "New Jersey",
+			"rank": 14,
+			"company_name": "Hanover",
+			"avg_annual_premium": 5228
+		}
+	],
+	"Tennessee": [
+		{
+			"state": "Tennessee",
+			"rank": 1,
+			"company_name": "Penn National",
+			"avg_annual_premium": 769
+		},
+		{
+			"state": "Tennessee",
+			"rank": 2,
+			"company_name": "Auto-Owners",
+			"avg_annual_premium": 853
+		},
+		{
+			"state": "Tennessee",
+			"rank": 3,
+			"company_name": "Utica National",
+			"avg_annual_premium": 964
+		},
+		{
+			"state": "Tennessee",
+			"rank": 4,
+			"company_name": "USAA",
+			"avg_annual_premium": 1085
+		},
+		{
+			"state": "Tennessee",
+			"rank": 5,
+			"company_name": "State Farm",
+			"avg_annual_premium": 1137
+		},
+		{
+			"state": "Tennessee",
+			"rank": 6,
+			"company_name": "Travelers",
+			"avg_annual_premium": 1196
+		},
+		{
+			"state": "Tennessee",
+			"rank": 7,
+			"company_name": "Direct General Insurance",
+			"avg_annual_premium": 1216
+		},
+		{
+			"state": "Tennessee",
+			"rank": 8,
+			"company_name": "Erie",
+			"avg_annual_premium": 1225
+		},
+		{
+			"state": "Tennessee",
+			"rank": 9,
+			"company_name": "Nationwide",
+			"avg_annual_premium": 1248
+		},
+		{
+			"state": "Tennessee",
+			"rank": 10,
+			"company_name": "Westfield",
+			"avg_annual_premium": 1415
+		},
+		{
+			"state": "Tennessee",
+			"rank": 11,
+			"company_name": "Progressive",
+			"avg_annual_premium": 1371
+		},
+		{
+			"state": "Tennessee",
+			"rank": 12,
+			"company_name": "Tennessee Farmers",
+			"avg_annual_premium": 1538
+		},
+		{
+			"state": "Tennessee",
+			"rank": 13,
+			"company_name": "MetLife",
+			"avg_annual_premium": 1523
+		},
+		{
+			"state": "Tennessee",
+			"rank": 14,
+			"company_name": "Allied",
+			"avg_annual_premium": 1580
+		},
+		{
+			"state": "Tennessee",
+			"rank": 15,
+			"company_name": "GEICO",
+			"avg_annual_premium": 1673
+		},
+		{
+			"state": "Tennessee",
+			"rank": 16,
+			"company_name": "Encompass",
+			"avg_annual_premium": 1671
+		},
+		{
+			"state": "Tennessee",
+			"rank": 17,
+			"company_name": "State Auto",
+			"avg_annual_premium": 1716
+		},
+		{
+			"state": "Tennessee",
+			"rank": 18,
+			"company_name": "Cincinnati Insurance",
+			"avg_annual_premium": 1704
+		},
+		{
+			"state": "Tennessee",
+			"rank": 19,
+			"company_name": "Safe Auto",
+			"avg_annual_premium": 1795
+		},
+		{
+			"state": "Tennessee",
+			"rank": 20,
+			"company_name": "Celina Insurance",
+			"avg_annual_premium": 1876
+		},
+		{
+			"state": "Tennessee",
+			"rank": 21,
+			"company_name": "Safeco",
+			"avg_annual_premium": 1921
+		},
+		{
+			"state": "Tennessee",
+			"rank": 22,
+			"company_name": "Allstate",
+			"avg_annual_premium": 2273
+		},
+		{
+			"state": "Tennessee",
+			"rank": 23,
+			"company_name": "Grange Mutual",
+			"avg_annual_premium": 2440
+		},
+		{
+			"state": "Tennessee",
+			"rank": 24,
+			"company_name": "Metropolitan",
+			"avg_annual_premium": 2994
+		}
+	],
+	"Oregon": [
+		{
+			"state": "Oregon",
+			"rank": 1,
+			"company_name": "Travelers",
+			"avg_annual_premium": 956
+		},
+		{
+			"state": "Oregon",
+			"rank": 2,
+			"company_name": "USAA",
+			"avg_annual_premium": 1137
+		},
+		{
+			"state": "Oregon",
+			"rank": 3,
+			"company_name": "Grange",
+			"avg_annual_premium": 1084
+		},
+		{
+			"state": "Oregon",
+			"rank": 4,
+			"company_name": "Cal Casualty",
+			"avg_annual_premium": 1163
+		},
+		{
+			"state": "Oregon",
+			"rank": 5,
+			"company_name": "State Farm",
+			"avg_annual_premium": 1218
+		},
+		{
+			"state": "Oregon",
+			"rank": 6,
+			"company_name": "Oregon Mutual",
+			"avg_annual_premium": 1269
+		},
+		{
+			"state": "Oregon",
+			"rank": 7,
+			"company_name": "Country",
+			"avg_annual_premium": 1460
+		},
+		{
+			"state": "Oregon",
+			"rank": 8,
+			"company_name": "Mutual Enumclaw",
+			"avg_annual_premium": 1525
+		},
+		{
+			"state": "Oregon",
+			"rank": 9,
+			"company_name": "Progressive",
+			"avg_annual_premium": 1583
+		},
+		{
+			"state": "Oregon",
+			"rank": 10,
+			"company_name": "Allied",
+			"avg_annual_premium": 1625
+		},
+		{
+			"state": "Oregon",
+			"rank": 11,
+			"company_name": "GEICO",
+			"avg_annual_premium": 1835
+		},
+		{
+			"state": "Oregon",
+			"rank": 12,
+			"company_name": "Encompass",
+			"avg_annual_premium": 1856
+		},
+		{
+			"state": "Oregon",
+			"rank": 13,
+			"company_name": "Farmers",
+			"avg_annual_premium": 1969
+		},
+		{
+			"state": "Oregon",
+			"rank": 14,
+			"company_name": "Allstate",
+			"avg_annual_premium": 2065
+		},
+		{
+			"state": "Oregon",
+			"rank": 15,
+			"company_name": "Metropolitan",
+			"avg_annual_premium": 2283
+		},
+		{
+			"state": "Oregon",
+			"rank": 16,
+			"company_name": "American Family",
+			"avg_annual_premium": 2335
+		},
+		{
+			"state": "Oregon",
+			"rank": 17,
+			"company_name": "Sentry",
+			"avg_annual_premium": 2831
+		},
+		{
+			"state": "Oregon",
+			"rank": 18,
+			"company_name": "Nationwide",
+			"avg_annual_premium": 2995
+		},
+		{
+			"state": "Oregon",
+			"rank": 19,
+			"company_name": "Safeco",
+			"avg_annual_premium": 3487
+		}
+	],
+	"Pennsylvania": [
+		{
+			"state": "Pennsylvania",
+			"rank": 1,
+			"company_name": "Travelers",
+			"avg_annual_premium": 769
+		},
+		{
+			"state": "Pennsylvania",
+			"rank": 2,
+			"company_name": "Erie",
+			"avg_annual_premium": 1017
+		},
+		{
+			"state": "Pennsylvania",
+			"rank": 3,
+			"company_name": "Auto-Owners",
+			"avg_annual_premium": 978
+		},
+		{
+			"state": "Pennsylvania",
+			"rank": 4,
+			"company_name": "USAA",
+			"avg_annual_premium": 950
+		},
+		{
+			"state": "Pennsylvania",
+			"rank": 5,
+			"company_name": "General Casualty",
+			"avg_annual_premium": 1090
+		},
+		{
+			"state": "Pennsylvania",
+			"rank": 6,
+			"company_name": "Atlantic States Insurance",
+			"avg_annual_premium": 1219
+		},
+		{
+			"state": "Pennsylvania",
+			"rank": 7,
+			"company_name": "State Farm",
+			"avg_annual_premium": 1138
+		},
+		{
+			"state": "Pennsylvania",
+			"rank": 8,
+			"company_name": "Allied",
+			"avg_annual_premium": 1383
+		},
+		{
+			"state": "Pennsylvania",
+			"rank": 9,
+			"company_name": "Nationwide",
+			"avg_annual_premium": 1377
+		},
+		{
+			"state": "Pennsylvania",
+			"rank": 10,
+			"company_name": "Donegal Mutual",
+			"avg_annual_premium": 1395
+		},
+		{
+			"state": "Pennsylvania",
+			"rank": 11,
+			"company_name": "Esurance",
+			"avg_annual_premium": 1589
+		},
+		{
+			"state": "Pennsylvania",
+			"rank": 12,
+			"company_name": "GEICO",
+			"avg_annual_premium": 1679
+		},
+		{
+			"state": "Pennsylvania",
+			"rank": 13,
+			"company_name": "MetLife",
+			"avg_annual_premium": 1704
+		},
+		{
+			"state": "Pennsylvania",
+			"rank": 14,
+			"company_name": "Progressive",
+			"avg_annual_premium": 1904
+		},
+		{
+			"state": "Pennsylvania",
+			"rank": 15,
+			"company_name": "State Auto",
+			"avg_annual_premium": 1962
+		},
+		{
+			"state": "Pennsylvania",
+			"rank": 16,
+			"company_name": "Chubb",
+			"avg_annual_premium": 1934
+		},
+		{
+			"state": "Pennsylvania",
+			"rank": 17,
+			"company_name": "Mercury",
+			"avg_annual_premium": 2189
+		},
+		{
+			"state": "Pennsylvania",
+			"rank": 18,
+			"company_name": "Encompass",
+			"avg_annual_premium": 2407
+		},
+		{
+			"state": "Pennsylvania",
+			"rank": 19,
+			"company_name": "Safe Auto",
+			"avg_annual_premium": 2486
+		},
+		{
+			"state": "Pennsylvania",
+			"rank": 20,
+			"company_name": "GMAC Insurance Group",
+			"avg_annual_premium": 2641
+		},
+		{
+			"state": "Pennsylvania",
+			"rank": 21,
+			"company_name": "Sentry",
+			"avg_annual_premium": 3003
+		},
+		{
+			"state": "Pennsylvania",
+			"rank": 22,
+			"company_name": "American Independent",
+			"avg_annual_premium": 3087
+		},
+		{
+			"state": "Pennsylvania",
+			"rank": 23,
+			"company_name": "Metropolitan",
+			"avg_annual_premium": 3077
+		},
+		{
+			"state": "Pennsylvania",
+			"rank": 24,
+			"company_name": "Motorists Mutual",
+			"avg_annual_premium": 3050
+		},
+		{
+			"state": "Pennsylvania",
+			"rank": 25,
+			"company_name": "Allstate",
+			"avg_annual_premium": 3542
+		}
+	],
+	"Missouri": [
+		{
+			"state": "Missouri",
+			"rank": 1,
+			"company_name": "The Hartford",
+			"avg_annual_premium": 804
+		},
+		{
+			"state": "Missouri",
+			"rank": 2,
+			"company_name": "Travelers",
+			"avg_annual_premium": 1013
+		},
+		{
+			"state": "Missouri",
+			"rank": 3,
+			"company_name": "Allied",
+			"avg_annual_premium": 1088
+		},
+		{
+			"state": "Missouri",
+			"rank": 4,
+			"company_name": "MO Farm Bureau",
+			"avg_annual_premium": 1202
+		},
+		{
+			"state": "Missouri",
+			"rank": 5,
+			"company_name": "USAA",
+			"avg_annual_premium": 1197
+		},
+		{
+			"state": "Missouri",
+			"rank": 6,
+			"company_name": "Nationwide",
+			"avg_annual_premium": 1491
+		},
+		{
+			"state": "Missouri",
+			"rank": 7,
+			"company_name": "State Farm",
+			"avg_annual_premium": 1579
+		},
+		{
+			"state": "Missouri",
+			"rank": 8,
+			"company_name": "Electric",
+			"avg_annual_premium": 1799
+		},
+		{
+			"state": "Missouri",
+			"rank": 9,
+			"company_name": "Progressive",
+			"avg_annual_premium": 1886
+		},
+		{
+			"state": "Missouri",
+			"rank": 10,
+			"company_name": "Cameron",
+			"avg_annual_premium": 1940
+		},
+		{
+			"state": "Missouri",
+			"rank": 11,
+			"company_name": "Columbia Insurance",
+			"avg_annual_premium": 1885
+		},
+		{
+			"state": "Missouri",
+			"rank": 12,
+			"company_name": "Shelter",
+			"avg_annual_premium": 2004
+		},
+		{
+			"state": "Missouri",
+			"rank": 13,
+			"company_name": "Encompass",
+			"avg_annual_premium": 2009
+		},
+		{
+			"state": "Missouri",
+			"rank": 14,
+			"company_name": "GEICO",
+			"avg_annual_premium": 2107
+		},
+		{
+			"state": "Missouri",
+			"rank": 15,
+			"company_name": "American Family",
+			"avg_annual_premium": 2125
+		},
+		{
+			"state": "Missouri",
+			"rank": 16,
+			"company_name": "Allstate",
+			"avg_annual_premium": 2204
+		},
+		{
+			"state": "Missouri",
+			"rank": 17,
+			"company_name": "Automobile Club of Missouri",
+			"avg_annual_premium": 2447
+		},
+		{
+			"state": "Missouri",
+			"rank": 18,
+			"company_name": "Metropolitan",
+			"avg_annual_premium": 2521
+		},
+		{
+			"state": "Missouri",
+			"rank": 19,
+			"company_name": "Farmers",
+			"avg_annual_premium": 2615
+		},
+		{
+			"state": "Missouri",
+			"rank": 20,
+			"company_name": "Safe Auto",
+			"avg_annual_premium": 2603
+		},
+		{
+			"state": "Missouri",
+			"rank": 21,
+			"company_name": "Safeco",
+			"avg_annual_premium": 2708
+		}
+	],
+	"Indiana": [
+		{
+			"state": "Indiana",
+			"rank": 1,
+			"company_name": "Travelers",
+			"avg_annual_premium": 629
+		},
+		{
+			"state": "Indiana",
+			"rank": 2,
+			"company_name": "Pekin Insurance",
+			"avg_annual_premium": 793
+		},
+		{
+			"state": "Indiana",
+			"rank": 3,
+			"company_name": "USAA",
+			"avg_annual_premium": 848
+		},
+		{
+			"state": "Indiana",
+			"rank": 4,
+			"company_name": "Auto-Owners",
+			"avg_annual_premium": 875
+		},
+		{
+			"state": "Indiana",
+			"rank": 5,
+			"company_name": "Erie",
+			"avg_annual_premium": 929
+		},
+		{
+			"state": "Indiana",
+			"rank": 6,
+			"company_name": "State Farm",
+			"avg_annual_premium": 1046
+		},
+		{
+			"state": "Indiana",
+			"rank": 7,
+			"company_name": "Wolverine Mutual",
+			"avg_annual_premium": 1102
+		},
+		{
+			"state": "Indiana",
+			"rank": 8,
+			"company_name": "Cincinnati Insurance",
+			"avg_annual_premium": 1176
+		},
+		{
+			"state": "Indiana",
+			"rank": 9,
+			"company_name": "Grange Mutual",
+			"avg_annual_premium": 1101
+		},
+		{
+			"state": "Indiana",
+			"rank": 10,
+			"company_name": "Hastings Mutual Insurance Co",
+			"avg_annual_premium": 1157
+		},
+		{
+			"state": "Indiana",
+			"rank": 11,
+			"company_name": "GEICO",
+			"avg_annual_premium": 1241
+		},
+		{
+			"state": "Indiana",
+			"rank": 12,
+			"company_name": "Westfield",
+			"avg_annual_premium": 1236
+		},
+		{
+			"state": "Indiana",
+			"rank": 13,
+			"company_name": "Indiana Farmers Mutual",
+			"avg_annual_premium": 1215
+		},
+		{
+			"state": "Indiana",
+			"rank": 14,
+			"company_name": "Utica National",
+			"avg_annual_premium": 1274
+		},
+		{
+			"state": "Indiana",
+			"rank": 15,
+			"company_name": "United Farm Bureau of IN Group",
+			"avg_annual_premium": 1287
+		},
+		{
+			"state": "Indiana",
+			"rank": 16,
+			"company_name": "Farmers",
+			"avg_annual_premium": 1475
+		},
+		{
+			"state": "Indiana",
+			"rank": 17,
+			"company_name": "Victoria",
+			"avg_annual_premium": 1489
+		},
+		{
+			"state": "Indiana",
+			"rank": 18,
+			"company_name": "Celina Insurance Group",
+			"avg_annual_premium": 1566
+		},
+		{
+			"state": "Indiana",
+			"rank": 19,
+			"company_name": "Nationwide",
+			"avg_annual_premium": 1514
+		},
+		{
+			"state": "Indiana",
+			"rank": 20,
+			"company_name": "Progressive",
+			"avg_annual_premium": 1539
+		},
+		{
+			"state": "Indiana",
+			"rank": 21,
+			"company_name": "Motorists Mutual",
+			"avg_annual_premium": 1615
+		},
+		{
+			"state": "Indiana",
+			"rank": 22,
+			"company_name": "Allied",
+			"avg_annual_premium": 1587
+		},
+		{
+			"state": "Indiana",
+			"rank": 23,
+			"company_name": "American Family",
+			"avg_annual_premium": 1640
+		},
+		{
+			"state": "Indiana",
+			"rank": 24,
+			"company_name": "Western Reserve",
+			"avg_annual_premium": 1705
+		},
+		{
+			"state": "Indiana",
+			"rank": 25,
+			"company_name": "Safe Auto",
+			"avg_annual_premium": 1862
+		},
+		{
+			"state": "Indiana",
+			"rank": 26,
+			"company_name": "State Auto",
+			"avg_annual_premium": 1916
+		},
+		{
+			"state": "Indiana",
+			"rank": 27,
+			"company_name": "Sentry",
+			"avg_annual_premium": 1969
+		},
+		{
+			"state": "Indiana",
+			"rank": 28,
+			"company_name": "General Casualty",
+			"avg_annual_premium": 1975
+		},
+		{
+			"state": "Indiana",
+			"rank": 29,
+			"company_name": "Allstate",
+			"avg_annual_premium": 2361
+		},
+		{
+			"state": "Indiana",
+			"rank": 30,
+			"company_name": "Metropolitan",
+			"avg_annual_premium": 2494
+		},
+		{
+			"state": "Indiana",
+			"rank": 31,
+			"company_name": "Hanover",
+			"avg_annual_premium": 4805
+		}
+	],
+	"Ohio": [
+		{
+			"state": "Ohio",
+			"rank": 1,
+			"company_name": "Merchants Insurance Group",
+			"avg_annual_premium": 818
+		},
+		{
+			"state": "Ohio",
+			"rank": 2,
+			"company_name": "USAA",
+			"avg_annual_premium": 858
+		},
+		{
+			"state": "Ohio",
+			"rank": 3,
+			"company_name": "State Farm",
+			"avg_annual_premium": 939
+		},
+		{
+			"state": "Ohio",
+			"rank": 4,
+			"company_name": "Utica National",
+			"avg_annual_premium": 927
+		},
+		{
+			"state": "Ohio",
+			"rank": 5,
+			"company_name": "Hastings Mutual",
+			"avg_annual_premium": 966
+		},
+		{
+			"state": "Ohio",
+			"rank": 6,
+			"company_name": "Erie",
+			"avg_annual_premium": 989
+		},
+		{
+			"state": "Ohio",
+			"rank": 7,
+			"company_name": "Esurance",
+			"avg_annual_premium": 1117
+		},
+		{
+			"state": "Ohio",
+			"rank": 8,
+			"company_name": "Motorists Mutual",
+			"avg_annual_premium": 1162
+		},
+		{
+			"state": "Ohio",
+			"rank": 9,
+			"company_name": "Progressive",
+			"avg_annual_premium": 1205
+		},
+		{
+			"state": "Ohio",
+			"rank": 10,
+			"company_name": "Nationwide",
+			"avg_annual_premium": 1202
+		},
+		{
+			"state": "Ohio",
+			"rank": 11,
+			"company_name": "General Casualty",
+			"avg_annual_premium": 1249
+		},
+		{
+			"state": "Ohio",
+			"rank": 12,
+			"company_name": "Encompass",
+			"avg_annual_premium": 1268
+		},
+		{
+			"state": "Ohio",
+			"rank": 13,
+			"company_name": "Frankenmuth Mutual",
+			"avg_annual_premium": 1294
+		},
+		{
+			"state": "Ohio",
+			"rank": 14,
+			"company_name": "Westfield",
+			"avg_annual_premium": 1260
+		},
+		{
+			"state": "Ohio",
+			"rank": 15,
+			"company_name": "Central Mutual Insurance Co",
+			"avg_annual_premium": 1276
+		},
+		{
+			"state": "Ohio",
+			"rank": 16,
+			"company_name": "Ohio Mutual",
+			"avg_annual_premium": 1347
+		},
+		{
+			"state": "Ohio",
+			"rank": 17,
+			"company_name": "GEICO",
+			"avg_annual_premium": 1377
+		},
+		{
+			"state": "Ohio",
+			"rank": 18,
+			"company_name": "Cincinnati Insurance",
+			"avg_annual_premium": 1398
+		},
+		{
+			"state": "Ohio",
+			"rank": 19,
+			"company_name": "Celina Insurance",
+			"avg_annual_premium": 1359
+		},
+		{
+			"state": "Ohio",
+			"rank": 20,
+			"company_name": "Grange Mutual",
+			"avg_annual_premium": 1430
+		},
+		{
+			"state": "Ohio",
+			"rank": 21,
+			"company_name": "Metropolitan",
+			"avg_annual_premium": 1456
+		},
+		{
+			"state": "Ohio",
+			"rank": 22,
+			"company_name": "Western Reserve",
+			"avg_annual_premium": 1508
+		},
+		{
+			"state": "Ohio",
+			"rank": 23,
+			"company_name": "Allstate",
+			"avg_annual_premium": 1555
+		},
+		{
+			"state": "Ohio",
+			"rank": 24,
+			"company_name": "Atlantic States Insurance",
+			"avg_annual_premium": 1504
+		},
+		{
+			"state": "Ohio",
+			"rank": 25,
+			"company_name": "Farmers",
+			"avg_annual_premium": 1599
+		},
+		{
+			"state": "Ohio",
+			"rank": 26,
+			"company_name": "State Auto",
+			"avg_annual_premium": 1620
+		},
+		{
+			"state": "Ohio",
+			"rank": 27,
+			"company_name": "American Family",
+			"avg_annual_premium": 1719
+		},
+		{
+			"state": "Ohio",
+			"rank": 28,
+			"company_name": "AIG",
+			"avg_annual_premium": 1779
+		}
+	],
+	"Alabama": [
+		{
+			"state": "Alabama",
+			"rank": 1,
+			"company_name": "Travelers",
+			"avg_annual_premium": 782
+		},
+		{
+			"state": "Alabama",
+			"rank": 2,
+			"company_name": "Auto-Owners",
+			"avg_annual_premium": 1160
+		},
+		{
+			"state": "Alabama",
+			"rank": 3,
+			"company_name": "USAA",
+			"avg_annual_premium": 1214
+		},
+		{
+			"state": "Alabama",
+			"rank": 4,
+			"company_name": "MetLife",
+			"avg_annual_premium": 1323
+		},
+		{
+			"state": "Alabama",
+			"rank": 5,
+			"company_name": "Cal Casualty",
+			"avg_annual_premium": 1495
+		},
+		{
+			"state": "Alabama",
+			"rank": 6,
+			"company_name": "GEICO",
+			"avg_annual_premium": 1509
+		},
+		{
+			"state": "Alabama",
+			"rank": 7,
+			"company_name": "Allstate",
+			"avg_annual_premium": 1513
+		},
+		{
+			"state": "Alabama",
+			"rank": 8,
+			"company_name": "Progressive",
+			"avg_annual_premium": 1607
+		},
+		{
+			"state": "Alabama",
+			"rank": 9,
+			"company_name": "Country",
+			"avg_annual_premium": 1634
+		},
+		{
+			"state": "Alabama",
+			"rank": 10,
+			"company_name": "Nationwide",
+			"avg_annual_premium": 1610
+		},
+		{
+			"state": "Alabama",
+			"rank": 11,
+			"company_name": "State Farm",
+			"avg_annual_premium": 1679
+		},
+		{
+			"state": "Alabama",
+			"rank": 12,
+			"company_name": "Dairyland",
+			"avg_annual_premium": 1835
+		},
+		{
+			"state": "Alabama",
+			"rank": 13,
+			"company_name": "State Auto",
+			"avg_annual_premium": 1855
+		},
+		{
+			"state": "Alabama",
+			"rank": 14,
+			"company_name": "ALFA",
+			"avg_annual_premium": 1878
+		},
+		{
+			"state": "Alabama",
+			"rank": 15,
+			"company_name": "Metropolitan",
+			"avg_annual_premium": 2441
+		},
+		{
+			"state": "Alabama",
+			"rank": 16,
+			"company_name": "Safeco",
+			"avg_annual_premium": 2589
+		},
+		{
+			"state": "Alabama",
+			"rank": 17,
+			"company_name": "Liberty Mutual",
+			"avg_annual_premium": 2684
+		},
+		{
+			"state": "Alabama",
+			"rank": 18,
+			"company_name": "Farmers",
+			"avg_annual_premium": 3197
+		},
+		{
+			"state": "Alabama",
+			"rank": 19,
+			"company_name": "Cincinnati Insurance",
+			"avg_annual_premium": 4444
+		}
+	],
+	"Nevada": [
+		{
+			"state": "Nevada",
+			"rank": 1,
+			"company_name": "Capital Insurance Group",
+			"avg_annual_premium": 859
+		},
+		{
+			"state": "Nevada",
+			"rank": 2,
+			"company_name": "Travelers",
+			"avg_annual_premium": 907
+		},
+		{
+			"state": "Nevada",
+			"rank": 3,
+			"company_name": "Safeco",
+			"avg_annual_premium": 1370
+		},
+		{
+			"state": "Nevada",
+			"rank": 4,
+			"company_name": "USAA",
+			"avg_annual_premium": 1377
+		},
+		{
+			"state": "Nevada",
+			"rank": 5,
+			"company_name": "Progressive",
+			"avg_annual_premium": 1329
+		},
+		{
+			"state": "Nevada",
+			"rank": 6,
+			"company_name": "Allied",
+			"avg_annual_premium": 1466
+		},
+		{
+			"state": "Nevada",
+			"rank": 7,
+			"company_name": "GEICO",
+			"avg_annual_premium": 1480
+		},
+		{
+			"state": "Nevada",
+			"rank": 8,
+			"company_name": "State Farm",
+			"avg_annual_premium": 1509
+		},
+		{
+			"state": "Nevada",
+			"rank": 9,
+			"company_name": "MetLife",
+			"avg_annual_premium": 1640
+		},
+		{
+			"state": "Nevada",
+			"rank": 10,
+			"company_name": "Nationwide",
+			"avg_annual_premium": 1702
+		},
+		{
+			"state": "Nevada",
+			"rank": 11,
+			"company_name": "Oregon Mutual",
+			"avg_annual_premium": 1681
+		},
+		{
+			"state": "Nevada",
+			"rank": 12,
+			"company_name": "American Family",
+			"avg_annual_premium": 2087
+		},
+		{
+			"state": "Nevada",
+			"rank": 13,
+			"company_name": "Country",
+			"avg_annual_premium": 2151
+		},
+		{
+			"state": "Nevada",
+			"rank": 14,
+			"company_name": "Metropolitan",
+			"avg_annual_premium": 2213
+		},
+		{
+			"state": "Nevada",
+			"rank": 15,
+			"company_name": "Victoria",
+			"avg_annual_premium": 2323
+		},
+		{
+			"state": "Nevada",
+			"rank": 16,
+			"company_name": "Mercury",
+			"avg_annual_premium": 2446
+		},
+		{
+			"state": "Nevada",
+			"rank": 17,
+			"company_name": "Farmers",
+			"avg_annual_premium": 2478
+		},
+		{
+			"state": "Nevada",
+			"rank": 18,
+			"company_name": "Allstate",
+			"avg_annual_premium": 2732
+		},
+		{
+			"state": "Nevada",
+			"rank": 19,
+			"company_name": "Bristol West",
+			"avg_annual_premium": 3347
+		},
+		{
+			"state": "Nevada",
+			"rank": 20,
+			"company_name": "Encompass",
+			"avg_annual_premium": 4040
+		}
+	],
+	"North Carolina": [
+		{
+			"state": "North Carolina",
+			"rank": 1,
+			"company_name": "NC Farm Bureau",
+			"avg_annual_premium": 878
+		},
+		{
+			"state": "North Carolina",
+			"rank": 2,
+			"company_name": "Auto-Owners",
+			"avg_annual_premium": 891
+		},
+		{
+			"state": "North Carolina",
+			"rank": 3,
+			"company_name": "GEICO",
+			"avg_annual_premium": 883
+		},
+		{
+			"state": "North Carolina",
+			"rank": 4,
+			"company_name": "Utica National",
+			"avg_annual_premium": 922
+		},
+		{
+			"state": "North Carolina",
+			"rank": 5,
+			"company_name": "Travelers",
+			"avg_annual_premium": 885
+		},
+		{
+			"state": "North Carolina",
+			"rank": 6,
+			"company_name": "Erie",
+			"avg_annual_premium": 976
+		},
+		{
+			"state": "North Carolina",
+			"rank": 7,
+			"company_name": "State Farm",
+			"avg_annual_premium": 979
+		},
+		{
+			"state": "North Carolina",
+			"rank": 8,
+			"company_name": "Titan",
+			"avg_annual_premium": 996
+		},
+		{
+			"state": "North Carolina",
+			"rank": 9,
+			"company_name": "MetLife",
+			"avg_annual_premium": 1011
+		},
+		{
+			"state": "North Carolina",
+			"rank": 10,
+			"company_name": "GMAC Insurance Group",
+			"avg_annual_premium": 1043
+		},
+		{
+			"state": "North Carolina",
+			"rank": 11,
+			"company_name": "Safeco",
+			"avg_annual_premium": 1024
+		},
+		{
+			"state": "North Carolina",
+			"rank": 12,
+			"company_name": "Metropolitan",
+			"avg_annual_premium": 1245
+		},
+		{
+			"state": "North Carolina",
+			"rank": 13,
+			"company_name": "Penn National",
+			"avg_annual_premium": 1194
+		},
+		{
+			"state": "North Carolina",
+			"rank": 14,
+			"company_name": "Progressive",
+			"avg_annual_premium": 1269
+		},
+		{
+			"state": "North Carolina",
+			"rank": 15,
+			"company_name": "Unitrin",
+			"avg_annual_premium": 1272
+		},
+		{
+			"state": "North Carolina",
+			"rank": 16,
+			"company_name": "Encompass",
+			"avg_annual_premium": 1391
+		},
+		{
+			"state": "North Carolina",
+			"rank": 17,
+			"company_name": "Allied",
+			"avg_annual_premium": 1475
+		},
+		{
+			"state": "North Carolina",
+			"rank": 18,
+			"company_name": "Allstate",
+			"avg_annual_premium": 1511
+		},
+		{
+			"state": "North Carolina",
+			"rank": 19,
+			"company_name": "Nationwide",
+			"avg_annual_premium": 1584
+		}
+	],
+	"Kentucky": [
+		{
+			"state": "Kentucky",
+			"rank": 1,
+			"company_name": "Kentucky Farm Bureau",
+			"avg_annual_premium": 1147
+		},
+		{
+			"state": "Kentucky",
+			"rank": 2,
+			"company_name": "USAA",
+			"avg_annual_premium": 1499
+		},
+		{
+			"state": "Kentucky",
+			"rank": 3,
+			"company_name": "Westfield",
+			"avg_annual_premium": 1521
+		},
+		{
+			"state": "Kentucky",
+			"rank": 4,
+			"company_name": "Travelers",
+			"avg_annual_premium": 1617
+		},
+		{
+			"state": "Kentucky",
+			"rank": 5,
+			"company_name": "State Farm",
+			"avg_annual_premium": 1644
+		},
+		{
+			"state": "Kentucky",
+			"rank": 6,
+			"company_name": "Cincinnati Insurance",
+			"avg_annual_premium": 1856
+		},
+		{
+			"state": "Kentucky",
+			"rank": 7,
+			"company_name": "Motorists Mutual",
+			"avg_annual_premium": 1894
+		},
+		{
+			"state": "Kentucky",
+			"rank": 8,
+			"company_name": "GEICO",
+			"avg_annual_premium": 2073
+		},
+		{
+			"state": "Kentucky",
+			"rank": 9,
+			"company_name": "Grange Mutual",
+			"avg_annual_premium": 2290
+		},
+		{
+			"state": "Kentucky",
+			"rank": 10,
+			"company_name": "Electric",
+			"avg_annual_premium": 2335
+		},
+		{
+			"state": "Kentucky",
+			"rank": 11,
+			"company_name": "Nationwide",
+			"avg_annual_premium": 2566
+		},
+		{
+			"state": "Kentucky",
+			"rank": 12,
+			"company_name": "State Auto",
+			"avg_annual_premium": 2686
+		},
+		{
+			"state": "Kentucky",
+			"rank": 13,
+			"company_name": "Progressive",
+			"avg_annual_premium": 3046
+		},
+		{
+			"state": "Kentucky",
+			"rank": 14,
+			"company_name": "Safe Auto",
+			"avg_annual_premium": 3123
+		},
+		{
+			"state": "Kentucky",
+			"rank": 15,
+			"company_name": "SAFECO",
+			"avg_annual_premium": 3118
+		},
+		{
+			"state": "Kentucky",
+			"rank": 16,
+			"company_name": "Shelter",
+			"avg_annual_premium": 3540
+		},
+		{
+			"state": "Kentucky",
+			"rank": 17,
+			"company_name": "Allstate",
+			"avg_annual_premium": 3915
+		},
+		{
+			"state": "Kentucky",
+			"rank": 18,
+			"company_name": "Metropolitan",
+			"avg_annual_premium": 4409
+		},
+		{
+			"state": "Kentucky",
+			"rank": 19,
+			"company_name": "Encompass",
+			"avg_annual_premium": 9555
+		}
+	],
+	"Hawaii": [
+		{
+			"state": "Hawaii",
+			"rank": 1,
+			"company_name": "State Farm",
+			"avg_annual_premium": 1242
+		},
+		{
+			"state": "Hawaii",
+			"rank": 2,
+			"company_name": "USAA",
+			"avg_annual_premium": 1284
+		},
+		{
+			"state": "Hawaii",
+			"rank": 3,
+			"company_name": "GEICO",
+			"avg_annual_premium": 1382
+		},
+		{
+			"state": "Hawaii",
+			"rank": 4,
+			"company_name": "Liberty Mutual",
+			"avg_annual_premium": 1472
+		},
+		{
+			"state": "Hawaii",
+			"rank": 5,
+			"company_name": "Progressive",
+			"avg_annual_premium": 1540
+		},
+		{
+			"state": "Hawaii",
+			"rank": 6,
+			"company_name": "First of Hawaii",
+			"avg_annual_premium": 1968
+		},
+		{
+			"state": "Hawaii",
+			"rank": 7,
+			"company_name": "Allstate",
+			"avg_annual_premium": 1933
+		},
+		{
+			"state": "Hawaii",
+			"rank": 8,
+			"company_name": "AIG",
+			"avg_annual_premium": 2955
+		}
+	],
+	"Maine": [
+		{
+			"state": "Maine",
+			"rank": 1,
+			"company_name": "Travelers",
+			"avg_annual_premium": 632
+		},
+		{
+			"state": "Maine",
+			"rank": 2,
+			"company_name": "The Hartford",
+			"avg_annual_premium": 731
+		},
+		{
+			"state": "Maine",
+			"rank": 3,
+			"company_name": "USAA",
+			"avg_annual_premium": 811
+		},
+		{
+			"state": "Maine",
+			"rank": 4,
+			"company_name": "Concord Group",
+			"avg_annual_premium": 1017
+		},
+		{
+			"state": "Maine",
+			"rank": 5,
+			"company_name": "State Farm",
+			"avg_annual_premium": 976
+		},
+		{
+			"state": "Maine",
+			"rank": 6,
+			"company_name": "MMG Insurance Company",
+			"avg_annual_premium": 1025
+		},
+		{
+			"state": "Maine",
+			"rank": 7,
+			"company_name": "Progressive",
+			"avg_annual_premium": 1126
+		},
+		{
+			"state": "Maine",
+			"rank": 8,
+			"company_name": "Metropolitan",
+			"avg_annual_premium": 1175
+		},
+		{
+			"state": "Maine",
+			"rank": 9,
+			"company_name": "Patriot Group",
+			"avg_annual_premium": 1196
+		},
+		{
+			"state": "Maine",
+			"rank": 10,
+			"company_name": "Countryway Insurance",
+			"avg_annual_premium": 1291
+		},
+		{
+			"state": "Maine",
+			"rank": 11,
+			"company_name": "GEICO",
+			"avg_annual_premium": 1426
+		},
+		{
+			"state": "Maine",
+			"rank": 12,
+			"company_name": "Vermont Mutual",
+			"avg_annual_premium": 1600
+		},
+		{
+			"state": "Maine",
+			"rank": 13,
+			"company_name": "Allstate",
+			"avg_annual_premium": 1558
+		},
+		{
+			"state": "Maine",
+			"rank": 14,
+			"company_name": "Bristol West",
+			"avg_annual_premium": 2119
+		},
+		{
+			"state": "Maine",
+			"rank": 15,
+			"company_name": "Hanover",
+			"avg_annual_premium": 2800
+		}
+	],
+	"Wisconsin": [
+		{
+			"state": "Wisconsin",
+			"rank": 1,
+			"company_name": "Travelers",
+			"avg_annual_premium": 829
+		},
+		{
+			"state": "Wisconsin",
+			"rank": 2,
+			"company_name": "Partners Mutual",
+			"avg_annual_premium": 829
+		},
+		{
+			"state": "Wisconsin",
+			"rank": 3,
+			"company_name": "USAA",
+			"avg_annual_premium": 896
+		},
+		{
+			"state": "Wisconsin",
+			"rank": 4,
+			"company_name": "SECURA Insurance",
+			"avg_annual_premium": 872
+		},
+		{
+			"state": "Wisconsin",
+			"rank": 5,
+			"company_name": "West Bend Mutual",
+			"avg_annual_premium": 913
+		},
+		{
+			"state": "Wisconsin",
+			"rank": 6,
+			"company_name": "State Farm",
+			"avg_annual_premium": 1020
+		},
+		{
+			"state": "Wisconsin",
+			"rank": 7,
+			"company_name": "Integrity Mutual",
+			"avg_annual_premium": 1034
+		},
+		{
+			"state": "Wisconsin",
+			"rank": 8,
+			"company_name": "Rockford Mutual",
+			"avg_annual_premium": 1097
+		},
+		{
+			"state": "Wisconsin",
+			"rank": 9,
+			"company_name": "Nationwide",
+			"avg_annual_premium": 1123
+		},
+		{
+			"state": "Wisconsin",
+			"rank": 10,
+			"company_name": "Pekin Insurance",
+			"avg_annual_premium": 1157
+		},
+		{
+			"state": "Wisconsin",
+			"rank": 11,
+			"company_name": "Auto-Owners",
+			"avg_annual_premium": 1169
+		},
+		{
+			"state": "Wisconsin",
+			"rank": 12,
+			"company_name": "Progressive",
+			"avg_annual_premium": 1204
+		},
+		{
+			"state": "Wisconsin",
+			"rank": 13,
+			"company_name": "General Casualty",
+			"avg_annual_premium": 1186
+		},
+		{
+			"state": "Wisconsin",
+			"rank": 14,
+			"company_name": "Western National",
+			"avg_annual_premium": 1206
+		},
+		{
+			"state": "Wisconsin",
+			"rank": 15,
+			"company_name": "Auto Club Group",
+			"avg_annual_premium": 1306
+		},
+		{
+			"state": "Wisconsin",
+			"rank": 16,
+			"company_name": "GEICO",
+			"avg_annual_premium": 1387
+		},
+		{
+			"state": "Wisconsin",
+			"rank": 17,
+			"company_name": "Acuity",
+			"avg_annual_premium": 1410
+		},
+		{
+			"state": "Wisconsin",
+			"rank": 18,
+			"company_name": "American Family",
+			"avg_annual_premium": 1439
+		},
+		{
+			"state": "Wisconsin",
+			"rank": 19,
+			"company_name": "Encompass",
+			"avg_annual_premium": 1829
+		},
+		{
+			"state": "Wisconsin",
+			"rank": 20,
+			"company_name": "Safeco",
+			"avg_annual_premium": 1916
+		},
+		{
+			"state": "Wisconsin",
+			"rank": 21,
+			"company_name": "Sentry",
+			"avg_annual_premium": 1937
+		},
+		{
+			"state": "Wisconsin",
+			"rank": 22,
+			"company_name": "State Auto",
+			"avg_annual_premium": 2080
+		},
+		{
+			"state": "Wisconsin",
+			"rank": 23,
+			"company_name": "Farmers",
+			"avg_annual_premium": 2194
+		},
+		{
+			"state": "Wisconsin",
+			"rank": 24,
+			"company_name": "Metropolitan",
+			"avg_annual_premium": 2266
+		},
+		{
+			"state": "Wisconsin",
+			"rank": 25,
+			"company_name": "Allstate",
+			"avg_annual_premium": 2351
+		}
+	],
+	"Vermont": [
+		{
+			"state": "Vermont",
+			"rank": 1,
+			"company_name": "Safeco",
+			"avg_annual_premium": 507
+		},
+		{
+			"state": "Vermont",
+			"rank": 2,
+			"company_name": "Cal Casualty",
+			"avg_annual_premium": 548
+		},
+		{
+			"state": "Vermont",
+			"rank": 3,
+			"company_name": "The Hartford",
+			"avg_annual_premium": 669
+		},
+		{
+			"state": "Vermont",
+			"rank": 4,
+			"company_name": "Travelers",
+			"avg_annual_premium": 732
+		},
+		{
+			"state": "Vermont",
+			"rank": 5,
+			"company_name": "USAA",
+			"avg_annual_premium": 965
+		},
+		{
+			"state": "Vermont",
+			"rank": 6,
+			"company_name": "Unitrin",
+			"avg_annual_premium": 1010
+		},
+		{
+			"state": "Vermont",
+			"rank": 7,
+			"company_name": "Union Mutual Fire Group",
+			"avg_annual_premium": 1056
+		},
+		{
+			"state": "Vermont",
+			"rank": 8,
+			"company_name": "Concord Group",
+			"avg_annual_premium": 1015
+		},
+		{
+			"state": "Vermont",
+			"rank": 9,
+			"company_name": "Co-Operative",
+			"avg_annual_premium": 1043
+		},
+		{
+			"state": "Vermont",
+			"rank": 10,
+			"company_name": "Vermont Mutual",
+			"avg_annual_premium": 1081
+		},
+		{
+			"state": "Vermont",
+			"rank": 11,
+			"company_name": "MetLife",
+			"avg_annual_premium": 1138
+		},
+		{
+			"state": "Vermont",
+			"rank": 12,
+			"company_name": "GEICO",
+			"avg_annual_premium": 1275
+		},
+		{
+			"state": "Vermont",
+			"rank": 13,
+			"company_name": "State Farm",
+			"avg_annual_premium": 1312
+		},
+		{
+			"state": "Vermont",
+			"rank": 14,
+			"company_name": "Nationwide",
+			"avg_annual_premium": 1345
+		},
+		{
+			"state": "Vermont",
+			"rank": 15,
+			"company_name": "Dairyland",
+			"avg_annual_premium": 1541
+		},
+		{
+			"state": "Vermont",
+			"rank": 16,
+			"company_name": "Progressive",
+			"avg_annual_premium": 1748
+		},
+		{
+			"state": "Vermont",
+			"rank": 17,
+			"company_name": "National Grange Mutual",
+			"avg_annual_premium": 1726
+		},
+		{
+			"state": "Vermont",
+			"rank": 18,
+			"company_name": "Allstate",
+			"avg_annual_premium": 1978
+		},
+		{
+			"state": "Vermont",
+			"rank": 19,
+			"company_name": "Metropolitan",
+			"avg_annual_premium": 2022
+		}
+	],
+	"North Dakota": [
+		{
+			"state": "North Dakota",
+			"rank": 1,
+			"company_name": "USAA",
+			"avg_annual_premium": 934
+		},
+		{
+			"state": "North Dakota",
+			"rank": 2,
+			"company_name": "Allied",
+			"avg_annual_premium": 1153
+		},
+		{
+			"state": "North Dakota",
+			"rank": 3,
+			"company_name": "State Farm",
+			"avg_annual_premium": 1250
+		},
+		{
+			"state": "North Dakota",
+			"rank": 4,
+			"company_name": "North Star",
+			"avg_annual_premium": 1354
+		},
+		{
+			"state": "North Dakota",
+			"rank": 5,
+			"company_name": "Auto-Owners",
+			"avg_annual_premium": 1473
+		},
+		{
+			"state": "North Dakota",
+			"rank": 6,
+			"company_name": "MetLife",
+			"avg_annual_premium": 1588
+		},
+		{
+			"state": "North Dakota",
+			"rank": 7,
+			"company_name": "Nodak Mutual",
+			"avg_annual_premium": 1630
+		},
+		{
+			"state": "North Dakota",
+			"rank": 8,
+			"company_name": "Progressive",
+			"avg_annual_premium": 1697
+		},
+		{
+			"state": "North Dakota",
+			"rank": 9,
+			"company_name": "Auto Club Group",
+			"avg_annual_premium": 1711
+		},
+		{
+			"state": "North Dakota",
+			"rank": 10,
+			"company_name": "National Farmers Union P&C",
+			"avg_annual_premium": 1935
+		},
+		{
+			"state": "North Dakota",
+			"rank": 11,
+			"company_name": "State Auto",
+			"avg_annual_premium": 1989
+		},
+		{
+			"state": "North Dakota",
+			"rank": 12,
+			"company_name": "Allstate",
+			"avg_annual_premium": 2107
+		},
+		{
+			"state": "North Dakota",
+			"rank": 13,
+			"company_name": "EMC",
+			"avg_annual_premium": 2230
+		},
+		{
+			"state": "North Dakota",
+			"rank": 14,
+			"company_name": "American Family",
+			"avg_annual_premium": 2373
+		},
+		{
+			"state": "North Dakota",
+			"rank": 15,
+			"company_name": "Liberty Mutual",
+			"avg_annual_premium": 2389
+		},
+		{
+			"state": "North Dakota",
+			"rank": 16,
+			"company_name": "GEICO",
+			"avg_annual_premium": 2759
+		},
+		{
+			"state": "North Dakota",
+			"rank": 17,
+			"company_name": "Metropolitan",
+			"avg_annual_premium": 3110
+		},
+		{
+			"state": "North Dakota",
+			"rank": 18,
+			"company_name": "Dairyland",
+			"avg_annual_premium": 11096
+		}
+	],
+	"Alaska": [
+		{
+			"state": "Alaska",
+			"rank": 1,
+			"company_name": "USAA",
+			"avg_annual_premium": 1051
+		},
+		{
+			"state": "Alaska",
+			"rank": 2,
+			"company_name": "State Farm",
+			"avg_annual_premium": 1052
+		},
+		{
+			"state": "Alaska",
+			"rank": 3,
+			"company_name": "Umialik",
+			"avg_annual_premium": 1268
+		},
+		{
+			"state": "Alaska",
+			"rank": 4,
+			"company_name": "Progressive",
+			"avg_annual_premium": 1552
+		},
+		{
+			"state": "Alaska",
+			"rank": 5,
+			"company_name": "GEICO",
+			"avg_annual_premium": 1757
+		},
+		{
+			"state": "Alaska",
+			"rank": 6,
+			"company_name": "Safeco",
+			"avg_annual_premium": 2427
+		},
+		{
+			"state": "Alaska",
+			"rank": 7,
+			"company_name": "Allstate",
+			"avg_annual_premium": 2932
+		}
+	],
+	"Idaho": [
+		{
+			"state": "Idaho",
+			"rank": 1,
+			"company_name": "American National",
+			"avg_annual_premium": 520
+		},
+		{
+			"state": "Idaho",
+			"rank": 2,
+			"company_name": "Travelers",
+			"avg_annual_premium": 733
+		},
+		{
+			"state": "Idaho",
+			"rank": 3,
+			"company_name": "Auto-Owners",
+			"avg_annual_premium": 736
+		},
+		{
+			"state": "Idaho",
+			"rank": 4,
+			"company_name": "USAA",
+			"avg_annual_premium": 807
+		},
+		{
+			"state": "Idaho",
+			"rank": 5,
+			"company_name": "State Farm",
+			"avg_annual_premium": 866
+		},
+		{
+			"state": "Idaho",
+			"rank": 6,
+			"company_name": "Oregon Mutual",
+			"avg_annual_premium": 994
+		},
+		{
+			"state": "Idaho",
+			"rank": 7,
+			"company_name": "MetLife",
+			"avg_annual_premium": 1129
+		},
+		{
+			"state": "Idaho",
+			"rank": 8,
+			"company_name": "Allied",
+			"avg_annual_premium": 1256
+		},
+		{
+			"state": "Idaho",
+			"rank": 9,
+			"company_name": "Nationwide",
+			"avg_annual_premium": 1210
+		},
+		{
+			"state": "Idaho",
+			"rank": 10,
+			"company_name": "Progressive",
+			"avg_annual_premium": 1244
+		},
+		{
+			"state": "Idaho",
+			"rank": 11,
+			"company_name": "American Family",
+			"avg_annual_premium": 1298
+		},
+		{
+			"state": "Idaho",
+			"rank": 12,
+			"company_name": "Farm Bureau",
+			"avg_annual_premium": 1316
+		},
+		{
+			"state": "Idaho",
+			"rank": 13,
+			"company_name": "Safeco",
+			"avg_annual_premium": 1497
+		},
+		{
+			"state": "Idaho",
+			"rank": 14,
+			"company_name": "Mutual Enumclaw",
+			"avg_annual_premium": 1473
+		},
+		{
+			"state": "Idaho",
+			"rank": 15,
+			"company_name": "GEICO",
+			"avg_annual_premium": 1539
+		},
+		{
+			"state": "Idaho",
+			"rank": 16,
+			"company_name": "Sentry",
+			"avg_annual_premium": 1653
+		},
+		{
+			"state": "Idaho",
+			"rank": 17,
+			"company_name": "Farmers",
+			"avg_annual_premium": 1680
+		},
+		{
+			"state": "Idaho",
+			"rank": 18,
+			"company_name": "Allstate",
+			"avg_annual_premium": 1795
+		},
+		{
+			"state": "Idaho",
+			"rank": 19,
+			"company_name": "Baldwin & Lyons",
+			"avg_annual_premium": 1767
+		},
+		{
+			"state": "Idaho",
+			"rank": 20,
+			"company_name": "Metropolitan",
+			"avg_annual_premium": 2205
+		},
+		{
+			"state": "Idaho",
+			"rank": 21,
+			"company_name": "Grange",
+			"avg_annual_premium": 2578
+		},
+		{
+			"state": "Idaho",
+			"rank": 22,
+			"company_name": "Workmen's Auto",
+			"avg_annual_premium": 3453
+		}
+	],
+	"Louisiana": [
+		{
+			"state": "Louisiana",
+			"rank": 1,
+			"company_name": "Southern Farm Bureau",
+			"avg_annual_premium": 1677
+		},
+		{
+			"state": "Louisiana",
+			"rank": 2,
+			"company_name": "USAA",
+			"avg_annual_premium": 1807
+		},
+		{
+			"state": "Louisiana",
+			"rank": 3,
+			"company_name": "MetLife",
+			"avg_annual_premium": 1906
+		},
+		{
+			"state": "Louisiana",
+			"rank": 4,
+			"company_name": "State Farm",
+			"avg_annual_premium": 2208
+		},
+		{
+			"state": "Louisiana",
+			"rank": 5,
+			"company_name": "Cal Casualty",
+			"avg_annual_premium": 2328
+		},
+		{
+			"state": "Louisiana",
+			"rank": 6,
+			"company_name": "Progressive",
+			"avg_annual_premium": 2381
+		},
+		{
+			"state": "Louisiana",
+			"rank": 7,
+			"company_name": "GEICO",
+			"avg_annual_premium": 2968
+		},
+		{
+			"state": "Louisiana",
+			"rank": 8,
+			"company_name": "Safe Auto",
+			"avg_annual_premium": 2930
+		},
+		{
+			"state": "Louisiana",
+			"rank": 9,
+			"company_name": "Allstate",
+			"avg_annual_premium": 3454
+		},
+		{
+			"state": "Louisiana",
+			"rank": 10,
+			"company_name": "Metropolitan",
+			"avg_annual_premium": 3711
+		},
+		{
+			"state": "Louisiana",
+			"rank": 11,
+			"company_name": "Encompass",
+			"avg_annual_premium": 4027
+		}
+	],
+	"Minnesota": [
+		{
+			"state": "Minnesota",
+			"rank": 1,
+			"company_name": "Travelers",
+			"avg_annual_premium": 612
+		},
+		{
+			"state": "Minnesota",
+			"rank": 2,
+			"company_name": "Farm Bureau Mutual",
+			"avg_annual_premium": 808
+		},
+		{
+			"state": "Minnesota",
+			"rank": 3,
+			"company_name": "The Hartford",
+			"avg_annual_premium": 936
+		},
+		{
+			"state": "Minnesota",
+			"rank": 4,
+			"company_name": "Auto-Owners",
+			"avg_annual_premium": 1193
+		},
+		{
+			"state": "Minnesota",
+			"rank": 5,
+			"company_name": "USAA",
+			"avg_annual_premium": 1227
+		},
+		{
+			"state": "Minnesota",
+			"rank": 6,
+			"company_name": "American Family",
+			"avg_annual_premium": 1295
+		},
+		{
+			"state": "Minnesota",
+			"rank": 7,
+			"company_name": "State Farm",
+			"avg_annual_premium": 1366
+		},
+		{
+			"state": "Minnesota",
+			"rank": 8,
+			"company_name": "Western National",
+			"avg_annual_premium": 1363
+		},
+		{
+			"state": "Minnesota",
+			"rank": 9,
+			"company_name": "Allied",
+			"avg_annual_premium": 1429
+		},
+		{
+			"state": "Minnesota",
+			"rank": 10,
+			"company_name": "North Star",
+			"avg_annual_premium": 1401
+		},
+		{
+			"state": "Minnesota",
+			"rank": 11,
+			"company_name": "West Bend Mutual",
+			"avg_annual_premium": 1495
+		},
+		{
+			"state": "Minnesota",
+			"rank": 12,
+			"company_name": "MetLife",
+			"avg_annual_premium": 1589
+		},
+		{
+			"state": "Minnesota",
+			"rank": 13,
+			"company_name": "Nationwide",
+			"avg_annual_premium": 1739
+		},
+		{
+			"state": "Minnesota",
+			"rank": 14,
+			"company_name": "National Farmers Union P&C",
+			"avg_annual_premium": 1671
+		},
+		{
+			"state": "Minnesota",
+			"rank": 15,
+			"company_name": "Country",
+			"avg_annual_premium": 1834
+		},
+		{
+			"state": "Minnesota",
+			"rank": 16,
+			"company_name": "Allstate",
+			"avg_annual_premium": 1989
+		},
+		{
+			"state": "Minnesota",
+			"rank": 17,
+			"company_name": "Farmers",
+			"avg_annual_premium": 1970
+		},
+		{
+			"state": "Minnesota",
+			"rank": 18,
+			"company_name": "Progressive",
+			"avg_annual_premium": 2066
+		},
+		{
+			"state": "Minnesota",
+			"rank": 19,
+			"company_name": "Metropolitan",
+			"avg_annual_premium": 2204
+		},
+		{
+			"state": "Minnesota",
+			"rank": 20,
+			"company_name": "GEICO",
+			"avg_annual_premium": 2207
+		},
+		{
+			"state": "Minnesota",
+			"rank": 21,
+			"company_name": "General Casualty",
+			"avg_annual_premium": 2631
+		},
+		{
+			"state": "Minnesota",
+			"rank": 22,
+			"company_name": "Encompass",
+			"avg_annual_premium": 5689
+		}
+	],
+	"Nebraska": [
+		{
+			"state": "Nebraska",
+			"rank": 1,
+			"company_name": "Safeco",
+			"avg_annual_premium": 449
+		},
+		{
+			"state": "Nebraska",
+			"rank": 2,
+			"company_name": "American National P&C",
+			"avg_annual_premium": 650
+		},
+		{
+			"state": "Nebraska",
+			"rank": 3,
+			"company_name": "The Hartford",
+			"avg_annual_premium": 887
+		},
+		{
+			"state": "Nebraska",
+			"rank": 4,
+			"company_name": "General Casualty",
+			"avg_annual_premium": 1066
+		},
+		{
+			"state": "Nebraska",
+			"rank": 5,
+			"company_name": "Farm Bureau Mutual (IA Group)",
+			"avg_annual_premium": 1113
+		},
+		{
+			"state": "Nebraska",
+			"rank": 6,
+			"company_name": "Allied",
+			"avg_annual_premium": 1170
+		},
+		{
+			"state": "Nebraska",
+			"rank": 7,
+			"company_name": "Nationwide",
+			"avg_annual_premium": 1187
+		},
+		{
+			"state": "Nebraska",
+			"rank": 8,
+			"company_name": "Farmers Mutual of Nebraska",
+			"avg_annual_premium": 1192
+		},
+		{
+			"state": "Nebraska",
+			"rank": 9,
+			"company_name": "USAA",
+			"avg_annual_premium": 1314
+		},
+		{
+			"state": "Nebraska",
+			"rank": 10,
+			"company_name": "Cal Casualty",
+			"avg_annual_premium": 1300
+		},
+		{
+			"state": "Nebraska",
+			"rank": 11,
+			"company_name": "State Farm",
+			"avg_annual_premium": 1296
+		},
+		{
+			"state": "Nebraska",
+			"rank": 12,
+			"company_name": "North Star",
+			"avg_annual_premium": 1567
+		},
+		{
+			"state": "Nebraska",
+			"rank": 13,
+			"company_name": "EMC Insurance",
+			"avg_annual_premium": 1622
+		},
+		{
+			"state": "Nebraska",
+			"rank": 14,
+			"company_name": "Iowa Mutual",
+			"avg_annual_premium": 1672
+		},
+		{
+			"state": "Nebraska",
+			"rank": 15,
+			"company_name": "Progressive",
+			"avg_annual_premium": 1825
+		},
+		{
+			"state": "Nebraska",
+			"rank": 16,
+			"company_name": "Metropolitan",
+			"avg_annual_premium": 1973
+		},
+		{
+			"state": "Nebraska",
+			"rank": 17,
+			"company_name": "GEICO",
+			"avg_annual_premium": 2032
+		},
+		{
+			"state": "Nebraska",
+			"rank": 18,
+			"company_name": "American Family",
+			"avg_annual_premium": 2022
+		},
+		{
+			"state": "Nebraska",
+			"rank": 19,
+			"company_name": "Shelter",
+			"avg_annual_premium": 2251
+		},
+		{
+			"state": "Nebraska",
+			"rank": 20,
+			"company_name": "Allstate",
+			"avg_annual_premium": 2247
+		},
+		{
+			"state": "Nebraska",
+			"rank": 21,
+			"company_name": "Farmers",
+			"avg_annual_premium": 2321
+		},
+		{
+			"state": "Nebraska",
+			"rank": 22,
+			"company_name": "Auto Club Group",
+			"avg_annual_premium": 4698
+		}
+	],
+	"Kansas": [
+		{
+			"state": "Kansas",
+			"rank": 1,
+			"company_name": "Farm Bureau Mutual",
+			"avg_annual_premium": 1046
+		},
+		{
+			"state": "Kansas",
+			"rank": 2,
+			"company_name": "Travelers",
+			"avg_annual_premium": 1113
+		},
+		{
+			"state": "Kansas",
+			"rank": 3,
+			"company_name": "Cal Casualty",
+			"avg_annual_premium": 1232
+		},
+		{
+			"state": "Kansas",
+			"rank": 4,
+			"company_name": "Allied",
+			"avg_annual_premium": 1297
+		},
+		{
+			"state": "Kansas",
+			"rank": 5,
+			"company_name": "USAA",
+			"avg_annual_premium": 1451
+		},
+		{
+			"state": "Kansas",
+			"rank": 6,
+			"company_name": "Nationwide",
+			"avg_annual_premium": 1429
+		},
+		{
+			"state": "Kansas",
+			"rank": 7,
+			"company_name": "State Farm",
+			"avg_annual_premium": 1450
+		},
+		{
+			"state": "Kansas",
+			"rank": 8,
+			"company_name": "Safeco",
+			"avg_annual_premium": 1451
+		},
+		{
+			"state": "Kansas",
+			"rank": 9,
+			"company_name": "National Farmers Union P&C",
+			"avg_annual_premium": 1533
+		},
+		{
+			"state": "Kansas",
+			"rank": 10,
+			"company_name": "Progressive",
+			"avg_annual_premium": 1672
+		},
+		{
+			"state": "Kansas",
+			"rank": 11,
+			"company_name": "GEICO",
+			"avg_annual_premium": 1823
+		},
+		{
+			"state": "Kansas",
+			"rank": 12,
+			"company_name": "Farmers",
+			"avg_annual_premium": 1983
+		},
+		{
+			"state": "Kansas",
+			"rank": 13,
+			"company_name": "Metropolitan",
+			"avg_annual_premium": 2190
+		},
+		{
+			"state": "Kansas",
+			"rank": 14,
+			"company_name": "American Family",
+			"avg_annual_premium": 2172
+		},
+		{
+			"state": "Kansas",
+			"rank": 15,
+			"company_name": "Electric",
+			"avg_annual_premium": 2197
+		},
+		{
+			"state": "Kansas",
+			"rank": 16,
+			"company_name": "Shelter",
+			"avg_annual_premium": 2328
+		},
+		{
+			"state": "Kansas",
+			"rank": 17,
+			"company_name": "Safe Auto",
+			"avg_annual_premium": 2345
+		},
+		{
+			"state": "Kansas",
+			"rank": 18,
+			"company_name": "Allstate",
+			"avg_annual_premium": 2535
+		},
+		{
+			"state": "Kansas",
+			"rank": 19,
+			"company_name": "Encompass",
+			"avg_annual_premium": 5261
+		}
+	],
+	"Montana": [
+		{
+			"state": "Montana",
+			"rank": 1,
+			"company_name": "Safeco",
+			"avg_annual_premium": 820
+		},
+		{
+			"state": "Montana",
+			"rank": 2,
+			"company_name": "USAA",
+			"avg_annual_premium": 1059
+		},
+		{
+			"state": "Montana",
+			"rank": 3,
+			"company_name": "National Farmers Union P&C",
+			"avg_annual_premium": 1189
+		},
+		{
+			"state": "Montana",
+			"rank": 4,
+			"company_name": "State Farm",
+			"avg_annual_premium": 1142
+		},
+		{
+			"state": "Montana",
+			"rank": 5,
+			"company_name": "MetLife",
+			"avg_annual_premium": 1178
+		},
+		{
+			"state": "Montana",
+			"rank": 6,
+			"company_name": "Allied",
+			"avg_annual_premium": 1357
+		},
+		{
+			"state": "Montana",
+			"rank": 7,
+			"company_name": "Progressive",
+			"avg_annual_premium": 1994
+		},
+		{
+			"state": "Montana",
+			"rank": 8,
+			"company_name": "Farmers",
+			"avg_annual_premium": 2077
+		},
+		{
+			"state": "Montana",
+			"rank": 9,
+			"company_name": "GEICO",
+			"avg_annual_premium": 2098
+		},
+		{
+			"state": "Montana",
+			"rank": 10,
+			"company_name": "Allstate",
+			"avg_annual_premium": 2557
+		},
+		{
+			"state": "Montana",
+			"rank": 11,
+			"company_name": "Metropolitan",
+			"avg_annual_premium": 4876
+		}
+	],
+	"New Mexico": [
+		{
+			"state": "New Mexico",
+			"rank": 1,
+			"company_name": "Safeco",
+			"avg_annual_premium": 1025
+		},
+		{
+			"state": "New Mexico",
+			"rank": 2,
+			"company_name": "USAA",
+			"avg_annual_premium": 996
+		},
+		{
+			"state": "New Mexico",
+			"rank": 3,
+			"company_name": "State Farm",
+			"avg_annual_premium": 1093
+		},
+		{
+			"state": "New Mexico",
+			"rank": 4,
+			"company_name": "Allied",
+			"avg_annual_premium": 1271
+		},
+		{
+			"state": "New Mexico",
+			"rank": 5,
+			"company_name": "Farm Bureau Mutual (IA Group)",
+			"avg_annual_premium": 1288
+		},
+		{
+			"state": "New Mexico",
+			"rank": 6,
+			"company_name": "Dairyland",
+			"avg_annual_premium": 1280
+		},
+		{
+			"state": "New Mexico",
+			"rank": 7,
+			"company_name": "The Hartford",
+			"avg_annual_premium": 1341
+		},
+		{
+			"state": "New Mexico",
+			"rank": 8,
+			"company_name": "GEICO",
+			"avg_annual_premium": 1438
+		},
+		{
+			"state": "New Mexico",
+			"rank": 9,
+			"company_name": "Central Mutual Insurance Co",
+			"avg_annual_premium": 1412
+		},
+		{
+			"state": "New Mexico",
+			"rank": 10,
+			"company_name": "Progressive",
+			"avg_annual_premium": 1545
+		},
+		{
+			"state": "New Mexico",
+			"rank": 11,
+			"company_name": "Cal Casualty",
+			"avg_annual_premium": 1624
+		},
+		{
+			"state": "New Mexico",
+			"rank": 12,
+			"company_name": "MetLife",
+			"avg_annual_premium": 1619
+		},
+		{
+			"state": "New Mexico",
+			"rank": 13,
+			"company_name": "Metropolitan",
+			"avg_annual_premium": 1677
+		},
+		{
+			"state": "New Mexico",
+			"rank": 14,
+			"company_name": "Farmers",
+			"avg_annual_premium": 1900
+		},
+		{
+			"state": "New Mexico",
+			"rank": 15,
+			"company_name": "Allstate",
+			"avg_annual_premium": 2583
+		},
+		{
+			"state": "New Mexico",
+			"rank": 16,
+			"company_name": "Encompass",
+			"avg_annual_premium": 4450
+		}
+	],
+	"Delaware": [
+		{
+			"state": "Delaware",
+			"rank": 1,
+			"company_name": "USAA",
+			"avg_annual_premium": 1025
+		},
+		{
+			"state": "Delaware",
+			"rank": 2,
+			"company_name": "Travelers",
+			"avg_annual_premium": 1078
+		},
+		{
+			"state": "Delaware",
+			"rank": 3,
+			"company_name": "Atlantic States Insurance",
+			"avg_annual_premium": 1296
+		},
+		{
+			"state": "Delaware",
+			"rank": 4,
+			"company_name": "Cal Casualty",
+			"avg_annual_premium": 1334
+		},
+		{
+			"state": "Delaware",
+			"rank": 5,
+			"company_name": "Nationwide",
+			"avg_annual_premium": 1513
+		},
+		{
+			"state": "Delaware",
+			"rank": 6,
+			"company_name": "MetLife",
+			"avg_annual_premium": 1696
+		},
+		{
+			"state": "Delaware",
+			"rank": 7,
+			"company_name": "Donegal Mutual",
+			"avg_annual_premium": 1848
+		},
+		{
+			"state": "Delaware",
+			"rank": 8,
+			"company_name": "State Farm",
+			"avg_annual_premium": 1854
+		},
+		{
+			"state": "Delaware",
+			"rank": 9,
+			"company_name": "GEICO",
+			"avg_annual_premium": 1990
+		},
+		{
+			"state": "Delaware",
+			"rank": 10,
+			"company_name": "Encompass",
+			"avg_annual_premium": 2198
+		},
+		{
+			"state": "Delaware",
+			"rank": 11,
+			"company_name": "Progressive",
+			"avg_annual_premium": 2337
+		},
+		{
+			"state": "Delaware",
+			"rank": 12,
+			"company_name": "National Grange Mutual",
+			"avg_annual_premium": 2277
+		},
+		{
+			"state": "Delaware",
+			"rank": 13,
+			"company_name": "Metropolitan",
+			"avg_annual_premium": 2716
+		},
+		{
+			"state": "Delaware",
+			"rank": 14,
+			"company_name": "Allstate",
+			"avg_annual_premium": 3587
+		},
+		{
+			"state": "Delaware",
+			"rank": 15,
+			"company_name": "Sentry",
+			"avg_annual_premium": 4786
+		},
+		{
+			"state": "Delaware",
+			"rank": 16,
+			"company_name": "Liberty Mutual",
+			"avg_annual_premium": 8410
+		}
+	],
+	"South Dakota": [
+		{
+			"state": "South Dakota",
+			"rank": 1,
+			"company_name": "Auto-Owners",
+			"avg_annual_premium": 930
+		},
+		{
+			"state": "South Dakota",
+			"rank": 2,
+			"company_name": "Allied",
+			"avg_annual_premium": 1279
+		},
+		{
+			"state": "South Dakota",
+			"rank": 3,
+			"company_name": "Farmers Mutual of Nebraska",
+			"avg_annual_premium": 1289
+		},
+		{
+			"state": "South Dakota",
+			"rank": 4,
+			"company_name": "State Farm",
+			"avg_annual_premium": 1336
+		},
+		{
+			"state": "South Dakota",
+			"rank": 5,
+			"company_name": "Unitrin",
+			"avg_annual_premium": 1303
+		},
+		{
+			"state": "South Dakota",
+			"rank": 6,
+			"company_name": "Buckeye Insurance Group",
+			"avg_annual_premium": 1490
+		},
+		{
+			"state": "South Dakota",
+			"rank": 7,
+			"company_name": "Farm Bureau Mutual",
+			"avg_annual_premium": 1674
+		},
+		{
+			"state": "South Dakota",
+			"rank": 8,
+			"company_name": "Progressive",
+			"avg_annual_premium": 1810
+		},
+		{
+			"state": "South Dakota",
+			"rank": 9,
+			"company_name": "North Star",
+			"avg_annual_premium": 1819
+		},
+		{
+			"state": "South Dakota",
+			"rank": 10,
+			"company_name": "GEICO",
+			"avg_annual_premium": 1912
+		},
+		{
+			"state": "South Dakota",
+			"rank": 11,
+			"company_name": "Allstate",
+			"avg_annual_premium": 1976
+		},
+		{
+			"state": "South Dakota",
+			"rank": 12,
+			"company_name": "Farmers",
+			"avg_annual_premium": 1923
+		},
+		{
+			"state": "South Dakota",
+			"rank": 13,
+			"company_name": "American Family",
+			"avg_annual_premium": 2092
+		},
+		{
+			"state": "South Dakota",
+			"rank": 14,
+			"company_name": "Western National",
+			"avg_annual_premium": 2085
+		}
+	],
+	"West Virginia": [
+		{
+			"state": "West Virginia",
+			"rank": 1,
+			"company_name": "The Hartford",
+			"avg_annual_premium": 1054
+		},
+		{
+			"state": "West Virginia",
+			"rank": 2,
+			"company_name": "Erie",
+			"avg_annual_premium": 1228
+		},
+		{
+			"state": "West Virginia",
+			"rank": 3,
+			"company_name": "USAA",
+			"avg_annual_premium": 1247
+		},
+		{
+			"state": "West Virginia",
+			"rank": 4,
+			"company_name": "State Farm",
+			"avg_annual_premium": 1325
+		},
+		{
+			"state": "West Virginia",
+			"rank": 5,
+			"company_name": "Nationwide",
+			"avg_annual_premium": 1323
+		},
+		{
+			"state": "West Virginia",
+			"rank": 6,
+			"company_name": "Westfield",
+			"avg_annual_premium": 1407
+		},
+		{
+			"state": "West Virginia",
+			"rank": 7,
+			"company_name": "Safeco",
+			"avg_annual_premium": 1789
+		},
+		{
+			"state": "West Virginia",
+			"rank": 8,
+			"company_name": "Cal Casualty",
+			"avg_annual_premium": 1847
+		},
+		{
+			"state": "West Virginia",
+			"rank": 9,
+			"company_name": "GEICO",
+			"avg_annual_premium": 2078
+		},
+		{
+			"state": "West Virginia",
+			"rank": 10,
+			"company_name": "Progressive",
+			"avg_annual_premium": 2119
+		},
+		{
+			"state": "West Virginia",
+			"rank": 11,
+			"company_name": "Dairyland",
+			"avg_annual_premium": 2169
+		},
+		{
+			"state": "West Virginia",
+			"rank": 12,
+			"company_name": "Encompass",
+			"avg_annual_premium": 2529
+		},
+		{
+			"state": "West Virginia",
+			"rank": 13,
+			"company_name": "Motorists Mutual",
+			"avg_annual_premium": 2566
+		},
+		{
+			"state": "West Virginia",
+			"rank": 14,
+			"company_name": "Allstate",
+			"avg_annual_premium": 2698
+		},
+		{
+			"state": "West Virginia",
+			"rank": 15,
+			"company_name": "Metropolitan",
+			"avg_annual_premium": 3134
+		},
+		{
+			"state": "West Virginia",
+			"rank": 16,
+			"company_name": "Sentry",
+			"avg_annual_premium": 4015
+		}
+	],
+	"Iowa": [
+		{
+			"state": "Iowa",
+			"rank": 1,
+			"company_name": "Farm Bureau Mutual (IA Group)",
+			"avg_annual_premium": 790
+		},
+		{
+			"state": "Iowa",
+			"rank": 2,
+			"company_name": "Partners Mutual",
+			"avg_annual_premium": 955
+		},
+		{
+			"state": "Iowa",
+			"rank": 3,
+			"company_name": "Travelers",
+			"avg_annual_premium": 1050
+		},
+		{
+			"state": "Iowa",
+			"rank": 4,
+			"company_name": "State Farm",
+			"avg_annual_premium": 1068
+		},
+		{
+			"state": "Iowa",
+			"rank": 5,
+			"company_name": "Pekin Insurance",
+			"avg_annual_premium": 1043
+		},
+		{
+			"state": "Iowa",
+			"rank": 6,
+			"company_name": "Nationwide",
+			"avg_annual_premium": 1068
+		},
+		{
+			"state": "Iowa",
+			"rank": 7,
+			"company_name": "USAA",
+			"avg_annual_premium": 1127
+		},
+		{
+			"state": "Iowa",
+			"rank": 8,
+			"company_name": "Hastings Mutual",
+			"avg_annual_premium": 1168
+		},
+		{
+			"state": "Iowa",
+			"rank": 9,
+			"company_name": "General Casualty",
+			"avg_annual_premium": 1209
+		},
+		{
+			"state": "Iowa",
+			"rank": 10,
+			"company_name": "IMT Insurance Company",
+			"avg_annual_premium": 1232
+		},
+		{
+			"state": "Iowa",
+			"rank": 11,
+			"company_name": "MetLife",
+			"avg_annual_premium": 1265
+		},
+		{
+			"state": "Iowa",
+			"rank": 12,
+			"company_name": "American Family",
+			"avg_annual_premium": 1331
+		},
+		{
+			"state": "Iowa",
+			"rank": 13,
+			"company_name": "Progressive",
+			"avg_annual_premium": 1348
+		},
+		{
+			"state": "Iowa",
+			"rank": 14,
+			"company_name": "Western National",
+			"avg_annual_premium": 1529
+		},
+		{
+			"state": "Iowa",
+			"rank": 15,
+			"company_name": "Grinnell Mutual",
+			"avg_annual_premium": 1620
+		},
+		{
+			"state": "Iowa",
+			"rank": 16,
+			"company_name": "Cameron",
+			"avg_annual_premium": 1814
+		},
+		{
+			"state": "Iowa",
+			"rank": 17,
+			"company_name": "GEICO",
+			"avg_annual_premium": 1767
+		},
+		{
+			"state": "Iowa",
+			"rank": 18,
+			"company_name": "Farmers",
+			"avg_annual_premium": 1883
+		},
+		{
+			"state": "Iowa",
+			"rank": 19,
+			"company_name": "Sentry",
+			"avg_annual_premium": 2093
+		},
+		{
+			"state": "Iowa",
+			"rank": 20,
+			"company_name": "Allstate",
+			"avg_annual_premium": 2100
+		},
+		{
+			"state": "Iowa",
+			"rank": 21,
+			"company_name": "Victoria",
+			"avg_annual_premium": 2112
+		},
+		{
+			"state": "Iowa",
+			"rank": 22,
+			"company_name": "Dairyland",
+			"avg_annual_premium": 2235
+		},
+		{
+			"state": "Iowa",
+			"rank": 23,
+			"company_name": "Metropolitan",
+			"avg_annual_premium": 2361
+		}
+	],
+	"Massachusetts": [
+		{
+			"state": "Massachusetts",
+			"rank": 1,
+			"company_name": "State Farm",
+			"avg_annual_premium": 688
+		},
+		{
+			"state": "Massachusetts",
+			"rank": 2,
+			"company_name": "GEICO",
+			"avg_annual_premium": 1063
+		},
+		{
+			"state": "Massachusetts",
+			"rank": 3,
+			"company_name": "Norfolk and Dedham",
+			"avg_annual_premium": 1180
+		},
+		{
+			"state": "Massachusetts",
+			"rank": 4,
+			"company_name": "Safety Group",
+			"avg_annual_premium": 1214
+		},
+		{
+			"state": "Massachusetts",
+			"rank": 5,
+			"company_name": "Plymouth Rock",
+			"avg_annual_premium": 1191
+		},
+		{
+			"state": "Massachusetts",
+			"rank": 6,
+			"company_name": "Travelers",
+			"avg_annual_premium": 1343
+		},
+		{
+			"state": "Massachusetts",
+			"rank": 7,
+			"company_name": "MetLife",
+			"avg_annual_premium": 1442
+		},
+		{
+			"state": "Massachusetts",
+			"rank": 8,
+			"company_name": "Arbella",
+			"avg_annual_premium": 1472
+		},
+		{
+			"state": "Massachusetts",
+			"rank": 9,
+			"company_name": "Quincy Mutual",
+			"avg_annual_premium": 1568
+		},
+		{
+			"state": "Massachusetts",
+			"rank": 10,
+			"company_name": "Progressive",
+			"avg_annual_premium": 1621
+		},
+		{
+			"state": "Massachusetts",
+			"rank": 11,
+			"company_name": "Amica",
+			"avg_annual_premium": 1696
+		},
+		{
+			"state": "Massachusetts",
+			"rank": 12,
+			"company_name": "Metropolitan",
+			"avg_annual_premium": 1749
+		},
+		{
+			"state": "Massachusetts",
+			"rank": 13,
+			"company_name": "National Grange Mutual",
+			"avg_annual_premium": 1696
+		},
+		{
+			"state": "Massachusetts",
+			"rank": 14,
+			"company_name": "Vermont Mutual",
+			"avg_annual_premium": 1747
+		},
+		{
+			"state": "Massachusetts",
+			"rank": 15,
+			"company_name": "Allstate",
+			"avg_annual_premium": 1793
+		},
+		{
+			"state": "Massachusetts",
+			"rank": 16,
+			"company_name": "Hanover",
+			"avg_annual_premium": 1943
+		},
+		{
+			"state": "Massachusetts",
+			"rank": 17,
+			"company_name": "Encompass",
+			"avg_annual_premium": 2124
+		},
+		{
+			"state": "Massachusetts",
+			"rank": 18,
+			"company_name": "Liberty Mutual",
+			"avg_annual_premium": 2275
+		}
+	],
+	"Mississippi": [
+		{
+			"state": "Mississippi",
+			"rank": 1,
+			"company_name": "Travelers",
+			"avg_annual_premium": 982
+		},
+		{
+			"state": "Mississippi",
+			"rank": 2,
+			"company_name": "USAA",
+			"avg_annual_premium": 1067
+		},
+		{
+			"state": "Mississippi",
+			"rank": 3,
+			"company_name": "Dairyland",
+			"avg_annual_premium": 1172
+		},
+		{
+			"state": "Mississippi",
+			"rank": 4,
+			"company_name": "State Farm",
+			"avg_annual_premium": 1355
+		},
+		{
+			"state": "Mississippi",
+			"rank": 5,
+			"company_name": "Nationwide",
+			"avg_annual_premium": 1362
+		},
+		{
+			"state": "Mississippi",
+			"rank": 6,
+			"company_name": "Unitrin",
+			"avg_annual_premium": 1342
+		},
+		{
+			"state": "Mississippi",
+			"rank": 7,
+			"company_name": "Mississippi Farm Bureau",
+			"avg_annual_premium": 1434
+		},
+		{
+			"state": "Mississippi",
+			"rank": 8,
+			"company_name": "Safeco",
+			"avg_annual_premium": 1703
+		},
+		{
+			"state": "Mississippi",
+			"rank": 9,
+			"company_name": "Progressive",
+			"avg_annual_premium": 1763
+		},
+		{
+			"state": "Mississippi",
+			"rank": 10,
+			"company_name": "Shelter",
+			"avg_annual_premium": 1826
+		},
+		{
+			"state": "Mississippi",
+			"rank": 11,
+			"company_name": "GEICO",
+			"avg_annual_premium": 1759
+		},
+		{
+			"state": "Mississippi",
+			"rank": 12,
+			"company_name": "ALFA",
+			"avg_annual_premium": 1772
+		},
+		{
+			"state": "Mississippi",
+			"rank": 13,
+			"company_name": "Safe Auto",
+			"avg_annual_premium": 2124
+		},
+		{
+			"state": "Mississippi",
+			"rank": 14,
+			"company_name": "Allstate",
+			"avg_annual_premium": 2539
+		}
+	],
+	"New Hampshire": [
+		{
+			"state": "New Hampshire",
+			"rank": 1,
+			"company_name": "Travelers",
+			"avg_annual_premium": 676
+		},
+		{
+			"state": "New Hampshire",
+			"rank": 2,
+			"company_name": "USAA",
+			"avg_annual_premium": 783
+		},
+		{
+			"state": "New Hampshire",
+			"rank": 3,
+			"company_name": "Concord Group",
+			"avg_annual_premium": 918
+		},
+		{
+			"state": "New Hampshire",
+			"rank": 4,
+			"company_name": "Commerce Group Inc",
+			"avg_annual_premium": 970
+		},
+		{
+			"state": "New Hampshire",
+			"rank": 5,
+			"company_name": "State Farm",
+			"avg_annual_premium": 1022
+		},
+		{
+			"state": "New Hampshire",
+			"rank": 6,
+			"company_name": "Nationwide",
+			"avg_annual_premium": 990
+		},
+		{
+			"state": "New Hampshire",
+			"rank": 7,
+			"company_name": "Encompass",
+			"avg_annual_premium": 1109
+		},
+		{
+			"state": "New Hampshire",
+			"rank": 8,
+			"company_name": "GEICO",
+			"avg_annual_premium": 1169
+		},
+		{
+			"state": "New Hampshire",
+			"rank": 9,
+			"company_name": "MetLife",
+			"avg_annual_premium": 1240
+		},
+		{
+			"state": "New Hampshire",
+			"rank": 10,
+			"company_name": "Amica",
+			"avg_annual_premium": 1242
+		},
+		{
+			"state": "New Hampshire",
+			"rank": 11,
+			"company_name": "Progressive",
+			"avg_annual_premium": 1343
+		},
+		{
+			"state": "New Hampshire",
+			"rank": 12,
+			"company_name": "Patriot Group",
+			"avg_annual_premium": 1335
+		},
+		{
+			"state": "New Hampshire",
+			"rank": 13,
+			"company_name": "Vermont Mutual",
+			"avg_annual_premium": 1628
+		},
+		{
+			"state": "New Hampshire",
+			"rank": 14,
+			"company_name": "Metropolitan",
+			"avg_annual_premium": 1760
+		},
+		{
+			"state": "New Hampshire",
+			"rank": 15,
+			"company_name": "Allstate",
+			"avg_annual_premium": 2173
+		},
+		{
+			"state": "New Hampshire",
+			"rank": 16,
+			"company_name": "Liberty Mutual",
+			"avg_annual_premium": 2291
+		},
+		{
+			"state": "New Hampshire",
+			"rank": 17,
+			"company_name": "Hanover",
+			"avg_annual_premium": 3520
+		}
+	],
+	"Rhode Island": [
+		{
+			"state": "Rhode Island",
+			"rank": 1,
+			"company_name": "State Farm",
+			"avg_annual_premium": 983
+		},
+		{
+			"state": "Rhode Island",
+			"rank": 2,
+			"company_name": "Travelers",
+			"avg_annual_premium": 1258
+		},
+		{
+			"state": "Rhode Island",
+			"rank": 3,
+			"company_name": "USAA",
+			"avg_annual_premium": 1593
+		},
+		{
+			"state": "Rhode Island",
+			"rank": 4,
+			"company_name": "Quincy Mutual",
+			"avg_annual_premium": 2230
+		},
+		{
+			"state": "Rhode Island",
+			"rank": 5,
+			"company_name": "Amica",
+			"avg_annual_premium": 2470
+		},
+		{
+			"state": "Rhode Island",
+			"rank": 6,
+			"company_name": "MetLife",
+			"avg_annual_premium": 2574
+		},
+		{
+			"state": "Rhode Island",
+			"rank": 7,
+			"company_name": "Progressive",
+			"avg_annual_premium": 2563
+		},
+		{
+			"state": "Rhode Island",
+			"rank": 8,
+			"company_name": "GEICO",
+			"avg_annual_premium": 2887
+		},
+		{
+			"state": "Rhode Island",
+			"rank": 9,
+			"company_name": "Cal Casualty",
+			"avg_annual_premium": 3014
+		},
+		{
+			"state": "Rhode Island",
+			"rank": 10,
+			"company_name": "Nationwide",
+			"avg_annual_premium": 3164
+		},
+		{
+			"state": "Rhode Island",
+			"rank": 11,
+			"company_name": "National Grange Mutual",
+			"avg_annual_premium": 3471
+		},
+		{
+			"state": "Rhode Island",
+			"rank": 12,
+			"company_name": "Encompass",
+			"avg_annual_premium": 3899
+		},
+		{
+			"state": "Rhode Island",
+			"rank": 13,
+			"company_name": "Allstate",
+			"avg_annual_premium": 3965
+		},
+		{
+			"state": "Rhode Island",
+			"rank": 14,
+			"company_name": "Metropolitan",
+			"avg_annual_premium": 4030
+		}
+	],
+	"Wyoming": [
+		{
+			"state": "Wyoming",
+			"rank": 1,
+			"company_name": "The Hartford",
+			"avg_annual_premium": 904
+		},
+		{
+			"state": "Wyoming",
+			"rank": 2,
+			"company_name": "Safeco",
+			"avg_annual_premium": 1083
+		},
+		{
+			"state": "Wyoming",
+			"rank": 3,
+			"company_name": "USAA",
+			"avg_annual_premium": 1092
+		},
+		{
+			"state": "Wyoming",
+			"rank": 4,
+			"company_name": "State Farm",
+			"avg_annual_premium": 1284
+		},
+		{
+			"state": "Wyoming",
+			"rank": 5,
+			"company_name": "Cal Casualty",
+			"avg_annual_premium": 1382
+		},
+		{
+			"state": "Wyoming",
+			"rank": 6,
+			"company_name": "Grange",
+			"avg_annual_premium": 1559
+		},
+		{
+			"state": "Wyoming",
+			"rank": 7,
+			"company_name": "GEICO",
+			"avg_annual_premium": 1646
+		},
+		{
+			"state": "Wyoming",
+			"rank": 8,
+			"company_name": "Farmers",
+			"avg_annual_premium": 1919
+		},
+		{
+			"state": "Wyoming",
+			"rank": 9,
+			"company_name": "Metropolitan",
+			"avg_annual_premium": 2289
+		},
+		{
+			"state": "Wyoming",
+			"rank": 10,
+			"company_name": "Allstate",
+			"avg_annual_premium": 2585
+		}
+	],
+	"Washington": [
+		{
+			"state": "Washington",
+			"rank": 1,
+			"company_name": "USAA",
+			"avg_annual_premium": 1044
+		},
+		{
+			"state": "Washington",
+			"rank": 2,
+			"company_name": "Travelers",
+			"avg_annual_premium": 1028
+		},
+		{
+			"state": "Washington",
+			"rank": 3,
+			"company_name": "PEMCO",
+			"avg_annual_premium": 1047
+		},
+		{
+			"state": "Washington",
+			"rank": 4,
+			"company_name": "State Farm",
+			"avg_annual_premium": 1174
+		},
+		{
+			"state": "Washington",
+			"rank": 5,
+			"company_name": "Grange",
+			"avg_annual_premium": 1190
+		},
+		{
+			"state": "Washington",
+			"rank": 6,
+			"company_name": "Amica",
+			"avg_annual_premium": 1234
+		},
+		{
+			"state": "Washington",
+			"rank": 7,
+			"company_name": "Capital Insurance Group",
+			"avg_annual_premium": 1234
+		},
+		{
+			"state": "Washington",
+			"rank": 8,
+			"company_name": "Chubb",
+			"avg_annual_premium": 1371
+		},
+		{
+			"state": "Washington",
+			"rank": 9,
+			"company_name": "American Family",
+			"avg_annual_premium": 1405
+		},
+		{
+			"state": "Washington",
+			"rank": 10,
+			"company_name": "Progressive",
+			"avg_annual_premium": 1375
+		},
+		{
+			"state": "Washington",
+			"rank": 11,
+			"company_name": "GEICO",
+			"avg_annual_premium": 1487
+		},
+		{
+			"state": "Washington",
+			"rank": 12,
+			"company_name": "Farmers",
+			"avg_annual_premium": 1609
+		},
+		{
+			"state": "Washington",
+			"rank": 13,
+			"company_name": "GMAC Insurance Group",
+			"avg_annual_premium": 1709
+		},
+		{
+			"state": "Washington",
+			"rank": 14,
+			"company_name": "Bristol West",
+			"avg_annual_premium": 1935
+		},
+		{
+			"state": "Washington",
+			"rank": 15,
+			"company_name": "Allstate",
+			"avg_annual_premium": 2008
+		},
+		{
+			"state": "Washington",
+			"rank": 16,
+			"company_name": "Encompass",
+			"avg_annual_premium": 2306
+		},
+		{
+			"state": "Washington",
+			"rank": 17,
+			"company_name": "Safeco",
+			"avg_annual_premium": 2238
+		},
+		{
+			"state": "Washington",
+			"rank": 18,
+			"company_name": "Metropolitan",
+			"avg_annual_premium": 2296
+		},
+		{
+			"state": "Washington",
+			"rank": 19,
+			"company_name": "Sentry",
+			"avg_annual_premium": 2826
+		}
+	],
+	"Washicgton D.C.": [
+		{
+			"state": "Washicgton D.C.",
+			"rank": false,
+			"company_name": false,
+			"avg_annual_premium": null
+		}
+	]
+}

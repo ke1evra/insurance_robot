@@ -1,0 +1,8794 @@
+{
+	"Alaska": {
+		"state": "Alaska",
+		"cheapest_car_insurance": [
+			{
+				"company": "State Farm",
+				"quote": "45"
+			},
+			{
+				"company": "Allstate",
+				"quote": "40"
+			},
+			{
+				"company": "GEICO",
+				"quote": "69"
+			},
+			{
+				"company": "American Family",
+				"quote": "124"
+			}
+		],
+		"best_car_insurance": [
+			{
+				"company": "American Family",
+				"score": "91",
+				"quote": "129"
+			},
+			{
+				"company": "GEICO",
+				"score": "84",
+				"quote": "66"
+			},
+			{
+				"company": "Allstate",
+				"score": "90",
+				"quote": "46"
+			},
+			{
+				"company": "State Farm",
+				"score": "86",
+				"quote": "46"
+			}
+		],
+		"car_insurance": [
+			{
+				"city": "Anchorage",
+				"cheapest_carrier": "State Farm",
+				"quote": "62"
+			},
+			{
+				"city": "Fairbanks",
+				"cheapest_carrier": "Allstate",
+				"quote": "48"
+			},
+			{
+				"city": "Juneau",
+				"cheapest_carrier": "State Farm",
+				"quote": "43"
+			},
+			{
+				"city": "Sitka",
+				"cheapest_carrier": "State Farm",
+				"quote": "49"
+			},
+			{
+				"city": "Wasilla",
+				"cheapest_carrier": "State Farm",
+				"quote": "66"
+			}
+		],
+		"cheapest_car_insurance_gd": [
+			{
+				"insurance_company": "State Farm",
+				"quote": "38"
+			},
+			{
+				"insurance_company": "Allstate",
+				"quote": "48"
+			},
+			{
+				"insurance_company": "GEICO",
+				"quote": "70"
+			},
+			{
+				"insurance_company": "American Family",
+				"quote": "121"
+			}
+		],
+		"cheapest_car_insurance_dui": [
+			{
+				"insurance_company": "Umialik",
+				"quote": "29"
+			},
+			{
+				"insurance_company": "State Farm",
+				"quote": "36"
+			},
+			{
+				"insurance_company": "USAA",
+				"quote": "41"
+			}
+		],
+		"cheapest_car_insurance_afa": [
+			{
+				"insurance_company": "Umialik",
+				"quote": "31"
+			},
+			{
+				"insurance_company": "USAA",
+				"quote": "39"
+			},
+			{
+				"insurance_company": "State Farm",
+				"quote": "39"
+			}
+		],
+		"cheapest_car_insurance_sd": [
+			{
+				"insurance_company": "Umialik",
+				"quote": "23"
+			},
+			{
+				"insurance_company": "USAA",
+				"quote": "34"
+			},
+			{
+				"insurance_company": "State Farm",
+				"quote": "36"
+			}
+		],
+		"cheapest_car_insurance_yd": [
+			{
+				"insurance_company": "USAA",
+				"quote": "18"
+			},
+			{
+				"insurance_company": "State Farm",
+				"quote": "31"
+			},
+			{
+				"insurance_company": "Umialik",
+				"quote": "29"
+			}
+		],
+		"sr22": "Dairyland, Esurance, Farmers, GEICO (from $48/month), The General (from $100/month), National General, Progressive (from $8/month), Safeco, Foremost",
+		"rural_roads_in_poor_condition": "20%, #9",
+		"structurally_deficient_rural_bridges": "10%, #9",
+		"fatality_rate_on_rural_roads": "1%, #14",
+		"most_duis_rank": "3",
+		"most_moving_violations_rank": "10",
+		"most_popular_car": "Ford F-Series Pickup",
+		"most_speeding_tickets_rank": "24",
+		"most_suspended_licenses_rank": "25"
+	},
+	"Alabama": {
+		"state": "Alabama",
+		"cheapest_car_insurance": [
+			{
+				"company": "State Farm",
+				"quote": "69"
+			},
+			{
+				"company": "Allstate",
+				"quote": "81"
+			},
+			{
+				"company": "GEICO",
+				"quote": "102"
+			},
+			{
+				"company": "Travelers",
+				"quote": "103"
+			},
+			{
+				"company": "Direct Auto",
+				"quote": "123"
+			}
+		],
+		"best_car_insurance": [
+			{
+				"company": "American Family",
+				"score": "84",
+				"quote": "194"
+			},
+			{
+				"company": "GEICO",
+				"score": "87",
+				"quote": "102"
+			},
+			{
+				"company": "Allstate",
+				"score": "90",
+				"quote": "84"
+			},
+			{
+				"company": "Nationwide",
+				"score": "83",
+				"quote": "135"
+			},
+			{
+				"company": "State Farm",
+				"score": "78",
+				"quote": "69"
+			},
+			{
+				"company": "Travelers",
+				"score": "82",
+				"quote": "109"
+			},
+			{
+				"company": "Liberty Mutual",
+				"score": "77",
+				"quote": "154"
+			}
+		],
+		"car_insurance": [
+			{
+				"city": "Birmingham",
+				"cheapest_carrier": "State Farm",
+				"quote": "101"
+			},
+			{
+				"city": "Montgomery",
+				"cheapest_carrier": "State Farm",
+				"quote": "81"
+			},
+			{
+				"city": "Mobile",
+				"cheapest_carrier": "State Farm",
+				"quote": "89"
+			},
+			{
+				"city": "Huntsville",
+				"cheapest_carrier": "State Farm",
+				"quote": "90"
+			},
+			{
+				"city": "Tuscaloosa",
+				"cheapest_carrier": "State Farm",
+				"quote": "82"
+			}
+		],
+		"cheapest_car_insurance_gd": [
+			{
+				"insurance_company": "State Farm",
+				"quote": "60"
+			},
+			{
+				"insurance_company": "Allstate",
+				"quote": "83"
+			},
+			{
+				"insurance_company": "GEICO",
+				"quote": "98"
+			},
+			{
+				"insurance_company": "Travelers",
+				"quote": "109"
+			},
+			{
+				"insurance_company": "Direct Auto",
+				"quote": "122"
+			}
+		],
+		"cheapest_car_insurance_dui": [
+			{
+				"insurance_company": "USAA",
+				"quote": "33"
+			},
+			{
+				"insurance_company": "Auto Owners",
+				"quote": "58"
+			},
+			{
+				"insurance_company": "Safeway",
+				"quote": "59"
+			}
+		],
+		"cheapest_car_insurance_afa": [
+			{
+				"insurance_company": "Auto Owners",
+				"quote": "27"
+			},
+			{
+				"insurance_company": "USAA",
+				"quote": "34"
+			},
+			{
+				"insurance_company": "Allstate",
+				"quote": "42"
+			}
+		],
+		"cheapest_car_insurance_sd": [
+			{
+				"insurance_company": "USAA",
+				"quote": "34"
+			},
+			{
+				"insurance_company": "Auto Owners",
+				"quote": "30"
+			},
+			{
+				"insurance_company": "Allstate",
+				"quote": "35"
+			}
+		],
+		"cheapest_car_insurance_yd": [
+			{
+				"insurance_company": "USAA",
+				"quote": "26"
+			},
+			{
+				"insurance_company": "Auto Owners",
+				"quote": "22"
+			},
+			{
+				"insurance_company": "Allstate",
+				"quote": "29"
+			},
+			{
+				"insurance_company": "Travelers",
+				"quote": "25"
+			},
+			{
+				"insurance_company": "COUNTRY Financial",
+				"quote": "25"
+			}
+		],
+		"sr22": "Affirmative, Consumers Insurance, Dairyland, Esurance, Farmers, GEICO (from $48/month), The General (from $100/month), National General, Infinity, Mendota, Progressive (from $8/month), Safeco, Safeway, Titan, Victoria, Ameriprise, Everest National, Acceptance, Direct Auto (from $52/month), Jupiter, Foremost",
+		"rural_roads_in_poor_condition": "2%, #26",
+		"structurally_deficient_rural_bridges": "8%, #11",
+		"fatality_rate_on_rural_roads": "1%, #16",
+		"most_duis_rank": "49",
+		"most_moving_violations_rank": "33",
+		"most_popular_car": "Nissan Altima",
+		"most_speeding_tickets_rank": "20",
+		"most_suspended_licenses_rank": "36"
+	},
+	"Arkansas": {
+		"state": "Arkansas",
+		"cheapest_car_insurance": [
+			{
+				"company": "State Farm",
+				"quote": "53"
+			},
+			{
+				"company": "Allstate",
+				"quote": "71"
+			},
+			{
+				"company": "Nationwide",
+				"quote": "84"
+			},
+			{
+				"company": "GEICO",
+				"quote": "93"
+			},
+			{
+				"company": "Direct Auto",
+				"quote": "151"
+			}
+		],
+		"best_car_insurance": [
+			{
+				"company": "American Family",
+				"score": "84",
+				"quote": "241"
+			},
+			{
+				"company": "GEICO",
+				"score": "91",
+				"quote": "89"
+			},
+			{
+				"company": "Allstate",
+				"score": "85",
+				"quote": "65"
+			},
+			{
+				"company": "Nationwide",
+				"score": "88",
+				"quote": "79"
+			},
+			{
+				"company": "State Farm",
+				"score": "81",
+				"quote": "60"
+			},
+			{
+				"company": "Liberty Mutual",
+				"score": "82",
+				"quote": "227"
+			}
+		],
+		"car_insurance": [
+			{
+				"city": "Little Rock",
+				"cheapest_carrier": "State Farm",
+				"quote": "77"
+			},
+			{
+				"city": "Fort Smith",
+				"cheapest_carrier": "State Farm",
+				"quote": "67"
+			},
+			{
+				"city": "Fayetteville",
+				"cheapest_carrier": "State Farm",
+				"quote": "54"
+			},
+			{
+				"city": "Springdale",
+				"cheapest_carrier": "State Farm",
+				"quote": "65"
+			},
+			{
+				"city": "Jonesboro",
+				"cheapest_carrier": "Nationwide",
+				"quote": "102"
+			}
+		],
+		"cheapest_car_insurance_gd": [
+			{
+				"insurance_company": "State Farm",
+				"quote": "49"
+			},
+			{
+				"insurance_company": "Allstate",
+				"quote": "64"
+			},
+			{
+				"insurance_company": "Nationwide",
+				"quote": "78"
+			},
+			{
+				"insurance_company": "GEICO",
+				"quote": "94"
+			},
+			{
+				"insurance_company": "Direct Auto",
+				"quote": "152"
+			}
+		],
+		"cheapest_car_insurance_dui": [
+			{
+				"insurance_company": "State Farm",
+				"quote": "34"
+			},
+			{
+				"insurance_company": "Southern Farm Bureau",
+				"quote": "46"
+			},
+			{
+				"insurance_company": "USAA",
+				"quote": "46"
+			}
+		],
+		"cheapest_car_insurance_afa": [
+			{
+				"insurance_company": "USAA",
+				"quote": "33"
+			},
+			{
+				"insurance_company": "State Farm",
+				"quote": "40"
+			},
+			{
+				"insurance_company": "Coumbia",
+				"quote": "38"
+			}
+		],
+		"cheapest_car_insurance_sd": [
+			{
+				"insurance_company": "USAA",
+				"quote": "25"
+			},
+			{
+				"insurance_company": "State Farm",
+				"quote": "34"
+			},
+			{
+				"insurance_company": "Farm Bureau Financial",
+				"quote": "39"
+			}
+		],
+		"cheapest_car_insurance_yd": [
+			{
+				"insurance_company": "USAA",
+				"quote": "22"
+			},
+			{
+				"insurance_company": "State Farm",
+				"quote": "31"
+			},
+			{
+				"insurance_company": "Columbia Insurance",
+				"quote": "34"
+			},
+			{
+				"insurance_company": "Farm Bureau Financial",
+				"quote": "30"
+			},
+			{
+				"insurance_company": "GEICO",
+				"quote": "33"
+			}
+		],
+		"sr22": "Consumers Insurance, Dairyland, Esurance, Farmers, GEICO (from $48/month), The General (from $100/month), National General, Hallmark, Infinity, Mendota, Progressive (from $8/month), Safeco, Safeway, Victoria, Ameriprise, Farm Bureau Financial Services, Direct Auto (from $52/month), Jupiter, Foremost",
+		"rural_roads_in_poor_condition": "22%, #7",
+		"structurally_deficient_rural_bridges": "7%, #12",
+		"fatality_rate_on_rural_roads": "2%, #5",
+		"most_duis_rank": "23",
+		"most_moving_violations_rank": "40",
+		"most_popular_car": "Ford F-Series Pickup",
+		"most_speeding_tickets_rank": "37",
+		"most_suspended_licenses_rank": "37"
+	},
+	"Arizona": {
+		"state": "Arizona",
+		"cheapest_car_insurance": [
+			{
+				"company": "State Farm",
+				"quote": "38"
+			},
+			{
+				"company": "Allstate",
+				"quote": "64"
+			},
+			{
+				"company": "Travelers",
+				"quote": "90"
+			},
+			{
+				"company": "GEICO",
+				"quote": "91"
+			},
+			{
+				"company": "The General",
+				"quote": "131"
+			}
+		],
+		"best_car_insurance": [
+			{
+				"company": "American Family",
+				"score": "84",
+				"quote": "174"
+			},
+			{
+				"company": "GEICO",
+				"score": "83",
+				"quote": "88"
+			},
+			{
+				"company": "Allstate",
+				"score": "84",
+				"quote": "59"
+			},
+			{
+				"company": "State Farm",
+				"score": "84",
+				"quote": "45"
+			},
+			{
+				"company": "Travelers",
+				"score": "76",
+				"quote": "89"
+			},
+			{
+				"company": "Liberty Mutual",
+				"score": "76",
+				"quote": "148"
+			}
+		],
+		"car_insurance": [
+			{
+				"city": "Phoenix",
+				"cheapest_carrier": "Allstate",
+				"quote": "150"
+			},
+			{
+				"city": "Tucson",
+				"cheapest_carrier": "State Farm",
+				"quote": "72"
+			},
+			{
+				"city": "Mesa",
+				"cheapest_carrier": "Allstate",
+				"quote": "121"
+			},
+			{
+				"city": "Chandler",
+				"cheapest_carrier": "State Farm",
+				"quote": "68"
+			},
+			{
+				"city": "Gilbert",
+				"cheapest_carrier": "State Farm",
+				"quote": "76"
+			}
+		],
+		"cheapest_car_insurance_gd": [
+			{
+				"insurance_company": "State Farm",
+				"quote": "46"
+			},
+			{
+				"insurance_company": "Allstate",
+				"quote": "61"
+			},
+			{
+				"insurance_company": "Travelers",
+				"quote": "84"
+			},
+			{
+				"insurance_company": "GEICO",
+				"quote": "90"
+			},
+			{
+				"insurance_company": "The General",
+				"quote": "135"
+			}
+		],
+		"cheapest_car_insurance_dui": [
+			{
+				"insurance_company": "CSAA",
+				"quote": "56"
+			},
+			{
+				"insurance_company": "GEICO",
+				"quote": "62"
+			},
+			{
+				"insurance_company": "Auto Owners",
+				"quote": "60"
+			}
+		],
+		"cheapest_car_insurance_afa": [
+			{
+				"insurance_company": "Auto Owners",
+				"quote": "26"
+			},
+			{
+				"insurance_company": "CSAA",
+				"quote": "57"
+			},
+			{
+				"insurance_company": "COUNTRY Financial",
+				"quote": "62"
+			}
+		],
+		"cheapest_car_insurance_sd": [
+			{
+				"insurance_company": "Auto Owners",
+				"quote": "29"
+			},
+			{
+				"insurance_company": "CSAA",
+				"quote": "51"
+			},
+			{
+				"insurance_company": "COUNTRY Financial",
+				"quote": "57"
+			}
+		],
+		"cheapest_car_insurance_yd": [
+			{
+				"insurance_company": "GEICO",
+				"quote": "28"
+			},
+			{
+				"insurance_company": "Auto Owners",
+				"quote": "33"
+			},
+			{
+				"insurance_company": "USAA",
+				"quote": "35"
+			},
+			{
+				"insurance_company": "COUNTRY Financial",
+				"quote": "38"
+			},
+			{
+				"insurance_company": "CSAA",
+				"quote": "38"
+			}
+		],
+		"sr22": "Carnegie Insurance, Dairyland, Esurance, Farmers, GAINSCO, GEICO (from $48/month), The General (from $100/month), National General, Hallmark, Mendota, Mercury (from $106/month), Pekin, Progressive (from $8/month), SafeAuto, Safeco, Safeway, State Auto, Titan, Victoria, Ameriprise, Legacy, Anchor, Stillwater, Acceptance, Foremost",
+		"rural_roads_in_poor_condition": "8%, #20",
+		"structurally_deficient_rural_bridges": "3%, #16",
+		"fatality_rate_on_rural_roads": "1%, #9",
+		"most_duis_rank": "25",
+		"most_moving_violations_rank": "38",
+		"most_popular_car": "Honda Civic",
+		"most_speeding_tickets_rank": "34",
+		"most_suspended_licenses_rank": "33"
+	},
+	"California": {
+		"state": "California",
+		"cheapest_car_insurance": [
+			{
+				"company": "State Farm",
+				"quote": "56"
+			},
+			{
+				"company": "GEICO",
+				"quote": "60"
+			},
+			{
+				"company": "Mercury",
+				"quote": "109"
+			},
+			{
+				"company": "Nationwide",
+				"quote": "101"
+			},
+			{
+				"company": "American Family",
+				"quote": "127"
+			}
+		],
+		"best_car_insurance": [
+			{
+				"company": "American Family",
+				"score": "88",
+				"quote": "122"
+			},
+			{
+				"company": "GEICO",
+				"score": "83",
+				"quote": "68"
+			},
+			{
+				"company": "Nationwide",
+				"score": "82",
+				"quote": "109"
+			},
+			{
+				"company": "State Farm",
+				"score": "79",
+				"quote": "66"
+			},
+			{
+				"company": "Mercury",
+				"score": "82",
+				"quote": "103"
+			}
+		],
+		"car_insurance": [
+			{
+				"city": "Los Angeles",
+				"cheapest_carrier": "GEICO",
+				"quote": "92"
+			},
+			{
+				"city": "San Diego",
+				"cheapest_carrier": "State Farm",
+				"quote": "58"
+			},
+			{
+				"city": "San Jose",
+				"cheapest_carrier": "State Farm",
+				"quote": "68"
+			},
+			{
+				"city": "San Francisco",
+				"cheapest_carrier": "State Farm",
+				"quote": "80"
+			},
+			{
+				"city": "Fresno",
+				"cheapest_carrier": "GEICO",
+				"quote": "73"
+			}
+		],
+		"cheapest_car_insurance_gd": [
+			{
+				"insurance_company": "State Farm",
+				"quote": "60"
+			},
+			{
+				"insurance_company": "GEICO",
+				"quote": "69"
+			},
+			{
+				"insurance_company": "Mercury",
+				"quote": "109"
+			},
+			{
+				"insurance_company": "Nationwide",
+				"quote": "107"
+			},
+			{
+				"insurance_company": "American Family",
+				"quote": "122"
+			}
+		],
+		"cheapest_car_insurance_dui": [
+			{
+				"insurance_company": "Progressive",
+				"quote": "86"
+			},
+			{
+				"insurance_company": "Grange",
+				"quote": "98"
+			},
+			{
+				"insurance_company": "Wawanesa",
+				"quote": "99"
+			}
+		],
+		"cheapest_car_insurance_afa": [
+			{
+				"insurance_company": "Progressive",
+				"quote": "57"
+			},
+			{
+				"insurance_company": "Grange",
+				"quote": "80"
+			},
+			{
+				"insurance_company": "USAA",
+				"quote": "82"
+			}
+		],
+		"cheapest_car_insurance_sd": [
+			{
+				"insurance_company": "USAA",
+				"quote": "55"
+			},
+			{
+				"insurance_company": "Progressive",
+				"quote": "66"
+			},
+			{
+				"insurance_company": "Grange",
+				"quote": "79"
+			}
+		],
+		"cheapest_car_insurance_yd": [
+			{
+				"insurance_company": "USAA",
+				"quote": "67"
+			},
+			{
+				"insurance_company": "Progressive",
+				"quote": "73"
+			},
+			{
+				"insurance_company": "Wawanesa",
+				"quote": "76"
+			},
+			{
+				"insurance_company": "Esurance",
+				"quote": "81"
+			},
+			{
+				"insurance_company": "Grange",
+				"quote": "91"
+			}
+		],
+		"sr22": "21st Century, Affirmative, Carnegie Insurance, Dairyland, Esurance, Farmers, GEICO (from $48/month), The General (from $100/month), National General, Infinity, Kemper, Mendota, Progressive (from $8/month), Safeco, Titan, Victoria, Freedom National, Legacy, Alliance, Anchor, Reliant General, Robert Moreno, SCJ, Everest National, Personable, Stillwater, Workmen's, Aspire General, Acceptance, Foremost",
+		"rural_roads_in_poor_condition": "38%, #3",
+		"structurally_deficient_rural_bridges": "6%, #13",
+		"fatality_rate_on_rural_roads": "1%, #30",
+		"most_duis_rank": "12",
+		"most_moving_violations_rank": "34",
+		"most_popular_car": "Honda Civic",
+		"most_speeding_tickets_rank": "45",
+		"most_suspended_licenses_rank": "17"
+	},
+	"Colorado": {
+		"state": "Colorado",
+		"cheapest_car_insurance": [
+			{
+				"company": "State Farm",
+				"quote": "82"
+			},
+			{
+				"company": "Allstate",
+				"quote": "92"
+			},
+			{
+				"company": "Nationwide",
+				"quote": "128"
+			},
+			{
+				"company": "The General",
+				"quote": "147"
+			},
+			{
+				"company": "Travelers",
+				"quote": "167"
+			}
+		],
+		"best_car_insurance": [
+			{
+				"company": "American Family",
+				"score": "86",
+				"quote": "189"
+			},
+			{
+				"company": "Allstate",
+				"score": "91",
+				"quote": "95"
+			},
+			{
+				"company": "Nationwide",
+				"score": "83",
+				"quote": "130"
+			},
+			{
+				"company": "State Farm",
+				"score": "79",
+				"quote": "89"
+			},
+			{
+				"company": "Travelers",
+				"score": "85",
+				"quote": "168"
+			},
+			{
+				"company": "Liberty Mutual",
+				"score": "76",
+				"quote": "185"
+			}
+		],
+		"car_insurance": [
+			{
+				"city": "Denver",
+				"cheapest_carrier": "State Farm",
+				"quote": "119"
+			},
+			{
+				"city": "Colorado Springs",
+				"cheapest_carrier": "State Farm",
+				"quote": "105"
+			},
+			{
+				"city": "Aurora",
+				"cheapest_carrier": "State Farm",
+				"quote": "122"
+			},
+			{
+				"city": "Fort Collins",
+				"cheapest_carrier": "State Farm",
+				"quote": "86"
+			},
+			{
+				"city": "Arvada",
+				"cheapest_carrier": "Allstate",
+				"quote": "111"
+			}
+		],
+		"cheapest_car_insurance_gd": [
+			{
+				"insurance_company": "State Farm",
+				"quote": "87"
+			},
+			{
+				"insurance_company": "Allstate",
+				"quote": "91"
+			},
+			{
+				"insurance_company": "Nationwide",
+				"quote": "125"
+			},
+			{
+				"insurance_company": "The General",
+				"quote": "153"
+			},
+			{
+				"insurance_company": "Travelers",
+				"quote": "171"
+			}
+		],
+		"cheapest_car_insurance_dui": [
+			{
+				"insurance_company": "Acuity",
+				"quote": "28"
+			},
+			{
+				"insurance_company": "State Farm",
+				"quote": "49"
+			},
+			{
+				"insurance_company": "Colorado State Farm Bureau Mutual",
+				"quote": "52"
+			}
+		],
+		"cheapest_car_insurance_afa": [
+			{
+				"insurance_company": "Acuity",
+				"quote": "28"
+			},
+			{
+				"insurance_company": "USAA",
+				"quote": "35"
+			},
+			{
+				"insurance_company": "Grange",
+				"quote": "39"
+			}
+		],
+		"cheapest_car_insurance_sd": [
+			{
+				"insurance_company": "Acuity",
+				"quote": "35"
+			},
+			{
+				"insurance_company": "USAA",
+				"quote": "32"
+			},
+			{
+				"insurance_company": "Grange",
+				"quote": "33"
+			}
+		],
+		"cheapest_car_insurance_yd": [
+			{
+				"insurance_company": "USAA",
+				"quote": "25"
+			},
+			{
+				"insurance_company": "Acuity",
+				"quote": "27"
+			},
+			{
+				"insurance_company": "Grange",
+				"quote": "32"
+			},
+			{
+				"insurance_company": "Auto Owners",
+				"quote": "40"
+			},
+			{
+				"insurance_company": "National Farmers Union P&C",
+				"quote": "36"
+			}
+		],
+		"sr22": "Carnegie Insurance, Dairyland, Esurance, Farmers, GEICO (from $48/month), The General (from $100/month), National General, Mendota, Progressive (from $8/month), Safeco, Safeway, State Auto, Titan, Victoria, Ameriprise, Legacy, Foremost",
+		"rural_roads_in_poor_condition": "12%, #16",
+		"structurally_deficient_rural_bridges": "7%, #12",
+		"fatality_rate_on_rural_roads": "1%, #25",
+		"most_duis_rank": "11",
+		"most_moving_violations_rank": "12",
+		"most_popular_car": "Ford F-Series Pickup",
+		"most_speeding_tickets_rank": "13",
+		"most_suspended_licenses_rank": "16"
+	},
+	"Connecticut": {
+		"state": "Connecticut",
+		"cheapest_car_insurance": [
+			{
+				"company": "GEICO",
+				"quote": "87"
+			},
+			{
+				"company": "Allstate",
+				"quote": "106"
+			},
+			{
+				"company": "Travelers",
+				"quote": "154"
+			},
+			{
+				"company": "Nationwide",
+				"quote": "186"
+			},
+			{
+				"company": "Liberty Mutual",
+				"quote": "194"
+			}
+		],
+		"best_car_insurance": [
+			{
+				"company": "American Family",
+				"score": "91",
+				"quote": "192"
+			},
+			{
+				"company": "GEICO",
+				"score": "87",
+				"quote": "82"
+			},
+			{
+				"company": "Allstate",
+				"score": "86",
+				"quote": "111"
+			},
+			{
+				"company": "Nationwide",
+				"score": "85",
+				"quote": "187"
+			},
+			{
+				"company": "Travelers",
+				"score": "84",
+				"quote": "159"
+			},
+			{
+				"company": "Liberty Mutual",
+				"score": "83",
+				"quote": "189"
+			}
+		],
+		"car_insurance": [
+			{
+				"city": "Bridgeport",
+				"cheapest_carrier": "GEICO",
+				"quote": "134"
+			},
+			{
+				"city": "New Haven",
+				"cheapest_carrier": "GEICO",
+				"quote": "119"
+			},
+			{
+				"city": "Stamford",
+				"cheapest_carrier": "GEICO",
+				"quote": "99"
+			},
+			{
+				"city": "Hartford",
+				"cheapest_carrier": "GEICO",
+				"quote": "120"
+			},
+			{
+				"city": "Waterbury",
+				"cheapest_carrier": "GEICO",
+				"quote": "123"
+			}
+		],
+		"cheapest_car_insurance_gd": [
+			{
+				"insurance_company": "GEICO",
+				"quote": "84"
+			},
+			{
+				"insurance_company": "Allstate",
+				"quote": "111"
+			},
+			{
+				"insurance_company": "Travelers",
+				"quote": "159"
+			},
+			{
+				"insurance_company": "Nationwide",
+				"quote": "189"
+			},
+			{
+				"insurance_company": "Liberty Mutual",
+				"quote": "192"
+			}
+		],
+		"cheapest_car_insurance_dui": [
+			{
+				"insurance_company": "State Farm",
+				"quote": "62"
+			},
+			{
+				"insurance_company": "Progressive",
+				"quote": "88"
+			},
+			{
+				"insurance_company": "Travelers",
+				"quote": "96"
+			}
+		],
+		"cheapest_car_insurance_afa": [
+			{
+				"insurance_company": "Travelers",
+				"quote": "61"
+			},
+			{
+				"insurance_company": "State Farm",
+				"quote": "65"
+			},
+			{
+				"insurance_company": "USAA",
+				"quote": "83"
+			}
+		],
+		"cheapest_car_insurance_sd": [
+			{
+				"insurance_company": "USAA",
+				"quote": "65"
+			},
+			{
+				"insurance_company": "State Farm",
+				"quote": "62"
+			},
+			{
+				"insurance_company": "GEICO",
+				"quote": "62"
+			}
+		],
+		"cheapest_car_insurance_yd": [
+			{
+				"insurance_company": "Travelers",
+				"quote": "41"
+			},
+			{
+				"insurance_company": "USAA",
+				"quote": "49"
+			},
+			{
+				"insurance_company": "State Farm",
+				"quote": "49"
+			},
+			{
+				"insurance_company": "GEICO",
+				"quote": "63"
+			},
+			{
+				"insurance_company": "Progressive",
+				"quote": "78"
+			}
+		],
+		"sr22": "Dairyland, Esurance, Farmers, GEICO (from $48/month), The General (from $100/month), National General, Progressive (from $8/month), Safeco, Victoria, Foremost",
+		"rural_roads_in_poor_condition": "39%, #2",
+		"structurally_deficient_rural_bridges": "8%, #11",
+		"fatality_rate_on_rural_roads": "1%, #36",
+		"most_duis_rank": "33",
+		"most_moving_violations_rank": "37",
+		"most_popular_car": "Honda Accord",
+		"most_speeding_tickets_rank": "51",
+		"most_suspended_licenses_rank": "44"
+	},
+	"undefined": {
+		"rural_roads_in_poor_condition": "--, #--",
+		"structurally_deficient_rural_bridges": "--, #--",
+		"fatality_rate_on_rural_roads": "--, #--",
+		"most_duis_rank": "51",
+		"most_moving_violations_rank": "26",
+		"most_popular_car": "Nissan Altima",
+		"most_speeding_tickets_rank": "36",
+		"most_suspended_licenses_rank": "50"
+	},
+	"Delaware": {
+		"state": "Delaware",
+		"cheapest_car_insurance": [
+			{
+				"company": "Progressive",
+				"quote": "65"
+			},
+			{
+				"company": "State Farm",
+				"quote": "121"
+			},
+			{
+				"company": "Nationwide",
+				"quote": "156"
+			},
+			{
+				"company": "Allstate",
+				"quote": "167"
+			},
+			{
+				"company": "Travelers",
+				"quote": "186"
+			}
+		],
+		"best_car_insurance": [
+			{
+				"company": "American Family",
+				"score": "88",
+				"quote": "221"
+			},
+			{
+				"company": "Allstate",
+				"score": "89",
+				"quote": "163"
+			},
+			{
+				"company": "Nationwide",
+				"score": "86",
+				"quote": "160"
+			},
+			{
+				"company": "State Farm",
+				"score": "88",
+				"quote": "124"
+			},
+			{
+				"company": "Travelers",
+				"score": "78",
+				"quote": "194"
+			},
+			{
+				"company": "Liberty Mutual",
+				"score": "83",
+				"quote": "233"
+			},
+			{
+				"company": "Progressive",
+				"score": "75",
+				"quote": "59"
+			}
+		],
+		"car_insurance": [
+			{
+				"city": "Wilmington",
+				"cheapest_carrier": "State Farm",
+				"quote": "211"
+			},
+			{
+				"city": "Dover",
+				"cheapest_carrier": "State Farm",
+				"quote": "117"
+			},
+			{
+				"city": "Newark",
+				"cheapest_carrier": "State Farm",
+				"quote": "143"
+			},
+			{
+				"city": "Middletown",
+				"cheapest_carrier": "Nationwide",
+				"quote": "220"
+			},
+			{
+				"city": "Bear",
+				"cheapest_carrier": "Allstate",
+				"quote": "165"
+			}
+		],
+		"cheapest_car_insurance_gd": [
+			{
+				"insurance_company": "Progressive",
+				"quote": "57"
+			},
+			{
+				"insurance_company": "State Farm",
+				"quote": "122"
+			},
+			{
+				"insurance_company": "Nationwide",
+				"quote": "158"
+			},
+			{
+				"insurance_company": "Allstate",
+				"quote": "163"
+			},
+			{
+				"insurance_company": "Travelers",
+				"quote": "189"
+			}
+		],
+		"cheapest_car_insurance_dui": [
+			{
+				"insurance_company": "USAA",
+				"quote": "40"
+			},
+			{
+				"insurance_company": "Travelers",
+				"quote": "85"
+			},
+			{
+				"insurance_company": "Progressive",
+				"quote": "91"
+			}
+		],
+		"cheapest_car_insurance_afa": [
+			{
+				"insurance_company": "USAA",
+				"quote": "26"
+			},
+			{
+				"insurance_company": "Donegal Mutual",
+				"quote": "33"
+			},
+			{
+				"insurance_company": "Travelers",
+				"quote": "47"
+			}
+		],
+		"cheapest_car_insurance_sd": [
+			{
+				"insurance_company": "USAA",
+				"quote": "28"
+			},
+			{
+				"insurance_company": "GEICO",
+				"quote": "63"
+			},
+			{
+				"insurance_company": "National Grange",
+				"quote": "60"
+			}
+		],
+		"cheapest_car_insurance_yd": [
+			{
+				"insurance_company": "USAA",
+				"quote": "22"
+			},
+			{
+				"insurance_company": "GEICO",
+				"quote": "64"
+			},
+			{
+				"insurance_company": "National Grange",
+				"quote": "61"
+			}
+		],
+		"sr22": "Dairyland, Esurance, Farmers, GEICO (from $48/month), The General (from $100/month), National General, Progressive (from $8/month), Safeco, Titan, Ameriprise, Foremost",
+		"rural_roads_in_poor_condition": "6%, #22",
+		"structurally_deficient_rural_bridges": "6%, #13",
+		"fatality_rate_on_rural_roads": "1%, #15",
+		"most_duis_rank": "48",
+		"most_moving_violations_rank": "13",
+		"most_popular_car": "Honda Accord",
+		"most_speeding_tickets_rank": "10",
+		"most_suspended_licenses_rank": "41"
+	},
+	"Florida": {
+		"state": "Florida",
+		"cheapest_car_insurance": [
+			{
+				"company": "Progressive",
+				"quote": "67"
+			},
+			{
+				"company": "GEICO",
+				"quote": "70"
+			},
+			{
+				"company": "State Farm",
+				"quote": "129"
+			},
+			{
+				"company": "Mercury",
+				"quote": "154"
+			},
+			{
+				"company": "Direct Auto",
+				"quote": "162"
+			}
+		],
+		"best_car_insurance": [
+			{
+				"company": "American Family",
+				"score": "88",
+				"quote": "483"
+			},
+			{
+				"company": "GEICO",
+				"score": "91",
+				"quote": "70"
+			},
+			{
+				"company": "State Farm",
+				"score": "88",
+				"quote": "125"
+			},
+			{
+				"company": "Travelers",
+				"score": "86",
+				"quote": "158"
+			},
+			{
+				"company": "Mercury",
+				"score": "79",
+				"quote": "146"
+			},
+			{
+				"company": "Liberty Mutual",
+				"score": "77",
+				"quote": "169"
+			},
+			{
+				"company": "Progressive",
+				"score": "78",
+				"quote": "69"
+			}
+		],
+		"car_insurance": [
+			{
+				"city": "Jacksonville",
+				"cheapest_carrier": "Progressive",
+				"quote": "98"
+			},
+			{
+				"city": "Miami",
+				"cheapest_carrier": "Liberty Mutual",
+				"quote": "321"
+			},
+			{
+				"city": "Tampa",
+				"cheapest_carrier": "Progressive",
+				"quote": "224"
+			},
+			{
+				"city": "Orlando",
+				"cheapest_carrier": "GEICO",
+				"quote": "98"
+			},
+			{
+				"city": "Hialeah",
+				"cheapest_carrier": "Progressive",
+				"quote": "171"
+			}
+		],
+		"cheapest_car_insurance_gd": [
+			{
+				"insurance_company": "Progressive",
+				"quote": "65"
+			},
+			{
+				"insurance_company": "GEICO",
+				"quote": "64"
+			},
+			{
+				"insurance_company": "State Farm",
+				"quote": "125"
+			},
+			{
+				"insurance_company": "Mercury",
+				"quote": "146"
+			},
+			{
+				"insurance_company": "Direct Auto",
+				"quote": "158"
+			}
+		],
+		"cheapest_car_insurance_dui": [
+			{
+				"insurance_company": "USAA",
+				"quote": "70"
+			},
+			{
+				"insurance_company": "State Farm",
+				"quote": "97"
+			},
+			{
+				"insurance_company": "AIG",
+				"quote": "162"
+			}
+		],
+		"cheapest_car_insurance_afa": [
+			{
+				"insurance_company": "USAA",
+				"quote": "43"
+			},
+			{
+				"insurance_company": "State Farm",
+				"quote": "91"
+			},
+			{
+				"insurance_company": "AIG",
+				"quote": "136"
+			}
+		],
+		"cheapest_car_insurance_sd": [
+			{
+				"insurance_company": "USAA",
+				"quote": "42"
+			},
+			{
+				"insurance_company": "State Farm",
+				"quote": "91"
+			},
+			{
+				"insurance_company": "AIG",
+				"quote": "140"
+			}
+		],
+		"cheapest_car_insurance_yd": [
+			{
+				"insurance_company": "USAA",
+				"quote": "39"
+			},
+			{
+				"insurance_company": "GEICO",
+				"quote": "62"
+			},
+			{
+				"insurance_company": "State Farm",
+				"quote": "84"
+			},
+			{
+				"insurance_company": "MetLife",
+				"quote": "103"
+			},
+			{
+				"insurance_company": "Allstate",
+				"quote": "130"
+			}
+		],
+		"sr22": "Dairyland, Esurance, Farmers, GAINSCO, GEICO (from $48/month), The General (from $100/month), National General, Infinity, Mendota, Mercury (from $106/month), Progressive (from $8/month), Safeco, Titan, Victoria, Ameriprise, Farm Bureau Financial Services, Stillwater, Acceptance, Direct Auto (from $52/month), Foremost",
+		"rural_roads_in_poor_condition": "4%, #24",
+		"structurally_deficient_rural_bridges": "3%, #16",
+		"fatality_rate_on_rural_roads": "1%, #8",
+		"most_duis_rank": "50",
+		"most_moving_violations_rank": "43",
+		"most_popular_car": "Toyota Camry",
+		"most_speeding_tickets_rank": "47",
+		"most_suspended_licenses_rank": "34"
+	},
+	"Georgia": {
+		"state": "Georgia",
+		"cheapest_car_insurance": [
+			{
+				"company": "Progressive",
+				"quote": "100"
+			},
+			{
+				"company": "Allstate",
+				"quote": "113"
+			},
+			{
+				"company": "Travelers",
+				"quote": "108"
+			},
+			{
+				"company": "The General",
+				"quote": "147"
+			},
+			{
+				"company": "Nationwide",
+				"quote": "160"
+			}
+		],
+		"best_car_insurance": [
+			{
+				"company": "American Family",
+				"score": "91",
+				"quote": "170"
+			},
+			{
+				"company": "Allstate",
+				"score": "82",
+				"quote": "104"
+			},
+			{
+				"company": "Nationwide",
+				"score": "85",
+				"quote": "168"
+			},
+			{
+				"company": "Travelers",
+				"score": "85",
+				"quote": "109"
+			},
+			{
+				"company": "Mercury",
+				"score": "86",
+				"quote": "188"
+			},
+			{
+				"company": "Progressive",
+				"score": "76",
+				"quote": "95"
+			}
+		],
+		"car_insurance": [
+			{
+				"city": "Atlanta",
+				"cheapest_carrier": "Travelers",
+				"quote": "167"
+			},
+			{
+				"city": "Columbus",
+				"cheapest_carrier": "Progressive",
+				"quote": "116"
+			},
+			{
+				"city": "Savannah",
+				"cheapest_carrier": "Progressive",
+				"quote": "142"
+			},
+			{
+				"city": "Augusta",
+				"cheapest_carrier": "Progressive",
+				"quote": "113"
+			},
+			{
+				"city": "Roswell",
+				"cheapest_carrier": "Travelers",
+				"quote": "149"
+			}
+		],
+		"cheapest_car_insurance_gd": [
+			{
+				"insurance_company": "Georgia Farm Bureau",
+				"quote": "41"
+			},
+			{
+				"insurance_company": "USAA",
+				"quote": "51"
+			},
+			{
+				"insurance_company": "COUNTRY Financial",
+				"quote": "47"
+			},
+			{
+				"insurance_company": "Auto-owners",
+				"quote": "50"
+			},
+			{
+				"insurance_company": "State Farm",
+				"quote": "56"
+			}
+		],
+		"cheapest_car_insurance_dui": [
+			{
+				"insurance_company": "Georgia Farm Bureau",
+				"quote": "44"
+			},
+			{
+				"insurance_company": "USAA",
+				"quote": "53"
+			},
+			{
+				"insurance_company": "Auto-owners",
+				"quote": "61"
+			}
+		],
+		"cheapest_car_insurance_afa": [
+			{
+				"insurance_company": "Geogia Farm Bureau",
+				"quote": "42"
+			},
+			{
+				"insurance_company": "USAA",
+				"quote": "48"
+			},
+			{
+				"insurance_company": "Auto-owners",
+				"quote": "47"
+			}
+		],
+		"cheapest_car_insurance_sd": [
+			{
+				"insurance_company": "State Farm",
+				"quote": "65"
+			},
+			{
+				"insurance_company": "ALFA",
+				"quote": "65"
+			},
+			{
+				"insurance_company": "Georgia Farm Bureau",
+				"quote": "75"
+			}
+		],
+		"cheapest_car_insurance_yd": [
+			{
+				"insurance_company": "USAA",
+				"quote": "35"
+			},
+			{
+				"insurance_company": "COUNTRY Financial",
+				"quote": "37"
+			},
+			{
+				"insurance_company": "Georgia Farm Bureau",
+				"quote": "42"
+			},
+			{
+				"insurance_company": "Auto-owners",
+				"quote": "46"
+			},
+			{
+				"insurance_company": "GEICO",
+				"quote": "52"
+			}
+		],
+		"sr22": "Dairyland, Esurance, Farmers, GAINSCO, GEICO (from $48/month), The General (from $100/month), National General, Grange, Infinity, Mendota, Mercury (from $106/month), Progressive (from $8/month), SafeAuto, Safeco, Safeway, Titan, Victoria, Ameriprise, Farm Bureau Financial Services, Aggressive, Everest National, Acceptance, Direct Auto (from $52/month), Jupiter, Foremost",
+		"rural_roads_in_poor_condition": "1%, #27",
+		"structurally_deficient_rural_bridges": "6%, #13",
+		"fatality_rate_on_rural_roads": "1%, #21",
+		"most_duis_rank": "42",
+		"most_moving_violations_rank": "32",
+		"most_popular_car": "Honda Accord",
+		"most_speeding_tickets_rank": "28",
+		"most_suspended_licenses_rank": "49"
+	},
+	"Hawaii": {
+		"state": "Hawaii",
+		"cheapest_car_insurance": [
+			{
+				"company": "Progressive",
+				"quote": "45"
+			},
+			{
+				"company": "Allstate",
+				"quote": "49"
+			},
+			{
+				"company": "State Farm",
+				"quote": "55"
+			},
+			{
+				"company": "GEICO",
+				"quote": "66"
+			}
+		],
+		"best_car_insurance": [
+			{
+				"company": "GEICO",
+				"score": "92",
+				"quote": "67"
+			},
+			{
+				"company": "Allstate",
+				"score": "86",
+				"quote": "47"
+			},
+			{
+				"company": "State Farm",
+				"score": "84",
+				"quote": "56"
+			},
+			{
+				"company": "Progressive",
+				"score": "78",
+				"quote": "42"
+			}
+		],
+		"car_insurance": [
+			{
+				"city": "Honolulu",
+				"cheapest_carrier": "Allstate",
+				"quote": "43"
+			},
+			{
+				"city": "Pearl City",
+				"cheapest_carrier": "Progressive",
+				"quote": "48"
+			},
+			{
+				"city": "Hilo",
+				"cheapest_carrier": "Progressive",
+				"quote": "48"
+			},
+			{
+				"city": "Waipahu",
+				"cheapest_carrier": "Progressive",
+				"quote": "50"
+			},
+			{
+				"city": "Kaneohe",
+				"cheapest_carrier": "Progressive",
+				"quote": "50"
+			}
+		],
+		"cheapest_car_insurance_gd": [
+			{
+				"insurance_company": "Progressive",
+				"quote": "49"
+			},
+			{
+				"insurance_company": "Allstate",
+				"quote": "45"
+			},
+			{
+				"insurance_company": "State Farm",
+				"quote": "49"
+			},
+			{
+				"insurance_company": "GEICO",
+				"quote": "67"
+			}
+		],
+		"cheapest_car_insurance_dui": [
+			{
+				"insurance_company": "GEICO",
+				"quote": "32"
+			},
+			{
+				"insurance_company": "State Farm",
+				"quote": "46"
+			},
+			{
+				"insurance_company": "USAA",
+				"quote": "55"
+			}
+		],
+		"cheapest_car_insurance_afa": [
+			{
+				"insurance_company": "GEICO",
+				"quote": "22"
+			},
+			{
+				"insurance_company": "USAA",
+				"quote": "31"
+			},
+			{
+				"insurance_company": "Island Insurance Group",
+				"quote": "53"
+			}
+		],
+		"cheapest_car_insurance_sd": [
+			{
+				"insurance_company": "USAA",
+				"quote": "32"
+			},
+			{
+				"insurance_company": "State Farm",
+				"quote": "47"
+			}
+		],
+		"cheapest_car_insurance_yd": [
+			{
+				"insurance_company": "USAA",
+				"quote": "27"
+			},
+			{
+				"insurance_company": "Island Insurance Group",
+				"quote": "34"
+			}
+		],
+		"sr22": "21st Century, Dairyland, Esurance, Farmers, First Hawaii, GEICO (from $48/month), The General (from $100/month), National General, Progressive (from $8/month), Safeco, Foremost",
+		"rural_roads_in_poor_condition": "28%, #4",
+		"structurally_deficient_rural_bridges": "8%, #11",
+		"fatality_rate_on_rural_roads": "1%, #32",
+		"most_duis_rank": "21",
+		"most_moving_violations_rank": "16",
+		"most_popular_car": "Toyota Camry",
+		"most_speeding_tickets_rank": "16",
+		"most_suspended_licenses_rank": "29"
+	},
+	"Iowa": {
+		"state": "Iowa",
+		"cheapest_car_insurance": [
+			{
+				"company": "Progressive",
+				"quote": "18"
+			},
+			{
+				"company": "State Farm",
+				"quote": "31"
+			},
+			{
+				"company": "Allstate",
+				"quote": "38"
+			},
+			{
+				"company": "Nationwide",
+				"quote": "67"
+			},
+			{
+				"company": "GEICO",
+				"quote": "69"
+			}
+		],
+		"best_car_insurance": [
+			{
+				"company": "American Family",
+				"score": "84",
+				"quote": "88"
+			},
+			{
+				"company": "GEICO",
+				"score": "91",
+				"quote": "68"
+			},
+			{
+				"company": "Allstate",
+				"score": "85",
+				"quote": "41"
+			},
+			{
+				"company": "Nationwide",
+				"score": "83",
+				"quote": "61"
+			},
+			{
+				"company": "State Farm",
+				"score": "87",
+				"quote": "25"
+			},
+			{
+				"company": "Liberty Mutual",
+				"score": "81",
+				"quote": "123"
+			},
+			{
+				"company": "Progressive",
+				"score": "78",
+				"quote": "15"
+			}
+		],
+		"car_insurance": [
+			{
+				"city": "Des Moines",
+				"cheapest_carrier": "Progressive",
+				"quote": "25"
+			},
+			{
+				"city": "Cedar Rapids",
+				"cheapest_carrier": "Progressive",
+				"quote": "27"
+			},
+			{
+				"city": "Davenport",
+				"cheapest_carrier": "Progressive",
+				"quote": "27"
+			},
+			{
+				"city": "Sioux City",
+				"cheapest_carrier": "Progressive",
+				"quote": "28"
+			},
+			{
+				"city": "Iowa City",
+				"cheapest_carrier": "Progressive",
+				"quote": "33"
+			}
+		],
+		"cheapest_car_insurance_gd": [
+			{
+				"insurance_company": "Progressive",
+				"quote": "14"
+			},
+			{
+				"insurance_company": "State Farm",
+				"quote": "32"
+			},
+			{
+				"insurance_company": "Allstate",
+				"quote": "41"
+			},
+			{
+				"insurance_company": "Nationwide",
+				"quote": "63"
+			},
+			{
+				"insurance_company": "GEICO",
+				"quote": "71"
+			}
+		],
+		"cheapest_car_insurance_dui": [
+			{
+				"insurance_company": "Western National",
+				"quote": "17"
+			},
+			{
+				"insurance_company": "State Farm",
+				"quote": "25"
+			},
+			{
+				"insurance_company": "USAA",
+				"quote": "26"
+			}
+		],
+		"cheapest_car_insurance_afa": [
+			{
+				"insurance_company": "Western National",
+				"quote": "18"
+			},
+			{
+				"insurance_company": "USAA",
+				"quote": "25"
+			},
+			{
+				"insurance_company": "Pekin Insurance",
+				"quote": "25"
+			}
+		],
+		"cheapest_car_insurance_sd": [
+			{
+				"insurance_company": "Western National",
+				"quote": "19"
+			},
+			{
+				"insurance_company": "IMT Insurance",
+				"quote": "18"
+			},
+			{
+				"insurance_company": "USAA",
+				"quote": "16"
+			}
+		],
+		"cheapest_car_insurance_yd": [
+			{
+				"insurance_company": "USAA",
+				"quote": "14"
+			},
+			{
+				"insurance_company": "IMT Insurance",
+				"quote": "18"
+			},
+			{
+				"insurance_company": "Western National",
+				"quote": "18"
+			}
+		],
+		"sr22": "Dairyland, Esurance, Farmers, GEICO (from $48/month), The General (from $100/month), National General, Grange, Grinnell Mutual, Mendota, North Star, Pekin, Progressive (from $8/month), Safeco, Victoria, West Bend Mutual, Ameriprise, Foremost",
+		"rural_roads_in_poor_condition": "15%, #13",
+		"structurally_deficient_rural_bridges": "22%, #1",
+		"fatality_rate_on_rural_roads": "1%, #29",
+		"most_duis_rank": "10",
+		"most_moving_violations_rank": "4",
+		"most_popular_car": "Chevrolet Impala",
+		"most_speeding_tickets_rank": "2",
+		"most_suspended_licenses_rank": "8"
+	},
+	"Idaho": {
+		"state": "Idaho",
+		"cheapest_car_insurance": [
+			{
+				"company": "Progressive",
+				"quote": "27"
+			},
+			{
+				"company": "Allstate",
+				"quote": "35"
+			},
+			{
+				"company": "State Farm",
+				"quote": "42"
+			},
+			{
+				"company": "GEICO",
+				"quote": "70"
+			},
+			{
+				"company": "Travelers",
+				"quote": "74"
+			}
+		],
+		"best_car_insurance": [
+			{
+				"company": "American Family",
+				"score": "88",
+				"quote": "160"
+			},
+			{
+				"company": "GEICO",
+				"score": "92",
+				"quote": "76"
+			},
+			{
+				"company": "Allstate",
+				"score": "86",
+				"quote": "36"
+			},
+			{
+				"company": "Nationwide",
+				"score": "84",
+				"quote": "103"
+			},
+			{
+				"company": "State Farm",
+				"score": "78",
+				"quote": "40"
+			},
+			{
+				"company": "Travelers",
+				"score": "85",
+				"quote": "72"
+			},
+			{
+				"company": "Liberty Mutual",
+				"score": "80",
+				"quote": "149"
+			},
+			{
+				"company": "Progressive",
+				"score": "77",
+				"quote": "31"
+			}
+		],
+		"car_insurance": [
+			{
+				"city": "Boise",
+				"cheapest_carrier": "State Farm",
+				"quote": "64"
+			},
+			{
+				"city": "Nampa",
+				"cheapest_carrier": "State Farm",
+				"quote": "67"
+			},
+			{
+				"city": "Meridian",
+				"cheapest_carrier": "State Farm",
+				"quote": "67"
+			},
+			{
+				"city": "Idaho Falls",
+				"cheapest_carrier": "Allstate",
+				"quote": "50"
+			},
+			{
+				"city": "Pocatello",
+				"cheapest_carrier": "Allstate",
+				"quote": "42"
+			}
+		],
+		"cheapest_car_insurance_gd": [
+			{
+				"insurance_company": "Progressive",
+				"quote": "22"
+			},
+			{
+				"insurance_company": "Allstate",
+				"quote": "43"
+			},
+			{
+				"insurance_company": "State Farm",
+				"quote": "43"
+			},
+			{
+				"insurance_company": "GEICO",
+				"quote": "73"
+			},
+			{
+				"insurance_company": "Travelers",
+				"quote": "71"
+			}
+		],
+		"cheapest_car_insurance_dui": [
+			{
+				"insurance_company": "State Farm",
+				"quote": "27"
+			},
+			{
+				"insurance_company": "American National",
+				"quote": "32"
+			},
+			{
+				"insurance_company": "USAA",
+				"quote": "34"
+			}
+		],
+		"cheapest_car_insurance_afa": [
+			{
+				"insurance_company": "American National",
+				"quote": "28"
+			},
+			{
+				"insurance_company": "USAA",
+				"quote": "25"
+			},
+			{
+				"insurance_company": "Grange",
+				"quote": "29"
+			}
+		],
+		"cheapest_car_insurance_sd": [
+			{
+				"insurance_company": "USAA",
+				"quote": "15"
+			},
+			{
+				"insurance_company": "American National",
+				"quote": "20"
+			},
+			{
+				"insurance_company": "Grange",
+				"quote": "24"
+			}
+		],
+		"cheapest_car_insurance_yd": [
+			{
+				"insurance_company": "USAA",
+				"quote": "16"
+			},
+			{
+				"insurance_company": "American National",
+				"quote": "18"
+			},
+			{
+				"insurance_company": "Grange",
+				"quote": "24"
+			}
+		],
+		"sr22": "Dairyland, Esurance, Farmers, GEICO (from $48/month), The General (from $100/month), National General, Progressive (from $8/month), Safeco, Victoria, Stillwater, Foremost",
+		"rural_roads_in_poor_condition": "14%, #14",
+		"structurally_deficient_rural_bridges": "10%, #9",
+		"fatality_rate_on_rural_roads": "1%, #13",
+		"most_duis_rank": "9",
+		"most_moving_violations_rank": "5",
+		"most_popular_car": "Ford F-Series Pickup",
+		"most_speeding_tickets_rank": "9",
+		"most_suspended_licenses_rank": "6"
+	},
+	"Illinois": {
+		"state": "Illinois",
+		"cheapest_car_insurance": [
+			{
+				"company": "Progressive",
+				"quote": "42"
+			},
+			{
+				"company": "Allstate",
+				"quote": "61"
+			},
+			{
+				"company": "State Farm",
+				"quote": "65"
+			},
+			{
+				"company": "Nationwide",
+				"quote": "90"
+			},
+			{
+				"company": "Travelers",
+				"quote": "91"
+			}
+		],
+		"best_car_insurance": [
+			{
+				"company": "American Family",
+				"score": "90",
+				"quote": "130"
+			},
+			{
+				"company": "Allstate",
+				"score": "90",
+				"quote": "60"
+			},
+			{
+				"company": "Nationwide",
+				"score": "86",
+				"quote": "88"
+			},
+			{
+				"company": "State Farm",
+				"score": "84",
+				"quote": "71"
+			},
+			{
+				"company": "Travelers",
+				"score": "76",
+				"quote": "89"
+			},
+			{
+				"company": "Liberty Mutual",
+				"score": "85",
+				"quote": "149"
+			},
+			{
+				"company": "Progressive",
+				"score": "75",
+				"quote": "41"
+			}
+		],
+		"car_insurance": [
+			{
+				"city": "Chicago",
+				"cheapest_carrier": "Progressive",
+				"quote": "44"
+			},
+			{
+				"city": "Aurora",
+				"cheapest_carrier": "Progressive",
+				"quote": "50"
+			},
+			{
+				"city": "Rockford",
+				"cheapest_carrier": "Progressive",
+				"quote": "62"
+			},
+			{
+				"city": "Joliet",
+				"cheapest_carrier": "Nationwide",
+				"quote": "104"
+			},
+			{
+				"city": "Naperville",
+				"cheapest_carrier": "State Farm",
+				"quote": "84"
+			}
+		],
+		"cheapest_car_insurance_gd": [
+			{
+				"insurance_company": "Progressive",
+				"quote": "39"
+			},
+			{
+				"insurance_company": "Allstate",
+				"quote": "63"
+			},
+			{
+				"insurance_company": "State Farm",
+				"quote": "70"
+			},
+			{
+				"insurance_company": "Nationwide",
+				"quote": "87"
+			},
+			{
+				"insurance_company": "Travelers",
+				"quote": "90"
+			}
+		],
+		"cheapest_car_insurance_dui": [
+			{
+				"insurance_company": "State Farm",
+				"quote": "45"
+			},
+			{
+				"insurance_company": "Grange",
+				"quote": "47"
+			},
+			{
+				"insurance_company": "COUNTRY Financial",
+				"quote": "43"
+			}
+		],
+		"cheapest_car_insurance_afa": [
+			{
+				"insurance_company": "Pekin Insurance",
+				"quote": "43"
+			},
+			{
+				"insurance_company": "Erie",
+				"quote": "50"
+			},
+			{
+				"insurance_company": "State Farm",
+				"quote": "51"
+			}
+		],
+		"cheapest_car_insurance_sd": [
+			{
+				"insurance_company": "Erie",
+				"quote": "35"
+			},
+			{
+				"insurance_company": "Pekin Insurance",
+				"quote": "44"
+			},
+			{
+				"insurance_company": "State Farm",
+				"quote": "38"
+			}
+		],
+		"cheapest_car_insurance_yd": [
+			{
+				"insurance_company": "Pekin Insurance",
+				"quote": "35"
+			},
+			{
+				"insurance_company": "Erie",
+				"quote": "38"
+			},
+			{
+				"insurance_company": "Grange",
+				"quote": "39"
+			},
+			{
+				"insurance_company": "State Farm",
+				"quote": "38"
+			},
+			{
+				"insurance_company": "COUNTRY Financial",
+				"quote": "42"
+			}
+		],
+		"sr22": "Affirmative, Consumers Insurance, Dairyland, Elephant, Esurance, Farmers, Founders, GEICO (from $48/month), The General (from $100/month), National General, Grange, Grinnell Mutual, Hallmark, Mendota, Mercury (from $106/month), Pekin, Progressive (from $8/month), SafeAuto, Safeco, Safeway, State Auto, Titan, Victoria, West Bend Mutual, Ameriprise, United Auto, Stillwater, Acceptance, Direct Auto (from $52/month), Foremost",
+		"rural_roads_in_poor_condition": "3%, #25",
+		"structurally_deficient_rural_bridges": "8%, #11",
+		"fatality_rate_on_rural_roads": "1%, #30",
+		"most_duis_rank": "47",
+		"most_moving_violations_rank": "41",
+		"most_popular_car": "Toyota Camry",
+		"most_speeding_tickets_rank": "38",
+		"most_suspended_licenses_rank": "30"
+	},
+	"Indiana": {
+		"state": "Indiana",
+		"cheapest_car_insurance": [
+			{
+				"company": "Progressive",
+				"quote": "20"
+			},
+			{
+				"company": "State Farm",
+				"quote": "48"
+			},
+			{
+				"company": "Allstate",
+				"quote": "90"
+			},
+			{
+				"company": "Travelers",
+				"quote": "98"
+			},
+			{
+				"company": "Nationwide",
+				"quote": "103"
+			}
+		],
+		"best_car_insurance": [
+			{
+				"company": "American Family",
+				"score": "84",
+				"quote": "147"
+			},
+			{
+				"company": "Allstate",
+				"score": "86",
+				"quote": "91"
+			},
+			{
+				"company": "Nationwide",
+				"score": "84",
+				"quote": "107"
+			},
+			{
+				"company": "State Farm",
+				"score": "82",
+				"quote": "50"
+			},
+			{
+				"company": "Travelers",
+				"score": "79",
+				"quote": "97"
+			},
+			{
+				"company": "Liberty Mutual",
+				"score": "76",
+				"quote": "128"
+			},
+			{
+				"company": "Progressive",
+				"score": "78",
+				"quote": "25"
+			}
+		],
+		"car_insurance": [
+			{
+				"city": "Indianapolis",
+				"cheapest_carrier": "Progressive",
+				"quote": "50"
+			},
+			{
+				"city": "Fort Wayne",
+				"cheapest_carrier": "Progressive",
+				"quote": "40"
+			},
+			{
+				"city": "Evansville",
+				"cheapest_carrier": "Progressive",
+				"quote": "41"
+			},
+			{
+				"city": "South Bend",
+				"cheapest_carrier": "Progressive",
+				"quote": "36"
+			},
+			{
+				"city": "Carmel",
+				"cheapest_carrier": "Progressive",
+				"quote": "32"
+			}
+		],
+		"cheapest_car_insurance_gd": [
+			{
+				"insurance_company": "Progressive",
+				"quote": "19"
+			},
+			{
+				"insurance_company": "State Farm",
+				"quote": "51"
+			},
+			{
+				"insurance_company": "Allstate",
+				"quote": "83"
+			},
+			{
+				"insurance_company": "Travelers",
+				"quote": "97"
+			},
+			{
+				"insurance_company": "Nationwide",
+				"quote": "107"
+			}
+		],
+		"cheapest_car_insurance_dui": [
+			{
+				"insurance_company": "State Farm",
+				"quote": "30"
+			},
+			{
+				"insurance_company": "Indiana Farmers Mutual",
+				"quote": "30"
+			},
+			{
+				"insurance_company": "Erie",
+				"quote": "38"
+			}
+		],
+		"cheapest_car_insurance_afa": [
+			{
+				"insurance_company": "Buckeye",
+				"quote": "16"
+			},
+			{
+				"insurance_company": "Erie",
+				"quote": "24"
+			},
+			{
+				"insurance_company": "Celina Insurance",
+				"quote": "32"
+			}
+		],
+		"cheapest_car_insurance_sd": [
+			{
+				"insurance_company": "Erie",
+				"quote": "20"
+			},
+			{
+				"insurance_company": "USAA",
+				"quote": "26"
+			},
+			{
+				"insurance_company": "Buckeye",
+				"quote": "24"
+			}
+		],
+		"cheapest_car_insurance_yd": [
+			{
+				"insurance_company": "Buckeye",
+				"quote": "20"
+			},
+			{
+				"insurance_company": "Erie",
+				"quote": "24"
+			},
+			{
+				"insurance_company": "Celina Insurance",
+				"quote": "23"
+			},
+			{
+				"insurance_company": "Cincinnati",
+				"quote": "28"
+			},
+			{
+				"insurance_company": "USAA",
+				"quote": "42"
+			}
+		],
+		"sr22": "Affirmative, Consumers Insurance, Dairyland, Elephant, Esurance, Farmers, Founders, GEICO (from $48/month), The General (from $100/month), National General, Grange, Grinnell Mutual, Hallmark, Mendota, Pekin, Progressive (from $8/month), SafeAuto, Safeco, State Auto, Titan, Victoria, West Bend Mutual, Ameriprise, United Auto, Stillwater, Acceptance, Foremost",
+		"rural_roads_in_poor_condition": "8%, #20",
+		"structurally_deficient_rural_bridges": "8%, #11",
+		"fatality_rate_on_rural_roads": "1%, #27",
+		"most_duis_rank": "14",
+		"most_moving_violations_rank": "24",
+		"most_popular_car": "Chevrolet Malibu",
+		"most_speeding_tickets_rank": "22",
+		"most_suspended_licenses_rank": "2"
+	},
+	"Kansas": {
+		"state": "Kansas",
+		"cheapest_car_insurance": [
+			{
+				"company": "Progressive",
+				"quote": "26"
+			},
+			{
+				"company": "State Farm",
+				"quote": "53"
+			},
+			{
+				"company": "Allstate",
+				"quote": "49"
+			},
+			{
+				"company": "GEICO",
+				"quote": "75"
+			},
+			{
+				"company": "Nationwide",
+				"quote": "76"
+			}
+		],
+		"best_car_insurance": [
+			{
+				"company": "American Family",
+				"score": "83",
+				"quote": "127"
+			},
+			{
+				"company": "GEICO",
+				"score": "88",
+				"quote": "72"
+			},
+			{
+				"company": "Allstate",
+				"score": "83",
+				"quote": "52"
+			},
+			{
+				"company": "Nationwide",
+				"score": "87",
+				"quote": "76"
+			},
+			{
+				"company": "State Farm",
+				"score": "79",
+				"quote": "45"
+			},
+			{
+				"company": "Travelers",
+				"score": "77",
+				"quote": "106"
+			},
+			{
+				"company": "Liberty Mutual",
+				"score": "84",
+				"quote": "203"
+			},
+			{
+				"company": "Progressive",
+				"score": "79",
+				"quote": "33"
+			}
+		],
+		"car_insurance": [
+			{
+				"city": "Wichita",
+				"cheapest_carrier": "Allstate",
+				"quote": "55"
+			},
+			{
+				"city": "Kansas City",
+				"cheapest_carrier": "State Farm",
+				"quote": "77"
+			},
+			{
+				"city": "Olathe",
+				"cheapest_carrier": "Allstate",
+				"quote": "52"
+			},
+			{
+				"city": "Topeka",
+				"cheapest_carrier": "Allstate",
+				"quote": "45"
+			},
+			{
+				"city": "Lawrence",
+				"cheapest_carrier": "Allstate",
+				"quote": "56"
+			}
+		],
+		"cheapest_car_insurance_gd": [
+			{
+				"insurance_company": "Progressive",
+				"quote": "34"
+			},
+			{
+				"insurance_company": "State Farm",
+				"quote": "46"
+			},
+			{
+				"insurance_company": "Allstate",
+				"quote": "48"
+			},
+			{
+				"insurance_company": "GEICO",
+				"quote": "79"
+			},
+			{
+				"insurance_company": "Nationwide",
+				"quote": "79"
+			}
+		],
+		"cheapest_car_insurance_dui": [
+			{
+				"insurance_company": "American Family",
+				"quote": "35"
+			},
+			{
+				"insurance_company": "State Farm",
+				"quote": "42"
+			},
+			{
+				"insurance_company": "Progressive",
+				"quote": "35"
+			}
+		],
+		"cheapest_car_insurance_afa": [
+			{
+				"insurance_company": "USAA",
+				"quote": "30"
+			},
+			{
+				"insurance_company": "State Farm",
+				"quote": "46"
+			},
+			{
+				"insurance_company": "Alied",
+				"quote": "43"
+			}
+		],
+		"cheapest_car_insurance_sd": [
+			{
+				"insurance_company": "USAA",
+				"quote": "30"
+			},
+			{
+				"insurance_company": "American Family",
+				"quote": "36"
+			},
+			{
+				"insurance_company": "Auto Owners",
+				"quote": "30"
+			}
+		],
+		"cheapest_car_insurance_yd": [
+			{
+				"insurance_company": "USAA",
+				"quote": "17"
+			},
+			{
+				"insurance_company": "Auto Owners",
+				"quote": "22"
+			},
+			{
+				"insurance_company": "Farm Bureau Financial",
+				"quote": "33"
+			}
+		],
+		"sr22": "Dairyland, Esurance, Farmers, GEICO (from $48/month), The General (from $100/month), National General, North Star, Progressive (from $8/month), SafeAuto, Safeco, West Bend Mutual, Ameriprise, Foremost",
+		"rural_roads_in_poor_condition": "9%, #19",
+		"structurally_deficient_rural_bridges": "9%, #10",
+		"fatality_rate_on_rural_roads": "1%, #23",
+		"most_duis_rank": "15",
+		"most_moving_violations_rank": "21",
+		"most_popular_car": "Ford F-Series Pickup",
+		"most_speeding_tickets_rank": "12",
+		"most_suspended_licenses_rank": "5"
+	},
+	"Kentucky": {
+		"state": "Kentucky",
+		"cheapest_car_insurance": [
+			{
+				"company": "Progressive",
+				"quote": "42"
+			},
+			{
+				"company": "State Farm",
+				"quote": "84"
+			},
+			{
+				"company": "Allstate",
+				"quote": "114"
+			},
+			{
+				"company": "Travelers",
+				"quote": "143"
+			},
+			{
+				"company": "The General",
+				"quote": "190"
+			}
+		],
+		"best_car_insurance": [
+			{
+				"company": "American Family",
+				"score": "85",
+				"quote": "297"
+			},
+			{
+				"company": "Allstate",
+				"score": "81",
+				"quote": "111"
+			},
+			{
+				"company": "State Farm",
+				"score": "79",
+				"quote": "81"
+			},
+			{
+				"company": "Travelers",
+				"score": "78",
+				"quote": "145"
+			},
+			{
+				"company": "Liberty Mutual",
+				"score": "75",
+				"quote": "212"
+			},
+			{
+				"company": "Progressive",
+				"score": "81",
+				"quote": "41"
+			}
+		],
+		"car_insurance": [
+			{
+				"city": "Louisville",
+				"cheapest_carrier": "Progressive",
+				"quote": "128"
+			},
+			{
+				"city": "Bowling Green",
+				"cheapest_carrier": "Progressive",
+				"quote": "73"
+			},
+			{
+				"city": "Owensboro",
+				"cheapest_carrier": "Progressive",
+				"quote": "77"
+			},
+			{
+				"city": "Covington",
+				"cheapest_carrier": "Progressive",
+				"quote": "83"
+			},
+			{
+				"city": "Richmond",
+				"cheapest_carrier": "Progressive",
+				"quote": "82"
+			}
+		],
+		"cheapest_car_insurance_gd": [
+			{
+				"insurance_company": "Progressive",
+				"quote": "37"
+			},
+			{
+				"insurance_company": "State Farm",
+				"quote": "82"
+			},
+			{
+				"insurance_company": "Allstate",
+				"quote": "109"
+			},
+			{
+				"insurance_company": "Travelers",
+				"quote": "139"
+			},
+			{
+				"insurance_company": "The General",
+				"quote": "185"
+			}
+		],
+		"cheapest_car_insurance_dui": [
+			{
+				"insurance_company": "State Farm",
+				"quote": "46"
+			},
+			{
+				"insurance_company": "USAA",
+				"quote": "55"
+			},
+			{
+				"insurance_company": "Kentucky Farm Bureau",
+				"quote": "55"
+			},
+			{
+				"insurance_company": "Cincinatti",
+				"quote": "82"
+			},
+			{
+				"insurance_company": "Progressive",
+				"quote": "96"
+			}
+		],
+		"cheapest_car_insurance_afa": [
+			{
+				"insurance_company": "Kentucky Insurance Bureau",
+				"quote": "45"
+			},
+			{
+				"insurance_company": "USAA",
+				"quote": "46"
+			},
+			{
+				"insurance_company": "State Farm",
+				"quote": "56"
+			}
+		],
+		"cheapest_car_insurance_sd": [
+			{
+				"insurance_company": "Kentucky Farm Bureau",
+				"quote": "33"
+			},
+			{
+				"insurance_company": "Cincinatti",
+				"quote": "33"
+			},
+			{
+				"insurance_company": "USAA",
+				"quote": "41"
+			}
+		],
+		"cheapest_car_insurance_yd": [
+			{
+				"insurance_company": "GEICO",
+				"quote": "56"
+			},
+			{
+				"insurance_company": "USAA",
+				"quote": "68"
+			},
+			{
+				"insurance_company": "Allstate",
+				"quote": "75"
+			}
+		],
+		"sr22": "Dairyland, Esurance, Farmers, GEICO (from $48/month), The General (from $100/month), National General, Grange, Hallmark, Progressive (from $8/month), SafeAuto, Safeco, Victoria, West Bend Mutual, Ameriprise, Farm Bureau Financial Services, Foremost",
+		"rural_roads_in_poor_condition": "5%, #23",
+		"structurally_deficient_rural_bridges": "8%, #11",
+		"fatality_rate_on_rural_roads": "2%, #4",
+		"most_duis_rank": "22",
+		"most_moving_violations_rank": "50",
+		"most_popular_car": "Ford F-Series Pickup",
+		"most_speeding_tickets_rank": "49",
+		"most_suspended_licenses_rank": "47"
+	},
+	"Louisiana": {
+		"state": "Louisiana",
+		"cheapest_car_insurance": [
+			{
+				"company": "Allstate",
+				"quote": "145"
+			},
+			{
+				"company": "State Farm",
+				"quote": "142"
+			},
+			{
+				"company": "Progressive",
+				"quote": "147"
+			},
+			{
+				"company": "GEICO",
+				"quote": "144"
+			},
+			{
+				"company": "The General",
+				"quote": "214"
+			}
+		],
+		"best_car_insurance": [
+			{
+				"company": "American Family",
+				"score": "92",
+				"quote": "461"
+			},
+			{
+				"company": "GEICO",
+				"score": "87",
+				"quote": "145"
+			},
+			{
+				"company": "Allstate",
+				"score": "90",
+				"quote": "138"
+			},
+			{
+				"company": "State Farm",
+				"score": "78",
+				"quote": "140"
+			},
+			{
+				"company": "Liberty Mutual",
+				"score": "81",
+				"quote": "297"
+			},
+			{
+				"company": "Progressive",
+				"score": "78",
+				"quote": "152"
+			}
+		],
+		"car_insurance": [
+			{
+				"city": "New Orleans",
+				"cheapest_carrier": "State Farm",
+				"quote": "279"
+			},
+			{
+				"city": "Baton Rouge",
+				"cheapest_carrier": "State Farm",
+				"quote": "146"
+			},
+			{
+				"city": "Shreveport",
+				"cheapest_carrier": "Allstate",
+				"quote": "144"
+			},
+			{
+				"city": "Metairie",
+				"cheapest_carrier": "Allstate",
+				"quote": "169"
+			},
+			{
+				"city": "Lafayette",
+				"cheapest_carrier": "State Farm",
+				"quote": "212"
+			}
+		],
+		"cheapest_car_insurance_gd": [
+			{
+				"insurance_company": "Allstate",
+				"quote": "142"
+			},
+			{
+				"insurance_company": "State Farm",
+				"quote": "141"
+			},
+			{
+				"insurance_company": "Progressive",
+				"quote": "146"
+			},
+			{
+				"insurance_company": "GEICO",
+				"quote": "147"
+			},
+			{
+				"insurance_company": "The General",
+				"quote": "217"
+			}
+		],
+		"cheapest_car_insurance_dui": [
+			{
+				"insurance_company": "Southern Farm Bureau",
+				"quote": "79"
+			},
+			{
+				"insurance_company": "State Farm",
+				"quote": "89"
+			},
+			{
+				"insurance_company": "USAA",
+				"quote": "99"
+			}
+		],
+		"cheapest_car_insurance_afa": [
+			{
+				"insurance_company": "USAA",
+				"quote": "97"
+			},
+			{
+				"insurance_company": "State Farm",
+				"quote": "94"
+			},
+			{
+				"insurance_company": "Allstate",
+				"quote": "108"
+			}
+		],
+		"cheapest_car_insurance_sd": [
+			{
+				"insurance_company": "USAA",
+				"quote": "77"
+			},
+			{
+				"insurance_company": "Southern Farm Bureau",
+				"quote": "71"
+			},
+			{
+				"insurance_company": "State Farm",
+				"quote": "90"
+			}
+		],
+		"cheapest_car_insurance_yd": [
+			{
+				"insurance_company": "GEICO",
+				"quote": "53"
+			},
+			{
+				"insurance_company": "USAA",
+				"quote": "59"
+			},
+			{
+				"insurance_company": "Allstate",
+				"quote": "68"
+			}
+		],
+		"sr22": "Affirmative, Dairyland, Esurance, Farmers, GEICO (from $48/month), The General (from $100/month), National General, Progressive (from $8/month), SafeAuto, Safeco, Safeway, Farm Bureau Financial Services, Direct Auto (from $52/month), Foremost",
+		"rural_roads_in_poor_condition": "18%, #11",
+		"structurally_deficient_rural_bridges": "15%, #5",
+		"fatality_rate_on_rural_roads": "2%, #6",
+		"most_duis_rank": "37",
+		"most_moving_violations_rank": "39",
+		"most_popular_car": "Ford F-Series Pickup",
+		"most_speeding_tickets_rank": "44",
+		"most_suspended_licenses_rank": "31"
+	},
+	"Massachusetts": {
+		"state": "Massachusetts",
+		"cheapest_car_insurance": [
+			{
+				"company": "Allstate",
+				"quote": "72"
+			},
+			{
+				"company": "GEICO",
+				"quote": "91"
+			},
+			{
+				"company": "Liberty Mutual",
+				"quote": "152"
+			},
+			{
+				"company": "Travelers",
+				"quote": "170"
+			}
+		],
+		"best_car_insurance": [
+			{
+				"company": "GEICO",
+				"score": "90",
+				"quote": "90"
+			},
+			{
+				"company": "Allstate",
+				"score": "84",
+				"quote": "71"
+			},
+			{
+				"company": "Travelers",
+				"score": "80",
+				"quote": "164"
+			},
+			{
+				"company": "Liberty Mutual",
+				"score": "77",
+				"quote": "157"
+			}
+		],
+		"car_insurance": [
+			{
+				"city": "Boston",
+				"cheapest_carrier": "Allstate",
+				"quote": "91"
+			},
+			{
+				"city": "Worcester",
+				"cheapest_carrier": "Allstate",
+				"quote": "97"
+			},
+			{
+				"city": "Springfield",
+				"cheapest_carrier": "Allstate",
+				"quote": "111"
+			},
+			{
+				"city": "Lowell",
+				"cheapest_carrier": "Allstate",
+				"quote": "93"
+			},
+			{
+				"city": "Cambridge",
+				"cheapest_carrier": "Allstate",
+				"quote": "81"
+			}
+		],
+		"cheapest_car_insurance_gd": [
+			{
+				"insurance_company": "Allstate",
+				"quote": "71"
+			},
+			{
+				"insurance_company": "GEICO",
+				"quote": "86"
+			},
+			{
+				"insurance_company": "Liberty Mutual",
+				"quote": "152"
+			},
+			{
+				"insurance_company": "Travelers",
+				"quote": "163"
+			}
+		],
+		"cheapest_car_insurance_dui": [
+			{
+				"insurance_company": "State Farm",
+				"quote": "54"
+			},
+			{
+				"insurance_company": "Plymouth Rock",
+				"quote": "78"
+			},
+			{
+				"insurance_company": "Hanover",
+				"quote": "90"
+			}
+		],
+		"cheapest_car_insurance_afa": [
+			{
+				"insurance_company": "State Farm",
+				"quote": "50"
+			},
+			{
+				"insurance_company": "Plymouth Rock",
+				"quote": "70"
+			},
+			{
+				"insurance_company": "Ace American",
+				"quote": "82"
+			}
+		],
+		"cheapest_car_insurance_sd": [
+			{
+				"insurance_company": "State Farm",
+				"quote": "41"
+			},
+			{
+				"insurance_company": "Ace American",
+				"quote": "58"
+			},
+			{
+				"insurance_company": "Preferred Mutual",
+				"quote": "65"
+			}
+		],
+		"cheapest_car_insurance_yd": [
+			{
+				"insurance_company": "State Farm",
+				"quote": "19"
+			},
+			{
+				"insurance_company": "Ace American",
+				"quote": "25"
+			},
+			{
+				"insurance_company": "Preferred Mutual",
+				"quote": "32"
+			}
+		],
+		"sr22": "Dairyland, Esurance, Farmers, GEICO (from $48/month), The General (from $100/month), National General, Merchants, Occidental, Progressive (from $8/month), Safeco, Victoria, Safety Insurance, Foremost",
+		"rural_roads_in_poor_condition": "13%, #15",
+		"structurally_deficient_rural_bridges": "10%, #9",
+		"fatality_rate_on_rural_roads": "1%, #41",
+		"most_duis_rank": "44",
+		"most_moving_violations_rank": "22",
+		"most_popular_car": "Honda Civic",
+		"most_speeding_tickets_rank": "29",
+		"most_suspended_licenses_rank": "51"
+	},
+	"Maryland": {
+		"state": "Maryland",
+		"cheapest_car_insurance": [
+			{
+				"company": "State Farm",
+				"quote": "73"
+			},
+			{
+				"company": "Allstate",
+				"quote": "96"
+			},
+			{
+				"company": "Travelers",
+				"quote": "101"
+			},
+			{
+				"company": "Progressive",
+				"quote": "119"
+			},
+			{
+				"company": "Nationwide",
+				"quote": "132"
+			}
+		],
+		"best_car_insurance": [
+			{
+				"company": "American Family",
+				"score": "87",
+				"quote": "222"
+			},
+			{
+				"company": "Allstate",
+				"score": "88",
+				"quote": "89"
+			},
+			{
+				"company": "Nationwide",
+				"score": "80",
+				"quote": "138"
+			},
+			{
+				"company": "State Farm",
+				"score": "88",
+				"quote": "70"
+			},
+			{
+				"company": "Travelers",
+				"score": "82",
+				"quote": "101"
+			},
+			{
+				"company": "Liberty Mutual",
+				"score": "76",
+				"quote": "168"
+			},
+			{
+				"company": "Progressive",
+				"score": "77",
+				"quote": "116"
+			}
+		],
+		"car_insurance": [
+			{
+				"city": "Baltimore",
+				"cheapest_carrier": "Travelers",
+				"quote": "183"
+			},
+			{
+				"city": "Columbia",
+				"cheapest_carrier": "State Farm",
+				"quote": "87"
+			},
+			{
+				"city": "Germantown",
+				"cheapest_carrier": "State Farm",
+				"quote": "92"
+			},
+			{
+				"city": "Silver Spring",
+				"cheapest_carrier": "State Farm",
+				"quote": "116"
+			},
+			{
+				"city": "Frederick",
+				"cheapest_carrier": "State Farm",
+				"quote": "72"
+			}
+		],
+		"cheapest_car_insurance_gd": [
+			{
+				"insurance_company": "State Farm",
+				"quote": "70"
+			},
+			{
+				"insurance_company": "Allstate",
+				"quote": "91"
+			},
+			{
+				"insurance_company": "Travelers",
+				"quote": "109"
+			},
+			{
+				"insurance_company": "Progressive",
+				"quote": "115"
+			},
+			{
+				"insurance_company": "Nationwide",
+				"quote": "139"
+			}
+		],
+		"cheapest_car_insurance_dui": [
+			{
+				"insurance_company": "Erie",
+				"quote": "51"
+			},
+			{
+				"insurance_company": "USAA",
+				"quote": "66"
+			},
+			{
+				"insurance_company": "State Farm",
+				"quote": "75"
+			}
+		],
+		"cheapest_car_insurance_afa": [
+			{
+				"insurance_company": "USAA",
+				"quote": "66"
+			},
+			{
+				"insurance_company": "Erie",
+				"quote": "71"
+			},
+			{
+				"insurance_company": "Donegal Mutual",
+				"quote": "83"
+			}
+		],
+		"cheapest_car_insurance_sd": [
+			{
+				"insurance_company": "Erie",
+				"quote": "54"
+			},
+			{
+				"insurance_company": "USAA",
+				"quote": "61"
+			},
+			{
+				"insurance_company": "State Farm",
+				"quote": "70"
+			}
+		],
+		"cheapest_car_insurance_yd": [
+			{
+				"insurance_company": "GEICO",
+				"quote": "50"
+			},
+			{
+				"insurance_company": "USAA",
+				"quote": "48"
+			},
+			{
+				"insurance_company": "Erie",
+				"quote": "54"
+			},
+			{
+				"insurance_company": "Donegal Mutual",
+				"quote": "54"
+			},
+			{
+				"insurance_company": "MetLife",
+				"quote": "59"
+			}
+		],
+		"sr22": "Brethren Mutual, Cumberland Mutual, Dairyland, Elephant, Esurance, Farmers, GEICO (from $48/month), The General (from $100/month), National General, Hallmark, Progressive (from $8/month), Safeco, Titan, Victoria, Ameriprise, Foremost",
+		"rural_roads_in_poor_condition": "8%, #20",
+		"structurally_deficient_rural_bridges": "8%, #11",
+		"fatality_rate_on_rural_roads": "1%, #33",
+		"most_duis_rank": "41",
+		"most_moving_violations_rank": "20",
+		"most_popular_car": "Honda Accord",
+		"most_speeding_tickets_rank": "31",
+		"most_suspended_licenses_rank": "48"
+	},
+	"Maine": {
+		"state": "Maine",
+		"cheapest_car_insurance": [
+			{
+				"company": "Progressive",
+				"quote": "29"
+			},
+			{
+				"company": "GEICO",
+				"quote": "53"
+			},
+			{
+				"company": "Allstate",
+				"quote": "70"
+			},
+			{
+				"company": "Travelers",
+				"quote": "68"
+			},
+			{
+				"company": "State Farm",
+				"quote": "71"
+			}
+		],
+		"best_car_insurance": [
+			{
+				"company": "American Family",
+				"score": "89",
+				"quote": "132"
+			},
+			{
+				"company": "GEICO",
+				"score": "91",
+				"quote": "50"
+			},
+			{
+				"company": "Allstate",
+				"score": "86",
+				"quote": "68"
+			},
+			{
+				"company": "State Farm",
+				"score": "79",
+				"quote": "73"
+			},
+			{
+				"company": "Travelers",
+				"score": "83",
+				"quote": "67"
+			},
+			{
+				"company": "Liberty Mutual",
+				"score": "77",
+				"quote": "96"
+			},
+			{
+				"company": "Progressive",
+				"score": "80",
+				"quote": "29"
+			}
+		],
+		"car_insurance": [
+			{
+				"city": "Portland",
+				"cheapest_carrier": "Progressive",
+				"quote": "29"
+			},
+			{
+				"city": "Lewiston",
+				"cheapest_carrier": "Progressive",
+				"quote": "32"
+			},
+			{
+				"city": "Bangor",
+				"cheapest_carrier": "Progressive",
+				"quote": "35"
+			},
+			{
+				"city": "South Portland",
+				"cheapest_carrier": "Progressive",
+				"quote": "27"
+			},
+			{
+				"city": "Auburn",
+				"cheapest_carrier": "Progressive",
+				"quote": "28"
+			}
+		],
+		"cheapest_car_insurance_gd": [
+			{
+				"insurance_company": "Progressive",
+				"quote": "26"
+			},
+			{
+				"insurance_company": "GEICO",
+				"quote": "49"
+			},
+			{
+				"insurance_company": "Allsate",
+				"quote": "64"
+			},
+			{
+				"insurance_company": "Travelers",
+				"quote": "69"
+			},
+			{
+				"insurance_company": "State Farm",
+				"quote": "75"
+			}
+		],
+		"cheapest_car_insurance_dui": [
+			{
+				"insurance_company": "Countryway",
+				"quote": "30"
+			},
+			{
+				"insurance_company": "Concord",
+				"quote": "39"
+			},
+			{
+				"insurance_company": "State Farm",
+				"quote": "36"
+			}
+		],
+		"cheapest_car_insurance_afa": [
+			{
+				"insurance_company": "Concord",
+				"quote": "30"
+			},
+			{
+				"insurance_company": "Countryway",
+				"quote": "27"
+			},
+			{
+				"insurance_company": "USAA",
+				"quote": "33"
+			}
+		],
+		"cheapest_car_insurance_sd": [
+			{
+				"insurance_company": "Concord",
+				"quote": "25"
+			},
+			{
+				"insurance_company": "USAA",
+				"quote": "28"
+			},
+			{
+				"insurance_company": "Countryway",
+				"quote": "22"
+			}
+		],
+		"cheapest_car_insurance_yd": [
+			{
+				"insurance_company": "USAA",
+				"quote": "40"
+			},
+			{
+				"insurance_company": "GEICO",
+				"quote": "40"
+			},
+			{
+				"insurance_company": "Erie",
+				"quote": "44"
+			}
+		],
+		"sr22": "Dairyland, Esurance, Farmers, GEICO (from $48/month), The General (from $100/month), National General, Patriot, Progressive (from $8/month), Safeco, Foremost",
+		"rural_roads_in_poor_condition": "19%, #10",
+		"structurally_deficient_rural_bridges": "15%, #5",
+		"fatality_rate_on_rural_roads": "1%, #26",
+		"most_duis_rank": "17",
+		"most_moving_violations_rank": "19",
+		"most_popular_car": "Chevrolet Silverado",
+		"most_speeding_tickets_rank": "25",
+		"most_suspended_licenses_rank": "27"
+	},
+	"Michigan": {
+		"state": "Michigan",
+		"cheapest_car_insurance": [
+			{
+				"company": "Liberty Mutual",
+				"quote": "170"
+			},
+			{
+				"company": "Allstate",
+				"quote": "286"
+			},
+			{
+				"company": "American Family",
+				"quote": "1142"
+			}
+		],
+		"best_car_insurance": [
+			{
+				"company": "American Family",
+				"score": "89",
+				"quote": "1137"
+			},
+			{
+				"company": "Allstate",
+				"score": "82",
+				"quote": "295"
+			},
+			{
+				"company": "Liberty Mutual",
+				"score": "85",
+				"quote": "170"
+			}
+		],
+		"car_insurance": [
+			{
+				"city": "Detroit",
+				"cheapest_carrier": "Liberty Mutual",
+				"quote": "521"
+			},
+			{
+				"city": "Grand Rapids",
+				"cheapest_carrier": "Liberty Mutual",
+				"quote": "239"
+			},
+			{
+				"city": "Warren",
+				"cheapest_carrier": "Allstate",
+				"quote": "301"
+			},
+			{
+				"city": "Sterling Heights",
+				"cheapest_carrier": "Liberty Mutual",
+				"quote": "397"
+			},
+			{
+				"city": "Ann Arbor",
+				"cheapest_carrier": "Liberty Mutual",
+				"quote": "219"
+			}
+		],
+		"cheapest_car_insurance_gd": [
+			{
+				"insurance_company": "Liberty Mutual",
+				"quote": "171"
+			},
+			{
+				"insurance_company": "Allstate",
+				"quote": "229"
+			},
+			{
+				"insurance_company": "American Family",
+				"quote": "1134"
+			}
+		],
+		"cheapest_car_insurance_dui": [
+			{
+				"insurance_company": "MetLife",
+				"quote": "50"
+			},
+			{
+				"insurance_company": "SECURA",
+				"quote": "58"
+			},
+			{
+				"insurance_company": "Pioneer State Mutual",
+				"quote": "88"
+			}
+		],
+		"cheapest_car_insurance_afa": [
+			{
+				"insurance_company": "Hastings Mutual",
+				"quote": "38"
+			},
+			{
+				"insurance_company": "SECURA",
+				"quote": "35"
+			},
+			{
+				"insurance_company": "MetLife",
+				"quote": "40"
+			}
+		],
+		"cheapest_car_insurance_sd": [
+			{
+				"insurance_company": "Hastings Mutual",
+				"quote": "35"
+			},
+			{
+				"insurance_company": "MetLife",
+				"quote": "37"
+			},
+			{
+				"insurance_company": "SECURA",
+				"quote": "62"
+			}
+		],
+		"cheapest_car_insurance_yd": [
+			{
+				"insurance_company": "MetLife",
+				"quote": "28"
+			},
+			{
+				"insurance_company": "Hastings Mutual",
+				"quote": "28"
+			},
+			{
+				"insurance_company": "SECURA",
+				"quote": "37"
+			},
+			{
+				"insurance_company": "Travelers",
+				"quote": "61"
+			},
+			{
+				"insurance_company": "Auto Owners",
+				"quote": "77"
+			}
+		],
+		"sr22": "Dairyland, Esurance, Farmers, Frankenmuth, GEICO (from $48/month), The General (from $100/month), National General, Grange, Merchants, Progressive (from $8/month), Safeco, West Bend Mutual, Ameriprise, Farm Bureau Financial Services, Everest National, Foremost",
+		"rural_roads_in_poor_condition": "17%, #12",
+		"structurally_deficient_rural_bridges": "13%, #7",
+		"fatality_rate_on_rural_roads": "1%, #28",
+		"most_duis_rank": "32",
+		"most_moving_violations_rank": "51",
+		"most_popular_car": "Chevrolet Malibu",
+		"most_speeding_tickets_rank": "41",
+		"most_suspended_licenses_rank": "45"
+	},
+	"Minnesota": {
+		"state": "Minnesota",
+		"cheapest_car_insurance": [
+			{
+				"company": "Progressive",
+				"quote": "56"
+			},
+			{
+				"company": "State Farm",
+				"quote": "102"
+			},
+			{
+				"company": "Allstate",
+				"quote": "110"
+			},
+			{
+				"company": "Travelers",
+				"quote": "125"
+			},
+			{
+				"company": "Nationwide",
+				"quote": "126"
+			}
+		],
+		"best_car_insurance": [
+			{
+				"company": "American Family",
+				"score": "93",
+				"quote": "155"
+			},
+			{
+				"company": "Allstate",
+				"score": "85",
+				"quote": "112"
+			},
+			{
+				"company": "Nationwide",
+				"score": "89",
+				"quote": "132"
+			},
+			{
+				"company": "State Farm",
+				"score": "86",
+				"quote": "106"
+			},
+			{
+				"company": "Travelers",
+				"score": "83",
+				"quote": "124"
+			},
+			{
+				"company": "Liberty Mutual",
+				"score": "85",
+				"quote": "139"
+			},
+			{
+				"company": "Progressive",
+				"score": "81",
+				"quote": "53"
+			}
+		],
+		"car_insurance": [
+			{
+				"city": "Minneapolis",
+				"cheapest_carrier": "Progressive",
+				"quote": "60"
+			},
+			{
+				"city": "Rochester",
+				"cheapest_carrier": "Progressive",
+				"quote": "62"
+			},
+			{
+				"city": "Duluth",
+				"cheapest_carrier": "Progressive",
+				"quote": "60"
+			},
+			{
+				"city": "Eden Prairie",
+				"cheapest_carrier": "Progressive",
+				"quote": "63"
+			},
+			{
+				"city": "Burnsville",
+				"cheapest_carrier": "Progressive",
+				"quote": "69"
+			}
+		],
+		"cheapest_car_insurance_gd": [
+			{
+				"insurance_company": "Progressive",
+				"quote": "52"
+			},
+			{
+				"insurance_company": "State Farm",
+				"quote": "105"
+			},
+			{
+				"insurance_company": "Allstate",
+				"quote": "118"
+			},
+			{
+				"insurance_company": "Travelers",
+				"quote": "126"
+			},
+			{
+				"insurance_company": "Nationwide",
+				"quote": "127"
+			}
+		],
+		"cheapest_car_insurance_dui": [
+			{
+				"insurance_company": "Western National",
+				"quote": "42"
+			},
+			{
+				"insurance_company": "State Farm",
+				"quote": "52"
+			},
+			{
+				"insurance_company": "American Family",
+				"quote": "57"
+			}
+		],
+		"cheapest_car_insurance_afa": [
+			{
+				"insurance_company": "Western National",
+				"quote": "37"
+			},
+			{
+				"insurance_company": "North Star Mutual",
+				"quote": "44"
+			},
+			{
+				"insurance_company": "USAA",
+				"quote": "51"
+			}
+		],
+		"cheapest_car_insurance_sd": [
+			{
+				"insurance_company": "North Star Mutual",
+				"quote": "39"
+			},
+			{
+				"insurance_company": "USAA",
+				"quote": "38"
+			},
+			{
+				"insurance_company": "Western National",
+				"quote": "40"
+			}
+		],
+		"cheapest_car_insurance_yd": [
+			{
+				"insurance_company": "USAA",
+				"quote": "28"
+			},
+			{
+				"insurance_company": "North Star Mutual",
+				"quote": "36"
+			},
+			{
+				"insurance_company": "Auto Owners",
+				"quote": "47"
+			},
+			{
+				"insurance_company": "American Family",
+				"quote": "49"
+			},
+			{
+				"insurance_company": "State Farm",
+				"quote": "52"
+			}
+		],
+		"sr22": "Dairyland, Esurance, Farmers, GEICO (from $48/month), The General (from $100/month), National General, Grange, Grinnell Mutual, Mendota, North Star, Progressive (from $8/month), Safeco, Victoria, West Bend Mutual, Stillwater, Foremost",
+		"rural_roads_in_poor_condition": "12%, #16",
+		"structurally_deficient_rural_bridges": "6%, #13",
+		"fatality_rate_on_rural_roads": "1%, #39",
+		"most_duis_rank": "8",
+		"most_moving_violations_rank": "25",
+		"most_popular_car": "Chevrolet Impala",
+		"most_speeding_tickets_rank": "19",
+		"most_suspended_licenses_rank": "7"
+	},
+	"Missouri": {
+		"state": "Missouri",
+		"cheapest_car_insurance": [
+			{
+				"company": "Direct Auto",
+				"quote": "55"
+			},
+			{
+				"company": "Progressive",
+				"quote": "56"
+			},
+			{
+				"company": "Allstate",
+				"quote": "63"
+			},
+			{
+				"company": "State Farm",
+				"quote": "74"
+			},
+			{
+				"company": "GEICO",
+				"quote": "85"
+			}
+		],
+		"best_car_insurance": [
+			{
+				"company": "American Family",
+				"score": "91",
+				"quote": "165"
+			},
+			{
+				"company": "GEICO",
+				"score": "89",
+				"quote": "81"
+			},
+			{
+				"company": "Allstate",
+				"score": "85",
+				"quote": "61"
+			},
+			{
+				"company": "State Farm",
+				"score": "83",
+				"quote": "75"
+			},
+			{
+				"company": "Travelers",
+				"score": "77",
+				"quote": "116"
+			},
+			{
+				"company": "Liberty Mutual",
+				"score": "82",
+				"quote": "178"
+			},
+			{
+				"company": "Progressive",
+				"score": "77",
+				"quote": "49"
+			}
+		],
+		"car_insurance": [
+			{
+				"city": "Kansas City",
+				"cheapest_carrier": "Direct Auto",
+				"quote": "80"
+			},
+			{
+				"city": "Springfield",
+				"cheapest_carrier": "Allstate",
+				"quote": "65"
+			},
+			{
+				"city": "Independence",
+				"cheapest_carrier": "Direct Auto",
+				"quote": "69"
+			},
+			{
+				"city": "Columbia",
+				"cheapest_carrier": "Direct Auto",
+				"quote": "54"
+			},
+			{
+				"city": "Lees Summit",
+				"cheapest_carrier": "Direct Auto",
+				"quote": "63"
+			}
+		],
+		"cheapest_car_insurance_gd": [
+			{
+				"insurance_company": "Direct Auto",
+				"quote": "51"
+			},
+			{
+				"insurance_company": "Progressive",
+				"quote": "53"
+			},
+			{
+				"insurance_company": "Allstate",
+				"quote": "60"
+			},
+			{
+				"insurance_company": "State Farm",
+				"quote": "75"
+			},
+			{
+				"insurance_company": "GEICO",
+				"quote": "83"
+			}
+		],
+		"cheapest_car_insurance_dui": [
+			{
+				"insurance_company": "Cameron Insurance",
+				"quote": "35"
+			},
+			{
+				"insurance_company": "USAA",
+				"quote": "45"
+			},
+			{
+				"insurance_company": "Farm Bureau Financial",
+				"quote": "39"
+			}
+		],
+		"cheapest_car_insurance_afa": [
+			{
+				"insurance_company": "USAA",
+				"quote": "32"
+			},
+			{
+				"insurance_company": "Farm Bureau Financial",
+				"quote": "33"
+			},
+			{
+				"insurance_company": "Cameron Insurance",
+				"quote": "31"
+			}
+		],
+		"cheapest_car_insurance_sd": [
+			{
+				"insurance_company": "USAA",
+				"quote": "26"
+			},
+			{
+				"insurance_company": "Farm Bureau Financial",
+				"quote": "24"
+			},
+			{
+				"insurance_company": "Cameron Insurance",
+				"quote": "40"
+			}
+		],
+		"cheapest_car_insurance_yd": [
+			{
+				"insurance_company": "USAA",
+				"quote": "20"
+			},
+			{
+				"insurance_company": "Farm Bureau Financial",
+				"quote": "28"
+			},
+			{
+				"insurance_company": "Progressive",
+				"quote": "31"
+			},
+			{
+				"insurance_company": "State Farm",
+				"quote": "39"
+			},
+			{
+				"insurance_company": "GEICO",
+				"quote": "42"
+			}
+		],
+		"sr22": "Affirmative, Consumers Insurance, Dairyland, Esurance, Farmers, GEICO (from $48/month), The General (from $100/month), National General, Grinnell Mutual, Mendota, Progressive (from $8/month), SafeAuto, Safeco, Victoria, West Bend Mutual, Ameriprise, Stillwater, Acceptance, Direct Auto (from $52/month), Foremost",
+		"rural_roads_in_poor_condition": "21%, #8",
+		"structurally_deficient_rural_bridges": "14%, #6",
+		"fatality_rate_on_rural_roads": "1%, #21",
+		"most_duis_rank": "26",
+		"most_moving_violations_rank": "31",
+		"most_popular_car": "Ford F-Series Pickup",
+		"most_speeding_tickets_rank": "23",
+		"most_suspended_licenses_rank": "14"
+	},
+	"Mississippi": {
+		"state": "Mississippi",
+		"cheapest_car_insurance": [
+			{
+				"company": "Progressive",
+				"quote": "30"
+			},
+			{
+				"company": "State Farm",
+				"quote": "57"
+			},
+			{
+				"company": "Allstate",
+				"quote": "72"
+			},
+			{
+				"company": "Travelers",
+				"quote": "121"
+			},
+			{
+				"company": "Direct Auto",
+				"quote": "148"
+			}
+		],
+		"best_car_insurance": [
+			{
+				"company": "American Family",
+				"score": "91",
+				"quote": "265"
+			},
+			{
+				"company": "Allstate",
+				"score": "81",
+				"quote": "71"
+			},
+			{
+				"company": "State Farm",
+				"score": "79",
+				"quote": "52"
+			},
+			{
+				"company": "Travelers",
+				"score": "80",
+				"quote": "126"
+			},
+			{
+				"company": "Liberty Mutual",
+				"score": "76",
+				"quote": "165"
+			},
+			{
+				"company": "Progressive",
+				"score": "80",
+				"quote": "30"
+			}
+		],
+		"car_insurance": [
+			{
+				"city": "Jackson",
+				"cheapest_carrier": "Progressive",
+				"quote": "39"
+			},
+			{
+				"city": "Gulfport",
+				"cheapest_carrier": "State Farm",
+				"quote": "83"
+			},
+			{
+				"city": "Southaven",
+				"cheapest_carrier": "State Farm",
+				"quote": "74"
+			},
+			{
+				"city": "Hattiesburg",
+				"cheapest_carrier": "State Farm",
+				"quote": "63"
+			},
+			{
+				"city": "Biloxi",
+				"cheapest_carrier": "State Farm",
+				"quote": "79"
+			}
+		],
+		"cheapest_car_insurance_gd": [
+			{
+				"insurance_company": "Progressive",
+				"quote": "34"
+			},
+			{
+				"insurance_company": "State Farm",
+				"quote": "52"
+			},
+			{
+				"insurance_company": "Allstate",
+				"quote": "73"
+			},
+			{
+				"insurance_company": "Travelers",
+				"quote": "120"
+			},
+			{
+				"insurance_company": "Direct Auto",
+				"quote": "148"
+			}
+		],
+		"cheapest_car_insurance_dui": [
+			{
+				"insurance_company": "MetLife",
+				"quote": "52"
+			},
+			{
+				"insurance_company": "SECURA",
+				"quote": "59"
+			},
+			{
+				"insurance_company": "Pioneer State Mutual",
+				"quote": "86"
+			}
+		],
+		"cheapest_car_insurance_afa": [
+			{
+				"insurance_company": "Hastings Mutual",
+				"quote": "38"
+			},
+			{
+				"insurance_company": "SECURA",
+				"quote": "39"
+			},
+			{
+				"insurance_company": "MetLife",
+				"quote": "41"
+			}
+		],
+		"cheapest_car_insurance_sd": [
+			{
+				"insurance_company": "Hastings Mutual",
+				"quote": "27"
+			},
+			{
+				"insurance_company": "MetLife",
+				"quote": "35"
+			},
+			{
+				"insurance_company": "SECURA",
+				"quote": "57"
+			}
+		],
+		"cheapest_car_insurance_yd": [
+			{
+				"insurance_company": "MetLife",
+				"quote": "26"
+			},
+			{
+				"insurance_company": "Hastings Mutual",
+				"quote": "33"
+			},
+			{
+				"insurance_company": "SECURA",
+				"quote": "35"
+			},
+			{
+				"insurance_company": "Travelers",
+				"quote": "58"
+			},
+			{
+				"insurance_company": "Auto Owners",
+				"quote": "72"
+			}
+		],
+		"sr22": "Dairyland, Esurance, Farmers, GEICO (from $48/month), The General (from $100/month), National General, Mendota, Progressive (from $8/month), SafeAuto, Safeco, Safeway, Titan, Victoria, Ameriprise, Acceptance, Direct Auto (from $52/month), Foremost",
+		"rural_roads_in_poor_condition": "25%, #5",
+		"structurally_deficient_rural_bridges": "13%, #7",
+		"fatality_rate_on_rural_roads": "2%, #3",
+		"most_duis_rank": "39",
+		"most_moving_violations_rank": "49",
+		"most_popular_car": "Nissan Altima",
+		"most_speeding_tickets_rank": "30",
+		"most_suspended_licenses_rank": "35"
+	},
+	"Montana": {
+		"state": "Montana",
+		"cheapest_car_insurance": [
+			{
+				"company": "State Farm",
+				"quote": "27"
+			},
+			{
+				"company": "Progressive",
+				"quote": "55"
+			},
+			{
+				"company": "Allstate",
+				"quote": "58"
+			},
+			{
+				"company": "Travelers",
+				"quote": "70"
+			},
+			{
+				"company": "American Family",
+				"quote": "132"
+			}
+		],
+		"best_car_insurance": [
+			{
+				"company": "American Family",
+				"score": "90",
+				"quote": "130"
+			},
+			{
+				"company": "Allstate",
+				"score": "90",
+				"quote": "64"
+			},
+			{
+				"company": "State Farm",
+				"score": "86",
+				"quote": "26"
+			},
+			{
+				"company": "Travelers",
+				"score": "85",
+				"quote": "72"
+			},
+			{
+				"company": "Progressive",
+				"score": "82",
+				"quote": "53"
+			}
+		],
+		"car_insurance": [
+			{
+				"city": "Billings",
+				"cheapest_carrier": "State Farm",
+				"quote": "46"
+			},
+			{
+				"city": "Missoula",
+				"cheapest_carrier": "State Farm",
+				"quote": "46"
+			},
+			{
+				"city": "Great Falls",
+				"cheapest_carrier": "State Farm",
+				"quote": "45"
+			},
+			{
+				"city": "Bozeman",
+				"cheapest_carrier": "State Farm",
+				"quote": "38"
+			},
+			{
+				"city": "Butte",
+				"cheapest_carrier": "State Farm",
+				"quote": "43"
+			}
+		],
+		"cheapest_car_insurance_gd": [
+			{
+				"insurance_company": "State Farm",
+				"quote": "30"
+			},
+			{
+				"insurance_company": "Progressive",
+				"quote": "52"
+			},
+			{
+				"insurance_company": "Allstate",
+				"quote": "58"
+			},
+			{
+				"insurance_company": "Travelers",
+				"quote": "71"
+			},
+			{
+				"insurance_company": "American Family",
+				"quote": "126"
+			}
+		],
+		"cheapest_car_insurance_dui": [
+			{
+				"insurance_company": "State Farm",
+				"quote": "25"
+			},
+			{
+				"insurance_company": "USAA",
+				"quote": "33"
+			},
+			{
+				"insurance_company": "Progressive",
+				"quote": "46"
+			}
+		],
+		"cheapest_car_insurance_afa": [
+			{
+				"insurance_company": "USAA",
+				"quote": "24"
+			},
+			{
+				"insurance_company": "State Farm",
+				"quote": "34"
+			},
+			{
+				"insurance_company": "National Farmers",
+				"quote": "47"
+			}
+		],
+		"cheapest_car_insurance_sd": [
+			{
+				"insurance_company": "USAA",
+				"quote": "24"
+			},
+			{
+				"insurance_company": "State Farm",
+				"quote": "25"
+			},
+			{
+				"insurance_company": "GEICO",
+				"quote": "46"
+			}
+		],
+		"cheapest_car_insurance_yd": [
+			{
+				"insurance_company": "USAA",
+				"quote": "14"
+			},
+			{
+				"insurance_company": "State Farm",
+				"quote": "27"
+			},
+			{
+				"insurance_company": "National Farmers",
+				"quote": "30"
+			}
+		],
+		"sr22": "Dairyland, Esurance, Farmers, GEICO (from $48/month), The General (from $100/month), National General, Hallmark, Progressive (from $8/month), Safeco, Victoria, Foremost",
+		"rural_roads_in_poor_condition": "8%, #20",
+		"structurally_deficient_rural_bridges": "9%, #10",
+		"fatality_rate_on_rural_roads": "2%, #2",
+		"most_duis_rank": "7",
+		"most_moving_violations_rank": "35",
+		"most_popular_car": "Ford F-Series Pickup",
+		"most_speeding_tickets_rank": "35",
+		"most_suspended_licenses_rank": "28"
+	},
+	"North Carolina": {
+		"state": "North Carolina",
+		"cheapest_car_insurance": [
+			{
+				"company": "Allstate",
+				"quote": "28"
+			},
+			{
+				"company": "Progressive",
+				"quote": "37"
+			},
+			{
+				"company": "State Farm",
+				"quote": "47"
+			},
+			{
+				"company": "GEICO",
+				"quote": "48"
+			},
+			{
+				"company": "Travelers",
+				"quote": "58"
+			}
+		],
+		"best_car_insurance": [
+			{
+				"company": "American Family",
+				"score": "87",
+				"quote": "107"
+			},
+			{
+				"company": "GEICO",
+				"score": "84",
+				"quote": "55"
+			},
+			{
+				"company": "Allstate",
+				"score": "87",
+				"quote": "32"
+			},
+			{
+				"company": "Nationwide",
+				"score": "87",
+				"quote": "78"
+			},
+			{
+				"company": "State Farm",
+				"score": "86",
+				"quote": "42"
+			},
+			{
+				"company": "Travelers",
+				"score": "85",
+				"quote": "64"
+			},
+			{
+				"company": "Progressive",
+				"score": "78",
+				"quote": "33"
+			}
+		],
+		"car_insurance": [
+			{
+				"city": "Charlotte",
+				"cheapest_carrier": "Progressive",
+				"quote": "54"
+			},
+			{
+				"city": "Raleigh",
+				"cheapest_carrier": "GEICO",
+				"quote": "53"
+			},
+			{
+				"city": "Greensboro",
+				"cheapest_carrier": "Allstate",
+				"quote": "49"
+			},
+			{
+				"city": "Durham",
+				"cheapest_carrier": "State Farm",
+				"quote": "47"
+			},
+			{
+				"city": "Winston-Salem",
+				"cheapest_carrier": "Progressive",
+				"quote": "36"
+			}
+		],
+		"cheapest_car_insurance_gd": [
+			{
+				"insurance_company": "Allstate",
+				"quote": "32"
+			},
+			{
+				"insurance_company": "Progresive",
+				"quote": "31"
+			},
+			{
+				"insurance_company": "State Farm",
+				"quote": "45"
+			},
+			{
+				"insurance_company": "GEICO",
+				"quote": "56"
+			},
+			{
+				"insurance_company": "Travelers",
+				"quote": "59"
+			}
+		],
+		"cheapest_car_insurance_dui": [
+			{
+				"insurance_company": "Titan",
+				"quote": "23"
+			},
+			{
+				"insurance_company": "GMAC",
+				"quote": "60"
+			},
+			{
+				"insurance_company": "North Carolina Farm Bureau",
+				"quote": "194"
+			}
+		],
+		"cheapest_car_insurance_afa": [
+			{
+				"insurance_company": "Progresive",
+				"quote": "53"
+			},
+			{
+				"insurance_company": "Farm Bureau Financial",
+				"quote": "55"
+			},
+			{
+				"insurance_company": "Titan",
+				"quote": "56"
+			}
+		],
+		"cheapest_car_insurance_sd": [
+			{
+				"insurance_company": "North Carolina Farm Bureau",
+				"quote": "39"
+			},
+			{
+				"insurance_company": "Progresive",
+				"quote": "53"
+			},
+			{
+				"insurance_company": "Titan",
+				"quote": "48"
+			}
+		],
+		"cheapest_car_insurance_yd": [
+			{
+				"insurance_company": "Progresive",
+				"quote": "24"
+			},
+			{
+				"insurance_company": "Utica",
+				"quote": "31"
+			},
+			{
+				"insurance_company": "North Carolina Farm Bureau",
+				"quote": "31"
+			},
+			{
+				"insurance_company": "Erie",
+				"quote": "33"
+			},
+			{
+				"insurance_company": "GEICO",
+				"quote": "40"
+			}
+		],
+		"sr22": "Dairyland, Esurance, Farmers, GEICO (from $48/month), The General (from $100/month), National General, Progressive (from $8/month), Safeco, Titan, Farm Bureau Financial Services, Direct Auto (from $52/month), Foremost",
+		"rural_roads_in_poor_condition": "10%, #18",
+		"structurally_deficient_rural_bridges": "11%, #8",
+		"fatality_rate_on_rural_roads": "1%, #19",
+		"most_duis_rank": "19",
+		"most_moving_violations_rank": "27",
+		"most_popular_car": "Honda Accord",
+		"most_speeding_tickets_rank": "26",
+		"most_suspended_licenses_rank": "24"
+	},
+	"North Dakota": {
+		"state": "North Dakota",
+		"cheapest_car_insurance": [
+			{
+				"company": "Progressive",
+				"quote": "23"
+			},
+			{
+				"company": "Allstate",
+				"quote": "47"
+			},
+			{
+				"company": "State Farm",
+				"quote": "51"
+			},
+			{
+				"company": "The General",
+				"quote": "116"
+			},
+			{
+				"company": "American Family",
+				"quote": "142"
+			}
+		],
+		"best_car_insurance": [
+			{
+				"company": "American Family",
+				"score": "93",
+				"quote": "144"
+			},
+			{
+				"company": "Allstate",
+				"score": "86",
+				"quote": "48"
+			},
+			{
+				"company": "State Farm",
+				"score": "86",
+				"quote": "55"
+			},
+			{
+				"company": "Progressive",
+				"score": "75",
+				"quote": "23"
+			}
+		],
+		"car_insurance": [
+			{
+				"city": "Fargo",
+				"cheapest_carrier": "Progressive",
+				"quote": "24"
+			},
+			{
+				"city": "Bismarck",
+				"cheapest_carrier": "Progressive",
+				"quote": "44"
+			},
+			{
+				"city": "Grand Forks",
+				"cheapest_carrier": "Progressive",
+				"quote": "48"
+			},
+			{
+				"city": "Minot",
+				"cheapest_carrier": "Progressive",
+				"quote": "44"
+			},
+			{
+				"city": "West Fargo",
+				"cheapest_carrier": "Progressive",
+				"quote": "43"
+			}
+		],
+		"cheapest_car_insurance_gd": [
+			{
+				"insurance_company": "Progressive",
+				"quote": "18"
+			},
+			{
+				"insurance_company": "Allstate",
+				"quote": "44"
+			},
+			{
+				"insurance_company": "State Farm",
+				"quote": "52"
+			},
+			{
+				"insurance_company": "The General",
+				"quote": "108"
+			},
+			{
+				"insurance_company": "American Family",
+				"quote": "143"
+			}
+		],
+		"cheapest_car_insurance_dui": [
+			{
+				"insurance_company": "Grinnell Mutual",
+				"quote": "23"
+			},
+			{
+				"insurance_company": "American Family",
+				"quote": "29"
+			},
+			{
+				"insurance_company": "State Farm",
+				"quote": "35"
+			}
+		],
+		"cheapest_car_insurance_afa": [
+			{
+				"insurance_company": "USAA",
+				"quote": "18"
+			},
+			{
+				"insurance_company": "Grinnell Mutual",
+				"quote": "32"
+			},
+			{
+				"insurance_company": "State Auto",
+				"quote": "24"
+			}
+		],
+		"cheapest_car_insurance_sd": [
+			{
+				"insurance_company": "American Family",
+				"quote": "18"
+			},
+			{
+				"insurance_company": "USAA",
+				"quote": "18"
+			},
+			{
+				"insurance_company": "Grinnell Mutual",
+				"quote": "27"
+			}
+		],
+		"cheapest_car_insurance_yd": [
+			{
+				"insurance_company": "USAA",
+				"quote": "13"
+			},
+			{
+				"insurance_company": "American Family",
+				"quote": "19"
+			},
+			{
+				"insurance_company": "North Star Mutual",
+				"quote": "19"
+			}
+		],
+		"sr22": "Dairyland, Esurance, Farmers, GEICO (from $48/month), The General (from $100/month), National General, Grinnell Mutual, North Star, Progressive (from $8/month), Safeco, Victoria, Foremost",
+		"rural_roads_in_poor_condition": "8%, #20",
+		"structurally_deficient_rural_bridges": "16%, #4",
+		"fatality_rate_on_rural_roads": "1%, #12",
+		"most_duis_rank": "2",
+		"most_moving_violations_rank": "2",
+		"most_popular_car": "Ford F-Series Pickup",
+		"most_speeding_tickets_rank": "4",
+		"most_suspended_licenses_rank": "1"
+	},
+	"Nebraska": {
+		"state": "Nebraska",
+		"cheapest_car_insurance": [
+			{
+				"company": "Progressive",
+				"quote": "29"
+			},
+			{
+				"company": "State Farm",
+				"quote": "38"
+			},
+			{
+				"company": "Allstate",
+				"quote": "46"
+			},
+			{
+				"company": "Nationwide",
+				"quote": "88"
+			},
+			{
+				"company": "Travelers",
+				"quote": "90"
+			}
+		],
+		"best_car_insurance": [
+			{
+				"company": "American Family",
+				"score": "93",
+				"quote": "137"
+			},
+			{
+				"company": "GEICO",
+				"score": "82",
+				"quote": "95"
+			},
+			{
+				"company": "Allstate",
+				"score": "81",
+				"quote": "45"
+			},
+			{
+				"company": "Nationwide",
+				"score": "85",
+				"quote": "85"
+			},
+			{
+				"company": "State Farm",
+				"score": "87",
+				"quote": "28"
+			},
+			{
+				"company": "Travelers",
+				"score": "84",
+				"quote": "92"
+			},
+			{
+				"company": "Liberty Mutual",
+				"score": "78",
+				"quote": "140"
+			},
+			{
+				"company": "Progressive",
+				"score": "73",
+				"quote": "25"
+			}
+		],
+		"car_insurance": [
+			{
+				"city": "Omaha",
+				"cheapest_carrier": "Allstate",
+				"quote": "64"
+			},
+			{
+				"city": "Lincoln",
+				"cheapest_carrier": "Progressive",
+				"quote": "32"
+			},
+			{
+				"city": "Bellevue",
+				"cheapest_carrier": "Progressive",
+				"quote": "41"
+			},
+			{
+				"city": "Grand Island",
+				"cheapest_carrier": "Progressive",
+				"quote": "38"
+			},
+			{
+				"city": "Kearney",
+				"cheapest_carrier": "State Farm",
+				"quote": "43"
+			}
+		],
+		"cheapest_car_insurance_gd": [
+			{
+				"insurance_company": "Progressive",
+				"quote": "25"
+			},
+			{
+				"insurance_company": "State Farm",
+				"quote": "35"
+			},
+			{
+				"insurance_company": "Allstate",
+				"quote": "41"
+			},
+			{
+				"insurance_company": "Nationwide",
+				"quote": "87"
+			},
+			{
+				"insurance_company": "Travelers",
+				"quote": "87"
+			}
+		],
+		"cheapest_car_insurance_dui": [
+			{
+				"insurance_company": "EMC",
+				"quote": "18"
+			},
+			{
+				"insurance_company": "American National",
+				"quote": "24"
+			},
+			{
+				"insurance_company": "State Farm",
+				"quote": "35"
+			}
+		],
+		"cheapest_car_insurance_afa": [
+			{
+				"insurance_company": "American National",
+				"quote": "20"
+			},
+			{
+				"insurance_company": "EMC",
+				"quote": "16"
+			},
+			{
+				"insurance_company": "Auto Owners",
+				"quote": "29"
+			}
+		],
+		"cheapest_car_insurance_sd": [
+			{
+				"insurance_company": "American National",
+				"quote": "16"
+			},
+			{
+				"insurance_company": "EMC",
+				"quote": "22"
+			},
+			{
+				"insurance_company": "USAA",
+				"quote": "21"
+			}
+		],
+		"cheapest_car_insurance_yd": [
+			{
+				"insurance_company": "American National",
+				"quote": "19"
+			},
+			{
+				"insurance_company": "USAA",
+				"quote": "23"
+			},
+			{
+				"insurance_company": "EMC",
+				"quote": "18"
+			}
+		],
+		"sr22": "Dairyland, Esurance, Farmers, GEICO (from $48/month), The General (from $100/month), National General, Grinnell Mutual, North Star, Progressive (from $8/month), Safeco, Victoria, West Bend Mutual, Ameriprise, Stillwater, Foremost",
+		"rural_roads_in_poor_condition": "8%, #20",
+		"structurally_deficient_rural_bridges": "16%, #4",
+		"fatality_rate_on_rural_roads": "1%, #20",
+		"most_duis_rank": "6",
+		"most_moving_violations_rank": "1",
+		"most_popular_car": "Ford F-Series Pickup",
+		"most_speeding_tickets_rank": "8",
+		"most_suspended_licenses_rank": "4"
+	},
+	"New Hampshire": {
+		"state": "New Hampshire",
+		"cheapest_car_insurance": [
+			{
+				"company": "Progressive",
+				"quote": "29"
+			},
+			{
+				"company": "Allstate",
+				"quote": "56"
+			},
+			{
+				"company": "GEICO",
+				"quote": "74"
+			},
+			{
+				"company": "Travelers",
+				"quote": "81"
+			},
+			{
+				"company": "American Family",
+				"quote": "92"
+			}
+		],
+		"best_car_insurance": [
+			{
+				"company": "American Family",
+				"score": "83",
+				"quote": "96"
+			},
+			{
+				"company": "GEICO",
+				"score": "87",
+				"quote": "68"
+			},
+			{
+				"company": "Allstate",
+				"score": "87",
+				"quote": "61"
+			},
+			{
+				"company": "State Farm",
+				"score": "88",
+				"quote": "132"
+			},
+			{
+				"company": "Travelers",
+				"score": "85",
+				"quote": "85"
+			},
+			{
+				"company": "Liberty Mutual",
+				"score": "85",
+				"quote": "130"
+			},
+			{
+				"company": "Progressive",
+				"score": "74",
+				"quote": "27"
+			}
+		],
+		"car_insurance": [
+			{
+				"city": "Manchester",
+				"cheapest_carrier": "Progressive",
+				"quote": "43"
+			},
+			{
+				"city": "Nashua",
+				"cheapest_carrier": "GEICO",
+				"quote": "88"
+			},
+			{
+				"city": "Concord",
+				"cheapest_carrier": "Allstate",
+				"quote": "58"
+			},
+			{
+				"city": "Dover",
+				"cheapest_carrier": "GEICO",
+				"quote": "70"
+			},
+			{
+				"city": "Rochester",
+				"cheapest_carrier": "GEICO",
+				"quote": "67"
+			}
+		],
+		"cheapest_car_insurance_gd": [
+			{
+				"insurance_company": "Progressive",
+				"quote": "23"
+			},
+			{
+				"insurance_company": "Allstate",
+				"quote": "59"
+			},
+			{
+				"insurance_company": "GEICO",
+				"quote": "70"
+			},
+			{
+				"insurance_company": "Travelers",
+				"quote": "84"
+			},
+			{
+				"insurance_company": "American Family",
+				"quote": "95"
+			}
+		],
+		"cheapest_car_insurance_dui": [
+			{
+				"insurance_company": "USAA",
+				"quote": "35"
+			},
+			{
+				"insurance_company": "Concord",
+				"quote": "38"
+			},
+			{
+				"insurance_company": "MMG",
+				"quote": "46"
+			}
+		],
+		"cheapest_car_insurance_afa": [
+			{
+				"insurance_company": "USAA",
+				"quote": "22"
+			},
+			{
+				"insurance_company": "Patriot Insurance",
+				"quote": "25"
+			},
+			{
+				"insurance_company": "Concord",
+				"quote": "34"
+			}
+		],
+		"cheapest_car_insurance_sd": [
+			{
+				"insurance_company": "USAA",
+				"quote": "23"
+			},
+			{
+				"insurance_company": "Concord",
+				"quote": "25"
+			},
+			{
+				"insurance_company": "MMG",
+				"quote": "24"
+			}
+		],
+		"cheapest_car_insurance_yd": [
+			{
+				"insurance_company": "GEICO",
+				"quote": "14"
+			},
+			{
+				"insurance_company": "USAA",
+				"quote": "19"
+			},
+			{
+				"insurance_company": "Concord",
+				"quote": "26"
+			}
+		],
+		"sr22": "Dairyland, Esurance, Farmers, GEICO (from $48/month), The General (from $100/month), National General, Merchants, Patriot, Progressive (from $8/month), Safeco, Safety Insurance, Foremost",
+		"rural_roads_in_poor_condition": "9%, #19",
+		"structurally_deficient_rural_bridges": "13%, #7",
+		"fatality_rate_on_rural_roads": "1%, #35",
+		"most_duis_rank": "28",
+		"most_moving_violations_rank": "18",
+		"most_popular_car": "Honda Civic",
+		"most_speeding_tickets_rank": "18",
+		"most_suspended_licenses_rank": "32"
+	},
+	"New Jersey": {
+		"state": "New Jersey",
+		"cheapest_car_insurance": [
+			{
+				"company": "Progressive",
+				"quote": "87"
+			},
+			{
+				"company": "Liberty Mutual",
+				"quote": "154"
+			},
+			{
+				"company": "Travelers",
+				"quote": "183"
+			},
+			{
+				"company": "Allstate",
+				"quote": "217"
+			},
+			{
+				"company": "State Farm",
+				"quote": "223"
+			}
+		],
+		"best_car_insurance": [
+			{
+				"company": "American Family",
+				"score": "92",
+				"quote": "278"
+			},
+			{
+				"company": "Allstate",
+				"score": "90",
+				"quote": "222"
+			},
+			{
+				"company": "State Farm",
+				"score": "81",
+				"quote": "231"
+			},
+			{
+				"company": "Travelers",
+				"score": "83",
+				"quote": "183"
+			},
+			{
+				"company": "Liberty Mutual",
+				"score": "80",
+				"quote": "157"
+			},
+			{
+				"company": "Progressive",
+				"score": "78",
+				"quote": "82"
+			}
+		],
+		"car_insurance": [
+			{
+				"city": "Newark",
+				"cheapest_carrier": "Progressive",
+				"quote": "136"
+			},
+			{
+				"city": "Jersey City",
+				"cheapest_carrier": "Progressive",
+				"quote": "114"
+			},
+			{
+				"city": "Paterson",
+				"cheapest_carrier": "Progressive",
+				"quote": "110"
+			},
+			{
+				"city": "Elizabeth",
+				"cheapest_carrier": "Progressive",
+				"quote": "135"
+			},
+			{
+				"city": "Edison",
+				"cheapest_carrier": "Progressive",
+				"quote": "86"
+			}
+		],
+		"cheapest_car_insurance_gd": [
+			{
+				"insurance_company": "Progressive",
+				"quote": "90"
+			},
+			{
+				"insurance_company": "Liberty Mutual",
+				"quote": "151"
+			},
+			{
+				"insurance_company": "Travelers",
+				"quote": "182"
+			},
+			{
+				"insurance_company": "All State",
+				"quote": "216"
+			},
+			{
+				"insurance_company": "State Farm",
+				"quote": "222"
+			}
+		],
+		"cheapest_car_insurance_dui": [
+			{
+				"insurance_company": "New Jersey Manufacturers",
+				"quote": "38"
+			},
+			{
+				"insurance_company": "Progressive",
+				"quote": "89"
+			},
+			{
+				"insurance_company": "GEICO",
+				"quote": "86"
+			}
+		],
+		"cheapest_car_insurance_afa": [
+			{
+				"insurance_company": "New Jersey Manufacturers",
+				"quote": "35"
+			},
+			{
+				"insurance_company": "GEICO",
+				"quote": "63"
+			},
+			{
+				"insurance_company": "Amica Insurance",
+				"quote": "81"
+			}
+		],
+		"cheapest_car_insurance_sd": [
+			{
+				"insurance_company": "New Jersey Manufacturers",
+				"quote": "32"
+			},
+			{
+				"insurance_company": "GEICO",
+				"quote": "44"
+			},
+			{
+				"insurance_company": "Plymouth Rock",
+				"quote": "70"
+			}
+		],
+		"cheapest_car_insurance_yd": [
+			{
+				"insurance_company": "Tennessee Farm Bureau",
+				"quote": "31"
+			},
+			{
+				"insurance_company": "GEICO",
+				"quote": "40"
+			},
+			{
+				"insurance_company": "Amica Insurance",
+				"quote": "58"
+			},
+			{
+				"insurance_company": "Plymouth Rock",
+				"quote": "64"
+			},
+			{
+				"insurance_company": "Progressive",
+				"quote": "68"
+			}
+		],
+		"sr22": "Dairyland, Esurance, Farmers, GEICO (from $48/month), The General (from $100/month), National General, Merchants, Mercury (from $106/month), Progressive (from $8/month), Safeco, Foremost",
+		"rural_roads_in_poor_condition": "8%, #20",
+		"structurally_deficient_rural_bridges": "11%, #8",
+		"fatality_rate_on_rural_roads": "1%, #38",
+		"most_duis_rank": "38",
+		"most_moving_violations_rank": "45",
+		"most_popular_car": "Honda Accord",
+		"most_speeding_tickets_rank": "50",
+		"most_suspended_licenses_rank": "46"
+	},
+	"New Mexico": {
+		"state": "New Mexico",
+		"cheapest_car_insurance": [
+			{
+				"company": "Progressive",
+				"quote": "22"
+			},
+			{
+				"company": "State Farm",
+				"quote": "35"
+			},
+			{
+				"company": "Allstate",
+				"quote": "77"
+			},
+			{
+				"company": "GEICO",
+				"quote": "82"
+			},
+			{
+				"company": "Travelers",
+				"quote": "88"
+			}
+		],
+		"best_car_insurance": [
+			{
+				"company": "American Family",
+				"score": "88",
+				"quote": "113"
+			},
+			{
+				"company": "GEICO",
+				"score": "85",
+				"quote": "86"
+			},
+			{
+				"company": "Allstate",
+				"score": "90",
+				"quote": "85"
+			},
+			{
+				"company": "Nationwide",
+				"score": "87",
+				"quote": "96"
+			},
+			{
+				"company": "State Farm",
+				"score": "79",
+				"quote": "36"
+			},
+			{
+				"company": "Travelers",
+				"score": "79",
+				"quote": "88"
+			},
+			{
+				"company": "Liberty Mutual",
+				"score": "80",
+				"quote": "167"
+			},
+			{
+				"company": "Progressive",
+				"score": "75",
+				"quote": "18"
+			}
+		],
+		"car_insurance": [
+			{
+				"city": "Albuquerque",
+				"cheapest_carrier": "Progressive",
+				"quote": "34"
+			},
+			{
+				"city": "Las Cruces",
+				"cheapest_carrier": "Progressive",
+				"quote": "22"
+			},
+			{
+				"city": "Rio Rancho",
+				"cheapest_carrier": "Progressive",
+				"quote": "30"
+			},
+			{
+				"city": "Santa Fe",
+				"cheapest_carrier": "Progressive",
+				"quote": "33"
+			},
+			{
+				"city": "Roswell",
+				"cheapest_carrier": "Progressive",
+				"quote": "28"
+			}
+		],
+		"cheapest_car_insurance_gd": [
+			{
+				"insurance_company": "Progressive",
+				"quote": "24"
+			},
+			{
+				"insurance_company": "State Farm",
+				"quote": "35"
+			},
+			{
+				"insurance_company": "Allstate",
+				"quote": "82"
+			},
+			{
+				"insurance_company": "GEICO",
+				"quote": "78"
+			},
+			{
+				"insurance_company": "Travelers",
+				"quote": "86"
+			}
+		],
+		"cheapest_car_insurance_dui": [
+			{
+				"insurance_company": "USAA",
+				"quote": "36"
+			},
+			{
+				"insurance_company": "State Farm",
+				"quote": "42"
+			},
+			{
+				"insurance_company": "Progressive",
+				"quote": "51"
+			}
+		],
+		"cheapest_car_insurance_afa": [
+			{
+				"insurance_company": "USAA",
+				"quote": "35"
+			},
+			{
+				"insurance_company": "Central Mutual",
+				"quote": "35"
+			},
+			{
+				"insurance_company": "GEICO",
+				"quote": "43"
+			}
+		],
+		"cheapest_car_insurance_sd": [
+			{
+				"insurance_company": "USAA",
+				"quote": "27"
+			},
+			{
+				"insurance_company": "State Farm",
+				"quote": "34"
+			},
+			{
+				"insurance_company": "Central Mutual",
+				"quote": "44"
+			}
+		],
+		"cheapest_car_insurance_yd": [
+			{
+				"insurance_company": "USAA",
+				"quote": "14"
+			},
+			{
+				"insurance_company": "State Farm",
+				"quote": "39"
+			},
+			{
+				"insurance_company": "GEICO",
+				"quote": "36"
+			}
+		],
+		"sr22": "Dairyland, Esurance, Farmers, GAINSCO, GEICO (from $48/month), The General (from $100/month), National General, Hallmark, Mendota, Progressive (from $8/month), Safeco, Safeway, Titan, Victoria, Ameriprise, Stillwater, Acceptance, Foremost",
+		"rural_roads_in_poor_condition": "25%, #5",
+		"structurally_deficient_rural_bridges": "7%, #12",
+		"fatality_rate_on_rural_roads": "1%, #24",
+		"most_duis_rank": "13",
+		"most_moving_violations_rank": "36",
+		"most_popular_car": "Ford F-Series Pickup",
+		"most_speeding_tickets_rank": "27",
+		"most_suspended_licenses_rank": "39"
+	},
+	"Nevada": {
+		"state": "Nevada",
+		"cheapest_car_insurance": [
+			{
+				"company": "State Farm",
+				"quote": "56"
+			},
+			{
+				"company": "Progressive",
+				"quote": "59"
+			},
+			{
+				"company": "GEICO",
+				"quote": "70"
+			},
+			{
+				"company": "Allstate",
+				"quote": "86"
+			},
+			{
+				"company": "Nationwide",
+				"quote": "100"
+			}
+		],
+		"best_car_insurance": [
+			{
+				"company": "GEICO",
+				"score": "91",
+				"quote": "73"
+			},
+			{
+				"company": "Allstate",
+				"score": "81",
+				"quote": "86"
+			},
+			{
+				"company": "Nationwide",
+				"score": "79",
+				"quote": "105"
+			},
+			{
+				"company": "State Farm",
+				"score": "80",
+				"quote": "57"
+			},
+			{
+				"company": "Travelers",
+				"score": "82",
+				"quote": "234"
+			},
+			{
+				"company": "Liberty Mutual",
+				"score": "82",
+				"quote": "135"
+			},
+			{
+				"company": "Progressive",
+				"score": "79",
+				"quote": "62"
+			}
+		],
+		"car_insurance": [
+			{
+				"city": "Las Vegas",
+				"cheapest_carrier": "GEICO",
+				"quote": "108"
+			},
+			{
+				"city": "Henderson",
+				"cheapest_carrier": "State Farm",
+				"quote": "110"
+			},
+			{
+				"city": "Reno",
+				"cheapest_carrier": "State Farm",
+				"quote": "77"
+			},
+			{
+				"city": "North Las Vegas",
+				"cheapest_carrier": "State Farm",
+				"quote": "149"
+			},
+			{
+				"city": "Sparks",
+				"cheapest_carrier": "Allstate",
+				"quote": "91"
+			}
+		],
+		"cheapest_car_insurance_gd": [
+			{
+				"insurance_company": "Grange",
+				"quote": "50"
+			},
+			{
+				"insurance_company": "Progessive",
+				"quote": "58"
+			},
+			{
+				"insurance_company": "GEICO",
+				"quote": "68"
+			},
+			{
+				"insurance_company": "Allstate",
+				"quote": "83"
+			},
+			{
+				"insurance_company": "Nationwide",
+				"quote": "101"
+			}
+		],
+		"cheapest_car_insurance_dui": [
+			{
+				"insurance_company": "State Farm",
+				"quote": "70"
+			},
+			{
+				"insurance_company": "CSAA",
+				"quote": "77"
+			},
+			{
+				"insurance_company": "GEICO",
+				"quote": "100"
+			}
+		],
+		"cheapest_car_insurance_afa": [
+			{
+				"insurance_company": "USAA",
+				"quote": "75"
+			},
+			{
+				"insurance_company": "State Farm",
+				"quote": "79"
+			},
+			{
+				"insurance_company": "Country",
+				"quote": "93"
+			}
+		],
+		"cheapest_car_insurance_sd": [
+			{
+				"insurance_company": "USAA",
+				"quote": "60"
+			},
+			{
+				"insurance_company": "GEICO",
+				"quote": "69"
+			},
+			{
+				"insurance_company": "State Farm",
+				"quote": "79"
+			}
+		],
+		"cheapest_car_insurance_yd": [
+			{
+				"insurance_company": "USAA",
+				"quote": "49"
+			},
+			{
+				"insurance_company": "CSAA",
+				"quote": "55"
+			},
+			{
+				"insurance_company": "GEICO",
+				"quote": "61"
+			},
+			{
+				"insurance_company": "Country",
+				"quote": "58"
+			},
+			{
+				"insurance_company": "State Farm",
+				"quote": "69"
+			}
+		],
+		"sr22": "Carnegie Insurance, Dairyland, Esurance, Farmers, GEICO (from $48/month), The General (from $100/month), National General, Hallmark, Infinity, Mendota, Mercury (from $106/month), Progressive (from $8/month), Safeco, Titan, Victoria, Ameriprise, Stillwater, Acceptance, Foremost",
+		"rural_roads_in_poor_condition": "7%, #21",
+		"structurally_deficient_rural_bridges": "3%, #16",
+		"fatality_rate_on_rural_roads": "1%, #17",
+		"most_duis_rank": "29",
+		"most_moving_violations_rank": "48",
+		"most_popular_car": "Toyota Camry",
+		"most_speeding_tickets_rank": "46",
+		"most_suspended_licenses_rank": "18"
+	},
+	"New York": {
+		"state": "New York",
+		"cheapest_car_insurance": [
+			{
+				"company": "Progressive",
+				"quote": "4"
+			},
+			{
+				"company": "GEICO",
+				"quote": "52"
+			},
+			{
+				"company": "State Farm",
+				"quote": "67"
+			},
+			{
+				"company": "Liberty Mutual",
+				"quote": "158"
+			}
+		],
+		"best_car_insurance": [
+			{
+				"company": "GEICO",
+				"score": "84",
+				"quote": "56"
+			},
+			{
+				"company": "State Farm",
+				"score": "85",
+				"quote": "69"
+			},
+			{
+				"company": "Liberty Mutual",
+				"score": "76",
+				"quote": "158"
+			},
+			{
+				"company": "Progressive",
+				"score": "82",
+				"quote": "11"
+			}
+		],
+		"car_insurance": [
+			{
+				"city": "New York",
+				"cheapest_carrier": "GEICO",
+				"quote": "94"
+			},
+			{
+				"city": "Brooklyn",
+				"cheapest_carrier": "GEICO",
+				"quote": "125"
+			},
+			{
+				"city": "Bronx",
+				"cheapest_carrier": "Liberty Mutual",
+				"quote": "345"
+			},
+			{
+				"city": "Staten Island",
+				"cheapest_carrier": "GEICO",
+				"quote": "123"
+			},
+			{
+				"city": "Buffalo",
+				"cheapest_carrier": "GEICO",
+				"quote": "89"
+			}
+		],
+		"cheapest_car_insurance_gd": [
+			{
+				"insurance_company": "Progressive",
+				"quote": "8"
+			},
+			{
+				"insurance_company": "GEICO",
+				"quote": "57"
+			},
+			{
+				"insurance_company": "State Farm",
+				"quote": "69"
+			},
+			{
+				"insurance_company": "Liberty Mutual",
+				"quote": "157"
+			}
+		],
+		"cheapest_car_insurance_dui": [
+			{
+				"insurance_company": "USAA",
+				"quote": "77"
+			},
+			{
+				"insurance_company": "New York Central",
+				"quote": "85"
+			},
+			{
+				"insurance_company": "Progressive",
+				"quote": "94"
+			}
+		],
+		"cheapest_car_insurance_afa": [
+			{
+				"insurance_company": "USAA",
+				"quote": "50"
+			},
+			{
+				"insurance_company": "Preferred Mutual",
+				"quote": "61"
+			},
+			{
+				"insurance_company": "Erie",
+				"quote": "91"
+			}
+		],
+		"cheapest_car_insurance_sd": [
+			{
+				"insurance_company": "USAA",
+				"quote": "53"
+			},
+			{
+				"insurance_company": "Erie",
+				"quote": "61"
+			},
+			{
+				"insurance_company": "Travelers",
+				"quote": "67"
+			}
+		],
+		"cheapest_car_insurance_yd": [
+			{
+				"insurance_company": "Preferred Mutual",
+				"quote": "45"
+			},
+			{
+				"insurance_company": "USAA",
+				"quote": "47"
+			},
+			{
+				"insurance_company": "Travelers",
+				"quote": "50"
+			},
+			{
+				"insurance_company": "GEICO",
+				"quote": "49"
+			},
+			{
+				"insurance_company": "Erie",
+				"quote": "61"
+			}
+		],
+		"sr22": "Dairyland, Esurance, Farmers, GEICO (from $48/month), The General (from $100/month), National General, Merchants, Mercury (from $106/month), Progressive (from $8/month), Safeco, Victoria, Ameriprise, Foremost",
+		"rural_roads_in_poor_condition": "11%, #17",
+		"structurally_deficient_rural_bridges": "13%, #7",
+		"fatality_rate_on_rural_roads": "1%, #34",
+		"most_duis_rank": "34",
+		"most_moving_violations_rank": "30",
+		"most_popular_car": "Honda Accord",
+		"most_speeding_tickets_rank": "43",
+		"most_suspended_licenses_rank": "43"
+	},
+	"Ohio": {
+		"state": "Ohio",
+		"cheapest_car_insurance": [
+			{
+				"company": "Progressive",
+				"quote": "33"
+			},
+			{
+				"company": "Allstate",
+				"quote": "50"
+			},
+			{
+				"company": "State Farm",
+				"quote": "52"
+			},
+			{
+				"company": "GEICO",
+				"quote": "67"
+			},
+			{
+				"company": "Travelers",
+				"quote": "88"
+			}
+		],
+		"best_car_insurance": [
+			{
+				"company": "American Family",
+				"score": "86",
+				"quote": "153"
+			},
+			{
+				"company": "GEICO",
+				"score": "90",
+				"quote": "71"
+			},
+			{
+				"company": "Allstate",
+				"score": "86",
+				"quote": "53"
+			},
+			{
+				"company": "Nationwide",
+				"score": "80",
+				"quote": "116"
+			},
+			{
+				"company": "State Farm",
+				"score": "78",
+				"quote": "55"
+			},
+			{
+				"company": "Travelers",
+				"score": "80",
+				"quote": "85"
+			},
+			{
+				"company": "Liberty Mutual",
+				"score": "85",
+				"quote": "87"
+			},
+			{
+				"company": "Progressive",
+				"score": "76",
+				"quote": "25"
+			}
+		],
+		"car_insurance": [
+			{
+				"city": "Columbus",
+				"cheapest_carrier": "Progressive",
+				"quote": "28"
+			},
+			{
+				"city": "Cleveland",
+				"cheapest_carrier": "Progressive",
+				"quote": "41"
+			},
+			{
+				"city": "Cincinnati",
+				"cheapest_carrier": "Progressive",
+				"quote": "42"
+			},
+			{
+				"city": "Toledo",
+				"cheapest_carrier": "Progressive",
+				"quote": "42"
+			},
+			{
+				"city": "Akron",
+				"cheapest_carrier": "Progressive",
+				"quote": "40"
+			}
+		],
+		"cheapest_car_insurance_gd": [
+			{
+				"insurance_company": "Progressive",
+				"quote": "33"
+			},
+			{
+				"insurance_company": "Allstate",
+				"quote": "53"
+			},
+			{
+				"insurance_company": "State Farm",
+				"quote": "57"
+			},
+			{
+				"insurance_company": "GEICO",
+				"quote": "72"
+			},
+			{
+				"insurance_company": "Travelers",
+				"quote": "85"
+			}
+		],
+		"cheapest_car_insurance_dui": [
+			{
+				"insurance_company": "Erie",
+				"quote": "37"
+			},
+			{
+				"insurance_company": "Westfield",
+				"quote": "35"
+			},
+			{
+				"insurance_company": "USAA",
+				"quote": "42"
+			}
+		],
+		"cheapest_car_insurance_afa": [
+			{
+				"insurance_company": "Auto Owners",
+				"quote": "24"
+			},
+			{
+				"insurance_company": "Buckeye",
+				"quote": "23"
+			},
+			{
+				"insurance_company": "Frankenmuth",
+				"quote": "25"
+			}
+		],
+		"cheapest_car_insurance_sd": [
+			{
+				"insurance_company": "Buckeye",
+				"quote": "21"
+			},
+			{
+				"insurance_company": "Erie",
+				"quote": "26"
+			},
+			{
+				"insurance_company": "USAA",
+				"quote": "26"
+			}
+		],
+		"cheapest_car_insurance_yd": [
+			{
+				"insurance_company": "USAA",
+				"quote": "19"
+			},
+			{
+				"insurance_company": "Auto Owners",
+				"quote": "24"
+			},
+			{
+				"insurance_company": "Erie",
+				"quote": "20"
+			},
+			{
+				"insurance_company": "Buckeye",
+				"quote": "25"
+			},
+			{
+				"insurance_company": "Frankenmuth",
+				"quote": "24"
+			}
+		],
+		"sr22": "Dairyland, Elephant, Esurance, Farmers, Founders, Frankenmuth, GEICO (from $48/month), The General (from $100/month), National General, Grange, Grinnell Mutual, Hallmark, Merchants, Pekin, Progressive (from $8/month), SafeAuto, Safeco, State Auto, Titan, Victoria, West Bend Mutual, Ameriprise, Stillwater, Acceptance, Foremost",
+		"rural_roads_in_poor_condition": "6%, #22",
+		"structurally_deficient_rural_bridges": "7%, #12",
+		"fatality_rate_on_rural_roads": "1%, #28",
+		"most_duis_rank": "16",
+		"most_moving_violations_rank": "9",
+		"most_popular_car": "Honda Civic",
+		"most_speeding_tickets_rank": "3",
+		"most_suspended_licenses_rank": "3"
+	},
+	"Oklahoma": {
+		"state": "Oklahoma",
+		"cheapest_car_insurance": [
+			{
+				"company": "Progressive",
+				"quote": "48"
+			},
+			{
+				"company": "State Farm",
+				"quote": "59"
+			},
+			{
+				"company": "Allstate",
+				"quote": "70"
+			},
+			{
+				"company": "Travelers",
+				"quote": "120"
+			},
+			{
+				"company": "GEICO",
+				"quote": "115"
+			}
+		],
+		"best_car_insurance": [
+			{
+				"company": "American Family",
+				"score": "88",
+				"quote": "210"
+			},
+			{
+				"company": "GEICO",
+				"score": "89",
+				"quote": "118"
+			},
+			{
+				"company": "Allstate",
+				"score": "89",
+				"quote": "71"
+			},
+			{
+				"company": "State Farm",
+				"score": "85",
+				"quote": "55"
+			},
+			{
+				"company": "Travelers",
+				"score": "79",
+				"quote": "119"
+			},
+			{
+				"company": "Liberty Mutual",
+				"score": "76",
+				"quote": "211"
+			},
+			{
+				"company": "Progressive",
+				"score": "74",
+				"quote": "45"
+			}
+		],
+		"car_insurance": [
+			{
+				"city": "Oklahoma City",
+				"cheapest_carrier": "Progressive",
+				"quote": "72"
+			},
+			{
+				"city": "Tulsa",
+				"cheapest_carrier": "Progressive",
+				"quote": "50"
+			},
+			{
+				"city": "Norman",
+				"cheapest_carrier": "State Farm",
+				"quote": "73"
+			},
+			{
+				"city": "Broken Arrow",
+				"cheapest_carrier": "State Farm",
+				"quote": "89"
+			},
+			{
+				"city": "Lawton",
+				"cheapest_carrier": "State Farm",
+				"quote": "63"
+			}
+		],
+		"cheapest_car_insurance_gd": [
+			{
+				"insurance_company": "Progressive",
+				"quote": "42"
+			},
+			{
+				"insurance_company": "State Farm",
+				"quote": "55"
+			},
+			{
+				"insurance_company": "Allstate",
+				"quote": "75"
+			},
+			{
+				"insurance_company": "Travelers",
+				"quote": "118"
+			},
+			{
+				"insurance_company": "GEICO",
+				"quote": "123"
+			}
+		],
+		"cheapest_car_insurance_dui": [
+			{
+				"insurance_company": "State Farm",
+				"quote": "42"
+			},
+			{
+				"insurance_company": "Home State Insurance Group",
+				"quote": "61"
+			},
+			{
+				"insurance_company": "GEICO",
+				"quote": "66"
+			}
+		],
+		"cheapest_car_insurance_afa": [
+			{
+				"insurance_company": "Oklahoma Farm Bureau",
+				"quote": "34"
+			},
+			{
+				"insurance_company": "State Farm",
+				"quote": "41"
+			},
+			{
+				"insurance_company": "USAA",
+				"quote": "56"
+			}
+		],
+		"cheapest_car_insurance_sd": [
+			{
+				"insurance_company": "State Farm",
+				"quote": "45"
+			},
+			{
+				"insurance_company": "USAA",
+				"quote": "44"
+			},
+			{
+				"insurance_company": "Oklahoma Farm Bureau",
+				"quote": "40"
+			}
+		],
+		"cheapest_car_insurance_yd": [
+			{
+				"insurance_company": "Oklahoma Farm Bureau",
+				"quote": "28"
+			},
+			{
+				"insurance_company": "USAA",
+				"quote": "31"
+			},
+			{
+				"insurance_company": "State Farm",
+				"quote": "35"
+			},
+			{
+				"insurance_company": "GEICO",
+				"quote": "37"
+			},
+			{
+				"insurance_company": "Oklahoma Farm Bureau",
+				"quote": "50"
+			}
+		],
+		"sr22": "Dairyland, Esurance, Farmers, GAINSCO, GEICO (from $48/month), The General (from $100/month), National General, Grinnell Mutual, Hallmark, Mercury (from $106/month), North Star, Progressive (from $8/month), SafeAuto, Safeco, Victoria, Ameriprise, Jupiter, Foremost",
+		"rural_roads_in_poor_condition": "22%, #7",
+		"structurally_deficient_rural_bridges": "16%, #4",
+		"fatality_rate_on_rural_roads": "1%, #11",
+		"most_duis_rank": "40",
+		"most_moving_violations_rank": "42",
+		"most_popular_car": "Ford F-Series Pickup",
+		"most_speeding_tickets_rank": "32",
+		"most_suspended_licenses_rank": "23"
+	},
+	"Oregon": {
+		"state": "Oregon",
+		"cheapest_car_insurance": [
+			{
+				"company": "Progressive",
+				"quote": "24"
+			},
+			{
+				"company": "State Farm",
+				"quote": "64"
+			},
+			{
+				"company": "Allstate",
+				"quote": "93"
+			},
+			{
+				"company": "GEICO",
+				"quote": "92"
+			},
+			{
+				"company": "Travelers",
+				"quote": "106"
+			}
+		],
+		"best_car_insurance": [
+			{
+				"company": "American Family",
+				"score": "88",
+				"quote": "163"
+			},
+			{
+				"company": "GEICO",
+				"score": "83",
+				"quote": "90"
+			},
+			{
+				"company": "Allstate",
+				"score": "82",
+				"quote": "84"
+			},
+			{
+				"company": "Nationwide",
+				"score": "89",
+				"quote": "120"
+			},
+			{
+				"company": "State Farm",
+				"score": "79",
+				"quote": "66"
+			},
+			{
+				"company": "Travelers",
+				"score": "79",
+				"quote": "104"
+			},
+			{
+				"company": "Liberty Mutual",
+				"score": "81",
+				"quote": "152"
+			},
+			{
+				"company": "Progressive",
+				"score": "75",
+				"quote": "20"
+			}
+		],
+		"car_insurance": [
+			{
+				"city": "Portland",
+				"cheapest_carrier": "Progressive",
+				"quote": "40"
+			},
+			{
+				"city": "Salem",
+				"cheapest_carrier": "Progressive",
+				"quote": "57"
+			},
+			{
+				"city": "Eugene",
+				"cheapest_carrier": "Progressive",
+				"quote": "23"
+			},
+			{
+				"city": "Gresham",
+				"cheapest_carrier": "Progressive",
+				"quote": "56"
+			},
+			{
+				"city": "Hillsboro",
+				"cheapest_carrier": "Progressive",
+				"quote": "61"
+			}
+		],
+		"cheapest_car_insurance_gd": [
+			{
+				"insurance_company": "Progressive",
+				"quote": "23"
+			},
+			{
+				"insurance_company": "State Farm",
+				"quote": "63"
+			},
+			{
+				"insurance_company": "Allstate",
+				"quote": "92"
+			},
+			{
+				"insurance_company": "GEICO",
+				"quote": "91"
+			},
+			{
+				"insurance_company": "Travelers",
+				"quote": "108"
+			}
+		],
+		"cheapest_car_insurance_dui": [
+			{
+				"insurance_company": "State Farm",
+				"quote": "59"
+			},
+			{
+				"insurance_company": "Grange",
+				"quote": "65"
+			},
+			{
+				"insurance_company": "COUNTRY Financial",
+				"quote": "71"
+			}
+		],
+		"cheapest_car_insurance_afa": [
+			{
+				"insurance_company": "Grange",
+				"quote": "48"
+			},
+			{
+				"insurance_company": "State Farm",
+				"quote": "67"
+			},
+			{
+				"insurance_company": "USAA",
+				"quote": "72"
+			}
+		],
+		"cheapest_car_insurance_sd": [
+			{
+				"insurance_company": "Grange",
+				"quote": "40"
+			},
+			{
+				"insurance_company": "State Farm",
+				"quote": "61"
+			},
+			{
+				"insurance_company": "USAA",
+				"quote": "54"
+			}
+		],
+		"cheapest_car_insurance_yd": [
+			{
+				"insurance_company": "COUNTRY Financial",
+				"quote": "42"
+			},
+			{
+				"insurance_company": "USAA",
+				"quote": "48"
+			},
+			{
+				"insurance_company": "Grange",
+				"quote": "48"
+			},
+			{
+				"insurance_company": "General Casualty",
+				"quote": "50"
+			},
+			{
+				"insurance_company": "State Farm",
+				"quote": "54"
+			}
+		],
+		"sr22": "Carnegie Insurance, Dairyland, Esurance, Farmers, GEICO (from $48/month), The General (from $100/month), National General, PEMCO, Progressive (from $8/month), Safeco, Victoria, Ameriprise, Stillwater, Foremost",
+		"rural_roads_in_poor_condition": "11%, #17",
+		"structurally_deficient_rural_bridges": "5%, #14",
+		"fatality_rate_on_rural_roads": "1%, #18",
+		"most_duis_rank": "20",
+		"most_moving_violations_rank": "17",
+		"most_popular_car": "Honda Accord",
+		"most_speeding_tickets_rank": "15",
+		"most_suspended_licenses_rank": "10"
+	},
+	"Pennsylvania": {
+		"state": "Pennsylvania",
+		"cheapest_car_insurance": [
+			{
+				"company": "Progressive",
+				"quote": "44"
+			},
+			{
+				"company": "State Farm",
+				"quote": "52"
+			},
+			{
+				"company": "Allstate",
+				"quote": "99"
+			},
+			{
+				"company": "GEICO",
+				"quote": "111"
+			},
+			{
+				"company": "Travelers",
+				"quote": "121"
+			}
+		],
+		"best_car_insurance": [
+			{
+				"company": "American Family",
+				"score": "89",
+				"quote": "156"
+			},
+			{
+				"company": "GEICO",
+				"score": "90",
+				"quote": "112"
+			},
+			{
+				"company": "Allstate",
+				"score": "90",
+				"quote": "105"
+			},
+			{
+				"company": "State Farm",
+				"score": "79",
+				"quote": "48"
+			},
+			{
+				"company": "Travelers",
+				"score": "85",
+				"quote": "125"
+			},
+			{
+				"company": "Liberty Mutual",
+				"score": "82",
+				"quote": "134"
+			},
+			{
+				"company": "Progressive",
+				"score": "76",
+				"quote": "48"
+			}
+		],
+		"car_insurance": [
+			{
+				"city": "Philadelphia",
+				"cheapest_carrier": "GEICO",
+				"quote": "194"
+			},
+			{
+				"city": "Pittsburgh",
+				"cheapest_carrier": "Progressive",
+				"quote": "54"
+			},
+			{
+				"city": "Allentown",
+				"cheapest_carrier": "State Farm",
+				"quote": "93"
+			},
+			{
+				"city": "Erie",
+				"cheapest_carrier": "State Farm",
+				"quote": "78"
+			},
+			{
+				"city": "Reading",
+				"cheapest_carrier": "State Farm",
+				"quote": "93"
+			}
+		],
+		"cheapest_car_insurance_gd": [
+			{
+				"insurance_company": "Progressive",
+				"quote": "48"
+			},
+			{
+				"insurance_company": "State Farm",
+				"quote": "51"
+			},
+			{
+				"insurance_company": "Allstate",
+				"quote": "101"
+			},
+			{
+				"insurance_company": "GEICO",
+				"quote": "108"
+			},
+			{
+				"insurance_company": "Travelers",
+				"quote": "119"
+			}
+		],
+		"cheapest_car_insurance_dui": [
+			{
+				"insurance_company": "USAA",
+				"quote": "34"
+			},
+			{
+				"insurance_company": "State Farm",
+				"quote": "33"
+			},
+			{
+				"insurance_company": "Erie",
+				"quote": "38"
+			}
+		],
+		"cheapest_car_insurance_afa": [
+			{
+				"insurance_company": "Penn National",
+				"quote": "25"
+			},
+			{
+				"insurance_company": "Erie",
+				"quote": "29"
+			},
+			{
+				"insurance_company": "USAA",
+				"quote": "29"
+			}
+		],
+		"cheapest_car_insurance_sd": [
+			{
+				"insurance_company": "USAA",
+				"quote": "25"
+			},
+			{
+				"insurance_company": "Erie",
+				"quote": "29"
+			},
+			{
+				"insurance_company": "Penn National",
+				"quote": "33"
+			}
+		],
+		"cheapest_car_insurance_yd": [
+			{
+				"insurance_company": "USAA",
+				"quote": "24"
+			},
+			{
+				"insurance_company": "Erie",
+				"quote": "26"
+			},
+			{
+				"insurance_company": "Penn National",
+				"quote": "22"
+			},
+			{
+				"insurance_company": "Donegal Mutual",
+				"quote": "28"
+			},
+			{
+				"insurance_company": "State Farm",
+				"quote": "35"
+			}
+		],
+		"sr22": "Brethren Mutual, Cumberland Mutual, Dairyland, Esurance, Farmers, GEICO (from $48/month), The General (from $100/month), National General, Grange, Grinnell Mutual, Infinity, Merchants, Progressive (from $8/month), SafeAuto, Safeco, Titan, Victoria, Ameriprise, Acceptance, Foremost",
+		"rural_roads_in_poor_condition": "22%, #7",
+		"structurally_deficient_rural_bridges": "22%, #1",
+		"fatality_rate_on_rural_roads": "1%, #22",
+		"most_duis_rank": "31",
+		"most_moving_violations_rank": "46",
+		"most_popular_car": "Honda Civic",
+		"most_speeding_tickets_rank": "48",
+		"most_suspended_licenses_rank": "40"
+	},
+	"Rhode Island": {
+		"state": "Rhode Island",
+		"cheapest_car_insurance": [
+			{
+				"company": "Progressive",
+				"quote": "88"
+			},
+			{
+				"company": "Travelers",
+				"quote": "173"
+			},
+			{
+				"company": "Liberty Mutual",
+				"quote": "255"
+			},
+			{
+				"company": "American Family",
+				"quote": "306"
+			}
+		],
+		"best_car_insurance": [
+			{
+				"company": "American Family",
+				"score": "87",
+				"quote": "307"
+			},
+			{
+				"company": "Travelers",
+				"score": "83",
+				"quote": "176"
+			},
+			{
+				"company": "Liberty Mutual",
+				"score": "81",
+				"quote": "257"
+			},
+			{
+				"company": "Progressive",
+				"score": "76",
+				"quote": "89"
+			}
+		],
+		"car_insurance": [
+			{
+				"city": "Providence",
+				"cheapest_carrier": "Progressive",
+				"quote": "133"
+			},
+			{
+				"city": "Warwick",
+				"cheapest_carrier": "Progressive",
+				"quote": "239"
+			},
+			{
+				"city": "Cranston",
+				"cheapest_carrier": "Progressive",
+				"quote": "233"
+			},
+			{
+				"city": "Pawtucket",
+				"cheapest_carrier": "Progressive",
+				"quote": "260"
+			},
+			{
+				"city": "East Providence",
+				"cheapest_carrier": "Progressive",
+				"quote": "187"
+			}
+		],
+		"cheapest_car_insurance_gd": [
+			{
+				"insurance_company": "Progressive",
+				"quote": "92"
+			},
+			{
+				"insurance_company": "Travelers",
+				"quote": "182"
+			},
+			{
+				"insurance_company": "Liberty Mutual",
+				"quote": "252"
+			},
+			{
+				"insurance_company": "American Family",
+				"quote": "302"
+			}
+		],
+		"cheapest_car_insurance_dui": [
+			{
+				"insurance_company": "State Farm",
+				"quote": "32"
+			},
+			{
+				"insurance_company": "Progressive",
+				"quote": "93"
+			},
+			{
+				"insurance_company": "USAA",
+				"quote": "112"
+			}
+		],
+		"cheapest_car_insurance_afa": [
+			{
+				"insurance_company": "State Farm",
+				"quote": "48"
+			},
+			{
+				"insurance_company": "USAA",
+				"quote": "67"
+			},
+			{
+				"insurance_company": "Travelers",
+				"quote": "77"
+			}
+		],
+		"cheapest_car_insurance_sd": [
+			{
+				"insurance_company": "State Farm",
+				"quote": "31"
+			},
+			{
+				"insurance_company": "USAA",
+				"quote": "59"
+			},
+			{
+				"insurance_company": "Quincy Mutual",
+				"quote": "102"
+			}
+		],
+		"cheapest_car_insurance_yd": [
+			{
+				"insurance_company": "State Farm",
+				"quote": "38"
+			},
+			{
+				"insurance_company": "USAA",
+				"quote": "43"
+			},
+			{
+				"insurance_company": "Travelers",
+				"quote": "49"
+			}
+		],
+		"sr22": "Dairyland, Esurance, Farmers, GEICO (from $48/month), The General (from $100/month), National General, Merchants, Progressive (from $8/month), Safeco, Stillwater, Foremost",
+		"rural_roads_in_poor_condition": "41%, #1",
+		"structurally_deficient_rural_bridges": "22%, #1",
+		"fatality_rate_on_rural_roads": "1%, #40",
+		"most_duis_rank": "46",
+		"most_moving_violations_rank": "15",
+		"most_popular_car": "Honda Accord",
+		"most_speeding_tickets_rank": "33",
+		"most_suspended_licenses_rank": "42"
+	},
+	"South Carolina": {
+		"state": "South Carolina",
+		"cheapest_car_insurance": [
+			{
+				"company": "Direct Auto",
+				"quote": "68"
+			},
+			{
+				"company": "State Farm",
+				"quote": "69"
+			},
+			{
+				"company": "Allstate",
+				"quote": "83"
+			},
+			{
+				"company": "Progressive",
+				"quote": "87"
+			},
+			{
+				"company": "GEICO",
+				"quote": "112"
+			}
+		],
+		"best_car_insurance": [
+			{
+				"company": "American Family",
+				"score": "89",
+				"quote": "146"
+			},
+			{
+				"company": "GEICO",
+				"score": "83",
+				"quote": "110"
+			},
+			{
+				"company": "Allstate",
+				"score": "84",
+				"quote": "87"
+			},
+			{
+				"company": "Nationwide",
+				"score": "87",
+				"quote": "129"
+			},
+			{
+				"company": "State Farm",
+				"score": "80",
+				"quote": "72"
+			},
+			{
+				"company": "Liberty Mutual",
+				"score": "84",
+				"quote": "200"
+			},
+			{
+				"company": "Progressive",
+				"score": "82",
+				"quote": "93"
+			}
+		],
+		"car_insurance": [
+			{
+				"city": "Columbia",
+				"cheapest_carrier": "Direct Auto",
+				"quote": "89"
+			},
+			{
+				"city": "Charleston",
+				"cheapest_carrier": "Direct Auto",
+				"quote": "81"
+			},
+			{
+				"city": "North Charleston",
+				"cheapest_carrier": "Direct Auto",
+				"quote": "94"
+			},
+			{
+				"city": "Mount Pleasant",
+				"cheapest_carrier": "Direct Auto",
+				"quote": "84"
+			},
+			{
+				"city": "Rock Hill",
+				"cheapest_carrier": "Direct Auto",
+				"quote": "73"
+			}
+		],
+		"cheapest_car_insurance_gd": [
+			{
+				"insurance_company": "Direct Auto",
+				"quote": "66"
+			},
+			{
+				"insurance_company": "State Farm",
+				"quote": "73"
+			},
+			{
+				"insurance_company": "Allstate",
+				"quote": "90"
+			},
+			{
+				"insurance_company": "Progressive",
+				"quote": "89"
+			},
+			{
+				"insurance_company": "GEICO",
+				"quote": "105"
+			}
+		],
+		"cheapest_car_insurance_dui": [
+			{
+				"insurance_company": "American National",
+				"quote": "44"
+			},
+			{
+				"insurance_company": "Auto Owners",
+				"quote": "51"
+			},
+			{
+				"insurance_company": "USAA",
+				"quote": "54"
+			}
+		],
+		"cheapest_car_insurance_afa": [
+			{
+				"insurance_company": "GEICO",
+				"quote": "39"
+			},
+			{
+				"insurance_company": "American National",
+				"quote": "43"
+			},
+			{
+				"insurance_company": "USAA",
+				"quote": "45"
+			}
+		],
+		"cheapest_car_insurance_sd": [
+			{
+				"insurance_company": "USAA",
+				"quote": "39"
+			},
+			{
+				"insurance_company": "GEICO",
+				"quote": "33"
+			},
+			{
+				"insurance_company": "American National",
+				"quote": "42"
+			}
+		],
+		"cheapest_car_insurance_yd": [
+			{
+				"insurance_company": "USAA",
+				"quote": "29"
+			},
+			{
+				"insurance_company": "Auto Owners",
+				"quote": "28"
+			},
+			{
+				"insurance_company": "American Family",
+				"quote": "34"
+			},
+			{
+				"insurance_company": "GEICO",
+				"quote": "33"
+			},
+			{
+				"insurance_company": "State Farm",
+				"quote": "31"
+			}
+		],
+		"sr22": "Dairyland, Esurance, Farmers, GAINSCO, GEICO (from $48/month), The General (from $100/month), National General, Grange, Progressive (from $8/month), SafeAuto, Safeco, Titan, Victoria, Ameriprise, Farm Bureau Financial Services, Everest National, Acceptance, Direct Auto (from $52/month), Foremost",
+		"rural_roads_in_poor_condition": "10%, #18",
+		"structurally_deficient_rural_bridges": "11%, #8",
+		"fatality_rate_on_rural_roads": "2%, #1",
+		"most_duis_rank": "45",
+		"most_moving_violations_rank": "6",
+		"most_popular_car": "Honda Accord",
+		"most_speeding_tickets_rank": "1",
+		"most_suspended_licenses_rank": "22"
+	},
+	"South Dakota": {
+		"state": "South Dakota",
+		"cheapest_car_insurance": [
+			{
+				"company": "Progressive",
+				"quote": "22"
+			},
+			{
+				"company": "Allstate",
+				"quote": "41"
+			},
+			{
+				"company": "State Farm",
+				"quote": "51"
+			},
+			{
+				"company": "GEICO",
+				"quote": "93"
+			},
+			{
+				"company": "The General",
+				"quote": "133"
+			}
+		],
+		"best_car_insurance": [
+			{
+				"company": "American Family",
+				"score": "93",
+				"quote": "134"
+			},
+			{
+				"company": "GEICO",
+				"score": "87",
+				"quote": "87"
+			},
+			{
+				"company": "Allstate",
+				"score": "82",
+				"quote": "46"
+			},
+			{
+				"company": "State Farm",
+				"score": "86",
+				"quote": "47"
+			},
+			{
+				"company": "Progressive",
+				"score": "75",
+				"quote": "18"
+			}
+		],
+		"car_insurance": [
+			{
+				"city": "Sioux Falls",
+				"cheapest_carrier": "Allstate",
+				"quote": "49"
+			},
+			{
+				"city": "Rapid City",
+				"cheapest_carrier": "Progressive",
+				"quote": "44"
+			},
+			{
+				"city": "Aberdeen",
+				"cheapest_carrier": "Allstate",
+				"quote": "50"
+			},
+			{
+				"city": "Brookings",
+				"cheapest_carrier": "Allstate",
+				"quote": "42"
+			},
+			{
+				"city": "Watertown",
+				"cheapest_carrier": "State Farm",
+				"quote": "53"
+			}
+		],
+		"cheapest_car_insurance_gd": [
+			{
+				"insurance_company": "Progressvie",
+				"quote": "28"
+			},
+			{
+				"insurance_company": "State Farm",
+				"quote": "32"
+			},
+			{
+				"insurance_company": "Allstate",
+				"quote": "47"
+			},
+			{
+				"insurance_company": "GEICO",
+				"quote": "93"
+			},
+			{
+				"insurance_company": "The General",
+				"quote": "132"
+			}
+		],
+		"cheapest_car_insurance_dui": [
+			{
+				"insurance_company": "State Farm",
+				"quote": "21"
+			},
+			{
+				"insurance_company": "Western National",
+				"quote": "22"
+			},
+			{
+				"insurance_company": "Progressvie",
+				"quote": "31"
+			}
+		],
+		"cheapest_car_insurance_afa": [
+			{
+				"insurance_company": "Buckeye",
+				"quote": "18"
+			},
+			{
+				"insurance_company": "Auto Owners",
+				"quote": "22"
+			},
+			{
+				"insurance_company": "USAA",
+				"quote": "32"
+			}
+		],
+		"cheapest_car_insurance_sd": [
+			{
+				"insurance_company": "Buckeye",
+				"quote": "17"
+			},
+			{
+				"insurance_company": "USAA",
+				"quote": "18"
+			},
+			{
+				"insurance_company": "Farmers",
+				"quote": "32"
+			}
+		],
+		"cheapest_car_insurance_yd": [
+			{
+				"insurance_company": "Buckeye",
+				"quote": "10"
+			},
+			{
+				"insurance_company": "USAA",
+				"quote": "12"
+			},
+			{
+				"insurance_company": "Dakota Farmers Mutual",
+				"quote": "21"
+			}
+		],
+		"sr22": "Dairyland, Esurance, Farmers, GEICO (from $48/month), The General (from $100/month), National General, Grinnell Mutual, North Star, Progressive (from $8/month), Safeco, Ameriprise, Foremost",
+		"rural_roads_in_poor_condition": "14%, #14",
+		"structurally_deficient_rural_bridges": "20%, #2",
+		"fatality_rate_on_rural_roads": "1%, #7",
+		"most_duis_rank": "4",
+		"most_moving_violations_rank": "28",
+		"most_popular_car": "Ford F-Series Pickup",
+		"most_speeding_tickets_rank": "39",
+		"most_suspended_licenses_rank": "13"
+	},
+	"Tennessee": {
+		"state": "Tennessee",
+		"cheapest_car_insurance": [
+			{
+				"company": "State Farm",
+				"quote": "36"
+			},
+			{
+				"company": "Progressive",
+				"quote": "49"
+			},
+			{
+				"company": "GEICO",
+				"quote": "75"
+			},
+			{
+				"company": "Allstate",
+				"quote": "79"
+			},
+			{
+				"company": "Nationwide",
+				"quote": "103"
+			}
+		],
+		"best_car_insurance": [
+			{
+				"company": "American Family",
+				"score": "85",
+				"quote": "134"
+			},
+			{
+				"company": "GEICO",
+				"score": "83",
+				"quote": "78"
+			},
+			{
+				"company": "Allstate",
+				"score": "88",
+				"quote": "73"
+			},
+			{
+				"company": "Nationwide",
+				"score": "85",
+				"quote": "104"
+			},
+			{
+				"company": "State Farm",
+				"score": "82",
+				"quote": "36"
+			},
+			{
+				"company": "Liberty Mutual",
+				"score": "77",
+				"quote": "122"
+			},
+			{
+				"company": "Progressive",
+				"score": "81",
+				"quote": "45"
+			}
+		],
+		"car_insurance": [
+			{
+				"city": "Memphis",
+				"cheapest_carrier": "State Farm",
+				"quote": "100"
+			},
+			{
+				"city": "Knoxville",
+				"cheapest_carrier": "Progressive",
+				"quote": "42"
+			},
+			{
+				"city": "Chattanooga",
+				"cheapest_carrier": "Progressive",
+				"quote": "62"
+			},
+			{
+				"city": "Clarksville",
+				"cheapest_carrier": "Progressive",
+				"quote": "64"
+			},
+			{
+				"city": "Murfreesboro",
+				"cheapest_carrier": "Progressive",
+				"quote": "66"
+			}
+		],
+		"cheapest_car_insurance_gd": [
+			{
+				"insurance_company": "State Farm",
+				"quote": "28"
+			},
+			{
+				"insurance_company": "Progressive",
+				"quote": "46"
+			},
+			{
+				"insurance_company": "GEICO",
+				"quote": "78"
+			},
+			{
+				"insurance_company": "Allstate",
+				"quote": "80"
+			},
+			{
+				"insurance_company": "Nationwide",
+				"quote": "99"
+			}
+		],
+		"cheapest_car_insurance_dui": [
+			{
+				"insurance_company": "Progressive",
+				"quote": "38"
+			},
+			{
+				"insurance_company": "Tennessee Farm Bureau",
+				"quote": "35"
+			},
+			{
+				"insurance_company": "State Farm",
+				"quote": "37"
+			}
+		],
+		"cheapest_car_insurance_afa": [
+			{
+				"insurance_company": "Tennessee Farm Bureau",
+				"quote": "30"
+			},
+			{
+				"insurance_company": "Auto Owners",
+				"quote": "34"
+			},
+			{
+				"insurance_company": "Erie",
+				"quote": "33"
+			}
+		],
+		"cheapest_car_insurance_sd": [
+			{
+				"insurance_company": "Erie",
+				"quote": "32"
+			},
+			{
+				"insurance_company": "GEICO",
+				"quote": "37"
+			},
+			{
+				"insurance_company": "Tennessee Farm Bureau",
+				"quote": "40"
+			}
+		],
+		"cheapest_car_insurance_yd": [
+			{
+				"insurance_company": "Tennessee Farm Bureau",
+				"quote": "27"
+			},
+			{
+				"insurance_company": "USAA",
+				"quote": "25"
+			},
+			{
+				"insurance_company": "Auto Owners",
+				"quote": "30"
+			},
+			{
+				"insurance_company": "Progressive",
+				"quote": "29"
+			},
+			{
+				"insurance_company": "GEICO",
+				"quote": "31"
+			}
+		],
+		"sr22": "Consumers Insurance, Dairyland, Elephant, Esurance, Farmers, GAINSCO, GEICO (from $48/month), The General (from $100/month), National General, Grange, Hallmark, Mendota, Progressive (from $8/month), SafeAuto, Safeco, Safeway, Titan, Victoria, Everest National, Stillwater, Acceptance, Direct Auto (from $52/month), Jupiter, Foremost",
+		"rural_roads_in_poor_condition": "7%, #21",
+		"structurally_deficient_rural_bridges": "5%, #14",
+		"fatality_rate_on_rural_roads": "1%, #17",
+		"most_duis_rank": "36",
+		"most_moving_violations_rank": "29",
+		"most_popular_car": "Nissan Altima",
+		"most_speeding_tickets_rank": "21",
+		"most_suspended_licenses_rank": "9"
+	},
+	"Texas": {
+		"state": "Texas",
+		"cheapest_car_insurance": [
+			{
+				"company": "Progressive",
+				"quote": "57"
+			},
+			{
+				"company": "Allstate",
+				"quote": "97"
+			},
+			{
+				"company": "State Farm",
+				"quote": "111"
+			},
+			{
+				"company": "GEICO",
+				"quote": "125"
+			},
+			{
+				"company": "Direct Auto",
+				"quote": "144"
+			}
+		],
+		"best_car_insurance": [
+			{
+				"company": "American Family",
+				"score": "89",
+				"quote": "225"
+			},
+			{
+				"company": "GEICO",
+				"score": "89",
+				"quote": "130"
+			},
+			{
+				"company": "Allstate",
+				"score": "82",
+				"quote": "95"
+			},
+			{
+				"company": "Nationwide",
+				"score": "88",
+				"quote": "177"
+			},
+			{
+				"company": "State Farm",
+				"score": "81",
+				"quote": "111"
+			},
+			{
+				"company": "Mercury",
+				"score": "82",
+				"quote": "149"
+			},
+			{
+				"company": "Liberty Mutual",
+				"score": "79",
+				"quote": "246"
+			},
+			{
+				"company": "Progressive",
+				"score": "78",
+				"quote": "57"
+			}
+		],
+		"car_insurance": [
+			{
+				"city": "Houston",
+				"cheapest_carrier": "Allstate",
+				"quote": "137"
+			},
+			{
+				"city": "San Antonio",
+				"cheapest_carrier": "GEICO",
+				"quote": "123"
+			},
+			{
+				"city": "Dallas",
+				"cheapest_carrier": "Progressive",
+				"quote": "168"
+			},
+			{
+				"city": "Austin",
+				"cheapest_carrier": "Progressive",
+				"quote": "151"
+			},
+			{
+				"city": "Fort Worth",
+				"cheapest_carrier": "Progressive",
+				"quote": "160"
+			}
+		],
+		"cheapest_car_insurance_gd": [
+			{
+				"insurance_company": "Progressive",
+				"quote": "54"
+			},
+			{
+				"insurance_company": "Allstate",
+				"quote": "99"
+			},
+			{
+				"insurance_company": "State Farm",
+				"quote": "109"
+			},
+			{
+				"insurance_company": "GEICO",
+				"quote": "131"
+			},
+			{
+				"insurance_company": "Direct Auto",
+				"quote": "140"
+			}
+		],
+		"cheapest_car_insurance_dui": [
+			{
+				"insurance_company": "Allstate",
+				"quote": "50"
+			},
+			{
+				"insurance_company": "Texas Farm Bureau",
+				"quote": "47"
+			},
+			{
+				"insurance_company": "Republic Indemity",
+				"quote": "58"
+			}
+		],
+		"cheapest_car_insurance_afa": [
+			{
+				"insurance_company": "Texas Farm Bureau",
+				"quote": "35"
+			},
+			{
+				"insurance_company": "Allstate",
+				"quote": "36"
+			},
+			{
+				"insurance_company": "Republic Indemity",
+				"quote": "41"
+			}
+		],
+		"cheapest_car_insurance_sd": [
+			{
+				"insurance_company": "Texas Farm Bureau",
+				"quote": "31"
+			},
+			{
+				"insurance_company": "Allstate",
+				"quote": "35"
+			},
+			{
+				"insurance_company": "Republic Indemity",
+				"quote": "46"
+			}
+		],
+		"cheapest_car_insurance_yd": [
+			{
+				"insurance_company": "Allstate",
+				"quote": "35"
+			},
+			{
+				"insurance_company": "Texas Farm Bureau",
+				"quote": "38"
+			},
+			{
+				"insurance_company": "USAA",
+				"quote": "35"
+			},
+			{
+				"insurance_company": "Republic Indemity",
+				"quote": "45"
+			},
+			{
+				"insurance_company": "State Farm",
+				"quote": "41"
+			}
+		],
+		"sr22": "Affirmative, Carnegie Insurance, Dairyland, Elephant, Esurance, Farmers, GAINSCO, GEICO (from $48/month), The General (from $100/month), National General, Hallmark, Infinity, Mendota, Mercury (from $106/month), Progressive (from $8/month), SafeAuto, Safeco, Safeway, Titan, Victoria, Ameriprise, Farm Bureau Financial Services, Anchor, Aggressive, Personable, Star Canyon, Stillwater, Acceptance, Direct Auto (from $52/month), Jupiter, Foremost",
+		"rural_roads_in_poor_condition": "14%, #14",
+		"structurally_deficient_rural_bridges": "2%, #17",
+		"fatality_rate_on_rural_roads": "1%, #10",
+		"most_duis_rank": "43",
+		"most_moving_violations_rank": "47",
+		"most_popular_car": "Ford F-Series Pickup",
+		"most_speeding_tickets_rank": "42",
+		"most_suspended_licenses_rank": "21"
+	},
+	"Utah": {
+		"state": "Utah",
+		"cheapest_car_insurance": [
+			{
+				"company": "Progressive",
+				"quote": "29"
+			},
+			{
+				"company": "Allstate",
+				"quote": "81"
+			},
+			{
+				"company": "State Farm",
+				"quote": "95"
+			},
+			{
+				"company": "The General",
+				"quote": "142"
+			},
+			{
+				"company": "Liberty Mutual",
+				"quote": "141"
+			}
+		],
+		"best_car_insurance": [
+			{
+				"company": "American Family",
+				"score": "90",
+				"quote": "160"
+			},
+			{
+				"company": "Allstate",
+				"score": "88",
+				"quote": "76"
+			},
+			{
+				"company": "State Farm",
+				"score": "84",
+				"quote": "96"
+			},
+			{
+				"company": "Liberty Mutual",
+				"score": "75",
+				"quote": "143"
+			},
+			{
+				"company": "Progressive",
+				"score": "74",
+				"quote": "23"
+			}
+		],
+		"car_insurance": [
+			{
+				"city": "Salt Lake City",
+				"cheapest_carrier": "Progressive",
+				"quote": "51"
+			},
+			{
+				"city": "Provo",
+				"cheapest_carrier": "Progressive",
+				"quote": "35"
+			},
+			{
+				"city": "West Jordan",
+				"cheapest_carrier": "Progressive",
+				"quote": "51"
+			},
+			{
+				"city": "Orem",
+				"cheapest_carrier": "Progressive",
+				"quote": "47"
+			},
+			{
+				"city": "Sandy",
+				"cheapest_carrier": "Progressive",
+				"quote": "43"
+			}
+		],
+		"cheapest_car_insurance_gd": [
+			{
+				"insurance_company": "Progressive",
+				"quote": "19"
+			},
+			{
+				"insurance_company": "Allstate",
+				"quote": "78"
+			},
+			{
+				"insurance_company": "State Farm",
+				"quote": "97"
+			},
+			{
+				"insurance_company": "The General",
+				"quote": "135"
+			},
+			{
+				"insurance_company": "Liberty Mutual",
+				"quote": "141"
+			}
+		],
+		"cheapest_car_insurance_dui": [
+			{
+				"insurance_company": "Bear River",
+				"quote": "31"
+			},
+			{
+				"insurance_company": "USAA",
+				"quote": "60"
+			},
+			{
+				"insurance_company": "Progressive",
+				"quote": "70"
+			}
+		],
+		"cheapest_car_insurance_afa": [
+			{
+				"insurance_company": "Bear River",
+				"quote": "29"
+			},
+			{
+				"insurance_company": "Auto Owners",
+				"quote": "51"
+			},
+			{
+				"insurance_company": "USAA",
+				"quote": "51"
+			}
+		],
+		"cheapest_car_insurance_sd": [
+			{
+				"insurance_company": "Bear River",
+				"quote": "28"
+			},
+			{
+				"insurance_company": "USAA",
+				"quote": "41"
+			},
+			{
+				"insurance_company": "GEICO",
+				"quote": "59"
+			}
+		],
+		"cheapest_car_insurance_yd": [
+			{
+				"insurance_company": "USAA",
+				"quote": "31"
+			},
+			{
+				"insurance_company": "Bear River",
+				"quote": "31"
+			},
+			{
+				"insurance_company": "Auto Owners",
+				"quote": "39"
+			}
+		],
+		"sr22": "Dairyland, Esurance, Farmers, GEICO (from $48/month), The General (from $100/month), National General, Mendota, Progressive (from $8/month), Safeco, Victoria, Ameriprise, Stillwater, Foremost",
+		"rural_roads_in_poor_condition": "10%, #18",
+		"structurally_deficient_rural_bridges": "4%, #15",
+		"fatality_rate_on_rural_roads": "1%, #31",
+		"most_duis_rank": "18",
+		"most_moving_violations_rank": "11",
+		"most_popular_car": "Ford F-Series Pickup",
+		"most_speeding_tickets_rank": "11",
+		"most_suspended_licenses_rank": "19"
+	},
+	"Virginia": {
+		"state": "Virginia",
+		"cheapest_car_insurance": [
+			{
+				"company": "Allstate",
+				"quote": "39"
+			},
+			{
+				"company": "State Farm",
+				"quote": "44"
+			},
+			{
+				"company": "Progressive",
+				"quote": "48"
+			},
+			{
+				"company": "GEICO",
+				"quote": "84"
+			},
+			{
+				"company": "Nationwide",
+				"quote": "90"
+			}
+		],
+		"best_car_insurance": [
+			{
+				"company": "American Family",
+				"score": "90",
+				"quote": "137"
+			},
+			{
+				"company": "GEICO",
+				"score": "83",
+				"quote": "80"
+			},
+			{
+				"company": "Allstate",
+				"score": "87",
+				"quote": "31"
+			},
+			{
+				"company": "Nationwide",
+				"score": "81",
+				"quote": "90"
+			},
+			{
+				"company": "State Farm",
+				"score": "80",
+				"quote": "40"
+			},
+			{
+				"company": "Travelers",
+				"score": "86",
+				"quote": "90"
+			},
+			{
+				"company": "Liberty Mutual",
+				"score": "83",
+				"quote": "162"
+			},
+			{
+				"company": "Progressive",
+				"score": "81",
+				"quote": "46"
+			}
+		],
+		"car_insurance": [
+			{
+				"city": "Virginia Beach",
+				"cheapest_carrier": "Allstate",
+				"quote": "60"
+			},
+			{
+				"city": "Norfolk",
+				"cheapest_carrier": "State Farm",
+				"quote": "71"
+			},
+			{
+				"city": "Chesapeake",
+				"cheapest_carrier": "State Farm",
+				"quote": "70"
+			},
+			{
+				"city": "Richmond",
+				"cheapest_carrier": "Allstate",
+				"quote": "54"
+			},
+			{
+				"city": "Arlington",
+				"cheapest_carrier": "Progressive",
+				"quote": "51"
+			}
+		],
+		"cheapest_car_insurance_gd": [
+			{
+				"insurance_company": "Direct Auto",
+				"quote": "38"
+			},
+			{
+				"insurance_company": "State Farm",
+				"quote": "45"
+			},
+			{
+				"insurance_company": "Progressive",
+				"quote": "43"
+			},
+			{
+				"insurance_company": "GEICO",
+				"quote": "78"
+			},
+			{
+				"insurance_company": "Nationwide",
+				"quote": "93"
+			}
+		],
+		"cheapest_car_insurance_dui": [
+			{
+				"insurance_company": "State Farm",
+				"quote": "36"
+			},
+			{
+				"insurance_company": "Auto Owners",
+				"quote": "40"
+			},
+			{
+				"insurance_company": "Virginia Farm Bureau",
+				"quote": "39"
+			}
+		],
+		"cheapest_car_insurance_afa": [
+			{
+				"insurance_company": "GEICO",
+				"quote": "19"
+			},
+			{
+				"insurance_company": "Auto Owners",
+				"quote": "24"
+			},
+			{
+				"insurance_company": "Erie",
+				"quote": "32"
+			}
+		],
+		"cheapest_car_insurance_sd": [
+			{
+				"insurance_company": "GEICO",
+				"quote": "27"
+			},
+			{
+				"insurance_company": "Erie",
+				"quote": "32"
+			},
+			{
+				"insurance_company": "State Farm",
+				"quote": "30"
+			}
+		],
+		"cheapest_car_insurance_yd": [
+			{
+				"insurance_company": "USAA",
+				"quote": "20"
+			},
+			{
+				"insurance_company": "GEICO",
+				"quote": "23"
+			},
+			{
+				"insurance_company": "Auto Owners",
+				"quote": "28"
+			},
+			{
+				"insurance_company": "Erie",
+				"quote": "30"
+			},
+			{
+				"insurance_company": "Virginia Farm Bureau",
+				"quote": "33"
+			}
+		],
+		"sr22": "Brethren Mutual, Consumers Insurance, Dairyland, Esurance, Farmers, GAINSCO, GEICO (from $48/month), The General (from $100/month), National General, Grange, Mendota, Mercury (from $106/month), Progressive (from $8/month), SafeAuto, Safeco, Titan, Victoria, Ameriprise, Farm Bureau Financial Services, Stillwater, Acceptance, Direct Auto (from $52/month), Foremost",
+		"rural_roads_in_poor_condition": "20%, #9",
+		"structurally_deficient_rural_bridges": "7%, #12",
+		"fatality_rate_on_rural_roads": "1%, #32",
+		"most_duis_rank": "27",
+		"most_moving_violations_rank": "7",
+		"most_popular_car": "Honda Accord",
+		"most_speeding_tickets_rank": "5",
+		"most_suspended_licenses_rank": "12"
+	},
+	"Vermont": {
+		"state": "Vermont",
+		"cheapest_car_insurance": [
+			{
+				"company": "Allstate",
+				"quote": "47"
+			},
+			{
+				"company": "GEICO",
+				"quote": "49"
+			},
+			{
+				"company": "State Farm",
+				"quote": "65"
+			},
+			{
+				"company": "Travelers",
+				"quote": "84"
+			},
+			{
+				"company": "American Family",
+				"quote": "127"
+			}
+		],
+		"best_car_insurance": [
+			{
+				"company": "American Family",
+				"score": "90",
+				"quote": "130"
+			},
+			{
+				"company": "GEICO",
+				"score": "91",
+				"quote": "50"
+			},
+			{
+				"company": "Allstate",
+				"score": "90",
+				"quote": "43"
+			},
+			{
+				"company": "State Farm",
+				"score": "86",
+				"quote": "65"
+			},
+			{
+				"company": "Travelers",
+				"score": "77",
+				"quote": "89"
+			},
+			{
+				"company": "Liberty Mutual",
+				"score": "81",
+				"quote": "128"
+			}
+		],
+		"car_insurance": [
+			{
+				"city": "Burlington",
+				"cheapest_carrier": "State Farm",
+				"quote": "87"
+			},
+			{
+				"city": "South Burlington",
+				"cheapest_carrier": "State Farm",
+				"quote": "79"
+			},
+			{
+				"city": "Colchester",
+				"cheapest_carrier": "GEICO",
+				"quote": "60"
+			},
+			{
+				"city": "Rutland",
+				"cheapest_carrier": "Allstate",
+				"quote": "45"
+			},
+			{
+				"city": "Essex Junction",
+				"cheapest_carrier": "GEICO",
+				"quote": "57"
+			}
+		],
+		"cheapest_car_insurance_gd": [
+			{
+				"insurance_company": "Allstate",
+				"quote": "45"
+			},
+			{
+				"insurance_company": "GEICO",
+				"quote": "55"
+			},
+			{
+				"insurance_company": "State Farm",
+				"quote": "65"
+			},
+			{
+				"insurance_company": "Travelers",
+				"quote": "90"
+			},
+			{
+				"insurance_company": "American Family",
+				"quote": "124"
+			}
+		],
+		"cheapest_car_insurance_dui": [
+			{
+				"insurance_company": "Concord",
+				"quote": "30"
+			},
+			{
+				"insurance_company": "USAA",
+				"quote": "41"
+			},
+			{
+				"insurance_company": "Progresive",
+				"quote": "45"
+			}
+		],
+		"cheapest_car_insurance_afa": [
+			{
+				"insurance_company": "USAA",
+				"quote": "21"
+			},
+			{
+				"insurance_company": "Concord",
+				"quote": "30"
+			},
+			{
+				"insurance_company": "Vermont Mutual",
+				"quote": "26"
+			}
+		],
+		"cheapest_car_insurance_sd": [
+			{
+				"insurance_company": "USAA",
+				"quote": "22"
+			},
+			{
+				"insurance_company": "Cooperative",
+				"quote": "27"
+			},
+			{
+				"insurance_company": "Concord",
+				"quote": "23"
+			}
+		],
+		"cheapest_car_insurance_yd": [
+			{
+				"insurance_company": "USAA",
+				"quote": "18"
+			},
+			{
+				"insurance_company": "Concord",
+				"quote": "26"
+			},
+			{
+				"insurance_company": "Cooperative",
+				"quote": "22"
+			}
+		],
+		"sr22": "Dairyland, Esurance, Farmers, GEICO (from $48/month), The General (from $100/month), National General, Merchants, Patriot, Progressive (from $8/month), Safeco, Ameriprise, Foremost",
+		"rural_roads_in_poor_condition": "24%, #6",
+		"structurally_deficient_rural_bridges": "6%, #13",
+		"fatality_rate_on_rural_roads": "1%, #37",
+		"most_duis_rank": "30",
+		"most_moving_violations_rank": "23",
+		"most_popular_car": "Subaru Legacy",
+		"most_speeding_tickets_rank": "17",
+		"most_suspended_licenses_rank": "15"
+	},
+	"Washington": {
+		"state": "Washington",
+		"cheapest_car_insurance": [
+			{
+				"company": "American Family",
+				"quote": "16"
+			},
+			{
+				"company": "Progressive",
+				"quote": "34"
+			},
+			{
+				"company": "GEICO",
+				"quote": "72"
+			},
+			{
+				"company": "State Farm",
+				"quote": "80"
+			},
+			{
+				"company": "Nationwide",
+				"quote": "79"
+			}
+		],
+		"best_car_insurance": [
+			{
+				"company": "American Family",
+				"score": "86",
+				"quote": "13"
+			},
+			{
+				"company": "GEICO",
+				"score": "83",
+				"quote": "79"
+			},
+			{
+				"company": "Allstate",
+				"score": "83",
+				"quote": "116"
+			},
+			{
+				"company": "Nationwide",
+				"score": "88",
+				"quote": "80"
+			},
+			{
+				"company": "State Farm",
+				"score": "81",
+				"quote": "74"
+			},
+			{
+				"company": "Travelers",
+				"score": "80",
+				"quote": "111"
+			},
+			{
+				"company": "Liberty Mutual",
+				"score": "78",
+				"quote": "216"
+			},
+			{
+				"company": "Progressive",
+				"score": "78",
+				"quote": "28"
+			}
+		],
+		"car_insurance": [
+			{
+				"city": "Seattle",
+				"cheapest_carrier": "Progressive",
+				"quote": "47"
+			},
+			{
+				"city": "Spokane",
+				"cheapest_carrier": "Progressive",
+				"quote": "35"
+			},
+			{
+				"city": "Tacoma",
+				"cheapest_carrier": "Progressive",
+				"quote": "40"
+			},
+			{
+				"city": "Vancouver",
+				"cheapest_carrier": "American Family",
+				"quote": "10"
+			},
+			{
+				"city": "Bellevue",
+				"cheapest_carrier": "Progressive",
+				"quote": "39"
+			}
+		],
+		"cheapest_car_insurance_gd": [
+			{
+				"insurance_company": "Progressive",
+				"quote": "34"
+			},
+			{
+				"insurance_company": "American Family",
+				"quote": "50"
+			},
+			{
+				"insurance_company": "GEICO",
+				"quote": "70"
+			},
+			{
+				"insurance_company": "State Farm",
+				"quote": "79"
+			},
+			{
+				"insurance_company": "Nationwide",
+				"quote": "85"
+			}
+		],
+		"cheapest_car_insurance_dui": [
+			{
+				"insurance_company": "Progressive",
+				"quote": "39"
+			},
+			{
+				"insurance_company": "State Farm",
+				"quote": "48"
+			},
+			{
+				"insurance_company": "Grange",
+				"quote": "48"
+			}
+		],
+		"cheapest_car_insurance_afa": [
+			{
+				"insurance_company": "USAA",
+				"quote": "46"
+			},
+			{
+				"insurance_company": "PEMCO",
+				"quote": "37"
+			},
+			{
+				"insurance_company": "State Farm",
+				"quote": "46"
+			}
+		],
+		"cheapest_car_insurance_sd": [
+			{
+				"insurance_company": "USAA",
+				"quote": "28"
+			},
+			{
+				"insurance_company": "PEMCO",
+				"quote": "38"
+			},
+			{
+				"insurance_company": "State Farm",
+				"quote": "48"
+			}
+		],
+		"cheapest_car_insurance_yd": [
+			{
+				"insurance_company": "USAA",
+				"quote": "22"
+			},
+			{
+				"insurance_company": "PEMCO",
+				"quote": "26"
+			},
+			{
+				"insurance_company": "Progressive",
+				"quote": "32"
+			},
+			{
+				"insurance_company": "State Farm",
+				"quote": "38"
+			},
+			{
+				"insurance_company": "GEICO",
+				"quote": "39"
+			}
+		],
+		"sr22": "Carnegie Insurance, Dairyland, Esurance, Farmers, GEICO (from $48/month), The General (from $100/month), National General, Hallmark, PEMCO, Progressive (from $8/month), Safeco, Titan, Ameriprise, Stillwater, Foremost",
+		"rural_roads_in_poor_condition": "21%, #8",
+		"structurally_deficient_rural_bridges": "5%, #14",
+		"fatality_rate_on_rural_roads": "1%, #30",
+		"most_duis_rank": "24",
+		"most_moving_violations_rank": "14",
+		"most_popular_car": "Honda Civic",
+		"most_speeding_tickets_rank": "14",
+		"most_suspended_licenses_rank": "26"
+	},
+	"Wisconsin": {
+		"state": "Wisconsin",
+		"cheapest_car_insurance": [
+			{
+				"company": "Progressive",
+				"quote": "24"
+			},
+			{
+				"company": "State Farm",
+				"quote": "70"
+			},
+			{
+				"company": "Travelers",
+				"quote": "85"
+			},
+			{
+				"company": "Nationwide",
+				"quote": "96"
+			},
+			{
+				"company": "American Family",
+				"quote": "111"
+			}
+		],
+		"best_car_insurance": [
+			{
+				"company": "American Family",
+				"score": "92",
+				"quote": "104"
+			},
+			{
+				"company": "Nationwide",
+				"score": "87",
+				"quote": "91"
+			},
+			{
+				"company": "State Farm",
+				"score": "87",
+				"quote": "70"
+			},
+			{
+				"company": "Travelers",
+				"score": "83",
+				"quote": "84"
+			},
+			{
+				"company": "Liberty Mutual",
+				"score": "77",
+				"quote": "138"
+			},
+			{
+				"company": "Progressive",
+				"score": "82",
+				"quote": "28"
+			}
+		],
+		"car_insurance": [
+			{
+				"city": "Milwaukee",
+				"cheapest_carrier": "Progressive",
+				"quote": "34"
+			},
+			{
+				"city": "Madison",
+				"cheapest_carrier": "Progressive",
+				"quote": "23"
+			},
+			{
+				"city": "Green Bay",
+				"cheapest_carrier": "Progressive",
+				"quote": "24"
+			},
+			{
+				"city": "Kenosha",
+				"cheapest_carrier": "Progressive",
+				"quote": "34"
+			},
+			{
+				"city": "Racine",
+				"cheapest_carrier": "Progressive",
+				"quote": "30"
+			}
+		],
+		"cheapest_car_insurance_gd": [
+			{
+				"insurance_company": "State Farm",
+				"quote": "72"
+			},
+			{
+				"insurance_company": "Progressive",
+				"quote": "92"
+			},
+			{
+				"insurance_company": "American Family",
+				"quote": "106"
+			},
+			{
+				"insurance_company": "Nationwide",
+				"quote": "114"
+			},
+			{
+				"insurance_company": "Travelers",
+				"quote": "132"
+			}
+		],
+		"cheapest_car_insurance_dui": [
+			{
+				"insurance_company": "Erie",
+				"quote": "23"
+			},
+			{
+				"insurance_company": "USAA",
+				"quote": "34"
+			},
+			{
+				"insurance_company": "Pekin Insurance",
+				"quote": "31"
+			}
+		],
+		"cheapest_car_insurance_afa": [
+			{
+				"insurance_company": "Erie",
+				"quote": "21"
+			},
+			{
+				"insurance_company": "USAA",
+				"quote": "32"
+			},
+			{
+				"insurance_company": "State Farm",
+				"quote": "28"
+			}
+		],
+		"cheapest_car_insurance_sd": [
+			{
+				"insurance_company": "State Farm",
+				"quote": "19"
+			},
+			{
+				"insurance_company": "Erie",
+				"quote": "17"
+			},
+			{
+				"insurance_company": "Partners Mutual",
+				"quote": "19"
+			},
+			{
+				"insurance_company": "Pekin Insurance",
+				"quote": "22"
+			},
+			{
+				"insurance_company": "State Farm",
+				"quote": "31"
+			}
+		],
+		"sr22": "Dairyland, Esurance, Farmers, Founders, GEICO (from $48/month), The General (from $100/month), National General, Grange, Grinnell Mutual, Mendota, Pekin, Progressive (from $8/month), Safeco, State Auto, Victoria, West Bend Mutual, Ameriprise, Stillwater, Foremost",
+		"rural_roads_in_poor_condition": "19%, #10",
+		"structurally_deficient_rural_bridges": "10%, #9",
+		"fatality_rate_on_rural_roads": "1%, #32",
+		"most_duis_rank": "5",
+		"most_moving_violations_rank": "8",
+		"most_popular_car": "Chevrolet Impala",
+		"most_speeding_tickets_rank": "7",
+		"most_suspended_licenses_rank": "11"
+	},
+	"West Virginia": {
+		"state": "West Virginia",
+		"cheapest_car_insurance": [
+			{
+				"company": "Progressive",
+				"quote": "52"
+			},
+			{
+				"company": "Allstate",
+				"quote": "61"
+			},
+			{
+				"company": "State Farm",
+				"quote": "85"
+			},
+			{
+				"company": "Nationwide",
+				"quote": "85"
+			},
+			{
+				"company": "Liberty Mutual",
+				"quote": "139"
+			}
+		],
+		"best_car_insurance": [
+			{
+				"company": "American Family",
+				"score": "84",
+				"quote": "233"
+			},
+			{
+				"company": "Allstate",
+				"score": "86",
+				"quote": "62"
+			},
+			{
+				"company": "Nationwide",
+				"score": "86",
+				"quote": "93"
+			},
+			{
+				"company": "State Farm",
+				"score": "81",
+				"quote": "89"
+			},
+			{
+				"company": "Liberty Mutual",
+				"score": "85",
+				"quote": "140"
+			},
+			{
+				"company": "Progressive",
+				"score": "81",
+				"quote": "55"
+			}
+		],
+		"car_insurance": [
+			{
+				"city": "Charleston",
+				"cheapest_carrier": "Progressive",
+				"quote": "72"
+			},
+			{
+				"city": "Huntington",
+				"cheapest_carrier": "Progressive",
+				"quote": "60"
+			},
+			{
+				"city": "Morgantown",
+				"cheapest_carrier": "Progressive",
+				"quote": "57"
+			},
+			{
+				"city": "Parkersburg",
+				"cheapest_carrier": "Progressive",
+				"quote": "59"
+			},
+			{
+				"city": "Wheeling",
+				"cheapest_carrier": "Progressive",
+				"quote": "55"
+			}
+		],
+		"cheapest_car_insurance_gd": [
+			{
+				"insurance_company": "Progressive",
+				"quote": "52"
+			},
+			{
+				"insurance_company": "Allstate",
+				"quote": "61"
+			},
+			{
+				"insurance_company": "State Farm",
+				"quote": "88"
+			},
+			{
+				"insurance_company": "Nationwide",
+				"quote": "88"
+			},
+			{
+				"insurance_company": "Liberty Mutual",
+				"quote": "137"
+			}
+		],
+		"cheapest_car_insurance_dui": [
+			{
+				"insurance_company": "Erie",
+				"quote": "37"
+			},
+			{
+				"insurance_company": "State Farm",
+				"quote": "42"
+			},
+			{
+				"insurance_company": "USAA",
+				"quote": "43"
+			}
+		],
+		"cheapest_car_insurance_afa": [
+			{
+				"insurance_company": "USAA",
+				"quote": "20"
+			},
+			{
+				"insurance_company": "Erie",
+				"quote": "31"
+			},
+			{
+				"insurance_company": "Westfield",
+				"quote": "44"
+			}
+		],
+		"cheapest_car_insurance_sd": [
+			{
+				"insurance_company": "Erie",
+				"quote": "39"
+			},
+			{
+				"insurance_company": "State Farm",
+				"quote": "34"
+			},
+			{
+				"insurance_company": "USAA",
+				"quote": "50"
+			}
+		],
+		"cheapest_car_insurance_yd": [
+			{
+				"insurance_company": "Erie",
+				"quote": "22"
+			},
+			{
+				"insurance_company": "USAA",
+				"quote": "27"
+			},
+			{
+				"insurance_company": "State Farm",
+				"quote": "35"
+			}
+		],
+		"sr22": "Dairyland, Esurance, Farmers, GEICO (from $48/month), The General (from $100/month), National General, Progressive (from $8/month), Safeco, Titan, Victoria, Ameriprise, Foremost",
+		"rural_roads_in_poor_condition": "17%, #12",
+		"structurally_deficient_rural_bridges": "17%, #3",
+		"fatality_rate_on_rural_roads": "1%, #11",
+		"most_duis_rank": "35",
+		"most_moving_violations_rank": "44",
+		"most_popular_car": "Ford F-Series Pickup",
+		"most_speeding_tickets_rank": "40",
+		"most_suspended_licenses_rank": "38"
+	},
+	"Wyoming": {
+		"state": "Wyoming",
+		"cheapest_car_insurance": [
+			{
+				"company": "State Farm",
+				"quote": "43"
+			},
+			{
+				"company": "Allstate",
+				"quote": "56"
+			},
+			{
+				"company": "GEICO",
+				"quote": "86"
+			},
+			{
+				"company": "The General",
+				"quote": "103"
+			},
+			{
+				"company": "American Family",
+				"quote": "245"
+			}
+		],
+		"best_car_insurance": [
+			{
+				"company": "American Family",
+				"score": "86",
+				"quote": "251"
+			},
+			{
+				"company": "GEICO",
+				"score": "88",
+				"quote": "83"
+			},
+			{
+				"company": "Allstate",
+				"score": "87",
+				"quote": "53"
+			},
+			{
+				"company": "State Farm",
+				"score": "82",
+				"quote": "41"
+			}
+		],
+		"car_insurance": [
+			{
+				"city": "Cheyenne",
+				"cheapest_carrier": "State Farm",
+				"quote": "58"
+			},
+			{
+				"city": "Casper",
+				"cheapest_carrier": "Allstate",
+				"quote": "65"
+			},
+			{
+				"city": "Laramie",
+				"cheapest_carrier": "State Farm",
+				"quote": "53"
+			},
+			{
+				"city": "Gillette",
+				"cheapest_carrier": "Allstate",
+				"quote": "59"
+			},
+			{
+				"city": "Rock Springs",
+				"cheapest_carrier": "State Farm",
+				"quote": "57"
+			}
+		],
+		"cheapest_car_insurance_gd": [
+			{
+				"insurance_company": "State Farm",
+				"quote": "48"
+			},
+			{
+				"insurance_company": "Allstate",
+				"quote": "54"
+			},
+			{
+				"insurance_company": "GEICO",
+				"quote": "86"
+			},
+			{
+				"insurance_company": "The General",
+				"quote": "84"
+			},
+			{
+				"insurance_company": "American Family",
+				"quote": "242"
+			}
+		],
+		"cheapest_car_insurance_dui": [
+			{
+				"insurance_company": "Grange",
+				"quote": "19"
+			},
+			{
+				"insurance_company": "State Farm",
+				"quote": "28"
+			},
+			{
+				"insurance_company": "USAA",
+				"quote": "27"
+			}
+		],
+		"cheapest_car_insurance_afa": [
+			{
+				"insurance_company": "Grange",
+				"quote": "18"
+			},
+			{
+				"insurance_company": "USAA",
+				"quote": "22"
+			},
+			{
+				"insurance_company": "GEICO",
+				"quote": "28"
+			}
+		],
+		"cheapest_car_insurance_sd": [
+			{
+				"insurance_company": "Grange",
+				"quote": "14"
+			},
+			{
+				"insurance_company": "USAA",
+				"quote": "13"
+			},
+			{
+				"insurance_company": "State Farm",
+				"quote": "23"
+			}
+		],
+		"cheapest_car_insurance_yd": [
+			{
+				"insurance_company": "USAA",
+				"quote": "18"
+			},
+			{
+				"insurance_company": "Grange",
+				"quote": "14"
+			},
+			{
+				"insurance_company": "GEICO",
+				"quote": "22"
+			}
+		],
+		"sr22": "Dairyland, Esurance, Farmers, GEICO (from $48/month), The General (from $100/month), National General, Progressive (from $8/month), Safeco, Foremost",
+		"rural_roads_in_poor_condition": "7%, #21",
+		"structurally_deficient_rural_bridges": "11%, #8",
+		"fatality_rate_on_rural_roads": "2%, #6",
+		"most_duis_rank": "1",
+		"most_moving_violations_rank": "3",
+		"most_popular_car": "Ford F-Series Pickup",
+		"most_speeding_tickets_rank": "6",
+		"most_suspended_licenses_rank": "20"
+	}
+}

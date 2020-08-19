@@ -1,0 +1,6408 @@
+{
+	"Florida": [
+		{
+			"State": "Florida",
+			"Rank": 1,
+			"City": "West Palm Beach",
+			"AvgPremium": "3216"
+		},
+		{
+			"State": "Florida",
+			"Rank": 2,
+			"City": "Hialeah",
+			"AvgPremium": "3173"
+		},
+		{
+			"State": "Florida",
+			"Rank": 3,
+			"City": "Miami",
+			"AvgPremium": "3105"
+		},
+		{
+			"State": "Florida",
+			"Rank": 4,
+			"City": "Miami Gardens",
+			"AvgPremium": "3068"
+		},
+		{
+			"State": "Florida",
+			"Rank": 5,
+			"City": "Tampa",
+			"AvgPremium": "2951"
+		},
+		{
+			"State": "Florida",
+			"Rank": 6,
+			"City": "Coral Springs",
+			"AvgPremium": "2941"
+		},
+		{
+			"State": "Florida",
+			"Rank": 7,
+			"City": "Hollywood",
+			"AvgPremium": "2927"
+		},
+		{
+			"State": "Florida",
+			"Rank": 8,
+			"City": "Pompano Beach",
+			"AvgPremium": "2924"
+		},
+		{
+			"State": "Florida",
+			"Rank": 9,
+			"City": "Miami Beach",
+			"AvgPremium": "2921"
+		},
+		{
+			"State": "Florida",
+			"Rank": 10,
+			"City": "Brandon",
+			"AvgPremium": "2862"
+		},
+		{
+			"State": "Florida",
+			"Rank": 11,
+			"City": "Fort Lauderdale",
+			"AvgPremium": "2790"
+		},
+		{
+			"State": "Florida",
+			"Rank": 12,
+			"City": "Miramar",
+			"AvgPremium": "2780"
+		},
+		{
+			"State": "Florida",
+			"Rank": 13,
+			"City": "Pembroke Pines",
+			"AvgPremium": "2749"
+		},
+		{
+			"State": "Florida",
+			"Rank": 14,
+			"City": "St. Petersburg",
+			"AvgPremium": "2724"
+		},
+		{
+			"State": "Florida",
+			"Rank": 15,
+			"City": "Clearwater",
+			"AvgPremium": "2651"
+		},
+		{
+			"State": "Florida",
+			"Rank": 16,
+			"City": "Davie",
+			"AvgPremium": "2684"
+		},
+		{
+			"State": "Florida",
+			"Rank": 17,
+			"City": "Port St. Lucie",
+			"AvgPremium": "2408"
+		},
+		{
+			"State": "Florida",
+			"Rank": 18,
+			"City": "Spring Hill",
+			"AvgPremium": "2341"
+		},
+		{
+			"State": "Florida",
+			"Rank": 19,
+			"City": "Orlando",
+			"AvgPremium": "2311"
+		},
+		{
+			"State": "Florida",
+			"Rank": 20,
+			"City": "Jacksonville",
+			"AvgPremium": "2238"
+		},
+		{
+			"State": "Florida",
+			"Rank": 21,
+			"City": "Lakeland",
+			"AvgPremium": "2240"
+		},
+		{
+			"State": "Florida",
+			"Rank": 22,
+			"City": "Palm Bay",
+			"AvgPremium": "2078"
+		},
+		{
+			"State": "Florida",
+			"Rank": 23,
+			"City": "Tallahassee",
+			"AvgPremium": "2025"
+		},
+		{
+			"State": "Florida",
+			"Rank": 24,
+			"City": "Cape Coral",
+			"AvgPremium": "2049"
+		},
+		{
+			"State": "Florida",
+			"Rank": 25,
+			"City": "Gainesville",
+			"AvgPremium": "1819"
+		}
+	],
+	"Texas": [
+		{
+			"State": "Texas",
+			"Rank": 1,
+			"City": "Dallas",
+			"AvgPremium": "1635"
+		},
+		{
+			"State": "Texas",
+			"Rank": 2,
+			"City": "Houston",
+			"AvgPremium": "1628"
+		},
+		{
+			"State": "Texas",
+			"Rank": 3,
+			"City": "Mesquite",
+			"AvgPremium": "1592"
+		},
+		{
+			"State": "Texas",
+			"Rank": 4,
+			"City": "Garland",
+			"AvgPremium": "1564"
+		},
+		{
+			"State": "Texas",
+			"Rank": 5,
+			"City": "McAllen",
+			"AvgPremium": "1530"
+		},
+		{
+			"State": "Texas",
+			"Rank": 6,
+			"City": "Grand Prairie",
+			"AvgPremium": "1548"
+		},
+		{
+			"State": "Texas",
+			"Rank": 7,
+			"City": "Pasadena",
+			"AvgPremium": "1524"
+		},
+		{
+			"State": "Texas",
+			"Rank": 8,
+			"City": "Beaumont",
+			"AvgPremium": "1527"
+		},
+		{
+			"State": "Texas",
+			"Rank": 9,
+			"City": "Brownsville",
+			"AvgPremium": "1536"
+		},
+		{
+			"State": "Texas",
+			"Rank": 10,
+			"City": "Irving",
+			"AvgPremium": "1546"
+		},
+		{
+			"State": "Texas",
+			"Rank": 11,
+			"City": "Amarillo",
+			"AvgPremium": "1475"
+		},
+		{
+			"State": "Texas",
+			"Rank": 12,
+			"City": "Arlington",
+			"AvgPremium": "1539"
+		},
+		{
+			"State": "Texas",
+			"Rank": 13,
+			"City": "Laredo",
+			"AvgPremium": "1461"
+		},
+		{
+			"State": "Texas",
+			"Rank": 14,
+			"City": "San Antonio",
+			"AvgPremium": "1458"
+		},
+		{
+			"State": "Texas",
+			"Rank": 15,
+			"City": "Carrollton",
+			"AvgPremium": "1500"
+		},
+		{
+			"State": "Texas",
+			"Rank": 16,
+			"City": "Lubbock",
+			"AvgPremium": "1455"
+		},
+		{
+			"State": "Texas",
+			"Rank": 17,
+			"City": "Fort Worth",
+			"AvgPremium": "1469"
+		},
+		{
+			"State": "Texas",
+			"Rank": 18,
+			"City": "El Paso",
+			"AvgPremium": "1402"
+		},
+		{
+			"State": "Texas",
+			"Rank": 19,
+			"City": "Plano",
+			"AvgPremium": "1408"
+		},
+		{
+			"State": "Texas",
+			"Rank": 20,
+			"City": "Austin",
+			"AvgPremium": "1417"
+		},
+		{
+			"State": "Texas",
+			"Rank": 21,
+			"City": "Corpus Christi",
+			"AvgPremium": "1419"
+		},
+		{
+			"State": "Texas",
+			"Rank": 22,
+			"City": "McKinney",
+			"AvgPremium": "1377"
+		},
+		{
+			"State": "Texas",
+			"Rank": 23,
+			"City": "Waco",
+			"AvgPremium": "1302"
+		},
+		{
+			"State": "Texas",
+			"Rank": 24,
+			"City": "Abilene",
+			"AvgPremium": "1287"
+		},
+		{
+			"State": "Texas",
+			"Rank": 25,
+			"City": "Killeen",
+			"AvgPremium": "1302"
+		}
+	],
+	"Arizona ": [
+		{
+			"State": "Arizona ",
+			"Rank": 1,
+			"City": "Phoenix",
+			"AvgPremium": "1789"
+		},
+		{
+			"State": "Arizona ",
+			"Rank": 2,
+			"City": "Glendale",
+			"AvgPremium": "1718"
+		},
+		{
+			"State": "Arizona ",
+			"Rank": 3,
+			"City": "Avondale",
+			"AvgPremium": "1712"
+		},
+		{
+			"State": "Arizona ",
+			"Rank": 4,
+			"City": "Tempe",
+			"AvgPremium": "1636"
+		},
+		{
+			"State": "Arizona ",
+			"Rank": 5,
+			"City": "Scottsdale",
+			"AvgPremium": "1569"
+		},
+		{
+			"State": "Arizona ",
+			"Rank": 6,
+			"City": "Mesa",
+			"AvgPremium": "1629"
+		},
+		{
+			"State": "Arizona ",
+			"Rank": 7,
+			"City": "Peoria",
+			"AvgPremium": "1596"
+		},
+		{
+			"State": "Arizona ",
+			"Rank": 8,
+			"City": "Gilbert",
+			"AvgPremium": "1577"
+		},
+		{
+			"State": "Arizona ",
+			"Rank": 9,
+			"City": "Chandler",
+			"AvgPremium": "1581"
+		},
+		{
+			"State": "Arizona ",
+			"Rank": 10,
+			"City": "Surprise",
+			"AvgPremium": "1582"
+		},
+		{
+			"State": "Arizona ",
+			"Rank": 11,
+			"City": "Buckeye",
+			"AvgPremium": "1528"
+		},
+		{
+			"State": "Arizona ",
+			"Rank": 12,
+			"City": "San Tan Valley",
+			"AvgPremium": "1494"
+		},
+		{
+			"State": "Arizona ",
+			"Rank": 13,
+			"City": "Tucson",
+			"AvgPremium": "1568"
+		},
+		{
+			"State": "Arizona ",
+			"Rank": 14,
+			"City": "Catalina Foothills",
+			"AvgPremium": "1484"
+		},
+		{
+			"State": "Arizona ",
+			"Rank": 15,
+			"City": "Goodyear",
+			"AvgPremium": "1453"
+		},
+		{
+			"State": "Arizona ",
+			"Rank": 16,
+			"City": "Casas Adobes",
+			"AvgPremium": "1444"
+		},
+		{
+			"State": "Arizona ",
+			"Rank": 17,
+			"City": "Maricopa",
+			"AvgPremium": "1454"
+		},
+		{
+			"State": "Arizona ",
+			"Rank": 18,
+			"City": "Oro Valley",
+			"AvgPremium": "1397"
+		},
+		{
+			"State": "Arizona ",
+			"Rank": 19,
+			"City": "Casa Grande",
+			"AvgPremium": "1433"
+		},
+		{
+			"State": "Arizona ",
+			"Rank": 20,
+			"City": "Flagstaff",
+			"AvgPremium": "1302"
+		},
+		{
+			"State": "Arizona ",
+			"Rank": 21,
+			"City": "Prescott",
+			"AvgPremium": "1216"
+		},
+		{
+			"State": "Arizona ",
+			"Rank": 22,
+			"City": "Bullhead City",
+			"AvgPremium": "1197"
+		},
+		{
+			"State": "Arizona ",
+			"Rank": 23,
+			"City": "Sierra Vista",
+			"AvgPremium": "1214"
+		},
+		{
+			"State": "Arizona ",
+			"Rank": 24,
+			"City": "Lake Havasu City",
+			"AvgPremium": "1137"
+		}
+	],
+	"California": [
+		{
+			"State": "California",
+			"Rank": 1,
+			"City": "Glendale",
+			"AvgPremium": "2770"
+		},
+		{
+			"State": "California",
+			"Rank": 2,
+			"City": "Los Angeles",
+			"AvgPremium": "2594"
+		},
+		{
+			"State": "California",
+			"Rank": 3,
+			"City": "San Francisco",
+			"AvgPremium": "2240"
+		},
+		{
+			"State": "California",
+			"Rank": 4,
+			"City": "Oakland",
+			"AvgPremium": "2231"
+		},
+		{
+			"State": "California",
+			"Rank": 5,
+			"City": "San Bernardino",
+			"AvgPremium": "2114"
+		},
+		{
+			"State": "California",
+			"Rank": 6,
+			"City": "Sacramento",
+			"AvgPremium": "2167"
+		},
+		{
+			"State": "California",
+			"Rank": 7,
+			"City": "Long Beach",
+			"AvgPremium": "2095"
+		},
+		{
+			"State": "California",
+			"Rank": 8,
+			"City": "Santa Clarita",
+			"AvgPremium": "2025"
+		},
+		{
+			"State": "California",
+			"Rank": 9,
+			"City": "Garden Grove",
+			"AvgPremium": "2035"
+		},
+		{
+			"State": "California",
+			"Rank": 10,
+			"City": "Fontana",
+			"AvgPremium": "2026"
+		},
+		{
+			"State": "California",
+			"Rank": 11,
+			"City": "Stockton",
+			"AvgPremium": "1948"
+		},
+		{
+			"State": "California",
+			"Rank": 12,
+			"City": "Santa Ana",
+			"AvgPremium": "1921"
+		},
+		{
+			"State": "California",
+			"Rank": 13,
+			"City": "Riverside",
+			"AvgPremium": "1907"
+		},
+		{
+			"State": "California",
+			"Rank": 14,
+			"City": "Anaheim",
+			"AvgPremium": "1991"
+		},
+		{
+			"State": "California",
+			"Rank": 15,
+			"City": "Moreno Valley",
+			"AvgPremium": "1942"
+		},
+		{
+			"State": "California",
+			"Rank": 16,
+			"City": "Modesto",
+			"AvgPremium": "1869"
+		},
+		{
+			"State": "California",
+			"Rank": 17,
+			"City": "Fresno",
+			"AvgPremium": "1855"
+		},
+		{
+			"State": "California",
+			"Rank": 18,
+			"City": "Irvine",
+			"AvgPremium": "1867"
+		},
+		{
+			"State": "California",
+			"Rank": 19,
+			"City": "San Jose",
+			"AvgPremium": "1884"
+		},
+		{
+			"State": "California",
+			"Rank": 20,
+			"City": "Huntington Beach",
+			"AvgPremium": "1813"
+		},
+		{
+			"State": "California",
+			"Rank": 21,
+			"City": "Bakersfield",
+			"AvgPremium": "1838"
+		},
+		{
+			"State": "California",
+			"Rank": 22,
+			"City": "Oxnard",
+			"AvgPremium": "1792"
+		},
+		{
+			"State": "California",
+			"Rank": 23,
+			"City": "San Diego",
+			"AvgPremium": "1782"
+		},
+		{
+			"State": "California",
+			"Rank": 24,
+			"City": "Fremont",
+			"AvgPremium": "1758"
+		},
+		{
+			"State": "California",
+			"Rank": 25,
+			"City": "Chula Vista",
+			"AvgPremium": "1665"
+		}
+	],
+	"Illions": [
+		{
+			"State": "Illions",
+			"Rank": 1,
+			"City": "Cicero",
+			"AvgPremium": "1792"
+		},
+		{
+			"State": "Illions",
+			"Rank": 2,
+			"City": "Chicago",
+			"AvgPremium": "1694"
+		},
+		{
+			"State": "Illions",
+			"Rank": 3,
+			"City": "Skokie",
+			"AvgPremium": "1657"
+		},
+		{
+			"State": "Illions",
+			"Rank": 4,
+			"City": "Berwyn",
+			"AvgPremium": "1691"
+		},
+		{
+			"State": "Illions",
+			"Rank": 5,
+			"City": "Oak Lawn",
+			"AvgPremium": "1500"
+		},
+		{
+			"State": "Illions",
+			"Rank": 6,
+			"City": "Des Plaines",
+			"AvgPremium": "1482"
+		},
+		{
+			"State": "Illions",
+			"Rank": 7,
+			"City": "Evanston",
+			"AvgPremium": "1485"
+		},
+		{
+			"State": "Illions",
+			"Rank": 8,
+			"City": "Bolingbrook",
+			"AvgPremium": "1465"
+		},
+		{
+			"State": "Illions",
+			"Rank": 9,
+			"City": "Mount Prospect",
+			"AvgPremium": "1416"
+		},
+		{
+			"State": "Illions",
+			"Rank": 10,
+			"City": "Orland Park",
+			"AvgPremium": "1361"
+		},
+		{
+			"State": "Illions",
+			"Rank": 11,
+			"City": "Tinley Park",
+			"AvgPremium": "1402"
+		},
+		{
+			"State": "Illions",
+			"Rank": 12,
+			"City": "Joliet",
+			"AvgPremium": "1372"
+		},
+		{
+			"State": "Illions",
+			"Rank": 13,
+			"City": "Schaumburg",
+			"AvgPremium": "1363"
+		},
+		{
+			"State": "Illions",
+			"Rank": 14,
+			"City": "Palatine",
+			"AvgPremium": "1340"
+		},
+		{
+			"State": "Illions",
+			"Rank": 15,
+			"City": "Elgin",
+			"AvgPremium": "1297"
+		},
+		{
+			"State": "Illions",
+			"Rank": 16,
+			"City": "Rockford",
+			"AvgPremium": "1312"
+		},
+		{
+			"State": "Illions",
+			"Rank": 17,
+			"City": "Arlington Heights",
+			"AvgPremium": "1312"
+		},
+		{
+			"State": "Illions",
+			"Rank": 18,
+			"City": "Aurora",
+			"AvgPremium": "1338"
+		},
+		{
+			"State": "Illions",
+			"Rank": 19,
+			"City": "Peoria",
+			"AvgPremium": "1285"
+		},
+		{
+			"State": "Illions",
+			"Rank": 20,
+			"City": "Naperville",
+			"AvgPremium": "1253"
+		},
+		{
+			"State": "Illions",
+			"Rank": 21,
+			"City": "Springfield",
+			"AvgPremium": "1280"
+		},
+		{
+			"State": "Illions",
+			"Rank": 22,
+			"City": "Decatur",
+			"AvgPremium": "1230"
+		},
+		{
+			"State": "Illions",
+			"Rank": 23,
+			"City": "Bloomington",
+			"AvgPremium": "1212"
+		},
+		{
+			"State": "Illions",
+			"Rank": 24,
+			"City": "Champaign",
+			"AvgPremium": "1152"
+		}
+	],
+	"Connecticut": [
+		{
+			"State": "Connecticut",
+			"Rank": 1,
+			"City": "New Haven",
+			"AvgPremium": "2212"
+		},
+		{
+			"State": "Connecticut",
+			"Rank": 2,
+			"City": "Bridgeport",
+			"AvgPremium": "2194"
+		},
+		{
+			"State": "Connecticut",
+			"Rank": 3,
+			"City": "Hartford",
+			"AvgPremium": "2166"
+		},
+		{
+			"State": "Connecticut",
+			"Rank": 4,
+			"City": "Waterbury",
+			"AvgPremium": "2099"
+		},
+		{
+			"State": "Connecticut",
+			"Rank": 5,
+			"City": "East Haven",
+			"AvgPremium": "2033"
+		},
+		{
+			"State": "Connecticut",
+			"Rank": 6,
+			"City": "West Haven",
+			"AvgPremium": "1997"
+		},
+		{
+			"State": "Connecticut",
+			"Rank": 7,
+			"City": "East Hartford",
+			"AvgPremium": "1834"
+		},
+		{
+			"State": "Connecticut",
+			"Rank": 8,
+			"City": "Stratford",
+			"AvgPremium": "1873"
+		},
+		{
+			"State": "Connecticut",
+			"Rank": 9,
+			"City": "Milford",
+			"AvgPremium": "1836"
+		},
+		{
+			"State": "Connecticut",
+			"Rank": 10,
+			"City": "Naugatuck",
+			"AvgPremium": "1823"
+		},
+		{
+			"State": "Connecticut",
+			"Rank": 11,
+			"City": "Trumbull",
+			"AvgPremium": "1800"
+		},
+		{
+			"State": "Connecticut",
+			"Rank": 12,
+			"City": "Shelton",
+			"AvgPremium": "1839"
+		},
+		{
+			"State": "Connecticut",
+			"Rank": 13,
+			"City": "Meriden",
+			"AvgPremium": "1754"
+		},
+		{
+			"State": "Connecticut",
+			"Rank": 14,
+			"City": "New Britain",
+			"AvgPremium": "1774"
+		},
+		{
+			"State": "Connecticut",
+			"Rank": 15,
+			"City": "Stamford",
+			"AvgPremium": "1743"
+		},
+		{
+			"State": "Connecticut",
+			"Rank": 16,
+			"City": "Middletown",
+			"AvgPremium": "1721"
+		},
+		{
+			"State": "Connecticut",
+			"Rank": 17,
+			"City": "Norwalk",
+			"AvgPremium": "1708"
+		},
+		{
+			"State": "Connecticut",
+			"Rank": 18,
+			"City": "Danbury",
+			"AvgPremium": "1656"
+		},
+		{
+			"State": "Connecticut",
+			"Rank": 19,
+			"City": "Bristol",
+			"AvgPremium": "1710"
+		},
+		{
+			"State": "Connecticut",
+			"Rank": 20,
+			"City": "Newington",
+			"AvgPremium": "1662"
+		},
+		{
+			"State": "Connecticut",
+			"Rank": 21,
+			"City": "West Hartford",
+			"AvgPremium": "1708"
+		},
+		{
+			"State": "Connecticut",
+			"Rank": 22,
+			"City": "Manchester",
+			"AvgPremium": "1638"
+		},
+		{
+			"State": "Connecticut",
+			"Rank": 23,
+			"City": "Norwich",
+			"AvgPremium": "1620"
+		},
+		{
+			"State": "Connecticut",
+			"Rank": 24,
+			"City": "Torrington",
+			"AvgPremium": "1586"
+		},
+		{
+			"State": "Connecticut",
+			"Rank": 25,
+			"City": "New London",
+			"AvgPremium": "1593"
+		}
+	],
+	"Georgia": [
+		{
+			"State": "Georgia",
+			"Rank": 1,
+			"City": "East Point",
+			"AvgPremium": "2060"
+		},
+		{
+			"State": "Georgia",
+			"Rank": 2,
+			"City": "Atlanta",
+			"AvgPremium": "1891"
+		},
+		{
+			"State": "Georgia",
+			"Rank": 3,
+			"City": "Mableton",
+			"AvgPremium": "1867"
+		},
+		{
+			"State": "Georgia",
+			"Rank": 4,
+			"City": "Smyrna",
+			"AvgPremium": "1781"
+		},
+		{
+			"State": "Georgia",
+			"Rank": 5,
+			"City": "Sandy Springs",
+			"AvgPremium": "1757"
+		},
+		{
+			"State": "Georgia",
+			"Rank": 6,
+			"City": "Marietta",
+			"AvgPremium": "1798"
+		},
+		{
+			"State": "Georgia",
+			"Rank": 7,
+			"City": "Dunwoody",
+			"AvgPremium": "1785"
+		},
+		{
+			"State": "Georgia",
+			"Rank": 8,
+			"City": "North Atlanta",
+			"AvgPremium": "1765"
+		},
+		{
+			"State": "Georgia",
+			"Rank": 9,
+			"City": "Savannah",
+			"AvgPremium": "1719"
+		},
+		{
+			"State": "Georgia",
+			"Rank": 10,
+			"City": "Macon",
+			"AvgPremium": "1700"
+		},
+		{
+			"State": "Georgia",
+			"Rank": 11,
+			"City": "Alpharetta",
+			"AvgPremium": "1673"
+		},
+		{
+			"State": "Georgia",
+			"Rank": 12,
+			"City": "Gainesville",
+			"AvgPremium": "1615"
+		},
+		{
+			"State": "Georgia",
+			"Rank": 13,
+			"City": "Columbus",
+			"AvgPremium": "1605"
+		},
+		{
+			"State": "Georgia",
+			"Rank": 14,
+			"City": "Rome",
+			"AvgPremium": "1594"
+		},
+		{
+			"State": "Georgia",
+			"Rank": 15,
+			"City": "Warner Robins",
+			"AvgPremium": "1526"
+		},
+		{
+			"State": "Georgia",
+			"Rank": 16,
+			"City": "Peachtree City",
+			"AvgPremium": "1563"
+		},
+		{
+			"State": "Georgia",
+			"Rank": 17,
+			"City": "Athens",
+			"AvgPremium": "1506"
+		},
+		{
+			"State": "Georgia",
+			"Rank": 18,
+			"City": "Augusta",
+			"AvgPremium": "1519"
+		},
+		{
+			"State": "Georgia",
+			"Rank": 19,
+			"City": "Albany",
+			"AvgPremium": "1522"
+		},
+		{
+			"State": "Georgia",
+			"Rank": 20,
+			"City": "Dalton",
+			"AvgPremium": "1414"
+		},
+		{
+			"State": "Georgia",
+			"Rank": 21,
+			"City": "Valdosta",
+			"AvgPremium": "1237"
+		}
+	],
+	"Virginia": [
+		{
+			"State": "Virginia",
+			"Rank": 1,
+			"City": "Burke",
+			"AvgPremium": "1176"
+		},
+		{
+			"State": "Virginia",
+			"Rank": 2,
+			"City": "Alexandria",
+			"AvgPremium": "1120"
+		},
+		{
+			"State": "Virginia",
+			"Rank": 3,
+			"City": "Centreville",
+			"AvgPremium": "1112"
+		},
+		{
+			"State": "Virginia",
+			"Rank": 4,
+			"City": "Dale City",
+			"AvgPremium": "1143"
+		},
+		{
+			"State": "Virginia",
+			"Rank": 5,
+			"City": "McLean",
+			"AvgPremium": "1125"
+		},
+		{
+			"State": "Virginia",
+			"Rank": 6,
+			"City": "Norfolk",
+			"AvgPremium": "1068"
+		},
+		{
+			"State": "Virginia",
+			"Rank": 7,
+			"City": "Portsmouth",
+			"AvgPremium": "1085"
+		},
+		{
+			"State": "Virginia",
+			"Rank": 8,
+			"City": "Reston",
+			"AvgPremium": "1047"
+		},
+		{
+			"State": "Virginia",
+			"Rank": 9,
+			"City": "Richmond",
+			"AvgPremium": "1121"
+		},
+		{
+			"State": "Virginia",
+			"Rank": 10,
+			"City": "Arlington",
+			"AvgPremium": "1017"
+		},
+		{
+			"State": "Virginia",
+			"Rank": 11,
+			"City": "Hampton",
+			"AvgPremium": "1052"
+		},
+		{
+			"State": "Virginia",
+			"Rank": 12,
+			"City": "Virginia Beach",
+			"AvgPremium": "1059"
+		},
+		{
+			"State": "Virginia",
+			"Rank": 13,
+			"City": "Chesapeake",
+			"AvgPremium": "1022"
+		},
+		{
+			"State": "Virginia",
+			"Rank": 14,
+			"City": "Newport News",
+			"AvgPremium": "1039"
+		},
+		{
+			"State": "Virginia",
+			"Rank": 15,
+			"City": "Suffolk",
+			"AvgPremium": "1068"
+		},
+		{
+			"State": "Virginia",
+			"Rank": 16,
+			"City": "Ashburn",
+			"AvgPremium": "1040"
+		},
+		{
+			"State": "Virginia",
+			"Rank": 17,
+			"City": "Leesburg",
+			"AvgPremium": "999"
+		},
+		{
+			"State": "Virginia",
+			"Rank": 18,
+			"City": "Charlottesville",
+			"AvgPremium": "932"
+		},
+		{
+			"State": "Virginia",
+			"Rank": 19,
+			"City": "Danville",
+			"AvgPremium": "932"
+		},
+		{
+			"State": "Virginia",
+			"Rank": 20,
+			"City": "Lynchburg",
+			"AvgPremium": "970"
+		},
+		{
+			"State": "Virginia",
+			"Rank": 21,
+			"City": "Roanoke",
+			"AvgPremium": "898"
+		},
+		{
+			"State": "Virginia",
+			"Rank": 22,
+			"City": "Blacksburg",
+			"AvgPremium": "888"
+		},
+		{
+			"State": "Virginia",
+			"Rank": 23,
+			"City": "Harrisonburg",
+			"AvgPremium": "826"
+		}
+	],
+	"Utah": [
+		{
+			"State": "Utah",
+			"Rank": 1,
+			"City": "West Valley City",
+			"AvgPremium": "1621"
+		},
+		{
+			"State": "Utah",
+			"Rank": 2,
+			"City": "Kearns",
+			"AvgPremium": "1534"
+		},
+		{
+			"State": "Utah",
+			"Rank": 3,
+			"City": "Salt Lake City",
+			"AvgPremium": "1490"
+		},
+		{
+			"State": "Utah",
+			"Rank": 4,
+			"City": "Taylorsville",
+			"AvgPremium": "1551"
+		},
+		{
+			"State": "Utah",
+			"Rank": 5,
+			"City": "Millcreek",
+			"AvgPremium": "1482"
+		},
+		{
+			"State": "Utah",
+			"Rank": 6,
+			"City": "West Jordan",
+			"AvgPremium": "1487"
+		},
+		{
+			"State": "Utah",
+			"Rank": 7,
+			"City": "Cottonwood Heights",
+			"AvgPremium": "1427"
+		},
+		{
+			"State": "Utah",
+			"Rank": 8,
+			"City": "Orem",
+			"AvgPremium": "1467"
+		},
+		{
+			"State": "Utah",
+			"Rank": 9,
+			"City": "Provo",
+			"AvgPremium": "1403"
+		},
+		{
+			"State": "Utah",
+			"Rank": 10,
+			"City": "Draper",
+			"AvgPremium": "1418"
+		},
+		{
+			"State": "Utah",
+			"Rank": 11,
+			"City": "Sandy",
+			"AvgPremium": "1372"
+		},
+		{
+			"State": "Utah",
+			"Rank": 12,
+			"City": "South Jordan",
+			"AvgPremium": "1413"
+		},
+		{
+			"State": "Utah",
+			"Rank": 13,
+			"City": "Bountiful",
+			"AvgPremium": "1369"
+		},
+		{
+			"State": "Utah",
+			"Rank": 14,
+			"City": "Ogden",
+			"AvgPremium": "1298"
+		},
+		{
+			"State": "Utah",
+			"Rank": 15,
+			"City": "Lehi",
+			"AvgPremium": "1317"
+		},
+		{
+			"State": "Utah",
+			"Rank": 16,
+			"City": "Roy",
+			"AvgPremium": "1292"
+		},
+		{
+			"State": "Utah",
+			"Rank": 17,
+			"City": "Clearfield",
+			"AvgPremium": "1295"
+		},
+		{
+			"State": "Utah",
+			"Rank": 18,
+			"City": "Layton",
+			"AvgPremium": "1335"
+		},
+		{
+			"State": "Utah",
+			"Rank": 19,
+			"City": "Logan",
+			"AvgPremium": "1201"
+		}
+	],
+	"Maryland": [
+		{
+			"State": "Maryland",
+			"Rank": 1,
+			"City": "Baltimore",
+			"AvgPremium": "2112"
+		},
+		{
+			"State": "Maryland",
+			"Rank": 2,
+			"City": "Essex",
+			"AvgPremium": "1790"
+		},
+		{
+			"State": "Maryland",
+			"Rank": 3,
+			"City": "Catonsville",
+			"AvgPremium": "1619"
+		},
+		{
+			"State": "Maryland",
+			"Rank": 4,
+			"City": "Towson",
+			"AvgPremium": "1563"
+		},
+		{
+			"State": "Maryland",
+			"Rank": 5,
+			"City": "Aspen Hill",
+			"AvgPremium": "1565"
+		},
+		{
+			"State": "Maryland",
+			"Rank": 6,
+			"City": "Bowie",
+			"AvgPremium": "1610"
+		},
+		{
+			"State": "Maryland",
+			"Rank": 7,
+			"City": "Waldorf",
+			"AvgPremium": "1596"
+		},
+		{
+			"State": "Maryland",
+			"Rank": 8,
+			"City": "Glen Burnie",
+			"AvgPremium": "1503"
+		},
+		{
+			"State": "Maryland",
+			"Rank": 9,
+			"City": "Silver Spring",
+			"AvgPremium": "1574"
+		},
+		{
+			"State": "Maryland",
+			"Rank": 10,
+			"City": "Columbia",
+			"AvgPremium": "1426"
+		},
+		{
+			"State": "Maryland",
+			"Rank": 11,
+			"City": "Rockville",
+			"AvgPremium": "1474"
+		},
+		{
+			"State": "Maryland",
+			"Rank": 12,
+			"City": "Gaithersburg",
+			"AvgPremium": "1437"
+		},
+		{
+			"State": "Maryland",
+			"Rank": 13,
+			"City": "Ellicott City",
+			"AvgPremium": "1489"
+		},
+		{
+			"State": "Maryland",
+			"Rank": 14,
+			"City": "Potomac",
+			"AvgPremium": "1429"
+		},
+		{
+			"State": "Maryland",
+			"Rank": 15,
+			"City": "Annapolis",
+			"AvgPremium": "1429"
+		},
+		{
+			"State": "Maryland",
+			"Rank": 16,
+			"City": "North Bethesda",
+			"AvgPremium": "1372"
+		},
+		{
+			"State": "Maryland",
+			"Rank": 17,
+			"City": "Bethesda",
+			"AvgPremium": "1279"
+		},
+		{
+			"State": "Maryland",
+			"Rank": 18,
+			"City": "Frederick",
+			"AvgPremium": "1199"
+		},
+		{
+			"State": "Maryland",
+			"Rank": 19,
+			"City": "Hagerstown",
+			"AvgPremium": "1223"
+		}
+	],
+	"Michigan": [
+		{
+			"State": "Michigan",
+			"Rank": 1,
+			"City": "Detroit",
+			"AvgPremium": "6231"
+		},
+		{
+			"State": "Michigan",
+			"Rank": 2,
+			"City": "Dearborn",
+			"AvgPremium": "5101"
+		},
+		{
+			"State": "Michigan",
+			"Rank": 3,
+			"City": "Southfield",
+			"AvgPremium": "4852"
+		},
+		{
+			"State": "Michigan",
+			"Rank": 4,
+			"City": "Dearborn Heights",
+			"AvgPremium": "4465"
+		},
+		{
+			"State": "Michigan",
+			"Rank": 5,
+			"City": "Warren",
+			"AvgPremium": "4456"
+		},
+		{
+			"State": "Michigan",
+			"Rank": 6,
+			"City": "Pontiac",
+			"AvgPremium": "4228"
+		},
+		{
+			"State": "Michigan",
+			"Rank": 7,
+			"City": "Sterling Heights",
+			"AvgPremium": "4121"
+		},
+		{
+			"State": "Michigan",
+			"Rank": 8,
+			"City": "Taylor",
+			"AvgPremium": "3883"
+		},
+		{
+			"State": "Michigan",
+			"Rank": 9,
+			"City": "Flint",
+			"AvgPremium": "3854"
+		},
+		{
+			"State": "Michigan",
+			"Rank": 10,
+			"City": "St. Clair Shores",
+			"AvgPremium": "3658"
+		},
+		{
+			"State": "Michigan",
+			"Rank": 11,
+			"City": "Westland",
+			"AvgPremium": "3653"
+		},
+		{
+			"State": "Michigan",
+			"Rank": 12,
+			"City": "Troy",
+			"AvgPremium": "3389"
+		},
+		{
+			"State": "Michigan",
+			"Rank": 13,
+			"City": "Farmington Hills",
+			"AvgPremium": "3371"
+		},
+		{
+			"State": "Michigan",
+			"Rank": 14,
+			"City": "Royal Oak",
+			"AvgPremium": "3304"
+		},
+		{
+			"State": "Michigan",
+			"Rank": 15,
+			"City": "Livonia",
+			"AvgPremium": "3233"
+		},
+		{
+			"State": "Michigan",
+			"Rank": 16,
+			"City": "Novi",
+			"AvgPremium": "3085"
+		},
+		{
+			"State": "Michigan",
+			"Rank": 17,
+			"City": "Saginaw",
+			"AvgPremium": "2971"
+		},
+		{
+			"State": "Michigan",
+			"Rank": 18,
+			"City": "Lansing",
+			"AvgPremium": "2942"
+		},
+		{
+			"State": "Michigan",
+			"Rank": 19,
+			"City": "Kentwood",
+			"AvgPremium": "2750"
+		},
+		{
+			"State": "Michigan",
+			"Rank": 20,
+			"City": "Battle Creek",
+			"AvgPremium": "2683"
+		},
+		{
+			"State": "Michigan",
+			"Rank": 21,
+			"City": "Grand Rapids",
+			"AvgPremium": "2735"
+		},
+		{
+			"State": "Michigan",
+			"Rank": 22,
+			"City": "Wyoming",
+			"AvgPremium": "2626"
+		},
+		{
+			"State": "Michigan",
+			"Rank": 23,
+			"City": "Ann Arbor",
+			"AvgPremium": "2675"
+		},
+		{
+			"State": "Michigan",
+			"Rank": 24,
+			"City": "Kalamazoo",
+			"AvgPremium": "2497"
+		}
+	],
+	"South Carolina": [
+		{
+			"State": "South Carolina",
+			"Rank": 1,
+			"City": "North Charleston",
+			"AvgPremium": "1509"
+		},
+		{
+			"State": "South Carolina",
+			"Rank": 2,
+			"City": "Florence",
+			"AvgPremium": "1516"
+		},
+		{
+			"State": "South Carolina",
+			"Rank": 3,
+			"City": "Summerville",
+			"AvgPremium": "1503"
+		},
+		{
+			"State": "South Carolina",
+			"Rank": 4,
+			"City": "Goose Creek",
+			"AvgPremium": "1481"
+		},
+		{
+			"State": "South Carolina",
+			"Rank": 5,
+			"City": "Charleston",
+			"AvgPremium": "1458"
+		},
+		{
+			"State": "South Carolina",
+			"Rank": 6,
+			"City": "Columbia",
+			"AvgPremium": "1390"
+		},
+		{
+			"State": "South Carolina",
+			"Rank": 7,
+			"City": "Rock Hill",
+			"AvgPremium": "1424"
+		},
+		{
+			"State": "South Carolina",
+			"Rank": 8,
+			"City": "Myrtle Beach",
+			"AvgPremium": "1391"
+		},
+		{
+			"State": "South Carolina",
+			"Rank": 9,
+			"City": "Mount Pleasant",
+			"AvgPremium": "1299"
+		},
+		{
+			"State": "South Carolina",
+			"Rank": 10,
+			"City": "Spartanburg",
+			"AvgPremium": "1260"
+		},
+		{
+			"State": "South Carolina",
+			"Rank": 11,
+			"City": "Greenville",
+			"AvgPremium": "1328"
+		},
+		{
+			"State": "South Carolina",
+			"Rank": 12,
+			"City": "Anderson",
+			"AvgPremium": "1315"
+		},
+		{
+			"State": "South Carolina",
+			"Rank": 13,
+			"City": "Taylors",
+			"AvgPremium": "1305"
+		},
+		{
+			"State": "South Carolina",
+			"Rank": 14,
+			"City": "Hilton Head Island",
+			"AvgPremium": "1297"
+		},
+		{
+			"State": "South Carolina",
+			"Rank": 15,
+			"City": "Aiken",
+			"AvgPremium": "1209"
+		},
+		{
+			"State": "South Carolina",
+			"Rank": 16,
+			"City": "Greer",
+			"AvgPremium": "1256"
+		},
+		{
+			"State": "South Carolina",
+			"Rank": 17,
+			"City": "Mauldin",
+			"AvgPremium": "1240"
+		},
+		{
+			"State": "South Carolina",
+			"Rank": 18,
+			"City": "Easley",
+			"AvgPremium": "1236"
+		},
+		{
+			"State": "South Carolina",
+			"Rank": 19,
+			"City": "Greenwood",
+			"AvgPremium": "1259"
+		},
+		{
+			"State": "South Carolina",
+			"Rank": 20,
+			"City": "Simpsonville",
+			"AvgPremium": "1208"
+		}
+	],
+	"Colorado": [
+		{
+			"State": "Colorado",
+			"Rank": 1,
+			"City": "Pueblo",
+			"AvgPremium": "2157"
+		},
+		{
+			"State": "Colorado",
+			"Rank": 2,
+			"City": "Aurora",
+			"AvgPremium": "2055"
+		},
+		{
+			"State": "Colorado",
+			"Rank": 3,
+			"City": "Lakewood",
+			"AvgPremium": "1979"
+		},
+		{
+			"State": "Colorado",
+			"Rank": 4,
+			"City": "Denver",
+			"AvgPremium": "1954"
+		},
+		{
+			"State": "Colorado",
+			"Rank": 5,
+			"City": "Colorado Springs",
+			"AvgPremium": "1923"
+		},
+		{
+			"State": "Colorado",
+			"Rank": 6,
+			"City": "Commerce City",
+			"AvgPremium": "1887"
+		},
+		{
+			"State": "Colorado",
+			"Rank": 7,
+			"City": "Security-Widefield",
+			"AvgPremium": "1855"
+		},
+		{
+			"State": "Colorado",
+			"Rank": 8,
+			"City": "Northglenn",
+			"AvgPremium": "1826"
+		},
+		{
+			"State": "Colorado",
+			"Rank": 9,
+			"City": "Centennial",
+			"AvgPremium": "1777"
+		},
+		{
+			"State": "Colorado",
+			"Rank": 10,
+			"City": "Parker",
+			"AvgPremium": "1729"
+		},
+		{
+			"State": "Colorado",
+			"Rank": 11,
+			"City": "Arvada",
+			"AvgPremium": "1749"
+		},
+		{
+			"State": "Colorado",
+			"Rank": 12,
+			"City": "Littleton",
+			"AvgPremium": "1748"
+		},
+		{
+			"State": "Colorado",
+			"Rank": 13,
+			"City": "Castle Rock",
+			"AvgPremium": "1650"
+		},
+		{
+			"State": "Colorado",
+			"Rank": 14,
+			"City": "Highlands Ranch",
+			"AvgPremium": "1710"
+		},
+		{
+			"State": "Colorado",
+			"Rank": 15,
+			"City": "Brighton",
+			"AvgPremium": "1712"
+		},
+		{
+			"State": "Colorado",
+			"Rank": 16,
+			"City": "Greeley",
+			"AvgPremium": "1665"
+		},
+		{
+			"State": "Colorado",
+			"Rank": 17,
+			"City": "Boulder",
+			"AvgPremium": "1635"
+		},
+		{
+			"State": "Colorado",
+			"Rank": 18,
+			"City": "Broomfield",
+			"AvgPremium": "1594"
+		},
+		{
+			"State": "Colorado",
+			"Rank": 19,
+			"City": "Longmont",
+			"AvgPremium": "1580"
+		},
+		{
+			"State": "Colorado",
+			"Rank": 20,
+			"City": "Fort Collins",
+			"AvgPremium": "1565"
+		},
+		{
+			"State": "Colorado",
+			"Rank": 21,
+			"City": "Loveland",
+			"AvgPremium": "1459"
+		},
+		{
+			"State": "Colorado",
+			"Rank": 22,
+			"City": "Grand Junction",
+			"AvgPremium": "1401"
+		}
+	],
+	"Oklahoma": [
+		{
+			"State": "Oklahoma",
+			"Rank": 1,
+			"City": "Tulsa",
+			"AvgPremium": "1957"
+		},
+		{
+			"State": "Oklahoma",
+			"Rank": 2,
+			"City": "Del City",
+			"AvgPremium": "2024"
+		},
+		{
+			"State": "Oklahoma",
+			"Rank": 3,
+			"City": "Oklahoma City",
+			"AvgPremium": "1973"
+		},
+		{
+			"State": "Oklahoma",
+			"Rank": 4,
+			"City": "Midwest City",
+			"AvgPremium": "1980"
+		},
+		{
+			"State": "Oklahoma",
+			"Rank": 5,
+			"City": "Bethany",
+			"AvgPremium": "1929"
+		},
+		{
+			"State": "Oklahoma",
+			"Rank": 6,
+			"City": "Bixby",
+			"AvgPremium": "1898"
+		},
+		{
+			"State": "Oklahoma",
+			"Rank": 7,
+			"City": "Moore",
+			"AvgPremium": "1917"
+		},
+		{
+			"State": "Oklahoma",
+			"Rank": 8,
+			"City": "Broken Arrow",
+			"AvgPremium": "1875"
+		},
+		{
+			"State": "Oklahoma",
+			"Rank": 9,
+			"City": "Edmond",
+			"AvgPremium": "1837"
+		},
+		{
+			"State": "Oklahoma",
+			"Rank": 10,
+			"City": "Sapulpa",
+			"AvgPremium": "1879"
+		},
+		{
+			"State": "Oklahoma",
+			"Rank": 11,
+			"City": "Norman",
+			"AvgPremium": "1868"
+		},
+		{
+			"State": "Oklahoma",
+			"Rank": 12,
+			"City": "Shawnee",
+			"AvgPremium": "1819"
+		},
+		{
+			"State": "Oklahoma",
+			"Rank": 13,
+			"City": "Ponca City",
+			"AvgPremium": "1783"
+		},
+		{
+			"State": "Oklahoma",
+			"Rank": 14,
+			"City": "Sand Springs",
+			"AvgPremium": "1769"
+		},
+		{
+			"State": "Oklahoma",
+			"Rank": 15,
+			"City": "Muskogee",
+			"AvgPremium": "1776"
+		},
+		{
+			"State": "Oklahoma",
+			"Rank": 16,
+			"City": "Owasso",
+			"AvgPremium": "1741"
+		},
+		{
+			"State": "Oklahoma",
+			"Rank": 17,
+			"City": "Claremore",
+			"AvgPremium": "1725"
+		},
+		{
+			"State": "Oklahoma",
+			"Rank": 18,
+			"City": "Ardmore",
+			"AvgPremium": "1697"
+		},
+		{
+			"State": "Oklahoma",
+			"Rank": 19,
+			"City": "Stillwater",
+			"AvgPremium": "1719"
+		},
+		{
+			"State": "Oklahoma",
+			"Rank": 20,
+			"City": "Enid",
+			"AvgPremium": "1700"
+		},
+		{
+			"State": "Oklahoma",
+			"Rank": 21,
+			"City": "Bartlesville",
+			"AvgPremium": "1730"
+		},
+		{
+			"State": "Oklahoma",
+			"Rank": 22,
+			"City": "Lawton",
+			"AvgPremium": "1651"
+		},
+		{
+			"State": "Oklahoma",
+			"Rank": 23,
+			"City": "Altus",
+			"AvgPremium": "1641"
+		},
+		{
+			"State": "Oklahoma",
+			"Rank": 24,
+			"City": "Duncan",
+			"AvgPremium": "1634"
+		}
+	],
+	"Arkansas": [
+		{
+			"State": "Arkansas",
+			"Rank": 1,
+			"City": "Pine Bluff",
+			"AvgPremium": "1959"
+		},
+		{
+			"State": "Arkansas",
+			"Rank": 2,
+			"City": "Little Rock",
+			"AvgPremium": "1992"
+		},
+		{
+			"State": "Arkansas",
+			"Rank": 3,
+			"City": "Bryant",
+			"AvgPremium": "1870"
+		},
+		{
+			"State": "Arkansas",
+			"Rank": 4,
+			"City": "North Little Rock",
+			"AvgPremium": "1872"
+		},
+		{
+			"State": "Arkansas",
+			"Rank": 5,
+			"City": "Benton",
+			"AvgPremium": "1827"
+		},
+		{
+			"State": "Arkansas",
+			"Rank": 6,
+			"City": "Texarkana",
+			"AvgPremium": "1778"
+		},
+		{
+			"State": "Arkansas",
+			"Rank": 7,
+			"City": "West Memphis",
+			"AvgPremium": "1754"
+		},
+		{
+			"State": "Arkansas",
+			"Rank": 8,
+			"City": "Maumelle",
+			"AvgPremium": "1790"
+		},
+		{
+			"State": "Arkansas",
+			"Rank": 9,
+			"City": "Hot Springs",
+			"AvgPremium": "1818"
+		},
+		{
+			"State": "Arkansas",
+			"Rank": 10,
+			"City": "Jacksonville",
+			"AvgPremium": "1783"
+		},
+		{
+			"State": "Arkansas",
+			"Rank": 11,
+			"City": "Cabot",
+			"AvgPremium": "1747"
+		},
+		{
+			"State": "Arkansas",
+			"Rank": 12,
+			"City": "El Dorado",
+			"AvgPremium": "1738"
+		},
+		{
+			"State": "Arkansas",
+			"Rank": 13,
+			"City": "Searcy",
+			"AvgPremium": "1650"
+		},
+		{
+			"State": "Arkansas",
+			"Rank": 14,
+			"City": "Jonesboro",
+			"AvgPremium": "1688"
+		},
+		{
+			"State": "Arkansas",
+			"Rank": 15,
+			"City": "Conway",
+			"AvgPremium": "1692"
+		},
+		{
+			"State": "Arkansas",
+			"Rank": 16,
+			"City": "Van Buren",
+			"AvgPremium": "1644"
+		},
+		{
+			"State": "Arkansas",
+			"Rank": 17,
+			"City": "Russellville",
+			"AvgPremium": "1571"
+		},
+		{
+			"State": "Arkansas",
+			"Rank": 18,
+			"City": "Fayetteville",
+			"AvgPremium": "1597"
+		},
+		{
+			"State": "Arkansas",
+			"Rank": 19,
+			"City": "Fort Smith",
+			"AvgPremium": "1530"
+		},
+		{
+			"State": "Arkansas",
+			"Rank": 20,
+			"City": "Rogers",
+			"AvgPremium": "1577"
+		},
+		{
+			"State": "Arkansas",
+			"Rank": 21,
+			"City": "Bella Vista",
+			"AvgPremium": "1505"
+		},
+		{
+			"State": "Arkansas",
+			"Rank": 22,
+			"City": "Bentonville",
+			"AvgPremium": "1496"
+		}
+	],
+	"New Jersey": [
+		{
+			"State": "New Jersey",
+			"Rank": 1,
+			"City": "Newark",
+			"AvgPremium": "2373"
+		},
+		{
+			"State": "New Jersey",
+			"Rank": 2,
+			"City": "East Orange",
+			"AvgPremium": "2387"
+		},
+		{
+			"State": "New Jersey",
+			"Rank": 3,
+			"City": "Paterson",
+			"AvgPremium": "2340"
+		},
+		{
+			"State": "New Jersey",
+			"Rank": 4,
+			"City": "Passaic",
+			"AvgPremium": "2339"
+		},
+		{
+			"State": "New Jersey",
+			"Rank": 5,
+			"City": "Elizabeth",
+			"AvgPremium": "2280"
+		},
+		{
+			"State": "New Jersey",
+			"Rank": 6,
+			"City": "Union City",
+			"AvgPremium": "2175"
+		},
+		{
+			"State": "New Jersey",
+			"Rank": 7,
+			"City": "Camden",
+			"AvgPremium": "2177"
+		},
+		{
+			"State": "New Jersey",
+			"Rank": 8,
+			"City": "Atlantic City",
+			"AvgPremium": "2099"
+		},
+		{
+			"State": "New Jersey",
+			"Rank": 9,
+			"City": "Perth Amboy",
+			"AvgPremium": "2099"
+		},
+		{
+			"State": "New Jersey",
+			"Rank": 10,
+			"City": "Linden",
+			"AvgPremium": "2104"
+		},
+		{
+			"State": "New Jersey",
+			"Rank": 11,
+			"City": "Fort Lee",
+			"AvgPremium": "2029"
+		},
+		{
+			"State": "New Jersey",
+			"Rank": 12,
+			"City": "Kearny",
+			"AvgPremium": "1994"
+		},
+		{
+			"State": "New Jersey",
+			"Rank": 13,
+			"City": "Clifton",
+			"AvgPremium": "1979"
+		},
+		{
+			"State": "New Jersey",
+			"Rank": 14,
+			"City": "Jersey City",
+			"AvgPremium": "1981"
+		},
+		{
+			"State": "New Jersey",
+			"Rank": 15,
+			"City": "Hoboken",
+			"AvgPremium": "1989"
+		},
+		{
+			"State": "New Jersey",
+			"Rank": 16,
+			"City": "Hackensack",
+			"AvgPremium": "1931"
+		},
+		{
+			"State": "New Jersey",
+			"Rank": 17,
+			"City": "Bayonne",
+			"AvgPremium": "1864"
+		},
+		{
+			"State": "New Jersey",
+			"Rank": 18,
+			"City": "Trenton",
+			"AvgPremium": "1815"
+		},
+		{
+			"State": "New Jersey",
+			"Rank": 19,
+			"City": "New Brunswick",
+			"AvgPremium": "1760"
+		},
+		{
+			"State": "New Jersey",
+			"Rank": 20,
+			"City": "Lakewood",
+			"AvgPremium": "1674"
+		},
+		{
+			"State": "New Jersey",
+			"Rank": 21,
+			"City": "Sayreville",
+			"AvgPremium": "1597"
+		},
+		{
+			"State": "New Jersey",
+			"Rank": 22,
+			"City": "Vineland",
+			"AvgPremium": "1633"
+		},
+		{
+			"State": "New Jersey",
+			"Rank": 23,
+			"City": "Toms River",
+			"AvgPremium": "1487"
+		}
+	],
+	"Tennessee": [
+		{
+			"State": "Tennessee",
+			"Rank": 1,
+			"City": "Memphis",
+			"AvgPremium": "1917"
+		},
+		{
+			"State": "Tennessee",
+			"Rank": 2,
+			"City": "Bartlett",
+			"AvgPremium": "1782"
+		},
+		{
+			"State": "Tennessee",
+			"Rank": 3,
+			"City": "Germantown",
+			"AvgPremium": "1788"
+		},
+		{
+			"State": "Tennessee",
+			"Rank": 4,
+			"City": "Collierville",
+			"AvgPremium": "1743"
+		},
+		{
+			"State": "Tennessee",
+			"Rank": 5,
+			"City": "Jackson",
+			"AvgPremium": "1621"
+		},
+		{
+			"State": "Tennessee",
+			"Rank": 6,
+			"City": "Nashville",
+			"AvgPremium": "1621"
+		},
+		{
+			"State": "Tennessee",
+			"Rank": 7,
+			"City": "Oak Ridge",
+			"AvgPremium": "1608"
+		},
+		{
+			"State": "Tennessee",
+			"Rank": 8,
+			"City": "Columbia",
+			"AvgPremium": "1509"
+		},
+		{
+			"State": "Tennessee",
+			"Rank": 9,
+			"City": "Knoxville",
+			"AvgPremium": "1526"
+		},
+		{
+			"State": "Tennessee",
+			"Rank": 10,
+			"City": "Clarksville",
+			"AvgPremium": "1490"
+		},
+		{
+			"State": "Tennessee",
+			"Rank": 11,
+			"City": "La Vergne",
+			"AvgPremium": "1521"
+		},
+		{
+			"State": "Tennessee",
+			"Rank": 12,
+			"City": "Spring Hill",
+			"AvgPremium": "1518"
+		},
+		{
+			"State": "Tennessee",
+			"Rank": 13,
+			"City": "Brentwood",
+			"AvgPremium": "1502"
+		},
+		{
+			"State": "Tennessee",
+			"Rank": 14,
+			"City": "Smyrna",
+			"AvgPremium": "1513"
+		},
+		{
+			"State": "Tennessee",
+			"Rank": 15,
+			"City": "Maryville",
+			"AvgPremium": "1489"
+		},
+		{
+			"State": "Tennessee",
+			"Rank": 16,
+			"City": "Murfreesboro",
+			"AvgPremium": "1498"
+		},
+		{
+			"State": "Tennessee",
+			"Rank": 17,
+			"City": "Franklin",
+			"AvgPremium": "1456"
+		},
+		{
+			"State": "Tennessee",
+			"Rank": 18,
+			"City": "Chattanooga",
+			"AvgPremium": "1448"
+		},
+		{
+			"State": "Tennessee",
+			"Rank": 19,
+			"City": "Cookeville",
+			"AvgPremium": "1496"
+		},
+		{
+			"State": "Tennessee",
+			"Rank": 20,
+			"City": "Hendersonville",
+			"AvgPremium": "1443"
+		},
+		{
+			"State": "Tennessee",
+			"Rank": 21,
+			"City": "Gallatin",
+			"AvgPremium": "1452"
+		},
+		{
+			"State": "Tennessee",
+			"Rank": 22,
+			"City": "Morristown",
+			"AvgPremium": "1511"
+		},
+		{
+			"State": "Tennessee",
+			"Rank": 23,
+			"City": "Cleveland",
+			"AvgPremium": "1391"
+		},
+		{
+			"State": "Tennessee",
+			"Rank": 24,
+			"City": "Kingsport",
+			"AvgPremium": "1384"
+		},
+		{
+			"State": "Tennessee",
+			"Rank": 25,
+			"City": "Johnson City",
+			"AvgPremium": "1355"
+		}
+	],
+	"Oregon": [
+		{
+			"State": "Oregon",
+			"Rank": 1,
+			"City": "Gresham",
+			"AvgPremium": "1962"
+		},
+		{
+			"State": "Oregon",
+			"Rank": 2,
+			"City": "Portland",
+			"AvgPremium": "1835"
+		},
+		{
+			"State": "Oregon",
+			"Rank": 3,
+			"City": "Aloha",
+			"AvgPremium": "1701"
+		},
+		{
+			"State": "Oregon",
+			"Rank": 4,
+			"City": "Beaverton",
+			"AvgPremium": "1683"
+		},
+		{
+			"State": "Oregon",
+			"Rank": 5,
+			"City": "Lake Oswego",
+			"AvgPremium": "1615"
+		},
+		{
+			"State": "Oregon",
+			"Rank": 6,
+			"City": "Woodburn",
+			"AvgPremium": "1609"
+		},
+		{
+			"State": "Oregon",
+			"Rank": 7,
+			"City": "Hillsboro",
+			"AvgPremium": "1564"
+		},
+		{
+			"State": "Oregon",
+			"Rank": 8,
+			"City": "Newberg",
+			"AvgPremium": "1558"
+		},
+		{
+			"State": "Oregon",
+			"Rank": 9,
+			"City": "Forest Grove",
+			"AvgPremium": "1611"
+		},
+		{
+			"State": "Oregon",
+			"Rank": 10,
+			"City": "Tualatin",
+			"AvgPremium": "1603"
+		},
+		{
+			"State": "Oregon",
+			"Rank": 11,
+			"City": "Salem",
+			"AvgPremium": "1536"
+		},
+		{
+			"State": "Oregon",
+			"Rank": 12,
+			"City": "Keizer",
+			"AvgPremium": "1496"
+		},
+		{
+			"State": "Oregon",
+			"Rank": 13,
+			"City": "McMinnville",
+			"AvgPremium": "1502"
+		},
+		{
+			"State": "Oregon",
+			"Rank": 14,
+			"City": "Bend",
+			"AvgPremium": "1352"
+		},
+		{
+			"State": "Oregon",
+			"Rank": 15,
+			"City": "Springfield",
+			"AvgPremium": "1286"
+		},
+		{
+			"State": "Oregon",
+			"Rank": 16,
+			"City": "Albany",
+			"AvgPremium": "1373"
+		},
+		{
+			"State": "Oregon",
+			"Rank": 17,
+			"City": "Grants Pass",
+			"AvgPremium": "1359"
+		},
+		{
+			"State": "Oregon",
+			"Rank": 18,
+			"City": "Eugene",
+			"AvgPremium": "1368"
+		},
+		{
+			"State": "Oregon",
+			"Rank": 19,
+			"City": "Medford",
+			"AvgPremium": "1351"
+		},
+		{
+			"State": "Oregon",
+			"Rank": 20,
+			"City": "Corvallis",
+			"AvgPremium": "1345"
+		},
+		{
+			"State": "Oregon",
+			"Rank": 21,
+			"City": "Roseburg",
+			"AvgPremium": "1291"
+		}
+	],
+	"Pennsylvania": [
+		{
+			"State": "Pennsylvania",
+			"Rank": 1,
+			"City": "Philadelphia",
+			"AvgPremium": "2667"
+		},
+		{
+			"State": "Pennsylvania",
+			"Rank": 2,
+			"City": "Chester",
+			"AvgPremium": "2059"
+		},
+		{
+			"State": "Pennsylvania",
+			"Rank": 3,
+			"City": "Drexel Hill",
+			"AvgPremium": "1854"
+		},
+		{
+			"State": "Pennsylvania",
+			"Rank": 4,
+			"City": "Norristown",
+			"AvgPremium": "1798"
+		},
+		{
+			"State": "Pennsylvania",
+			"Rank": 5,
+			"City": "Levittown",
+			"AvgPremium": "1830"
+		},
+		{
+			"State": "Pennsylvania",
+			"Rank": 6,
+			"City": "Allentown",
+			"AvgPremium": "1529"
+		},
+		{
+			"State": "Pennsylvania",
+			"Rank": 7,
+			"City": "Reading",
+			"AvgPremium": "1499"
+		},
+		{
+			"State": "Pennsylvania",
+			"Rank": 8,
+			"City": "Pittsburgh",
+			"AvgPremium": "1474"
+		},
+		{
+			"State": "Pennsylvania",
+			"Rank": 9,
+			"City": "Hazleton",
+			"AvgPremium": "1441"
+		},
+		{
+			"State": "Pennsylvania",
+			"Rank": 10,
+			"City": "Plum",
+			"AvgPremium": "1504"
+		},
+		{
+			"State": "Pennsylvania",
+			"Rank": 11,
+			"City": "Easton",
+			"AvgPremium": "1460"
+		},
+		{
+			"State": "Pennsylvania",
+			"Rank": 12,
+			"City": "Erie",
+			"AvgPremium": "1462"
+		},
+		{
+			"State": "Pennsylvania",
+			"Rank": 13,
+			"City": "Wilkes-Barre",
+			"AvgPremium": "1418"
+		},
+		{
+			"State": "Pennsylvania",
+			"Rank": 14,
+			"City": "Scranton",
+			"AvgPremium": "1485"
+		},
+		{
+			"State": "Pennsylvania",
+			"Rank": 15,
+			"City": "Bethlehem",
+			"AvgPremium": "1421"
+		},
+		{
+			"State": "Pennsylvania",
+			"Rank": 16,
+			"City": "New Castle",
+			"AvgPremium": "1456"
+		},
+		{
+			"State": "Pennsylvania",
+			"Rank": 17,
+			"City": "Altoona",
+			"AvgPremium": "1427"
+		},
+		{
+			"State": "Pennsylvania",
+			"Rank": 18,
+			"City": "Bethel Park",
+			"AvgPremium": "1318"
+		},
+		{
+			"State": "Pennsylvania",
+			"Rank": 19,
+			"City": "Harrisburg",
+			"AvgPremium": "1384"
+		},
+		{
+			"State": "Pennsylvania",
+			"Rank": 20,
+			"City": "York",
+			"AvgPremium": "1302"
+		},
+		{
+			"State": "Pennsylvania",
+			"Rank": 21,
+			"City": "Lancaster",
+			"AvgPremium": "1280"
+		},
+		{
+			"State": "Pennsylvania",
+			"Rank": 22,
+			"City": "Lebanon",
+			"AvgPremium": "1304"
+		}
+	],
+	"Missouri": [
+		{
+			"State": "Missouri",
+			"Rank": 1,
+			"City": "Saint Louis",
+			"AvgPremium": "2585"
+		},
+		{
+			"State": "Missouri",
+			"Rank": 2,
+			"City": "Florissant",
+			"AvgPremium": "2016"
+		},
+		{
+			"State": "Missouri",
+			"Rank": 3,
+			"City": "University City",
+			"AvgPremium": "2047"
+		},
+		{
+			"State": "Missouri",
+			"Rank": 4,
+			"City": "Mehlville",
+			"AvgPremium": "2008"
+		},
+		{
+			"State": "Missouri",
+			"Rank": 5,
+			"City": "Kansas City",
+			"AvgPremium": "1951"
+		},
+		{
+			"State": "Missouri",
+			"Rank": 6,
+			"City": "Independence",
+			"AvgPremium": "1896"
+		},
+		{
+			"State": "Missouri",
+			"Rank": 7,
+			"City": "Chesterfield",
+			"AvgPremium": "1908"
+		},
+		{
+			"State": "Missouri",
+			"Rank": 8,
+			"City": "Wildwood",
+			"AvgPremium": "1827"
+		},
+		{
+			"State": "Missouri",
+			"Rank": 9,
+			"City": "Ballwin",
+			"AvgPremium": "1819"
+		},
+		{
+			"State": "Missouri",
+			"Rank": 10,
+			"City": "Liberty",
+			"AvgPremium": "1719"
+		},
+		{
+			"State": "Missouri",
+			"Rank": 11,
+			"City": "Lee's Summit",
+			"AvgPremium": "1777"
+		},
+		{
+			"State": "Missouri",
+			"Rank": 12,
+			"City": "Blue Springs",
+			"AvgPremium": "1761"
+		},
+		{
+			"State": "Missouri",
+			"Rank": 13,
+			"City": "Springfield",
+			"AvgPremium": "1662"
+		},
+		{
+			"State": "Missouri",
+			"Rank": 14,
+			"City": "Cape Girardeau",
+			"AvgPremium": "1689"
+		},
+		{
+			"State": "Missouri",
+			"Rank": 15,
+			"City": "Columbia",
+			"AvgPremium": "1675"
+		},
+		{
+			"State": "Missouri",
+			"Rank": 16,
+			"City": "Jefferson City",
+			"AvgPremium": "1536"
+		}
+	],
+	"Indiana": [
+		{
+			"State": "Indiana",
+			"Rank": 1,
+			"City": "Gary",
+			"AvgPremium": "1608"
+		},
+		{
+			"State": "Indiana",
+			"Rank": 2,
+			"City": "Hammond",
+			"AvgPremium": "1521"
+		},
+		{
+			"State": "Indiana",
+			"Rank": 3,
+			"City": "Indianapolis",
+			"AvgPremium": "1302"
+		},
+		{
+			"State": "Indiana",
+			"Rank": 4,
+			"City": "Jeffersonville",
+			"AvgPremium": "1218"
+		},
+		{
+			"State": "Indiana",
+			"Rank": 5,
+			"City": "New Albany",
+			"AvgPremium": "1274"
+		},
+		{
+			"State": "Indiana",
+			"Rank": 6,
+			"City": "Terre Haute",
+			"AvgPremium": "1222"
+		},
+		{
+			"State": "Indiana",
+			"Rank": 7,
+			"City": "Evansville",
+			"AvgPremium": "1168"
+		},
+		{
+			"State": "Indiana",
+			"Rank": 8,
+			"City": "Bloomington",
+			"AvgPremium": "1144"
+		},
+		{
+			"State": "Indiana",
+			"Rank": 9,
+			"City": "Greenwood",
+			"AvgPremium": "1097"
+		},
+		{
+			"State": "Indiana",
+			"Rank": 10,
+			"City": "Anderson",
+			"AvgPremium": "1184"
+		},
+		{
+			"State": "Indiana",
+			"Rank": 11,
+			"City": "Fort Wayne",
+			"AvgPremium": "1091"
+		},
+		{
+			"State": "Indiana",
+			"Rank": 12,
+			"City": "Fishers",
+			"AvgPremium": "1153"
+		},
+		{
+			"State": "Indiana",
+			"Rank": 13,
+			"City": "Kokomo",
+			"AvgPremium": "1127"
+		},
+		{
+			"State": "Indiana",
+			"Rank": 14,
+			"City": "South Bend",
+			"AvgPremium": "1118"
+		},
+		{
+			"State": "Indiana",
+			"Rank": 15,
+			"City": "Columbus",
+			"AvgPremium": "1118"
+		},
+		{
+			"State": "Indiana",
+			"Rank": 16,
+			"City": "Noblesville",
+			"AvgPremium": "1111"
+		},
+		{
+			"State": "Indiana",
+			"Rank": 17,
+			"City": "Carmel",
+			"AvgPremium": "1128"
+		},
+		{
+			"State": "Indiana",
+			"Rank": 18,
+			"City": "Mishawaka",
+			"AvgPremium": "1038"
+		},
+		{
+			"State": "Indiana",
+			"Rank": 19,
+			"City": "Muncie",
+			"AvgPremium": "1124"
+		},
+		{
+			"State": "Indiana",
+			"Rank": 20,
+			"City": "Elkhart",
+			"AvgPremium": "1084"
+		},
+		{
+			"State": "Indiana",
+			"Rank": 21,
+			"City": "Richmond",
+			"AvgPremium": "1052"
+		},
+		{
+			"State": "Indiana",
+			"Rank": 22,
+			"City": "Lafayette",
+			"AvgPremium": "1061"
+		}
+	],
+	"Ohio": [
+		{
+			"State": "Ohio",
+			"Rank": 1,
+			"City": "Youngstown",
+			"AvgPremium": "1296"
+		},
+		{
+			"State": "Ohio",
+			"Rank": 2,
+			"City": "Cleveland",
+			"AvgPremium": "1191"
+		},
+		{
+			"State": "Ohio",
+			"Rank": 3,
+			"City": "Toledo",
+			"AvgPremium": "1253"
+		},
+		{
+			"State": "Ohio",
+			"Rank": 4,
+			"City": "Cincinnati",
+			"AvgPremium": "1210"
+		},
+		{
+			"State": "Ohio",
+			"Rank": 5,
+			"City": "Columbus",
+			"AvgPremium": "1159"
+		},
+		{
+			"State": "Ohio",
+			"Rank": 6,
+			"City": "Cleveland Heights",
+			"AvgPremium": "1145"
+		},
+		{
+			"State": "Ohio",
+			"Rank": 7,
+			"City": "Akron",
+			"AvgPremium": "1107"
+		},
+		{
+			"State": "Ohio",
+			"Rank": 8,
+			"City": "Dayton",
+			"AvgPremium": "1113"
+		},
+		{
+			"State": "Ohio",
+			"Rank": 9,
+			"City": "Hamilton",
+			"AvgPremium": "1100"
+		},
+		{
+			"State": "Ohio",
+			"Rank": 10,
+			"City": "Euclid",
+			"AvgPremium": "1075"
+		},
+		{
+			"State": "Ohio",
+			"Rank": 11,
+			"City": "Fairfield",
+			"AvgPremium": "1142"
+		},
+		{
+			"State": "Ohio",
+			"Rank": 12,
+			"City": "Canton",
+			"AvgPremium": "1053"
+		},
+		{
+			"State": "Ohio",
+			"Rank": 13,
+			"City": "Lakewood",
+			"AvgPremium": "1080"
+		},
+		{
+			"State": "Ohio",
+			"Rank": 14,
+			"City": "Middletown",
+			"AvgPremium": "1049"
+		},
+		{
+			"State": "Ohio",
+			"Rank": 15,
+			"City": "Beavercreek",
+			"AvgPremium": "1018"
+		},
+		{
+			"State": "Ohio",
+			"Rank": 16,
+			"City": "Springfield",
+			"AvgPremium": "978"
+		},
+		{
+			"State": "Ohio",
+			"Rank": 17,
+			"City": "Parma",
+			"AvgPremium": "953"
+		},
+		{
+			"State": "Ohio",
+			"Rank": 18,
+			"City": "Cuyahoga Falls",
+			"AvgPremium": "965"
+		},
+		{
+			"State": "Ohio",
+			"Rank": 19,
+			"City": "Lorain",
+			"AvgPremium": "972"
+		},
+		{
+			"State": "Ohio",
+			"Rank": 20,
+			"City": "Strongsville",
+			"AvgPremium": "961"
+		},
+		{
+			"State": "Ohio",
+			"Rank": 21,
+			"City": "Elyria",
+			"AvgPremium": "1035"
+		},
+		{
+			"State": "Ohio",
+			"Rank": 22,
+			"City": "Mansfield",
+			"AvgPremium": "960"
+		}
+	],
+	"Alabama": [
+		{
+			"State": "Alabama",
+			"Rank": 1,
+			"City": "Birmingham",
+			"AvgPremium": "1651"
+		},
+		{
+			"State": "Alabama",
+			"Rank": 2,
+			"City": "Bessemer",
+			"AvgPremium": "1649"
+		},
+		{
+			"State": "Alabama",
+			"Rank": 3,
+			"City": "Hoover",
+			"AvgPremium": "1572"
+		},
+		{
+			"State": "Alabama",
+			"Rank": 4,
+			"City": "Mobile",
+			"AvgPremium": "1626"
+		},
+		{
+			"State": "Alabama",
+			"Rank": 5,
+			"City": "Homewood",
+			"AvgPremium": "1529"
+		},
+		{
+			"State": "Alabama",
+			"Rank": 6,
+			"City": "Phenix City",
+			"AvgPremium": "1565"
+		},
+		{
+			"State": "Alabama",
+			"Rank": 7,
+			"City": "Prichard",
+			"AvgPremium": "1560"
+		},
+		{
+			"State": "Alabama",
+			"Rank": 8,
+			"City": "Northport",
+			"AvgPremium": "1500"
+		},
+		{
+			"State": "Alabama",
+			"Rank": 9,
+			"City": "Montgomery",
+			"AvgPremium": "1454"
+		},
+		{
+			"State": "Alabama",
+			"Rank": 10,
+			"City": "Tuscaloosa",
+			"AvgPremium": "1524"
+		},
+		{
+			"State": "Alabama",
+			"Rank": 11,
+			"City": "Prattville",
+			"AvgPremium": "1431"
+		},
+		{
+			"State": "Alabama",
+			"Rank": 12,
+			"City": "Gadsden",
+			"AvgPremium": "1465"
+		},
+		{
+			"State": "Alabama",
+			"Rank": 13,
+			"City": "Alabaster",
+			"AvgPremium": "1468"
+		},
+		{
+			"State": "Alabama",
+			"Rank": 14,
+			"City": "Huntsville",
+			"AvgPremium": "1450"
+		},
+		{
+			"State": "Alabama",
+			"Rank": 15,
+			"City": "Daphne",
+			"AvgPremium": "1369"
+		},
+		{
+			"State": "Alabama",
+			"Rank": 16,
+			"City": "Anniston",
+			"AvgPremium": "1417"
+		},
+		{
+			"State": "Alabama",
+			"Rank": 17,
+			"City": "Madison",
+			"AvgPremium": "1381"
+		},
+		{
+			"State": "Alabama",
+			"Rank": 18,
+			"City": "Opelika",
+			"AvgPremium": "1396"
+		},
+		{
+			"State": "Alabama",
+			"Rank": 19,
+			"City": "Athens",
+			"AvgPremium": "1340"
+		},
+		{
+			"State": "Alabama",
+			"Rank": 20,
+			"City": "Auburn",
+			"AvgPremium": "1376"
+		},
+		{
+			"State": "Alabama",
+			"Rank": 21,
+			"City": "Decatur",
+			"AvgPremium": "1330"
+		},
+		{
+			"State": "Alabama",
+			"Rank": 22,
+			"City": "Dothan",
+			"AvgPremium": "1319"
+		},
+		{
+			"State": "Alabama",
+			"Rank": 23,
+			"City": "Florence",
+			"AvgPremium": "1299"
+		},
+		{
+			"State": "Alabama",
+			"Rank": 24,
+			"City": "Enterprise",
+			"AvgPremium": "1304"
+		}
+	],
+	"Nevada": [
+		{
+			"State": "Nevada",
+			"Rank": 1,
+			"City": "Spring Valley",
+			"AvgPremium": "2898"
+		},
+		{
+			"State": "Nevada",
+			"Rank": 2,
+			"City": "Paradise",
+			"AvgPremium": "2741"
+		},
+		{
+			"State": "Nevada",
+			"Rank": 3,
+			"City": "Sunrise Manor",
+			"AvgPremium": "2688"
+		},
+		{
+			"State": "Nevada",
+			"Rank": 4,
+			"City": "Las Vegas",
+			"AvgPremium": "2690"
+		},
+		{
+			"State": "Nevada",
+			"Rank": 5,
+			"City": "Enterprise",
+			"AvgPremium": "2618"
+		},
+		{
+			"State": "Nevada",
+			"Rank": 6,
+			"City": "North Las Vegas",
+			"AvgPremium": "2553"
+		},
+		{
+			"State": "Nevada",
+			"Rank": 7,
+			"City": "Henderson",
+			"AvgPremium": "2349"
+		},
+		{
+			"State": "Nevada",
+			"Rank": 8,
+			"City": "Pahrump",
+			"AvgPremium": "1961"
+		},
+		{
+			"State": "Nevada",
+			"Rank": 9,
+			"City": "Boulder City",
+			"AvgPremium": "1972"
+		},
+		{
+			"State": "Nevada",
+			"Rank": 10,
+			"City": "Reno",
+			"AvgPremium": "1718"
+		},
+		{
+			"State": "Nevada",
+			"Rank": 11,
+			"City": "Sparks",
+			"AvgPremium": "1720"
+		},
+		{
+			"State": "Nevada",
+			"Rank": 12,
+			"City": "Sun Valley",
+			"AvgPremium": "1751"
+		},
+		{
+			"State": "Nevada",
+			"Rank": 13,
+			"City": "Spanish Springs",
+			"AvgPremium": "1635"
+		},
+		{
+			"State": "Nevada",
+			"Rank": 14,
+			"City": "Mesquite",
+			"AvgPremium": "1624"
+		},
+		{
+			"State": "Nevada",
+			"Rank": 15,
+			"City": "Carson City",
+			"AvgPremium": "1509"
+		},
+		{
+			"State": "Nevada",
+			"Rank": 16,
+			"City": "Fernley",
+			"AvgPremium": "1538"
+		},
+		{
+			"State": "Nevada",
+			"Rank": 17,
+			"City": "Dayton",
+			"AvgPremium": "1436"
+		},
+		{
+			"State": "Nevada",
+			"Rank": 18,
+			"City": "Spring Creek",
+			"AvgPremium": "1431"
+		},
+		{
+			"State": "Nevada",
+			"Rank": 19,
+			"City": "Elko",
+			"AvgPremium": "1424"
+		},
+		{
+			"State": "Nevada",
+			"Rank": 20,
+			"City": "Fallon",
+			"AvgPremium": "1454"
+		}
+	],
+	"North Carolina": [
+		{
+			"State": "North Carolina",
+			"Rank": 1,
+			"City": "Fayetteville",
+			"AvgPremium": "1219"
+		},
+		{
+			"State": "North Carolina",
+			"Rank": 2,
+			"City": "Charlotte",
+			"AvgPremium": "1079"
+		},
+		{
+			"State": "North Carolina",
+			"Rank": 3,
+			"City": "Gastonia",
+			"AvgPremium": "1083"
+		},
+		{
+			"State": "North Carolina",
+			"Rank": 4,
+			"City": "Indian Trail",
+			"AvgPremium": "1021"
+		},
+		{
+			"State": "North Carolina",
+			"Rank": 5,
+			"City": "Wilson",
+			"AvgPremium": "969"
+		},
+		{
+			"State": "North Carolina",
+			"Rank": 6,
+			"City": "Goldsboro",
+			"AvgPremium": "956"
+		},
+		{
+			"State": "North Carolina",
+			"Rank": 7,
+			"City": "Concord",
+			"AvgPremium": "948"
+		},
+		{
+			"State": "North Carolina",
+			"Rank": 8,
+			"City": "Greenville",
+			"AvgPremium": "992"
+		},
+		{
+			"State": "North Carolina",
+			"Rank": 9,
+			"City": "Rocky Mount",
+			"AvgPremium": "973"
+		},
+		{
+			"State": "North Carolina",
+			"Rank": 10,
+			"City": "Salisbury",
+			"AvgPremium": "959"
+		},
+		{
+			"State": "North Carolina",
+			"Rank": 11,
+			"City": "Kannapolis",
+			"AvgPremium": "1007"
+		},
+		{
+			"State": "North Carolina",
+			"Rank": 12,
+			"City": "Wilmington",
+			"AvgPremium": "942"
+		},
+		{
+			"State": "North Carolina",
+			"Rank": 13,
+			"City": "Raleigh",
+			"AvgPremium": "921"
+		},
+		{
+			"State": "North Carolina",
+			"Rank": 14,
+			"City": "Durham",
+			"AvgPremium": "983"
+		},
+		{
+			"State": "North Carolina",
+			"Rank": 15,
+			"City": "Greensboro",
+			"AvgPremium": "974"
+		},
+		{
+			"State": "North Carolina",
+			"Rank": 16,
+			"City": "High Point",
+			"AvgPremium": "940"
+		},
+		{
+			"State": "North Carolina",
+			"Rank": 17,
+			"City": "Huntersville",
+			"AvgPremium": "893"
+		},
+		{
+			"State": "North Carolina",
+			"Rank": 18,
+			"City": "Hickory",
+			"AvgPremium": "891"
+		},
+		{
+			"State": "North Carolina",
+			"Rank": 19,
+			"City": "Burlington",
+			"AvgPremium": "822"
+		},
+		{
+			"State": "North Carolina",
+			"Rank": 20,
+			"City": "Cary",
+			"AvgPremium": "835"
+		},
+		{
+			"State": "North Carolina",
+			"Rank": 21,
+			"City": "Apex",
+			"AvgPremium": "827"
+		},
+		{
+			"State": "North Carolina",
+			"Rank": 22,
+			"City": "Winston Salem",
+			"AvgPremium": "802"
+		},
+		{
+			"State": "North Carolina",
+			"Rank": 23,
+			"City": "Chapel Hill",
+			"AvgPremium": "827"
+		},
+		{
+			"State": "North Carolina",
+			"Rank": 24,
+			"City": "Asheville",
+			"AvgPremium": "796"
+		}
+	],
+	"Kentucky": [
+		{
+			"State": "Kentucky",
+			"Rank": 1,
+			"City": "Louisville",
+			"AvgPremium": "2557"
+		},
+		{
+			"State": "Kentucky",
+			"Rank": 2,
+			"City": "Jeffersontown",
+			"AvgPremium": "1889"
+		},
+		{
+			"State": "Kentucky",
+			"Rank": 3,
+			"City": "Radcliff",
+			"AvgPremium": "1843"
+		},
+		{
+			"State": "Kentucky",
+			"Rank": 4,
+			"City": "Madisonville",
+			"AvgPremium": "1767"
+		},
+		{
+			"State": "Kentucky",
+			"Rank": 5,
+			"City": "Ashland",
+			"AvgPremium": "1798"
+		},
+		{
+			"State": "Kentucky",
+			"Rank": 6,
+			"City": "Elizabethtown",
+			"AvgPremium": "1774"
+		},
+		{
+			"State": "Kentucky",
+			"Rank": 7,
+			"City": "Murray",
+			"AvgPremium": "1816"
+		},
+		{
+			"State": "Kentucky",
+			"Rank": 8,
+			"City": "Henderson",
+			"AvgPremium": "1743"
+		},
+		{
+			"State": "Kentucky",
+			"Rank": 9,
+			"City": "Danville",
+			"AvgPremium": "1755"
+		},
+		{
+			"State": "Kentucky",
+			"Rank": 10,
+			"City": "Frankfort",
+			"AvgPremium": "1743"
+		},
+		{
+			"State": "Kentucky",
+			"Rank": 11,
+			"City": "Winchester",
+			"AvgPremium": "1782"
+		},
+		{
+			"State": "Kentucky",
+			"Rank": 12,
+			"City": "Georgetown",
+			"AvgPremium": "1689"
+		},
+		{
+			"State": "Kentucky",
+			"Rank": 13,
+			"City": "Hopkinsville",
+			"AvgPremium": "1674"
+		},
+		{
+			"State": "Kentucky",
+			"Rank": 14,
+			"City": "Nicholasville",
+			"AvgPremium": "1745"
+		},
+		{
+			"State": "Kentucky",
+			"Rank": 15,
+			"City": "Covington",
+			"AvgPremium": "1723"
+		},
+		{
+			"State": "Kentucky",
+			"Rank": 16,
+			"City": "Lexington",
+			"AvgPremium": "1731"
+		},
+		{
+			"State": "Kentucky",
+			"Rank": 17,
+			"City": "Richmond",
+			"AvgPremium": "1651"
+		},
+		{
+			"State": "Kentucky",
+			"Rank": 18,
+			"City": "Florence",
+			"AvgPremium": "1609"
+		},
+		{
+			"State": "Kentucky",
+			"Rank": 19,
+			"City": "Independence",
+			"AvgPremium": "1613"
+		},
+		{
+			"State": "Kentucky",
+			"Rank": 20,
+			"City": "Bowling Green",
+			"AvgPremium": "1687"
+		},
+		{
+			"State": "Kentucky",
+			"Rank": 21,
+			"City": "Owensboro",
+			"AvgPremium": "1622"
+		},
+		{
+			"State": "Kentucky",
+			"Rank": 22,
+			"City": "Fort Thomas",
+			"AvgPremium": "1545"
+		}
+	],
+	"Hawaii": [
+		{
+			"State": "Hawaii",
+			"Rank": 1,
+			"City": "Hilo",
+			"AvgPremium": "1157"
+		},
+		{
+			"State": "Hawaii",
+			"Rank": 2,
+			"City": "Ewa Beach",
+			"AvgPremium": "1055"
+		},
+		{
+			"State": "Hawaii",
+			"Rank": 3,
+			"City": "Royal Kunia",
+			"AvgPremium": "1095"
+		},
+		{
+			"State": "Hawaii",
+			"Rank": 4,
+			"City": "Honolulu",
+			"AvgPremium": "1013"
+		},
+		{
+			"State": "Hawaii",
+			"Rank": 5,
+			"City": "Halawa",
+			"AvgPremium": "1066"
+		},
+		{
+			"State": "Hawaii",
+			"Rank": 6,
+			"City": "Schofield Barracks",
+			"AvgPremium": "1020"
+		},
+		{
+			"State": "Hawaii",
+			"Rank": 7,
+			"City": "Kailua",
+			"AvgPremium": "1044"
+		},
+		{
+			"State": "Hawaii",
+			"Rank": 8,
+			"City": "Kapolei",
+			"AvgPremium": "1090"
+		},
+		{
+			"State": "Hawaii",
+			"Rank": 9,
+			"City": "Pearl City",
+			"AvgPremium": "997"
+		},
+		{
+			"State": "Hawaii",
+			"Rank": 10,
+			"City": "Kahului",
+			"AvgPremium": "1084"
+		},
+		{
+			"State": "Hawaii",
+			"Rank": 11,
+			"City": "Kihei",
+			"AvgPremium": "1075"
+		}
+	],
+	"Maine": [
+		{
+			"State": "Maine",
+			"Rank": 1,
+			"City": "Ellsworth",
+			"AvgPremium": "990"
+		},
+		{
+			"State": "Maine",
+			"Rank": 2,
+			"City": "Waterville",
+			"AvgPremium": "915"
+		},
+		{
+			"State": "Maine",
+			"Rank": 3,
+			"City": "Lewiston",
+			"AvgPremium": "952"
+		},
+		{
+			"State": "Maine",
+			"Rank": 4,
+			"City": "Auburn",
+			"AvgPremium": "922"
+		},
+		{
+			"State": "Maine",
+			"Rank": 5,
+			"City": "Skowhegan",
+			"AvgPremium": "947"
+		},
+		{
+			"State": "Maine",
+			"Rank": 6,
+			"City": "Orono",
+			"AvgPremium": "932"
+		},
+		{
+			"State": "Maine",
+			"Rank": 7,
+			"City": "Portland",
+			"AvgPremium": "887"
+		},
+		{
+			"State": "Maine",
+			"Rank": 8,
+			"City": "Belfast",
+			"AvgPremium": "915"
+		},
+		{
+			"State": "Maine",
+			"Rank": 9,
+			"City": "Bangor",
+			"AvgPremium": "895"
+		},
+		{
+			"State": "Maine",
+			"Rank": 10,
+			"City": "Old Town",
+			"AvgPremium": "928"
+		},
+		{
+			"State": "Maine",
+			"Rank": 11,
+			"City": "Augusta",
+			"AvgPremium": "945"
+		},
+		{
+			"State": "Maine",
+			"Rank": 12,
+			"City": "Sanford",
+			"AvgPremium": "934"
+		},
+		{
+			"State": "Maine",
+			"Rank": 13,
+			"City": "Rockland",
+			"AvgPremium": "946"
+		},
+		{
+			"State": "Maine",
+			"Rank": 14,
+			"City": "Bath",
+			"AvgPremium": "945"
+		},
+		{
+			"State": "Maine",
+			"Rank": 15,
+			"City": "Brewer",
+			"AvgPremium": "885"
+		},
+		{
+			"State": "Maine",
+			"Rank": 16,
+			"City": "Gorham",
+			"AvgPremium": "875"
+		},
+		{
+			"State": "Maine",
+			"Rank": 17,
+			"City": "Brunswick",
+			"AvgPremium": "916"
+		},
+		{
+			"State": "Maine",
+			"Rank": 18,
+			"City": "Westbrook",
+			"AvgPremium": "937"
+		},
+		{
+			"State": "Maine",
+			"Rank": 19,
+			"City": "South Portland",
+			"AvgPremium": "857"
+		},
+		{
+			"State": "Maine",
+			"Rank": 20,
+			"City": "Old Orchard Beach",
+			"AvgPremium": "831"
+		},
+		{
+			"State": "Maine",
+			"Rank": 21,
+			"City": "Saco",
+			"AvgPremium": "894"
+		},
+		{
+			"State": "Maine",
+			"Rank": 22,
+			"City": "Biddeford",
+			"AvgPremium": "824"
+		},
+		{
+			"State": "Maine",
+			"Rank": 23,
+			"City": "Caribou",
+			"AvgPremium": "876"
+		},
+		{
+			"State": "Maine",
+			"Rank": 24,
+			"City": "Presque Isle",
+			"AvgPremium": "819"
+		}
+	],
+	"Wisconsin": [
+		{
+			"State": "Wisconsin",
+			"Rank": 1,
+			"City": "Milwaukee",
+			"AvgPremium": "1566"
+		},
+		{
+			"State": "Wisconsin",
+			"Rank": 2,
+			"City": "Greenfield",
+			"AvgPremium": "1302"
+		},
+		{
+			"State": "Wisconsin",
+			"Rank": 3,
+			"City": "Kenosha",
+			"AvgPremium": "1228"
+		},
+		{
+			"State": "Wisconsin",
+			"Rank": 4,
+			"City": "Oak Creek",
+			"AvgPremium": "1158"
+		},
+		{
+			"State": "Wisconsin",
+			"Rank": 5,
+			"City": "Franklin",
+			"AvgPremium": "1179"
+		},
+		{
+			"State": "Wisconsin",
+			"Rank": 6,
+			"City": "Madison",
+			"AvgPremium": "1123"
+		},
+		{
+			"State": "Wisconsin",
+			"Rank": 7,
+			"City": "Brookfield",
+			"AvgPremium": "1088"
+		},
+		{
+			"State": "Wisconsin",
+			"Rank": 8,
+			"City": "Menomonee Falls",
+			"AvgPremium": "1103"
+		},
+		{
+			"State": "Wisconsin",
+			"Rank": 9,
+			"City": "La Crosse",
+			"AvgPremium": "1134"
+		},
+		{
+			"State": "Wisconsin",
+			"Rank": 10,
+			"City": "New Berlin",
+			"AvgPremium": "1093"
+		},
+		{
+			"State": "Wisconsin",
+			"Rank": 11,
+			"City": "West Bend",
+			"AvgPremium": "1107"
+		},
+		{
+			"State": "Wisconsin",
+			"Rank": 12,
+			"City": "Wausau",
+			"AvgPremium": "1037"
+		},
+		{
+			"State": "Wisconsin",
+			"Rank": 13,
+			"City": "Waukesha",
+			"AvgPremium": "1023"
+		},
+		{
+			"State": "Wisconsin",
+			"Rank": 14,
+			"City": "Eau Claire",
+			"AvgPremium": "1037"
+		},
+		{
+			"State": "Wisconsin",
+			"Rank": 15,
+			"City": "Manitowoc",
+			"AvgPremium": "1053"
+		},
+		{
+			"State": "Wisconsin",
+			"Rank": 16,
+			"City": "Janesville",
+			"AvgPremium": "1091"
+		},
+		{
+			"State": "Wisconsin",
+			"Rank": 17,
+			"City": "Beloit",
+			"AvgPremium": "1042"
+		},
+		{
+			"State": "Wisconsin",
+			"Rank": 18,
+			"City": "Fond du Lac",
+			"AvgPremium": "985"
+		},
+		{
+			"State": "Wisconsin",
+			"Rank": 19,
+			"City": "Oshkosh",
+			"AvgPremium": "953"
+		},
+		{
+			"State": "Wisconsin",
+			"Rank": 20,
+			"City": "Green Bay",
+			"AvgPremium": "1023"
+		},
+		{
+			"State": "Wisconsin",
+			"Rank": 21,
+			"City": "Appleton",
+			"AvgPremium": "936"
+		},
+		{
+			"State": "Wisconsin",
+			"Rank": 22,
+			"City": "Sheboygan",
+			"AvgPremium": "985"
+		}
+	],
+	"Vermont": [
+		{
+			"State": "Vermont",
+			"Rank": 1,
+			"City": "Newport",
+			"AvgPremium": "1199"
+		},
+		{
+			"State": "Vermont",
+			"Rank": 2,
+			"City": "Northfield",
+			"AvgPremium": "1211"
+		},
+		{
+			"State": "Vermont",
+			"Rank": 3,
+			"City": "Brattleboro",
+			"AvgPremium": "1142"
+		},
+		{
+			"State": "Vermont",
+			"Rank": 4,
+			"City": "Bellows Falls",
+			"AvgPremium": "1198"
+		},
+		{
+			"State": "Vermont",
+			"Rank": 5,
+			"City": "Barre",
+			"AvgPremium": "1115"
+		},
+		{
+			"State": "Vermont",
+			"Rank": 6,
+			"City": "Montpelier",
+			"AvgPremium": "1136"
+		},
+		{
+			"State": "Vermont",
+			"Rank": 7,
+			"City": "Swanton",
+			"AvgPremium": "1107"
+		},
+		{
+			"State": "Vermont",
+			"Rank": 8,
+			"City": "West Rutland",
+			"AvgPremium": "1103"
+		},
+		{
+			"State": "Vermont",
+			"Rank": 9,
+			"City": "White River Junction",
+			"AvgPremium": "1093"
+		},
+		{
+			"State": "Vermont",
+			"Rank": 10,
+			"City": "Bennington",
+			"AvgPremium": "1122"
+		},
+		{
+			"State": "Vermont",
+			"Rank": 11,
+			"City": "Burlington",
+			"AvgPremium": "1108"
+		},
+		{
+			"State": "Vermont",
+			"Rank": 12,
+			"City": "Essex Junction",
+			"AvgPremium": "1091"
+		},
+		{
+			"State": "Vermont",
+			"Rank": 13,
+			"City": "Springfield",
+			"AvgPremium": "1125"
+		},
+		{
+			"State": "Vermont",
+			"Rank": 14,
+			"City": "Bristol",
+			"AvgPremium": "1169"
+		},
+		{
+			"State": "Vermont",
+			"Rank": 15,
+			"City": "Vergennes",
+			"AvgPremium": "1159"
+		},
+		{
+			"State": "Vermont",
+			"Rank": 16,
+			"City": "Rutland",
+			"AvgPremium": "1168"
+		},
+		{
+			"State": "Vermont",
+			"Rank": 17,
+			"City": "South Burlington",
+			"AvgPremium": "1092"
+		},
+		{
+			"State": "Vermont",
+			"Rank": 18,
+			"City": "Winooski",
+			"AvgPremium": "1139"
+		}
+	],
+	"North Dakota": [
+		{
+			"State": "North Dakota",
+			"Rank": 1,
+			"City": "Hazen",
+			"AvgPremium": "1479"
+		},
+		{
+			"State": "North Dakota",
+			"Rank": 2,
+			"City": "Beulah",
+			"AvgPremium": "1494"
+		},
+		{
+			"State": "North Dakota",
+			"Rank": 3,
+			"City": "Williston",
+			"AvgPremium": "1371"
+		},
+		{
+			"State": "North Dakota",
+			"Rank": 4,
+			"City": "Mandan",
+			"AvgPremium": "1427"
+		},
+		{
+			"State": "North Dakota",
+			"Rank": 5,
+			"City": "Rugby",
+			"AvgPremium": "1389"
+		},
+		{
+			"State": "North Dakota",
+			"Rank": 6,
+			"City": "Bismarck",
+			"AvgPremium": "1403"
+		},
+		{
+			"State": "North Dakota",
+			"Rank": 7,
+			"City": "Dickinson",
+			"AvgPremium": "1343"
+		},
+		{
+			"State": "North Dakota",
+			"Rank": 8,
+			"City": "Belcourt",
+			"AvgPremium": "1338"
+		},
+		{
+			"State": "North Dakota",
+			"Rank": 9,
+			"City": "Bottineau",
+			"AvgPremium": "1370"
+		},
+		{
+			"State": "North Dakota",
+			"Rank": 10,
+			"City": "Carrington",
+			"AvgPremium": "1341"
+		},
+		{
+			"State": "North Dakota",
+			"Rank": 11,
+			"City": "Minot",
+			"AvgPremium": "1330"
+		},
+		{
+			"State": "North Dakota",
+			"Rank": 12,
+			"City": "Grafton",
+			"AvgPremium": "1346"
+		},
+		{
+			"State": "North Dakota",
+			"Rank": 13,
+			"City": "Devils Lake",
+			"AvgPremium": "1300"
+		},
+		{
+			"State": "North Dakota",
+			"Rank": 14,
+			"City": "Lisbon",
+			"AvgPremium": "1280"
+		},
+		{
+			"State": "North Dakota",
+			"Rank": 15,
+			"City": "Valley City",
+			"AvgPremium": "1272"
+		},
+		{
+			"State": "North Dakota",
+			"Rank": 16,
+			"City": "Wahpeton",
+			"AvgPremium": "1308"
+		},
+		{
+			"State": "North Dakota",
+			"Rank": 17,
+			"City": "Jamestown",
+			"AvgPremium": "1293"
+		},
+		{
+			"State": "North Dakota",
+			"Rank": 18,
+			"City": "Casselton",
+			"AvgPremium": "1294"
+		},
+		{
+			"State": "North Dakota",
+			"Rank": 19,
+			"City": "Fargo",
+			"AvgPremium": "1276"
+		},
+		{
+			"State": "North Dakota",
+			"Rank": 20,
+			"City": "Horace",
+			"AvgPremium": "1232"
+		},
+		{
+			"State": "North Dakota",
+			"Rank": 21,
+			"City": "Grand Forks",
+			"AvgPremium": "1193"
+		},
+		{
+			"State": "North Dakota",
+			"Rank": 22,
+			"City": "Grand Forks AFB",
+			"AvgPremium": "1168"
+		},
+		{
+			"State": "North Dakota",
+			"Rank": 23,
+			"City": "West Fargo",
+			"AvgPremium": "1180"
+		}
+	],
+	"Alaska": [
+		{
+			"State": "Alaska",
+			"Rank": 1,
+			"City": "Anchorage",
+			"AvgPremium": "1546"
+		},
+		{
+			"State": "Alaska",
+			"Rank": 2,
+			"City": "Fairbanks",
+			"AvgPremium": "1317"
+		},
+		{
+			"State": "Alaska",
+			"Rank": 3,
+			"City": "Wasilla",
+			"AvgPremium": "1285"
+		},
+		{
+			"State": "Alaska",
+			"Rank": 4,
+			"City": "College",
+			"AvgPremium": "1245"
+		},
+		{
+			"State": "Alaska",
+			"Rank": 5,
+			"City": "Sterling",
+			"AvgPremium": "1256"
+		},
+		{
+			"State": "Alaska",
+			"Rank": 6,
+			"City": "Kodiak",
+			"AvgPremium": "1172"
+		},
+		{
+			"State": "Alaska",
+			"Rank": 7,
+			"City": "Juneau",
+			"AvgPremium": "1058"
+		},
+		{
+			"State": "Alaska",
+			"Rank": 8,
+			"City": "Sitka",
+			"AvgPremium": "1010"
+		},
+		{
+			"State": "Alaska",
+			"Rank": 9,
+			"City": "Ketchikan",
+			"AvgPremium": "1053"
+		}
+	],
+	"Idaho": [
+		{
+			"State": "Idaho",
+			"Rank": 1,
+			"City": "Moscow",
+			"AvgPremium": "1216"
+		},
+		{
+			"State": "Idaho",
+			"Rank": 2,
+			"City": "Lewiston",
+			"AvgPremium": "1204"
+		},
+		{
+			"State": "Idaho",
+			"Rank": 3,
+			"City": "Blackfoot",
+			"AvgPremium": "1140"
+		},
+		{
+			"State": "Idaho",
+			"Rank": 4,
+			"City": "Ammon",
+			"AvgPremium": "1168"
+		},
+		{
+			"State": "Idaho",
+			"Rank": 5,
+			"City": "Idaho Falls",
+			"AvgPremium": "1147"
+		},
+		{
+			"State": "Idaho",
+			"Rank": 6,
+			"City": "Rexburg",
+			"AvgPremium": "1202"
+		},
+		{
+			"State": "Idaho",
+			"Rank": 7,
+			"City": "Pocatello",
+			"AvgPremium": "1105"
+		},
+		{
+			"State": "Idaho",
+			"Rank": 8,
+			"City": "Chubbuck",
+			"AvgPremium": "1112"
+		},
+		{
+			"State": "Idaho",
+			"Rank": 9,
+			"City": "Burley",
+			"AvgPremium": "1171"
+		},
+		{
+			"State": "Idaho",
+			"Rank": 10,
+			"City": "Hayden",
+			"AvgPremium": "1093"
+		},
+		{
+			"State": "Idaho",
+			"Rank": 11,
+			"City": "Jerome",
+			"AvgPremium": "1104"
+		},
+		{
+			"State": "Idaho",
+			"Rank": 12,
+			"City": "Twin Falls",
+			"AvgPremium": "1107"
+		},
+		{
+			"State": "Idaho",
+			"Rank": 13,
+			"City": "Caldwell",
+			"AvgPremium": "1073"
+		},
+		{
+			"State": "Idaho",
+			"Rank": 14,
+			"City": "Nampa",
+			"AvgPremium": "1110"
+		},
+		{
+			"State": "Idaho",
+			"Rank": 15,
+			"City": "Coeur d'Alene",
+			"AvgPremium": "1129"
+		},
+		{
+			"State": "Idaho",
+			"Rank": 16,
+			"City": "Hailey",
+			"AvgPremium": "1089"
+		},
+		{
+			"State": "Idaho",
+			"Rank": 17,
+			"City": "Eagle",
+			"AvgPremium": "1086"
+		},
+		{
+			"State": "Idaho",
+			"Rank": 18,
+			"City": "Kuna",
+			"AvgPremium": "1091"
+		},
+		{
+			"State": "Idaho",
+			"Rank": 19,
+			"City": "Mountain Home",
+			"AvgPremium": "1075"
+		},
+		{
+			"State": "Idaho",
+			"Rank": 20,
+			"City": "Post Falls",
+			"AvgPremium": "1087"
+		},
+		{
+			"State": "Idaho",
+			"Rank": 21,
+			"City": "Payette",
+			"AvgPremium": "1032"
+		},
+		{
+			"State": "Idaho",
+			"Rank": 22,
+			"City": "Boise",
+			"AvgPremium": "1061"
+		},
+		{
+			"State": "Idaho",
+			"Rank": 23,
+			"City": "Meridian",
+			"AvgPremium": "1050"
+		}
+	],
+	"Louisiana": [
+		{
+			"State": "Louisiana",
+			"Rank": 1,
+			"City": "New Orleans",
+			"AvgPremium": "3774"
+		},
+		{
+			"State": "Louisiana",
+			"Rank": 2,
+			"City": "Harvey",
+			"AvgPremium": "3357"
+		},
+		{
+			"State": "Louisiana",
+			"Rank": 3,
+			"City": "Kenner",
+			"AvgPremium": "2986"
+		},
+		{
+			"State": "Louisiana",
+			"Rank": 4,
+			"City": "Metairie",
+			"AvgPremium": "2898"
+		},
+		{
+			"State": "Louisiana",
+			"Rank": 5,
+			"City": "Baton Rouge",
+			"AvgPremium": "2805"
+		},
+		{
+			"State": "Louisiana",
+			"Rank": 6,
+			"City": "Prairieville",
+			"AvgPremium": "2778"
+		},
+		{
+			"State": "Louisiana",
+			"Rank": 7,
+			"City": "Central",
+			"AvgPremium": "2714"
+		},
+		{
+			"State": "Louisiana",
+			"Rank": 8,
+			"City": "Alexandria",
+			"AvgPremium": "2502"
+		},
+		{
+			"State": "Louisiana",
+			"Rank": 9,
+			"City": "Slidell",
+			"AvgPremium": "2490"
+		},
+		{
+			"State": "Louisiana",
+			"Rank": 10,
+			"City": "Hammond",
+			"AvgPremium": "2447"
+		},
+		{
+			"State": "Louisiana",
+			"Rank": 11,
+			"City": "Monroe",
+			"AvgPremium": "2396"
+		},
+		{
+			"State": "Louisiana",
+			"Rank": 12,
+			"City": "Lafayette",
+			"AvgPremium": "2449"
+		},
+		{
+			"State": "Louisiana",
+			"Rank": 13,
+			"City": "Lake Charles",
+			"AvgPremium": "2277"
+		},
+		{
+			"State": "Louisiana",
+			"Rank": 14,
+			"City": "New Iberia",
+			"AvgPremium": "2192"
+		},
+		{
+			"State": "Louisiana",
+			"Rank": 15,
+			"City": "Shreveport",
+			"AvgPremium": "2157"
+		},
+		{
+			"State": "Louisiana",
+			"Rank": 16,
+			"City": "Sulphur",
+			"AvgPremium": "2183"
+		},
+		{
+			"State": "Louisiana",
+			"Rank": 17,
+			"City": "Houma",
+			"AvgPremium": "2097"
+		},
+		{
+			"State": "Louisiana",
+			"Rank": 18,
+			"City": "Bayou Cane",
+			"AvgPremium": "2098"
+		},
+		{
+			"State": "Louisiana",
+			"Rank": 19,
+			"City": "Bossier City",
+			"AvgPremium": "2015"
+		},
+		{
+			"State": "Louisiana",
+			"Rank": 20,
+			"City": "Natchitoches",
+			"AvgPremium": "1953"
+		},
+		{
+			"State": "Louisiana",
+			"Rank": 21,
+			"City": "Ruston",
+			"AvgPremium": "1947"
+		}
+	],
+	"Minnesota": [
+		{
+			"State": "Minnesota",
+			"Rank": 1,
+			"City": "Saint Paul",
+			"AvgPremium": "1628"
+		},
+		{
+			"State": "Minnesota",
+			"Rank": 2,
+			"City": "Minneapolis",
+			"AvgPremium": "1702"
+		},
+		{
+			"State": "Minnesota",
+			"Rank": 3,
+			"City": "Maplewood",
+			"AvgPremium": "1542"
+		},
+		{
+			"State": "Minnesota",
+			"Rank": 4,
+			"City": "Brooklyn Park",
+			"AvgPremium": "1507"
+		},
+		{
+			"State": "Minnesota",
+			"Rank": 5,
+			"City": "Richfield",
+			"AvgPremium": "1487"
+		},
+		{
+			"State": "Minnesota",
+			"Rank": 6,
+			"City": "Coon Rapids",
+			"AvgPremium": "1469"
+		},
+		{
+			"State": "Minnesota",
+			"Rank": 7,
+			"City": "Blaine",
+			"AvgPremium": "1402"
+		},
+		{
+			"State": "Minnesota",
+			"Rank": 8,
+			"City": "Woodbury",
+			"AvgPremium": "1423"
+		},
+		{
+			"State": "Minnesota",
+			"Rank": 9,
+			"City": "Bloomington",
+			"AvgPremium": "1428"
+		},
+		{
+			"State": "Minnesota",
+			"Rank": 10,
+			"City": "Edina",
+			"AvgPremium": "1337"
+		},
+		{
+			"State": "Minnesota",
+			"Rank": 11,
+			"City": "Eagan",
+			"AvgPremium": "1361"
+		},
+		{
+			"State": "Minnesota",
+			"Rank": 12,
+			"City": "Burnsville",
+			"AvgPremium": "1375"
+		},
+		{
+			"State": "Minnesota",
+			"Rank": 13,
+			"City": "Plymouth",
+			"AvgPremium": "1323"
+		},
+		{
+			"State": "Minnesota",
+			"Rank": 14,
+			"City": "Maple Grove",
+			"AvgPremium": "1332"
+		},
+		{
+			"State": "Minnesota",
+			"Rank": 15,
+			"City": "Lakeville",
+			"AvgPremium": "1307"
+		},
+		{
+			"State": "Minnesota",
+			"Rank": 16,
+			"City": "Apple Valley",
+			"AvgPremium": "1333"
+		},
+		{
+			"State": "Minnesota",
+			"Rank": 17,
+			"City": "Minnetonka",
+			"AvgPremium": "1333"
+		},
+		{
+			"State": "Minnesota",
+			"Rank": 18,
+			"City": "Eden Prairie",
+			"AvgPremium": "1295"
+		},
+		{
+			"State": "Minnesota",
+			"Rank": 19,
+			"City": "Duluth",
+			"AvgPremium": "1306"
+		},
+		{
+			"State": "Minnesota",
+			"Rank": 20,
+			"City": "Shakopee",
+			"AvgPremium": "1320"
+		},
+		{
+			"State": "Minnesota",
+			"Rank": 21,
+			"City": "Rochester",
+			"AvgPremium": "1271"
+		},
+		{
+			"State": "Minnesota",
+			"Rank": 22,
+			"City": "Mankato",
+			"AvgPremium": "1166"
+		},
+		{
+			"State": "Minnesota",
+			"Rank": 23,
+			"City": "Moorhead",
+			"AvgPremium": "1116"
+		}
+	],
+	"Nebraska": [
+		{
+			"State": "Nebraska",
+			"Rank": 1,
+			"City": "Scottsbluff",
+			"AvgPremium": "1465"
+		},
+		{
+			"State": "Nebraska",
+			"Rank": 2,
+			"City": "McCook",
+			"AvgPremium": "1473"
+		},
+		{
+			"State": "Nebraska",
+			"Rank": 3,
+			"City": "Omaha",
+			"AvgPremium": "1407"
+		},
+		{
+			"State": "Nebraska",
+			"Rank": 4,
+			"City": "Gering",
+			"AvgPremium": "1435"
+		},
+		{
+			"State": "Nebraska",
+			"Rank": 5,
+			"City": "Blair",
+			"AvgPremium": "1479"
+		},
+		{
+			"State": "Nebraska",
+			"Rank": 6,
+			"City": "Lexington",
+			"AvgPremium": "1406"
+		},
+		{
+			"State": "Nebraska",
+			"Rank": 7,
+			"City": "North Platte",
+			"AvgPremium": "1405"
+		},
+		{
+			"State": "Nebraska",
+			"Rank": 8,
+			"City": "Alliance",
+			"AvgPremium": "1327"
+		},
+		{
+			"State": "Nebraska",
+			"Rank": 9,
+			"City": "South Sioux City",
+			"AvgPremium": "1363"
+		},
+		{
+			"State": "Nebraska",
+			"Rank": 10,
+			"City": "Crete",
+			"AvgPremium": "1380"
+		},
+		{
+			"State": "Nebraska",
+			"Rank": 11,
+			"City": "Bellevue",
+			"AvgPremium": "1342"
+		},
+		{
+			"State": "Nebraska",
+			"Rank": 12,
+			"City": "Kearney",
+			"AvgPremium": "1353"
+		},
+		{
+			"State": "Nebraska",
+			"Rank": 13,
+			"City": "Seward",
+			"AvgPremium": "1355"
+		},
+		{
+			"State": "Nebraska",
+			"Rank": 14,
+			"City": "Beatrice",
+			"AvgPremium": "1344"
+		},
+		{
+			"State": "Nebraska",
+			"Rank": 15,
+			"City": "Papillion",
+			"AvgPremium": "1335"
+		},
+		{
+			"State": "Nebraska",
+			"Rank": 16,
+			"City": "La Vista",
+			"AvgPremium": "1327"
+		},
+		{
+			"State": "Nebraska",
+			"Rank": 17,
+			"City": "Hastings",
+			"AvgPremium": "1248"
+		},
+		{
+			"State": "Nebraska",
+			"Rank": 18,
+			"City": "York",
+			"AvgPremium": "1280"
+		},
+		{
+			"State": "Nebraska",
+			"Rank": 19,
+			"City": "Fremont",
+			"AvgPremium": "1307"
+		},
+		{
+			"State": "Nebraska",
+			"Rank": 20,
+			"City": "Nebraska City",
+			"AvgPremium": "1255"
+		},
+		{
+			"State": "Nebraska",
+			"Rank": 21,
+			"City": "Lincoln",
+			"AvgPremium": "1206"
+		},
+		{
+			"State": "Nebraska",
+			"Rank": 22,
+			"City": "Norfolk",
+			"AvgPremium": "1237"
+		},
+		{
+			"State": "Nebraska",
+			"Rank": 23,
+			"City": "Grand Island",
+			"AvgPremium": "1221"
+		},
+		{
+			"State": "Nebraska",
+			"Rank": 24,
+			"City": "Columbus",
+			"AvgPremium": "1211"
+		}
+	],
+	"Kansas": [
+		{
+			"State": "Kansas",
+			"Rank": 1,
+			"City": "Dodge City",
+			"AvgPremium": "1866"
+		},
+		{
+			"State": "Kansas",
+			"Rank": 2,
+			"City": "Kansas City",
+			"AvgPremium": "1946"
+		},
+		{
+			"State": "Kansas",
+			"Rank": 3,
+			"City": "Garden City",
+			"AvgPremium": "1876"
+		},
+		{
+			"State": "Kansas",
+			"Rank": 4,
+			"City": "Liberal",
+			"AvgPremium": "1866"
+		},
+		{
+			"State": "Kansas",
+			"Rank": 5,
+			"City": "Wichita",
+			"AvgPremium": "1729"
+		},
+		{
+			"State": "Kansas",
+			"Rank": 6,
+			"City": "Great Bend",
+			"AvgPremium": "1674"
+		},
+		{
+			"State": "Kansas",
+			"Rank": 7,
+			"City": "Derby",
+			"AvgPremium": "1661"
+		},
+		{
+			"State": "Kansas",
+			"Rank": 8,
+			"City": "Leavenworth",
+			"AvgPremium": "1607"
+		},
+		{
+			"State": "Kansas",
+			"Rank": 9,
+			"City": "Hutchinson",
+			"AvgPremium": "1553"
+		},
+		{
+			"State": "Kansas",
+			"Rank": 10,
+			"City": "Emporia",
+			"AvgPremium": "1532"
+		},
+		{
+			"State": "Kansas",
+			"Rank": 11,
+			"City": "Hays",
+			"AvgPremium": "1538"
+		},
+		{
+			"State": "Kansas",
+			"Rank": 12,
+			"City": "Topeka",
+			"AvgPremium": "1538"
+		},
+		{
+			"State": "Kansas",
+			"Rank": 13,
+			"City": "Leawood",
+			"AvgPremium": "1486"
+		},
+		{
+			"State": "Kansas",
+			"Rank": 14,
+			"City": "Overland Park",
+			"AvgPremium": "1473"
+		},
+		{
+			"State": "Kansas",
+			"Rank": 15,
+			"City": "Lenexa",
+			"AvgPremium": "1528"
+		},
+		{
+			"State": "Kansas",
+			"Rank": 16,
+			"City": "Shawnee",
+			"AvgPremium": "1546"
+		},
+		{
+			"State": "Kansas",
+			"Rank": 17,
+			"City": "Olathe",
+			"AvgPremium": "1476"
+		},
+		{
+			"State": "Kansas",
+			"Rank": 18,
+			"City": "Lawrence",
+			"AvgPremium": "1506"
+		},
+		{
+			"State": "Kansas",
+			"Rank": 19,
+			"City": "Manhattan",
+			"AvgPremium": "1491"
+		},
+		{
+			"State": "Kansas",
+			"Rank": 20,
+			"City": "Gardner",
+			"AvgPremium": "1460"
+		},
+		{
+			"State": "Kansas",
+			"Rank": 21,
+			"City": "Newton",
+			"AvgPremium": "1457"
+		},
+		{
+			"State": "Kansas",
+			"Rank": 22,
+			"City": "Salina",
+			"AvgPremium": "1390"
+		}
+	],
+	"Montana": [
+		{
+			"State": "Montana",
+			"Rank": 1,
+			"City": "Columbia Falls",
+			"AvgPremium": "1640"
+		},
+		{
+			"State": "Montana",
+			"Rank": 2,
+			"City": "Evergreen",
+			"AvgPremium": "1568"
+		},
+		{
+			"State": "Montana",
+			"Rank": 3,
+			"City": "Whitefish",
+			"AvgPremium": "1549"
+		},
+		{
+			"State": "Montana",
+			"Rank": 4,
+			"City": "Havre",
+			"AvgPremium": "1522"
+		},
+		{
+			"State": "Montana",
+			"Rank": 5,
+			"City": "Miles City",
+			"AvgPremium": "1486"
+		},
+		{
+			"State": "Montana",
+			"Rank": 6,
+			"City": "Polson",
+			"AvgPremium": "1546"
+		},
+		{
+			"State": "Montana",
+			"Rank": 7,
+			"City": "Lewistown",
+			"AvgPremium": "1520"
+		},
+		{
+			"State": "Montana",
+			"Rank": 8,
+			"City": "Glendive",
+			"AvgPremium": "1539"
+		},
+		{
+			"State": "Montana",
+			"Rank": 9,
+			"City": "Sidney",
+			"AvgPremium": "1565"
+		},
+		{
+			"State": "Montana",
+			"Rank": 10,
+			"City": "Livingston",
+			"AvgPremium": "1432"
+		},
+		{
+			"State": "Montana",
+			"Rank": 11,
+			"City": "Billings",
+			"AvgPremium": "1444"
+		},
+		{
+			"State": "Montana",
+			"Rank": 12,
+			"City": "Great Falls",
+			"AvgPremium": "1407"
+		},
+		{
+			"State": "Montana",
+			"Rank": 13,
+			"City": "Belgrade",
+			"AvgPremium": "1476"
+		},
+		{
+			"State": "Montana",
+			"Rank": 14,
+			"City": "Hamilton",
+			"AvgPremium": "1444"
+		},
+		{
+			"State": "Montana",
+			"Rank": 15,
+			"City": "Bozeman",
+			"AvgPremium": "1439"
+		},
+		{
+			"State": "Montana",
+			"Rank": 16,
+			"City": "Laurel",
+			"AvgPremium": "1388"
+		},
+		{
+			"State": "Montana",
+			"Rank": 17,
+			"City": "Missoula",
+			"AvgPremium": "1403"
+		},
+		{
+			"State": "Montana",
+			"Rank": 18,
+			"City": "Helena",
+			"AvgPremium": "1343"
+		}
+	],
+	"New Mexico": [
+		{
+			"State": "New Mexico",
+			"Rank": 1,
+			"City": "Albuquerque",
+			"AvgPremium": "1583"
+		},
+		{
+			"State": "New Mexico",
+			"Rank": 2,
+			"City": "Rio Rancho",
+			"AvgPremium": "1458"
+		},
+		{
+			"State": "New Mexico",
+			"Rank": 3,
+			"City": "Espanola",
+			"AvgPremium": "1462"
+		},
+		{
+			"State": "New Mexico",
+			"Rank": 4,
+			"City": "Lovington",
+			"AvgPremium": "1446"
+		},
+		{
+			"State": "New Mexico",
+			"Rank": 5,
+			"City": "Hobbs",
+			"AvgPremium": "1375"
+		},
+		{
+			"State": "New Mexico",
+			"Rank": 6,
+			"City": "Carlsbad",
+			"AvgPremium": "1431"
+		},
+		{
+			"State": "New Mexico",
+			"Rank": 7,
+			"City": "Santa Fe",
+			"AvgPremium": "1358"
+		},
+		{
+			"State": "New Mexico",
+			"Rank": 8,
+			"City": "Roswell",
+			"AvgPremium": "1403"
+		},
+		{
+			"State": "New Mexico",
+			"Rank": 9,
+			"City": "Las Vegas",
+			"AvgPremium": "1313"
+		},
+		{
+			"State": "New Mexico",
+			"Rank": 10,
+			"City": "Artesia",
+			"AvgPremium": "1323"
+		},
+		{
+			"State": "New Mexico",
+			"Rank": 11,
+			"City": "Chaparral",
+			"AvgPremium": "1285"
+		},
+		{
+			"State": "New Mexico",
+			"Rank": 12,
+			"City": "Sunland Park",
+			"AvgPremium": "1276"
+		},
+		{
+			"State": "New Mexico",
+			"Rank": 13,
+			"City": "Los Alamos",
+			"AvgPremium": "1275"
+		},
+		{
+			"State": "New Mexico",
+			"Rank": 14,
+			"City": "Anthony",
+			"AvgPremium": "1247"
+		},
+		{
+			"State": "New Mexico",
+			"Rank": 15,
+			"City": "Gallup",
+			"AvgPremium": "1293"
+		},
+		{
+			"State": "New Mexico",
+			"Rank": 16,
+			"City": "Portales",
+			"AvgPremium": "1232"
+		},
+		{
+			"State": "New Mexico",
+			"Rank": 17,
+			"City": "Las Cruces",
+			"AvgPremium": "1174"
+		},
+		{
+			"State": "New Mexico",
+			"Rank": 18,
+			"City": "Farmington",
+			"AvgPremium": "1230"
+		},
+		{
+			"State": "New Mexico",
+			"Rank": 19,
+			"City": "Silver City",
+			"AvgPremium": "1220"
+		},
+		{
+			"State": "New Mexico",
+			"Rank": 20,
+			"City": "Deming",
+			"AvgPremium": "1133"
+		},
+		{
+			"State": "New Mexico",
+			"Rank": 21,
+			"City": "Alamogordo",
+			"AvgPremium": "1142"
+		}
+	],
+	"Delaware": [
+		{
+			"State": "Delaware",
+			"Rank": 1,
+			"City": "Elsmere",
+			"AvgPremium": "2225"
+		},
+		{
+			"State": "Delaware",
+			"Rank": 2,
+			"City": "Edgemoor",
+			"AvgPremium": "2256"
+		},
+		{
+			"State": "Delaware",
+			"Rank": 3,
+			"City": "Bear",
+			"AvgPremium": "2178"
+		},
+		{
+			"State": "Delaware",
+			"Rank": 4,
+			"City": "Wilmington",
+			"AvgPremium": "2149"
+		},
+		{
+			"State": "Delaware",
+			"Rank": 5,
+			"City": "Brookside",
+			"AvgPremium": "2077"
+		},
+		{
+			"State": "Delaware",
+			"Rank": 6,
+			"City": "Hockessin",
+			"AvgPremium": "2033"
+		},
+		{
+			"State": "Delaware",
+			"Rank": 7,
+			"City": "Claymont",
+			"AvgPremium": "1985"
+		},
+		{
+			"State": "Delaware",
+			"Rank": 8,
+			"City": "Newark",
+			"AvgPremium": "1990"
+		},
+		{
+			"State": "Delaware",
+			"Rank": 9,
+			"City": "Pike Creek",
+			"AvgPremium": "1942"
+		},
+		{
+			"State": "Delaware",
+			"Rank": 10,
+			"City": "Middletown",
+			"AvgPremium": "1951"
+		},
+		{
+			"State": "Delaware",
+			"Rank": 11,
+			"City": "Smyrna",
+			"AvgPremium": "1816"
+		},
+		{
+			"State": "Delaware",
+			"Rank": 12,
+			"City": "Dover",
+			"AvgPremium": "1663"
+		},
+		{
+			"State": "Delaware",
+			"Rank": 13,
+			"City": "Camden",
+			"AvgPremium": "1696"
+		},
+		{
+			"State": "Delaware",
+			"Rank": 14,
+			"City": "Seaford",
+			"AvgPremium": "1623"
+		},
+		{
+			"State": "Delaware",
+			"Rank": 15,
+			"City": "Georgetown",
+			"AvgPremium": "1647"
+		},
+		{
+			"State": "Delaware",
+			"Rank": 16,
+			"City": "Laurel",
+			"AvgPremium": "1569"
+		},
+		{
+			"State": "Delaware",
+			"Rank": 17,
+			"City": "Milford",
+			"AvgPremium": "1545"
+		},
+		{
+			"State": "Delaware",
+			"Rank": 18,
+			"City": "Harrington",
+			"AvgPremium": "1570"
+		}
+	],
+	"South Dakota": [
+		{
+			"State": "South Dakota",
+			"Rank": 1,
+			"City": "Pine Ridge",
+			"AvgPremium": "2167"
+		},
+		{
+			"State": "South Dakota",
+			"Rank": 2,
+			"City": "Hot Springs",
+			"AvgPremium": "2062"
+		},
+		{
+			"State": "South Dakota",
+			"Rank": 3,
+			"City": "Lead",
+			"AvgPremium": "1980"
+		},
+		{
+			"State": "South Dakota",
+			"Rank": 4,
+			"City": "Sturgis",
+			"AvgPremium": "1987"
+		},
+		{
+			"State": "South Dakota",
+			"Rank": 5,
+			"City": "Spearfish",
+			"AvgPremium": "1958"
+		},
+		{
+			"State": "South Dakota",
+			"Rank": 6,
+			"City": "Belle Fourche",
+			"AvgPremium": "1980"
+		},
+		{
+			"State": "South Dakota",
+			"Rank": 7,
+			"City": "Box Elder",
+			"AvgPremium": "1871"
+		},
+		{
+			"State": "South Dakota",
+			"Rank": 8,
+			"City": "Mobridge",
+			"AvgPremium": "1758"
+		},
+		{
+			"State": "South Dakota",
+			"Rank": 9,
+			"City": "Yankton",
+			"AvgPremium": "1699"
+		},
+		{
+			"State": "South Dakota",
+			"Rank": 10,
+			"City": "Pierre",
+			"AvgPremium": "1634"
+		},
+		{
+			"State": "South Dakota",
+			"Rank": 11,
+			"City": "Huron",
+			"AvgPremium": "1547"
+		},
+		{
+			"State": "South Dakota",
+			"Rank": 12,
+			"City": "Mitchell",
+			"AvgPremium": "1539"
+		},
+		{
+			"State": "South Dakota",
+			"Rank": 13,
+			"City": "Milbank",
+			"AvgPremium": "1593"
+		},
+		{
+			"State": "South Dakota",
+			"Rank": 14,
+			"City": "Tea",
+			"AvgPremium": "1475"
+		},
+		{
+			"State": "South Dakota",
+			"Rank": 15,
+			"City": "Sioux Falls",
+			"AvgPremium": "1486"
+		},
+		{
+			"State": "South Dakota",
+			"Rank": 16,
+			"City": "Dell Rapids",
+			"AvgPremium": "1465"
+		},
+		{
+			"State": "South Dakota",
+			"Rank": 17,
+			"City": "Harrisburg",
+			"AvgPremium": "1524"
+		},
+		{
+			"State": "South Dakota",
+			"Rank": 18,
+			"City": "Brandon",
+			"AvgPremium": "1474"
+		},
+		{
+			"State": "South Dakota",
+			"Rank": 19,
+			"City": "Madison",
+			"AvgPremium": "1437"
+		},
+		{
+			"State": "South Dakota",
+			"Rank": 20,
+			"City": "Aberdeen",
+			"AvgPremium": "1423"
+		},
+		{
+			"State": "South Dakota",
+			"Rank": 21,
+			"City": "Brookings",
+			"AvgPremium": "1434"
+		},
+		{
+			"State": "South Dakota",
+			"Rank": 22,
+			"City": "Vermillion",
+			"AvgPremium": "1444"
+		},
+		{
+			"State": "South Dakota",
+			"Rank": 23,
+			"City": "Watertown",
+			"AvgPremium": "1419"
+		}
+	],
+	"West Virginia": [
+		{
+			"State": "West Virginia",
+			"Rank": 1,
+			"City": "Beckley",
+			"AvgPremium": "1502"
+		},
+		{
+			"State": "West Virginia",
+			"Rank": 2,
+			"City": "Huntington",
+			"AvgPremium": "1488"
+		},
+		{
+			"State": "West Virginia",
+			"Rank": 3,
+			"City": "Dunbar",
+			"AvgPremium": "1527"
+		},
+		{
+			"State": "West Virginia",
+			"Rank": 4,
+			"City": "St. Albans",
+			"AvgPremium": "1460"
+		},
+		{
+			"State": "West Virginia",
+			"Rank": 5,
+			"City": "Charleston",
+			"AvgPremium": "1513"
+		},
+		{
+			"State": "West Virginia",
+			"Rank": 6,
+			"City": "Cross Lanes",
+			"AvgPremium": "1497"
+		},
+		{
+			"State": "West Virginia",
+			"Rank": 7,
+			"City": "Elkins",
+			"AvgPremium": "1408"
+		},
+		{
+			"State": "West Virginia",
+			"Rank": 8,
+			"City": "Princeton",
+			"AvgPremium": "1432"
+		},
+		{
+			"State": "West Virginia",
+			"Rank": 9,
+			"City": "Bridgeport",
+			"AvgPremium": "1491"
+		},
+		{
+			"State": "West Virginia",
+			"Rank": 10,
+			"City": "Bluefield",
+			"AvgPremium": "1392"
+		},
+		{
+			"State": "West Virginia",
+			"Rank": 11,
+			"City": "Vienna",
+			"AvgPremium": "1430"
+		},
+		{
+			"State": "West Virginia",
+			"Rank": 12,
+			"City": "Morgantown",
+			"AvgPremium": "1462"
+		},
+		{
+			"State": "West Virginia",
+			"Rank": 13,
+			"City": "Fairmont",
+			"AvgPremium": "1432"
+		},
+		{
+			"State": "West Virginia",
+			"Rank": 14,
+			"City": "Clarksburg",
+			"AvgPremium": "1405"
+		},
+		{
+			"State": "West Virginia",
+			"Rank": 15,
+			"City": "Weirton",
+			"AvgPremium": "1427"
+		},
+		{
+			"State": "West Virginia",
+			"Rank": 16,
+			"City": "Moundsville",
+			"AvgPremium": "1401"
+		},
+		{
+			"State": "West Virginia",
+			"Rank": 17,
+			"City": "Martinsburg",
+			"AvgPremium": "1338"
+		}
+	],
+	"Iowa": [
+		{
+			"State": "Iowa",
+			"Rank": 1,
+			"City": "Council Bluffs",
+			"AvgPremium": "1437"
+		},
+		{
+			"State": "Iowa",
+			"Rank": 2,
+			"City": "Waterloo",
+			"AvgPremium": "1124"
+		},
+		{
+			"State": "Iowa",
+			"Rank": 3,
+			"City": "Sioux City",
+			"AvgPremium": "1098"
+		},
+		{
+			"State": "Iowa",
+			"Rank": 4,
+			"City": "Davenport",
+			"AvgPremium": "1078"
+		},
+		{
+			"State": "Iowa",
+			"Rank": 5,
+			"City": "Dubuque",
+			"AvgPremium": "1083"
+		},
+		{
+			"State": "Iowa",
+			"Rank": 6,
+			"City": "Des Moines",
+			"AvgPremium": "1047"
+		},
+		{
+			"State": "Iowa",
+			"Rank": 7,
+			"City": "Fort Dodge",
+			"AvgPremium": "1116"
+		},
+		{
+			"State": "Iowa",
+			"Rank": 8,
+			"City": "Ottumwa",
+			"AvgPremium": "1076"
+		},
+		{
+			"State": "Iowa",
+			"Rank": 9,
+			"City": "Cedar Falls",
+			"AvgPremium": "1118"
+		},
+		{
+			"State": "Iowa",
+			"Rank": 10,
+			"City": "Cedar Rapids",
+			"AvgPremium": "1069"
+		},
+		{
+			"State": "Iowa",
+			"Rank": 11,
+			"City": "Clinton",
+			"AvgPremium": "1009"
+		},
+		{
+			"State": "Iowa",
+			"Rank": 12,
+			"City": "Marshalltown",
+			"AvgPremium": "1071"
+		},
+		{
+			"State": "Iowa",
+			"Rank": 13,
+			"City": "Bettendorf",
+			"AvgPremium": "1064"
+		},
+		{
+			"State": "Iowa",
+			"Rank": 14,
+			"City": "Marion",
+			"AvgPremium": "1030"
+		},
+		{
+			"State": "Iowa",
+			"Rank": 15,
+			"City": "Burlington",
+			"AvgPremium": "1027"
+		},
+		{
+			"State": "Iowa",
+			"Rank": 16,
+			"City": "Muscatine",
+			"AvgPremium": "972"
+		},
+		{
+			"State": "Iowa",
+			"Rank": 17,
+			"City": "Mason City",
+			"AvgPremium": "989"
+		},
+		{
+			"State": "Iowa",
+			"Rank": 18,
+			"City": "Iowa City",
+			"AvgPremium": "922"
+		},
+		{
+			"State": "Iowa",
+			"Rank": 19,
+			"City": "West Des Moines",
+			"AvgPremium": "954"
+		},
+		{
+			"State": "Iowa",
+			"Rank": 20,
+			"City": "Clive",
+			"AvgPremium": "959"
+		},
+		{
+			"State": "Iowa",
+			"Rank": 21,
+			"City": "Urbandale",
+			"AvgPremium": "907"
+		},
+		{
+			"State": "Iowa",
+			"Rank": 22,
+			"City": "Ames",
+			"AvgPremium": "932"
+		},
+		{
+			"State": "Iowa",
+			"Rank": 23,
+			"City": "Coralville",
+			"AvgPremium": "894"
+		},
+		{
+			"State": "Iowa",
+			"Rank": 24,
+			"City": "Johnston",
+			"AvgPremium": "893"
+		},
+		{
+			"State": "Iowa",
+			"Rank": 25,
+			"City": "Ankeny",
+			"AvgPremium": "956"
+		}
+	],
+	"Massachusetts": [
+		{
+			"State": "Massachusetts",
+			"Rank": 1,
+			"City": "Brockton",
+			"AvgPremium": "2413"
+		},
+		{
+			"State": "Massachusetts",
+			"Rank": 2,
+			"City": "Revere",
+			"AvgPremium": "2355"
+		},
+		{
+			"State": "Massachusetts",
+			"Rank": 3,
+			"City": "Lynn",
+			"AvgPremium": "2201"
+		},
+		{
+			"State": "Massachusetts",
+			"Rank": 4,
+			"City": "Malden",
+			"AvgPremium": "2112"
+		},
+		{
+			"State": "Massachusetts",
+			"Rank": 5,
+			"City": "Springfield",
+			"AvgPremium": "2069"
+		},
+		{
+			"State": "Massachusetts",
+			"Rank": 6,
+			"City": "Lawrence",
+			"AvgPremium": "2025"
+		},
+		{
+			"State": "Massachusetts",
+			"Rank": 7,
+			"City": "Worcester",
+			"AvgPremium": "1828"
+		},
+		{
+			"State": "Massachusetts",
+			"Rank": 8,
+			"City": "Fall River",
+			"AvgPremium": "1825"
+		},
+		{
+			"State": "Massachusetts",
+			"Rank": 9,
+			"City": "New Bedford",
+			"AvgPremium": "1818"
+		},
+		{
+			"State": "Massachusetts",
+			"Rank": 10,
+			"City": "Medford",
+			"AvgPremium": "1776"
+		},
+		{
+			"State": "Massachusetts",
+			"Rank": 11,
+			"City": "Boston",
+			"AvgPremium": "1777"
+		},
+		{
+			"State": "Massachusetts",
+			"Rank": 12,
+			"City": "Quincy",
+			"AvgPremium": "1764"
+		},
+		{
+			"State": "Massachusetts",
+			"Rank": 13,
+			"City": "Somerville",
+			"AvgPremium": "1694"
+		},
+		{
+			"State": "Massachusetts",
+			"Rank": 14,
+			"City": "Lowell",
+			"AvgPremium": "1676"
+		},
+		{
+			"State": "Massachusetts",
+			"Rank": 15,
+			"City": "Peabody",
+			"AvgPremium": "1603"
+		},
+		{
+			"State": "Massachusetts",
+			"Rank": 16,
+			"City": "Weymouth",
+			"AvgPremium": "1605"
+		},
+		{
+			"State": "Massachusetts",
+			"Rank": 17,
+			"City": "Taunton",
+			"AvgPremium": "1656"
+		},
+		{
+			"State": "Massachusetts",
+			"Rank": 18,
+			"City": "Chicopee",
+			"AvgPremium": "1581"
+		},
+		{
+			"State": "Massachusetts",
+			"Rank": 19,
+			"City": "Cambridge",
+			"AvgPremium": "1531"
+		},
+		{
+			"State": "Massachusetts",
+			"Rank": 20,
+			"City": "Brookline",
+			"AvgPremium": "1608"
+		},
+		{
+			"State": "Massachusetts",
+			"Rank": 21,
+			"City": "Framingham",
+			"AvgPremium": "1563"
+		},
+		{
+			"State": "Massachusetts",
+			"Rank": 22,
+			"City": "Haverhill",
+			"AvgPremium": "1486"
+		},
+		{
+			"State": "Massachusetts",
+			"Rank": 23,
+			"City": "Newton",
+			"AvgPremium": "1523"
+		},
+		{
+			"State": "Massachusetts",
+			"Rank": 24,
+			"City": "Waltham",
+			"AvgPremium": "1504"
+		}
+	],
+	"Mississippi": [
+		{
+			"State": "Mississippi",
+			"Rank": 1,
+			"City": "Jackson",
+			"AvgPremium": "1725"
+		},
+		{
+			"State": "Mississippi",
+			"Rank": 2,
+			"City": "Clarksdale",
+			"AvgPremium": "1670"
+		},
+		{
+			"State": "Mississippi",
+			"Rank": 3,
+			"City": "Clinton",
+			"AvgPremium": "1727"
+		},
+		{
+			"State": "Mississippi",
+			"Rank": 4,
+			"City": "Gulfport",
+			"AvgPremium": "1657"
+		},
+		{
+			"State": "Mississippi",
+			"Rank": 5,
+			"City": "Biloxi",
+			"AvgPremium": "1693"
+		},
+		{
+			"State": "Mississippi",
+			"Rank": 6,
+			"City": "Vicksburg",
+			"AvgPremium": "1661"
+		},
+		{
+			"State": "Mississippi",
+			"Rank": 7,
+			"City": "Pascagoula",
+			"AvgPremium": "1631"
+		},
+		{
+			"State": "Mississippi",
+			"Rank": 8,
+			"City": "Brandon",
+			"AvgPremium": "1630"
+		},
+		{
+			"State": "Mississippi",
+			"Rank": 9,
+			"City": "Ridgeland",
+			"AvgPremium": "1594"
+		},
+		{
+			"State": "Mississippi",
+			"Rank": 10,
+			"City": "Gautier",
+			"AvgPremium": "1550"
+		},
+		{
+			"State": "Mississippi",
+			"Rank": 11,
+			"City": "Horn Lake",
+			"AvgPremium": "1583"
+		},
+		{
+			"State": "Mississippi",
+			"Rank": 12,
+			"City": "Olive Branch",
+			"AvgPremium": "1551"
+		},
+		{
+			"State": "Mississippi",
+			"Rank": 13,
+			"City": "Southaven",
+			"AvgPremium": "1538"
+		},
+		{
+			"State": "Mississippi",
+			"Rank": 14,
+			"City": "Madison",
+			"AvgPremium": "1536"
+		},
+		{
+			"State": "Mississippi",
+			"Rank": 15,
+			"City": "Greenville",
+			"AvgPremium": "1604"
+		},
+		{
+			"State": "Mississippi",
+			"Rank": 16,
+			"City": "Oxford",
+			"AvgPremium": "1498"
+		},
+		{
+			"State": "Mississippi",
+			"Rank": 17,
+			"City": "Meridian",
+			"AvgPremium": "1538"
+		},
+		{
+			"State": "Mississippi",
+			"Rank": 18,
+			"City": "Hattiesburg",
+			"AvgPremium": "1521"
+		},
+		{
+			"State": "Mississippi",
+			"Rank": 19,
+			"City": "Laurel",
+			"AvgPremium": "1484"
+		},
+		{
+			"State": "Mississippi",
+			"Rank": 20,
+			"City": "Columbus",
+			"AvgPremium": "1425"
+		},
+		{
+			"State": "Mississippi",
+			"Rank": 21,
+			"City": "Tupelo",
+			"AvgPremium": "1359"
+		}
+	],
+	"New Hampshire": [
+		{
+			"State": "New Hampshire",
+			"Rank": 1,
+			"City": "Manchester",
+			"AvgPremium": "1190"
+		},
+		{
+			"State": "New Hampshire",
+			"Rank": 2,
+			"City": "Derry",
+			"AvgPremium": "1087"
+		},
+		{
+			"State": "New Hampshire",
+			"Rank": 3,
+			"City": "Nashua",
+			"AvgPremium": "1050"
+		},
+		{
+			"State": "New Hampshire",
+			"Rank": 4,
+			"City": "Hampton",
+			"AvgPremium": "1054"
+		},
+		{
+			"State": "New Hampshire",
+			"Rank": 5,
+			"City": "Hudson",
+			"AvgPremium": "1102"
+		},
+		{
+			"State": "New Hampshire",
+			"Rank": 6,
+			"City": "Exeter",
+			"AvgPremium": "1058"
+		},
+		{
+			"State": "New Hampshire",
+			"Rank": 7,
+			"City": "Berlin",
+			"AvgPremium": "1065"
+		},
+		{
+			"State": "New Hampshire",
+			"Rank": 8,
+			"City": "Londonderry",
+			"AvgPremium": "1041"
+		},
+		{
+			"State": "New Hampshire",
+			"Rank": 9,
+			"City": "Milford",
+			"AvgPremium": "1050"
+		},
+		{
+			"State": "New Hampshire",
+			"Rank": 10,
+			"City": "Durham",
+			"AvgPremium": "1011"
+		},
+		{
+			"State": "New Hampshire",
+			"Rank": 11,
+			"City": "Newmarket",
+			"AvgPremium": "1008"
+		},
+		{
+			"State": "New Hampshire",
+			"Rank": 12,
+			"City": "Dover",
+			"AvgPremium": "1072"
+		},
+		{
+			"State": "New Hampshire",
+			"Rank": 13,
+			"City": "Portsmouth",
+			"AvgPremium": "1089"
+		},
+		{
+			"State": "New Hampshire",
+			"Rank": 14,
+			"City": "Claremont",
+			"AvgPremium": "983"
+		},
+		{
+			"State": "New Hampshire",
+			"Rank": 15,
+			"City": "Laconia",
+			"AvgPremium": "977"
+		},
+		{
+			"State": "New Hampshire",
+			"Rank": 16,
+			"City": "Somersworth",
+			"AvgPremium": "974"
+		},
+		{
+			"State": "New Hampshire",
+			"Rank": 17,
+			"City": "Rochester",
+			"AvgPremium": "968"
+		},
+		{
+			"State": "New Hampshire",
+			"Rank": 18,
+			"City": "Franklin",
+			"AvgPremium": "979"
+		},
+		{
+			"State": "New Hampshire",
+			"Rank": 19,
+			"City": "Keene",
+			"AvgPremium": "954"
+		},
+		{
+			"State": "New Hampshire",
+			"Rank": 20,
+			"City": "Suncook",
+			"AvgPremium": "991"
+		},
+		{
+			"State": "New Hampshire",
+			"Rank": 21,
+			"City": "Hanover",
+			"AvgPremium": "986"
+		},
+		{
+			"State": "New Hampshire",
+			"Rank": 22,
+			"City": "Lebanon",
+			"AvgPremium": "1016"
+		},
+		{
+			"State": "New Hampshire",
+			"Rank": 23,
+			"City": "Concord",
+			"AvgPremium": "1003"
+		}
+	],
+	"Rhode Island": [
+		{
+			"State": "Rhode Island",
+			"Rank": 1,
+			"City": "Providence",
+			"AvgPremium": "2781"
+		},
+		{
+			"State": "Rhode Island",
+			"Rank": 2,
+			"City": "Cranston",
+			"AvgPremium": "2665"
+		},
+		{
+			"State": "Rhode Island",
+			"Rank": 3,
+			"City": "Central Falls",
+			"AvgPremium": "2604"
+		},
+		{
+			"State": "Rhode Island",
+			"Rank": 4,
+			"City": "Pawtucket",
+			"AvgPremium": "2468"
+		},
+		{
+			"State": "Rhode Island",
+			"Rank": 5,
+			"City": "East Providence",
+			"AvgPremium": "2386"
+		},
+		{
+			"State": "Rhode Island",
+			"Rank": 6,
+			"City": "Warwick",
+			"AvgPremium": "2171"
+		},
+		{
+			"State": "Rhode Island",
+			"Rank": 7,
+			"City": "Greenville",
+			"AvgPremium": "2159"
+		},
+		{
+			"State": "Rhode Island",
+			"Rank": 8,
+			"City": "Harmony",
+			"AvgPremium": "2095"
+		},
+		{
+			"State": "Rhode Island",
+			"Rank": 9,
+			"City": "Chepachet",
+			"AvgPremium": "2040"
+		},
+		{
+			"State": "Rhode Island",
+			"Rank": 10,
+			"City": "Woonsocket",
+			"AvgPremium": "1952"
+		},
+		{
+			"State": "Rhode Island",
+			"Rank": 11,
+			"City": "Pascoag",
+			"AvgPremium": "2004"
+		},
+		{
+			"State": "Rhode Island",
+			"Rank": 12,
+			"City": "Harrisville",
+			"AvgPremium": "1893"
+		},
+		{
+			"State": "Rhode Island",
+			"Rank": 13,
+			"City": "Kingston",
+			"AvgPremium": "1817"
+		},
+		{
+			"State": "Rhode Island",
+			"Rank": 14,
+			"City": "Bradford",
+			"AvgPremium": "1731"
+		},
+		{
+			"State": "Rhode Island",
+			"Rank": 15,
+			"City": "Ashaway",
+			"AvgPremium": "1747"
+		},
+		{
+			"State": "Rhode Island",
+			"Rank": 16,
+			"City": "Hope Valley",
+			"AvgPremium": "1735"
+		},
+		{
+			"State": "Rhode Island",
+			"Rank": 17,
+			"City": "Tiverton",
+			"AvgPremium": "1728"
+		},
+		{
+			"State": "Rhode Island",
+			"Rank": 18,
+			"City": "Melville",
+			"AvgPremium": "1597"
+		},
+		{
+			"State": "Rhode Island",
+			"Rank": 19,
+			"City": "Newport",
+			"AvgPremium": "1635"
+		}
+	],
+	"Washington": [
+		{
+			"State": "Washington",
+			"Rank": 1,
+			"City": "Federal Way",
+			"AvgPremium": "1691"
+		},
+		{
+			"State": "Washington",
+			"Rank": 2,
+			"City": "Tacoma",
+			"AvgPremium": "1654"
+		},
+		{
+			"State": "Washington",
+			"Rank": 3,
+			"City": "Auburn",
+			"AvgPremium": "1674"
+		},
+		{
+			"State": "Washington",
+			"Rank": 4,
+			"City": "Renton",
+			"AvgPremium": "1696"
+		},
+		{
+			"State": "Washington",
+			"Rank": 5,
+			"City": "Kent",
+			"AvgPremium": "1639"
+		},
+		{
+			"State": "Washington",
+			"Rank": 6,
+			"City": "Seattle",
+			"AvgPremium": "1681"
+		},
+		{
+			"State": "Washington",
+			"Rank": 7,
+			"City": "Lakewood",
+			"AvgPremium": "1646"
+		},
+		{
+			"State": "Washington",
+			"Rank": 8,
+			"City": "Everett",
+			"AvgPremium": "1612"
+		},
+		{
+			"State": "Washington",
+			"Rank": 9,
+			"City": "Sammamish",
+			"AvgPremium": "1507"
+		},
+		{
+			"State": "Washington",
+			"Rank": 10,
+			"City": "Bellevue",
+			"AvgPremium": "1474"
+		},
+		{
+			"State": "Washington",
+			"Rank": 11,
+			"City": "Marysville",
+			"AvgPremium": "1509"
+		},
+		{
+			"State": "Washington",
+			"Rank": 12,
+			"City": "Kirkland",
+			"AvgPremium": "1400"
+		},
+		{
+			"State": "Washington",
+			"Rank": 13,
+			"City": "Vancouver",
+			"AvgPremium": "1435"
+		},
+		{
+			"State": "Washington",
+			"Rank": 14,
+			"City": "Lacey",
+			"AvgPremium": "1335"
+		},
+		{
+			"State": "Washington",
+			"Rank": 15,
+			"City": "Olympia",
+			"AvgPremium": "1295"
+		},
+		{
+			"State": "Washington",
+			"Rank": 16,
+			"City": "Spokane",
+			"AvgPremium": "1279"
+		},
+		{
+			"State": "Washington",
+			"Rank": 17,
+			"City": "Yakima",
+			"AvgPremium": "1270"
+		},
+		{
+			"State": "Washington",
+			"Rank": 18,
+			"City": "Kennewick",
+			"AvgPremium": "1253"
+		},
+		{
+			"State": "Washington",
+			"Rank": 19,
+			"City": "Spokane Valley",
+			"AvgPremium": "1305"
+		},
+		{
+			"State": "Washington",
+			"Rank": 20,
+			"City": "Pasco",
+			"AvgPremium": "1222"
+		},
+		{
+			"State": "Washington",
+			"Rank": 21,
+			"City": "Richland",
+			"AvgPremium": "1164"
+		},
+		{
+			"State": "Washington",
+			"Rank": 22,
+			"City": "Bellingham",
+			"AvgPremium": "1222"
+		}
+	],
+	"Wyoming": [
+		{
+			"State": "Wyoming",
+			"Rank": 1,
+			"City": "Gillette",
+			"AvgPremium": "1521"
+		},
+		{
+			"State": "Wyoming",
+			"Rank": 2,
+			"City": "Newcastle",
+			"AvgPremium": "1478"
+		},
+		{
+			"State": "Wyoming",
+			"Rank": 3,
+			"City": "Green River",
+			"AvgPremium": "1422"
+		},
+		{
+			"State": "Wyoming",
+			"Rank": 4,
+			"City": "Worland",
+			"AvgPremium": "1413"
+		},
+		{
+			"State": "Wyoming",
+			"Rank": 5,
+			"City": "Buffalo",
+			"AvgPremium": "1475"
+		},
+		{
+			"State": "Wyoming",
+			"Rank": 6,
+			"City": "Torrington",
+			"AvgPremium": "1400"
+		},
+		{
+			"State": "Wyoming",
+			"Rank": 7,
+			"City": "Laramie",
+			"AvgPremium": "1475"
+		},
+		{
+			"State": "Wyoming",
+			"Rank": 8,
+			"City": "Evanston",
+			"AvgPremium": "1465"
+		},
+		{
+			"State": "Wyoming",
+			"Rank": 9,
+			"City": "Mills",
+			"AvgPremium": "1384"
+		},
+		{
+			"State": "Wyoming",
+			"Rank": 10,
+			"City": "Casper",
+			"AvgPremium": "1427"
+		},
+		{
+			"State": "Wyoming",
+			"Rank": 11,
+			"City": "Cheyenne",
+			"AvgPremium": "1379"
+		},
+		{
+			"State": "Wyoming",
+			"Rank": 12,
+			"City": "Douglas",
+			"AvgPremium": "1382"
+		},
+		{
+			"State": "Wyoming",
+			"Rank": 13,
+			"City": "Cody",
+			"AvgPremium": "1469"
+		},
+		{
+			"State": "Wyoming",
+			"Rank": 14,
+			"City": "Powell",
+			"AvgPremium": "1448"
+		},
+		{
+			"State": "Wyoming",
+			"Rank": 15,
+			"City": "Sheridan",
+			"AvgPremium": "1407"
+		},
+		{
+			"State": "Wyoming",
+			"Rank": 16,
+			"City": "Rawlins",
+			"AvgPremium": "1431"
+		}
+	],
+	"Washington DC": [
+		{
+			"State": "Washington DC",
+			"Rank": 1,
+			"City": "Washington DC",
+			"AvgPremium": "1471"
+		}
+	]
+}

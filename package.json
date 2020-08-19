@@ -1,0 +1,20 @@
+{
+  "name": "insurance_robot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "run": "node index"
+  },
+  "author": "ko",
+  "license": "ISC",
+  "dependencies": {
+    "colors": "^1.4.0",
+    "google-spreadsheet": "^3.0.11",
+    "moment": "^2.27.0",
+    "puppeteer": "^5.2.1"
+  },
+  "devDependencies": {
+    "shelljs": "^0.8.4"
+  }
+}

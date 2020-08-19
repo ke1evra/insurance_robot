@@ -1,0 +1,302 @@
+{
+	"Florida": {
+		"state": "Florida",
+		"no_trafic_tickets": 0.2247,
+		"no_accidents": 0.2717,
+		"good_credit": 0.4799
+	},
+	"Texas": {
+		"state": "Texas",
+		"no_trafic_tickets": 0.0855,
+		"no_accidents": 0.5045,
+		"good_credit": 0.52
+	},
+	"New York": {
+		"state": "New York",
+		"no_trafic_tickets": 0.128,
+		"no_accidents": 0.2563,
+		"good_credit": 0.498
+	},
+	"Arizona": {
+		"state": "Arizona",
+		"no_trafic_tickets": 0.2565,
+		"no_accidents": 0.3709,
+		"good_credit": 0.5167
+	},
+	"California": {
+		"state": "California",
+		"no_trafic_tickets": 0.4062,
+		"no_accidents": 0.7564,
+		"good_credit": 0
+	},
+	"Illions": {
+		"state": "Illions",
+		"no_trafic_tickets": 0.1623,
+		"no_accidents": 0.3276,
+		"good_credit": 0.503
+	},
+	"Connecticut": {
+		"state": "Connecticut",
+		"no_trafic_tickets": 0.1451,
+		"no_accidents": 0.3322,
+		"good_credit": 0.4645
+	},
+	"Georgia": {
+		"state": "Georgia",
+		"no_trafic_tickets": 0.1728,
+		"no_accidents": 0.3784,
+		"good_credit": 0.4424
+	},
+	"Virginia": {
+		"state": "Virginia",
+		"no_trafic_tickets": 0.1538,
+		"no_accidents": 0.3318,
+		"good_credit": 0.4443
+	},
+	"Utah": {
+		"state": "Utah",
+		"no_trafic_tickets": 0.1396,
+		"no_accidents": 0.2955,
+		"good_credit": 0.5169
+	},
+	"Maryland": {
+		"state": "Maryland",
+		"no_trafic_tickets": 0.1187,
+		"no_accidents": 0.3145,
+		"good_credit": 0.4517
+	},
+	"Michigan": {
+		"state": "Michigan",
+		"no_trafic_tickets": 0.6199,
+		"no_accidents": 0.572,
+		"good_credit": 0.9401
+	},
+	"South Carolina": {
+		"state": "South Carolina",
+		"no_trafic_tickets": 0.1656,
+		"no_accidents": 0.3144,
+		"good_credit": 0.5052
+	},
+	"Colorado": {
+		"state": "Colorado",
+		"no_trafic_tickets": 0.1768,
+		"no_accidents": 0.3989,
+		"good_credit": 0.46
+	},
+	"Oklahoma": {
+		"state": "Oklahoma",
+		"no_trafic_tickets": 0.1646,
+		"no_accidents": 0.3144,
+		"good_credit": 0.673
+	},
+	"Arkansas": {
+		"state": "Arkansas",
+		"no_trafic_tickets": 0.1946,
+		"no_accidents": 0.3204,
+		"good_credit": 0.4551
+	},
+	"New Jersey": {
+		"state": "New Jersey",
+		"no_trafic_tickets": 0.3716,
+		"no_accidents": 0.4871,
+		"good_credit": 0.5997
+	},
+	"Tennessee": {
+		"state": "Tennessee",
+		"no_trafic_tickets": 0.1548,
+		"no_accidents": 0.2631,
+		"good_credit": 0.5446
+	},
+	"Oregon": {
+		"state": "Oregon",
+		"no_trafic_tickets": 0.1976,
+		"no_accidents": 0.3607,
+		"good_credit": 0.4908
+	},
+	"Pennsylvania": {
+		"state": "Pennsylvania",
+		"no_trafic_tickets": 0.1045,
+		"no_accidents": 0.3518,
+		"good_credit": 0.4609
+	},
+	"Missouri": {
+		"state": "Missouri",
+		"no_trafic_tickets": 0.1924,
+		"no_accidents": 0.2943,
+		"good_credit": 0.5469
+	},
+	"Indiana": {
+		"state": "Indiana",
+		"no_trafic_tickets": 0.1743,
+		"no_accidents": 0.3145,
+		"good_credit": 0.4084
+	},
+	"Ohio": {
+		"state": "Ohio",
+		"no_trafic_tickets": 0.1657,
+		"no_accidents": 0.3478,
+		"good_credit": 0.4652
+	},
+	"Alabama": {
+		"state": "Alabama",
+		"no_trafic_tickets": 0.1691,
+		"no_accidents": 0.3121,
+		"good_credit": 0.5414
+	},
+	"Nevada": {
+		"state": "Nevada",
+		"no_trafic_tickets": 0.1947,
+		"no_accidents": 0.3399,
+		"good_credit": 0.5867
+	},
+	"North Carolina": {
+		"state": "North Carolina",
+		"no_trafic_tickets": 0.3293,
+		"no_accidents": 0.3392,
+		"good_credit": 0.1464
+	},
+	"Kentucky": {
+		"state": "Kentucky",
+		"no_trafic_tickets": 0.1643,
+		"no_accidents": 0.3485,
+		"good_credit": 0.5478
+	},
+	"Hawaii": {
+		"state": "Hawaii",
+		"no_trafic_tickets": 0.0908,
+		"no_accidents": 0.2768,
+		"good_credit": 0.0004
+	},
+	"Maine": {
+		"state": "Maine",
+		"no_trafic_tickets": 0.1972,
+		"no_accidents": 0.318,
+		"good_credit": 0.4421
+	},
+	"Wisconsin": {
+		"state": "Wisconsin",
+		"no_trafic_tickets": 0.1989,
+		"no_accidents": 0.3439,
+		"good_credit": 0.4511
+	},
+	"Vermont": {
+		"state": "Vermont",
+		"no_trafic_tickets": 0.1491,
+		"no_accidents": 0.3162,
+		"good_credit": 0.4698
+	},
+	"North Dakota": {
+		"state": "North Dakota",
+		"no_trafic_tickets": 0.1879,
+		"no_accidents": 0.3029,
+		"good_credit": 0.4616
+	},
+	"Alaska": {
+		"state": "Alaska",
+		"no_trafic_tickets": 0.1659,
+		"no_accidents": 0.3488,
+		"good_credit": 0.424
+	},
+	"Idaho": {
+		"state": "Idaho",
+		"no_trafic_tickets": 0.1936,
+		"no_accidents": 0.3096,
+		"good_credit": 47.0699
+	},
+	"Louisiana": {
+		"state": "Louisiana",
+		"no_trafic_tickets": 0.1709,
+		"no_accidents": 0.3125,
+		"good_credit": 0.4487
+	},
+	"Minnesota": {
+		"state": "Minnesota",
+		"no_trafic_tickets": 0.1908,
+		"no_accidents": 0.3432,
+		"good_credit": 0.5097
+	},
+	"Nebraska": {
+		"state": "Nebraska",
+		"no_trafic_tickets": 0.1462,
+		"no_accidents": 0.3285,
+		"good_credit": 0.423
+	},
+	"Kansas": {
+		"state": "Kansas",
+		"no_trafic_tickets": 0.1654,
+		"no_accidents": 0.2654,
+		"good_credit": 0.472
+	},
+	"Montana": {
+		"state": "Montana",
+		"no_trafic_tickets": 0.1734,
+		"no_accidents": 0.26,
+		"good_credit": 0.5049
+	},
+	"New Mexico": {
+		"state": "New Mexico",
+		"no_trafic_tickets": 0.1583,
+		"no_accidents": 0.3317,
+		"good_credit": 0.3997
+	},
+	"Delaware": {
+		"state": "Delaware",
+		"no_trafic_tickets": 0.184,
+		"no_accidents": 0.353,
+		"good_credit": 0.4822
+	},
+	"South Dakota": {
+		"state": "South Dakota",
+		"no_trafic_tickets": 0.1544,
+		"no_accidents": 0.3335,
+		"good_credit": 0.462
+	},
+	"West Virginia": {
+		"state": "West Virginia",
+		"no_trafic_tickets": 0.1722,
+		"no_accidents": 0.3438,
+		"good_credit": 0.4318
+	},
+	"Iowa": {
+		"state": "Iowa",
+		"no_trafic_tickets": 0.152,
+		"no_accidents": 0.3585,
+		"good_credit": 0.4092
+	},
+	"Massachusetts": {
+		"state": "Massachusetts",
+		"no_trafic_tickets": 0.2011,
+		"no_accidents": 0.413,
+		"good_credit": 0.0004
+	},
+	"Mississippi": {
+		"state": "Mississippi",
+		"no_trafic_tickets": 0.173,
+		"no_accidents": 0.2897,
+		"good_credit": 0.4728
+	},
+	"New Hampshire": {
+		"state": "New Hampshire",
+		"no_trafic_tickets": 0.1889,
+		"no_accidents": 0.3973,
+		"good_credit": 0.4388
+	},
+	"Rhode Island": {
+		"state": "Rhode Island",
+		"no_trafic_tickets": 0.1995,
+		"no_accidents": 0.3167,
+		"good_credit": 0.4655
+	},
+	"Washington": {
+		"state": "Washington",
+		"no_trafic_tickets": 0.1485,
+		"no_accidents": 0.2379,
+		"good_credit": 0.4749
+	},
+	"Wyoming": {
+		"state": "Wyoming",
+		"no_trafic_tickets": 0.2425,
+		"no_accidents": 0.275,
+		"good_credit": 0.3011
+	}
+}
