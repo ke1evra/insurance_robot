@@ -106,8 +106,6 @@ module.exports = {
             // shell.exec('pkill chrome');
             await this.browser.close();
         }
-
-
     }
 };
 
