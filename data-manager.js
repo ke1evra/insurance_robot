@@ -20,26 +20,104 @@ const statesPageData = (state)=>{
     data.cities = {
         avgRate : (()=>{
             const cityData = states.cities[state];
-            return 'среднее значение по городам';
+            let summ=0;
+            if(cityData.length>0)
+            {
+                for(let i=0;i<cityData.length;i++)
+                    summ+=parseInt(cityData[i]["AvgPremium"]);
+                summ=summ/cityData.length;
+            }
+            return (summ/12).toFixed();
         })(),
-        minRate: 'мин значение по городам',
-        maxRate: 'макс значение по города',
-        threeCheapest: 'три города с минимальной суммой (строка через запятую)'
+        minRate: (parseInt(states.cities[state][states.cities[state].length-1]["AvgPremium"])/12).toFixed(),
+        maxRate: (parseInt(states.cities[state][0]["AvgPremium"])/12).toFixed(),
+        //'три города с минимальной суммой (строка через запятую)'
+        threeCheapest: (()=>{
+            const cityData = states.cities[state];
+            let first_part=cityData[cityData.length-1]["City"];
+            let second_part=cityData[cityData.length-2]["City"];
+            let third_part=cityData[cityData.length-3]["City"];
+            return first_part+","+second_part+","+third_part;
+        })(),
+        cityData: (()=>{
+            let result=states.cities[state];
+            for(let i=0;i<result.length;i++)
+            {
+                result[i]["AvgPremium"]=(parseInt(result[i]["AvgPremium"])/12).toFixed();
+            }
+            return result;
+        })(),
     };
     data.cheapest = {
-
+        avgRate : (()=>{
+            let summ=0;
+            if(states.cheapest[state].length>0)
+            {
+                for(let i=0;i<states.cheapest[state].length;i++)
+                    summ+=parseInt(states.cheapest[state][i]["avg_annual_premium"]);
+                summ=summ/states.cheapest[state].length;
+            }
+            return (summ/12).toFixed();
+        })(),
+        threeCheapest:(()=>{
+            let first_part=states.cheapest[state][0]["company_name"];
+            let second_part=states.cheapest[state][1]["company_name"];
+            let third_part=states.cheapest[state][2]["company_name"];
+            return first_part+","+second_part+","+third_part;
+        })(),
+        companies:(()=>{
+            let result=states.cheapest[state];
+            for(let i=0;i<result.length;i++)
+            {
+                result[i]["avg_annual_premium"]=(parseInt(result[i]["avg_annual_premium"])/12).toFixed();
+            }
+            return result;
+        })(),
     };
     data.mostReliable = {
-
+        companies:states.tops[state],
     };
     data.goodDrivers = {
-
+        no_trafic_tickets: (parseFloat(states.goodDriver[state]["no_trafic_tickets"])*100).toFixed(2),
+        no_accidents: (parseFloat(states.goodDriver[state]["no_accidents"])*100).toFixed(2),
+        good_credit: (parseFloat(states.goodDriver[state]["good_credit"])*100).toFixed(2),
     };
     data.youngDrivers = {
-
+        age16:  (parseInt(states.young[state]["16"])/12).toFixed(),
+        age17:  (parseInt(states.young[state]["17"])/12).toFixed(),
+        age18:  (parseInt(states.young[state]["18"])/12).toFixed(),
+        age19:  (parseInt(states.young[state]["19"])/12).toFixed(),
+    };
+    data.violations = {
+        hitAndRun:(()=>{
+            for(let i=0;i<states.tickets[state].length;i++)
+            {
+                if(states.tickets[state][i]["Violation"]==="Hit and Run")
+                    return (parseFloat(states.tickets[state][i]["insurance_rate_increase_percent"])*100).toFixed();
+            }
+        })(),
+        DUI:(()=>{
+            for(let i=0;i<states.tickets[state].length;i++)
+            {
+                if(states.tickets[state][i]["Violation"]==="DUI")
+                    return (parseFloat(states.tickets[state][i]["insurance_rate_increase_percent"])*100).toFixed();
+            }
+        })(),
+        ticket:(()=>{
+            let result=states.tickets[state];
+            for(let i=0;i<result.length;i++)
+            {
+                result[i]["avg_annual_auto_insurance_rate"]=(parseInt(result[i]["avg_annual_auto_insurance_rate"])/12).toFixed();
+                result[i]["insurance_rate_increase_percent"]=(parseFloat(result[i]["insurance_rate_increase_percent"])*100).toFixed();
+                result[i]["insurance_rate_increase"]=(parseInt(result[i]["insurance_rate_increase"])/12).toFixed();
+            }
+        })(),
+    };
+    data.minReqs = {
+        requirements: states.minReqs[state],
     };
     return data;
 };
 
-const testData = statesPageData('New York');
+const testData = statesPageData('Florida');
 console.log(testData);
