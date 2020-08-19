@@ -10,6 +10,7 @@ const states = {
     tops: c.rfSync('./data/json/states_top_fifteen_companies__.json'),
     young: c.rfSync('./data/json/states_young_drivers_rates__.json'),
     images: c.rfSync('./data/json/states_images.json'),
+    insurify: c.rfSync('./data/json/states_insurify__.json'),
 };
 
 const statesPageData = (state)=>{
@@ -116,6 +117,8 @@ const statesPageData = (state)=>{
     data.minReqs = {
         requirements: states.minReqs[state],
     };
+    data.regsAndDUI = states.regsAndDUI[statesList[state].abbr];
+    data.insurify = states.insurify[state];
     return data;
 };
 
