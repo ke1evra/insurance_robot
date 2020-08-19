@@ -1,0 +1,202 @@
+{
+  "ID": {
+    "seal_url": "https://www.usainsurancerate.com/wp-content/uploads/Seals/800px-Seal_of_Idaho.svg.png",
+    "background_img_url": "https://www.usainsurancerate.com/wp-content/uploads/Photo/Idaho-Boise.jpg"
+  },
+  "IA": {
+    "seal_url": "https://www.usainsurancerate.com/wp-content/uploads/Seals/800px-Iowa-StateSeal.svg.png",
+    "background_img_url": "https://www.usainsurancerate.com/wp-content/uploads/Photo/Iowa-Des-Moines.jpg"
+  },
+  "AL": {
+    "seal_url": "https://www.usainsurancerate.com/wp-content/uploads/Seals/800px-Seal_of_Alabama.svg.png",
+    "background_img_url": "https://www.usainsurancerate.com/wp-content/uploads/Photo/alabama-montgomery.jpg"
+  },
+  "AK": {
+    "seal_url": "https://www.usainsurancerate.com/wp-content/uploads/Seals/800px-Alaska-StateSeal.svg.png",
+    "background_img_url": "https://www.usainsurancerate.com/wp-content/uploads/Photo/Alaska-Juneau.jpg"
+  },
+  "AZ": {
+    "seal_url": "https://www.usainsurancerate.com/wp-content/uploads/Seals/800px-Arizona-StateSeal.svg.png",
+    "background_img_url": "https://www.usainsurancerate.com/wp-content/uploads/Photo/Arizona-Phoenix.jpg"
+  },
+  "AR": {
+    "seal_url": "https://www.usainsurancerate.com/wp-content/uploads/Seals/800px-Seal_of_Arkansas.svg.png",
+    "background_img_url": "https://www.usainsurancerate.com/wp-content/uploads/Photo/Arkansas-little-Rock.jpg"
+  },
+  "WY": {
+    "seal_url": "https://www.usainsurancerate.com/wp-content/uploads/Seals/Seal_of_Wyoming.svg.png",
+    "background_img_url": "https://www.usainsurancerate.com/wp-content/uploads/Photo/Wyoming-Cheyenne.jpg"
+  },
+  "WA": {
+    "seal_url": "https://www.usainsurancerate.com/wp-content/uploads/Seals/800px-Seal_of_Washington.svg.png",
+    "background_img_url": "https://www.usainsurancerate.com/wp-content/uploads/Photo/Washington-Olympia.jpg"
+  },
+  "VT": {
+    "seal_url": "https://www.usainsurancerate.com/wp-content/uploads/Seals/800px-Vermont_state_seal.svg.png",
+    "background_img_url": "https://www.usainsurancerate.com/wp-content/uploads/Photo/Vermont-Montpelier.jpg"
+  },
+  "VA": {
+    "seal_url": "https://www.usainsurancerate.com/wp-content/uploads/Seals/800px-Seal_of_Virginia.svg.png",
+    "background_img_url": "https://www.usainsurancerate.com/wp-content/uploads/Photo/Virginia-Richmond.jpg"
+  },
+  "WI": {
+    "seal_url": "https://www.usainsurancerate.com/wp-content/uploads/Seals/800px-Seal_of_Wisconsin.svg.png",
+    "background_img_url": "https://www.usainsurancerate.com/wp-content/uploads/Photo/Wisconsin-Madison.jpg"
+  },
+  "HI": {
+    "seal_url": "https://www.usainsurancerate.com/wp-content/uploads/Seals/800px-Seal_of_the_State_of_Hawaii.svg.png",
+    "background_img_url": "https://www.usainsurancerate.com/wp-content/uploads/Photo/Hawaii-Honolulu.jpg"
+  },
+  "DE": {
+    "seal_url": "https://www.usainsurancerate.com/wp-content/uploads/Seals/800px-Seal_of_Delaware.svg.png",
+    "background_img_url": "https://www.usainsurancerate.com/wp-content/uploads/Photo/Delaware-Dover.jpg"
+  },
+  "GA": {
+    "seal_url": "https://www.usainsurancerate.com/wp-content/uploads/Seals/800px-Seal_of_Georgia.svg.png",
+    "background_img_url": "https://www.usainsurancerate.com/wp-content/uploads/Photo/Atlanta-Georgia.jpg"
+  },
+  "WV": {
+    "seal_url": "https://www.usainsurancerate.com/wp-content/uploads/Seals/800px-Seal_of_West_Virginia.svg.png",
+    "background_img_url": "https://www.usainsurancerate.com/wp-content/uploads/Photo/West-Virginia-Charleston.jpg"
+  },
+  "IL": {
+    "seal_url": "https://www.usainsurancerate.com/wp-content/uploads/Seals/800px-Seal_of_Illinois.svg.png",
+    "background_img_url": "https://www.usainsurancerate.com/wp-content/uploads/Photo/Illinois-Springfield.jpg"
+  },
+  "IN": {
+    "seal_url": "https://www.usainsurancerate.com/wp-content/uploads/Seals/Indiana-StateSeal.svg.png",
+    "background_img_url": "https://www.usainsurancerate.com/wp-content/uploads/Photo/Indiana-Indianápolis.jpg"
+  },
+  "CA": {
+    "seal_url": "https://www.usainsurancerate.com/wp-content/uploads/Seals/800px-Seal_of_California.svg.png",
+    "background_img_url": "https://www.usainsurancerate.com/wp-content/uploads/Photo/California-Sacramento.jpg"
+  },
+  "KS": {
+    "seal_url": "https://www.usainsurancerate.com/wp-content/uploads/Seals/800px-Seal_of_Kansas.svg.png",
+    "background_img_url": "https://www.usainsurancerate.com/wp-content/uploads/Photo/Kansas-Topeka.jpg"
+  },
+  "KY": {
+    "seal_url": "https://www.usainsurancerate.com/wp-content/uploads/Seals/800px-Seal_of_Kentucky.svg.png",
+    "background_img_url": "https://www.usainsurancerate.com/wp-content/uploads/Photo/Kentucky-Frankfort.jpg"
+  },
+  "CO": {
+    "seal_url": "https://www.usainsurancerate.com/wp-content/uploads/Seals/800px-Seal_of_Colorado.svg.png",
+    "background_img_url": "https://www.usainsurancerate.com/wp-content/uploads/Photo/Colorado-Denver.jpg"
+  },
+  "CT": {
+    "seal_url": "https://www.usainsurancerate.com/wp-content/uploads/Seals/800px-Seal_of_Connecticut.svg.png",
+    "background_img_url": "https://www.usainsurancerate.com/wp-content/uploads/Photo/Connecticut-Hartford.jpg"
+  },
+  "LA": {
+    "seal_url": "https://www.usainsurancerate.com/wp-content/uploads/Seals/800px-Seal_of_Louisiana.svg.png",
+    "background_img_url": "https://www.usainsurancerate.com/wp-content/uploads/Photo/Louisiana-Baton-Rouge.jpg"
+  },
+  "MA": {
+    "seal_url": "https://www.usainsurancerate.com/wp-content/uploads/Seals/800px-Seal_of_Massachusetts.svg.png",
+    "background_img_url": "https://www.usainsurancerate.com/wp-content/uploads/Photo/Massachusetts-Boston.jpg"
+  },
+  "MN": {
+    "seal_url": "https://www.usainsurancerate.com/wp-content/uploads/Seals/800px-Seal_of_Minnesota.svg.png",
+    "background_img_url": "https://www.usainsurancerate.com/wp-content/uploads/Photo/Minnesota-Saint-Paul.jpg"
+  },
+  "MS": {
+    "seal_url": "https://www.usainsurancerate.com/wp-content/uploads/Seals/800px-Seal_of_Mississippi_2014–present.svg.png",
+    "background_img_url": "https://www.usainsurancerate.com/wp-content/uploads/Photo/Mississippi-Jackson.jpg"
+  },
+  "MO": {
+    "seal_url": "https://www.usainsurancerate.com/wp-content/uploads/Seals/800px-Seal_of_Missouri.svg.png",
+    "background_img_url": "https://www.usainsurancerate.com/wp-content/uploads/Photo/Missouri-Jefferson-City.jpg"
+  },
+  "MI": {
+    "seal_url": "https://www.usainsurancerate.com/wp-content/uploads/Seals/800px-Seal_of_Michigan.svg.png",
+    "background_img_url": "https://www.usainsurancerate.com/wp-content/uploads/Photo/Michigan-Lansing.jpg"
+  },
+  "MT": {
+    "seal_url": "https://www.usainsurancerate.com/wp-content/uploads/Seals/800px-Great_Seal_of_Montana.svg.png",
+    "background_img_url": "https://www.usainsurancerate.com/wp-content/uploads/Photo/Montana-Helena.jpg"
+  },
+  "ME": {
+    "seal_url": "https://www.usainsurancerate.com/wp-content/uploads/Seals/800px-Seal_of_Maine.svg.png",
+    "background_img_url": "https://www.usainsurancerate.com/wp-content/uploads/Photo/Maine-Augusta.jpg"
+  },
+  "MD": {
+    "seal_url": "https://www.usainsurancerate.com/wp-content/uploads/Seals/800px-Seal_of_Maryland_reverse.svg.png",
+    "background_img_url": "https://www.usainsurancerate.com/wp-content/uploads/Photo/Maryland-Annapolis.jpg"
+  },
+  "NE": {
+    "seal_url": "https://www.usainsurancerate.com/wp-content/uploads/Seals/800px-Nebraska-StateSeal.svg.png",
+    "background_img_url": "https://www.usainsurancerate.com/wp-content/uploads/Photo/Nebraska-Lincoln.jpg"
+  },
+  "NV": {
+    "seal_url": "https://www.usainsurancerate.com/wp-content/uploads/Seals/800px-Seal_of_Nevada.svg.png",
+    "background_img_url": "https://www.usainsurancerate.com/wp-content/uploads/Photo/Nevada-Carson-City.jpg"
+  },
+  "NH": {
+    "seal_url": "https://www.usainsurancerate.com/wp-content/uploads/Seals/800px-Seal_of_New_Hampshire.svg.png",
+    "background_img_url": "https://www.usainsurancerate.com/wp-content/uploads/Photo/New-Hampshire-Concord.jpg"
+  },
+  "NJ": {
+    "seal_url": "https://www.usainsurancerate.com/wp-content/uploads/Seals/800px-Seal_of_New_Jersey.svg.png",
+    "background_img_url": "https://www.usainsurancerate.com/wp-content/uploads/Photo/New-Jersey-Trenton.jpg"
+  },
+  "NY": {
+    "seal_url": "https://www.usainsurancerate.com/wp-content/uploads/Seals/800px-Seal_of_New_York.svg.png",
+    "background_img_url": "https://www.usainsurancerate.com/wp-content/uploads/Photo/New-York-Albany.jpg"
+  },
+  "NM": {
+    "seal_url": "https://www.usainsurancerate.com/wp-content/uploads/Seals/800px-Seal_of_New_Mexico.svg.png",
+    "background_img_url": "https://www.usainsurancerate.com/wp-content/uploads/Photo/New-Mexico-Santa-Fé.jpg"
+  },
+  "OH": {
+    "seal_url": "https://www.usainsurancerate.com/wp-content/uploads/Seals/Seal_of_Ohio_1967-1996.svg.png",
+    "background_img_url": "https://www.usainsurancerate.com/wp-content/uploads/Photo/Ohio-Columbus.jpg"
+  },
+  "OK": {
+    "seal_url": "https://www.usainsurancerate.com/wp-content/uploads/Seals/800px-Seal_of_Oklahoma.svg.png",
+    "background_img_url": "https://www.usainsurancerate.com/wp-content/uploads/Photo/Oklahoma-Oklahoma-City.jpg"
+  },
+  "OR": {
+    "seal_url": "https://www.usainsurancerate.com/wp-content/uploads/Seals/800px-Seal_of_Oregon.svg.png",
+    "background_img_url": "https://www.usainsurancerate.com/wp-content/uploads/Photo/Oregon-Salem.jpg"
+  },
+  "PA": {
+    "seal_url": "https://www.usainsurancerate.com/wp-content/uploads/Seals/800px-Seal_of_Pennsylvania.svg.png",
+    "background_img_url": "https://www.usainsurancerate.com/wp-content/uploads/Photo/Pennsylvania-Harrisburg.jpg"
+  },
+  "RI": {
+    "seal_url": "https://www.usainsurancerate.com/wp-content/uploads/Seals/800px-Seal_of_Rhode_Island.svg.png",
+    "background_img_url": "https://www.usainsurancerate.com/wp-content/uploads/Photo/Rhode-Island-Providence.jpg"
+  },
+  "ND": {
+    "seal_url": "https://www.usainsurancerate.com/wp-content/uploads/Seals/800px-NorthDakota-StateSeal.svg.png",
+    "background_img_url": "https://www.usainsurancerate.com/wp-content/uploads/Photo/North-Dakota-Bismarck.jpg"
+  },
+  "NC": {
+    "seal_url": "https://www.usainsurancerate.com/wp-content/uploads/Seals/800px-NorthCarolina-StateSeal.svg.png",
+    "background_img_url": "https://www.usainsurancerate.com/wp-content/uploads/Photo/North-Carolina-Raleigh.jpg"
+  },
+  "TN": {
+    "seal_url": "https://www.usainsurancerate.com/wp-content/uploads/Seals/800px-Seal_of_Tennessee.svg.png",
+    "background_img_url": "https://www.usainsurancerate.com/wp-content/uploads/Photo/Tennessee-Nashville.jpg"
+  },
+  "TX": {
+    "seal_url": "https://www.usainsurancerate.com/wp-content/uploads/Seals/800px-Seal_of_Texas.svg.png",
+    "background_img_url": "https://www.usainsurancerate.com/wp-content/uploads/Photo/Texas-Austin.jpg"
+  },
+  "FL": {
+    "seal_url": "https://www.usainsurancerate.com/wp-content/uploads/Seals/800px-Seal_of_Florida.svg.png",
+    "background_img_url": "https://www.usainsurancerate.com/wp-content/uploads/Photo/Florida-Tallahassee.jpg"
+  },
+  "SD": {
+    "seal_url": "https://www.usainsurancerate.com/wp-content/uploads/Seals/800px-SouthDakota-StateSeal.svg.png",
+    "background_img_url": "https://www.usainsurancerate.com/wp-content/uploads/Photo/South-Dakota-Pierre.jpg"
+  },
+  "SC": {
+    "seal_url": "https://www.usainsurancerate.com/wp-content/uploads/Seals/800px-Seal_of_South_Carolina.svg.png",
+    "background_img_url": "https://www.usainsurancerate.com/wp-content/uploads/Photo/South-Carolina-Columbia.jpg"
+  },
+  "UT": {
+    "seal_url": "https://www.usainsurancerate.com/wp-content/uploads/Seals/Seal_of_Utah.svg.png",
+    "background_img_url": "https://www.usainsurancerate.com/wp-content/uploads/Photo/Utah-Salt-Lake-City.jpg"
+  }
+}

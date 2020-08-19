@@ -11,6 +11,7 @@ module.exports = {
             editBtn: '#edit-slug-buttons > button.edit-slug.button',
             input: '#new-post-slug',
             saveBtn: '#edit-slug-buttons > button.save.button',
+            link: '#sample-permalink > a',
         },
         descriptionTextarea: '#content',
         boldGridMeta:{

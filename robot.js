@@ -19,7 +19,7 @@ const parsePostId = (url) => {
     return url.replace('https://www.usainsurancerate.com/wp-admin/post.php?post=', '').replace('&action=edit', '');
 };
 
-module.exports = {
+const robot = {
     page: null,
     async openPage(){
         try{
@@ -35,7 +35,7 @@ module.exports = {
         }
     },
     async gotoUrl(url, page = this.page){
-        console.log(`${'Переходим на страницу'.cyan} ${url.cyan}`);
+        // console.log(`${'Переходим на страницу'.cyan} ${url.cyan}`);
         await page.goto(url, timeoutSetting);
     },
     async login(page = this.page){
@@ -47,7 +47,7 @@ module.exports = {
                 for(let cookie of cookies){
                     await page.setCookie(cookie)
                 }
-                await this.gotoUrl(creds.newPageUrl);
+
             }else {
                 console.log('кука не найдена, логинимся'.yellow);
                 await this.gotoUrl(creds.loginPageUrl);
@@ -68,44 +68,61 @@ module.exports = {
             console.error('Ошибка во время логина: ', e)
         }
     },
-    async fillPage(page = this.page){
+    async checkState(type){
+        const row = await gApi.getLastRowByType(type);
+        if(row.entry){
+            console.log(`Последняя добавленная страница id: ${row.page_id}, entry: ${row.entry}, время: ${row.time}`.green);
+            return row.entry;
+        }else {
+            console.log('Добавленных страниц не найдено');
+            return null;
+        }
+
+    },
+    async fillPage(pageData, page = this.page){
         try{
-            const builder = new PageBuilder();
-            const testData = {
-                title: 'Test title',
-                keyPhrase: 'test key phrase',
-                description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
-                seoTitle: 'Test seo title',
-                seoDescription: 'Test seo description',
-            };
-            builder.addData(testData, 'current');
+            const startTime = moment();
+            console.log(`------------\nДобавляем страницу, entry: ${pageData.entry}`.green);
+            await this.gotoUrl(creds.newPageUrl);
             await page.evaluate((data) => {
-                document.querySelector(data.selectors.addNewPage.descriptionTextarea).value = data.testData.description;
-                document.querySelector(data.selectors.addNewPage.seo.metaTitle).value = data.testData.seoTitle;
-                document.querySelector(data.selectors.addNewPage.seo.metaDescription).value = data.testData.seoDescription;
-                document.querySelector(data.selectors.addNewPage.titleInput).value = data.testData.title;
-            }, {testData, selectors});
+                document.querySelector(data.selectors.addNewPage.descriptionTextarea).value = data.pageData.description;
+                document.querySelector(data.selectors.addNewPage.seo.metaTitle).value = data.pageData.seoTitle;
+                document.querySelector(data.selectors.addNewPage.seo.metaDescription).value = data.pageData.seoDescription;
+                document.querySelector(data.selectors.addNewPage.titleInput).value = data.pageData.title;
+            }, {pageData, selectors});
             await c.sleep(500);
             await page.select(selectors.addNewPage.parent.select, selectors.addNewPage.parent.values.autoInsurance);
             await c.sleep(500);
             await page.click(selectors.addNewPage.publishBtn);
             await page.waitForNavigation(timeoutSetting);
-            const page_url = page.url();
-            const page_id = parsePostId(page_url);
-            // await gApi.getEntries();
+            const page_edit_url = page.url();
+            const page_url = await page.evaluate((selectors)=>{
+                return document.querySelector(selectors.addNewPage.permalink.link).getAttribute('href');
+            }, selectors);
+            const page_id = parsePostId(page_edit_url);
             await gApi.addRow({
                 page_id,
+                page_edit_url,
                 page_url,
-                page_title: testData.title,
+                page_title: pageData.title,
+                entry: pageData.entry,
                 time: moment().format('DD.MM.YYYY HH:mm:ss'),
             });
-            console.log(`Страница сохранена, post id = ${page_id}`.green);
+            const consumedTime = moment().diff(startTime, 'seconds');
+            console.log(`Страница сохранена, post id = ${page_id}, страница редактирования: ${page_edit_url}, адрес страницы: ${page_url}. Затрачено времени: ${consumedTime} сек.`.green);
         }catch (e) {
             console.log('Ошибка при заполнении страницы', e)
         }finally {
-            // shell.exec('pkill chrome');
             await this.browser.close();
         }
+    },
+    async fillPages(pagesData, page = this.page){
+        for(let pageData of pagesData){
+
+        }
+
     }
 };
 
+
+module.exports = robot;
