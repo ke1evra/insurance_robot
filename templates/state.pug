@@ -1,0 +1,156 @@
+| [sc name="states_top_get_quotes" ]
+.container.pt-5
+    .row
+        .col
+            p.h2.text-uppercase Car insurance cost in #{stateTitle} cities
+            p.lead
+                | Car insurance costs in Idaho vary by city, the average annual premium in state is #{cities.avgRate} $. The price range is from #{cities.minRate} $ to [avg premium first], and the cities with cheapest car insurance are [3 last].
+            table.table.table-sm.table-borderless.table-striped.table-hover
+                thead
+                    tr
+                        th(scope='col') Rank
+                        th(scope='col') Sity
+                        th(scope='col') Avg. Monthly Premium
+                tbody
+                    tr
+                        td(scope='row') 1
+                        td Moscow
+                        td 107 $
+
+.container.py-3
+    .row
+        .col
+            p.h2.text-uppercase What are the cheapest car insurance offers in Idaho?
+            p.lead
+                | The average annual premium in Idaho is about [&scy;&rcy;&iecy;&dcy;&ncy;&iecy;&iecy; Avg. Premium in cities], but there are many more affordable car insurance offers, the cheapest variants for you are these car insurance companies: [company name rank 1,2,3].
+            table.table.table-sm.table-borderless.table-striped.table-hover
+                thead
+                    tr
+                        th Rank
+                        th Company
+                        th Avg. Monthly Premium
+                tbody
+                    tr
+                        td 1
+                        td American National
+                        td 44 $
+
+| [sc name="states_get_quotes_second"]
+.container.py-3
+    .row
+        .col
+            p.h2.text-uppercase Most reliable insurance companies in Idaho
+            p.lead
+                | Everybody is looking for the cheapest car insurance offers. But it is also important to find a company that will sufficiently cover your expenses in case of an accident. In this case we recommend you to take a look at our list of best insurance companies in Idaho. All organizations have a high level of financial strength, which means you can be sure about their ability to fulfill its policy and contractual obligations.
+            table.table.table-sm.table-borderless.table-striped.table-hover
+                thead
+                    tr
+                        th(scope='col') Company
+                tbody
+                    tr
+                        td Allied
+.container.py-3
+    .row
+        .col
+            p.h2.text-uppercase Discounts for good drivers in Idaho
+            p.lead
+                | Good driving records can help you save money on car insurance premiums, companies use it as a way to determine the level of the driver&apos;s responsibility. Less risky driver is a more affordable customer for an insurance company.
+    .row
+        .col.text-center
+            p(style='font-size: 5em;')
+                span.rounded-circle
+                    i.fas.fa-car-crash
+            p.lead
+                b
+                    | No accidents
+                    br
+                    | up to 31% discount
+        .col.text-center
+            p(style='font-size: 5em;')
+                span.rounded-circle
+                    i.fas.fa-tachometer-alt
+            p.lead
+                b
+                    | No trafic tickets
+                    br
+                    | up to 19% discount
+        .col.text-center
+            p(style='font-size: 5em;')
+                span.rounded-circle
+                    i.fas.fa-credit-card
+            p.lead
+                b
+                    | Good credit score
+                    br
+                    | up to 47% discount
+.container.py-3
+    .row
+        .col
+            p.h2.text-uppercase Car insurance for young drivers in Idaho
+            p.lead
+                | Young drivers across the U.S. pay more than others. Lack of driving experience entails various risks, that is why the cost of car insurance for such customers is about three times bigger than the national average and sometimes more.
+            table.table.table-sm.table-borderless.table-striped.table-hover
+                thead
+                    tr
+                        th.w-50 Age
+                        th(scope='col') Avg. Monthly Premium
+                tbody
+                    tr
+                        td 16
+                        td 486 $
+                    tr
+                        td 17
+                        td 426 $
+                    tr
+                        td 18
+                        td 381 $
+                    tr
+                        td 19
+                        td 204 $
+            p.h3.text-uppercase Insurance rate decrease depending on age of driver
+            canvas#myChart
+| [sc name="states_get_quotes_third"]
+.container.py-3
+    .row
+        .col
+            p.h2.text-uppercase How do tickets affect the cost of car insurance in Idaho
+            p.lead
+                | Having tickets will likely increase your car insurance rates. The degree of increase depends on the type of offense. There are serious violations like Hit and Run or DUI that will enhance your car insurance premium by [hit and run %] and [DUI %]. There are also tickets, which do not significantly affect the premium such as Failure to Use Child Safety Restraint, Failure to Wear a Seat Belt, Driving Without Lights. (&Dcy;&lcy;&yacy; &scy;&iecy;&vcy;&iecy;&rcy;&ncy;&ocy;&jcy; &kcy;&acy;&rcy;&ocy;&lcy;&icy;&ncy;&ycy; Not at-fault accident)
+            table.table.table-sm.table-borderless.table-striped.table-hover
+                thead
+                    tr
+                        th Violation
+                        th Avg. Monthly Rate
+                        th Increase Percent
+                        th Insurance Rate Increase
+                tbody
+                    tr
+                        td Hit and Run
+                        td 141 $
+                        td 66 %
+                        td 56 $
+
+.container.py-3
+    .row
+        .col
+            p.h2.text-uppercase What are the car insurance laws in Idaho
+            p.lead
+                | Auto insurance laws varies by state. Below you can find relative information regardless car insurance in Idaho.
+            p.h3.text-uppercase Minimum coverage requirements in Idaho:
+            p.h4.text-uppercase Liablility
+            ul
+                li Property Damage: $15,000 per accident
+                li Bodily injury per person: $25,000
+                li Bodily injury per accident: $50,000
+            p.h4.text-uppercase Optional coverage
+            ul
+                li Comprehensive
+                li Collision
+                li Loan/Lease Payoff
+                li Medical Services
+                li Rental Car Reimbursement
+                li Roadside Assistance
+                li Uninsured Motorist Property Damage
+                li Uninsured Motorist Bodily Injury
+| [sc name="states_get_quotes_bottom"]
+| [sc name="state_pages_scripts"]
