@@ -1,4 +1,4 @@
-| [sc name="states_top_get_quotes" ]
+| [sc name="states_top_get_quotes" bg_class="#{bgClass}" state_title="#{stateTitle}" seal_img_url="#{sealUrl}"]
 .container.pt-5
     .row
         .col
@@ -35,7 +35,7 @@
                         td American National
                         td 44 $
 
-| [sc name="states_get_quotes_second"]
+| [sc name="states_get_quotes_second" bg_class="#{bgClass}" state_title="#{stateTitle}" seal_img_url="#{sealUrl}"]
 .container.py-3
     .row
         .col
@@ -95,21 +95,13 @@
                         th.w-50 Age
                         th(scope='col') Avg. Monthly Premium
                 tbody
-                    tr
-                        td 16
-                        td 486 $
-                    tr
-                        td 17
-                        td 426 $
-                    tr
-                        td 18
-                        td 381 $
-                    tr
-                        td 19
-                        td 204 $
+                        tr
+                            td dfa
+                            td 486 $
+
             p.h3.text-uppercase Insurance rate decrease depending on age of driver
             canvas#myChart
-| [sc name="states_get_quotes_third"]
+| [sc name="states_get_quotes_third" bg_class="#{bgClass}" state_title="#{stateTitle}" seal_img_url="#{sealUrl}"]
 .container.py-3
     .row
         .col
@@ -152,5 +144,5 @@
                 li Roadside Assistance
                 li Uninsured Motorist Property Damage
                 li Uninsured Motorist Bodily Injury
-| [sc name="states_get_quotes_bottom"]
-| [sc name="state_pages_scripts"]
+| [sc name="states_get_quotes_bottom" bg_class="#{bgClass}" state_title="#{stateTitle}" seal_img_url="#{sealUrl}"]
+| [sc name="state_pages_scripts" young_drivers_data="#{youngDrivers.chartData}"]

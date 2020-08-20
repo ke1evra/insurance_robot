@@ -25,6 +25,7 @@ class DataManager {
         data.stateTitle = statesList[state].title;
         data.stateAbbr = statesList[state].abbr;
         data.bgClass = statesList[state]['bg-class'];
+        data.sealUrl = states.images[data.stateAbbr]['seal_url'];
         data.cities = {
             avgRate: (() => {
                 const cityData = states.cities[state];
@@ -87,6 +88,7 @@ class DataManager {
             good_credit: (parseFloat(states.goodDriver[state]["good_credit"]) * 100).toFixed(2),
         };
         data.youngDrivers = {
+            chartData: `${(parseInt(states.young[state]["16"]) / 12).toFixed()},${(parseInt(states.young[state]["17"]) / 12).toFixed()},${(parseInt(states.young[state]["18"]) / 12).toFixed()},${(parseInt(states.young[state]["19"]) / 12).toFixed()}`,
             age16: (parseInt(states.young[state]["16"]) / 12).toFixed(),
             age17: (parseInt(states.young[state]["17"]) / 12).toFixed(),
             age18: (parseInt(states.young[state]["18"]) / 12).toFixed(),
@@ -135,5 +137,6 @@ const dataManager = new DataManager();
 
 dataManager.getPageData('Iowa');
 dataManager.renderDescription();
+//super change
 //dataManager.getPageData('New York'); = ПРОВЕРИТЬ
 // console.log(JSON.stringify(dataManager.data,0,4));
