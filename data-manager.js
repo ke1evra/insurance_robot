@@ -26,35 +26,38 @@ class DataManager {
         data.stateAbbr = statesList[state].abbr;
         data.bgClass = statesList[state]['bg-class'];
         data.sealUrl = states.images[data.stateAbbr]['seal_url'];
-        data.cities = {
-            avgRate: (() => {
-                const cityData = states.cities[state];
-                let summ = 0;
-                if (cityData !== 'undefined' && cityData.length > 0) {
-                    for (let i = 0; i < cityData.length; i++)
-                        summ += parseInt(cityData[i]["AvgPremium"]);
-                    summ = summ / cityData.length;
-                }
-                return (summ / 12).toFixed();
-            })(),
-            minRate: (parseInt(states.cities[state][states.cities[state].length - 1]["AvgPremium"]) / 12).toFixed(),
-            maxRate: (parseInt(states.cities[state][0]["AvgPremium"]) / 12).toFixed(),
-            //'три города с минимальной суммой (строка через запятую)'
-            threeCheapest: (() => {
-                const cityData = states.cities[state];
-                let first_part = cityData[cityData.length - 1]["City"];
-                let second_part = cityData[cityData.length - 2]["City"];
-                let third_part = cityData[cityData.length - 3]["City"];
-                return first_part + ", " + second_part + " and " + third_part;
-            })(),
-            cityData: (() => {
-                let result = states.cities[state];
-                for (let i = 0; i < result.length; i++) {
-                    result[i]["AvgPremium"] = (parseInt(result[i]["AvgPremium"]) / 12).toFixed();
-                }
-                return result;
-            })(),
-        };
+        if(states.cities[state]){
+            data.cities = {
+                avgRate: (() => {
+                    const cityData = states.cities[state];
+                    let summ = 0;
+                    if (cityData.length > 0) {
+                        for (let i = 0; i < cityData.length; i++)
+                            summ += parseInt(cityData[i]["AvgPremium"]);
+                        summ = summ / cityData.length;
+                    }
+                    return (summ / 12).toFixed();
+                })(),
+                minRate: (parseInt(states.cities[state][states.cities[state].length - 1]["AvgPremium"]) / 12).toFixed(),
+                maxRate: (parseInt(states.cities[state][0]["AvgPremium"]) / 12).toFixed(),
+                //'три города с минимальной суммой (строка через запятую)'
+                threeCheapest: (() => {
+                    const cityData = states.cities[state];
+                    let first_part = cityData[cityData.length - 1]["City"];
+                    let second_part = cityData[cityData.length - 2]["City"];
+                    let third_part = cityData[cityData.length - 3]["City"];
+                    return first_part + ", " + second_part + " and " + third_part;
+                })(),
+                cityData: (() => {
+                    let result = states.cities[state];
+                    for (let i = 0; i < result.length; i++) {
+                        result[i]["AvgPremium"] = (parseInt(result[i]["AvgPremium"]) / 12).toFixed();
+                    }
+                    return result;
+                })(),
+            };
+        }
+
         data.cheapest = {
             avgRate: (() => {
                 let summ = 0;
@@ -69,7 +72,7 @@ class DataManager {
                 let first_part = states.cheapest[state][0]["company_name"];
                 let second_part = states.cheapest[state][1]["company_name"];
                 let third_part = states.cheapest[state][2]["company_name"];
-                return first_part + "," + second_part + "," + third_part;
+                return first_part + ", " + second_part + "and " + third_part;
             })(),
             companies: (() => {
                 let result = states.cheapest[state];
@@ -83,6 +86,7 @@ class DataManager {
             companies: states.tops[state],
         };
         data.goodDrivers = {
+            two_vehicles: 25,
             no_trafic_tickets: (parseFloat(states.goodDriver[state]["no_trafic_tickets"]) * 100).toFixed(2),
             no_accidents: (parseFloat(states.goodDriver[state]["no_accidents"]) * 100).toFixed(2),
             good_credit: (parseFloat(states.goodDriver[state]["good_credit"]) * 100).toFixed(2),
@@ -94,30 +98,35 @@ class DataManager {
             age18: (parseInt(states.young[state]["18"]) / 12).toFixed(),
             age19: (parseInt(states.young[state]["19"]) / 12).toFixed(),
         };
-        data.violations = {
-            hitAndRun: (() => {
-                for (let i = 0; i < states.tickets[state].length; i++) {
-                    if (states.tickets[state][i]["Violation"] === "Hit and Run")
-                        return (parseFloat(states.tickets[state][i]["insurance_rate_increase_percent"]) * 100).toFixed();
-                }
-            })(),
-            DUI: (() => {
-                for (let i = 0; i < states.tickets[state].length; i++) {
-                    if (states.tickets[state][i]["Violation"] === "DUI")
-                        return (parseFloat(states.tickets[state][i]["insurance_rate_increase_percent"]) * 100).toFixed();
-                }
-            })(),
-            ticket: (() => {
-                let result = states.tickets[state];
-                for (let i = 0; i < result.length; i++) {
-                    result[i]["avg_annual_auto_insurance_rate"] = (parseInt(result[i]["avg_annual_auto_insurance_rate"]) / 12).toFixed();
-                    result[i]["insurance_rate_increase_percent"] = (parseFloat(result[i]["insurance_rate_increase_percent"]) * 100).toFixed();
-                    result[i]["insurance_rate_increase"] = (parseInt(result[i]["insurance_rate_increase"]) / 12).toFixed();
-                }
-            })(),
-        };
+        data.ticketAffection = (() => {
+                const data = [];
+                let duiRateIncreasePercent = {};
+                let hitAndRunRateIncreasePercent = {};
+                const tickets = states.tickets[state];
+                tickets.map((item)=>{
+                    if(item['Violation'] === 'Hit and Run'){
+                        hitAndRunRateIncreasePercent = (parseFloat(item["insurance_rate_increase_percent"]) * 100).toFixed()
+                    }
+                    if(item['Violation'] === 'DUI'){
+                        duiRateIncreasePercent = (parseFloat(item["insurance_rate_increase_percent"]) * 100).toFixed();
+                    }
+                    data.push({
+                        violation: item['Violation'],
+                        avgRate: (parseInt(item["avg_annual_auto_insurance_rate"]) / 12).toFixed(),
+                        rateIncreasePercent: (parseFloat(item["insurance_rate_increase_percent"]) * 100).toFixed(),
+                        rateIncrease: (parseInt(item["insurance_rate_increase"]) / 12).toFixed(),
+                    });
+                });
+                return {
+                    data,
+                    hitAndRunRateIncreasePercent,
+                    duiRateIncreasePercent,
+                    cheapest : `${data[data.length-1].violation}, ${data[data.length-2].violation} and ${data[data.length-3].violation}`,
+                };
+            })();
         data.minReqs = {
             requirements: states.minReqs[state],
+            text: states.minReqs.text,
         };
         data.regsAndDUI = states.regsAndDUI[statesList[state].abbr];
         //data.insurify = states.insurify[state];
@@ -135,8 +144,8 @@ class DataManager {
 
 const dataManager = new DataManager();
 
-dataManager.getPageData('Iowa');
+dataManager.getPageData('Michigan');
 dataManager.renderDescription();
 //super change
 //dataManager.getPageData('New York'); = ПРОВЕРИТЬ
-// console.log(JSON.stringify(dataManager.data,0,4));
+console.log(JSON.stringify(dataManager.data,0,4));

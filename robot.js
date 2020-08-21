@@ -118,7 +118,7 @@ const robot = {
     },
     async fillPages(pagesData, page = this.page){
         for(let pageData of pagesData){
-
+            await this.fillPage(pageData);
         }
 
     }
