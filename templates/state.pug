@@ -7,7 +7,7 @@ if cities
                 p.h2.text-uppercase Car insurance cost in #{stateTitle} cities
                 p.lead
                     | Car insurance costs in #{stateTitle} vary by city, the average premium per month in #{stateTitle} is about #{cities.avgRate} $. The price range varies between from #{cities.minRate} $ to #{cities.maxRate} $, and the cities with cheapest car insurance are #{cities.threeCheapest}.
-                table.table.table-sm.table-borderless.table-striped.table-hover
+                table.table.table-sm.table-hover.table-borderless.table-striped
                     thead
                         tr
                             th(scope='col') Rank
@@ -15,7 +15,7 @@ if cities
                             th(scope='col') Avg. Monthly Premium
                     tbody
                         each item in cities.cityData
-                            tr
+                            tr(title=`Average annual premium in ${item.City}, ${stateAbbr} is about ${item.AvgPremium * 12} $`)
                                 td(scope='row') #{item.Rank}
                                 td #{item.City}
                                 td #{item.AvgPremium} $
@@ -26,16 +26,20 @@ if cities
             p.h2.text-uppercase What are the cheapest car insurance offers in #{stateTitle}?
             p.lead
                 | The average annual premium in #{stateTitle} is about #{cheapest.avgRate} $, but there are many more affordable car insurance offers, the cheapest variants offer #{cheapest.threeCheapest}.
-            table.table.table-sm.table-borderless.table-striped.table-hover
+            table.table.table-sm.table-hover.table-borderless.table-striped
                 thead
                     tr
                         th Rank
+                        th
                         th Company
                         th Avg. Monthly Premium
                 tbody
                     each item in cheapest.companies
-                        tr
+                        tr(title=`${item.company_name} average annual premium in ${stateTitle} is about ${item.avg_annual_premium * 12} $`)
                             td(scope='row') #{item.rank}
+                            td
+                                if item.logo
+                                    img.img-fluid.pull-right(src=item.logo, style="max-height: 24px;")
                             td #{item.company_name}
                             td #{item.avg_annual_premium} $
 
@@ -46,14 +50,25 @@ if cities
             p.h2.text-uppercase Most reliable insurance companies in #{stateTitle}
             p.lead
                 | Everybody is looking for the cheapest car insurance offers. But it is also important to find a company that will sufficiently cover your expenses in case of an accident. In this case we recommend you to take a look at our list of best insurance companies in #{stateTitle}. All organizations have a high level of financial strength, which means you can be sure about their ability to fulfill its policy and contractual obligations.
-            table.table.table-sm.table-borderless.table-striped.table-hover
-                thead
-                    tr
-                        th(scope='col') Company
-                tbody
-                    each item in mostReliable.companies.companies
-                        tr
-                            td #{item}
+            .row.text-center
+                each item in mostReliable
+                    if item.logo
+                        .col-md-3.m-auto
+                            p.px-5
+                                img.img-fluid(src=item.logo)
+                            //p.h4=item.company
+            //table.table.table-sm.table-hover.table-borderless
+            //    thead
+            //        tr
+            //            th
+            //            th(scope='col') Company
+            //    tbody
+            //        each item in mostReliable
+            //            tr.border-top
+            //                td
+            //                    if item.logo
+            //                        img.img-fluid.pull-right(src=item.logo, style="max-height: 24px;")
+            //                td #{item.company}
 .container.py-3
     .row
         .col
@@ -61,6 +76,15 @@ if cities
             p.lead
                 | Good driving records can help you save money on car insurance premiums, companies use it as a way to determine the level of the driver&apos;s responsibility. Less risky driver is a more affordable customer for an insurance company.
     .row
+        .col.text-center
+            p(style='font-size: 5em;')
+                span.rounded-circle
+                    i.fas.fa-car-alt
+            p.lead
+                b
+                    | Two or more cars
+                    br
+                    | up to 25% discount
         .col.text-center
             p(style='font-size: 5em;')
                 span.rounded-circle
@@ -94,7 +118,7 @@ if cities
             p.h2.text-uppercase Car insurance for young drivers in #{stateTitle}
             p.lead
                 | Young drivers across the U.S. pay more than others. Lack of driving experience entails various risks, that is why the cost of car insurance for such customers is about three times bigger than the national average and sometimes more.
-            table.table.table-sm.table-borderless.table-striped.table-hover
+            table.table.table-sm.table-hover.table-borderless.table-striped
                 thead
                     tr
                         th.w-50 Age
@@ -121,7 +145,7 @@ if cities
             p.h2.text-uppercase How do tickets affect the cost of car insurance in #{stateTitle}
             p.lead
                 | Having tickets will likely increase your car insurance rates. The degree of increase depends on the type of offense. There are serious violations like Hit and Run or DUI that will enhance your car insurance premium by #{ticketAffection.hitAndRunRateIncreasePercent} % and #{ticketAffection.duiRateIncreasePercent} $ respectively. There are also tickets, which do not significantly affect the premium such as #{ticketAffection.cheapest}.
-            table.table.table-sm.table-borderless.table-striped.table-hover
+            table.table.table-sm.table-hover.table-borderless.table-striped
                 thead
                     tr
                         th Violation
@@ -130,7 +154,7 @@ if cities
                         th Insurance Rate Increase
                 tbody
                     each item in ticketAffection.data
-                        tr
+                        tr(title=`Getting a ticket for ${item.violation} violation will highly likely raise your annual premium by ${item.rateIncreasePercent}% up to ${item.avgRate * 12} $`)
                             td #{item.violation}
                             td #{item.avgRate} $
                             td #{item.rateIncreasePercent} %

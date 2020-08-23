@@ -1,6 +1,7 @@
 const c = require('./common.js');
 const pug = require('pug');
 const statesList = c.rfSync('./data/json/states_list.json');
+const companiesLogos = c.rfSync('./data/json/companies_logos.json');
 const states = {
     cheapest: c.rfSync('./data/json/states_cheapest_rates__.json'),
     goodDriver: c.rfSync('./data/json/states_good_drivers_discount__.json'),
@@ -12,18 +13,20 @@ const states = {
     young: c.rfSync('./data/json/states_young_drivers_rates__.json'),
     images: c.rfSync('./data/json/states_images.json'),
     insurify: c.rfSync('./data/json/states_insurify__.json'),
+
 };
 
-class DataManager {
+class StateDataManager {
     constructor() {
         this.data = null;
         this.pageData = {};
     }
 
-    getPageData(state) {
+    getStateData(state) {
         const data = {};
         data.stateTitle = statesList[state].title;
         data.stateAbbr = statesList[state].abbr;
+        data.stateIndex = statesList[state].index;
         data.bgClass = statesList[state]['bg-class'];
         data.sealUrl = states.images[data.stateAbbr]['seal_url'];
         if(states.cities[state]){
@@ -51,6 +54,7 @@ class DataManager {
                 cityData: (() => {
                     let result = states.cities[state];
                     for (let i = 0; i < result.length; i++) {
+
                         result[i]["AvgPremium"] = (parseInt(result[i]["AvgPremium"]) / 12).toFixed();
                     }
                     return result;
@@ -77,19 +81,30 @@ class DataManager {
             companies: (() => {
                 let result = states.cheapest[state];
                 for (let i = 0; i < result.length; i++) {
+                    const company = result[i].company_name;
+                    result[i].logo = companiesLogos[company] !== undefined ? `${companiesLogos[company].img_url_small}` : null ;
                     result[i]["avg_annual_premium"] = (parseInt(result[i]["avg_annual_premium"]) / 12).toFixed();
                 }
                 return result;
             })(),
         };
-        data.mostReliable = {
-            companies: states.tops[state],
-        };
+        data.mostReliable = (()=>{
+            const companies = states.tops[state];
+            const data = [];
+            companies.companies.map((item)=>{
+               data.push({
+                   company: item,
+                   logo: companiesLogos[item] !== undefined ? `${companiesLogos[item].img_url}` : null,
+               });
+            });
+            return data;
+        })();
+        // console.log(data.mostReliable);
         data.goodDrivers = {
             two_vehicles: 25,
-            no_trafic_tickets: (parseFloat(states.goodDriver[state]["no_trafic_tickets"]) * 100).toFixed(2),
-            no_accidents: (parseFloat(states.goodDriver[state]["no_accidents"]) * 100).toFixed(2),
-            good_credit: (parseFloat(states.goodDriver[state]["good_credit"]) * 100).toFixed(2),
+            no_trafic_tickets: Math.round(parseFloat(states.goodDriver[state]["no_trafic_tickets"]) * 100),
+            no_accidents: Math.round(parseFloat(states.goodDriver[state]["no_accidents"]) * 100),
+            good_credit: Math.round(parseFloat(states.goodDriver[state]["good_credit"]) * 100),
         };
         data.youngDrivers = {
             chartData: `${(parseInt(states.young[state]["16"]) / 12).toFixed()},${(parseInt(states.young[state]["17"]) / 12).toFixed()},${(parseInt(states.young[state]["18"]) / 12).toFixed()},${(parseInt(states.young[state]["19"]) / 12).toFixed()}`,
@@ -134,18 +149,47 @@ class DataManager {
         // console.log(JSON.stringify(data,0,4));
     }
 
-    renderDescription(pageData = this.data){
+    renderStateDescription(pageData = this.data){
         const html = pug.renderFile('./templates/state.pug', pageData);
-        console.log(html);
+        // console.log(html);
         this.pageData.description = html;
+    }
+
+    renderStateTitle(pageData = this.data){
+        this.pageData.pageTitle = `Car Insurance in ${pageData.stateTitle}`;
+    }
+
+    renderStateMetaTitle(pageData = this.data){
+        this.pageData.metaTitle = `Auto Insurance Guide in ${pageData.stateTitle}`;
+    }
+
+    renderStateMetaDescription(pageData = this.data){
+        this.pageData.metaDescription = `Choosing insurance companies in ${pageData.stateTitle}. Choose your state and find an insurance company fast and for free.`;
+    }
+
+    setStatePageData(state, robotId = 1){
+        this.getStateData(state);
+        this.pageData.type = 'state';
+        this.pageData.robotId = robotId;
+        this.pageData.entry = this.data.stateTitle;
+        this.pageData.entry_index = this.data.stateIndex;
+
+        this.renderStateDescription();
+        this.renderStateTitle();
+        this.renderStateMetaTitle();
+        this.renderStateMetaDescription();
+        // console.log(this.pageData);
+        return this.pageData;
     }
 }
 
 
-const dataManager = new DataManager();
+const dataManager = new StateDataManager();
 
-dataManager.getPageData('Michigan');
-dataManager.renderDescription();
+// dataManager.getStateData('Michigan');
+// dataManager.setStatePageData('Michigan');
 //super change
 //dataManager.getPageData('New York'); = ПРОВЕРИТЬ
-console.log(JSON.stringify(dataManager.data,0,4));
+// console.log(JSON.stringify(dataManager.data,0,4));
+
+module.exports = StateDataManager;

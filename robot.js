@@ -70,25 +70,28 @@ const robot = {
     },
     async checkState(type){
         const row = await gApi.getLastRowByType(type);
-        if(row.entry){
+        if(row){
             console.log(`Последняя добавленная страница id: ${row.page_id}, entry: ${row.entry}, время: ${row.time}`.green);
             return row.entry;
         }else {
-            console.log('Добавленных страниц не найдено');
+            console.log('Добавленных страниц не найдено'.red);
             return null;
         }
 
     },
     async fillPage(pageData, page = this.page){
+        if(!pageData.entry || !pageData.type || !pageData.robotId || !pageData.entry_index){
+            throw new Error('Не заданы обязательны параметры entry, type, robotId');
+        }
         try{
             const startTime = moment();
             console.log(`------------\nДобавляем страницу, entry: ${pageData.entry}`.green);
             await this.gotoUrl(creds.newPageUrl);
             await page.evaluate((data) => {
                 document.querySelector(data.selectors.addNewPage.descriptionTextarea).value = data.pageData.description;
-                document.querySelector(data.selectors.addNewPage.seo.metaTitle).value = data.pageData.seoTitle;
-                document.querySelector(data.selectors.addNewPage.seo.metaDescription).value = data.pageData.seoDescription;
-                document.querySelector(data.selectors.addNewPage.titleInput).value = data.pageData.title;
+                document.querySelector(data.selectors.addNewPage.seo.metaTitle).value = data.pageData.metaTitle;
+                document.querySelector(data.selectors.addNewPage.seo.metaDescription).value = data.pageData.metaDescription;
+                document.querySelector(data.selectors.addNewPage.titleInput).value = data.pageData.pageTitle;
             }, {pageData, selectors});
             await c.sleep(500);
             await page.select(selectors.addNewPage.parent.select, selectors.addNewPage.parent.values.autoInsurance);
@@ -104,8 +107,10 @@ const robot = {
                 page_id,
                 page_edit_url,
                 page_url,
+                type: pageData.type,
                 page_title: pageData.title,
                 entry: pageData.entry,
+                entry_index: pageData.entry_index,
                 time: moment().format('DD.MM.YYYY HH:mm:ss'),
             });
             const consumedTime = moment().diff(startTime, 'seconds');

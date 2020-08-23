@@ -1,0 +1,800 @@
+{
+  "21st Century": {
+    "company": "21st Century",
+    "url-slug": "21st-century",
+    "img_url": "https://www.usainsurancerate.com/wp-content/uploads/Logos/21st.png",
+    "img_url_small": "https://www.usainsurancerate.com/wp-content/uploads/Logos/21st-48x48.png"
+  },
+  "AAA": {
+    "company": "AAA",
+    "url-slug": "aaa",
+    "img_url": "https://www.usainsurancerate.com/wp-content/uploads/Logos/aaa.png",
+    "img_url_small": "https://www.usainsurancerate.com/wp-content/uploads/Logos/aaa-48x48.png"
+  },
+  "ACE Limited": {
+    "company": "ACE Limited",
+    "url-slug": "ace-limited",
+    "img_url": "https://www.usainsurancerate.com/wp-content/uploads/Logos/ace-limited.png",
+    "img_url_small": "https://www.usainsurancerate.com/wp-content/uploads/Logos/ace-limited-48x48.png"
+  },
+  "Acuity": {
+    "company": "Acuity",
+    "url-slug": "acuity",
+    "img_url": "https://www.usainsurancerate.com/wp-content/uploads/Logos/acuity.png",
+    "img_url_small": "https://www.usainsurancerate.com/wp-content/uploads/Logos/acuity-48x48.png"
+  },
+  "Affirmative": {
+    "company": "Affirmative",
+    "url-slug": "affirmative",
+    "img_url": "https://www.usainsurancerate.com/wp-content/uploads/Logos/affirmative.png",
+    "img_url_small": "https://www.usainsurancerate.com/wp-content/uploads/Logos/affirmative-48x48.png"
+  },
+  "AIG": {
+    "company": "AIG",
+    "url-slug": "aig",
+    "img_url": "https://www.usainsurancerate.com/wp-content/uploads/Logos/aig.png",
+    "img_url_small": "https://www.usainsurancerate.com/wp-content/uploads/Logos/aig-48x48.png"
+  },
+  "Allied": {
+    "company": "Allied",
+    "url-slug": "allied",
+    "img_url": "https://www.usainsurancerate.com/wp-content/uploads/Logos/allied.png",
+    "img_url_small": "https://www.usainsurancerate.com/wp-content/uploads/Logos/allied-48x48.png"
+  },
+  "Allstate": {
+    "company": "Allstate",
+    "url-slug": "allstate",
+    "img_url": "https://www.usainsurancerate.com/wp-content/uploads/Logos/allstate.png",
+    "img_url_small": "https://www.usainsurancerate.com/wp-content/uploads/Logos/allstate-48x48.png"
+  },
+  "American Family": {
+    "company": "American Family",
+    "url-slug": "american-family",
+    "img_url": "https://www.usainsurancerate.com/wp-content/uploads/Logos/american-family.png",
+    "img_url_small": "https://www.usainsurancerate.com/wp-content/uploads/Logos/american-family-48x48.png"
+  },
+  "American National": {
+    "company": "American National",
+    "url-slug": "american-national",
+    "img_url": "https://www.usainsurancerate.com/wp-content/uploads/Logos/american-national.png",
+    "img_url_small": "https://www.usainsurancerate.com/wp-content/uploads/Logos/american-national-48x48.png"
+  },
+  "Amica": {
+    "company": "Amica",
+    "url-slug": "amica",
+    "img_url": "https://www.usainsurancerate.com/wp-content/uploads/Logos/amica.png",
+    "img_url_small": "https://www.usainsurancerate.com/wp-content/uploads/Logos/amica-48x48.png"
+  },
+  "Arbella": {
+    "company": "Arbella",
+    "url-slug": "arbella",
+    "img_url": "https://www.usainsurancerate.com/wp-content/uploads/Logos/placeholder_arbella.png",
+    "img_url_small": "https://www.usainsurancerate.com/wp-content/uploads/Logos/placeholder_arbella-48x48.png"
+  },
+  "Austin Mutual": {
+    "company": "Austin Mutual",
+    "url-slug": "austin-mutual",
+    "img_url": "https://www.usainsurancerate.com/wp-content/uploads/Logos/austin-mutual.png",
+    "img_url_small": "https://www.usainsurancerate.com/wp-content/uploads/Logos/austin-mutual-48x48.png"
+  },
+  "Auto-Owners": {
+    "company": "Auto-Owners",
+    "url-slug": "auto-owners",
+    "img_url": "https://www.usainsurancerate.com/wp-content/uploads/Logos/auto-owners-insurance.png",
+    "img_url_small": "https://www.usainsurancerate.com/wp-content/uploads/Logos/auto-owners-insurance-48x48.png"
+  },
+  "Badger Mutual": {
+    "company": "Badger Mutual",
+    "url-slug": "badger-mutual",
+    "img_url": "https://www.usainsurancerate.com/wp-content/uploads/Logos/badger-mutual.png",
+    "img_url_small": "https://www.usainsurancerate.com/wp-content/uploads/Logos/badger-mutual-48x48.png"
+  },
+  "Brethren Mutual": {
+    "company": "Brethren Mutual",
+    "url-slug": "brethren-mutual",
+    "img_url": "https://www.usainsurancerate.com/wp-content/uploads/Logos/brethren-mutual.png",
+    "img_url_small": "https://www.usainsurancerate.com/wp-content/uploads/Logos/brethren-mutual-48x48.png"
+  },
+  "Capital Insurance Group": {
+    "company": "Capital Insurance Group",
+    "url-slug": "capital-insurance-group",
+    "img_url": "https://www.usainsurancerate.com/wp-content/uploads/Logos/capital-insurance.png",
+    "img_url_small": "https://www.usainsurancerate.com/wp-content/uploads/Logos/capital-insurance-48x48.png"
+  },
+  "Carnegie Insurance": {
+    "company": "Carnegie Insurance",
+    "url-slug": "carnegie-insurance",
+    "img_url": "https://www.usainsurancerate.com/wp-content/uploads/Logos/carnegie-insurance.png",
+    "img_url_small": "https://www.usainsurancerate.com/wp-content/uploads/Logos/carnegie-insurance-48x48.png"
+  },
+  "Celina": {
+    "company": "Celina",
+    "url-slug": "celina",
+    "img_url": "https://www.usainsurancerate.com/wp-content/uploads/Logos/celina.png",
+    "img_url_small": "https://www.usainsurancerate.com/wp-content/uploads/Logos/celina-48x48.png"
+  },
+  "Central Insurance Companies": {
+    "company": "Central Insurance Companies",
+    "url-slug": "central-insurance-companies",
+    "img_url": "https://www.usainsurancerate.com/wp-content/uploads/Logos/central-mutual-of-ohio.png",
+    "img_url_small": "https://www.usainsurancerate.com/wp-content/uploads/Logos/central-mutual-of-ohio-48x48.png"
+  },
+  "Century-National": {
+    "company": "Century-National",
+    "url-slug": "century-national",
+    "img_url": "https://www.usainsurancerate.com/wp-content/uploads/Logos/century-national.png",
+    "img_url_small": "https://www.usainsurancerate.com/wp-content/uploads/Logos/century-national-48x48.png"
+  },
+  "Chubb": {
+    "company": "Chubb",
+    "url-slug": "chubb",
+    "img_url": "https://www.usainsurancerate.com/wp-content/uploads/Logos/chubb.png",
+    "img_url_small": "https://www.usainsurancerate.com/wp-content/uploads/Logos/chubb-48x48.png"
+  },
+  "Cincinnati Insurance Companies": {
+    "company": "Cincinnati Insurance Companies",
+    "url-slug": "cincinnati-insurance-companies",
+    "img_url": "https://www.usainsurancerate.com/wp-content/uploads/Logos/cincinnati-insurance-companies.png",
+    "img_url_small": "https://www.usainsurancerate.com/wp-content/uploads/Logos/cincinnati-insurance-companies-48x48.png"
+  },
+  "Columbia": {
+    "company": "Columbia",
+    "url-slug": "columbia",
+    "img_url": "https://www.usainsurancerate.com/wp-content/uploads/Logos/columbia.png",
+    "img_url_small": "https://www.usainsurancerate.com/wp-content/uploads/Logos/columbia-48x48.png"
+  },
+  "Concord Group": {
+    "company": "Concord Group",
+    "url-slug": "concord-group",
+    "img_url": "https://www.usainsurancerate.com/wp-content/uploads/Logos/concord.png",
+    "img_url_small": "https://www.usainsurancerate.com/wp-content/uploads/Logos/concord-48x48.png"
+  },
+  "Consumers Insurance": {
+    "company": "Consumers Insurance",
+    "url-slug": "consumers-insurance",
+    "img_url": "https://www.usainsurancerate.com/wp-content/uploads/Logos/consumers-insurance.png",
+    "img_url_small": "https://www.usainsurancerate.com/wp-content/uploads/Logos/consumers-insurance-48x48.png"
+  },
+  "Cornerstone National": {
+    "company": "Cornerstone National",
+    "url-slug": "cornerstone-national",
+    "img_url": "https://www.usainsurancerate.com/wp-content/uploads/Logos/cornerstone-national.png",
+    "img_url_small": "https://www.usainsurancerate.com/wp-content/uploads/Logos/cornerstone-national-48x48.png"
+  },
+  "Country Financial": {
+    "company": "Country Financial",
+    "url-slug": "country-financial",
+    "img_url": "https://www.usainsurancerate.com/wp-content/uploads/Logos/country-financial.png",
+    "img_url_small": "https://www.usainsurancerate.com/wp-content/uploads/Logos/country-financial-48x48.png"
+  },
+  "CSAA": {
+    "company": "CSAA",
+    "url-slug": "csaa",
+    "img_url": "https://www.usainsurancerate.com/wp-content/uploads/Logos/aaa.png",
+    "img_url_small": "https://www.usainsurancerate.com/wp-content/uploads/Logos/aaa-48x48.png"
+  },
+  "CSE": {
+    "company": "CSE",
+    "url-slug": "cse",
+    "img_url": "https://www.usainsurancerate.com/wp-content/uploads/Logos/cse.png",
+    "img_url_small": "https://www.usainsurancerate.com/wp-content/uploads/Logos/cse-48x48.png"
+  },
+  "Cumberland Mutual": {
+    "company": "Cumberland Mutual",
+    "url-slug": "cumberland-mutual",
+    "img_url": "https://www.usainsurancerate.com/wp-content/uploads/Logos/cumberland.png",
+    "img_url_small": "https://www.usainsurancerate.com/wp-content/uploads/Logos/cumberland-48x48.png"
+  },
+  "Dairyland": {
+    "company": "Dairyland",
+    "url-slug": "dairyland",
+    "img_url": "https://www.usainsurancerate.com/wp-content/uploads/Logos/dairyland.png",
+    "img_url_small": "https://www.usainsurancerate.com/wp-content/uploads/Logos/dairyland-48x48.png"
+  },
+  "Donegal": {
+    "company": "Donegal",
+    "url-slug": "donegal",
+    "img_url": "https://www.usainsurancerate.com/wp-content/uploads/Logos/donegal.png",
+    "img_url_small": "https://www.usainsurancerate.com/wp-content/uploads/Logos/donegal-48x48.png"
+  },
+  "Electric Insurance": {
+    "company": "Electric Insurance",
+    "url-slug": "electric-insurance",
+    "img_url": "https://www.usainsurancerate.com/wp-content/uploads/Logos/electric-insurance.png",
+    "img_url_small": "https://www.usainsurancerate.com/wp-content/uploads/Logos/electric-insurance-48x48.png"
+  },
+  "Elephant": {
+    "company": "Elephant",
+    "url-slug": "elephant",
+    "img_url": "https://www.usainsurancerate.com/wp-content/uploads/Logos/elephant.png",
+    "img_url_small": "https://www.usainsurancerate.com/wp-content/uploads/Logos/elephant-48x48.png"
+  },
+  "EMC": {
+    "company": "EMC",
+    "url-slug": "emc",
+    "img_url": "https://www.usainsurancerate.com/wp-content/uploads/Logos/emc.png",
+    "img_url_small": "https://www.usainsurancerate.com/wp-content/uploads/Logos/emc-48x48.png"
+  },
+  "Encompass": {
+    "company": "Encompass",
+    "url-slug": "encompass",
+    "img_url": "https://www.usainsurancerate.com/wp-content/uploads/Logos/encompass.png",
+    "img_url_small": "https://www.usainsurancerate.com/wp-content/uploads/Logos/encompass-48x48.png"
+  },
+  "Erie Insurance": {
+    "company": "Erie Insurance",
+    "url-slug": "erie-insurance",
+    "img_url": "https://www.usainsurancerate.com/wp-content/uploads/Logos/erie-insurance.png",
+    "img_url_small": "https://www.usainsurancerate.com/wp-content/uploads/Logos/erie-insurance-48x48.png"
+  },
+  "Esurance": {
+    "company": "Esurance",
+    "url-slug": "esurance",
+    "img_url": "https://www.usainsurancerate.com/wp-content/uploads/Logos/esurance.png",
+    "img_url_small": "https://www.usainsurancerate.com/wp-content/uploads/Logos/esurance-48x48.png"
+  },
+  "Farmers": {
+    "company": "Farmers",
+    "url-slug": "farmers",
+    "img_url": "https://www.usainsurancerate.com/wp-content/uploads/Logos/farmers.png",
+    "img_url_small": "https://www.usainsurancerate.com/wp-content/uploads/Logos/farmers-48x48.png"
+  },
+  "First Chicago": {
+    "company": "First Chicago",
+    "url-slug": "first-chicago",
+    "img_url": "https://www.usainsurancerate.com/wp-content/uploads/Logos/first-chicago.png",
+    "img_url_small": "https://www.usainsurancerate.com/wp-content/uploads/Logos/first-chicago-48x48.png"
+  },
+  "Bristol West": {
+    "company": "Bristol West",
+    "url-slug": "bristol-west",
+    "img_url": "https://www.usainsurancerate.com/wp-content/uploads/Logos/bristol.png",
+    "img_url_small": "https://www.usainsurancerate.com/wp-content/uploads/Logos/bristol-48x48.png"
+  },
+  "Founders": {
+    "company": "Founders",
+    "url-slug": "founders",
+    "img_url": "https://www.usainsurancerate.com/wp-content/uploads/Logos/founders.png",
+    "img_url_small": "https://www.usainsurancerate.com/wp-content/uploads/Logos/founders-48x48.png"
+  },
+  "Frankenmuth": {
+    "company": "Frankenmuth",
+    "url-slug": "frankenmuth",
+    "img_url": "https://www.usainsurancerate.com/wp-content/uploads/Logos/frankenmuth.png",
+    "img_url_small": "https://www.usainsurancerate.com/wp-content/uploads/Logos/frankenmuth-48x48.png"
+  },
+  "GAINSCO": {
+    "company": "GAINSCO",
+    "url-slug": "gainsco",
+    "img_url": "https://www.usainsurancerate.com/wp-content/uploads/Logos/gainsco.png",
+    "img_url_small": "https://www.usainsurancerate.com/wp-content/uploads/Logos/gainsco-48x48.png"
+  },
+  "GEICO": {
+    "company": "GEICO",
+    "url-slug": "geico",
+    "img_url": "https://www.usainsurancerate.com/wp-content/uploads/Logos/geico.png",
+    "img_url_small": "https://www.usainsurancerate.com/wp-content/uploads/Logos/geico-48x48.png"
+  },
+  "The General": {
+    "company": "The General",
+    "url-slug": "the-general",
+    "img_url": "https://www.usainsurancerate.com/wp-content/uploads/Logos/general.png",
+    "img_url_small": "https://www.usainsurancerate.com/wp-content/uploads/Logos/general-48x48.png"
+  },
+  "National General": {
+    "company": "National General",
+    "url-slug": "national-general",
+    "img_url": "https://www.usainsurancerate.com/wp-content/uploads/Logos/gmac.png",
+    "img_url_small": "https://www.usainsurancerate.com/wp-content/uploads/Logos/gmac-48x48.png"
+  },
+  "Goodville Mutual": {
+    "company": "Goodville Mutual",
+    "url-slug": "goodville-mutual",
+    "img_url": "https://www.usainsurancerate.com/wp-content/uploads/Logos/goodville.png",
+    "img_url_small": "https://www.usainsurancerate.com/wp-content/uploads/Logos/goodville-48x48.png"
+  },
+  "Grange": {
+    "company": "Grange",
+    "url-slug": "grange",
+    "img_url": "https://www.usainsurancerate.com/wp-content/uploads/Logos/grange.png",
+    "img_url_small": "https://www.usainsurancerate.com/wp-content/uploads/Logos/grange-48x48.png"
+  },
+  "Grinnell Mutual": {
+    "company": "Grinnell Mutual",
+    "url-slug": "grinnell-mutual",
+    "img_url": "https://www.usainsurancerate.com/wp-content/uploads/Logos/grinnell.png",
+    "img_url_small": "https://www.usainsurancerate.com/wp-content/uploads/Logos/grinnell-48x48.png"
+  },
+  "Hallmark": {
+    "company": "Hallmark",
+    "url-slug": "hallmark",
+    "img_url": "https://www.usainsurancerate.com/wp-content/uploads/Logos/hallmark.png",
+    "img_url_small": "https://www.usainsurancerate.com/wp-content/uploads/Logos/hallmark-48x48.png"
+  },
+  "Hanover": {
+    "company": "Hanover",
+    "url-slug": "hanover",
+    "img_url": "https://www.usainsurancerate.com/wp-content/uploads/Logos/hanover-insurance-group.png",
+    "img_url_small": "https://www.usainsurancerate.com/wp-content/uploads/Logos/hanover-insurance-group-48x48.png"
+  },
+  "Harleysville": {
+    "company": "Harleysville",
+    "url-slug": "harleysville",
+    "img_url": "https://www.usainsurancerate.com/wp-content/uploads/Logos/harleysville.png",
+    "img_url_small": "https://www.usainsurancerate.com/wp-content/uploads/Logos/harleysville-48x48.png"
+  },
+  "The Hartford": {
+    "company": "The Hartford",
+    "url-slug": "the-hartford",
+    "img_url": "https://www.usainsurancerate.com/wp-content/uploads/Logos/the-hartford.png",
+    "img_url_small": "https://www.usainsurancerate.com/wp-content/uploads/Logos/the-hartford-48x48.png"
+  },
+  "Hastings Mutual": {
+    "company": "Hastings Mutual",
+    "url-slug": "hastings-mutual",
+    "img_url": "https://www.usainsurancerate.com/wp-content/uploads/Logos/hastings-mutual.png",
+    "img_url_small": "https://www.usainsurancerate.com/wp-content/uploads/Logos/hastings-mutual-48x48.png"
+  },
+  "Haulers": {
+    "company": "Haulers",
+    "url-slug": "haulers",
+    "img_url": "https://www.usainsurancerate.com/wp-content/uploads/Logos/haulers.png",
+    "img_url_small": "https://www.usainsurancerate.com/wp-content/uploads/Logos/haulers-48x48.png"
+  },
+  "Infinity": {
+    "company": "Infinity",
+    "url-slug": "infinity",
+    "img_url": "https://www.usainsurancerate.com/wp-content/uploads/Logos/infinity.png",
+    "img_url_small": "https://www.usainsurancerate.com/wp-content/uploads/Logos/infinity-48x48.png"
+  },
+  "Kemper": {
+    "company": "Kemper",
+    "url-slug": "kemper",
+    "img_url": "https://www.usainsurancerate.com/wp-content/uploads/Logos/kemper.png",
+    "img_url_small": "https://www.usainsurancerate.com/wp-content/uploads/Logos/kemper-48x48.png"
+  },
+  "Liberty Mutual": {
+    "company": "Liberty Mutual",
+    "url-slug": "liberty-mutual",
+    "img_url": "https://www.usainsurancerate.com/wp-content/uploads/Logos/liberty-mutual.png",
+    "img_url_small": "https://www.usainsurancerate.com/wp-content/uploads/Logos/liberty-mutual-48x48.png"
+  },
+  "Main Street America": {
+    "company": "Main Street America",
+    "url-slug": "main-street-america",
+    "img_url": "https://www.usainsurancerate.com/wp-content/uploads/Logos/main-street-america.png",
+    "img_url_small": "https://www.usainsurancerate.com/wp-content/uploads/Logos/main-street-america-48x48.png"
+  },
+  "MAPFRE": {
+    "company": "MAPFRE",
+    "url-slug": "mapfre",
+    "img_url": "https://www.usainsurancerate.com/wp-content/uploads/Logos/mapfre.png",
+    "img_url_small": "https://www.usainsurancerate.com/wp-content/uploads/Logos/mapfre-48x48.png"
+  },
+  "Mendota": {
+    "company": "Mendota",
+    "url-slug": "mendota",
+    "img_url": "https://www.usainsurancerate.com/wp-content/uploads/Logos/mendota.png",
+    "img_url_small": "https://www.usainsurancerate.com/wp-content/uploads/Logos/mendota-48x48.png"
+  },
+  "Merchants": {
+    "company": "Merchants",
+    "url-slug": "merchants",
+    "img_url": "https://www.usainsurancerate.com/wp-content/uploads/Logos/merchants.png",
+    "img_url_small": "https://www.usainsurancerate.com/wp-content/uploads/Logos/merchants-48x48.png"
+  },
+  "Mercury": {
+    "company": "Mercury",
+    "url-slug": "mercury",
+    "img_url": "https://www.usainsurancerate.com/wp-content/uploads/Logos/mercury.png",
+    "img_url_small": "https://www.usainsurancerate.com/wp-content/uploads/Logos/mercury-48x48.png"
+  },
+  "MetLife": {
+    "company": "MetLife",
+    "url-slug": "metlife",
+    "img_url": "https://www.usainsurancerate.com/wp-content/uploads/Logos/metlife.png",
+    "img_url_small": "https://www.usainsurancerate.com/wp-content/uploads/Logos/metlife-48x48.png"
+  },
+  "Nationwide": {
+    "company": "Nationwide",
+    "url-slug": "nationwide",
+    "img_url": "https://www.usainsurancerate.com/wp-content/uploads/Logos/nationwide.png",
+    "img_url_small": "https://www.usainsurancerate.com/wp-content/uploads/Logos/nationwide-48x48.png"
+  },
+  "NJ Manufacturers": {
+    "company": "NJ Manufacturers",
+    "url-slug": "nj-manufacturers",
+    "img_url": "https://www.usainsurancerate.com/wp-content/uploads/Logos/nj-manufacturers-insurance-co.png",
+    "img_url_small": "https://www.usainsurancerate.com/wp-content/uploads/Logos/nj-manufacturers-insurance-co-48x48.png"
+  },
+  "Occidental": {
+    "company": "Occidental",
+    "url-slug": "occidental",
+    "img_url": "https://www.usainsurancerate.com/wp-content/uploads/Logos/placeholder_occidental.png",
+    "img_url_small": "https://www.usainsurancerate.com/wp-content/uploads/Logos/placeholder_occidental-48x48.png"
+  },
+  "Oregon Mutual": {
+    "company": "Oregon Mutual",
+    "url-slug": "oregon-mutual",
+    "img_url": "https://www.usainsurancerate.com/wp-content/uploads/Logos/oregon-mutual.png",
+    "img_url_small": "https://www.usainsurancerate.com/wp-content/uploads/Logos/oregon-mutual-48x48.png"
+  },
+  "Patriot": {
+    "company": "Patriot",
+    "url-slug": "patriot",
+    "img_url": "https://www.usainsurancerate.com/wp-content/uploads/Logos/patriot.png",
+    "img_url_small": "https://www.usainsurancerate.com/wp-content/uploads/Logos/patriot-48x48.png"
+  },
+  "Pekin": {
+    "company": "Pekin",
+    "url-slug": "pekin",
+    "img_url": "https://www.usainsurancerate.com/wp-content/uploads/Logos/pekin.png",
+    "img_url_small": "https://www.usainsurancerate.com/wp-content/uploads/Logos/pekin-48x48.png"
+  },
+  "PEMCO": {
+    "company": "PEMCO",
+    "url-slug": "pemco",
+    "img_url": "https://www.usainsurancerate.com/wp-content/uploads/Logos/pemco.png",
+    "img_url_small": "https://www.usainsurancerate.com/wp-content/uploads/Logos/pemco-48x48.png"
+  },
+  "Peninsula": {
+    "company": "Peninsula",
+    "url-slug": "peninsula",
+    "img_url": "https://www.usainsurancerate.com/wp-content/uploads/Logos/peninsula.png",
+    "img_url_small": "https://www.usainsurancerate.com/wp-content/uploads/Logos/peninsula-48x48.png"
+  },
+  "Penn National": {
+    "company": "Penn National",
+    "url-slug": "penn-national",
+    "img_url": "https://www.usainsurancerate.com/wp-content/uploads/Logos/penn-national.png",
+    "img_url_small": "https://www.usainsurancerate.com/wp-content/uploads/Logos/penn-national-48x48.png"
+  },
+  "Philadelphia Insurance Companies": {
+    "company": "Philadelphia Insurance Companies",
+    "url-slug": "philadelphia-insurance-companies",
+    "img_url": "https://www.usainsurancerate.com/wp-content/uploads/Logos/philadelphia.png",
+    "img_url_small": "https://www.usainsurancerate.com/wp-content/uploads/Logos/philadelphia-48x48.png"
+  },
+  "Plymouth Rock": {
+    "company": "Plymouth Rock",
+    "url-slug": "plymouth-rock",
+    "img_url": "https://www.usainsurancerate.com/wp-content/uploads/Logos/plymouth-rock.png",
+    "img_url_small": "https://www.usainsurancerate.com/wp-content/uploads/Logos/plymouth-rock-48x48.png"
+  },
+  "Progressive": {
+    "company": "Progressive",
+    "url-slug": "progressive",
+    "img_url": "https://www.usainsurancerate.com/wp-content/uploads/Logos/progressive.png",
+    "img_url_small": "https://www.usainsurancerate.com/wp-content/uploads/Logos/progressive-48x48.png"
+  },
+  "SafeAuto": {
+    "company": "SafeAuto",
+    "url-slug": "safeauto",
+    "img_url": "https://www.usainsurancerate.com/wp-content/uploads/Logos/safeauto.png",
+    "img_url_small": "https://www.usainsurancerate.com/wp-content/uploads/Logos/safeauto-48x48.png"
+  },
+  "Safeco": {
+    "company": "Safeco",
+    "url-slug": "safeco",
+    "img_url": "https://www.usainsurancerate.com/wp-content/uploads/Logos/safeco.png",
+    "img_url_small": "https://www.usainsurancerate.com/wp-content/uploads/Logos/safeco-48x48.png"
+  },
+  "Safeway": {
+    "company": "Safeway",
+    "url-slug": "safeway",
+    "img_url": "https://www.usainsurancerate.com/wp-content/uploads/Logos/safeway.png",
+    "img_url_small": "https://www.usainsurancerate.com/wp-content/uploads/Logos/safeway-48x48.png"
+  },
+  "Secura": {
+    "company": "Secura",
+    "url-slug": "secura",
+    "img_url": "https://www.usainsurancerate.com/wp-content/uploads/Logos/secura.png",
+    "img_url_small": "https://www.usainsurancerate.com/wp-content/uploads/Logos/secura-48x48.png"
+  },
+  "Selective Insurance": {
+    "company": "Selective Insurance",
+    "url-slug": "selective-insurance",
+    "img_url": "https://www.usainsurancerate.com/wp-content/uploads/Logos/selective-insurance.png",
+    "img_url_small": "https://www.usainsurancerate.com/wp-content/uploads/Logos/selective-insurance-48x48.png"
+  },
+  "Shelter Insurance": {
+    "company": "Shelter Insurance",
+    "url-slug": "shelter-insurance",
+    "img_url": "https://www.usainsurancerate.com/wp-content/uploads/Logos/shelter-insurance.png",
+    "img_url_small": "https://www.usainsurancerate.com/wp-content/uploads/Logos/shelter-insurance-48x48.png"
+  },
+  "State Auto": {
+    "company": "State Auto",
+    "url-slug": "state-auto",
+    "img_url": "https://www.usainsurancerate.com/wp-content/uploads/Logos/state-auto.png",
+    "img_url_small": "https://www.usainsurancerate.com/wp-content/uploads/Logos/state-auto-48x48.png"
+  },
+  "State Farm": {
+    "company": "State Farm",
+    "url-slug": "state-farm",
+    "img_url": "https://www.usainsurancerate.com/wp-content/uploads/Logos/statefarm.png",
+    "img_url_small": "https://www.usainsurancerate.com/wp-content/uploads/Logos/statefarm-48x48.png"
+  },
+  "Titan": {
+    "company": "Titan",
+    "url-slug": "titan",
+    "img_url": "https://www.usainsurancerate.com/wp-content/uploads/Logos/titan.png",
+    "img_url_small": "https://www.usainsurancerate.com/wp-content/uploads/Logos/titan-48x48.png"
+  },
+  "Travelers": {
+    "company": "Travelers",
+    "url-slug": "travelers",
+    "img_url": "https://www.usainsurancerate.com/wp-content/uploads/Logos/travelers.png",
+    "img_url_small": "https://www.usainsurancerate.com/wp-content/uploads/Logos/travelers-48x48.png"
+  },
+  "USAA": {
+    "company": "USAA",
+    "url-slug": "usaa",
+    "img_url": "https://www.usainsurancerate.com/wp-content/uploads/Logos/usaa.png",
+    "img_url_small": "https://www.usainsurancerate.com/wp-content/uploads/Logos/usaa-48x48.png"
+  },
+  "Utica National": {
+    "company": "Utica National",
+    "url-slug": "utica-national",
+    "img_url": "https://www.usainsurancerate.com/wp-content/uploads/Logos/utica.png",
+    "img_url_small": "https://www.usainsurancerate.com/wp-content/uploads/Logos/utica-48x48.png"
+  },
+  "Victoria": {
+    "company": "Victoria",
+    "url-slug": "victoria",
+    "img_url": "https://www.usainsurancerate.com/wp-content/uploads/Logos/victoria.png",
+    "img_url_small": "https://www.usainsurancerate.com/wp-content/uploads/Logos/victoria-48x48.png"
+  },
+  "West Bend Mutual": {
+    "company": "West Bend Mutual",
+    "url-slug": "west-bend-mutual",
+    "img_url": "https://www.usainsurancerate.com/wp-content/uploads/Logos/west-bend-mutual.png",
+    "img_url_small": "https://www.usainsurancerate.com/wp-content/uploads/Logos/west-bend-mutual-48x48.png"
+  },
+  "Westfield": {
+    "company": "Westfield",
+    "url-slug": "westfield",
+    "img_url": "https://www.usainsurancerate.com/wp-content/uploads/Logos/westfield-insurance.png",
+    "img_url_small": "https://www.usainsurancerate.com/wp-content/uploads/Logos/westfield-insurance-48x48.png"
+  },
+  "Ameriprise": {
+    "company": "Ameriprise",
+    "url-slug": "ameriprise",
+    "img_url": "https://www.usainsurancerate.com/wp-content/uploads/Logos/ameriprise.png",
+    "img_url_small": "https://www.usainsurancerate.com/wp-content/uploads/Logos/ameriprise-48x48.png"
+  },
+  "Farm Bureau Financial Services": {
+    "company": "Farm Bureau Financial Services",
+    "url-slug": "farm-bureau-financial-services",
+    "img_url": "https://www.usainsurancerate.com/wp-content/uploads/Logos/farm-bureau-financial-services.png",
+    "img_url_small": "https://www.usainsurancerate.com/wp-content/uploads/Logos/farm-bureau-financial-services-48x48.png"
+  },
+  "Freedom National": {
+    "company": "Freedom National",
+    "url-slug": "freedom-national",
+    "img_url": "https://www.usainsurancerate.com/wp-content/uploads/Logos/freedom.png",
+    "img_url_small": "https://www.usainsurancerate.com/wp-content/uploads/Logos/freedom-48x48.png"
+  },
+  "Western General": {
+    "company": "Western General",
+    "url-slug": "western-general",
+    "img_url": "https://www.usainsurancerate.com/wp-content/uploads/Logos/western-general.png",
+    "img_url_small": "https://www.usainsurancerate.com/wp-content/uploads/Logos/western-general-48x48.png"
+  },
+  "United Auto": {
+    "company": "United Auto",
+    "url-slug": "united-auto",
+    "img_url": "https://www.usainsurancerate.com/wp-content/uploads/Logos/united.png",
+    "img_url_small": "https://www.usainsurancerate.com/wp-content/uploads/Logos/united-48x48.png"
+  },
+  "Legacy": {
+    "company": "Legacy",
+    "url-slug": "legacy",
+    "img_url": "https://www.usainsurancerate.com/wp-content/uploads/Logos/legacy.png",
+    "img_url_small": "https://www.usainsurancerate.com/wp-content/uploads/Logos/legacy-48x48.png"
+  },
+  "Access": {
+    "company": "Access",
+    "url-slug": "access",
+    "img_url": "https://www.usainsurancerate.com/wp-content/uploads/Logos/access.png",
+    "img_url_small": "https://www.usainsurancerate.com/wp-content/uploads/Logos/access-48x48.png"
+  },
+  "Alliance": {
+    "company": "Alliance",
+    "url-slug": "alliance",
+    "img_url": "https://www.usainsurancerate.com/wp-content/uploads/Logos/alliance-united.png",
+    "img_url_small": "https://www.usainsurancerate.com/wp-content/uploads/Logos/alliance-united-48x48.png"
+  },
+  "Anchor": {
+    "company": "Anchor",
+    "url-slug": "anchor",
+    "img_url": "https://www.usainsurancerate.com/wp-content/uploads/Logos/anchor.png",
+    "img_url_small": "https://www.usainsurancerate.com/wp-content/uploads/Logos/anchor-48x48.png"
+  },
+  "Green Path": {
+    "company": "Green Path",
+    "url-slug": "green-path",
+    "img_url": "https://www.usainsurancerate.com/wp-content/uploads/Logos/greenpath.png",
+    "img_url_small": "https://www.usainsurancerate.com/wp-content/uploads/Logos/greenpath-48x48.png"
+  },
+  "Reliant General": {
+    "company": "Reliant General",
+    "url-slug": "reliant-general",
+    "img_url": "https://www.usainsurancerate.com/wp-content/uploads/Logos/reliant.png",
+    "img_url_small": "https://www.usainsurancerate.com/wp-content/uploads/Logos/reliant-48x48.png"
+  },
+  "SCJ": {
+    "company": "SCJ",
+    "url-slug": "scj",
+    "img_url": "https://www.usainsurancerate.com/wp-content/uploads/Logos/sjc.png",
+    "img_url_small": "https://www.usainsurancerate.com/wp-content/uploads/Logos/sjc-48x48.png"
+  },
+  "Safety Insurance": {
+    "company": "Safety Insurance",
+    "url-slug": "safety-insurance",
+    "img_url": "https://www.usainsurancerate.com/wp-content/uploads/Logos/safety-insurance.png",
+    "img_url_small": "https://www.usainsurancerate.com/wp-content/uploads/Logos/safety-insurance-48x48.png"
+  },
+  "Arrowhead": {
+    "company": "Arrowhead",
+    "url-slug": "arrowhead",
+    "img_url": "https://www.usainsurancerate.com/wp-content/uploads/Logos/arrowhead.png",
+    "img_url_small": "https://www.usainsurancerate.com/wp-content/uploads/Logos/arrowhead-48x48.png"
+  },
+  "Aggressive": {
+    "company": "Aggressive",
+    "url-slug": "aggressive",
+    "img_url": "https://www.usainsurancerate.com/wp-content/uploads/Logos/aggressive-insurance.png",
+    "img_url_small": "https://www.usainsurancerate.com/wp-content/uploads/Logos/aggressive-insurance-48x48.png"
+  },
+  "Everest National": {
+    "company": "Everest National",
+    "url-slug": "everest-national",
+    "img_url": "https://www.usainsurancerate.com/wp-content/uploads/Logos/everest-national.png",
+    "img_url_small": "https://www.usainsurancerate.com/wp-content/uploads/Logos/everest-national-48x48.png"
+  },
+  "Personable": {
+    "company": "Personable",
+    "url-slug": "personable",
+    "img_url": "https://www.usainsurancerate.com/wp-content/uploads/Logos/personable-insurance.png",
+    "img_url_small": "https://www.usainsurancerate.com/wp-content/uploads/Logos/personable-insurance-48x48.png"
+  },
+  "Star Canyon": {
+    "company": "Star Canyon",
+    "url-slug": "star-canyon",
+    "img_url": "https://www.usainsurancerate.com/wp-content/uploads/Logos/star-canyon.png",
+    "img_url_small": "https://www.usainsurancerate.com/wp-content/uploads/Logos/star-canyon-48x48.png"
+  },
+  "Stillwater": {
+    "company": "Stillwater",
+    "url-slug": "stillwater",
+    "img_url": "https://www.usainsurancerate.com/wp-content/uploads/Logos/stillwater.png",
+    "img_url_small": "https://www.usainsurancerate.com/wp-content/uploads/Logos/stillwater-48x48.png"
+  },
+  "Workmen's": {
+    "company": "Workmen's",
+    "url-slug": "workmen's",
+    "img_url": "https://www.usainsurancerate.com/wp-content/uploads/Logos/workmens.png",
+    "img_url_small": "https://www.usainsurancerate.com/wp-content/uploads/Logos/workmens-48x48.png"
+  },
+  "Metromile": {
+    "company": "Metromile",
+    "url-slug": "metromile",
+    "img_url": "https://www.usainsurancerate.com/wp-content/uploads/Logos/metromile.png",
+    "img_url_small": "https://www.usainsurancerate.com/wp-content/uploads/Logos/metromile-48x48.png"
+  },
+  "Aspire General": {
+    "company": "Aspire General",
+    "url-slug": "aspire-general",
+    "img_url": "https://www.usainsurancerate.com/wp-content/uploads/Logos/aspire.png",
+    "img_url_small": "https://www.usainsurancerate.com/wp-content/uploads/Logos/aspire-48x48.png"
+  },
+  "Alfa": {
+    "company": "Alfa",
+    "url-slug": "alfa",
+    "img_url": "https://www.usainsurancerate.com/wp-content/uploads/Logos/alfa.png",
+    "img_url_small": "https://www.usainsurancerate.com/wp-content/uploads/Logos/alfa-48x48.png"
+  },
+  "ACCC": {
+    "company": "ACCC",
+    "url-slug": "accc",
+    "img_url": "https://www.usainsurancerate.com/wp-content/uploads/Logos/accc.png",
+    "img_url_small": "https://www.usainsurancerate.com/wp-content/uploads/Logos/accc-48x48.png"
+  },
+  "Acceptance": {
+    "company": "Acceptance",
+    "url-slug": "acceptance",
+    "img_url": "https://www.usainsurancerate.com/wp-content/uploads/Logos/acceptance.png",
+    "img_url_small": "https://www.usainsurancerate.com/wp-content/uploads/Logos/acceptance-48x48.png"
+  },
+  "Direct Auto": {
+    "company": "Direct Auto",
+    "url-slug": "direct-auto",
+    "img_url": "https://www.usainsurancerate.com/wp-content/uploads/Logos/direct-auto.png",
+    "img_url_small": "https://www.usainsurancerate.com/wp-content/uploads/Logos/direct-auto-48x48.png"
+  },
+  "Pronto": {
+    "company": "Pronto",
+    "url-slug": "pronto",
+    "img_url": "https://www.usainsurancerate.com/wp-content/uploads/Logos/pronto.png",
+    "img_url_small": "https://www.usainsurancerate.com/wp-content/uploads/Logos/pronto-48x48.png"
+  },
+  "Clearcover": {
+    "company": "Clearcover",
+    "url-slug": "clearcover",
+    "img_url": "https://www.usainsurancerate.com/wp-content/uploads/Logos/clearcover.png",
+    "img_url_small": "https://www.usainsurancerate.com/wp-content/uploads/Logos/clearcover-48x48.png"
+  },
+  "AARP": {
+    "company": "AARP",
+    "url-slug": "aarp",
+    "img_url": "https://www.usainsurancerate.com/wp-content/uploads/Logos/aarp.png",
+    "img_url_small": "https://www.usainsurancerate.com/wp-content/uploads/Logos/aarp-48x48.png"
+  },
+  "Horace Mann": {
+    "company": "Horace Mann",
+    "url-slug": "horace-mann",
+    "img_url": "https://www.usainsurancerate.com/wp-content/uploads/Logos/horace-mann.png",
+    "img_url_small": "https://www.usainsurancerate.com/wp-content/uploads/Logos/horace-mann-48x48.png"
+  },
+  "AssuranceAmerica": {
+    "company": "AssuranceAmerica",
+    "url-slug": "assuranceamerica",
+    "img_url": "https://www.usainsurancerate.com/wp-content/uploads/Logos/assurance-america.png",
+    "img_url_small": "https://www.usainsurancerate.com/wp-content/uploads/Logos/assurance-america-48x48.png"
+  },
+  "Foremost": {
+    "company": "Foremost",
+    "url-slug": "foremost",
+    "img_url": "https://www.usainsurancerate.com/wp-content/uploads/Logos/foremost.png",
+    "img_url_small": "https://www.usainsurancerate.com/wp-content/uploads/Logos/foremost-48x48.png"
+  },
+  "TSC Direct": {
+    "company": "TSC Direct",
+    "url-slug": "tsc-direct",
+    "img_url": "https://www.usainsurancerate.com/wp-content/uploads/Logos/tsc-direct.png",
+    "img_url_small": "https://www.usainsurancerate.com/wp-content/uploads/Logos/tsc-direct-48x48.png"
+  },
+  "Velox": {
+    "company": "Velox",
+    "url-slug": "velox",
+    "img_url": "https://www.usainsurancerate.com/wp-content/uploads/Logos/velox.png",
+    "img_url_small": "https://www.usainsurancerate.com/wp-content/uploads/Logos/velox-48x48.png"
+  },
+  "Wawanesa": {
+    "company": "Wawanesa",
+    "url-slug": "wawanesa",
+    "img_url": "https://www.usainsurancerate.com/wp-content/uploads/Logos/wawanesa.png",
+    "img_url_small": "https://www.usainsurancerate.com/wp-content/uploads/Logos/wawanesa-48x48.png"
+  },
+  "United Security Health & Casualty": {
+    "company": "United Security Health & Casualty",
+    "url-slug": "united-security-health-&-casualty",
+    "img_url": "https://www.usainsurancerate.com/wp-content/uploads/Logos/ushc.png",
+    "img_url_small": "https://www.usainsurancerate.com/wp-content/uploads/Logos/ushc-48x48.png"
+  },
+  "Root": {
+    "company": "Root",
+    "url-slug": "root",
+    "img_url": "https://www.usainsurancerate.com/wp-content/uploads/Logos/root.png",
+    "img_url_small": "https://www.usainsurancerate.com/wp-content/uploads/Logos/root-48x48.png"
+  },
+  "Commonwealth Casualty": {
+    "company": "Commonwealth Casualty",
+    "url-slug": "commonwealth-casualty",
+    "img_url": "https://www.usainsurancerate.com/wp-content/uploads/Logos/commonwealth.png",
+    "img_url_small": "https://www.usainsurancerate.com/wp-content/uploads/Logos/commonwealth-48x48.png"
+  },
+  "Apparent": {
+    "company": "Apparent",
+    "url-slug": "apparent",
+    "img_url": "https://www.usainsurancerate.com/wp-content/uploads/Logos/apparent-insurance.png",
+    "img_url_small": "https://www.usainsurancerate.com/wp-content/uploads/Logos/apparent-insurance-48x48.png"
+  },
+  "Verti": {
+    "company": "Verti",
+    "url-slug": "verti",
+    "img_url": "https://www.usainsurancerate.com/wp-content/uploads/Logos/verti.png",
+    "img_url_small": "https://www.usainsurancerate.com/wp-content/uploads/Logos/verti-48x48.png"
+  }
+}

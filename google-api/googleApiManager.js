@@ -30,9 +30,13 @@ const API = {
     async getLastRowByType(type){
         const rows = await this.getEntries();
         const headers = rows[0]._sheet.headerValues;
+        const headerIndexes = {};
+        headers.map((item, i)=>{
+            headerIndexes[item] = i;
+        });
         const rowsWithType = [];
         rows.map((row)=>{
-            if (row._rawData.includes(type)){
+            if (row._rawData[headerIndexes.type] === type){
                 rowsWithType.push(row._rawData);
             }
         });
