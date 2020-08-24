@@ -199,8 +199,8 @@
     "total_disability": false,
     "is_no_fault_state": false
   },
-  "Illions": {
-    "state": "Illions",
+  "Illinois": {
+    "state": "Illinois",
     "personal_injury_protection": false,
     "property_protection_insurance": false,
     "medical_payments": false,

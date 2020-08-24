@@ -40,87 +40,90 @@ if cities
                             td #{item.avg_annual_premium} $
 
 | [sc name="states_get_quotes_second" bg_class="#{bgClass}" state_title="#{stateTitle}" seal_img_url="#{sealUrl}"]
-.container.py-3
-    .row
-        .col
-            p.h2.text-uppercase Most reliable insurance companies in #{stateTitle}
-            p.lead
-                | Everybody is looking for the cheapest car insurance offers. But it is also important to find a company that will sufficiently cover your expenses in case of an accident. In this case we recommend you to take a look at our list of best insurance companies in #{stateTitle}. All organizations have a high level of financial strength, which means you can be sure about their ability to fulfill its policy and contractual obligations.
-            .row.text-center
-                each item in mostReliable
-                    if item.logo
-                        .col-md-3.m-auto
-                            p.px-5
-                                img.img-fluid(src=item.logo)
-.container.py-3
-    .row
-        .col
-            p.h2.text-uppercase Discounts for good drivers in #{stateTitle}
-            p.lead
-                | Good driving records can help you save money on car insurance premiums, companies use it as a way to determine the level of the driver&apos;s responsibility. Less risky driver is a more affordable customer for an insurance company.
-    .row
-        .col.text-center
-            p(style='font-size: 5em;')
-                span.rounded-circle
-                    i.fas.fa-car-alt
-            p.lead
-                b
-                    | Two or more cars
-                    br
-                    | up to 25% discount
-        .col.text-center
-            p(style='font-size: 5em;')
-                span.rounded-circle
-                    i.fas.fa-car-crash
-            p.lead
-                b
-                    | No accidents
-                    br
-                    | up to #{goodDrivers.no_accidents}% discount
-        .col.text-center
-            p(style='font-size: 5em;')
-                span.rounded-circle
-                    i.fas.fa-tachometer-alt
-            p.lead
-                b
-                    | No trafic tickets
-                    br
-                    | up to #{goodDrivers.no_trafic_tickets}% discount
-        .col.text-center
-            p(style='font-size: 5em;')
-                span.rounded-circle
-                    i.fas.fa-credit-card
-            p.lead
-                b
-                    | Good credit score
-                    br
-                    | up to #{goodDrivers.good_credit}% discount
-.container.py-3
-    .row
-        .col
-            p.h2.text-uppercase Car insurance for young drivers in #{stateTitle}
-            p.lead
-                | Young drivers across the U.S. pay more than others. Lack of driving experience entails various risks, that is why the cost of car insurance for such customers is about three times bigger than the national average and sometimes more.
-            table.table.table-sm.table-hover.table-borderless.table-striped
-                thead
-                    tr
-                        th.w-50 Age
-                        th(scope='col') Avg. Monthly Premium
-                tbody
+if mostReliable
+    .container.py-3
+        .row
+            .col
+                p.h2.text-uppercase Most reliable insurance companies in #{stateTitle}
+                p.lead
+                    | Everybody is looking for the cheapest car insurance offers. But it is also important to find a company that will sufficiently cover your expenses in case of an accident. In this case we recommend you to take a look at our list of best insurance companies in #{stateTitle}. All organizations have a high level of financial strength, which means you can be sure about their ability to fulfill its policy and contractual obligations.
+                .row.text-center
+                    each item in mostReliable
+                        if item.logo
+                            .col-md-3.m-auto
+                                p.px-5
+                                    img.img-fluid(src=item.logo)
+if goodDrivers
+    .container.py-3
+        .row
+            .col
+                p.h2.text-uppercase Discounts for good drivers in #{stateTitle}
+                p.lead
+                    | Good driving records can help you save money on car insurance premiums, companies use it as a way to determine the level of the driver&apos;s responsibility. Less risky driver is a more affordable customer for an insurance company.
+        .row
+            .col.text-center
+                p(style='font-size: 5em;')
+                    span.rounded-circle
+                        i.fas.fa-car-alt
+                p.lead
+                    b
+                        | Two or more cars
+                        br
+                        | up to 25% discount
+            .col.text-center
+                p(style='font-size: 5em;')
+                    span.rounded-circle
+                        i.fas.fa-car-crash
+                p.lead
+                    b
+                        | No accidents
+                        br
+                        | up to #{goodDrivers.no_accidents}% discount
+            .col.text-center
+                p(style='font-size: 5em;')
+                    span.rounded-circle
+                        i.fas.fa-tachometer-alt
+                p.lead
+                    b
+                        | No trafic tickets
+                        br
+                        | up to #{goodDrivers.no_trafic_tickets}% discount
+            .col.text-center
+                p(style='font-size: 5em;')
+                    span.rounded-circle
+                        i.fas.fa-credit-card
+                p.lead
+                    b
+                        | Good credit score
+                        br
+                        | up to #{goodDrivers.good_credit}% discount
+if youngDrivers
+    .container.py-3
+        .row
+            .col
+                p.h2.text-uppercase Car insurance for young drivers in #{stateTitle}
+                p.lead
+                    | Young drivers across the U.S. pay more than others. Lack of driving experience entails various risks, that is why the cost of car insurance for such customers is about three times bigger than the national average and sometimes more.
+                table.table.table-sm.table-hover.table-borderless.table-striped
+                    thead
                         tr
-                            td 16
-                            td #{youngDrivers.age16} $
-                        tr
-                            td 17
-                            td #{youngDrivers.age17} $
-                        tr
-                            td 18
-                            td #{youngDrivers.age18} $
-                        tr
-                            td 19
-                            td #{youngDrivers.age19} $
-            p.h3.text-uppercase Insurance rate decreases depending on age of driver
-            canvas#myChart
+                            th.w-50 Age
+                            th(scope='col') Avg. Monthly Premium
+                    tbody
+                            tr
+                                td 16
+                                td #{youngDrivers.age16} $
+                            tr
+                                td 17
+                                td #{youngDrivers.age17} $
+                            tr
+                                td 18
+                                td #{youngDrivers.age18} $
+                            tr
+                                td 19
+                                td #{youngDrivers.age19} $
+                p.h3.text-uppercase Insurance rate decreases depending on age of driver
+                canvas#myChart
 | [sc name="states_get_quotes_third" bg_class="#{bgClass}" state_title="#{stateTitle}" seal_img_url="#{sealUrl}"]
 .container.py-3
     .row

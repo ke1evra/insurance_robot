@@ -88,31 +88,39 @@ class StateDataManager {
                 return result;
             })(),
         };
-        data.mostReliable = (()=>{
-            const companies = states.tops[state];
-            const data = [];
-            companies.companies.map((item)=>{
-               data.push({
-                   company: item,
-                   logo: companiesLogos[item] !== undefined ? `${companiesLogos[item].img_url}` : null,
-               });
-            });
-            return data;
-        })();
+        if(states.tops[state]){
+            data.mostReliable = (()=>{
+                const companies = states.tops[state];
+                const data = [];
+                companies.companies.map((item)=>{
+                    data.push({
+                        company: item,
+                        logo: companiesLogos[item] !== undefined ? `${companiesLogos[item].img_url}` : null,
+                    });
+                });
+                return data;
+            })();
+        }
+
         // console.log(data.mostReliable);
-        data.goodDrivers = {
-            two_vehicles: 25,
-            no_trafic_tickets: Math.round(parseFloat(states.goodDriver[state]["no_trafic_tickets"]) * 100),
-            no_accidents: Math.round(parseFloat(states.goodDriver[state]["no_accidents"]) * 100),
-            good_credit: Math.round(parseFloat(states.goodDriver[state]["good_credit"]) * 100),
-        };
-        data.youngDrivers = {
-            chartData: `${(parseInt(states.young[state]["16"]) / 12).toFixed()},${(parseInt(states.young[state]["17"]) / 12).toFixed()},${(parseInt(states.young[state]["18"]) / 12).toFixed()},${(parseInt(states.young[state]["19"]) / 12).toFixed()}`,
-            age16: (parseInt(states.young[state]["16"]) / 12).toFixed(),
-            age17: (parseInt(states.young[state]["17"]) / 12).toFixed(),
-            age18: (parseInt(states.young[state]["18"]) / 12).toFixed(),
-            age19: (parseInt(states.young[state]["19"]) / 12).toFixed(),
-        };
+        if(states.goodDriver[state]){
+            data.goodDrivers = {
+                two_vehicles: 25,
+                no_trafic_tickets: Math.round(parseFloat(states.goodDriver[state]["no_trafic_tickets"]) * 100),
+                no_accidents: Math.round(parseFloat(states.goodDriver[state]["no_accidents"]) * 100),
+                good_credit: Math.round(parseFloat(states.goodDriver[state]["good_credit"]) * 100),
+            };
+        }
+        if(states.young[state]){
+            data.youngDrivers = {
+                chartData: `${(parseInt(states.young[state]["16"]) / 12).toFixed()},${(parseInt(states.young[state]["17"]) / 12).toFixed()},${(parseInt(states.young[state]["18"]) / 12).toFixed()},${(parseInt(states.young[state]["19"]) / 12).toFixed()}`,
+                age16: (parseInt(states.young[state]["16"]) / 12).toFixed(),
+                age17: (parseInt(states.young[state]["17"]) / 12).toFixed(),
+                age18: (parseInt(states.young[state]["18"]) / 12).toFixed(),
+                age19: (parseInt(states.young[state]["19"]) / 12).toFixed(),
+            };
+        }
+
         data.ticketAffection = (() => {
                 const data = [];
                 let duiRateIncreasePercent = {};
@@ -143,6 +151,8 @@ class StateDataManager {
             requirements: states.minReqs[state],
             text: states.minReqs.text,
         };
+        console.log(state);
+        console.log(data.minReqs);
         data.regsAndDUI = states.regsAndDUI[statesList[state].abbr];
         //data.insurify = states.insurify[state];
         this.data = data;

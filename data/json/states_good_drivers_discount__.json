@@ -29,8 +29,8 @@
 		"no_accidents": 0.7564,
 		"good_credit": 0
 	},
-	"Illions": {
-		"state": "Illions",
+	"Illinois": {
+		"state": "Illinois",
 		"no_trafic_tickets": 0.1623,
 		"no_accidents": 0.3276,
 		"good_credit": 0.503
