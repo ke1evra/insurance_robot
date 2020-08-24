@@ -30,16 +30,12 @@ if cities
                 thead
                     tr
                         th Rank
-                        th
                         th Company
                         th Avg. Monthly Premium
                 tbody
                     each item in cheapest.companies
                         tr(title=`${item.company_name} average annual premium in ${stateTitle} is about ${item.avg_annual_premium * 12} $`)
                             td(scope='row') #{item.rank}
-                            td
-                                if item.logo
-                                    img.img-fluid.pull-right(src=item.logo, style="max-height: 24px;")
                             td #{item.company_name}
                             td #{item.avg_annual_premium} $
 
@@ -56,19 +52,6 @@ if cities
                         .col-md-3.m-auto
                             p.px-5
                                 img.img-fluid(src=item.logo)
-                            //p.h4=item.company
-            //table.table.table-sm.table-hover.table-borderless
-            //    thead
-            //        tr
-            //            th
-            //            th(scope='col') Company
-            //    tbody
-            //        each item in mostReliable
-            //            tr.border-top
-            //                td
-            //                    if item.logo
-            //                        img.img-fluid.pull-right(src=item.logo, style="max-height: 24px;")
-            //                td #{item.company}
 .container.py-3
     .row
         .col

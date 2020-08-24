@@ -15,9 +15,7 @@ const timeoutSetting = {
     timeout: 180 * 1000
 };
 
-const parsePostId = (url) => {
-    return url.replace('https://www.usainsurancerate.com/wp-admin/post.php?post=', '').replace('&action=edit', '');
-};
+
 
 const robot = {
     page: null,
@@ -71,8 +69,8 @@ const robot = {
     async checkState(type){
         const row = await gApi.getLastRowByType(type);
         if(row){
-            console.log(`Последняя добавленная страница id: ${row.page_id}, entry: ${row.entry}, время: ${row.time}`.green);
-            return row.entry;
+            console.log(`Последняя добавленная страница id: ${row.page_id}, entry: ${row.entry}, entry_index: ${row.entry_index}, время: ${row.time}`.green);
+            return parseInt(row.entry_index);
         }else {
             console.log('Добавленных страниц не найдено'.red);
             return null;
@@ -84,6 +82,9 @@ const robot = {
             throw new Error('Не заданы обязательны параметры entry, type, robotId');
         }
         try{
+            const parsePostId = (url) => {
+                return url.replace('https://www.usainsurancerate.com/wp-admin/post.php?post=', '').replace('&action=edit', '');
+            };
             const startTime = moment();
             console.log(`------------\nДобавляем страницу, entry: ${pageData.entry}`.green);
             await this.gotoUrl(creds.newPageUrl);
@@ -110,6 +111,7 @@ const robot = {
                 type: pageData.type,
                 page_title: pageData.title,
                 entry: pageData.entry,
+                robot_id: pageData.robotId,
                 entry_index: pageData.entry_index,
                 time: moment().format('DD.MM.YYYY HH:mm:ss'),
             });
@@ -118,15 +120,32 @@ const robot = {
         }catch (e) {
             console.log('Ошибка при заполнении страницы', e)
         }finally {
-            await this.browser.close();
+            // await this.browser.close();
         }
     },
-    async fillPages(pagesData, page = this.page){
-        for(let pageData of pagesData){
-            await this.fillPage(pageData);
+
+    async fillPages(dataManager, options = null){
+        try{
+            await robot.openPage();
+            await robot.login();
+            // Object.keys(dataManager.entryList).map(async function(key){
+            //     const data = dataManager.setPageData(key);
+            //     await this.fillPage(data);
+            // });
+            for(let key in dataManager.entryList){
+                const data = dataManager.setPageData(key);
+                // console.log(data);
+                await this.fillPage(data);
+            }
+        }catch (e) {
+            console.log('Ошибка при заполнении страницы', e)
+        }finally {
+            await this.browser.close();
         }
 
     }
+
+
 };
 
 
