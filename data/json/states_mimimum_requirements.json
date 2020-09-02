@@ -2047,7 +2047,7 @@
     "property_damage": "Property Damage",
     "bodily_injury_per_person": "Bodily injury per person",
     "bodily_injury_per_accident": "Bodily injury per accident",
-    "uninsured_or_underinsured_motorist": "Uninsured/Underinsured Motorist",
+    "uninsured_underinsured_motorist": "Uninsured/Underinsured Motorist",
     "property_damage_per_accident": "Property damage per accident",
     "optional_coverage": "Optional coverage",
     "comprehensive": "Comprehensive",

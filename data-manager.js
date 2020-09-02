@@ -151,8 +151,6 @@ class StateDataManager {
             requirements: states.minReqs[state],
             text: states.minReqs.text,
         };
-        console.log(state);
-        console.log(data.minReqs);
         data.regsAndDUI = states.regsAndDUI[statesList[state].abbr];
         //data.insurify = states.insurify[state];
         this.data = data;
