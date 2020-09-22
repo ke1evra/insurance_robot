@@ -1,6 +1,7 @@
 const { GoogleSpreadsheet } = require('google-spreadsheet');
-const doc = new GoogleSpreadsheet('1HPNjomVBNH5obgsjnbE2KFnTK686AzNIl1wrUI9VAgk');
 
+// const doc = new GoogleSpreadsheet('1HPNjomVBNH5obgsjnbE2KFnTK686AzNIl1wrUI9VAgk'); // insurance
+const doc = new GoogleSpreadsheet('1J65yWlHlLPCRpQNoeVh0Cd9NsZeLrf-JdclZTjXCRjA'); // kr
 const API = {
     async login(){
         return await doc.useServiceAccountAuth(require('./dolgovapi-955301a7af9e.json'));
@@ -29,6 +30,7 @@ const API = {
     },
     async getLastRowByType(type){
         const rows = await this.getEntries();
+        // console.log(rows);
         const headers = rows[0]._sheet.headerValues;
         const headerIndexes = {};
         headers.map((item, i)=>{

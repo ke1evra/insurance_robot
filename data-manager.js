@@ -16,7 +16,7 @@ const states = {
 
 };
 
-class StateDataManager {
+class DataManager {
     constructor() {
         this.data = null;
         this.pageData = {};
@@ -221,4 +221,4 @@ class StateDataManager {
 
 
 
-module.exports = StateDataManager;
+module.exports = DataManager;

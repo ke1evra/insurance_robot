@@ -1,12 +1,12 @@
 const c = require('./common.js');
 const robot = require('./robot.js');
 const moment = require('moment');
-const StateDataManager = require('./data-manager.js');
-const dataManager = new StateDataManager(); // установить dataManager который генерирует данные для добавления страниц
-const entryList = c.rfSync('./data/json/states_list.json'); // установить файл со списком для добавления страниц
+const DataManager = require('./kr-data-manager.js');
+const dataManager = new DataManager(); // установить dataManager который генерирует данные для добавления страниц
+const entryList = c.rfSync('./data/kr/kr-goods.json'); // установить файл со списком для добавления страниц
 
-dataManager.setPageType('state'); // устанавливаем тип страниц
-dataManager.setPageDataSetter(dataManager.setStatePageData);
+dataManager.setPageType('tovar'); // устанавливаем тип страниц
+dataManager.setPageDataSetter(dataManager.setItemPageData);
 dataManager.setEntryList(entryList);
 
 // Опции для разделения на несолько компов, чтобы добавлять одновременно
