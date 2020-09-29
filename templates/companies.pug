@@ -1,84 +1,178 @@
 .company-page-wrap
     .mb-48px
-        h2 What is #{company}?
-        p xxxxccvf
-            | [company name] was founded in [Founded where?] in [year] by [&rcy;&ocy;&dcy;&icy;&tcy;&iecy;&lcy;&softcy;&scy;&kcy;&acy;&yacy; &kcy;&ocy;&mcy;&pcy;&acy;&ncy;&icy;&yacy;, &iecy;&scy;&lcy;&icy; &iecy;&scy;&tcy;&softcy;]. Now it works as a [type] company with a staff of [number of empoyees] employees. The headquarters is located in [Head Quoters].
-    p.h4.pb-2.mb-2.text-uppercase.colorOrange In what states can you find [company name]?
+        h2 What is [company name]?
+        p
+            | #{company} was founded in #{founded} in #{founded_year}. The headquarters is located in #{headquaters}.
+    p.h4.pb-2.mb-2.text-uppercase.colorOrange In what states can you find #{company}?
     p [company name] provides insurance services in [number] states:
-    .row.mb-64px
-        .col-6.col-md-4.col-lg-2.text-dark.mb-2
-            .state-company-icon-box
-                img(src='https://www.usainsurancerate.com/wp-content/uploads/Seals/800px-Seal_of_Idaho.svg.png' alt='ID')
-                | Idaho
-        .col-6.col-md-4.col-lg-2.text-dark.mb-2
-            .state-company-icon-box
-                img(src='https://www.usainsurancerate.com/wp-content/uploads/Seals/800px-Iowa-StateSeal.svg.png' alt='ID')
-                | Iowa
-        .col-6.col-md-4.col-lg-2.text-dark.mb-2
-            .state-company-icon-box
-                img(src='https://www.usainsurancerate.com/wp-content/uploads/Seals/800px-Seal_of_Alabama.svg.png' alt='ID')
-                | Alabama
-        .col-6.col-md-4.col-lg-2.text-dark.mb-2
-            .state-company-icon-box
-                img(src='https://www.usainsurancerate.com/wp-content/uploads/Seals/800px-Alaska-StateSeal.svg.png' alt='ID')
-                | Alaska
-        .col-6.col-md-4.col-lg-2.text-dark.mb-2
-            .state-company-icon-box
-                img(src='https://www.usainsurancerate.com/wp-content/uploads/Seals/800px-Arizona-StateSeal.svg.png' alt='ID')
-                | Arizona
-        .col-6.col-md-4.col-lg-2.text-dark.mb-2
-            .state-company-icon-box
-                img(src='https://www.usainsurancerate.com/wp-content/uploads/Seals/800px-Seal_of_Arkansas.svg.png' alt='ID')
-                | Arkansas
-        .col-6.col-md-4.col-lg-2.text-dark.mb-2
-            .state-company-icon-box
-                img(src='https://www.usainsurancerate.com/wp-content/uploads/Seals/800px-Seal_of_Idaho.svg.png' alt='ID')
-                | Idaho
-        .col-6.col-md-4.col-lg-2.text-dark.mb-2
-            .state-company-icon-box
-                img(src='https://www.usainsurancerate.com/wp-content/uploads/Seals/800px-Iowa-StateSeal.svg.png' alt='ID')
-                | Iowa
-        .col-6.col-md-4.col-lg-2.text-dark.mb-2
-            .state-company-icon-box
-                img(src='https://www.usainsurancerate.com/wp-content/uploads/Seals/800px-Seal_of_Alabama.svg.png' alt='ID')
-                | Alabama
-        .col-6.col-md-4.col-lg-2.text-dark.mb-2
-            .state-company-icon-box
-                img(src='https://www.usainsurancerate.com/wp-content/uploads/Seals/800px-Alaska-StateSeal.svg.png' alt='ID')
-                | Alaska
-        .col-6.col-md-4.col-lg-2.text-dark.mb-2
-            .state-company-icon-box
-                img(src='https://www.usainsurancerate.com/wp-content/uploads/Seals/800px-Arizona-StateSeal.svg.png' alt='ID')
-                | Arizona
-        .col-6.col-md-4.col-lg-2.text-dark.mb-2
-            .state-company-icon-box
-                img(src='https://www.usainsurancerate.com/wp-content/uploads/Seals/800px-Seal_of_Arkansas.svg.png' alt='ID')
-                | Arkansas
-        .col-6.col-md-4.col-lg-2.text-dark.mb-2
-            .state-company-icon-box
-                img(src='https://www.usainsurancerate.com/wp-content/uploads/Seals/800px-Seal_of_Idaho.svg.png' alt='ID')
-                | Idaho
-        .col-6.col-md-4.col-lg-2.text-dark.mb-2
-            .state-company-icon-box
-                img(src='https://www.usainsurancerate.com/wp-content/uploads/Seals/800px-Iowa-StateSeal.svg.png' alt='ID')
-                | Iowa
-        .col-6.col-md-4.col-lg-2.text-dark.mb-2
-            .state-company-icon-box
-                img(src='https://www.usainsurancerate.com/wp-content/uploads/Seals/800px-Seal_of_Alabama.svg.png' alt='ID')
-                | Alabama
-        .col-6.col-md-4.col-lg-2.text-dark.mb-2
-            .state-company-icon-box
-                img(src='https://www.usainsurancerate.com/wp-content/uploads/Seals/800px-Alaska-StateSeal.svg.png' alt='ID')
-                | Alaska
-        .col-6.col-md-4.col-lg-2.text-dark.mb-2
-            .state-company-icon-box
-                img(src='https://www.usainsurancerate.com/wp-content/uploads/Seals/800px-Arizona-StateSeal.svg.png' alt='ID')
-                | Arizona
-        .col-6.col-md-4.col-lg-2.text-dark.mb-2
-            .state-company-icon-box
-                img(src='https://www.usainsurancerate.com/wp-content/uploads/Seals/800px-Seal_of_Arkansas.svg.png' alt='ID')
-                | Arkansas
-    h3.h2.text-center.mb-32px What are [company name] ratings?
+    .row
+        .col
+            .h2
+                | #{company} US states presence
+    .row.text-center
+        .col-10.col-md-6.m-auto
+            .d-flex.justify-content-between
+                .square
+                .square
+                .square
+                .square
+                .square
+                .square
+                .square
+                .square
+                .square
+                .square
+                .square
+                .square
+                    .content.one ME
+            .d-flex.justify-content-between
+                .square
+                .square
+                .square
+                .square
+                .square
+                .square
+                .square
+                    .content.one WI
+                .square
+                .square
+                .square
+                .square
+                    .content.one VT
+                .square
+                    .content.one NH
+            .d-flex.justify-content-between
+                .square
+                .square
+                    .content WA
+                .square
+                    .content ID
+                .square
+                    .content MT
+                .square
+                    .content ND
+                .square
+                    .content MN
+                .square
+                    .content IL
+                .square
+                    .content MI
+                .square
+                .square
+                    .content.one NY
+                .square
+                    .content.both MA
+                .square
+            .d-flex.justify-content-between
+                .square
+                .square
+                    .content OR
+                .square
+                    .content NV
+                .square
+                    .content WY
+                .square
+                    .content SD
+                .square
+                    .content IA
+                .square
+                    .content IN
+                .square
+                    .content OH
+                .square
+                    .content PA
+                .square
+                    .content.both NJ
+                .square
+                    .content.both CT
+                .square
+                    .content.both RI
+            .d-flex.justify-content-between
+                .square
+                .square
+                    .content CA
+                .square
+                    .content UT
+                .square
+                    .content CO
+                .square
+                    .content NE
+                .square
+                    .content MO
+                .square
+                    .content KY
+                .square
+                    .content WV
+                .square
+                    .content.both VA
+                .square
+                    .content.both MD
+                .square
+                    .content.both DE
+                .square
+            .d-flex.justify-content-between
+                .square
+                .square
+                .square
+                    .content AZ
+                .square
+                    .content NM
+                .square
+                    .content KS
+                .square
+                    .content AR
+                .square
+                    .content TN
+                .square
+                    .content NC
+                .square
+                    .content.two SC
+                .square
+                    .content.both DC
+                .square
+                .square
+            .d-flex.justify-content-between
+                .square
+                    .content.one AK
+                .square
+                .square
+                .square
+                .square
+                    .content OK
+                .square
+                    .content LA
+                .square
+                    .content MS
+                .square
+                    .content.two AL
+                .square
+                    .content.two GA
+                .square
+                .square
+                .square
+            .d-flex.justify-content-between
+                .square
+                    .content HI
+                .square
+                .square
+                .square
+                .square
+                    .content TX
+                .square
+                .square
+                .square
+                .square
+                .square
+                    .content.two FL
+                .square
+                .square
+    .row.py-5
+        .col.text-center
+            p.d-flex.justify-content-between
+                span
+                    i.fas.fa-square(style='color: #6d9eeb')
+                    |  #{company}
+    h3.h2.mb-32px What are #{company} ratings?
     .row.company-box-rating-wrap.mb-32px
         .col-6.col-md-4.col-lg-2.mb-3
             .company-box-rating
