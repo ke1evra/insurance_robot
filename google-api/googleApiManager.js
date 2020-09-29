@@ -1,7 +1,7 @@
 const { GoogleSpreadsheet } = require('google-spreadsheet');
 
-// const doc = new GoogleSpreadsheet('1HPNjomVBNH5obgsjnbE2KFnTK686AzNIl1wrUI9VAgk'); // insurance
-const doc = new GoogleSpreadsheet('1J65yWlHlLPCRpQNoeVh0Cd9NsZeLrf-JdclZTjXCRjA'); // kr
+const doc = new GoogleSpreadsheet('1HPNjomVBNH5obgsjnbE2KFnTK686AzNIl1wrUI9VAgk'); // insurance
+// const doc = new GoogleSpreadsheet('1J65yWlHlLPCRpQNoeVh0Cd9NsZeLrf-JdclZTjXCRjA'); // kr
 const API = {
     async login(){
         return await doc.useServiceAccountAuth(require('./dolgovapi-955301a7af9e.json'));

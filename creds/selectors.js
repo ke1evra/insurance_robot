@@ -28,6 +28,7 @@ module.exports = {
             select: '#parent_id',
             values: {
                 autoInsurance: '62',
+                companies: '827',
             }
         },
         publishBtn: '#publish',

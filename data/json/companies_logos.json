@@ -89,9 +89,9 @@
     "img_url": "https://www.usainsurancerate.com/wp-content/uploads/Logos/badger-mutual.png",
     "img_url_small": "https://www.usainsurancerate.com/wp-content/uploads/Logos/badger-mutual-48x48.png"
   },
-  "Brethren Mutual": {
-    "company": "Brethren Mutual",
-    "url-slug": "brethren-mutual",
+  "Brethren": {
+    "company": "Brethren",
+    "url-slug": "brethren",
     "img_url": "https://www.usainsurancerate.com/wp-content/uploads/Logos/brethren-mutual.png",
     "img_url_small": "https://www.usainsurancerate.com/wp-content/uploads/Logos/brethren-mutual-48x48.png"
   },
@@ -107,13 +107,13 @@
     "img_url": "https://www.usainsurancerate.com/wp-content/uploads/Logos/carnegie-insurance.png",
     "img_url_small": "https://www.usainsurancerate.com/wp-content/uploads/Logos/carnegie-insurance-48x48.png"
   },
-  "Celina": {
-    "company": "Celina",
-    "url-slug": "celina",
+  "Celina Insurance": {
+    "company": "Celina Insurance",
+    "url-slug": "celina-insurance",
     "img_url": "https://www.usainsurancerate.com/wp-content/uploads/Logos/celina.png",
     "img_url_small": "https://www.usainsurancerate.com/wp-content/uploads/Logos/celina-48x48.png"
   },
-  "Central Insurance Companies": {
+  "Central Insurance": {
     "company": "Central Insurance Companies",
     "url-slug": "central-insurance-companies",
     "img_url": "https://www.usainsurancerate.com/wp-content/uploads/Logos/central-mutual-of-ohio.png",
@@ -131,13 +131,13 @@
     "img_url": "https://www.usainsurancerate.com/wp-content/uploads/Logos/chubb.png",
     "img_url_small": "https://www.usainsurancerate.com/wp-content/uploads/Logos/chubb-48x48.png"
   },
-  "Cincinnati Insurance Companies": {
+  "Cincinnati Insurance": {
     "company": "Cincinnati Insurance Companies",
     "url-slug": "cincinnati-insurance-companies",
     "img_url": "https://www.usainsurancerate.com/wp-content/uploads/Logos/cincinnati-insurance-companies.png",
     "img_url_small": "https://www.usainsurancerate.com/wp-content/uploads/Logos/cincinnati-insurance-companies-48x48.png"
   },
-  "Columbia": {
+  "Columbia Insurance": {
     "company": "Columbia",
     "url-slug": "columbia",
     "img_url": "https://www.usainsurancerate.com/wp-content/uploads/Logos/columbia.png",
@@ -161,7 +161,7 @@
     "img_url": "https://www.usainsurancerate.com/wp-content/uploads/Logos/cornerstone-national.png",
     "img_url_small": "https://www.usainsurancerate.com/wp-content/uploads/Logos/cornerstone-national-48x48.png"
   },
-  "Country Financial": {
+  "Country": {
     "company": "Country Financial",
     "url-slug": "country-financial",
     "img_url": "https://www.usainsurancerate.com/wp-content/uploads/Logos/country-financial.png",
@@ -191,7 +191,7 @@
     "img_url": "https://www.usainsurancerate.com/wp-content/uploads/Logos/dairyland.png",
     "img_url_small": "https://www.usainsurancerate.com/wp-content/uploads/Logos/dairyland-48x48.png"
   },
-  "Donegal": {
+  "Donegal Mutual": {
     "company": "Donegal",
     "url-slug": "donegal",
     "img_url": "https://www.usainsurancerate.com/wp-content/uploads/Logos/donegal.png",
@@ -221,7 +221,7 @@
     "img_url": "https://www.usainsurancerate.com/wp-content/uploads/Logos/encompass.png",
     "img_url_small": "https://www.usainsurancerate.com/wp-content/uploads/Logos/encompass-48x48.png"
   },
-  "Erie Insurance": {
+  "Erie": {
     "company": "Erie Insurance",
     "url-slug": "erie-insurance",
     "img_url": "https://www.usainsurancerate.com/wp-content/uploads/Logos/erie-insurance.png",
@@ -779,10 +779,10 @@
     "img_url": "https://www.usainsurancerate.com/wp-content/uploads/Logos/root.png",
     "img_url_small": "https://www.usainsurancerate.com/wp-content/uploads/Logos/root-48x48.png"
   },
-  "Commonwealth Casualty": {
-    "company": "Commonwealth Casualty",
-    "url-slug": "commonwealth-casualty",
-    "img_url": "https://www.usainsurancerate.com/wp-content/uploads/Logos/commonwealth.png",
+  "Commonwealth": {
+    "company": "Commonwealth",
+    "url-slug": "commonwealth",
+    "img_url": "https://www.usмainsurancerate.com/wp-content/uploads/Logos/commonwealth.png",
     "img_url_small": "https://www.usainsurancerate.com/wp-content/uploads/Logos/commonwealth-48x48.png"
   },
   "Apparent": {

@@ -1,15 +1,16 @@
-const c = require('./common.js');
+const c = require('../common.js');
+
 
 
 class DataManager {
     constructor() {
         this.data = null;
         this.pageData = {};
+        this.robotId = 1;
+        // this.renderPageFields();
+
     }
 
-    setPageDataSetter(dataSetter){
-        this.setPageData = dataSetter;
-    }
 
     setPageType(type){
         this.pageType = type;
@@ -32,6 +33,36 @@ class DataManager {
         });
         // console.log(filteredList);
         this.entryList = filteredList;
+    }
+
+    setPageData(){
+
+    }
+
+
+    renderDescription(){
+        // console.log(html);
+
+    }
+
+    renderTitle(){
+
+    }
+
+    renderMetaTitle(){
+
+    }
+
+    renderMetaDescription(){
+
+    }
+
+    renderPageFields(){
+        this.renderDescription();
+        this.renderTitle();
+        this.renderMetaTitle();
+        this.renderMetaDescription();
+
     }
 }
 

@@ -10,14 +10,14 @@ module.exports = {
     },
     rfSync(path){
         return JSON.parse(fs.readFileSync(path, "utf8"));
-    },
-    wfSync(data, path){
-        try {
-            let json = JSON.stringify(data, null, 4);
-            fs.writeFileSync(path, json, 'utf8');
-        } catch (e) {
-            console.log('Ошибка при записи файла');
-            console.log(e);
+},
+wfSync(data, path){
+    try {
+        let json = JSON.stringify(data, null, 4);
+        fs.writeFileSync(path, json, 'utf8');
+    } catch (e) {
+        console.log('Ошибка при записи файла');
+        console.log(e);
         } finally {
 
         }

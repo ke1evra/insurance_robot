@@ -165,7 +165,7 @@ const robot = {
 
             const startTime = moment();
             console.log(`------------\nДобавляем страницу, entry: ${pageData.entry}`.green);
-            await this.fillPageStoreLand(page, pageData);
+            await this.fillPageWordPress(page, pageData);
             const consumedTime = moment().diff(startTime, 'seconds');
             console.log(`Страница сохранена. Затрачено времени: ${consumedTime} сек.`.green);
         }catch (e) {

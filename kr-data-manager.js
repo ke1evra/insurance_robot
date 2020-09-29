@@ -1,4 +1,4 @@
-const DataManager = require('./new-data-manager.js');
+const DataManager = require('./data-manager/new-data-manager.js');
 const c = require('./common.js');
 const krData = c.rfSync('./data/kr/kr.json');
 const krGoodsData = c.rfSync('./data/kr/kr-goods.json');
@@ -24,8 +24,6 @@ class KrDataManager extends DataManager{
                     prop_image: item.prop_image,
                 };
             }
-
-
         });
         this.data = filteredData;
         // console.log(this.data);

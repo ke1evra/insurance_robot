@@ -1,0 +1,1802 @@
+{
+  "21st Century": {
+    "company": "21st Century",
+    "moodies": "A2",
+    "am_best_financial_strength": "A",
+    "am_best_long_time": "a",
+    "bbb": "A+",
+    "website": "www.21st.com",
+    "phone": "1 (888) 244-6163",
+    "address": "21st Century Insurance, 3 Beaver Valley Road, Wilmington, DE 19803"
+  },
+  "Access": {
+    "company": "Access",
+    "moodies": "B2",
+    "am_best_financial_strength": "NR",
+    "am_best_long_time": "nr",
+    "bbb": null,
+    "website": null,
+    "phone": null,
+    "address": null
+  },
+  "Acuity": {
+    "company": "Acuity",
+    "moodies": "Baa1",
+    "am_best_financial_strength": "A+",
+    "am_best_long_time": "aa",
+    "bbb": null,
+    "website": "www.myacuity.com",
+    "phone": "1 (703) 766-0977",
+    "address": "11710 Plaza America Drive Suite 700 Reston, VA 20190 United States"
+  },
+  "Affirmative": {
+    "company": "Affirmative",
+    "moodies": "Caa2",
+    "am_best_financial_strength": "NR",
+    "am_best_long_time": "nr",
+    "bbb": "NR",
+    "website": "affirmative.com",
+    "phone": "1 (800) 877-0226",
+    "address": "4450 Sojourn Dr Ste 500, Addison, TX, 75001-5094 United States"
+  },
+  "AIG": {
+    "company": "AIG",
+    "moodies": "B2",
+    "am_best_financial_strength": null,
+    "am_best_long_time": "bbb",
+    "bbb": "C",
+    "website": "www.aig.com",
+    "phone": "1 (347) 493-2228",
+    "address": "175 Water St NEW YORK, NY 10038 United States"
+  },
+  "ALFA": {
+    "company": "ALFA",
+    "moodies": "Baa2",
+    "am_best_financial_strength": "A",
+    "am_best_long_time": "a",
+    "bbb": null,
+    "website": "www.alfainsurance.com",
+    "phone": "1 (800) 964-2532",
+    "address": "2108 East South Blvd Montgomery, AL 36116 United States"
+  },
+  "Allied": {
+    "company": "Allied",
+    "moodies": "Baa2",
+    "am_best_financial_strength": "A+",
+    "am_best_long_time": "aa-",
+    "bbb": "A",
+    "website": "www.alliedequip.com",
+    "phone": "1 (734) 665-4419",
+    "address": "240 Metty Drive, Ste. D, Ann Arbor, Michigan 48106 United States"
+  },
+  "Allstate Insurance Review": {
+    "company": "Allstate Insurance Review",
+    "moodies": "Aa3",
+    "am_best_financial_strength": "A+",
+    "am_best_long_time": "aa",
+    "bbb": "A+",
+    "website": "www.allstate.com",
+    "phone": "1 (800) 255-7828",
+    "address": "PO Box 660636, Dallas, TX 75266"
+  },
+  "American Family": {
+    "company": "American Family",
+    "moodies": "Aa3",
+    "am_best_financial_strength": "A",
+    "am_best_long_time": "a+",
+    "bbb": "A+",
+    "website": "www.amfam.com",
+    "phone": "1 (800) 692-6326",
+    "address": "6000 American Pkwy., Madison, Wisconsin 53718"
+  },
+  "American Freedom": {
+    "company": "American Freedom",
+    "moodies": "A1",
+    "am_best_financial_strength": "A+",
+    "am_best_long_time": "aa-",
+    "bbb": null,
+    "website": "www.americanfreedomins.com",
+    "phone": "1 (847) 758-9300",
+    "address": "1699 Wall St, Suite #600, Mount Prospect, IL 60056"
+  },
+  "American Independent": {
+    "company": "American Independent",
+    "moodies": "Ba3",
+    "am_best_financial_strength": "NR",
+    "am_best_long_time": "nr",
+    "bbb": "C+",
+    "website": "www.americanindependentinsurancegroup.com",
+    "phone": "1 (702) 240-2558",
+    "address": "70 East Horizon Ridge, Suite 110 | Henderson, NV 89002"
+  },
+  "American National": {
+    "company": "American National",
+    "moodies": "Aa3",
+    "am_best_financial_strength": "A",
+    "am_best_long_time": "a+",
+    "bbb": "NR",
+    "website": "www.americannational.com",
+    "phone": "1 (409) 766-6537",
+    "address": "1 Moody Plaza Galveston, TX 77550"
+  },
+  "Ameriprise": {
+    "company": "Ameriprise",
+    "moodies": "A3",
+    "am_best_financial_strength": "A",
+    "am_best_long_time": "a+",
+    "bbb": "A+",
+    "website": "www.ameriprise.com",
+    "phone": "1 (800) 862-7919",
+    "address": "70100 Ameriprise Financial Center, Minneapolis, MN 55474"
+  },
+  "Amica Insurance Review": {
+    "company": "Amica Insurance Review",
+    "moodies": "A1",
+    "am_best_financial_strength": "A+",
+    "am_best_long_time": "aa-",
+    "bbb": null,
+    "website": "www.amica.com",
+    "phone": "1 (800) 242-6422",
+    "address": "100 Amica Way, Lincoln, RI 02865"
+  },
+  "Arbella": {
+    "company": "Arbella",
+    "moodies": null,
+    "am_best_financial_strength": "A-",
+    "am_best_long_time": "a-",
+    "bbb": "A+",
+    "website": "www.arbella.com",
+    "phone": "1 (800) 272-3552",
+    "address": "1100 Crown Colony Dr, Quincy, MA, 02169-0957"
+  },
+  "Atlantic States Insurance": {
+    "company": "Atlantic States Insurance",
+    "moodies": null,
+    "am_best_financial_strength": "A",
+    "am_best_long_time": "a",
+    "bbb": "A+",
+    "website": "www.donegalgroup.com",
+    "phone": "1 (800) 877-0600",
+    "address": "1195 River Road PO Box 302 Marietta, PA 17547"
+  },
+  "AAA": {
+    "company": "AAA",
+    "moodies": null,
+    "am_best_financial_strength": "A-",
+    "am_best_long_time": "a-",
+    "bbb": "A+",
+    "website": "autoclubsouth.aaa.com",
+    "phone": "1 (813) 289-5000",
+    "address": "1515 North Westshore Blvd Tampa, FL 33607"
+  },
+  "Auto-Owners": {
+    "company": "Auto-Owners",
+    "moodies": "Ba2",
+    "am_best_financial_strength": "A++",
+    "am_best_long_time": "aa+",
+    "bbb": "A+",
+    "website": "www.auto-owners.com",
+    "phone": "1 (517) 323-1200",
+    "address": "6101 Anacapri Blvd, Lansing, MI, 48917-3994"
+  },
+  "ACCC Insurance Company": {
+    "company": "ACCC Insurance Company",
+    "moodies": null,
+    "am_best_financial_strength": "NR",
+    "am_best_long_time": "nr",
+    "bbb": "F",
+    "website": "acccinsurance.com",
+    "phone": "1 (888) 823-0888",
+    "address": "390 Benmar Dr Ste 225, Houston, TX, 77060-2924"
+  },
+  "ACE American Pool": {
+    "company": "ACE American Pool",
+    "moodies": "A2",
+    "am_best_financial_strength": "A++",
+    "am_best_long_time": "aa+",
+    "bbb": null,
+    "website": null,
+    "phone": null,
+    "address": null
+  },
+  "Alliance United": {
+    "company": "Alliance United",
+    "moodies": "Aa3",
+    "am_best_financial_strength": "NR",
+    "am_best_long_time": "nr",
+    "bbb": "A+",
+    "website": "allianceunited.com",
+    "phone": "1 (800) 508-5833",
+    "address": "9121 Oakdale Ave, Chatsworth, CA 91311"
+  },
+  "Allmerica": {
+    "company": "Allmerica",
+    "moodies": "Ba1",
+    "am_best_financial_strength": "A",
+    "am_best_long_time": "a+",
+    "bbb": "A+",
+    "website": "www.allmerica.com",
+    "phone": "1 (508) 855-1000",
+    "address": "440 Lincoln Street, Worcester, Massachusetts 01653"
+  },
+  "AmWINS Heritage": {
+    "company": "AmWINS Heritage",
+    "moodies": "B1",
+    "am_best_financial_strength": null,
+    "am_best_long_time": null,
+    "bbb": null,
+    "website": "www.amwins.com",
+    "phone": "1 (704) 943-2000",
+    "address": "4725 Piedmont Row Dr Ste 600, Charlotte, NC, 28210-4283 United States"
+  },
+  "Arrowhead": {
+    "company": "Arrowhead",
+    "moodies": "Caa1",
+    "am_best_financial_strength": null,
+    "am_best_long_time": null,
+    "bbb": "A+",
+    "website": "www.arrowheadgrp.com",
+    "phone": null,
+    "address": "701 B St Ste 2100, San Diego, CA, 92101-8197 United States"
+  },
+  "Auto Club Group": {
+    "company": "Auto Club Group",
+    "moodies": null,
+    "am_best_financial_strength": "A-",
+    "am_best_long_time": "a-",
+    "bbb": "A+",
+    "website": "www.michigan.aaa.com",
+    "phone": "1 (800) 222-6424",
+    "address": "1 Auto Club Drive Dearborn, MI 48126 United States"
+  },
+  "Automobile Club of Missouri": {
+    "company": "Automobile Club of Missouri",
+    "moodies": null,
+    "am_best_financial_strength": "A+",
+    "am_best_long_time": "aa",
+    "bbb": null,
+    "website": "www.aaamissouri.com",
+    "phone": "1 (314) 523-7350",
+    "address": "12901 North 40 Drive St Louis, MO 63141 United States"
+  },
+  "Bear River": {
+    "company": "Bear River",
+    "moodies": null,
+    "am_best_financial_strength": "A-",
+    "am_best_long_time": "a-",
+    "bbb": null,
+    "website": "www.bearrivermutual.com",
+    "phone": "1 (801) 267-5000",
+    "address": "778 E Winchester St, Salt Lake City, UT, 84107-7565 United States"
+  },
+  "Bristol West": {
+    "company": "Bristol West",
+    "moodies": "A3",
+    "am_best_financial_strength": "A",
+    "am_best_long_time": "a",
+    "bbb": "A+",
+    "website": "www.bristolwest.com",
+    "phone": "1 (888) 888-0080",
+    "address": "900 South Pine Island Road Plantation, FL 33324 United States"
+  },
+  "Buckeye": {
+    "company": "Buckeye",
+    "moodies": "B1",
+    "am_best_financial_strength": "B",
+    "am_best_long_time": "bb+",
+    "bbb": null,
+    "website": "www.buckeye-ins.com",
+    "phone": "1 (937) 778-5000",
+    "address": "One Heritage Place, Piqua, Ohio 45356"
+  },
+  "CAIC": {
+    "company": "CAIC",
+    "moodies": null,
+    "am_best_financial_strength": "A",
+    "am_best_long_time": "a+",
+    "bbb": null,
+    "website": "www.caicworksite.com",
+    "phone": "1 (866) 849-0011",
+    "address": "2801 Devine St, Columbia, SC 29205, United States"
+  },
+  "Cal Casualty": {
+    "company": "Cal Casualty",
+    "moodies": null,
+    "am_best_financial_strength": "B+",
+    "am_best_long_time": "bbb-",
+    "bbb": null,
+    "website": "www.calcas.com",
+    "phone": "1 (866) 680-5143",
+    "address": "1900 Alameda De Las Pulgas San Mateo, CA 94403"
+  },
+  "California Capital": {
+    "company": "California Capital",
+    "moodies": null,
+    "am_best_financial_strength": "A-",
+    "am_best_long_time": "a-",
+    "bbb": "NR",
+    "website": "www.ciginsurance.com",
+    "phone": "1 (800) 682-9255",
+    "address": "2300 Garden Road Monterey, CA 93940 United States"
+  },
+  "Cameron Insurance": {
+    "company": "Cameron Insurance",
+    "moodies": "A3",
+    "am_best_financial_strength": "B",
+    "am_best_long_time": "bb+",
+    "bbb": "A+",
+    "website": "www.cameron-insurance.com",
+    "phone": "1 (800) 326-6511",
+    "address": "214 McElwain Drive Cameron, MO 64429 United States"
+  },
+  "Celina Insurance": {
+    "company": "Celina Insurance",
+    "moodies": "A1",
+    "am_best_financial_strength": "A-",
+    "am_best_long_time": "a-",
+    "bbb": "A+",
+    "website": "www2.celinainsurance.com",
+    "phone": "1 (800) 552.5181",
+    "address": "1 Insurance Square, Celina, OH 45822"
+  },
+  "Central Insurance": {
+    "company": "Central Insurance",
+    "moodies": null,
+    "am_best_financial_strength": "A",
+    "am_best_long_time": "a+",
+    "bbb": "A+",
+    "website": "www.central-insurance.com",
+    "phone": "1 (419) 238-1010",
+    "address": "800 S Washington St, Van Wert, OH, 45891 United States"
+  },
+  "Chubb": {
+    "company": "Chubb",
+    "moodies": "Aa3",
+    "am_best_financial_strength": "A++",
+    "am_best_long_time": "aa+",
+    "bbb": "D-",
+    "website": "www.chubb.com",
+    "phone": "1 (212) 827-4400",
+    "address": "11133 Avenue OF The Americas, New York, NY, 10019 United States"
+  },
+  "Cincinnati Insurance": {
+    "company": "Cincinnati Insurance",
+    "moodies": "A3",
+    "am_best_financial_strength": "A+",
+    "am_best_long_time": "aa",
+    "bbb": "NR",
+    "website": "www.cinfin.com",
+    "phone": "1 (513) 870-2000",
+    "address": "6200 South Gilmore Road Fairfield, OH 45014 United States"
+  },
+  "Clearcover": {
+    "company": "Clearcover",
+    "moodies": null,
+    "am_best_financial_strength": "NR",
+    "am_best_long_time": "nr",
+    "bbb": "A+",
+    "website": "clearcover.com",
+    "phone": "1 (855) 444-1875",
+    "address": "415 North Dearborn Chicago, IL 60654 United States"
+  },
+  "Colorado Farm Bureau": {
+    "company": "Colorado Farm Bureau",
+    "moodies": null,
+    "am_best_financial_strength": "A+",
+    "am_best_long_time": "aa-",
+    "bbb": "A+",
+    "website": "www.coloradofarmbureau.com",
+    "phone": "1 (303) 749.7500",
+    "address": "9177 E Mineral Cir, Centennial, CO 80112, United States"
+  },
+  "Columbia Insurance": {
+    "company": "Columbia Insurance",
+    "moodies": "Aa1",
+    "am_best_financial_strength": "A++",
+    "am_best_long_time": "aaa",
+    "bbb": "A+",
+    "website": "www.colinsgrp.com",
+    "phone": "1 (402) 330-5600",
+    "address": "10820 Harney Street Omaha, NE 68154 United States"
+  },
+  "Commerce Insurance": {
+    "company": "Commerce Insurance",
+    "moodies": "A2",
+    "am_best_financial_strength": "A",
+    "am_best_long_time": "a",
+    "bbb": "A+",
+    "website": "commerceinsurance.com",
+    "phone": "1 (800) 922-8276",
+    "address": "211 Main Street Webster, MA 01570 United States"
+  },
+  "Concord": {
+    "company": "Concord",
+    "moodies": "Aa2",
+    "am_best_financial_strength": "A",
+    "am_best_long_time": "a+",
+    "bbb": "A+",
+    "website": "www.concordgroupinsurance.com",
+    "phone": "1 (603) 224-4086",
+    "address": "4 Bouton St Concord, NH, 03301 United States"
+  },
+  "Co-Operative Insurance": {
+    "company": "Co-Operative Insurance",
+    "moodies": "Baa2",
+    "am_best_financial_strength": "A",
+    "am_best_long_time": "a",
+    "bbb": "A+",
+    "website": "www.co-opinsurance.co.uk",
+    "phone": "44 (845) 3000-374",
+    "address": "Miller Street Manchester, M60 0AL United Kingdom"
+  },
+  "Country": {
+    "company": "Country",
+    "moodies": null,
+    "am_best_financial_strength": "A+",
+    "am_best_long_time": "aa-",
+    "bbb": null,
+    "website": "www.countryfinancial.com",
+    "phone": "1 (866) 268-6879",
+    "address": "1701 Towanda Ave, Bloomington, IL, 61701-2057 United States"
+  },
+  "Countryway Insurance": {
+    "company": "Countryway Insurance",
+    "moodies": null,
+    "am_best_financial_strength": "A",
+    "am_best_long_time": "a",
+    "bbb": "A+",
+    "website": "www.countryway.com",
+    "phone": "1 (315) 216-7113",
+    "address": "224 Harrison St Ste 800, Syracuse, NY, 13202-3133 United States"
+  },
+  "CSE": {
+    "company": "CSE",
+    "moodies": null,
+    "am_best_financial_strength": "A-",
+    "am_best_long_time": "a-",
+    "bbb": "A",
+    "website": "cseinsurance.com",
+    "phone": "1 (415) 274-7800",
+    "address": "PO Box 8041, Walnut Creek, California, 94596, United States"
+  },
+  "Capital Insurance Group": {
+    "company": "Capital Insurance Group",
+    "moodies": "Baa3",
+    "am_best_financial_strength": "A-",
+    "am_best_long_time": "a-",
+    "bbb": "A+",
+    "website": "www.ciginsurance.com",
+    "phone": "1 (831) 233-5500",
+    "address": "2300 Garden Road, Monterey, CA 93940, United States"
+  },
+  "CSAA": {
+    "company": "CSAA",
+    "moodies": null,
+    "am_best_financial_strength": "A",
+    "am_best_long_time": "a+",
+    "bbb": "A-",
+    "website": "csaa-insurance.aaa.com",
+    "phone": "1 (800) 207-3618",
+    "address": "3055 Oak Road, Walnut Creek, CA 94597, United States"
+  },
+  "Dairyland": {
+    "company": "Dairyland",
+    "moodies": "A3",
+    "am_best_financial_strength": "A+",
+    "am_best_long_time": "aa-",
+    "bbb": "A+",
+    "website": "www.dairylandinsurance.com",
+    "phone": "1 (800) 334-0090",
+    "address": "1800 N Point Dr, Stevens Point, WI, 54481-1253 United States"
+  },
+  "Direct Auto": {
+    "company": "Direct Auto",
+    "moodies": null,
+    "am_best_financial_strength": "A",
+    "am_best_long_time": "a+",
+    "bbb": "A+",
+    "website": "www.directauto.com",
+    "phone": "1 (407) 297-8737",
+    "address": "6325 N Orange Blossom Trl Ste 129Orlando FL 32810 United States"
+  },
+  "Donegal Mutual": {
+    "company": "Donegal Mutual",
+    "moodies": null,
+    "am_best_financial_strength": "A",
+    "am_best_long_time": "a",
+    "bbb": "A",
+    "website": "www.donegalgroup.com",
+    "phone": "1 (800) 877-0600",
+    "address": "1195 River Road Marietta, PA 17547 United States"
+  },
+  "Electric Insurance Company": {
+    "company": "Electric Insurance Company",
+    "moodies": "Aaa",
+    "am_best_financial_strength": "A",
+    "am_best_long_time": "a+",
+    "bbb": "A+",
+    "website": "eic.electricinsurance.com",
+    "phone": "1 (800) 342-5342",
+    "address": "75 Sam Fonzo Dr, Beverly, MA, 01915 United States"
+  },
+  "Elephant": {
+    "company": "Elephant",
+    "moodies": null,
+    "am_best_financial_strength": "NR",
+    "am_best_long_time": "nr",
+    "bbb": "A+",
+    "website": "www.elephant.com",
+    "phone": "1 (844) 937-5353",
+    "address": "9950 Mayland Dr # 400, Glen Allen, VA, 23059 United States"
+  },
+  "EMC": {
+    "company": "EMC",
+    "moodies": null,
+    "am_best_financial_strength": "A",
+    "am_best_long_time": "bbb+",
+    "bbb": "A+",
+    "website": "www.emcins.com",
+    "phone": "1 (515) 280-2511",
+    "address": "717 Mulberry St, Des Moines, IA, 50309 United States"
+  },
+  "Empower": {
+    "company": "Empower",
+    "moodies": null,
+    "am_best_financial_strength": "NR",
+    "am_best_long_time": "nr",
+    "bbb": "A+",
+    "website": "www.empowerins.com",
+    "phone": "1 (877) 437-5007",
+    "address": "6030 Lake Worth Blvd, Fort Worth, TX 76135 United States"
+  },
+  "Erie": {
+    "company": "Erie",
+    "moodies": "Aa2",
+    "am_best_financial_strength": "A+",
+    "am_best_long_time": "aa",
+    "bbb": "A+",
+    "website": "www.erieinsurance.com",
+    "phone": "1 (800) 458-0811",
+    "address": "100 Erie Insurance Place Erie, PA 16530 United States"
+  },
+  "Esurance": {
+    "company": "Esurance",
+    "moodies": null,
+    "am_best_financial_strength": "A+",
+    "am_best_long_time": "aa",
+    "bbb": "A-",
+    "website": "www.esurance.com",
+    "phone": "1 (800) 378-7262",
+    "address": "650 Davis St, San Francisco, CA, 94111 United States"
+  },
+  "Encompass": {
+    "company": "Encompass",
+    "moodies": null,
+    "am_best_financial_strength": "A+",
+    "am_best_long_time": "aa",
+    "bbb": "NR",
+    "website": "www.encompassinsurance.com",
+    "phone": "1 (312) 224-7000",
+    "address": "3100 Sanders Road Suite K4 Northbrook, IL 60062 United States"
+  },
+  "Farm Bureau Mutual": {
+    "company": "Farm Bureau Mutual",
+    "moodies": null,
+    "am_best_financial_strength": "A-",
+    "am_best_long_time": "a-",
+    "bbb": "A+",
+    "website": "www.scfbins.com",
+    "phone": "1 (800) 799-7500",
+    "address": "724 Knox Abbott Drive, Cayce, SC 29033 United States"
+  },
+  "Farmers": {
+    "company": "Farmers",
+    "moodies": "A2",
+    "am_best_financial_strength": null,
+    "am_best_long_time": "a",
+    "bbb": "A+",
+    "website": "www.farmers.com",
+    "phone": "1 (800) 435-7764",
+    "address": "6301 Owensmouth Avenue, Woodland Hills, Los Angeles, California, United States"
+  },
+  "Farmers Mutual of Nebraska": {
+    "company": "Farmers Mutual of Nebraska",
+    "moodies": null,
+    "am_best_financial_strength": "A",
+    "am_best_long_time": "a+",
+    "bbb": "A+",
+    "website": "www.fmne.com",
+    "phone": "1 (402) 434-8300",
+    "address": "1220 Lincoln Mall, Lincoln, NE, United States"
+  },
+  "Farmers Union Insurance": {
+    "company": "Farmers Union Insurance",
+    "moodies": null,
+    "am_best_financial_strength": "A-",
+    "am_best_long_time": "a-",
+    "bbb": "A+",
+    "website": "fumic.com",
+    "phone": "1 (800) 366-8331",
+    "address": "201 W Lake Ave, Napoleon, ND, 58561-7120 United States"
+  },
+  "First Chicago": {
+    "company": "First Chicago",
+    "moodies": "Aa3",
+    "am_best_financial_strength": "B-",
+    "am_best_long_time": "bb-",
+    "bbb": "A+",
+    "website": "www.firstchicagoinsurance.com",
+    "phone": "1 (708) 552-4400",
+    "address": "6640 South Cicero Avenue Bedford Park, IL 60638 United States"
+  },
+  "Foremost": {
+    "company": "Foremost",
+    "moodies": null,
+    "am_best_financial_strength": "A",
+    "am_best_long_time": "a",
+    "bbb": "A+",
+    "website": "www.foremost.com",
+    "phone": "1 (800) 527-3905",
+    "address": "5600 Beechtree Ln SE, Caledonia, MI, 49316 United States"
+  },
+  "Frankenmuth": {
+    "company": "Frankenmuth",
+    "moodies": null,
+    "am_best_financial_strength": "A",
+    "am_best_long_time": "a+",
+    "bbb": "A+",
+    "website": "www.fmins.com",
+    "phone": "1 (800) 234-4433",
+    "address": "1 Mutual Avenue, Frankenmuth, MI 48787, United States"
+  },
+  "Frankenmuth": {
+    "company": "Freedom National",
+    "moodies": null,
+    "am_best_financial_strength": "NR",
+    "am_best_long_time": "nr",
+    "bbb": "A+",
+    "website": "www.freedomnational.com",
+    "phone": "1 (888) 542-4222",
+    "address": "8855 Research Dr. Irvine, CA 92618, United States"
+  },
+  "Farm Bureau Ins of MI": {
+    "company": "Farm Bureau Ins of MI",
+    "moodies": null,
+    "am_best_financial_strength": "A-",
+    "am_best_long_time": "a-",
+    "bbb": null,
+    "website": "www.farmbureauinsurance-mi.com",
+    "phone": "1 (877) 324-6764",
+    "address": "7373 W Saginaw Hwy, Lansing, MI, 48917-1124 United States"
+  },
+  "Farm Bureau of ID Group": {
+    "company": "Farm Bureau of ID Group",
+    "moodies": null,
+    "am_best_financial_strength": "A-",
+    "am_best_long_time": "a-",
+    "bbb": null,
+    "website": "www.idahofarmbureauinsurance.com",
+    "phone": null,
+    "address": null
+  },
+  "GAINSCO": {
+    "company": "GAINSCO",
+    "moodies": null,
+    "am_best_financial_strength": null,
+    "am_best_long_time": null,
+    "bbb": "A+",
+    "website": "www.gainsco.com",
+    "phone": "1 (866) 424-672",
+    "address": "3333 Lee Pkwy Ste 1200, Dallas, TX, 75219-5134 United States"
+  },
+  "GEICO Insurance Review": {
+    "company": "GEICO Insurance Review",
+    "moodies": "Aa1",
+    "am_best_financial_strength": "A++",
+    "am_best_long_time": "aaa",
+    "bbb": "A+",
+    "website": "www.geico.com",
+    "phone": "1 (301) 986-3175",
+    "address": "5260 Western Avenue Chevy Chase, MD 20815 United States"
+  },
+  "Georgia Farm Bureau": {
+    "company": "Georgia Farm Bureau",
+    "moodies": null,
+    "am_best_financial_strength": "B+",
+    "am_best_long_time": "bbb-",
+    "bbb": "NR",
+    "website": "www.gfb.org",
+    "phone": "1 (800) 342-1192",
+    "address": "1620 Bass Road, P.O. Box 7068, Macon, GA 31209"
+  },
+  "Grange": {
+    "company": "Grange",
+    "moodies": null,
+    "am_best_financial_strength": "A",
+    "am_best_long_time": "a+",
+    "bbb": "A+",
+    "website": "www.grangeinsurance.com",
+    "phone": "1 (614) 445-2900",
+    "address": "650 South Front Street Columbus, OH 43206 United States"
+  },
+  "Grange Mutual": {
+    "company": "Grange Mutual",
+    "moodies": null,
+    "am_best_financial_strength": "NR",
+    "am_best_long_time": "nr",
+    "bbb": "A+",
+    "website": "www.grangeinsurance.com",
+    "phone": "1 (800) 422-0550",
+    "address": "671 South High Street Columbus, OH 43206 United States"
+  },
+  "Grinnell Mutual": {
+    "company": "Grinnell Mutual",
+    "moodies": null,
+    "am_best_financial_strength": "A",
+    "am_best_long_time": "a+",
+    "bbb": "A+",
+    "website": "www.grinnellmutual.com",
+    "phone": "1 (800) 362-2041",
+    "address": "4215 Highway 146 South PO Box 790 Grinnell, IA 50112 United States"
+  },
+  "General Agents Group": {
+    "company": "General Agents Group",
+    "moodies": null,
+    "am_best_financial_strength": null,
+    "am_best_long_time": null,
+    "bbb": null,
+    "website": null,
+    "phone": null,
+    "address": null
+  },
+  "General Casualty": {
+    "company": "General Casualty",
+    "moodies": null,
+    "am_best_financial_strength": "A",
+    "am_best_long_time": "a+",
+    "bbb": "B",
+    "website": "www.generalcasualty.com",
+    "phone": "1 (844) 723-2524",
+    "address": null
+  },
+  "GMAC Insurance Group": {
+    "company": "GMAC Insurance Group",
+    "moodies": null,
+    "am_best_financial_strength": null,
+    "am_best_long_time": null,
+    "bbb": null,
+    "website": "gmacinsurance.com",
+    "phone": "1 (800) 325-1190",
+    "address": "Winston-Salem, NC 27102 United States"
+  },
+  "Hanover": {
+    "company": "Hanover",
+    "moodies": "Baa2",
+    "am_best_financial_strength": "A",
+    "am_best_long_time": "a+",
+    "bbb": "A+",
+    "website": "www.hanover.com",
+    "phone": "1 (800)628-0250",
+    "address": "440 Lincoln St, Worcester, MA 01653 United States"
+  },
+  "Harleysville": {
+    "company": "Harleysville",
+    "moodies": "A2",
+    "am_best_financial_strength": "A+",
+    "am_best_long_time": "aa-",
+    "bbb": "A+",
+    "website": "www.harleysvilleinsurance.com",
+    "phone": "1 (215) 256-5000",
+    "address": "355 Maple Avenue Harleysville, PA 19438 United States"
+  },
+  "Hastings Mutual": {
+    "company": "Hastings Mutual",
+    "moodies": "Ba1",
+    "am_best_financial_strength": "A",
+    "am_best_long_time": "a+",
+    "bbb": "A+",
+    "website": "www.hastingsmutual.com",
+    "phone": "1 (800) 442-8277",
+    "address": "404 E Woodlawn Ave, Hastings, MI 49058 United States"
+  },
+  "Hallmark Insurance Group": {
+    "company": "Hallmark Insurance Group",
+    "moodies": null,
+    "am_best_financial_strength": null,
+    "am_best_long_time": "bbb- u",
+    "bbb": "NR",
+    "website": "www.hallmarkinsurancegroup.com",
+    "phone": "1 (703) 491-8060",
+    "address": "12751 Marblestone Drive # S-220, Woodbridge, VA 22192 United States"
+  },
+  "Hartford": {
+    "company": "Hartford",
+    "moodies": "A1",
+    "am_best_financial_strength": "A+",
+    "am_best_long_time": "aa-",
+    "bbb": "A+",
+    "website": "www.thehartford.com",
+    "phone": "1 (800) 243-5860",
+    "address": "One Hartford Plaza, Hartford Connecticut 06155, United States"
+  },
+  "Home State Ins Group": {
+    "company": "Home State Ins Group",
+    "moodies": null,
+    "am_best_financial_strength": null,
+    "am_best_long_time": null,
+    "bbb": null,
+    "website": "www.homestate.net",
+    "phone": "1 (254) 776-4521",
+    "address": "PO Box 8036 Waco, TX 76714 United States"
+  },
+  "Idaho Farm Bureau": {
+    "company": "Idaho Farm Bureau",
+    "moodies": null,
+    "am_best_financial_strength": "A-",
+    "am_best_long_time": "a-",
+    "bbb": "A+",
+    "website": "www.idahofb.org",
+    "phone": "1 (208) 232-7914",
+    "address": "275 Tierra Dr, Pocatello, ID 83201, United States"
+  },
+  "IMT Insurance": {
+    "company": "IMT Insurance",
+    "moodies": null,
+    "am_best_financial_strength": "A",
+    "am_best_long_time": "a",
+    "bbb": null,
+    "website": "www.imtins.com",
+    "phone": "1 (800) 274-3531",
+    "address": "7825 Mills Civic Pkwy Ste 1, West Des Moines, IA, 50266 United States"
+  },
+  "Indiana Farmers Mutual": {
+    "company": "Indiana Farmers Mutual",
+    "moodies": null,
+    "am_best_financial_strength": "A",
+    "am_best_long_time": "a",
+    "bbb": "A-",
+    "website": "insurance.indianafarmers.com",
+    "phone": "1 (800) 477-1660",
+    "address": "10 West 106th Street, Indianapolis, IN 46290, United States"
+  },
+  "Infinity": {
+    "company": "Infinity",
+    "moodies": "A3",
+    "am_best_financial_strength": "A-",
+    "am_best_long_time": "a-",
+    "bbb": "A-",
+    "website": "www.infinityauto.com",
+    "phone": "1 (800) 782-1020",
+    "address": "2201 4th Avenue North Birmingham, AL 35203 United States"
+  },
+  "Iowa Mutual": {
+    "company": "Iowa Mutual",
+    "moodies": null,
+    "am_best_financial_strength": "A-",
+    "am_best_long_time": "a-",
+    "bbb": "A+",
+    "website": "www.iowamutual.com",
+    "phone": "1 (800) 456-5259",
+    "address": "509 9th Street PO Box 290 Dewitt, IA 52742 United States"
+  },
+  "Kemper Auto": {
+    "company": "Kemper Auto",
+    "moodies": "Baa3",
+    "am_best_financial_strength": "A-",
+    "am_best_long_time": "a-",
+    "bbb": "NR",
+    "website": "www.kemper.com",
+    "phone": "1 (866) 860-9348",
+    "address": "200 E Randolph St Ste 3300, Chicago, IL, 60601-6509 United States"
+  },
+  "Kentucky Farm Bureau": {
+    "company": "Kentucky Farm Bureau",
+    "moodies": null,
+    "am_best_financial_strength": "A",
+    "am_best_long_time": "a+",
+    "bbb": "NR",
+    "website": "www.kyfb.com",
+    "phone": "1 (502) 495-7750",
+    "address": "9201 Bunsen Parkway, Louisville, KY 40220 United States"
+  },
+  "Liberty Mutual": {
+    "company": "Liberty Mutual",
+    "moodies": "A2",
+    "am_best_financial_strength": "A",
+    "am_best_long_time": "a",
+    "bbb": "A+",
+    "website": "www.libertymutual.com",
+    "phone": "1 (617) 357-9500",
+    "address": "175 Berkeley Street, Boston, Massachusetts 02116"
+  },
+  "Lighthouse": {
+    "company": "Lighthouse",
+    "moodies": "B2",
+    "am_best_financial_strength": "NR",
+    "am_best_long_time": "nr",
+    "bbb": "NR",
+    "website": "www.lighthousequotes.com",
+    "phone": "1 (866) 230-0222",
+    "address": "6150 Oak Tree Blvd Independence, OH 44131 United States"
+  },
+  "Loya Insurance": {
+    "company": "Loya Insurance",
+    "moodies": null,
+    "am_best_financial_strength": "NR",
+    "am_best_long_time": "nr",
+    "bbb": "A+",
+    "website": "www.fredloya.com",
+    "phone": "1 (888) 248-8787",
+    "address": "1800 Lee Trevino El Paso, TX 79936 United States"
+  },
+  "MEEMIC": {
+    "company": "MEEMIC",
+    "moodies": null,
+    "am_best_financial_strength": "A-",
+    "am_best_long_time": "a-",
+    "bbb": "A+",
+    "website": "www.meemic.com",
+    "phone": "1 (888) 463-3642",
+    "address": "1685 N Opdyke Rd, Auburn Hills, MI, 48326-2656 United States"
+  },
+  "Merchants Insurance Group": {
+    "company": "Merchants Insurance Group",
+    "moodies": "A2",
+    "am_best_financial_strength": "A-",
+    "am_best_long_time": "a-",
+    "bbb": "A+",
+    "website": "www.merchantsgroup.com",
+    "phone": "1 (800) 462-1077",
+    "address": "250 Main Street Buffalo, NY 14202 United States"
+  },
+  "Mercury": {
+    "company": "Mercury",
+    "moodies": "A2",
+    "am_best_financial_strength": "A",
+    "am_best_long_time": "a+",
+    "bbb": "A+",
+    "website": "www.mercuryinsurance.com",
+    "phone": "1 (323) 937-1060",
+    "address": "4484 Wilshire Boulevard Los Angeles, CA 90010 United States"
+  },
+  "MetLife": {
+    "company": "MetLife",
+    "moodies": "A3",
+    "am_best_financial_strength": null,
+    "am_best_long_time": null,
+    "bbb": "A-",
+    "website": "www.metlife.com",
+    "phone": "1 (800) 638-5433",
+    "address": "200 Park Avenue New York, NY 10166 United States"
+  },
+  "Metromile": {
+    "company": "Metromile",
+    "moodies": null,
+    "am_best_financial_strength": "NR",
+    "am_best_long_time": "nr",
+    "bbb": "A+",
+    "website": "www.metromile.com",
+    "phone": "1 (888) 242-5204",
+    "address": "425 Market St Ste 700, San Francisco, CA, 94105-5418 United States"
+  },
+  "Mississippi Farm Bureau": {
+    "company": "Mississippi Farm Bureau",
+    "moodies": null,
+    "am_best_financial_strength": "A",
+    "am_best_long_time": "a",
+    "bbb": "NR",
+    "website": "msfbins.com",
+    "phone": "1 (601) 957-3200",
+    "address": "6311 Ridgewood Rd Jackson, MS 39211 United States"
+  },
+  "Missouri Farm Bureau": {
+    "company": "Missouri Farm Bureau",
+    "moodies": null,
+    "am_best_financial_strength": null,
+    "am_best_long_time": null,
+    "bbb": "A+",
+    "website": "mofb.org",
+    "phone": "1 (573) 893-1400",
+    "address": "701 South Country Club Drive, Jefferson City, MO 65109 United States"
+  },
+  "MMG Insurance": {
+    "company": "MMG Insurance",
+    "moodies": null,
+    "am_best_financial_strength": "A",
+    "am_best_long_time": "a",
+    "bbb": "A+",
+    "website": "www.mmgins.com",
+    "phone": "1 (800) 343-0533",
+    "address": "44 Maysville St., Presque Isle, Maine 04769 United States"
+  },
+  "Motorists Mutual": {
+    "company": "Motorists Mutual",
+    "moodies": null,
+    "am_best_financial_strength": "A-",
+    "am_best_long_time": "a-",
+    "bbb": "A+",
+    "website": "www.motoristsmutual.com",
+    "phone": "1 (800) 876-8766",
+    "address": "471 E Broad St Bsmt, Columbus, OH, 43215-3852 United States"
+  },
+  "Multi-State": {
+    "company": "Multi-State",
+    "moodies": null,
+    "am_best_financial_strength": null,
+    "am_best_long_time": null,
+    "bbb": "A+",
+    "website": "www.multistate.com",
+    "phone": "1 (703) 684 -1110",
+    "address": "515 King Street Suite 300 Alexandria, VA 22314 United States"
+  },
+  "Mutual Benefit Group": {
+    "company": "Mutual Benefit Group",
+    "moodies": null,
+    "am_best_financial_strength": "A-",
+    "am_best_long_time": "a-",
+    "bbb": "A-",
+    "website": "www.mutualbenefitgroup.com",
+    "phone": "1 (800) 283-3531",
+    "address": "409 Penn St, Huntingdon, PA, 16652-1601 United States"
+  },
+  "Mutual Enumclaw": {
+    "company": "Mutual Enumclaw",
+    "moodies": null,
+    "am_best_financial_strength": null,
+    "am_best_long_time": null,
+    "bbb": "A+",
+    "website": "www.mutualofenumclaw.com",
+    "phone": "1 (800) 366-5551",
+    "address": "1460 Wells St, Enumclaw, WA, 98022-3098 United States"
+  },
+  "Maryland Auto Insurance Fund": {
+    "company": "Maryland Auto Insurance Fund",
+    "moodies": null,
+    "am_best_financial_strength": null,
+    "am_best_long_time": null,
+    "bbb": "NR",
+    "website": "www.mymarylandauto.com",
+    "phone": "1 (800) 492-7120",
+    "address": "1750 Forest Dr Annapolis, MD 21401 United States"
+  },
+  "Metropolitan": {
+    "company": "Metropolitan",
+    "moodies": "Aa2",
+    "am_best_financial_strength": "A",
+    "am_best_long_time": "a+",
+    "bbb": "NR",
+    "website": null,
+    "phone": null,
+    "address": "701 South Country Club Drive PO Box 658 Jefferson City, MO 65109 United States"
+  },
+  "MO Farm Bureau Services": {
+    "company": "MO Farm Bureau Services",
+    "moodies": null,
+    "am_best_financial_strength": "A-",
+    "am_best_long_time": "a-",
+    "bbb": "A+",
+    "website": "mofb.org",
+    "phone": "1 (573) 893-1400",
+    "address": "111 N Mason St Ste 4, Carrollton, MO, 64633 United States"
+  },
+  "National General": {
+    "company": "National General",
+    "moodies": null,
+    "am_best_financial_strength": "A- u",
+    "am_best_long_time": "a- u",
+    "bbb": "A+",
+    "website": "www.nationalgeneral.com",
+    "phone": "1 (336) 435-2000",
+    "address": "P.O. Box 3199, Winston-Salem, North Carolina 27102, United States"
+  },
+  "National Grange Mutual": {
+    "company": "National Grange Mutual",
+    "moodies": null,
+    "am_best_financial_strength": "NR",
+    "am_best_long_time": "nr",
+    "bbb": "A+",
+    "website": "www.msagroup.com",
+    "phone": "1 (800) 258-5310",
+    "address": "55 West Street Keene, NH 03431 United States"
+  },
+  "Nationwide": {
+    "company": "Nationwide",
+    "moodies": "A1",
+    "am_best_financial_strength": "A+",
+    "am_best_long_time": "aa-",
+    "bbb": "A+",
+    "website": "www.nationwide.com",
+    "phone": "1 (877) 669-6877",
+    "address": "1 Nationwide Plaza Columbus, OH 43215 United States"
+  },
+  "NC Farm Bureau": {
+    "company": "NC Farm Bureau",
+    "moodies": null,
+    "am_best_financial_strength": "A",
+    "am_best_long_time": "a+",
+    "bbb": "A+",
+    "website": "www.ncfbins.com",
+    "phone": "1 (828) 688-3745",
+    "address": "168 North 226 Highway Bakersville, NC 28705 United States"
+  },
+  "New Jersey Manufacturers": {
+    "company": "New Jersey Manufacturers",
+    "moodies": null,
+    "am_best_financial_strength": "A+",
+    "am_best_long_time": "aa",
+    "bbb": "B-",
+    "website": "www.njm.com",
+    "phone": "1 (800) 232-6600",
+    "address": "301 Sullivan Way PO Box 428 West Trenton, NJ 08628 United States."
+  },
+  "New York Central Mutual": {
+    "company": "New York Central Mutual",
+    "moodies": null,
+    "am_best_financial_strength": "A",
+    "am_best_long_time": "a+",
+    "bbb": "A+",
+    "website": "www.nycm.com",
+    "phone": "1 (800) 234-6926",
+    "address": "1899 Central Plaza East Edmeston, NY 13335 United States"
+  },
+  "Nodak Mutual": {
+    "company": "Nodak Mutual",
+    "moodies": null,
+    "am_best_financial_strength": null,
+    "am_best_long_time": null,
+    "bbb": "A-",
+    "website": "www.nodakmutual.com",
+    "phone": "1 (701) 252-1940",
+    "address": "211 N Broadway St, Linton, ND, 58552-7020 United States"
+  },
+  "Norfolk and Dedham": {
+    "company": "Norfolk and Dedham",
+    "moodies": null,
+    "am_best_financial_strength": "A",
+    "am_best_long_time": "a",
+    "bbb": "A+",
+    "website": "www.ndgroup.com",
+    "phone": "1 (781) 326-4010",
+    "address": "222 Ames Street Dedham, MA 02026 United States"
+  },
+  "North Star Mutual": {
+    "company": "North Star Mutual",
+    "moodies": null,
+    "am_best_financial_strength": "A+",
+    "am_best_long_time": "aa-",
+    "bbb": "A+",
+    "website": "www.northstarmutual.com",
+    "phone": "1 (507) 423-6262",
+    "address": "269 Barstad Road South PO Box 48 Cottonwood, MN 56229 United States"
+  },
+  "National Farmers Union P&C": {
+    "company": "National Farmers Union P&C",
+    "moodies": null,
+    "am_best_financial_strength": "A- u",
+    "am_best_long_time": "a- u",
+    "bbb": "B",
+    "website": "www.farmersunioninsurance.com",
+    "phone": "1 (888) 455-1011",
+    "address": "5619 Dtc Pkwy Ste 300, Greenwood Village, CO, 80111-3136 United States"
+  },
+  "North Carolina Farm Bureau": {
+    "company": "North Carolina Farm Bureau",
+    "moodies": null,
+    "am_best_financial_strength": "A",
+    "am_best_long_time": "a+",
+    "bbb": "NR",
+    "website": "www.ncfbins.com",
+    "phone": "1 (828) 894-3320",
+    "address": "156 E Mills St, Columbus, NC 28722, United States"
+  },
+  "Ohio Casualty": {
+    "company": "Ohio Casualty",
+    "moodies": "A2",
+    "am_best_financial_strength": "A",
+    "am_best_long_time": "a",
+    "bbb": "A+",
+    "website": "www.ohiocasualty-ins.com",
+    "phone": "1 (800) 843-6446",
+    "address": "9450 Seward Road Fairfield, OH 45014 United States"
+  },
+  "Ohio Mutual": {
+    "company": "Ohio Mutual",
+    "moodies": null,
+    "am_best_financial_strength": "A",
+    "am_best_long_time": "a+",
+    "bbb": "A+",
+    "website": "www.omig.com",
+    "phone": "1 (419) 562-3011",
+    "address": "1725 Hopley Avenue PO Box 111 Bucyrus, OH 44820 United States"
+  },
+  "Oklahoma Farm Bureau": {
+    "company": "Oklahoma Farm Bureau",
+    "moodies": null,
+    "am_best_financial_strength": "B++",
+    "am_best_long_time": "bbb",
+    "bbb": "A+",
+    "website": "okfbinsurance.com",
+    "phone": "1 (405) 523-2300",
+    "address": "2501 N Stiles Ave, Oklahoma City, OK, 73105-3100 United States"
+  },
+  "Oregon Mutual": {
+    "company": "Oregon Mutual",
+    "moodies": null,
+    "am_best_financial_strength": "A-",
+    "am_best_long_time": "a-",
+    "bbb": "A+",
+    "website": "www.ormutual.com",
+    "phone": "1 (800) 888-2141",
+    "address": "400 Northeast Baker Street PO Box 808 Mcminnville, OR 97128 United States"
+  },
+  "Oklahoma Farmers Union": {
+    "company": "Oklahoma Farmers Union",
+    "moodies": "A2",
+    "am_best_financial_strength": null,
+    "am_best_long_time": null,
+    "bbb": "A+",
+    "website": "nfu.org",
+    "phone": "1 (202) 554-1600",
+    "address": "20 F Street NW, Suite 300, Washington, DC 20001 United States"
+  },
+  "Partners Mutual": {
+    "company": "Partners Mutual",
+    "moodies": null,
+    "am_best_financial_strength": "A-",
+    "am_best_long_time": "a-",
+    "bbb": "A+",
+    "website": "www.partnersmutual.com",
+    "phone": "1 (262) 798-5050",
+    "address": "20975 SWENSON DR WAUKESHA, WI 53186 United States"
+  },
+  "Patriot Insurance": {
+    "company": "Patriot Insurance",
+    "moodies": null,
+    "am_best_financial_strength": "A-",
+    "am_best_long_time": "a+",
+    "bbb": "NR",
+    "website": "www.patriotinsuranceco.com",
+    "phone": "1 (207) 847-1800",
+    "address": "1 Tyler Drive Suite 3 Yarmouth, ME 04096 United States"
+  },
+  "Pekin Insurance": {
+    "company": "Pekin Insurance",
+    "moodies": null,
+    "am_best_financial_strength": "A-",
+    "am_best_long_time": "a-",
+    "bbb": "A+",
+    "website": "www.pekininsurance.com",
+    "phone": "1 (800) 322-0160",
+    "address": "2505 Court Street Pekin, IL 61558 United States"
+  },
+  "PEMCO": {
+    "company": "PEMCO",
+    "moodies": null,
+    "am_best_financial_strength": "B++",
+    "am_best_long_time": "bbb+",
+    "bbb": "A+",
+    "website": "www.pemco.com",
+    "phone": "1 (509) 328-8900",
+    "address": "2002 North Atlantic Street Spokane, WA 99205 United States"
+  },
+  "Penn National": {
+    "company": "Penn National",
+    "moodies": "B1",
+    "am_best_financial_strength": "A-",
+    "am_best_long_time": "a-",
+    "bbb": "A+",
+    "website": "www.pennnationalinsurance.com",
+    "phone": "1 (800) 766-2245",
+    "address": "2 N 2ND St FL 2, Harrisburg, PA, 17101-1619 United States"
+  },
+  "Pioneer State Mutual": {
+    "company": "Pioneer State Mutual",
+    "moodies": null,
+    "am_best_financial_strength": "A+",
+    "am_best_long_time": "aa-",
+    "bbb": "A-",
+    "website": "www.psmic.com",
+    "phone": "1 (810) 733-2300",
+    "address": "1510 N Elms Rd, Flint, Michigan 48532 United States"
+  },
+  "Plymouth Rock": {
+    "company": "Plymouth Rock",
+    "moodies": null,
+    "am_best_financial_strength": "A-",
+    "am_best_long_time": "a-",
+    "bbb": "B",
+    "website": "www.plymouthrock.com",
+    "phone": "1 (617) 720-1620",
+    "address": "695 Atlantic Avenue Boston, MA 02111 United States"
+  },
+  "Preferred Mutual": {
+    "company": "Preferred Mutual",
+    "moodies": null,
+    "am_best_financial_strength": "A",
+    "am_best_long_time": "a+",
+    "bbb": "NR",
+    "website": "www.preferredmutual.com",
+    "phone": "1 (800) 333-7642",
+    "address": "1 Preferred Way New Berlin, NY 13411 United States"
+  },
+  "Progressive": {
+    "company": "Progressive",
+    "moodies": "A2",
+    "am_best_financial_strength": null,
+    "am_best_long_time": "a",
+    "bbb": "NR",
+    "website": "www.progressive.com",
+    "phone": "1 (440) 461-5000",
+    "address": "6300 Wilson Mills Rd, Mayfield Village, OH, 44143-2182 United States"
+  },
+  "Peerless Insurance Company": {
+    "company": "Peerless Insurance Company",
+    "moodies": null,
+    "am_best_financial_strength": "A",
+    "am_best_long_time": "a",
+    "bbb": "A+",
+    "website": "www.peerless-ins.com",
+    "phone": "1 (800) 542-5385",
+    "address": "62 Maple Avenue Keene, NH 03431 United States"
+  },
+  "Permanent General": {
+    "company": "Permanent General",
+    "moodies": null,
+    "am_best_financial_strength": "A",
+    "am_best_long_time": "a+",
+    "bbb": "NR",
+    "website": "www.thegeneral.com",
+    "phone": "1 (866) 519-7422",
+    "address": "2636 Elm Hill Pike Suite 510 Nashville, TN 37214 United States"
+  },
+  "Pure Companies Grp": {
+    "company": "Pure Companies Grp",
+    "moodies": null,
+    "am_best_financial_strength": null,
+    "am_best_long_time": null,
+    "bbb": null,
+    "website": "www.pureinsurance.com",
+    "phone": "1 (888) 813-7873",
+    "address": "44 South Broadway, Suite 301, White Plains, NY 10601 United States"
+  },
+  "Quincy Mutual": {
+    "company": "Quincy Mutual",
+    "moodies": null,
+    "am_best_financial_strength": "A+",
+    "am_best_long_time": "aa-",
+    "bbb": "A+",
+    "website": "www.quincymutual.com",
+    "phone": "1 (617) 770-5100",
+    "address": "57 Washington St., Quincy, MA 02169 United States"
+  },
+  "Rockford Mutual": {
+    "company": "Rockford Mutual",
+    "moodies": null,
+    "am_best_financial_strength": "A-",
+    "am_best_long_time": "a-",
+    "bbb": "A+",
+    "website": "www.rockfordmutual.com",
+    "phone": "1 (815) 229-1500",
+    "address": "527 Colman Center Drive Rockford, IL 61108 United States"
+  },
+  "Root Insurance": {
+    "company": "Root Insurance",
+    "moodies": null,
+    "am_best_financial_strength": "NR",
+    "am_best_long_time": "nr",
+    "bbb": "A+",
+    "website": "www.joinroot.com",
+    "phone": "1 (855) 982 1720",
+    "address": "80 E Rich Street, Suite 500, Columbus, OH 43215 united States"
+  },
+  "Republic Indemnity": {
+    "company": "Republic Indemnity",
+    "moodies": null,
+    "am_best_financial_strength": "A",
+    "am_best_long_time": "a+",
+    "bbb": "A+",
+    "website": "www.republicindemnity.com",
+    "phone": "1 (888) 336-7569",
+    "address": "15821 Ventura Blvd Ste 370, Encino, CA, 91436-2909 United States"
+  },
+  "Rural Mutual Insurance": {
+    "company": "Rural Mutual Insurance",
+    "moodies": "A3",
+    "am_best_financial_strength": "A+",
+    "am_best_long_time": "aa-",
+    "bbb": "B-",
+    "website": "www.ruralmutual.com",
+    "phone": "1 (800) 255-2150",
+    "address": "1241 John Q Hammons Dr Ste 200, Madison, WI, 53717-1929 United States"
+  },
+  "Safe Auto": {
+    "company": "Safe Auto",
+    "moodies": null,
+    "am_best_financial_strength": "NR",
+    "am_best_long_time": "nr",
+    "bbb": "NR",
+    "website": "www.safeauto.com",
+    "phone": "1 (614) 231-0200",
+    "address": "4 Easton Oval Columbus, OH 43219 United States"
+  },
+  "Safeco": {
+    "company": "Safeco",
+    "moodies": "A2",
+    "am_best_financial_strength": "A",
+    "am_best_long_time": "a",
+    "bbb": "A+",
+    "website": "www.safeco.com",
+    "phone": "1 (800) 332-3226",
+    "address": "1001 4TH Ave, Seattle, WA, 98185-9084 United States"
+  },
+  "Safety Insurance": {
+    "company": "Safety Insurance",
+    "moodies": null,
+    "am_best_financial_strength": "A",
+    "am_best_long_time": "a+",
+    "bbb": "A+",
+    "website": "www.safetyinsurance.com",
+    "phone": "1 (800) 951-2100",
+    "address": "20 Custom House St Ste 400, Boston, MA, 02110-3516 United States"
+  },
+  "Safeway Insurance Company": {
+    "company": "Safeway Insurance Company",
+    "moodies": "B2",
+    "am_best_financial_strength": "A",
+    "am_best_long_time": "a",
+    "bbb": "F",
+    "website": "www.safewayinsurance.com",
+    "phone": "1 (630) 887-8300",
+    "address": "790 Pasquinelli Dr, Westmont, IL, 60559-5585 United States"
+  },
+  "SECURA": {
+    "company": "SECURA",
+    "moodies": null,
+    "am_best_financial_strength": "A",
+    "am_best_long_time": "a+",
+    "bbb": "NR",
+    "website": "www.secura.net",
+    "phone": "1 (800) 558-3405",
+    "address": "1500 Mutual Way, Neenah, WI, 54956-5401 United States"
+  },
+  "Selective Insurance": {
+    "company": "Selective Insurance",
+    "moodies": "A2",
+    "am_best_financial_strength": "A",
+    "am_best_long_time": "a+",
+    "bbb": "A+",
+    "website": "www.selective.com",
+    "phone": "1 (973) 948-3000",
+    "address": "40 Wantage Avenue, Branchville, New Jersey 07890, United States"
+  },
+  "Sentry": {
+    "company": "Sentry",
+    "moodies": null,
+    "am_best_financial_strength": "A+",
+    "am_best_long_time": "aa-",
+    "bbb": "NR",
+    "website": "www.sentry.com",
+    "phone": "1 (800) 742-5681",
+    "address": "1800 North Point Drive Stevens Point, WI 54481 United States"
+  },
+  "Shelter": {
+    "company": "Shelter",
+    "moodies": null,
+    "am_best_financial_strength": "A",
+    "am_best_long_time": "a+",
+    "bbb": "A+",
+    "website": "www.shelterinsurance.com",
+    "phone": "1 (800) 743-5837",
+    "address": "1817 W Broadway, Columbia, MO, 65218-0001 United States"
+  },
+  "Southern Farm Bureau": {
+    "company": "Southern Farm Bureau",
+    "moodies": null,
+    "am_best_financial_strength": "A+",
+    "am_best_long_time": "aa-",
+    "bbb": "A+",
+    "website": "www.sfbli.com",
+    "phone": "1 (601) 981-7422",
+    "address": "1401 Livingston Ln, Jackson, MS, 39213-8098 United States"
+  },
+  "State Auto": {
+    "company": "State Auto",
+    "moodies": "A3",
+    "am_best_financial_strength": "A-",
+    "am_best_long_time": "a-",
+    "bbb": "A+",
+    "website": "www.stateauto.com",
+    "phone": "1 (833) 724-3577",
+    "address": "518 E Broad St, Columbus, OH 43215, United States"
+  },
+  "State Farm": {
+    "company": "State Farm",
+    "moodies": "A",
+    "am_best_financial_strength": "A-",
+    "am_best_long_time": "a-",
+    "bbb": "A",
+    "website": "www.statefarm.com",
+    "phone": "1 (800) 782-8332",
+    "address": "3 State Farm Plz S, Bloomington, IL, 61710-0001 United States"
+  },
+  "Stillwater": {
+    "company": "Stillwater",
+    "moodies": "Ba3",
+    "am_best_financial_strength": "A-",
+    "am_best_long_time": "a-",
+    "bbb": "A+",
+    "website": "stillwaterinsurance.com",
+    "phone": "1 (800) 849-6140",
+    "address": "4905 Belfort Rd Ste 110, Jacksonville, FL, 32256-6007 United States"
+  },
+  "Southern Ins Co of Virginia": {
+    "company": "Southern Ins Co of Virginia",
+    "moodies": null,
+    "am_best_financial_strength": "A",
+    "am_best_long_time": "a",
+    "bbb": "A+",
+    "website": "www.donegalgroup.com",
+    "phone": "1 (800) 468-1127",
+    "address": "801 Virginia Village Drive PO Box 1279 Glen Allen, VA 23059 United States"
+  },
+  "Tennessee Farm Bureau": {
+    "company": "Tennessee Farm Bureau",
+    "moodies": null,
+    "am_best_financial_strength": null,
+    "am_best_long_time": null,
+    "bbb": null,
+    "website": "www.tnfarmbureau.org",
+    "phone": "1 (931) 388-7872",
+    "address": "147 Bear Creek Pike PO Box 313 Columbia, TN 38401 United States"
+  },
+  "Texas Farm Bureau": {
+    "company": "Texas Farm Bureau",
+    "moodies": null,
+    "am_best_financial_strength": "A-",
+    "am_best_long_time": "a-",
+    "bbb": "NR",
+    "website": "www.txfb-ins.com",
+    "phone": "1 (800) 772-6535",
+    "address": "7420 Fish Pond Road Waco, TX 76710 United States"
+  },
+  "The General": {
+    "company": "The General",
+    "moodies": null,
+    "am_best_financial_strength": "A",
+    "am_best_long_time": "a+",
+    "bbb": "A+",
+    "website": "thegeneral.com",
+    "phone": "1 (844) 328-0306",
+    "address": "2636 Elm Hill Pike Suite 510 Nashville, TN 37214 United States"
+  },
+  "Titan": {
+    "company": "Titan",
+    "moodies": "Caa3",
+    "am_best_financial_strength": "A-",
+    "am_best_long_time": "a-",
+    "bbb": "NR",
+    "website": "www.titan.com",
+    "phone": "1 (877) 669-6877",
+    "address": "1 Nationwide Plaza Columbus, OH 43215 United States"
+  },
+  "Travelers": {
+    "company": "Travelers",
+    "moodies": "Aa2",
+    "am_best_financial_strength": "A++",
+    "am_best_long_time": "aa+",
+    "bbb": "A+",
+    "website": "www.travelers.com",
+    "phone": "1 (917) 778-6000",
+    "address": "485 Lexington Avenue, New York New York 10017 United States"
+  },
+  "Tower Insurance Company of New York": {
+    "company": "Tower Insurance Company of New York",
+    "moodies": null,
+    "am_best_financial_strength": null,
+    "am_best_long_time": null,
+    "bbb": null,
+    "website": "www.twrgrp.com",
+    "phone": "1 (888) 856-5522",
+    "address": "120 Broadway 31st Floor New York, NY 10271 United States"
+  },
+  "Umialik": {
+    "company": "Umialik",
+    "moodies": null,
+    "am_best_financial_strength": "A+",
+    "am_best_long_time": "aa-",
+    "bbb": "NR",
+    "website": "www.umialik.com",
+    "phone": "1 (888) 590-5445",
+    "address": "725 E. Fireweed Lane, Suite 500, Anchorage, Alaska 99503"
+  },
+  "Union Mutual of Vermont": {
+    "company": "Union Mutual of Vermont",
+    "moodies": null,
+    "am_best_financial_strength": "A-",
+    "am_best_long_time": "a-",
+    "bbb": "A+",
+    "website": "www.unionmutual.com",
+    "phone": "1 (800) 300-5261",
+    "address": "139 State Street Montpelier, VT 05602 United States"
+  },
+  "Unique": {
+    "company": "Unique",
+    "moodies": null,
+    "am_best_financial_strength": "NR",
+    "am_best_long_time": "nr",
+    "bbb": "A+",
+    "website": "www.uniqueinsuranceco.com",
+    "phone": "1 (773) 299-7500",
+    "address": "7400 North Caldwell Avenue Niles, IL 60714 United States"
+  },
+  "United Automobile": {
+    "company": "United Automobile",
+    "moodies": null,
+    "am_best_financial_strength": "NR",
+    "am_best_long_time": "nr",
+    "bbb": "C",
+    "website": "www.uaig.net",
+    "phone": "1 (305) 940-5022",
+    "address": "1313 NW 167TH St, Miami Gardens, FL, 33169-5739 United States"
+  },
+  "USAA": {
+    "company": "USAA",
+    "moodies": "Aa1",
+    "am_best_financial_strength": "A++",
+    "am_best_long_time": "aaa",
+    "bbb": "B+",
+    "website": "www.usaa.com",
+    "phone": "1 (210) 531-8722",
+    "address": "9800 Fredericksburg Road San Antonio, TX 78288 United States"
+  },
+  "Utica National Insurance Group": {
+    "company": "Utica National Insurance Group",
+    "moodies": null,
+    "am_best_financial_strength": "A-",
+    "am_best_long_time": "a-",
+    "bbb": "NR",
+    "website": "www.uticanational.com",
+    "phone": "1 (800) 598-8422",
+    "address": "180 Genesee Street New Hartford, NY 13413 United States"
+  },
+  "Unigard": {
+    "company": "Unigard",
+    "moodies": null,
+    "am_best_financial_strength": "A",
+    "am_best_long_time": "a+",
+    "bbb": "B",
+    "website": "www.qbe.com",
+    "phone": "1 (425) 641-4321",
+    "address": "15800 Northup Way Bellevue, WA 98008 United States"
+  },
+  "United Farm Bureau of IN Group": {
+    "company": "United Farm Bureau of IN Group",
+    "moodies": null,
+    "am_best_financial_strength": "A",
+    "am_best_long_time": "a",
+    "bbb": "A+",
+    "website": "www.infarmbureau.org",
+    "phone": "1 (800) 723-3276",
+    "address": "225 South East St. Indianapolis, IN 46202, United States"
+  },
+  "Unitrin": {
+    "company": "Unitrin",
+    "moodies": "A3",
+    "am_best_financial_strength": "A-",
+    "am_best_long_time": "a-",
+    "bbb": "A+",
+    "website": null,
+    "phone": null,
+    "address": null
+  },
+  "Vermont Mutual": {
+    "company": "Vermont Mutual",
+    "moodies": null,
+    "am_best_financial_strength": "A",
+    "am_best_long_time": "a+",
+    "bbb": "A+",
+    "website": "vermontmutual.com",
+    "phone": "1 (802) 223-2341",
+    "address": "89 States Street, Montpelier, Vermont 05601, United States"
+  },
+  "Victoria": {
+    "company": "Victoria",
+    "moodies": "B1",
+    "am_best_financial_strength": "A+",
+    "am_best_long_time": "aa-",
+    "bbb": "A+",
+    "website": "www.victoriainsurance.com",
+    "phone": "1 (800) 926-3168",
+    "address": "22901 Millcreek Blvd Cleveland, OH 44122 United States"
+  },
+  "Virginia Farm Bureau": {
+    "company": "Virginia Farm Bureau",
+    "moodies": null,
+    "am_best_financial_strength": "A",
+    "am_best_long_time": "a",
+    "bbb": "A+",
+    "website": "www.vafb.com",
+    "phone": "1 (804) 290-1000",
+    "address": "12580 West Creek Parkway Richmond, VA 23238"
+  },
+  "Verti Insurance": {
+    "company": "Verti Insurance",
+    "moodies": null,
+    "am_best_financial_strength": "NR",
+    "am_best_long_time": "nr",
+    "bbb": "A",
+    "website": "www.verti.com",
+    "phone": "1 (267) 930-2140",
+    "address": "211 Main Street, Webster, MA 01570"
+  },
+  "Wawanesa": {
+    "company": "Wawanesa",
+    "moodies": "A2",
+    "am_best_financial_strength": "A-",
+    "am_best_long_time": "a-",
+    "bbb": "A+",
+    "website": "www.wawanesa.com",
+    "phone": "1 (800) 640-2920",
+    "address": "PO Box 82867\n San Diego, CA 92138-9492"
+  },
+  "West Bend Mutual": {
+    "company": "West Bend Mutual",
+    "moodies": "Aa3",
+    "am_best_financial_strength": "A",
+    "am_best_long_time": "a+",
+    "bbb": "A+",
+    "website": "www.thesilverlining.com",
+    "phone": "1 (800) 236-5010",
+    "address": "1900 S. 18th Avenue West Bend, WI 53095"
+  },
+  "Western National": {
+    "company": "Western National",
+    "moodies": "A2",
+    "am_best_financial_strength": "A+",
+    "am_best_long_time": "aa-",
+    "bbb": "A+",
+    "website": "www.wnins.com",
+    "phone": "1 (952) 835-5350",
+    "address": "Edina Corporate Center 4700 West 77th Street Edina, MN, 55435-4818"
+  },
+  "Western Reserve Group": {
+    "company": "Western Reserve Group",
+    "moodies": "A1",
+    "am_best_financial_strength": "A",
+    "am_best_long_time": "a",
+    "bbb": "A+",
+    "website": "www.wrg-ins.com",
+    "phone": "1 (800) 362-0426",
+    "address": "1685 Cleveland Rd, Wooster, OH 44691, United States"
+  },
+  "Westfield": {
+    "company": "Westfield",
+    "moodies": "A3",
+    "am_best_financial_strength": "A",
+    "am_best_long_time": "a+",
+    "bbb": "A+",
+    "website": "www.westfieldinsurance.com",
+    "phone": "1 (800) 243- 0210",
+    "address": "One Park Circle P.O.Box 5001 Westfield Center, OH 44251"
+  },
+  "Wolverine Mutual": {
+    "company": "Wolverine Mutual",
+    "moodies": "Ba1",
+    "am_best_financial_strength": "B++",
+    "am_best_long_time": "bbb+",
+    "bbb": "A+",
+    "website": "www.wolverinemutual.com",
+    "phone": "1 (269) 782-3451",
+    "address": "One Wolverine Way Dowagiac, MI 49047, United States"
+  },
+  "Workmen's Auto": {
+    "company": "Workmen's Auto",
+    "moodies": null,
+    "am_best_financial_strength": "NR",
+    "am_best_long_time": "nr",
+    "bbb": null,
+    "website": "www.waic.com",
+    "phone": "1 (800) 697-6117",
+    "address": "Santa Ana CA 92711, USA"
+  }
+}
