@@ -1,14 +1,13 @@
 .company-page-wrap
     .mb-48px
-        h2 What is [company name]?
-        p
-            | #{company} was founded in #{founded} in #{founded_year}. The headquarters is located in #{headquaters}.
-    p.h4.pb-2.mb-2.text-uppercase.colorOrange In what states can you find #{company}?
-    p [company name] provides insurance services in [number] states:
+        h2 What is #{company}?
+        p=shortDesc
+
+
     .row
         .col
-            .h2
-                | #{company} US states presence
+            .h2 #{company} US states presence
+            p #{company} provides insurance services in #{statesCount} #{statesCount === 1 ? 'state' : 'states'}:
     .row.text-center
         .col-10.col-md-6.m-auto
             .d-flex.justify-content-between
@@ -23,7 +22,7 @@
                 .square
                 .square
                 .square
-                .square
+                .square.ME
                     .content.one ME
             .d-flex.justify-content-between
                 .square
@@ -32,137 +31,137 @@
                 .square
                 .square
                 .square
-                .square
+                .square.WI
                     .content.one WI
                 .square
                 .square
                 .square
-                .square
+                .square.VT
                     .content.one VT
-                .square
+                .square.NH
                     .content.one NH
             .d-flex.justify-content-between
                 .square
-                .square
+                .square.WA
                     .content WA
-                .square
+                .square.ID
                     .content ID
-                .square
+                .square.MT
                     .content MT
-                .square
+                .square.ND
                     .content ND
-                .square
+                .square.MN
                     .content MN
-                .square
+                .square.IL
                     .content IL
-                .square
+                .square.MI
                     .content MI
                 .square
-                .square
+                .square.NY
                     .content.one NY
-                .square
+                .square.MA
                     .content.both MA
                 .square
             .d-flex.justify-content-between
                 .square
-                .square
+                .square.OR
                     .content OR
-                .square
+                .square.NV
                     .content NV
-                .square
+                .square.WY
                     .content WY
-                .square
+                .square.SD
                     .content SD
-                .square
+                .square.IA
                     .content IA
-                .square
+                .square.IN
                     .content IN
-                .square
+                .square.OH
                     .content OH
-                .square
+                .square.PA
                     .content PA
-                .square
+                .square.NJ
                     .content.both NJ
-                .square
+                .square.CT
                     .content.both CT
-                .square
+                .square.RI
                     .content.both RI
             .d-flex.justify-content-between
                 .square
-                .square
+                .square.CA
                     .content CA
-                .square
+                .square.UT
                     .content UT
-                .square
+                .square.CO
                     .content CO
-                .square
+                .square.NE
                     .content NE
-                .square
+                .square.MO
                     .content MO
-                .square
+                .square.KY
                     .content KY
-                .square
+                .square.WV
                     .content WV
-                .square
+                .square.VA
                     .content.both VA
-                .square
+                .square.MD
                     .content.both MD
-                .square
+                .square.DE
                     .content.both DE
                 .square
             .d-flex.justify-content-between
                 .square
                 .square
-                .square
+                .square.AZ
                     .content AZ
-                .square
+                .square.NM
                     .content NM
-                .square
+                .square.KS
                     .content KS
-                .square
+                .square.AR
                     .content AR
-                .square
+                .square.TN
                     .content TN
-                .square
+                .square.NC
                     .content NC
-                .square
+                .square.SC
                     .content.two SC
-                .square
+                .square.DC
                     .content.both DC
                 .square
                 .square
             .d-flex.justify-content-between
-                .square
+                .square.AK
                     .content.one AK
                 .square
                 .square
                 .square
-                .square
+                .square.OK
                     .content OK
-                .square
+                .square.LA
                     .content LA
-                .square
+                .square.MS
                     .content MS
-                .square
+                .square.AL
                     .content.two AL
-                .square
+                .square.GA
                     .content.two GA
                 .square
                 .square
                 .square
             .d-flex.justify-content-between
-                .square
+                .square.HI
                     .content HI
                 .square
                 .square
                 .square
-                .square
+                .square.TX
                     .content TX
                 .square
                 .square
                 .square
                 .square
-                .square
+                .square.FL
                     .content.two FL
                 .square
                 .square
@@ -172,66 +171,41 @@
                 span
                     i.fas.fa-square(style='color: #6d9eeb')
                     |  #{company}
-    h3.h2.mb-32px What are #{company} ratings?
-    .row.company-box-rating-wrap.mb-32px
-        .col-6.col-md-4.col-lg-2.mb-3
-            .company-box-rating
-                div 1989
-                span year founded
-        .col-6.col-md-4.col-lg-3.mb-3
-            .company-box-rating
-                div Good
-                span financial strength
-        .col-6.col-md-4.col-lg-3.mb-3
-            .company-box-rating
-                div 9999+
-                span Long Time ICR
-        .col-6.col-md-4.col-lg-3.mb-3
-            .company-box-rating
-                div XXXX
-                span moodies
-        .col-6.col-md-4.col-lg-3.mb-3
-            .company-box-rating
-                div 954
-                span bbb
-        .col-6.col-md-4.col-lg-3.mb-3
-            .company-box-rating
-                div A++
-                span Claims Rating
-        .col-6.col-md-4.col-lg-3.mb-3
-            .company-box-rating
-                div A++
-                span user satisfaction
+    if ratings.length
+        h3.h2.mb-32px What are #{company} ratings?
+        .row.company-box-rating-wrap.mb-32px
+            .col-6.col-md-4.col-lg-2.mb-3
+                each rating in ratings
+                    .company-box-rating
+                        div #{rating.val}
+                        span #{rating.name}
+
     .row.mb-64px
-        .col-md-6.mb-32px
-            h3.h4 What type of insurance can you purchase in [company name]?
-            p [company name] offer you different insurance products, such as:
-            ul.company-page-list
-                li insurance product
-                li insurance product
-                li insurance product
-                li insurance product
-                li insurance product
-                li insurance product
-        .col-md-6.mb-32px
-            h3.h4 What are car insurance rates in [company name]?
-            p
-                | The average price of auto insurance in [company name] is about [company average]. Usually rates vary by state. You can find the cheapest offers in [state] where the monthly average rate is
-                strong.orange-strong [lowest price]
-                | . The most expensive state average is
-                strong.orange-strong [biggest price]
-                |  in [state].
-                |         table
-            ul.company-page-list
-                li insurance product
-                li insurance product
-                li insurance product
-        .col-md-6.mb-32px
-            h4.h4 What discounts provides [company name]?
-            ul.company-page-list
-                li insurance product
-                li insurance product
-                li insurance product
+        if products
+            .col-md-6.mb-32px
+                h3.h4 What type of insurance can you purchase in #{company}?
+                p #{company} offer you different insurance products, such as:
+                ul.company-page-list
+                    each product in products
+                        li=product
+        if rates
+            .col-md-6.mb-32px
+                h3.h4 What are car insurance rates in #{company}?
+                p
+                    | The average price of auto insurance in #{company} is about #{avgRate}.
+                    if minRate.rate & maxRate.rate
+                        | Usually rates vary by state. You can find the cheapest offers in #{minRate.state} where the monthly average rate is
+                        strong.orange-strong #{minRate.rate}
+                        | . The most expensive state average is
+                        strong.orange-strong #{maxRate.rate}
+                        |  in #{maxRate.state}.
+        if discounts
+            .col-md-6.mb-32px
+                h4.h4 What discounts does #{company} provide?
+                ul.company-page-list
+                    each discount in discounts
+                        li=discount
+
         .col-md-6.mb-32px
             h4.h4 [Company name] contact info:
             table.table
