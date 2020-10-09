@@ -3,12 +3,12 @@ const c = require('../common.js');
 const pug = require('pug');
 
 const companies = {
-    products_and_rates: c.rfSync('../data/json/companies_products_and_rates_new.json'),
-    ratings_and_contacts: c.rfSync('../data/json/companies_raitings_and_contacts.json'),
-    logos: c.rfSync('../data/json/companies_logos.json'),
-    states: c.rfSync('../data/json/companies_states_apearance__.json'),
-    reviews: c.rfSync('../data/json/companies_reviews_new.json'),
-    zebra: c.rfSync('../data/json/companies_zebra.json'),
+    products_and_rates: c.rfSync('./data/json/companies_products_and_rates_new.json'),
+    ratings_and_contacts: c.rfSync('./data/json/companies_raitings_and_contacts.json'),
+    logos: c.rfSync('./data/json/companies_logos.json'),
+    states: c.rfSync('./data/json/companies_states_apearance__.json'),
+    reviews: c.rfSync('./data/json/companies_reviews_new.json'),
+    zebra: c.rfSync('./data/json/companies_zebra.json'),
     // basic: c.rfSync('../data/json/companies_basic.json'),
 };
 
@@ -18,6 +18,8 @@ class CompanyDataManager extends DataManager {
         this.data = companies;
         this.pageData = {};
         this.pageFields = {};
+        this.pageType = 'company';
+        this.entryList = companies.zebra;
     }
 
     setPageData(company){
@@ -31,9 +33,11 @@ class CompanyDataManager extends DataManager {
         this.pageData = data;
         this.pageData.company = company;
         this.pageData.entry = company;
+        this.pageData.robotId = 1;
+        this.pageData.type = 'company';
 
-        this.pageData.index = this.pageData.zebra.index;
-        this.parent = 'companies';
+        this.pageData.entry_index = this.pageData.zebra.index;
+        this.pageData.parent = 'companies';
         this.pageData.ratings = [];
 
 
@@ -104,43 +108,65 @@ class CompanyDataManager extends DataManager {
             this.pageData.ratings.push({name: 'BBB', val: r.bbb});
         }
 
+        if(r.website || r.phone || r.address){
+                this.pageData.contacts = {};
+                const c = this.pageData.contacts;
+                if(r.website){
+                    c.website = r.website
+                }
+                if(r.phone){
+                    c.phone = r.phone
+                }
+                if(r.address){
+                    c.address = r.address
+                }
+        }
+
 
         if(z.discounts){
             this.pageData.discounts = z.discounts;
         }
 
         if(s){
+            this.pageData.statesData = [];
             this.pageData.statesCount = Object.keys(s).reduce((acc, key)=> {
                 s[key] === true ? acc++ : null;
+                s[key] === true ? this.pageData.statesData.push(key) : null;
                 return acc;
-            }, 0)
+            }, 0);
+
+            this.pageData.statesData = this.pageData.statesData.join(',');
+
         }
 
         this.renderPageFields(company);
+        return this.pageData;
     }
 
     renderDescription(){
-        this.pageFields.description = pug.renderFile('../templates/companies.pug', this.pageData);
+        this.pageData.description = pug.renderFile('./templates/companies.pug', this.pageData);
     }
 
     renderTitle(){
-        this.pageFields.pageTitle = `${this.pageData.company}`;
+        this.pageData.pageTitle = `${this.pageData.company}`;
     }
 
     renderMetaTitle(){
-        this.pageFields.metaTitle = `${this.pageData.company} insurance company`
+        this.pageData.metaTitle = `${this.pageData.company} insurance company`
     }
 
     renderMetaDescription(){
-        this.pageFields.metaDescription = `Find out more about ${this.pageData.company}. Average rates, ratings, presence in states, reviews and more.`;
+        this.pageData.metaDescription = `Find out more about ${this.pageData.company}. Average rates, ratings, presence in states, reviews and more.`;
     }
 
 
 }
 
 
-const dataManager = new CompanyDataManager();
+// const dataManager = new CompanyDataManager();
+//
+// dataManager.setPageData('Allstate');
+// console.log(dataManager.pageData);
+// console.log(dataManager.pageFields);
 
-dataManager.setPageData('SECURA');
-console.log(dataManager.pageData);
-console.log(dataManager.pageFields);
+module.exports = CompanyDataManager;

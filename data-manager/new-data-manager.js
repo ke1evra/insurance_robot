@@ -64,6 +64,7 @@ class DataManager {
         this.renderMetaDescription();
 
     }
+
 }
 
 module.exports = DataManager;

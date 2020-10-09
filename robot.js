@@ -2,8 +2,8 @@ const puppeteer = require('puppeteer');
 const fs = require('fs');
 const colors = require('colors');
 const c = require('./common.js');
-// const creds = require('./creds/CREDS.js');
-const creds = require('./creds/kr-creds.js');
+const creds = require('./creds/CREDS.js');
+// const creds = require('./creds/kr-creds.js');
 const selectors = require('./creds/selectors.js');
 const PageBuilder = require('./page-builder');
 const gApi = require('./google-api/googleApiManager.js');
@@ -74,7 +74,7 @@ const robot = {
 
             } else {
                 console.log('кука не найдена, логинимся'.yellow);
-                const status = await this.loginStoreLand(page);
+                const status = await this.loginWordPress(page);
                 if(status === 'success'){
                     console.log("Логин .. ОК".green);
                     c.wfSync(await page.cookies(), `./cookies/${cookieName}.json`);
@@ -135,7 +135,7 @@ const robot = {
             document.querySelector(data.selectors.addNewPage.titleInput).value = data.pageData.pageTitle;
         }, {pageData, selectors});
         await c.sleep(500);
-        await page.select(selectors.addNewPage.parent.select, selectors.addNewPage.parent.values.autoInsurance);
+        await page.select(selectors.addNewPage.parent.select, selectors.addNewPage.parent.values[pageData.parent]);
         await c.sleep(500);
         await page.click(selectors.addNewPage.publishBtn);
         await page.waitForNavigation(timeoutSetting);

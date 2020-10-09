@@ -1,222 +1,107 @@
+| [sc name="company_page_styles"]
 .company-page-wrap
-    .mb-48px
-        h2 What is #{company}?
-        p=shortDesc
-
-
-    .row
-        .col
-            .h2 #{company} US states presence
-            p #{company} provides insurance services in #{statesCount} #{statesCount === 1 ? 'state' : 'states'}:
-    .row.text-center
-        .col-10.col-md-6.m-auto
-            .d-flex.justify-content-between
-                .square
-                .square
-                .square
-                .square
-                .square
-                .square
-                .square
-                .square
-                .square
-                .square
-                .square
-                .square.ME
-                    .content.one ME
-            .d-flex.justify-content-between
-                .square
-                .square
-                .square
-                .square
-                .square
-                .square
-                .square.WI
-                    .content.one WI
-                .square
-                .square
-                .square
-                .square.VT
-                    .content.one VT
-                .square.NH
-                    .content.one NH
-            .d-flex.justify-content-between
-                .square
-                .square.WA
-                    .content WA
-                .square.ID
-                    .content ID
-                .square.MT
-                    .content MT
-                .square.ND
-                    .content ND
-                .square.MN
-                    .content MN
-                .square.IL
-                    .content IL
-                .square.MI
-                    .content MI
-                .square
-                .square.NY
-                    .content.one NY
-                .square.MA
-                    .content.both MA
-                .square
-            .d-flex.justify-content-between
-                .square
-                .square.OR
-                    .content OR
-                .square.NV
-                    .content NV
-                .square.WY
-                    .content WY
-                .square.SD
-                    .content SD
-                .square.IA
-                    .content IA
-                .square.IN
-                    .content IN
-                .square.OH
-                    .content OH
-                .square.PA
-                    .content PA
-                .square.NJ
-                    .content.both NJ
-                .square.CT
-                    .content.both CT
-                .square.RI
-                    .content.both RI
-            .d-flex.justify-content-between
-                .square
-                .square.CA
-                    .content CA
-                .square.UT
-                    .content UT
-                .square.CO
-                    .content CO
-                .square.NE
-                    .content NE
-                .square.MO
-                    .content MO
-                .square.KY
-                    .content KY
-                .square.WV
-                    .content WV
-                .square.VA
-                    .content.both VA
-                .square.MD
-                    .content.both MD
-                .square.DE
-                    .content.both DE
-                .square
-            .d-flex.justify-content-between
-                .square
-                .square
-                .square.AZ
-                    .content AZ
-                .square.NM
-                    .content NM
-                .square.KS
-                    .content KS
-                .square.AR
-                    .content AR
-                .square.TN
-                    .content TN
-                .square.NC
-                    .content NC
-                .square.SC
-                    .content.two SC
-                .square.DC
-                    .content.both DC
-                .square
-                .square
-            .d-flex.justify-content-between
-                .square.AK
-                    .content.one AK
-                .square
-                .square
-                .square
-                .square.OK
-                    .content OK
-                .square.LA
-                    .content LA
-                .square.MS
-                    .content MS
-                .square.AL
-                    .content.two AL
-                .square.GA
-                    .content.two GA
-                .square
-                .square
-                .square
-            .d-flex.justify-content-between
-                .square.HI
-                    .content HI
-                .square
-                .square
-                .square
-                .square.TX
-                    .content TX
-                .square
-                .square
-                .square
-                .square
-                .square.FL
-                    .content.two FL
-                .square
-                .square
-    .row.py-5
-        .col.text-center
-            p.d-flex.justify-content-between
-                span
-                    i.fas.fa-square(style='color: #6d9eeb')
-                    |  #{company}
+    .container
+        .row
+            .col
+                h2 What is #{company}?
+                if logos
+                    if logos.img_url
+                        .row
+                            .col-4.col-md-2
+                                img(src=logos.img_url class="img-fluid" alt=`#{company} logo`)
+                p=shortDesc
+    if states && statesCount > 0
+        .container
+            .row
+                .col
+                    .h2 #{company} US states presence
+                    p #{company} provides insurance services in #{statesCount} #{statesCount === 1 ? 'state' : 'states'}:
+            | [sc name="company_page_states_widget"]
+            .row.py-5
+                .col-md-6.m-auto.text-center
+                    p.d-flex.justify-content-between
+                        span
+                            i.fas.fa-square(style='color: #6d9eeb')
+                            |  #{company} is present
+                        span
+                            i.fas.fa-square(style='color: #ddd')
+                            |  #{company} is not present
+    | [sc name="states_get_quotes_second"]
     if ratings.length
-        h3.h2.mb-32px What are #{company} ratings?
-        .row.company-box-rating-wrap.mb-32px
-            .col-6.col-md-4.col-lg-2.mb-3
-                each rating in ratings
-                    .company-box-rating
-                        div #{rating.val}
-                        span #{rating.name}
+        .container.mt-5
+            .row
+                .col
+                    h3.h2.mb-32px What are #{company} ratings?
+                    .row.company-box-rating-wrap.mb-32px
+                        each rating in ratings
+                            .col-6.col-md-4.col-lg-2.mb-3
+                                .company-box-rating
+                                    div #{rating.val}
+                                    span #{rating.name}
+    if products || rates || discounts || contacts
+        .container.mt-5
+            .row
+                if contacts
+                    .col-md-6.mb-32px
+                        h4.h4 #{company} contact info:
+                        table.table
+                            if contacts.website
+                                tr
+                                    td website
+                                    td
+                                        a(href=`#{contacts.website}`) #{contacts.website}
+                            if contacts.phone
+                                tr
+                                    td phone
+                                    td
+                                        a(href='tel:#{contacts.phone}') #{contacts.phone}
+                            if contacts.address
+                                tr
+                                    td address
+                                    td #{contacts.address}
+                if rates
+                    .col-md-6.mb-32px
+                        h3.h4 What are car insurance rates in #{company}?
+                        p
+                            | The average price of auto insurance in #{company} is about #{avgRate} $.
+                            if minRate & maxRate
+                                |  Usually rates vary by state. You can find the cheapest offers in #{minRate.state} where the monthly average rate is
+                                strong.orange-strong  #{minRate.rate} $
+                                | . The most expensive state average is
+                                strong.orange-strong  #{maxRate.rate} $
+                                |  in #{maxRate.state}.
+                if products
+                    .col-md-6.mb-32px
+                        h3.h4 What type of insurance can you purchase in #{company}?
+                        p #{company} offers you different insurance products, such as:
+                        ul.company-page-list
+                            each product in products
+                                li=product
+                if discounts.length
+                    .col-md-6.mb-32px
+                        h4.h4 What discounts does #{company} provide?
+                        p With #{company} you might be eligible to get these types of discounts:
+                        ul.company-page-list
+                            each discount in discounts
+                                li=discount
 
-    .row.mb-64px
-        if products
-            .col-md-6.mb-32px
-                h3.h4 What type of insurance can you purchase in #{company}?
-                p #{company} offer you different insurance products, such as:
-                ul.company-page-list
-                    each product in products
-                        li=product
-        if rates
-            .col-md-6.mb-32px
-                h3.h4 What are car insurance rates in #{company}?
-                p
-                    | The average price of auto insurance in #{company} is about #{avgRate}.
-                    if minRate.rate & maxRate.rate
-                        | Usually rates vary by state. You can find the cheapest offers in #{minRate.state} where the monthly average rate is
-                        strong.orange-strong #{minRate.rate}
-                        | . The most expensive state average is
-                        strong.orange-strong #{maxRate.rate}
-                        |  in #{maxRate.state}.
-        if discounts
-            .col-md-6.mb-32px
-                h4.h4 What discounts does #{company} provide?
-                ul.company-page-list
-                    each discount in discounts
-                        li=discount
+    if reviews
+        .container.mt-5
+            .row
+                .col
+                    h3 Customer reviews
+                    p We have found some reviews on #{company} that you may find useful in your case.
+        .container
+            .row
+                if(reviews.review_1)
+                    .col-md-4.m-auto.h-100
+                        p.bg-light.p-3.rounded.h-100 #{reviews.review_1}
+                if(reviews.review_2)
+                    .col-md-4.m-auto.h-100
+                        p.bg-light.p-3.rounded.h-100 #{reviews.review_2}
+                if(reviews.review_3)
+                    .col-md-4.m-auto.h-100
+                        p.bg-light.p-3.rounded.h-100 #{reviews.review_3}
+| [sc name="company_page_scripts" data="#{statesData}"]
 
-        .col-md-6.mb-32px
-            h4.h4 [Company name] contact info:
-            table.table
-                tr
-                    td website
-                    td
-                        a(href='#') www.leningrad.spb.ru
-                tr
-                    td phone
-                    td
-                        a(href='#') +380665300839
-                tr
-                    td address
-                    td address address address
+
