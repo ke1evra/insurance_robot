@@ -10,8 +10,8 @@ dataManager.setPageDataSetter(dataManager.setStatePageData);
 dataManager.setEntryList(entryList);
 
 // Опции для разделения на несолько компов, чтобы добавлять одновременно
-// dataManager.filterEntryList(5, 9); // опция для выбора начального и конечного элемента для добавления
-// dataManager.setRobotId(1); // Id робота - на каждой машине должен быть уникальным
+//dataManager.filterEntryList(49, 49); // опция для выбора начального и конечного элемента для добавления
+//dataManager.setRobotId(2); // Id робота - на каждой машине должен быть уникальным
 
 (async ()=>{
     try{
