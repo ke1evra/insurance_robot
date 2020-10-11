@@ -155,10 +155,11 @@ class DataManager {
         data.regsAndDUI = states.regsAndDUI[statesList[state].abbr];
         //data.insurify = states.insurify[state];
         this.data = data;
-        // console.log(JSON.stringify(data,0,4));
+        //console.log(JSON.stringify(data,0,4));
     }
 
     renderStateDescription(pageData = this.data){
+        console.log(pageData.companies_urls[`Access`].page_url)
         const html = pug.renderFile('./templates/state.pug', pageData);
         // console.log(html);
         this.pageData.description = html;
@@ -187,7 +188,7 @@ class DataManager {
         this.renderStateTitle();
         this.renderStateMetaTitle();
         this.renderStateMetaDescription();
-        // console.log(this.pageData);
+        //console.log(this.pageData);
         return this.pageData;
     }
 
