@@ -1,9 +1,9 @@
 const c = require('./common.js');
 const pug = require('pug');
 const statesList = c.rfSync('./data/json/states_list.json');
-const companiesLogos = c.rfSync('./data/json/companies_logos.json');
+const companiesLogos = c.rfSync('./data/json/companies_logos__.json');
 const states = {
-    cheapest: c.rfSync('./data/json/states_cheapest_rates__.json'),
+    cheapest: c.rfSync('./data/json/states_cheapest_rates___.json'),
     goodDriver: c.rfSync('./data/json/states_good_drivers_discount__.json'),
     minReqs: c.rfSync('./data/json/states_mimimum_requirements.json'),
     regsAndDUI: c.rfSync('./data/json/states_registrations_and_dui__.json'),

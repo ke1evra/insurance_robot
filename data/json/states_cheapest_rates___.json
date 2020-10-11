@@ -333,7 +333,7 @@
 		{
 			"state": "Arizona",
 			"rank": 1,
-			"company_name": "The Hartford",
+			"company_name": "Hartford",
 			"avg_annual_premium": 495
 		},
 		{
@@ -345,13 +345,13 @@
 		{
 			"state": "Arizona",
 			"rank": 3,
-			"company_name": "Ameriprise Group",
+			"company_name": "Ameriprise",
 			"avg_annual_premium": 937
 		},
 		{
 			"state": "Arizona",
 			"rank": 4,
-			"company_name": "Farm Bureau Mutual (IA Group)",
+			"company_name": "Farm Bureau Mutual",
 			"avg_annual_premium": 1001
 		},
 		{
@@ -509,7 +509,7 @@
 		{
 			"state": "California",
 			"rank": 12,
-			"company_name": "Auto Club",
+			"company_name": "Auto Club (AAA)",
 			"avg_annual_premium": 1771
 		},
 		{
@@ -565,7 +565,7 @@
 		{
 			"state": "Illinois",
 			"rank": 1,
-			"company_name": "The Hartford",
+			"company_name": "Hartford",
 			"avg_annual_premium": 715
 		},
 		{
@@ -589,7 +589,7 @@
 		{
 			"state": "Illinois",
 			"rank": 5,
-			"company_name": "SECURA Insurance",
+			"company_name": "SECURA",
 			"avg_annual_premium": 1210
 		},
 		{
@@ -643,7 +643,7 @@
 		{
 			"state": "Illinois",
 			"rank": 14,
-			"company_name": "Hastings Mutual Insurance Co",
+			"company_name": "Hastings Mutual",
 			"avg_annual_premium": 1470
 		},
 		{
@@ -783,13 +783,13 @@
 		{
 			"state": "Connecticut",
 			"rank": 9,
-			"company_name": "Electric",
+			"company_name": "Electric Insurance",
 			"avg_annual_premium": 1781
 		},
 		{
 			"state": "Connecticut",
 			"rank": 10,
-			"company_name": "Amica",
+			"company_name": "Amica Insurance",
 			"avg_annual_premium": 1860
 		},
 		{
@@ -899,7 +899,7 @@
 		{
 			"state": "Georgia",
 			"rank": 11,
-			"company_name": "Central Mutual Insurance Co",
+			"company_name": "Central Insurance",
 			"avg_annual_premium": 2087
 		},
 		{
@@ -955,7 +955,7 @@
 		{
 			"state": "Virginia",
 			"rank": 2,
-			"company_name": "The Hartford",
+			"company_name": "Hartford",
 			"avg_annual_premium": 745
 		},
 		{
@@ -1087,7 +1087,7 @@
 		{
 			"state": "Virginia",
 			"rank": 24,
-			"company_name": "Electric",
+			"company_name": "Electric Insurance",
 			"avg_annual_premium": 2831
 		}
 	],
@@ -1113,7 +1113,7 @@
 		{
 			"state": "Utah",
 			"rank": 4,
-			"company_name": "Farm Bureau Mutual (IA Group)",
+			"company_name": "Farm Bureau Mutual",
 			"avg_annual_premium": 1060
 		},
 		{
@@ -1309,7 +1309,7 @@
 		{
 			"state": "Michigan",
 			"rank": 2,
-			"company_name": "SECURA Insurance",
+			"company_name": "SECURA",
 			"avg_annual_premium": 1169
 		},
 		{
@@ -1369,7 +1369,7 @@
 		{
 			"state": "Michigan",
 			"rank": 12,
-			"company_name": "Hastings Mutual Insurance Co",
+			"company_name": "Hastings Mutual",
 			"avg_annual_premium": 2230
 		},
 		{
@@ -1387,7 +1387,7 @@
 		{
 			"state": "Michigan",
 			"rank": 15,
-			"company_name": "Frankenmuth Mutual",
+			"company_name": "Frankenmuth",
 			"avg_annual_premium": 2481
 		},
 		{
@@ -1405,7 +1405,7 @@
 		{
 			"state": "Michigan",
 			"rank": 18,
-			"company_name": "GMAC Insurance Group",
+			"company_name": "GMAC",
 			"avg_annual_premium": 2704
 		},
 		{
@@ -1479,7 +1479,7 @@
 		{
 			"state": "South Carolina",
 			"rank": 1,
-			"company_name": "The Hartford",
+			"company_name": "Hartford",
 			"avg_annual_premium": 726
 		},
 		{
@@ -1571,7 +1571,7 @@
 		{
 			"state": "Colorado",
 			"rank": 1,
-			"company_name": "The Hartford",
+			"company_name": "Hartford",
 			"avg_annual_premium": 890
 		},
 		{
@@ -1705,7 +1705,7 @@
 		{
 			"state": "Oklahoma",
 			"rank": 1,
-			"company_name": "The Hartford",
+			"company_name": "Hartford",
 			"avg_annual_premium": 1391
 		},
 		{
@@ -2083,7 +2083,7 @@
 		{
 			"state": "Tennessee",
 			"rank": 12,
-			"company_name": "Tennessee Farmers",
+			"company_name": "Tennessee Farm Bureau",
 			"avg_annual_premium": 1538
 		},
 		{
@@ -2393,7 +2393,7 @@
 		{
 			"state": "Pennsylvania",
 			"rank": 20,
-			"company_name": "GMAC Insurance Group",
+			"company_name": "GMAC",
 			"avg_annual_premium": 2641
 		},
 		{
@@ -2431,7 +2431,7 @@
 		{
 			"state": "Missouri",
 			"rank": 1,
-			"company_name": "The Hartford",
+			"company_name": "Hartford",
 			"avg_annual_premium": 804
 		},
 		{
@@ -2473,7 +2473,7 @@
 		{
 			"state": "Missouri",
 			"rank": 8,
-			"company_name": "Electric",
+			"company_name": "Electric Insurance",
 			"avg_annual_premium": 1799
 		},
 		{
@@ -2613,7 +2613,7 @@
 		{
 			"state": "Indiana",
 			"rank": 10,
-			"company_name": "Hastings Mutual Insurance Co",
+			"company_name": "Hastings Mutual",
 			"avg_annual_premium": 1157
 		},
 		{
@@ -2661,7 +2661,7 @@
 		{
 			"state": "Indiana",
 			"rank": 18,
-			"company_name": "Celina Insurance Group",
+			"company_name": "Celina Insurance",
 			"avg_annual_premium": 1566
 		},
 		{
@@ -2747,7 +2747,7 @@
 		{
 			"state": "Ohio",
 			"rank": 1,
-			"company_name": "Merchants Insurance Group",
+			"company_name": "Merchants",
 			"avg_annual_premium": 818
 		},
 		{
@@ -2819,7 +2819,7 @@
 		{
 			"state": "Ohio",
 			"rank": 13,
-			"company_name": "Frankenmuth Mutual",
+			"company_name": "Frankenmuth",
 			"avg_annual_premium": 1294
 		},
 		{
@@ -2831,7 +2831,7 @@
 		{
 			"state": "Ohio",
 			"rank": 15,
-			"company_name": "Central Mutual Insurance Co",
+			"company_name": "Central Insurance",
 			"avg_annual_premium": 1276
 		},
 		{
@@ -3209,7 +3209,7 @@
 		{
 			"state": "North Carolina",
 			"rank": 10,
-			"company_name": "GMAC Insurance Group",
+			"company_name": "GMAC",
 			"avg_annual_premium": 1043
 		},
 		{
@@ -3325,7 +3325,7 @@
 		{
 			"state": "Kentucky",
 			"rank": 10,
-			"company_name": "Electric",
+			"company_name": "Electric Insurance",
 			"avg_annual_premium": 2335
 		},
 		{
@@ -3355,7 +3355,7 @@
 		{
 			"state": "Kentucky",
 			"rank": 15,
-			"company_name": "SAFECO",
+			"company_name": "Safeco",
 			"avg_annual_premium": 3118
 		},
 		{
@@ -3443,7 +3443,7 @@
 		{
 			"state": "Maine",
 			"rank": 2,
-			"company_name": "The Hartford",
+			"company_name": "Hartford",
 			"avg_annual_premium": 731
 		},
 		{
@@ -3455,7 +3455,7 @@
 		{
 			"state": "Maine",
 			"rank": 4,
-			"company_name": "Concord Group",
+			"company_name": "Concord",
 			"avg_annual_premium": 1017
 		},
 		{
@@ -3467,7 +3467,7 @@
 		{
 			"state": "Maine",
 			"rank": 6,
-			"company_name": "MMG Insurance Company",
+			"company_name": "MMG Insurance",
 			"avg_annual_premium": 1025
 		},
 		{
@@ -3485,7 +3485,7 @@
 		{
 			"state": "Maine",
 			"rank": 9,
-			"company_name": "Patriot Group",
+			"company_name": "Patriot Insurance",
 			"avg_annual_premium": 1196
 		},
 		{
@@ -3547,7 +3547,7 @@
 		{
 			"state": "Wisconsin",
 			"rank": 4,
-			"company_name": "SECURA Insurance",
+			"company_name": "SECURA",
 			"avg_annual_premium": 872
 		},
 		{
@@ -3693,7 +3693,7 @@
 		{
 			"state": "Vermont",
 			"rank": 3,
-			"company_name": "The Hartford",
+			"company_name": "Hartford",
 			"avg_annual_premium": 669
 		},
 		{
@@ -3723,7 +3723,7 @@
 		{
 			"state": "Vermont",
 			"rank": 8,
-			"company_name": "Concord Group",
+			"company_name": "Concord",
 			"avg_annual_premium": 1015
 		},
 		{
@@ -3815,7 +3815,7 @@
 		{
 			"state": "North Dakota",
 			"rank": 4,
-			"company_name": "North Star",
+			"company_name": "North Star Mutual",
 			"avg_annual_premium": 1354
 		},
 		{
@@ -4165,7 +4165,7 @@
 		{
 			"state": "Minnesota",
 			"rank": 3,
-			"company_name": "The Hartford",
+			"company_name": "Hartford",
 			"avg_annual_premium": 936
 		},
 		{
@@ -4207,7 +4207,7 @@
 		{
 			"state": "Minnesota",
 			"rank": 10,
-			"company_name": "North Star",
+			"company_name": "North Star Mutual",
 			"avg_annual_premium": 1401
 		},
 		{
@@ -4293,13 +4293,13 @@
 		{
 			"state": "Nebraska",
 			"rank": 2,
-			"company_name": "American National P&C",
+			"company_name": "American National",
 			"avg_annual_premium": 650
 		},
 		{
 			"state": "Nebraska",
 			"rank": 3,
-			"company_name": "The Hartford",
+			"company_name": "Hartford",
 			"avg_annual_premium": 887
 		},
 		{
@@ -4311,7 +4311,7 @@
 		{
 			"state": "Nebraska",
 			"rank": 5,
-			"company_name": "Farm Bureau Mutual (IA Group)",
+			"company_name": "Farm Bureau Mutual",
 			"avg_annual_premium": 1113
 		},
 		{
@@ -4353,13 +4353,13 @@
 		{
 			"state": "Nebraska",
 			"rank": 12,
-			"company_name": "North Star",
+			"company_name": "North Star Mutual",
 			"avg_annual_premium": 1567
 		},
 		{
 			"state": "Nebraska",
 			"rank": 13,
-			"company_name": "EMC Insurance",
+			"company_name": "EMC",
 			"avg_annual_premium": 1622
 		},
 		{
@@ -4505,7 +4505,7 @@
 		{
 			"state": "Kansas",
 			"rank": 15,
-			"company_name": "Electric",
+			"company_name": "Electric Insurance",
 			"avg_annual_premium": 2197
 		},
 		{
@@ -4629,7 +4629,7 @@
 		{
 			"state": "New Mexico",
 			"rank": 5,
-			"company_name": "Farm Bureau Mutual (IA Group)",
+			"company_name": "Farm Bureau Mutual",
 			"avg_annual_premium": 1288
 		},
 		{
@@ -4641,7 +4641,7 @@
 		{
 			"state": "New Mexico",
 			"rank": 7,
-			"company_name": "The Hartford",
+			"company_name": "Hartford",
 			"avg_annual_premium": 1341
 		},
 		{
@@ -4653,7 +4653,7 @@
 		{
 			"state": "New Mexico",
 			"rank": 9,
-			"company_name": "Central Mutual Insurance Co",
+			"company_name": "Central Insurance",
 			"avg_annual_premium": 1412
 		},
 		{
@@ -4831,7 +4831,7 @@
 		{
 			"state": "South Dakota",
 			"rank": 6,
-			"company_name": "Buckeye Insurance Group",
+			"company_name": "Buckeye",
 			"avg_annual_premium": 1490
 		},
 		{
@@ -4849,7 +4849,7 @@
 		{
 			"state": "South Dakota",
 			"rank": 9,
-			"company_name": "North Star",
+			"company_name": "North Star Mutual",
 			"avg_annual_premium": 1819
 		},
 		{
@@ -4887,7 +4887,7 @@
 		{
 			"state": "West Virginia",
 			"rank": 1,
-			"company_name": "The Hartford",
+			"company_name": "Hartford",
 			"avg_annual_premium": 1054
 		},
 		{
@@ -4985,7 +4985,7 @@
 		{
 			"state": "Iowa",
 			"rank": 1,
-			"company_name": "Farm Bureau Mutual (IA Group)",
+			"company_name": "Farm Bureau Mutual",
 			"avg_annual_premium": 790
 		},
 		{
@@ -5039,7 +5039,7 @@
 		{
 			"state": "Iowa",
 			"rank": 10,
-			"company_name": "IMT Insurance Company",
+			"company_name": "IMT Insurance",
 			"avg_annual_premium": 1232
 		},
 		{
@@ -5143,7 +5143,7 @@
 		{
 			"state": "Massachusetts",
 			"rank": 4,
-			"company_name": "Safety Group",
+			"company_name": "Safety Insurance",
 			"avg_annual_premium": 1214
 		},
 		{
@@ -5185,7 +5185,7 @@
 		{
 			"state": "Massachusetts",
 			"rank": 11,
-			"company_name": "Amica",
+			"company_name": "Amica Insurance",
 			"avg_annual_premium": 1696
 		},
 		{
@@ -5333,13 +5333,13 @@
 		{
 			"state": "New Hampshire",
 			"rank": 3,
-			"company_name": "Concord Group",
+			"company_name": "Concord",
 			"avg_annual_premium": 918
 		},
 		{
 			"state": "New Hampshire",
 			"rank": 4,
-			"company_name": "Commerce Group Inc",
+			"company_name": "Commerce Insurance",
 			"avg_annual_premium": 970
 		},
 		{
@@ -5375,7 +5375,7 @@
 		{
 			"state": "New Hampshire",
 			"rank": 10,
-			"company_name": "Amica",
+			"company_name": "Amica Insurance",
 			"avg_annual_premium": 1242
 		},
 		{
@@ -5387,7 +5387,7 @@
 		{
 			"state": "New Hampshire",
 			"rank": 12,
-			"company_name": "Patriot Group",
+			"company_name": "Patriot Insurance",
 			"avg_annual_premium": 1335
 		},
 		{
@@ -5449,7 +5449,7 @@
 		{
 			"state": "Rhode Island",
 			"rank": 5,
-			"company_name": "Amica",
+			"company_name": "Amica Insurance",
 			"avg_annual_premium": 2470
 		},
 		{
@@ -5511,7 +5511,7 @@
 		{
 			"state": "Wyoming",
 			"rank": 1,
-			"company_name": "The Hartford",
+			"company_name": "Hartford",
 			"avg_annual_premium": 904
 		},
 		{
@@ -5603,7 +5603,7 @@
 		{
 			"state": "Washington",
 			"rank": 6,
-			"company_name": "Amica",
+			"company_name": "Amica Insurance",
 			"avg_annual_premium": 1234
 		},
 		{
@@ -5645,7 +5645,7 @@
 		{
 			"state": "Washington",
 			"rank": 13,
-			"company_name": "GMAC Insurance Group",
+			"company_name": "GMAC",
 			"avg_annual_premium": 1709
 		},
 		{
@@ -5689,7 +5689,7 @@
 		{
 			"state": "Washicgton D.C.",
 			"rank": false,
-			"company_name": false,
+			"company_name": "false",
 			"avg_annual_premium": null
 		}
 	]
