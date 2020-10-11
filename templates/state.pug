@@ -36,7 +36,8 @@ if cities
                     each item in cheapest.companies
                         tr(title=`${item.company_name} average annual premium in ${stateTitle} is about ${item.avg_annual_premium * 12} $`)
                             td(scope='row') #{item.rank}
-                            td #{item.company_name}
+                            td
+                                a(href=`${companies_urls[item.company_name].page_url}`, target="_blank")#{item.company_name}
                             td #{item.avg_annual_premium} $
 
 | [sc name="states_get_quotes_second" bg_class="#{bgClass}" state_title="#{stateTitle}" seal_img_url="#{sealUrl}"]
@@ -52,7 +53,7 @@ if mostReliable
                         if item.logo
                             .col-md-3.m-auto
                                 p.px-5
-                                    img.img-fluid(src=item.logo)
+                                    a(href=`${companies_urls[item.company].page_url}`, target="_blank")img.img-fluid(src=item.logo)
 if goodDrivers
     .container.py-3
         .row

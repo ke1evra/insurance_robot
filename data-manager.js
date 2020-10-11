@@ -13,7 +13,7 @@ const states = {
     young: c.rfSync('./data/json/states_young_drivers_rates__.json'),
     images: c.rfSync('./data/json/states_images.json'),
     insurify: c.rfSync('./data/json/states_insurify__.json'),
-
+    companies_urls: c.rfSync('./data/json/companies_urls.json')
 };
 
 class StateDataManager {
@@ -24,6 +24,7 @@ class StateDataManager {
 
     getStateData(state) {
         const data = {};
+        data.companies_urls=states.companies_urls;
         data.stateTitle = statesList[state].title;
         data.stateAbbr = statesList[state].abbr;
         data.stateIndex = statesList[state].index;

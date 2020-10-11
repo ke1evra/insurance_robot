@@ -1,0 +1,717 @@
+{
+   "Access": {
+      "page_url": "https://www.usainsurancerate.com/companies/access/",
+      "entry_index": 1,
+      "type": "company"
+   },
+   "Acuity": {
+      "page_url": "https://www.usainsurancerate.com/companies/acuity/",
+      "entry_index": 2,
+      "type": "company"
+   },
+   "Affirmative": {
+      "page_url": "https://www.usainsurancerate.com/companies/affirmative/",
+      "entry_index": 3,
+      "type": "company"
+   },
+   "AIG": {
+      "page_url": "https://www.usainsurancerate.com/companies/aig/",
+      "entry_index": 4,
+      "type": "company"
+   },
+   "ALFA": {
+      "page_url": "https://www.usainsurancerate.com/companies/alfa/",
+      "entry_index": 5,
+      "type": "company"
+   },
+   "Allied": {
+      "page_url": "https://www.usainsurancerate.com/companies/allied/",
+      "entry_index": 6,
+      "type": "company"
+   },
+   "Allstate": {
+      "page_url": "https://www.usainsurancerate.com/companies/allstate/",
+      "entry_index": 7,
+      "type": "company"
+   },
+   "American Family": {
+      "page_url": "https://www.usainsurancerate.com/companies/american-family/",
+      "entry_index": 8,
+      "type": "company"
+   },
+   "American Freedom": {
+      "page_url": "https://www.usainsurancerate.com/companies/american-freedom/",
+      "entry_index": 9,
+      "type": "company"
+   },
+   "American Independent": {
+      "page_url": "https://www.usainsurancerate.com/companies/american-independent/",
+      "entry_index": 10,
+      "type": "company"
+   },
+   "American National": {
+      "page_url": "https://www.usainsurancerate.com/companies/american-national/",
+      "entry_index": 11,
+      "type": "company"
+   },
+   "Ameriprise": {
+      "page_url": "https://www.usainsurancerate.com/companies/ameriprise/",
+      "entry_index": 12,
+      "type": "company"
+   },
+   "Amica Insurance": {
+      "page_url": "https://www.usainsurancerate.com/companies/amica-insurance/",
+      "entry_index": 13,
+      "type": "company"
+   },
+   "AmWINS Heritage": {
+      "page_url": "https://www.usainsurancerate.com/companies/amwins-heritage/",
+      "entry_index": 14,
+      "type": "company"
+   },
+   "Arbella": {
+      "page_url": "https://www.usainsurancerate.com/companies/arbella/",
+      "entry_index": 15,
+      "type": "company"
+   },
+   "Arrowhead": {
+      "page_url": "https://www.usainsurancerate.com/companies/arrowhead/",
+      "entry_index": 16,
+      "type": "company"
+   },
+   "Auto Club (AAA)": {
+      "page_url": "https://www.usainsurancerate.com/companies/auto-club-aaa/",
+      "entry_index": 17,
+      "type": "company"
+   },
+   "Auto-Owners": {
+      "page_url": "https://www.usainsurancerate.com/companies/auto-owners/",
+      "entry_index": 18,
+      "type": "company"
+   },
+   "Bear River": {
+      "page_url": "https://www.usainsurancerate.com/companies/bear-river/",
+      "entry_index": 19,
+      "type": "company"
+   },
+   "Bristol West": {
+      "page_url": "https://www.usainsurancerate.com/companies/bristol-west/",
+      "entry_index": 20,
+      "type": "company"
+   },
+   "Buckeye": {
+      "page_url": "https://www.usainsurancerate.com/companies/buckeye/",
+      "entry_index": 21,
+      "type": "company"
+   },
+   "CAIC": {
+      "page_url": "https://www.usainsurancerate.com/companies/caic/",
+      "entry_index": 22,
+      "type": "company"
+   },
+   "Cal Casualty": {
+      "page_url": "https://www.usainsurancerate.com/companies/cal-casualty/",
+      "entry_index": 23,
+      "type": "company"
+   },
+   "California Capital": {
+      "page_url": "https://www.usainsurancerate.com/companies/california-capital/",
+      "entry_index": 24,
+      "type": "company"
+   },
+   "Cameron Insurance": {
+      "page_url": "https://www.usainsurancerate.com/companies/cameron-insurance/",
+      "entry_index": 25,
+      "type": "company"
+   },
+   "Celina Insurance": {
+      "page_url": "https://www.usainsurancerate.com/companies/celina-insurance/",
+      "entry_index": 26,
+      "type": "company"
+   },
+   "Central Insurance": {
+      "page_url": "https://www.usainsurancerate.com/companies/central-insurance/",
+      "entry_index": 27,
+      "type": "company"
+   },
+   "Chubb": {
+      "page_url": "https://www.usainsurancerate.com/companies/chubb/",
+      "entry_index": 28,
+      "type": "company"
+   },
+   "Cincinnati Insurance": {
+      "page_url": "https://www.usainsurancerate.com/companies/cincinnati-insurance/",
+      "entry_index": 29,
+      "type": "company"
+   },
+   "Clearcover": {
+      "page_url": "https://www.usainsurancerate.com/companies/clearcover/",
+      "entry_index": 30,
+      "type": "company"
+   },
+   "Colorado Farm Bureau": {
+      "page_url": "https://www.usainsurancerate.com/companies/colorado-farm-bureau/",
+      "entry_index": 31,
+      "type": "company"
+   },
+   "Columbia Insurance": {
+      "page_url": "https://www.usainsurancerate.com/companies/columbia-insurance/",
+      "entry_index": 32,
+      "type": "company"
+   },
+   "Commerce Insurance": {
+      "page_url": "https://www.usainsurancerate.com/companies/commerce-insurance/",
+      "entry_index": 33,
+      "type": "company"
+   },
+   "Concord": {
+      "page_url": "https://www.usainsurancerate.com/companies/concord/",
+      "entry_index": 34,
+      "type": "company"
+   },
+   "Co-Operative Insurance": {
+      "page_url": "https://www.usainsurancerate.com/companies/co-operative-insurance/",
+      "entry_index": 35,
+      "type": "company"
+   },
+   "Country": {
+      "page_url": "https://www.usainsurancerate.com/companies/country/",
+      "entry_index": 36,
+      "type": "company"
+   },
+   "Countryway Insurance": {
+      "page_url": "https://www.usainsurancerate.com/companies/countryway-insurance/",
+      "entry_index": 37,
+      "type": "company"
+   },
+   "CSE": {
+      "page_url": "https://www.usainsurancerate.com/companies/cse/",
+      "entry_index": 38,
+      "type": "company"
+   },
+   "Dairyland": {
+      "page_url": "https://www.usainsurancerate.com/companies/dairyland/",
+      "entry_index": 39,
+      "type": "company"
+   },
+   "Direct Auto": {
+      "page_url": "https://www.usainsurancerate.com/companies/direct-auto/",
+      "entry_index": 40,
+      "type": "company"
+   },
+   "Donegal Mutual": {
+      "page_url": "https://www.usainsurancerate.com/companies/donegal-mutual/",
+      "entry_index": 41,
+      "type": "company"
+   },
+   "Electric Insurance": {
+      "page_url": "https://www.usainsurancerate.com/companies/electric-insurance/",
+      "entry_index": 42,
+      "type": "company"
+   },
+   "Elephant": {
+      "page_url": "https://www.usainsurancerate.com/companies/elephant/",
+      "entry_index": 43,
+      "type": "company"
+   },
+   "EMC": {
+      "page_url": "https://www.usainsurancerate.com/companies/emc/",
+      "entry_index": 44,
+      "type": "company"
+   },
+   "Empower": {
+      "page_url": "https://www.usainsurancerate.com/companies/empower/",
+      "entry_index": 45,
+      "type": "company"
+   },
+   "Erie": {
+      "page_url": "https://www.usainsurancerate.com/companies/erie/",
+      "entry_index": 46,
+      "type": "company"
+   },
+   "Esurance": {
+      "page_url": "https://www.usainsurancerate.com/companies/esurance/",
+      "entry_index": 47,
+      "type": "company"
+   },
+   "Farm Bureau Mutual": {
+      "page_url": "https://www.usainsurancerate.com/companies/farm-bureau-mutual/",
+      "entry_index": 48,
+      "type": "company"
+   },
+   "Farmers": {
+      "page_url": "https://www.usainsurancerate.com/companies/farmers/",
+      "entry_index": 49,
+      "type": "company"
+   },
+   "Farmers Mutual of Nebraska": {
+      "page_url": "https://www.usainsurancerate.com/companies/farmers-mutual-of-nebraska/",
+      "entry_index": 50,
+      "type": "company"
+   },
+   "Farmers Union Insurance": {
+      "page_url": "https://www.usainsurancerate.com/companies/farmers-union-insurance/",
+      "entry_index": 51,
+      "type": "company"
+   },
+   "First Chicago": {
+      "page_url": "https://www.usainsurancerate.com/companies/first-chicago/",
+      "entry_index": 52,
+      "type": "company"
+   },
+   "Foremost": {
+      "page_url": "https://www.usainsurancerate.com/companies/foremost/",
+      "entry_index": 53,
+      "type": "company"
+   },
+   "Frankenmuth": {
+      "page_url": "https://www.usainsurancerate.com/companies/frankenmuth/",
+      "entry_index": 54,
+      "type": "company"
+   },
+   "Freedom National": {
+      "page_url": "https://www.usainsurancerate.com/companies/freedom-national/",
+      "entry_index": 55,
+      "type": "company"
+   },
+   "GAINSCO": {
+      "page_url": "https://www.usainsurancerate.com/companies/gainsco/",
+      "entry_index": 56,
+      "type": "company"
+   },
+   "Georgia Farm Bureau": {
+      "page_url": "https://www.usainsurancerate.com/companies/georgia-farm-bureau/",
+      "entry_index": 57,
+      "type": "company"
+   },
+   "Grange": {
+      "page_url": "https://www.usainsurancerate.com/companies/grange/",
+      "entry_index": 58,
+      "type": "company"
+   },
+   "Grange Mutual": {
+      "page_url": "https://www.usainsurancerate.com/companies/grange-mutual/",
+      "entry_index": 59,
+      "type": "company"
+   },
+   "Grinnell Mutual": {
+      "page_url": "https://www.usainsurancerate.com/companies/grinnell-mutual/",
+      "entry_index": 60,
+      "type": "company"
+   },
+   "Hanover": {
+      "page_url": "https://www.usainsurancerate.com/companies/hanover/",
+      "entry_index": 61,
+      "type": "company"
+   },
+   "Harleysville": {
+      "page_url": "https://www.usainsurancerate.com/companies/harleysville/",
+      "entry_index": 62,
+      "type": "company"
+   },
+   "Hastings Mutual": {
+      "page_url": "https://www.usainsurancerate.com/companies/hastings-mutual/",
+      "entry_index": 63,
+      "type": "company"
+   },
+   "Idaho Farm Bureau": {
+      "page_url": "https://www.usainsurancerate.com/companies/idaho-farm-bureau/",
+      "entry_index": 64,
+      "type": "company"
+   },
+   "IMT Insurance": {
+      "page_url": "https://www.usainsurancerate.com/companies/imt-insurance/",
+      "entry_index": 65,
+      "type": "company"
+   },
+   "Indiana Farmers Mutual": {
+      "page_url": "https://www.usainsurancerate.com/companies/indiana-farmers-mutual/",
+      "entry_index": 66,
+      "type": "company"
+   },
+   "Infinity": {
+      "page_url": "https://www.usainsurancerate.com/companies/infinity/",
+      "entry_index": 67,
+      "type": "company"
+   },
+   "Iowa Mutual": {
+      "page_url": "https://www.usainsurancerate.com/companies/iowa-mutual/",
+      "entry_index": 68,
+      "type": "company"
+   },
+   "Kemper Auto": {
+      "page_url": "https://www.usainsurancerate.com/companies/kemper-auto/",
+      "entry_index": 69,
+      "type": "company"
+   },
+   "Kentucky Farm Bureau": {
+      "page_url": "https://www.usainsurancerate.com/companies/kentucky-farm-bureau/",
+      "entry_index": 70,
+      "type": "company"
+   },
+   "Liberty Mutual": {
+      "page_url": "https://www.usainsurancerate.com/companies/liberty-mutual/",
+      "entry_index": 71,
+      "type": "company"
+   },
+   "Lighthouse": {
+      "page_url": "https://www.usainsurancerate.com/companies/lighthouse/",
+      "entry_index": 72,
+      "type": "company"
+   },
+   "Loya Insurance": {
+      "page_url": "https://www.usainsurancerate.com/companies/loya-insurance/",
+      "entry_index": 73,
+      "type": "company"
+   },
+   "MEEMIC": {
+      "page_url": "https://www.usainsurancerate.com/companies/meemic/",
+      "entry_index": 74,
+      "type": "company"
+   },
+   "Merchants": {
+      "page_url": "https://www.usainsurancerate.com/companies/merchants/",
+      "entry_index": 75,
+      "type": "company"
+   },
+   "Mercury": {
+      "page_url": "https://www.usainsurancerate.com/companies/mercury/",
+      "entry_index": 76,
+      "type": "company"
+   },
+   "MetLife": {
+      "page_url": "https://www.usainsurancerate.com/companies/metlife/",
+      "entry_index": 77,
+      "type": "company"
+   },
+   "Metromile": {
+      "page_url": "https://www.usainsurancerate.com/companies/metromile/",
+      "entry_index": 78,
+      "type": "company"
+   },
+   "Mississippi Farm Bureau": {
+      "page_url": "https://www.usainsurancerate.com/companies/mississippi-farm-bureau/",
+      "entry_index": 79,
+      "type": "company"
+   },
+   "Missouri Farm Bureau": {
+      "page_url": "https://www.usainsurancerate.com/companies/missouri-farm-bureau/",
+      "entry_index": 80,
+      "type": "company"
+   },
+   "MMG Insurance": {
+      "page_url": "https://www.usainsurancerate.com/companies/mmg-insurance/",
+      "entry_index": 81,
+      "type": "company"
+   },
+   "Motorists Mutual": {
+      "page_url": "https://www.usainsurancerate.com/companies/motorists-mutual/",
+      "entry_index": 82,
+      "type": "company"
+   },
+   "Multi-State": {
+      "page_url": "https://www.usainsurancerate.com/companies/multi-state/",
+      "entry_index": 83,
+      "type": "company"
+   },
+   "Mutual Benefit Group": {
+      "page_url": "https://www.usainsurancerate.com/companies/mutual-benefit-group/",
+      "entry_index": 84,
+      "type": "company"
+   },
+   "Mutual Enumclaw": {
+      "page_url": "https://www.usainsurancerate.com/companies/mutual-enumclaw/",
+      "entry_index": 85,
+      "type": "company"
+   },
+   "National General": {
+      "page_url": "https://www.usainsurancerate.com/companies/national-general/",
+      "entry_index": 86,
+      "type": "company"
+   },
+   "National Grange Mutual": {
+      "page_url": "https://www.usainsurancerate.com/companies/national-grange-mutual/",
+      "entry_index": 87,
+      "type": "company"
+   },
+   "Nationwide": {
+      "page_url": "https://www.usainsurancerate.com/companies/nationwide/",
+      "entry_index": 88,
+      "type": "company"
+   },
+   "NC Farm Bureau": {
+      "page_url": "https://www.usainsurancerate.com/companies/nc-farm-bureau/",
+      "entry_index": 89,
+      "type": "company"
+   },
+   "New Jersey Manufacturers": {
+      "page_url": "https://www.usainsurancerate.com/companies/new-jersey-manufacturers/",
+      "entry_index": 90,
+      "type": "company"
+   },
+   "New York Central Mutual": {
+      "page_url": "https://www.usainsurancerate.com/companies/new-york-central-mutual/",
+      "entry_index": 91,
+      "type": "company"
+   },
+   "Nodak Mutual": {
+      "page_url": "https://www.usainsurancerate.com/companies/nodak-mutual/",
+      "entry_index": 92,
+      "type": "company"
+   },
+   "Norfolk and Dedham": {
+      "page_url": "https://www.usainsurancerate.com/companies/norfolk-and-dedham/",
+      "entry_index": 93,
+      "type": "company"
+   },
+   "North Star Mutual": {
+      "page_url": "https://www.usainsurancerate.com/companies/north-star-mutual/",
+      "entry_index": 94,
+      "type": "company"
+   },
+   "Ohio Casualty": {
+      "page_url": "https://www.usainsurancerate.com/companies/ohio-casualty/",
+      "entry_index": 95,
+      "type": "company"
+   },
+   "Ohio Mutual": {
+      "page_url": "https://www.usainsurancerate.com/companies/ohio-mutual/",
+      "entry_index": 96,
+      "type": "company"
+   },
+   "Oklahoma Farm Bureau": {
+      "page_url": "https://www.usainsurancerate.com/companies/oklahoma-farm-bureau/",
+      "entry_index": 97,
+      "type": "company"
+   },
+   "Oregon Mutual": {
+      "page_url": "https://www.usainsurancerate.com/companies/oregon-mutual/",
+      "entry_index": 98,
+      "type": "company"
+   },
+   "Partners Mutual": {
+      "page_url": "https://www.usainsurancerate.com/companies/partners-mutual/",
+      "entry_index": 99,
+      "type": "company"
+   },
+   "Patriot Insurance": {
+      "page_url": "https://www.usainsurancerate.com/companies/patriot-insurance/",
+      "entry_index": 100,
+      "type": "company"
+   },
+   "Pekin Insurance": {
+      "page_url": "https://www.usainsurancerate.com/companies/pekin-insurance/",
+      "entry_index": 101,
+      "type": "company"
+   },
+   "PEMCO": {
+      "page_url": "https://www.usainsurancerate.com/companies/pemco/",
+      "entry_index": 102,
+      "type": "company"
+   },
+   "Penn National": {
+      "page_url": "https://www.usainsurancerate.com/companies/penn-national/",
+      "entry_index": 103,
+      "type": "company"
+   },
+   "Pioneer State Mutual": {
+      "page_url": "https://www.usainsurancerate.com/companies/pioneer-state-mutual/",
+      "entry_index": 104,
+      "type": "company"
+   },
+   "Plymouth Rock": {
+      "page_url": "https://www.usainsurancerate.com/companies/plymouth-rock/",
+      "entry_index": 105,
+      "type": "company"
+   },
+   "Preferred Mutual": {
+      "page_url": "https://www.usainsurancerate.com/companies/preferred-mutual/",
+      "entry_index": 106,
+      "type": "company"
+   },
+   "Progressive": {
+      "page_url": "https://www.usainsurancerate.com/companies/progressive/",
+      "entry_index": 107,
+      "type": "company"
+   },
+   "Quincy Mutual": {
+      "page_url": "https://www.usainsurancerate.com/companies/quincy-mutual/",
+      "entry_index": 108,
+      "type": "company"
+   },
+   "Rockford Mutual": {
+      "page_url": "https://www.usainsurancerate.com/companies/rockford-mutual/",
+      "entry_index": 109,
+      "type": "company"
+   },
+   "Root Insurance": {
+      "page_url": "https://www.usainsurancerate.com/companies/root-insurance/",
+      "entry_index": 110,
+      "type": "company"
+   },
+   "Safe Auto": {
+      "page_url": "https://www.usainsurancerate.com/companies/safe-auto/",
+      "entry_index": 111,
+      "type": "company"
+   },
+   "Safeco": {
+      "page_url": "https://www.usainsurancerate.com/companies/safeco/",
+      "entry_index": 112,
+      "type": "company"
+   },
+   "Safety Insurance": {
+      "page_url": "https://www.usainsurancerate.com/companies/safety-insurance/",
+      "entry_index": 113,
+      "type": "company"
+   },
+   "Safeway": {
+      "page_url": "https://www.usainsurancerate.com/companies/safeway/",
+      "entry_index": 114,
+      "type": "company"
+   },
+   "SECURA": {
+      "page_url": "https://www.usainsurancerate.com/companies/secura/",
+      "entry_index": 115,
+      "type": "company"
+   },
+   "Selective Insurance": {
+      "page_url": "https://www.usainsurancerate.com/companies/selective-insurance/",
+      "entry_index": 116,
+      "type": "company"
+   },
+   "Sentry": {
+      "page_url": "https://www.usainsurancerate.com/companies/sentry/",
+      "entry_index": 117,
+      "type": "company"
+   },
+   "Shelter": {
+      "page_url": "https://www.usainsurancerate.com/companies/shelter/",
+      "entry_index": 118,
+      "type": "company"
+   },
+   "Southern Farm Bureau": {
+      "page_url": "https://www.usainsurancerate.com/companies/southern-farm-bureau/",
+      "entry_index": 119,
+      "type": "company"
+   },
+   "State Auto": {
+      "page_url": "https://www.usainsurancerate.com/companies/state-auto/",
+      "entry_index": 120,
+      "type": "company"
+   },
+   "State Farm": {
+      "page_url": "https://www.usainsurancerate.com/companies/state-farm/",
+      "entry_index": 121,
+      "type": "company"
+   },
+   "Stillwater": {
+      "page_url": "https://www.usainsurancerate.com/companies/stillwater/",
+      "entry_index": 122,
+      "type": "company"
+   },
+   "Tennessee Farm Bureau": {
+      "page_url": "https://www.usainsurancerate.com/companies/tennessee-farm-bureau/",
+      "entry_index": 123,
+      "type": "company"
+   },
+   "Texas Farm Bureau": {
+      "page_url": "https://www.usainsurancerate.com/companies/texas-farm-bureau/",
+      "entry_index": 124,
+      "type": "company"
+   },
+   "The General": {
+      "page_url": "https://www.usainsurancerate.com/companies/the-general/",
+      "entry_index": 125,
+      "type": "company"
+   },
+   "Hartford": {
+      "page_url": "https://www.usainsurancerate.com/companies/hartford/",
+      "entry_index": 126,
+      "type": "company"
+   },
+   "Titan": {
+      "page_url": "https://www.usainsurancerate.com/companies/titan/",
+      "entry_index": 127,
+      "type": "company"
+   },
+   "Travelers": {
+      "page_url": "https://www.usainsurancerate.com/companies/travelers/",
+      "entry_index": 128,
+      "type": "company"
+   },
+   "Umialik": {
+      "page_url": "https://www.usainsurancerate.com/companies/umialik/",
+      "entry_index": 129,
+      "type": "company"
+   },
+   "Union Mutual of Vermont": {
+      "page_url": "https://www.usainsurancerate.com/companies/union-mutual-of-vermont/",
+      "entry_index": 130,
+      "type": "company"
+   },
+   "Unique": {
+      "page_url": "https://www.usainsurancerate.com/companies/unique/",
+      "entry_index": 131,
+      "type": "company"
+   },
+   "United Automobile": {
+      "page_url": "https://www.usainsurancerate.com/companies/united-automobile/",
+      "entry_index": 132,
+      "type": "company"
+   },
+   "USAA": {
+      "page_url": "https://www.usainsurancerate.com/companies/usaa/",
+      "entry_index": 133,
+      "type": "company"
+   },
+   "Utica National": {
+      "page_url": "https://www.usainsurancerate.com/companies/utica-national/",
+      "entry_index": 134,
+      "type": "company"
+   },
+   "Vermont Mutual": {
+      "page_url": "https://www.usainsurancerate.com/companies/vermont-mutual/",
+      "entry_index": 135,
+      "type": "company"
+   },
+   "Victoria": {
+      "page_url": "https://www.usainsurancerate.com/companies/victoria/",
+      "entry_index": 136,
+      "type": "company"
+   },
+   "Virginia Farm Bureau": {
+      "page_url": "https://www.usainsurancerate.com/companies/virginia-farm-bureau/",
+      "entry_index": 137,
+      "type": "company"
+   },
+   "Wawanesa": {
+      "page_url": "https://www.usainsurancerate.com/companies/wawanesa/",
+      "entry_index": 138,
+      "type": "company"
+   },
+   "West Bend Mutual": {
+      "page_url": "https://www.usainsurancerate.com/companies/west-bend-mutual/",
+      "entry_index": 139,
+      "type": "company"
+   },
+   "Western National": {
+      "page_url": "https://www.usainsurancerate.com/companies/western-national/",
+      "entry_index": 140,
+      "type": "company"
+   },
+   "Western Reserve": {
+      "page_url": "https://www.usainsurancerate.com/companies/western-reserve/",
+      "entry_index": 141,
+      "type": "company"
+   },
+   "Westfield": {
+      "page_url": "https://www.usainsurancerate.com/companies/westfield/",
+      "entry_index": 142,
+      "type": "company"
+   },
+   "Wolverine Mutual": {
+      "page_url": "https://www.usainsurancerate.com/companies/wolverine-mutual/",
+      "entry_index": 143,
+      "type": "company"
+   }
+}

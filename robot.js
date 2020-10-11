@@ -22,7 +22,7 @@ const robot = {
     async openPage(){
         try{
             this.browser = await puppeteer.launch({
-                headless: true,
+                headless: false,
                 args: ['--no-sandbox', '--disable-setuid-sandbox']
             });
             this.page = await this.browser.newPage();
