@@ -49,7 +49,7 @@
                                 tr
                                     td website
                                     td
-                                        a(href=`#{contacts.website}`) #{contacts.website}
+                                        a(href="//" + contacts.website target='_blank') #{contacts.website}
                             if contacts.phone
                                 tr
                                     td phone
@@ -60,11 +60,12 @@
                                     td address
                                     td #{contacts.address}
                 if rates
-                    .col-md-6.mb-32px
-                        h3.h4 What are car insurance rates in #{company}?
-                        p
-                            | The average price of auto insurance in #{company} is about #{avgRate} $.
-                            if minRate & maxRate
+                    if avgRate
+                        .col-md-6.mb-32px
+                            h3.h4 What are car insurance rates in #{company}?
+                            p
+                            |The average price of auto insurance in #{company} is about #{avgRate} $.
+                            if minRate.rate & maxRate.rate
                                 |  Usually rates vary by state. You can find the cheapest offers in #{minRate.state} where the monthly average rate is
                                 strong.orange-strong  #{minRate.rate} $
                                 | . The most expensive state average is

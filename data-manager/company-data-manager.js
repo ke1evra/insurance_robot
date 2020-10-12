@@ -73,14 +73,19 @@ class CompanyDataManager extends DataManager {
                         }
                     }
                 }
+                if (isNaN(this.pageData.avgRate))this.pageData.avgRate=false;
+                if (this.pageData.maxRate === undefined){this.pageData.maxRate={};this.pageData.maxRate["rate"]=false;}
+                if (this.pageData.minRate === undefined){this.pageData.minRate={};this.pageData.minRate["rate"]=false;}
             }
         }
+        if(p && p.hasOwnProperty('rates'))
+            console.log(`${company}:`,this.pageData.avgRate,this.pageData.minRate,this.pageData.maxRate);
 
         this.pageData.shortDesc = `Below you can find important information about ${company} such as US state presence, ratings, contacts, rates and mush more. `;
 
         if(z.founded){
             this.pageData.shortDesc += `${company} was founded in ${z.founded}. `;
-            this.pageData.ratings.push({name: 'year founded', val: z.founded});
+            this.pageData.ratings.push({name: 'Year founded', val: z.founded});
         }
         if(z.headquater){
             this.pageData.shortDesc += `The headquarters is located in ${z.headquater}. `;
@@ -138,7 +143,6 @@ class CompanyDataManager extends DataManager {
             this.pageData.statesData = this.pageData.statesData.join(',');
 
         }
-
         this.renderPageFields(company);
         return this.pageData;
     }
