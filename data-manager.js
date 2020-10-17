@@ -208,7 +208,7 @@ class StateDataManager {
         this.entryList = entryList;
     }
 
-    filterEntryList(startIndex, endIndex = Object.keys(this.entryList).length - 1){
+    filterEntryList(startIndex, endIndex = Object.keys(this.entryList).length){ //последний индекс это длина, а не длина -1
         const filteredList = this.entryList;
         Object.keys(filteredList).map((key)=>{
             if(filteredList[key].index < startIndex || filteredList[key].index > endIndex){
