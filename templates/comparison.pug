@@ -1,0 +1,79 @@
+.company-page-wrap
+    .mb-48px
+        .row
+            .col-md-6
+                h2 What is #{company1}?
+                p
+                    | #{company1} was founded in #{company1.found["place"]} in #{company1.found["year"]}#{company1.found["parent"] ? ` by ${company1.found["parent"]}` : null}. Now it works
+                    | as a #{company1.type} company with a staff of #{company1.number_of_employees} employees. The headquarters is located in #{company1.head_quoters}.
+            .col-md-6
+                h2 What is #{company2}?
+                p
+                    | #{company2} was founded in #{company2.found["place"]} in #{company2.found["year"]}#{company2.found["parent"] ? ` by ${company2.found["parent"]}` : null}. Now it works
+                    | as a #{company2.type} company with a staff of #{company2.number_of_employees} employees. The headquarters is located in #{company2.head_quoters}.
+    table.table.carrier-comparison-table.table-check.table-striped
+        thead
+            tr
+                td
+                    strong Age tier
+                td(style='text-align: center;')
+                    strong #{company1} avg. annual premium
+                td(style='text-align: center;')
+                    strong #{company2} avg. annual premium
+        tbody
+            tr
+                td
+                    strong Teens
+                td(style='text-align: center;') #{company1.quotes.teens}
+                td(style='text-align: center;') #{company2.quotes.teens}
+            tr
+                td
+                    strong 20s
+                td(style='text-align: center;') #{company1.quotes["20s"]}
+                td(style='text-align: center;') #{company2.quotes["20s"]}
+            tr
+                td
+                    strong 30s
+                td(style='text-align: center;') #{company1.quotes["30s"]}
+                td(style='text-align: center;') #{company2.quotes["30s"]}
+            tr
+                td
+                    strong 40s
+                td(style='text-align: center;') #{company1.quotes["40s"]}
+                td(style='text-align: center;') #{company2.quotes["40s"]}
+            tr
+                td
+                    strong 50s
+                td(style='text-align: center;') #{company1.quotes["50s"]}
+                td(style='text-align: center;') #{company2.quotes["50s"]}
+            tr
+                td
+                    strong 60s
+                td(style='text-align: center;') #{company1.quotes["60s"]}
+                td(style='text-align: center;') #{company2.quotes["60s"]}
+    br
+    br
+    br
+    br
+    .table-overflow
+        table.table.carrier-comparison-table.table-check.table-striped
+            thead
+                tr
+                    th Discount Comparison
+                    th(style='border-bottom-color: #999; text-align: center;')
+                        a(href=`${company1.link}`) #{company1}
+                    th(style='border-bottom-color: #05477d; text-align: center;')
+                        a(href=`${company1.link}`) #{company2}
+            tbody
+                each discount in company1_and_company2_discounts
+                    tr
+                        td.fbold
+                            | `#{discount}`
+                        td
+                            svg.table-checkbox(height='35px', viewbox='0 0 34 35', width='34px', xmlns='http://www.w3.org/2000/svg')
+                                g(fill='none', fill-rule='evenodd')
+                                    path(d='M33,1 L10.9047619,33 L1,18.4035088', stroke='#f76b2b', stroke-width='2')
+                        td
+                            svg.table-checkbox(height='35px', viewbox='0 0 34 35', width='34px', xmlns='http://www.w3.org/2000/svg')
+                                g(fill='none', fill-rule='evenodd')
+                                    path(d='M33,1 L10.9047619,33 L1,18.4035088', stroke='#f76b2b', stroke-width='2')
