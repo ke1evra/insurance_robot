@@ -1,0 +1,104 @@
+.company-page-wrap
+    .mb-48px
+        .row
+            .col-md-6
+                h2 What is #{company1.name}?
+                p
+                    if company1.found["year"] || company1.found["parent"] || company1.found["place"]
+                        |#{company1.name} was founded
+                        |#{company1.found["place"] ? ` in ${company1.found["place"]}` : null}
+                        |#{company1.found["year"] ? ` in ${company1.found["year"]}` : null}
+                        |#{company1.found["parent"] ? ` by ${company1.found["parent"]}` : null}
+                        |.
+                    |#{company1.name} works as an #{company1.type} company
+                    if company1.type || company1.number_of_employees
+                        |#{company1.number_of_employees ? ` with a staff of ${company1.number_of_employees} employees` : null }.
+                        |#{company1.head_quoters? `. The headquarters is located in ${company1.head_quoters}`:null}
+                    |.
+            .col-md-6
+                h2 What is #{company2.name}?
+                p
+                    if company2.found["year"] || company2.found["parent"] || company2.found["place"]
+                        | #{company2.name} was founded
+                        | #{company2.found["place"] ? ` in ${company2.found["place"]}` : null}
+                        | #{company2.found["year"] ? ` in ${company2.found["year"]}` : null}
+                        | #{company2.found["parent"] ? ` by ${company2.found["parent"]}` : null}
+                        | .
+                    | #{company2.name} works as an #{company2.type} company
+                    if company2.type || company2.number_of_employees
+                        | #{company2.number_of_employees ? ` with a staff of ${company2.number_of_employees} employees` : null }.
+                        | #{company2.head_quoters ? `. The headquarters is located in ${company2.head_quoters}` : null}
+                    | .
+    .table-overflow
+        table.table.carrier-comparison-table.table-check.table-striped
+            thead
+                tr
+                    th Discount Comparison
+                    th(style='border-bottom-color: #999; text-align: center;')
+                        if company1.link
+                            a(href=`${company1.link}`) #{company1.name}
+                        else
+                            a #{company1.name}
+                    th(style='border-bottom-color: #05477d; text-align: center;')
+                        if company2.link
+                            a(href=`${company2.link}`) #{company2.name}
+                        else
+                            a #{company2.name}
+            tbody
+                each discount in discounts
+                    tr
+                        td.fbold
+                            | #{discount[0]}
+                        td.text-center
+                            if discount[1]
+                                svg.table-checkbox(height='35px', viewbox='0 0 34 34', width='35px', xmlns='http://www.w3.org/2000/svg')
+                                    g(fill='none', fill-rule='evenodd')
+                                        path(d='M33,1 L11,33 L1,18', stroke='#f76b2b', stroke-width='2')
+                            else
+                                svg.table-checkbox(height='35', viewbox='0 0 34 34', width='35', xmlns='http://www.w3.org/2000/svg')
+                                    g(fill='none', fill-rule='evenodd')
+                                        path(d='M33,1 L1,33 M1,1 L1,1 L33,33 L17,17', stroke='#f76b2b', stroke-width='2')
+                        td.text-center
+                            if discount[2]
+                                svg.table-checkbox(height='35px', viewbox='0 0 34 34', width='35px', xmlns='http://www.w3.org/2000/svg')
+                                    g(fill='none', fill-rule='evenodd')
+                                        path(d='M33,1 L11,33 L1,18', stroke='#f76b2b', stroke-width='2')
+                            else
+                                svg.table-checkbox(height='35', viewbox='0 0 34 34', width='35', xmlns='http://www.w3.org/2000/svg')
+                                    g(fill='none', fill-rule='evenodd')
+                                        path(d='M33,1 L1,33 M1,1 L1,1 L33,33 L17,17', stroke='#f76b2b', stroke-width='2')
+    br
+    br
+    br
+    .table-overflow
+        table.table.carrier-comparison-table.table-check.table-striped
+            thead
+                tr
+                    th Products Comparison
+                    th(style='border-bottom-color: #999; text-align: center;')
+                        a(href=`${company1.link}`) #{company1.name}
+                    th(style='border-bottom-color: #05477d; text-align: center;')
+                        a(href=`${company2.link}`) #{company2.name}
+            tbody
+                each product in products
+                    tr
+                        td.fbold
+                            | #{product[0]}
+                        td.text-center
+                            if product[1]
+                                svg.table-checkbox(height='35px', viewbox='0 0 34 34', width='35px', xmlns='http://www.w3.org/2000/svg')
+                                    g(fill='none', fill-rule='evenodd')
+                                        path(d='M33,1 L11,33 L1,18', stroke='#f76b2b', stroke-width='2')
+                            else
+                                svg.table-checkbox(height='35', viewbox='0 0 34 34', width='35', xmlns='http://www.w3.org/2000/svg')
+                                    g(fill='none', fill-rule='evenodd')
+                                        path(d='M33,1 L1,33 M1,1 L1,1 L33,33 L17,17', stroke='#f76b2b', stroke-width='2')
+                        td.text-center
+                            if product[2]
+                                svg.table-checkbox(height='35px', viewbox='0 0 34 34', width='35px', xmlns='http://www.w3.org/2000/svg')
+                                    g(fill='none', fill-rule='evenodd')
+                                        path(d='M33,1 L11,33 L1,18', stroke='#f76b2b', stroke-width='2')
+                            else
+                                svg.table-checkbox(height='35', viewbox='0 0 34 34', width='35', xmlns='http://www.w3.org/2000/svg')
+                                    g(fill='none', fill-rule='evenodd')
+                                        path(d='M33,1 L1,33 M1,1 L1,1 L33,33 L17,17', stroke='#f76b2b', stroke-width='2')
