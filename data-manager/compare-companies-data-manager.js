@@ -51,55 +51,135 @@ class CompanyCompareDataManager extends DataManager {
                 //discounts
                 if(company1.hasOwnProperty("discounts") && company1["discounts"])
                     if(!Array.isArray(company1["discounts"]))
-                    company1["discounts"]=company1["discounts"].split("; ");
+                    {
+                        company1["discounts"]=company1["discounts"].split("; ");
+                        pageData.company1.discounts_count=company1.discounts.length;
+                    }
+
                 if(company2.hasOwnProperty("discounts") && company2["discounts"])
                     if(!Array.isArray(company2["discounts"]))
+                    {
                         company2["discounts"]=company2["discounts"].split("; ");
+                        pageData.company2.discounts_count=company2.discounts.length;
+                    }
                 pageData["discounts"]=[];
                 if(company1["discounts"])
-                    for(let i=0;i<company1["discounts"].length;i++)
-                        pageData["discounts"].push([company1["discounts"][i],true,false])
+                    for(let k=0;k<company1["discounts"].length;k++)
+                        pageData["discounts"].push([company1["discounts"][k],true,false])
                 if(company2["discounts"])
-                    for(let i=0;i<company2["discounts"].length;i++)
+                    for(let k=0;k<company2["discounts"].length;k++)
                     {
                         let found=false;
-                        for(let j=0;j<pageData["discounts"].length;j++)
+                        for(let l=0;l<pageData["discounts"].length;l++)
                         {
-                            if(pageData["discounts"][0]===company2["discounts"][i])
+                            if(pageData["discounts"][l][0]===company2["discounts"][k])
                             {
-                                pageData["discounts"][2]=true;
+                                pageData["discounts"][l][2]=true;
                                 found=true;
                             }
                         }
                         if(!found)
-                            pageData["discounts"].push([company2["discounts"][i],false,true])
+                            pageData["discounts"].push([company2["discounts"][k],false,true])
                     }
                 //products
                 if(company1.hasOwnProperty("products") && company1["products"])
                     if(!Array.isArray(company1["products"]))
+                    {
                         company1["products"]=company1["products"].split(", ");
+                        pageData.company1.products_count=company1.products.length;
+                    }
                 if(company2.hasOwnProperty("products") && company2["products"])
                     if(!Array.isArray(company2["products"]))
+                    {
                         company2["products"]=company2["products"].split(", ");
+                        pageData.company2.products_count=company2.products.length;
+                    }
                 pageData["products"]=[];
                 if(company1["products"])
-                    for(let i=0;i<company1["products"].length;i++)
-                        pageData["products"].push([company1["products"][i],true,false])
+                    for(let k=0;k<company1["products"].length;k++)
+                        pageData["products"].push([company1["products"][k],true,false])
                 if(company2["products"])
-                    for(let i=0;i<company2["products"].length;i++)
+                    for(let k=0;k<company2["products"].length;k++)
                     {
                         let found=false;
-                        for(let j=0;j<pageData["products"].length;j++)
+                        for(let l=0;l<pageData["products"].length;l++)
                         {
-                            if(pageData["products"][0]===company2["products"][i])
+                            if(pageData["products"][l][0]===company2["products"][k])
                             {
-                                pageData["products"][2]=true;
+                                pageData["products"][l][2]=true;
                                 found=true;
                             }
                         }
                         if(!found)
-                            pageData["products"].push([company2["products"][i],false,true])
+                            pageData["products"].push([company2["products"][k],false,true])
                     }
+                //states appereance
+                pageData["states"]=[];
+                pageData["states"].push(["al".toUpperCase(),company1["al"] ? (company2["al"] ? 3 : 1) : (company2["al"]? 2 : 0)]);
+                pageData["states"].push(["ak".toUpperCase(),company1["ak"] ? (company2["ak"] ? 3 : 1) : (company2["ak"]? 2 : 0)]);
+                pageData["states"].push(["az".toUpperCase(),company1["az"] ? (company2["az"] ? 3 : 1) : (company2["az"]? 2 : 0)]);
+                pageData["states"].push(["ar".toUpperCase(),company1["ar"] ? (company2["ar"] ? 3 : 1) : (company2["ar"]? 2 : 0)]);
+                pageData["states"].push(["ca".toUpperCase(),company1["ca"] ? (company2["ca"] ? 3 : 1) : (company2["ca"]? 2 : 0)]);
+                pageData["states"].push(["co".toUpperCase(),company1["co"] ? (company2["co"] ? 3 : 1) : (company2["co"]? 2 : 0)]);
+                pageData["states"].push(["ct".toUpperCase(),company1["ct"] ? (company2["ct"] ? 3 : 1) : (company2["ct"]? 2 : 0)]);
+                pageData["states"].push(["de".toUpperCase(),company1["de"] ? (company2["de"] ? 3 : 1) : (company2["de"]? 2 : 0)]);
+                pageData["states"].push(["fl".toUpperCase(),company1["fl"] ? (company2["fl"] ? 3 : 1) : (company2["fl"]? 2 : 0)]);
+                pageData["states"].push(["ga".toUpperCase(),company1["ga"] ? (company2["ga"] ? 3 : 1) : (company2["ga"]? 2 : 0)]);
+                pageData["states"].push(["hi".toUpperCase(),company1["hi"] ? (company2["hi"] ? 3 : 1) : (company2["hi"]? 2 : 0)]);
+                pageData["states"].push(["id".toUpperCase(),company1["id"] ? (company2["id"] ? 3 : 1) : (company2["id"]? 2 : 0)]);
+                pageData["states"].push(["il".toUpperCase(),company1["il"] ? (company2["il"] ? 3 : 1) : (company2["il"]? 2 : 0)]);
+                pageData["states"].push(["IN".toUpperCase(),company1["IN"] ? (company2["IN"] ? 3 : 1) : (company2["IN"]? 2 : 0)]);
+                pageData["states"].push(["ia".toUpperCase(),company1["ia"] ? (company2["ia"] ? 3 : 1) : (company2["ia"]? 2 : 0)]);
+                pageData["states"].push(["ks".toUpperCase(),company1["ks"] ? (company2["ks"] ? 3 : 1) : (company2["ks"]? 2 : 0)]);
+                pageData["states"].push(["ky".toUpperCase(),company1["ky"] ? (company2["ky"] ? 3 : 1) : (company2["ky"]? 2 : 0)]);
+                pageData["states"].push(["la".toUpperCase(),company1["la"] ? (company2["la"] ? 3 : 1) : (company2["la"]? 2 : 0)]);
+                pageData["states"].push(["me".toUpperCase(),company1["me"] ? (company2["me"] ? 3 : 1) : (company2["me"]? 2 : 0)]);
+                pageData["states"].push(["md".toUpperCase(),company1["md"] ? (company2["md"] ? 3 : 1) : (company2["md"]? 2 : 0)]);
+                pageData["states"].push(["ma".toUpperCase(),company1["ma"] ? (company2["ma"] ? 3 : 1) : (company2["ma"]? 2 : 0)]);
+                pageData["states"].push(["mi".toUpperCase(),company1["mi"] ? (company2["mi"] ? 3 : 1) : (company2["mi"]? 2 : 0)]);
+                pageData["states"].push(["mn".toUpperCase(),company1["mn"] ? (company2["mn"] ? 3 : 1) : (company2["mn"]? 2 : 0)]);
+                pageData["states"].push(["ms".toUpperCase(),company1["ms"] ? (company2["ms"] ? 3 : 1) : (company2["ms"]? 2 : 0)]);
+                pageData["states"].push(["mo".toUpperCase(),company1["mo"] ? (company2["mo"] ? 3 : 1) : (company2["mo"]? 2 : 0)]);
+                pageData["states"].push(["mt".toUpperCase(),company1["mt"] ? (company2["mt"] ? 3 : 1) : (company2["mt"]? 2 : 0)]);
+                pageData["states"].push(["ne".toUpperCase(),company1["ne"] ? (company2["ne"] ? 3 : 1) : (company2["ne"]? 2 : 0)]);
+                pageData["states"].push(["nv".toUpperCase(),company1["nv"] ? (company2["nv"] ? 3 : 1) : (company2["nv"]? 2 : 0)]);
+                pageData["states"].push(["nh".toUpperCase(),company1["nh"] ? (company2["nh"] ? 3 : 1) : (company2["nh"]? 2 : 0)]);
+                pageData["states"].push(["nj".toUpperCase(),company1["nj"] ? (company2["nj"] ? 3 : 1) : (company2["nj"]? 2 : 0)]);
+                pageData["states"].push(["nm".toUpperCase(),company1["nm"] ? (company2["nm"] ? 3 : 1) : (company2["nm"]? 2 : 0)]);
+                pageData["states"].push(["ny".toUpperCase(),company1["ny"] ? (company2["ny"] ? 3 : 1) : (company2["ny"]? 2 : 0)]);
+                pageData["states"].push(["nc".toUpperCase(),company1["nc"] ? (company2["nc"] ? 3 : 1) : (company2["nc"]? 2 : 0)]);
+                pageData["states"].push(["nd".toUpperCase(),company1["nd"] ? (company2["nd"] ? 3 : 1) : (company2["nd"]? 2 : 0)]);
+                pageData["states"].push(["oh".toUpperCase(),company1["oh"] ? (company2["oh"] ? 3 : 1) : (company2["oh"]? 2 : 0)]);
+                pageData["states"].push(["ok".toUpperCase(),company1["ok"] ? (company2["ok"] ? 3 : 1) : (company2["ok"]? 2 : 0)]);
+                pageData["states"].push(["OR".toUpperCase(),company1["OR"] ? (company2["OR"] ? 3 : 1) : (company2["OR"]? 2 : 0)]);
+                pageData["states"].push(["pa".toUpperCase(),company1["pa"] ? (company2["pa"] ? 3 : 1) : (company2["pa"]? 2 : 0)]);
+                pageData["states"].push(["ri".toUpperCase(),company1["ri"] ? (company2["ri"] ? 3 : 1) : (company2["ri"]? 2 : 0)]);
+                pageData["states"].push(["sc".toUpperCase(),company1["sc"] ? (company2["sc"] ? 3 : 1) : (company2["sc"]? 2 : 0)]);
+                pageData["states"].push(["sd".toUpperCase(),company1["sd"] ? (company2["sd"] ? 3 : 1) : (company2["sd"]? 2 : 0)]);
+                pageData["states"].push(["tn".toUpperCase(),company1["tn"] ? (company2["tn"] ? 3 : 1) : (company2["tn"]? 2 : 0)]);
+                pageData["states"].push(["tx".toUpperCase(),company1["tx"] ? (company2["tx"] ? 3 : 1) : (company2["tx"]? 2 : 0)]);
+                pageData["states"].push(["ut".toUpperCase(),company1["ut"] ? (company2["ut"] ? 3 : 1) : (company2["ut"]? 2 : 0)]);
+                pageData["states"].push(["vt".toUpperCase(),company1["vt"] ? (company2["vt"] ? 3 : 1) : (company2["vt"]? 2 : 0)]);
+                pageData["states"].push(["va".toUpperCase(),company1["va"] ? (company2["va"] ? 3 : 1) : (company2["va"]? 2 : 0)]);
+                pageData["states"].push(["wa".toUpperCase(),company1["wa"] ? (company2["wa"] ? 3 : 1) : (company2["wa"]? 2 : 0)]);
+                pageData["states"].push(["wv".toUpperCase(),company1["wv"] ? (company2["wv"] ? 3 : 1) : (company2["wv"]? 2 : 0)]);
+                pageData["states"].push(["wi".toUpperCase(),company1["wi"] ? (company2["wi"] ? 3 : 1) : (company2["wi"]? 2 : 0)]);
+                pageData["states"].push(["wy".toUpperCase(),company1["wy"] ? (company2["wy"] ? 3 : 1) : (company2["wy"]? 2 : 0)]);
+
+                pageData.company1["statesCount"]=0;
+                pageData.company2["statesCount"]=0;
+                for(let k=0;k<pageData.states.length;k++)
+                {
+                    if(pageData.states[k][1]==1)
+                        pageData.company1["statesCount"]++;
+                    if(pageData.states[k][1]==2)
+                        pageData.company2["statesCount"]++;
+                    if(pageData.states[k][1]==3)
+                    {
+                        pageData.company1["statesCount"]++;
+                        pageData.company2["statesCount"]++;
+                    }
+                }
                 let page_name=company1.title.split(" ").join("")+"_"+company2.title.split(" ").join("")
                 pageData["page_name"]=page_name;
                     pageData["index"]=i*companies.length+j;
@@ -124,7 +204,7 @@ class CompanyCompareDataManager extends DataManager {
         this.pageData.type = 'compare-companies';
 
         this.pageData.entry_index = this.pageData.index;
-        this.pageData.parent = 'compare-companies';
+        this.pageData.parent = 'compare';
         console.log(this.pageData);
         this.renderPageFields(company);
         return this.pageData;
@@ -139,7 +219,7 @@ class CompanyCompareDataManager extends DataManager {
     }
 
     renderMetaTitle(){
-        this.pageData.metaTitle = `${this.pageData["company1"].title} and ${this.pageData["company2"].title} insurance company compare`
+        this.pageData.metaTitle = `${this.pageData.company1.name} and ${this.pageData["company2"].name} insurance company compare`
     }
 
     renderMetaDescription(){

@@ -29,6 +29,7 @@ module.exports = {
             values: {
                 autoInsurance: '62',
                 companies: '827',
+                compare: '1190'
             }
         },
         publishBtn: '#publish',
