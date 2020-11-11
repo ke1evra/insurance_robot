@@ -115,17 +115,18 @@ class CompanyCompareDataManager extends DataManager {
         //console.log(this.data);
     }
 
-    setPageData(companies){
-        this.pageData=this.data[companies]
+    setPageData(company){
+        this.pageData=this.data[company]
         this.setPageType('compare-companies');
-        this.pageData.company = companies;
-        this.pageData.entry = companies;
+        this.pageData.company = company;
+        this.pageData.entry = company;
         this.pageData.robotId = 1;
         this.pageData.type = 'compare-companies';
 
         this.pageData.entry_index = this.pageData.index;
         this.pageData.parent = 'compare-companies';
         console.log(this.pageData);
+        this.renderPageFields(company);
         return this.pageData;
     }
 
@@ -142,7 +143,7 @@ class CompanyCompareDataManager extends DataManager {
     }
 
     renderMetaDescription(){
-        this.pageData.metaDescription = `Find out more about ${this.pageData.company}. Average rates, ratings, presence in states, reviews and more.`;
+        this.pageData.metaDescription = `Find out more about ${this.pageData.company1.name} and ${this.pageData.company2.name}. Average rates, ratings, presence in states, reviews and more.`;
     }
 
 

@@ -69,8 +69,8 @@
     "phone": "1 (734) 665-4419",
     "address": "240 Metty Drive, Ste. D, Ann Arbor, Michigan 48106 United States"
   },
-  "Allstate": {
-    "company": "Allstate",
+  "Allstate Insurance Review": {
+    "company": "Allstate Insurance Review",
     "moodies": "Aa3",
     "am_best_financial_strength": "A+",
     "am_best_long_time": "aa",
@@ -129,8 +129,8 @@
     "phone": "1 (800) 862-7919",
     "address": "70100 Ameriprise Financial Center, Minneapolis, MN 55474"
   },
-  "Amica Insurance": {
-    "company": "Amica Insurance",
+  "Amica Insurance Review": {
+    "company": "Amica Insurance Review",
     "moodies": "A1",
     "am_best_financial_strength": "A+",
     "am_best_long_time": "aa-",
@@ -159,8 +159,8 @@
     "phone": "1 (800) 877-0600",
     "address": "1195 River Road PO Box 302 Marietta, PA 17547"
   },
-  "Auto Club (AAA)": {
-    "company": "Auto Club (AAA)",
+  "AAA": {
+    "company": "AAA",
     "moodies": null,
     "am_best_financial_strength": "A-",
     "am_best_long_time": "a-",
@@ -179,8 +179,8 @@
     "phone": "1 (517) 323-1200",
     "address": "6101 Anacapri Blvd, Lansing, MI, 48917-3994"
   },
-  "ACCC Insurance": {
-    "company": "ACCC Insurance",
+  "ACCC Insurance Company": {
+    "company": "ACCC Insurance Company",
     "moodies": null,
     "am_best_financial_strength": "NR",
     "am_best_long_time": "nr",
@@ -189,8 +189,8 @@
     "phone": "1 (888) 823-0888",
     "address": "390 Benmar Dr Ste 225, Houston, TX, 77060-2924"
   },
-  "ACE": {
-    "company": "ACE",
+  "ACE American Pool": {
+    "company": "ACE American Pool",
     "moodies": "A2",
     "am_best_financial_strength": "A++",
     "am_best_long_time": "aa+",
@@ -509,8 +509,8 @@
     "phone": "1 (800) 877-0600",
     "address": "1195 River Road Marietta, PA 17547 United States"
   },
-  "Electric Insurance": {
-    "company": "Electric Insurance",
+  "Electric Insurance Company": {
+    "company": "Electric Insurance Company",
     "moodies": "Aaa",
     "am_best_financial_strength": "A",
     "am_best_long_time": "a+",
@@ -649,7 +649,7 @@
     "phone": "1 (800) 234-4433",
     "address": "1 Mutual Avenue, Frankenmuth, MI 48787, United States"
   },
-  "Freedom National": {
+  "Frankenmuth": {
     "company": "Freedom National",
     "moodies": null,
     "am_best_financial_strength": "NR",
@@ -689,8 +689,8 @@
     "phone": "1 (866) 424-672",
     "address": "3333 Lee Pkwy Ste 1200, Dallas, TX, 75219-5134 United States"
   },
-  "GEICO": {
-    "company": "GEICO",
+  "GEICO Insurance Review": {
+    "company": "GEICO Insurance Review",
     "moodies": "Aa1",
     "am_best_financial_strength": "A++",
     "am_best_long_time": "aaa",
@@ -759,8 +759,8 @@
     "phone": "1 (844) 723-2524",
     "address": null
   },
-  "GMAC": {
-    "company": "GMAC",
+  "GMAC Insurance Group": {
+    "company": "GMAC Insurance Group",
     "moodies": null,
     "am_best_financial_strength": null,
     "am_best_long_time": null,
@@ -799,8 +799,8 @@
     "phone": "1 (800) 442-8277",
     "address": "404 E Woodlawn Ave, Hastings, MI 49058 United States"
   },
-  "Hallmark": {
-    "company": "Hallmark",
+  "Hallmark Insurance Group": {
+    "company": "Hallmark Insurance Group",
     "moodies": null,
     "am_best_financial_strength": null,
     "am_best_long_time": "bbb- u",
@@ -939,8 +939,8 @@
     "phone": "1 (888) 463-3642",
     "address": "1685 N Opdyke Rd, Auburn Hills, MI, 48326-2656 United States"
   },
-  "Merchants": {
-    "company": "Merchants",
+  "Merchants Insurance Group": {
+    "company": "Merchants Insurance Group",
     "moodies": "A2",
     "am_best_financial_strength": "A-",
     "am_best_long_time": "a-",
@@ -1049,8 +1049,8 @@
     "phone": "1 (800) 366-5551",
     "address": "1460 Wells St, Enumclaw, WA, 98022-3098 United States"
   },
-  "Maryland Auto": {
-    "company": "Maryland Auto",
+  "Maryland Auto Insurance Fund": {
+    "company": "Maryland Auto Insurance Fund",
     "moodies": null,
     "am_best_financial_strength": null,
     "am_best_long_time": null,
@@ -1439,8 +1439,8 @@
     "phone": "1 (800) 951-2100",
     "address": "20 Custom House St Ste 400, Boston, MA, 02110-3516 United States"
   },
-  "Safeway": {
-    "company": "Safeway",
+  "Safeway Insurance Company": {
+    "company": "Safeway Insurance Company",
     "moodies": "B2",
     "am_best_financial_strength": "A",
     "am_best_long_time": "a",
@@ -1589,8 +1589,8 @@
     "phone": "1 (917) 778-6000",
     "address": "485 Lexington Avenue, New York New York 10017 United States"
   },
-  "Tower Ins Co of New York": {
-    "company": "Tower Ins Co of New York",
+  "Tower Insurance Company of New York": {
+    "company": "Tower Insurance Company of New York",
     "moodies": null,
     "am_best_financial_strength": null,
     "am_best_long_time": null,
@@ -1649,8 +1649,8 @@
     "phone": "1 (210) 531-8722",
     "address": "9800 Fredericksburg Road San Antonio, TX 78288 United States"
   },
-  "Utica National": {
-    "company": "Utica National",
+  "Utica National Insurance Group": {
+    "company": "Utica National Insurance Group",
     "moodies": null,
     "am_best_financial_strength": "A-",
     "am_best_long_time": "a-",
@@ -1759,8 +1759,8 @@
     "phone": "1 (952) 835-5350",
     "address": "Edina Corporate Center 4700 West 77th Street Edina, MN, 55435-4818"
   },
-  "Western Reserve": {
-    "company": "Western Reserve",
+  "Western Reserve Group": {
+    "company": "Western Reserve Group",
     "moodies": "A1",
     "am_best_financial_strength": "A",
     "am_best_long_time": "a",
