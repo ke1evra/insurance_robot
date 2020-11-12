@@ -61,29 +61,27 @@ class CompanyCompareDataManager extends DataManager {
                 pageData["company1"]["contacts"]["website"]=company1["website"];
                 pageData["company1"]["contacts"]["website"]=company1["website"];
                 //ratings
-				pageData["company1"]["ratings"]={};
-				pageData["company2"]["ratings"]={};
+				pageData["company1"]["ratings"]=[];
+				pageData["company2"]["ratings"]=[];
 
-                pageData["company1"]["ratings"]["claims_raiting"]=company1["claims_raiting"];
-                pageData["company2"]["ratings"]["claims_raiting"]=company2["claims_raiting"];
+                pageData["company1"]["ratings"].push(["Claims Raiting",company1["claims_raiting"]]);
+                pageData["company2"]["ratings"].push(["Claims Raiting",company2["claims_raiting"]]);
 
-                pageData["company1"]["ratings"]["user_satisfaction"]=company1["user_satisfaction"];
-                pageData["company2"]["ratings"]["user_satisfaction"]=company2["user_satisfaction"];
+                pageData["company1"]["ratings"].push(["User satisfaction",company1["user_satisfaction"]]);
+                pageData["company2"]["ratings"].push(["User satisfaction",company2["user_satisfaction"]]);
 
-                pageData["company1"]["ratings"]["moodies"]=company1["moodies"];
-                pageData["company2"]["ratings"]["moodies"]=company2["moodies"];
+                pageData["company1"]["ratings"].push(["Moodies",company1["moodies"]]);
+                pageData["company2"]["ratings"].push(["Moodies",company2["moodies"]]);
 
-                pageData["company1"]["ratings"]["am_best_financial_strength"]=company1["am_best_financial_strength"];
-                pageData["company2"]["ratings"]["am_best_financial_strength"]=company2["am_best_financial_strength"];
+                pageData["company1"]["ratings"].push(["Financial strength",company1["am_best_financial_strength"]]);
+                pageData["company2"]["ratings"].push(["Financial strength",company2["am_best_financial_strength"]]);
 
-                pageData["company1"]["ratings"]["am_best_long_time"]=company1["am_best_long_time"];
-                pageData["company2"]["ratings"]["am_best_long_time"]=company2["am_best_long_time"];
+                pageData["company1"]["ratings"].push(["Long Time ICR",company1["am_best_long_time"]]);
+                pageData["company2"]["ratings"].push(["Long Time ICR",company2["am_best_long_time"]]);
 
-                pageData["company1"]["ratings"]["bbb"]=company1["bbb"];
-                pageData["company2"]["ratings"]["bbb"]=company2["bbb"];
+                pageData["company1"]["ratings"].push(["BBB",company1["bbb"]]);
+                pageData["company2"]["ratings"].push(["BBB",company2["bbb"]]);
 
-                pageData["company1"]["ratings"]["am_best_long_time"]=company1["am_best_long_time"];
-                pageData["company2"]["ratings"]["am_best_long_time"]=company2["am_best_long_time"];
                 //discounts
                 if(company1["discounts"])
                 {
