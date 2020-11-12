@@ -337,4 +337,31 @@
                                     svg.table-checkbox(height='35', viewbox='0 0 34 34', width='35', xmlns='http://www.w3.org/2000/svg')
                                         g(fill='none', fill-rule='evenodd')
                                             path(d='M33,1 L1,33 M1,1 L1,1 L33,33 L17,17', stroke='#f76b2b', stroke-width='2')
+        br
+        br
+        br
+        .table-overflow
+            table.table.carrier-comparison-table.table-check.table-striped
+                thead
+                    tr
+                        th Quotes Comparison
+                        th(style='border-bottom-color: #999; text-align: center;')
+                            if company1.link
+                                a(href=`${company1.link}`) #{company1.name}
+                            else
+                                | #{company1.name}
+                        th(style='border-bottom-color: #05477d; text-align: center;')
+                            if company2.link
+                                a(href=`${company2.link}`) #{company2.name}
+                            else
+                                | #{company2.name}
+                tbody
+                    each quote in quotes
+                        tr
+                            td.fbold
+                                | #{quote[0]}
+                            td.text-center
+                                | #{quote[1]? `${quote[1]} $` : '-'}
+                            td.text-center
+                                | #{quote[2]? `${quote[1]} $` : '-'}
 | [sc name="comparison_page_scritps" data="#{states}"]
