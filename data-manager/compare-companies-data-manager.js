@@ -46,8 +46,8 @@ class CompanyCompareDataManager extends DataManager {
                 pageData["company1"]["head_quoters"]=company1["head_quoters"];
                 pageData["company2"]["head_quoters"]=company2["head_quoters"];
 
-                pageData["company1"]["link"]=company1["url-slug"];
-                pageData["company2"]["link"]=company2["url-slug"];
+                pageData["company1"]["link"]="https://www.usainsurancerate.com/companies/"+company1["url-slug"];
+                pageData["company2"]["link"]="https://www.usainsurancerate.com/companies/"+company2["url-slug"];
                 //contacts
                 pageData["company1"]["phone"]=company1["phone"];
                 pageData["company2"]["phone"]=company2["phone"];
