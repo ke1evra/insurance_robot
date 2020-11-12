@@ -371,4 +371,64 @@
                             | #{company1.avgQuote ? `${company1.avgQuote} $` : '-'}
                         td(style='border-top-width: 3px;border-top-color: #999;').text-center
                             | #{company2.avgQuote ? `${company2.avgQuote} $` : '-'}
+        br
+        br
+        br
+        .mb-48px
+            .row
+                .col-md-6
+                    h4.h4 How can you contact #{company1.name}?
+                    table.table
+                        if company1.contacts.website
+                            tr
+                                td website
+                                td
+                                    a(href="//" + company1.contacts.website target='_blank') #{company1.contacts.website}
+                        if company1.contacts.phone
+                            tr
+                                td phone
+                                td
+                                    a(href=`tel: ${company1.contacts.phone}`) #{company1.contacts.phone}
+                        if company1.contacts.address
+                            tr
+                                td address
+                                td #{company1.contacts.address}
+                .col-md-6
+                    h4.h4 How can you contact #{company2.name}?
+                    table.table
+                        if company2.contacts.website
+                            tr
+                                td website
+                                td
+                                    a(href="//" + company2.contacts.website target='_blank') #{company2.contacts.website}
+                        if company2.contacts.phone
+                            tr
+                                td phone
+                                td
+                                    a(href=`tel: ${company2.contacts.phone}`) #{company2.contacts.phone}
+                        if company2.contacts.address
+                            tr
+                                td address
+                                td #{company2.contacts.address}
+        br
+        br
+        br
+        .mb-48px
+            .row
+                .col-md-6
+                    h4.h4 What are #{company1.name} ratings?
+                    .row.company-box-rating-wrap.mb-32px
+                        each rating in company1.ratings
+                            .col-6.col-md-4.col-lg-2.mb-3
+                                .company-box-rating
+                                    div #{company1.ratings.val}
+                                    span #{company1.ratings.name}
+                .col-md-6
+                    h4.h4 What are #{company2.name} ratings?
+                    .row.company-box-rating-wrap.mb-32px
+                        each rating in company2.ratings
+                            .col-6.col-md-4.col-lg-2.mb-3
+                                .company-box-rating
+                                    div #{company2.ratings.val}
+                                    span #{company2.ratings.name}
 | [sc name="comparison_page_scritps" data="#{states}"]

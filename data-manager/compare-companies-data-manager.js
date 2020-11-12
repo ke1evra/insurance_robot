@@ -49,35 +49,41 @@ class CompanyCompareDataManager extends DataManager {
                 pageData["company1"]["link"]="https://www.usainsurancerate.com/companies/"+company1["url-slug"];
                 pageData["company2"]["link"]="https://www.usainsurancerate.com/companies/"+company2["url-slug"];
                 //contacts
-                pageData["company1"]["phone"]=company1["phone"];
-                pageData["company2"]["phone"]=company2["phone"];
+				pageData["company1"]["contacts"]={};
+				pageData["company2"]["contacts"]={};
 
-                pageData["company1"]["address"]=company1["address"];
-                pageData["company2"]["address"]=company2["address"];
+                pageData["company1"]["contacts"]["phone"]=company1["phone"];
+                pageData["company2"]["contacts"]["phone"]=company2["phone"];
 
-                pageData["company1"]["website"]=company1["website"];
-                pageData["company1"]["website"]=company1["website"];
+                pageData["company1"]["contacts"]["address"]=company1["address"];
+                pageData["company2"]["contacts"]["address"]=company2["address"];
+
+                pageData["company1"]["contacts"]["website"]=company1["website"];
+                pageData["company1"]["contacts"]["website"]=company1["website"];
                 //ratings
-                pageData["company1"]["claims_raiting"]=company1["claims_raiting"];
-                pageData["company2"]["claims_raiting"]=company2["claims_raiting"];
+				pageData["company1"]["ratings"]={};
+				pageData["company2"]["ratings"]={};
 
-                pageData["company1"]["user_satisfaction"]=company1["user_satisfaction"];
-                pageData["company2"]["user_satisfaction"]=company2["user_satisfaction"];
+                pageData["company1"]["ratings"]["claims_raiting"]=company1["claims_raiting"];
+                pageData["company2"]["ratings"]["claims_raiting"]=company2["claims_raiting"];
 
-                pageData["company1"]["moodies"]=company1["moodies"];
-                pageData["company2"]["moodies"]=company2["moodies"];
+                pageData["company1"]["ratings"]["user_satisfaction"]=company1["user_satisfaction"];
+                pageData["company2"]["ratings"]["user_satisfaction"]=company2["user_satisfaction"];
 
-                pageData["company1"]["am_best_financial_strength"]=company1["am_best_financial_strength"];
-                pageData["company2"]["am_best_financial_strength"]=company2["am_best_financial_strength"];
+                pageData["company1"]["ratings"]["moodies"]=company1["moodies"];
+                pageData["company2"]["ratings"]["moodies"]=company2["moodies"];
 
-                pageData["company1"]["am_best_long_time"]=company1["am_best_long_time"];
-                pageData["company2"]["am_best_long_time"]=company2["am_best_long_time"];
+                pageData["company1"]["ratings"]["am_best_financial_strength"]=company1["am_best_financial_strength"];
+                pageData["company2"]["ratings"]["am_best_financial_strength"]=company2["am_best_financial_strength"];
 
-                pageData["company1"]["bbb"]=company1["bbb"];
-                pageData["company2"]["bbb"]=company2["bbb"];
+                pageData["company1"]["ratings"]["am_best_long_time"]=company1["am_best_long_time"];
+                pageData["company2"]["ratings"]["am_best_long_time"]=company2["am_best_long_time"];
 
-                pageData["company1"]["am_best_long_time"]=company1["am_best_long_time"];
-                pageData["company2"]["am_best_long_time"]=company2["am_best_long_time"];
+                pageData["company1"]["ratings"]["bbb"]=company1["bbb"];
+                pageData["company2"]["ratings"]["bbb"]=company2["bbb"];
+
+                pageData["company1"]["ratings"]["am_best_long_time"]=company1["am_best_long_time"];
+                pageData["company2"]["ratings"]["am_best_long_time"]=company2["am_best_long_time"];
                 //discounts
                 if(company1["discounts"])
                 {
