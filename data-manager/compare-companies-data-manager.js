@@ -49,19 +49,23 @@ class CompanyCompareDataManager extends DataManager {
                 pageData["company1"]["link"]=company1["website"];
                 pageData["company2"]["link"]=company2["website"];
                 //discounts
-                if(company1.hasOwnProperty("discounts") && company1["discounts"])
+                if(company1["discounts"])
+                {
                     if(!Array.isArray(company1["discounts"]))
                     {
                         company1["discounts"]=company1["discounts"].split("; ");
-                        pageData.company1.discounts_count=company1.discounts.length;
                     }
-
-                if(company2.hasOwnProperty("discounts") && company2["discounts"])
+                    pageData.company1.discounts_count=company1.discounts.length;
+                }
+                if(company2["discounts"])
+                {
                     if(!Array.isArray(company2["discounts"]))
                     {
                         company2["discounts"]=company2["discounts"].split("; ");
-                        pageData.company2.discounts_count=company2.discounts.length;
                     }
+                    pageData.company2.discounts_count=company2.discounts.length;
+                }
+
                 pageData["discounts"]=[];
                 if(company1["discounts"])
                     for(let k=0;k<company1["discounts"].length;k++)
@@ -82,18 +86,22 @@ class CompanyCompareDataManager extends DataManager {
                             pageData["discounts"].push([company2["discounts"][k],false,true])
                     }
                 //products
-                if(company1.hasOwnProperty("products") && company1["products"])
+                if(company1["products"])
+                {
                     if(!Array.isArray(company1["products"]))
                     {
                         company1["products"]=company1["products"].split(", ");
-                        pageData.company1.products_count=company1.products.length;
                     }
-                if(company2.hasOwnProperty("products") && company2["products"])
+                    pageData.company1.products_count=company1.products.length;
+                }
+                if(company2["products"])
+                {
                     if(!Array.isArray(company2["products"]))
                     {
                         company2["products"]=company2["products"].split(", ");
-                        pageData.company2.products_count=company2.products.length;
                     }
+                    pageData.company2.products_count=company2.products.length;
+                }
                 pageData["products"]=[];
                 if(company1["products"])
                     for(let k=0;k<company1["products"].length;k++)
@@ -170,16 +178,104 @@ class CompanyCompareDataManager extends DataManager {
                 pageData.company2["statesCount"]=0;
                 for(let k=0;k<pageData.states.length;k++)
                 {
-                    if(pageData.states[k][1]==1)
+                    if(pageData.states[k][1]===1)
                         pageData.company1["statesCount"]++;
-                    if(pageData.states[k][1]==2)
+                    if(pageData.states[k][1]===2)
                         pageData.company2["statesCount"]++;
-                    if(pageData.states[k][1]==3)
+                    if(pageData.states[k][1]===3)
                     {
                         pageData.company1["statesCount"]++;
                         pageData.company2["statesCount"]++;
                     }
                 }
+                //rates
+                if(company1.rates && !Array.isArray(company1.rates))
+                {
+                    company1.rates=company1.rates.split(";");
+                    company1.maxRate=0;
+                    company1.maxRateState="";
+                    company1.minRate=10000000;
+                    company1.minRateState="";
+                    company1.avgRate=0;
+                    for(let k=0;k<company1.rates.length;k++)
+                    {
+                        company1.rates[k]=company1.rates[k].split(": ");
+                        company1.avgRate+=company1.rates[k][1];
+                        if(company1.minRate<company1.rates[k][1])
+                        {
+                            company1.minRate=company1.rates[k][1];
+                            company1.minRateState=company1.rates[k][0];
+                        }
+                        if(company1.maxRate>company1.rates[k][1])
+                        {
+                            company1.maxRate=company1.rates[k][1];
+                            company1.maxRateState=company1.rates[k][0];
+                        }
+                    }
+                    company1.avgRate/=company1.rates.length;
+                }
+                pageData.company1.maxQuote=company1.maxRate;
+                pageData.company1.maxQuoteState=company1.maxRateState;
+                pageData.company1.minQuote=company1.minRate;
+                pageData.company1.minQuoteState=company1.minRateState;
+                pageData.company1.avgQuote=company1.avgRate;
+                if(company2.rates && !Array.isArray(company2.rates))
+                {
+                    company2.rates=company2.rates.split(";");
+                    company2.maxRate=0;
+                    company2.maxRateState="";
+                    company2.minRate=10000000;
+                    company2.minRateState="";
+                    company2.avgRate=0;
+                    for(let k=0;k<company2.rates.length;k++)
+                    {
+                        company2.rates[k]=company2.rates[k].split(": ");
+                        company2.avgRate+=company2.rates[k][1];
+                        if(company2.minRate<company2.rates[k][1])
+                        {
+                            company2.minRate=company2.rates[k][1];
+                            company2.minRateState=company2.rates[k][0];
+                        }
+                        if(company2.maxRate>company2.rates[k][1])
+                        {
+                            company2.maxRate=company2.rates[k][1];
+                            company2.maxRateState=company2.rates[k][0];
+                        }
+                    }
+                    company2.avgRate/=company2.rates.length;
+                }
+                pageData.company2.maxQuote=company2.maxRate;
+                pageData.company2.maxQuoteState=company2.maxRateState;
+                pageData.company2.minQuote=company2.minRate;
+                pageData.company2.minQuoteState=company2.minRateState;
+                pageData.company2.avgQuote=company2.avgRate;
+
+                //array-quotes(rates)
+                pageData["quotes"]=[];
+                if(company1.rates)
+                    for(let k=0;k<company1.rates.length;k++)
+                        pageData.quotes.push([company1.rates[k][0],company1.rates[k][1],null]);
+                if(company2.rates)
+                {
+                    for(let k=0;k<company2.rates.length;k++)
+                    {
+                        let found=false;
+                        for(let l=0;l<pageData.quotes.length;l++)
+                        {
+                            if(pageData.quotes[l][0]===company2.rates[k][0])
+                            {
+                                found=true;
+                                pageData.quotes[l][2]=company2.rates[k][1];
+                                break;
+                            }
+                        }
+                        if(!found)
+                            pageData.quotes.push([company2.rates[k][0],null,company2.rates[k][1]]);
+                    }
+                }
+
+
+
                 let page_name=company1.title.split(" ").join("")+"_"+company2.title.split(" ").join("")
                 pageData["page_name"]=page_name;
                     pageData["index"]=i*companies.length+j;
@@ -205,8 +301,8 @@ class CompanyCompareDataManager extends DataManager {
 
         this.pageData.entry_index = this.pageData.index;
         this.pageData.parent = 'compare';
-        console.log(this.pageData);
         this.renderPageFields(company);
+        console.log(this.pageData);
         return this.pageData;
     }
 
