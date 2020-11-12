@@ -363,12 +363,12 @@
                             td.text-center
                                 | #{quote[1]? `${quote[1]} $` : '-'}
                             td.text-center
-                                | #{quote[2]? `${quote[1]} $` : '-'}
+                                | #{quote[2]? `${quote[2]} $` : '-'}
                     tr
-                        td.fbold
+                        td(style='border-top-width: 3px;border-top-color: #999;').fbold
                             | Average Quote
-                        td.text-center
+                        td(style='border-top-width: 3px;border-top-color: #999;').text-center
                             | #{company1.avgQuote ? `${company1.avgQuote} $` : '-'}
-                        td.text-center
+                        td(style='border-top-width: 3px;border-top-color: #999;').text-center
                             | #{company2.avgQuote ? `${company2.avgQuote} $` : '-'}
 | [sc name="comparison_page_scritps" data="#{states}"]

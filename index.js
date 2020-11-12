@@ -19,13 +19,14 @@ const dataManager = new DataManager(); // установить dataManager ко�
 
         await robot.openPage();
         await robot.login();
-        for(let key in dataManager.entryList){
+        //for(let key in dataManager.entryList){
+		let key="Erie_Auto-Owners";
             console.log(key);
             const data = dataManager.setPageData(key);
             // console.log(data);
             await robot.fillPage(data);
-            break;
-        }
+            //break;
+        //}
 
         //await robot.fillPages(dataManager);
 
