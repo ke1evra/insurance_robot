@@ -200,19 +200,19 @@ class CompanyCompareDataManager extends DataManager {
                     for(let k=0;k<company1.rates.length;k++)
                     {
                         company1.rates[k]=company1.rates[k].split(": ");
-                        company1.avgRate+=company1.rates[k][1];
-                        if(company1.minRate<company1.rates[k][1])
+                        company1.avgRate+=parseInt(company1.rates[k][1]);
+                        if(parseInt(company1.minRate)>parseInt(company1.rates[k][1]))
                         {
-                            company1.minRate=company1.rates[k][1];
+                            company1.minRate=parseInt(company1.rates[k][1]);
                             company1.minRateState=company1.rates[k][0];
                         }
-                        if(company1.maxRate>company1.rates[k][1])
+                        if(parseInt(company1.maxRate)<parseInt(company1.rates[k][1]))
                         {
-                            company1.maxRate=company1.rates[k][1];
+                            company1.maxRate=parseInt(company1.rates[k][1]);
                             company1.maxRateState=company1.rates[k][0];
                         }
                     }
-                    company1.avgRate/=company1.rates.length;
+                    company1.avgRate=Math.round(company1.avgRate/company1.rates.length);
                 }
                 pageData.company1.maxQuote=company1.maxRate;
                 pageData.company1.maxQuoteState=company1.maxRateState;
@@ -230,19 +230,19 @@ class CompanyCompareDataManager extends DataManager {
                     for(let k=0;k<company2.rates.length;k++)
                     {
                         company2.rates[k]=company2.rates[k].split(": ");
-                        company2.avgRate+=company2.rates[k][1];
-                        if(company2.minRate<company2.rates[k][1])
+                        company2.avgRate+=parseInt(company2.rates[k][1]);
+                        if(parseInt(company2.minRate)>parseInt(company2.rates[k][1]))
                         {
-                            company2.minRate=company2.rates[k][1];
+                            company2.minRate=parseInt(company2.rates[k][1]);
                             company2.minRateState=company2.rates[k][0];
                         }
-                        if(company2.maxRate>company2.rates[k][1])
+                        if(parseInt(company2.maxRate)<parseInt(company2.rates[k][1]))
                         {
-                            company2.maxRate=company2.rates[k][1];
+                            company2.maxRate=parseInt(company2.rates[k][1]);
                             company2.maxRateState=company2.rates[k][0];
                         }
                     }
-                    company2.avgRate/=company2.rates.length;
+                    company2.avgRate=Math.round(company2.avgRate/company2.rates.length);
                 }
                 pageData.company2.maxQuote=company2.maxRate;
                 pageData.company2.maxQuoteState=company2.maxRateState;
