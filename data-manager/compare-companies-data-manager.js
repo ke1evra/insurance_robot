@@ -63,25 +63,34 @@ class CompanyCompareDataManager extends DataManager {
                 //ratings
 				pageData["company1"]["ratings"]=[];
 				pageData["company2"]["ratings"]=[];
+                if(company1["claims_raiting"]&&company1["claims_raiting"].toUpperCase()!=="NULL")
+                    pageData["company1"]["ratings"].push(["Claims Rating",company1["claims_raiting"]]);
+                if(company2["claims_raiting"]&&company2["claims_raiting"].toUpperCase()!=="NULL")
+                    pageData["company2"]["ratings"].push(["Claims Rating",company2["claims_raiting"]]);
 
-                pageData["company1"]["ratings"].push(["Claims Raiting",company1["claims_raiting"]]);
-                pageData["company2"]["ratings"].push(["Claims Raiting",company2["claims_raiting"]]);
+                if(company1["user_satisfaction"])
+                    pageData["company1"]["ratings"].push(["User satisfaction",company1["user_satisfaction"]]);
+                if(company2["user_satisfaction"])
+                    pageData["company2"]["ratings"].push(["User satisfaction",company2["user_satisfaction"]]);
+                if(company1["moodies"])
+                    pageData["company1"]["ratings"].push(["Moodies",company1["moodies"]]);
+                if(company2["moodies"])
+                    pageData["company2"]["ratings"].push(["Moodies",company2["moodies"]]);
 
-                pageData["company1"]["ratings"].push(["User satisfaction",company1["user_satisfaction"]]);
-                pageData["company2"]["ratings"].push(["User satisfaction",company2["user_satisfaction"]]);
+                if(company1["am_best_financial_strength"])
+                    pageData["company1"]["ratings"].push(["Financial strength",company1["am_best_financial_strength"]]);
+                if(company2["am_best_financial_strength"])
+                    pageData["company2"]["ratings"].push(["Financial strength",company2["am_best_financial_strength"]]);
 
-                pageData["company1"]["ratings"].push(["Moodies",company1["moodies"]]);
-                pageData["company2"]["ratings"].push(["Moodies",company2["moodies"]]);
+                if(company1["am_best_long_time"])
+                    pageData["company1"]["ratings"].push(["Long Time ICR",company1["am_best_long_time"]]);
+                if(company2["am_best_long_time"])
+                    pageData["company2"]["ratings"].push(["Long Time ICR",company2["am_best_long_time"]]);
 
-                pageData["company1"]["ratings"].push(["Financial strength",company1["am_best_financial_strength"]]);
-                pageData["company2"]["ratings"].push(["Financial strength",company2["am_best_financial_strength"]]);
-
-                pageData["company1"]["ratings"].push(["Long Time ICR",company1["am_best_long_time"]]);
-                pageData["company2"]["ratings"].push(["Long Time ICR",company2["am_best_long_time"]]);
-
-                pageData["company1"]["ratings"].push(["BBB",company1["bbb"]]);
-                pageData["company2"]["ratings"].push(["BBB",company2["bbb"]]);
-
+                if(company1["bbb"])
+                    pageData["company1"]["ratings"].push(["BBB",company1["bbb"]]);
+                if(company2["bbb"])
+                    pageData["company2"]["ratings"].push(["BBB",company2["bbb"]]);
                 //discounts
                 if(company1["discounts"])
                 {
@@ -337,6 +346,7 @@ class CompanyCompareDataManager extends DataManager {
         this.pageData.parent = 'compare';
         this.renderPageFields(company);
         console.log(this.pageData);
+        console.log("Рейтинги:",this.pageData.company1.ratings);
         return this.pageData;
     }
 
