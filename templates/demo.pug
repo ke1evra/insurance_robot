@@ -364,4 +364,11 @@
                                 | #{quote[1]? `${quote[1]} $` : '-'}
                             td.text-center
                                 | #{quote[2]? `${quote[1]} $` : '-'}
+                    tr
+                        td.fbold
+                            | Average Quote
+                        td.text-center
+                            | #{company1.avgQuote ? `${company1.avgQuote} $` : '-'}
+                        td.text-center
+                            | #{company2.avgQuote ? `${company2.avgQuote} $` : '-'}
 | [sc name="comparison_page_scritps" data="#{states}"]
