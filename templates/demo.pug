@@ -340,6 +340,18 @@
         br
         br
         br
+        .mb-48px
+            h2 Car insurance quotes
+            p
+                |The average price of auto insurance in #{company1.name}
+                |is about #{company1.avgQuote} $, while #{company2.name}
+                |charges approximately #{company2.avgQuote} $.
+                |Usually rates vary by state. You can find the cheapest
+                |#{company1.name} offers in #{company1.minQuoteState} where monthly average
+                |rate is #{company1.minQuote} $. The most expensive state average
+                |is #{company1.maxQuote} $ in #{company1.maxQuoteState}. As for #{company2.name},
+                |the lowest rates are in #{company2.minQuoteState} with #{company2.minQuote} $
+                |and the most expensive state average is #{company2.maxQuote} $ in #{company2.maxQuoteState}.
         .table-overflow
             table.table.carrier-comparison-table.table-check.table-striped
                 thead
