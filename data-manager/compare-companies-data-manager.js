@@ -59,7 +59,7 @@ class CompanyCompareDataManager extends DataManager {
                 pageData["company2"]["contacts"]["address"]=company2["address"];
 
                 pageData["company1"]["contacts"]["website"]=company1["website"];
-                pageData["company1"]["contacts"]["website"]=company1["website"];
+                pageData["company2"]["contacts"]["website"]=company2["website"];
                 //ratings
 				pageData["company1"]["ratings"]=[];
 				pageData["company2"]["ratings"]=[];
@@ -346,7 +346,6 @@ class CompanyCompareDataManager extends DataManager {
         this.pageData.parent = 'compare';
         this.renderPageFields(company);
         console.log(this.pageData);
-        console.log("Рейтинги:",this.pageData.company1.ratings);
         return this.pageData;
     }
 
