@@ -13,7 +13,7 @@ class CompanyCompareDataManager extends DataManager {
             {
                 for(let j=i+1;j<arr.length;j++)
                 {
-                    if ((arr[i][1]!==null? 1:0)  + (arr[i][2]!==null? 1:0)<(arr[j][1]!==null? 1:0)+(arr[j][2]!==null? 1:0))
+                    if ((arr[i][1]? 1:0)  + (arr[i][2]? 1:0)<(arr[j][1]? 1:0)+(arr[j][2]? 1:0))
                     {
                         let a=arr[i];
                         arr[i]=arr[j];
@@ -84,27 +84,6 @@ class CompanyCompareDataManager extends DataManager {
                 pageData["company2"]={};
                 pageData["company1"]["name"]=company1.title;
                 pageData["company2"]["name"]=company2.title;
-
-                pageData["company1"]["found"]={};
-                pageData["company2"]["found"]={};
-
-                pageData["company1"]["found"]["year"]=company1["founded_year"];
-                pageData["company2"]["found"]["year"]=company2["founded_year"];
-
-                pageData["company1"]["found"]["place"]=company1["founded"];
-                pageData["company2"]["found"]["place"]=company2["founded"];
-
-                pageData["company1"]["found"]["parent"]=company1["parent_company"];
-                pageData["company2"]["found"]["parent"]=company2["parent_company"];
-
-                pageData["company1"]["type"]=company1["insurance_type"];
-                pageData["company2"]["type"]=company2["insurance_type"];
-
-                pageData["company1"]["number_of_employees"]=company1["number_of_employees"];
-                pageData["company2"]["number_of_employees"]=company2["number_of_employees"];
-
-                pageData["company1"]["head_quoters"]=company1["head_quoters"];
-                pageData["company2"]["head_quoters"]=company2["head_quoters"];
 
                 pageData["company1"]["short_desc"] = this.addDesc(company1);
 				pageData["company2"]["short_desc"] = this.addDesc(company2);
