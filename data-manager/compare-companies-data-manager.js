@@ -1,10 +1,44 @@
 const DataManager = require('./new-data-manager.js');
 const c = require('../common.js');
 const pug = require('pug');
-
 const companies=c.rfSync('./data/json/companies_zebra_full.json');
 var companies_compare={};
 class CompanyCompareDataManager extends DataManager {
+    sortArray(arr)
+    {
+        if(!arr.length)return arr;
+        if(arr[0].length===3)
+        {
+            for(let i=0;i<arr.length;i++)
+            {
+                for(let j=i+1;j<arr.length;j++)
+                {
+                    if ((arr[i][1]!==null? 1:0)  + (arr[i][2]!==null? 1:0)<(arr[j][1]!==null? 1:0)+(arr[j][2]!==null? 1:0))
+                    {
+                        let a=arr[i];
+                        arr[i]=arr[j];
+                        arr[j]=a;
+                    }
+                }
+            }
+        }
+        if(arr[0].length===2)
+        {
+            for(let i=0;i<arr.length;i++)
+            {
+                for(let j=i+1;j<arr.length;j++)
+                {
+                    if (arr[i][1]? 1:0<arr[j][1]? 1:0)
+                    {
+                        let a=arr[i];
+                        arr[i]=arr[j];
+                        arr[j]=a;
+                    }
+                }
+            }
+        }
+        return arr;
+    }
     constructor() {
         super();
         for(let i=0;i<companies.length;i++)
@@ -316,8 +350,9 @@ class CompanyCompareDataManager extends DataManager {
                             pageData.quotes.push([company2.rates[k][0],null,company2.rates[k][1]]);
                     }
                 }
-
-
+                pageData.products=this.sortArray(pageData.products);
+                pageData.discounts=this.sortArray(pageData.discounts);
+                pageData.quotes=this.sortArray(pageData.quotes);
 
                 let page_name=company1.title.split(" ").join("")+"_"+company2.title.split(" ").join("")
                 pageData["page_name"]=page_name;
