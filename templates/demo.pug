@@ -5,32 +5,28 @@
             .row
                 .col-md-6
                     h2 What is #{company1.name}?
-                    p
-                        if company1.found["year"] || company1.found["parent"] || company1.found["place"]
-                            | #{company1.name} was founded
-                            | #{company1.found["place"] ? ` in ${company1.found["place"]}` : null}
-                            | #{company1.found["year"] ? ` in ${company1.found["year"]}` : null}
-                            | #{company1.found["parent"] ? ` by ${company1.found["parent"]}` : null}
-                            | .
-                        | #{company1.name} works as an #{company1.type} company
-                        if company1.type || company1.number_of_employees
-                            | #{company1.number_of_employees ? ` with a staff of ${company1.number_of_employees} employees` : null }.
-                            | #{company1.head_quoters ? `. The headquarters is located in ${company1.head_quoters}` : null}
-                        | .
+                    p=company1.short_desc
                 .col-md-6
                     h2 What is #{company2.name}?
-                    p
-                        if company2.found["year"] || company2.found["parent"] || company2.found["place"]
-                            | #{company2.name} was founded
-                            | #{company2.found["place"] ? ` in ${company2.found["place"]}` : null}
-                            | #{company2.found["year"] ? ` in ${company2.found["year"]}` : null}
-                            | #{company2.found["parent"] ? ` by ${company2.found["parent"]}` : null}
-                            | .
-                        | #{company2.name} works as an #{company2.type} company
-                        if company2.type || company2.number_of_employees
-                            | #{company2.number_of_employees ? ` with a staff of ${company2.number_of_employees} employees` : null }.
-                            | #{company2.head_quoters ? `. The headquarters is located in ${company2.head_quoters}` : null}
-                        | .
+                    p=company2.short_desc
+            br
+            .row
+                .col-md-6
+                    h4.h4 What are #{company1.name} ratings?
+                        .row.company-box-rating-wrap.mb-32px
+                            each rating in company1.ratings
+                                .col-6.col-md-4.col-lg-2.mb-3
+                                    .company-box-rating
+                                        div #{rating[1]}
+                                        span #{rating[0]}
+                .col-md-6
+                    h4.h4 What are #{company2.name} ratings?
+                        .row.company-box-rating-wrap.mb-32px
+                            each rating in company2.ratings
+                                .col-6.col-md-4.col-lg-2.mb-3
+                                    .company-box-rating
+                                        div #{rating[1]}
+                                        span #{rating[0]}
         if ((company1.statesCount > 0) || (company1.statesCount > 0))
             .container
                 .row
@@ -422,25 +418,4 @@
                             tr
                                 td address
                                 td #{company2.contacts.address}
-        br
-        br
-        br
-        .mb-48px
-            .row
-                .col-md-6
-                    h4.h4 What are #{company1.name} ratings?
-                    .row.company-box-rating-wrap.mb-32px
-                        each rating in company1.ratings
-                            .col-6.col-md-4.col-lg-2.mb-3
-                                .company-box-rating
-                                    div #{rating[1]}
-                                    span #{rating[0]}
-                .col-md-6
-                    h4.h4 What are #{company2.name} ratings?
-                    .row.company-box-rating-wrap.mb-32px
-                        each rating in company2.ratings
-                            .col-6.col-md-4.col-lg-2.mb-3
-                                .company-box-rating
-                                    div #{rating[1]}
-                                    span #{rating[0]}
 | [sc name="comparison_page_scritps" data="#{states}"]

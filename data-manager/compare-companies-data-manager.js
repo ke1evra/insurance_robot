@@ -39,6 +39,32 @@ class CompanyCompareDataManager extends DataManager {
         }
         return arr;
     }
+
+    ///добавляет описание компании
+    addDesc(company){
+    	let desc = '';
+		if (company["founded_year"] || company["parent_company"] || company["founded"]){
+			desc+=`${company.title} was founded`
+			company["founded"] ? desc += ` in ${company["founded"]}` : null
+			company["founded_year"] ? desc += ` in ${company["founded_year"]}` : null
+			company["parent_company"] ? desc += ` by ${company["parent_company"]}` : null
+			desc+='. '
+		}
+
+		desc+=`${company.title} works as `
+		'aeoiyu'.includes(String(company["insurance_type"])[0].toLowerCase())
+			? desc+= 'an '
+			: desc+= 'a '
+
+		desc+=`${company["insurance_type"]} company`.toLowerCase()
+		if (company["head_quoters"] || company["number_of_employees"]){
+			company["number_of_employees"] ? desc+=` with a staff of ${company["number_of_employees"]} employees` : null
+			company["head_quoters"] ? desc+=` with the headquarters located in  ${company["head_quoters"]}` : null
+			desc+='. '
+		}
+		desc=desc.trim()
+		return desc
+	}
     constructor() {
         super();
         for(let i=0;i<companies.length;i++)
@@ -79,6 +105,9 @@ class CompanyCompareDataManager extends DataManager {
 
                 pageData["company1"]["head_quoters"]=company1["head_quoters"];
                 pageData["company2"]["head_quoters"]=company2["head_quoters"];
+
+                pageData["company1"]["short_desc"] = this.addDesc(company1);
+				pageData["company2"]["short_desc"] = this.addDesc(company2);
 
                 pageData["company1"]["link"]="https://www.usainsurancerate.com/companies/"+company1["url-slug"];
                 pageData["company2"]["link"]="https://www.usainsurancerate.com/companies/"+company2["url-slug"];
