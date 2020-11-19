@@ -154,7 +154,10 @@ class CompanyCompareDataManager extends DataManager {
                 pageData["discounts"]=[];
                 if(company1["discounts"])
                     for(let k=0;k<company1["discounts"].length;k++)
-                        pageData["discounts"].push([company1["discounts"][k],true,false])
+                    	if (String(company1["discounts"][k]).toLowerCase().includes('discount')
+							|| String(company1["discounts"][k]).toLowerCase().includes('coverage')){
+							pageData["discounts"].push([company1["discounts"][k],true,false])
+						}
                 if(company2["discounts"])
                     for(let k=0;k<company2["discounts"].length;k++)
                     {
@@ -168,7 +171,10 @@ class CompanyCompareDataManager extends DataManager {
                             }
                         }
                         if(!found)
-                            pageData["discounts"].push([company2["discounts"][k],false,true])
+							if (String(company2["discounts"][k]).toLowerCase().includes('discount')
+								|| String(company2["discounts"][k]).toLowerCase().includes('coverage')) {
+								pageData["discounts"].push([company2["discounts"][k], false, true])
+							}
                     }
                 //products
                 if(company1["products"])
@@ -190,7 +196,9 @@ class CompanyCompareDataManager extends DataManager {
                 pageData["products"]=[];
                 if(company1["products"])
                     for(let k=0;k<company1["products"].length;k++)
-                        pageData["products"].push([company1["products"][k],true,false])
+                    	if (String(company1["products"][k]).toLowerCase().includes('insurance')){
+							pageData["products"].push([company1["products"][k],true,false])
+						}
                 if(company2["products"])
                     for(let k=0;k<company2["products"].length;k++)
                     {
@@ -204,7 +212,9 @@ class CompanyCompareDataManager extends DataManager {
                             }
                         }
                         if(!found)
-                            pageData["products"].push([company2["products"][k],false,true])
+							if (String(company2["products"][k]).toLowerCase().includes('insurance')){
+								pageData["products"].push([company2["products"][k],false,true])
+							}
                     }
                 //states appereance
                 pageData["states"]=[];
