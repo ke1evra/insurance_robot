@@ -21,6 +21,40 @@ class CompanyCompareDataManager extends DataManager {
                     }
                 }
             }
+            //Сортировка в общих и частных
+            for(var index=0;index<arr.length;index++)//индекс где кончается общая часть
+            {
+                if(arr[index][1]&&arr[index][2])
+                {
+                    continue
+                }
+                else
+                    break;
+            }
+            for (let i=0;i<index;i++)
+            {
+                for(let j=i+1;j<index;j++)
+                {
+                    if(arr[i][0]>arr[j][0])
+                    {
+                        let a=arr[i];
+                        arr[i]=arr[j];
+                        arr[j]=a;
+                    }
+                }
+            }
+            for (let i=index;i<arr.length;i++)
+            {
+                for(let j=i+1;j<arr.length;j++)
+                {
+                    if(arr[i][0]>arr[j][0])
+                    {
+                        let a=arr[i];
+                        arr[i]=arr[j];
+                        arr[j]=a;
+                    }
+                }
+            }
         }
         if(arr[0].length===2)
         {
