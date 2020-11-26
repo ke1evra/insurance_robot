@@ -2,6 +2,10 @@ const DataManager = require('./new-data-manager.js');
 const c = require('../common.js');
 const pug = require('pug');
 const companies=c.rfSync('./data/json/companies_zebra_full.json');
+
+const productsList = c.rfSync('./data/json/ProductsRatings.json')
+const discountsList = c.rfSync('./data/json/DiscountsRatings.json')
+
 var companies_compare={};
 class CompanyCompareDataManager extends DataManager {
     sortArray(arr)
@@ -96,7 +100,7 @@ class CompanyCompareDataManager extends DataManager {
 			company["head_quoters"] ? desc+=` with the headquarters located in  ${company["head_quoters"]}` : null
 			desc+='. '
 		}
-		desc=desc.trim()
+		desc=desc.replace(/\.\./g,".").trim()
 		return desc
 	}
     constructor() {
@@ -188,10 +192,8 @@ class CompanyCompareDataManager extends DataManager {
                 pageData["discounts"]=[];
                 if(company1["discounts"])
                     for(let k=0;k<company1["discounts"].length;k++)
-                    	if (String(company1["discounts"][k]).toLowerCase().includes('discount')
-							|| String(company1["discounts"][k]).toLowerCase().includes('coverage')){
+						if (discountsList[company1["discounts"][k]]["value"]>0)
 							pageData["discounts"].push([company1["discounts"][k],true,false])
-						}
                 if(company2["discounts"])
                     for(let k=0;k<company2["discounts"].length;k++)
                     {
@@ -205,10 +207,8 @@ class CompanyCompareDataManager extends DataManager {
                             }
                         }
                         if(!found)
-							if (String(company2["discounts"][k]).toLowerCase().includes('discount')
-								|| String(company2["discounts"][k]).toLowerCase().includes('coverage')) {
+							if (discountsList[company2["discounts"][k]]["value"]>0)
 								pageData["discounts"].push([company2["discounts"][k], false, true])
-							}
                     }
                 //products
                 if(company1["products"])
@@ -230,9 +230,8 @@ class CompanyCompareDataManager extends DataManager {
                 pageData["products"]=[];
                 if(company1["products"])
                     for(let k=0;k<company1["products"].length;k++)
-                    	if (String(company1["products"][k]).toLowerCase().includes('insurance')){
+						if (productsList[company1["products"][k]]["value"]>0)
 							pageData["products"].push([company1["products"][k],true,false])
-						}
                 if(company2["products"])
                     for(let k=0;k<company2["products"].length;k++)
                     {
@@ -246,9 +245,8 @@ class CompanyCompareDataManager extends DataManager {
                             }
                         }
                         if(!found)
-							if (String(company2["products"][k]).toLowerCase().includes('insurance')){
+							if (productsList[company2["products"][k]]["value"]>0)
 								pageData["products"].push([company2["products"][k],false,true])
-							}
                     }
                 //states appereance
                 pageData["states"]=[];

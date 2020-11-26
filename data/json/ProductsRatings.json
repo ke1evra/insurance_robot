@@ -1,0 +1,1109 @@
+{
+    "Car Insurance": {
+        "value": 16
+    },
+    "Motorcycle Insurance": {
+        "value": 27
+    },
+    "Boat Insurance": {
+        "value": 19
+    },
+    "Off-road Vehicle Insurance": {
+        "value": 2
+    },
+    "Motorhome Insurance": {
+        "value": 4
+    },
+    "Home Insurance": {
+        "value": 25
+    },
+    "Condominium Insurance": {
+        "value": 3
+    },
+    "Renters Insurance": {
+        "value": 34
+    },
+    "Rental Property Insurance": {
+        "value": 3
+    },
+    "Term Life Insurance": {
+        "value": 6
+    },
+    "Whole Life Insurance": {
+        "value": 5
+    },
+    "Universal Life Insurance": {
+        "value": 5
+    },
+    "Supplemental Health Insurance": {
+        "value": 1
+    },
+    "Medicare Supplement": {
+        "value": 2
+    },
+    "Individual Medical Insurance": {
+        "value": 1
+    },
+    "Long-term Disability": {
+        "value": 1
+    },
+    "Short-term Disability": {
+        "value": 1
+    },
+    "Business Liability": {
+        "value": 2
+    },
+    "Auto Insurance": {
+        "value": 31
+    },
+    "Homeowners Insurance": {
+        "value": 20
+    },
+    "Condo Insurance": {
+        "value": 25
+    },
+    "Umbrella Insurance": {
+        "value": 22
+    },
+    "Dwelling Fire Insurance": {
+        "value": 4
+    },
+    "Business Auto Insurance": {
+        "value": 6
+    },
+    "Business Insurance": {
+        "value": 22
+    },
+    "Mechanical Protection": {
+        "value": 1
+    },
+    "Ride-Hailing Insurance": {
+        "value": 1
+    },
+    "Service Line Protection": {
+        "value": 1
+    },
+    "Home Systems Protection": {
+        "value": 1
+    },
+    "Identity Management Protection": {
+        "value": 1
+    },
+    "Classic Car Insurance": {
+        "value": 5
+    },
+    "Motorcycle insurance": {
+        "value": 1
+    },
+    "Manufactured Home Insurance": {
+        "value": 3
+    },
+    "Farm and Ranch Insurance": {
+        "value": 3
+    },
+    "Life Insurance": {
+        "value": 22
+    },
+    "RV Insurance": {
+        "value": 13
+    },
+    "Snowmobile Insurance": {
+        "value": 5
+    },
+    "Identity Theft Insurance": {
+        "value": 3
+    },
+    "Health Insurance": {
+        "value": 10
+    },
+    "Travel Insurance": {
+        "value": 5
+    },
+    "Landlord Insurance": {
+        "value": 8
+    },
+    "ATV Insurance": {
+        "value": 8
+    },
+    "Worker’s Compensation": {
+        "value": 1
+    },
+    "Contractors Insurance": {
+        "value": 1
+    },
+    "Cyber Liability Insurance": {
+        "value": 1
+    },
+    "Flood Insurance": {
+        "value": 16
+    },
+    "Employee Dishonesty Protection": {
+        "value": 1
+    },
+    "Valuable Personal Property insurance": {
+        "value": 1
+    },
+    "Collectibles Insurance": {
+        "value": 2
+    },
+    "Mobile Home Insurance": {
+        "value": 10
+    },
+    "Fixed Annuities": {
+        "value": 1
+    },
+    "Watercraft Insurance": {
+        "value": 4
+    },
+    "Collector Car Insurance": {
+        "value": 3
+    },
+    "Aviation Insurance": {
+        "value": 1
+    },
+    "Umbrelal Insurance": {
+        "value": 1
+    },
+    "Small Business Insurance": {
+        "value": 1
+    },
+    "Mobile Phone Protection": {
+        "value": 1
+    },
+    "Retirement Planning": {
+        "value": 1
+    },
+    "Rideshare Insurance": {
+        "value": 4
+    },
+    "Car Purchase Financing": {
+        "value": 1
+    },
+    "Pet Insurance": {
+        "value": 6
+    },
+    "Major Medical": {
+        "value": 1
+    },
+    "Medicare": {
+        "value": 1
+    },
+    "Dental Insurance": {
+        "value": 4
+    },
+    "Vision Insurance": {
+        "value": 1
+    },
+    "Small Business Auto Insurance": {
+        "value": 1
+    },
+    "Mexico Insurance": {
+        "value": 1
+    },
+    "Farm Insurance": {
+        "value": 7
+    },
+    "Commercial Insurance": {
+        "value": 4
+    },
+    "Annuities": {
+        "value": 6
+    },
+    "Mortgages": {
+        "value": 1
+    },
+    "Mutual Funds": {
+        "value": 1
+    },
+    "Pensions": {
+        "value": 1
+    },
+    "Long-Term Savings Plans": {
+        "value": 1
+    },
+    "Health Services": {
+        "value": 1
+    },
+    "Smart Home Insurance": {
+        "value": 1
+    },
+    "Umbrella": {
+        "value": 2
+    },
+    "Business Property": {
+        "value": 1
+    },
+    "Business Owner’s Policy": {
+        "value": 1
+    },
+    "Commercial Umbrella": {
+        "value": 2
+    },
+    "Industry Solutions": {
+        "value": 1
+    },
+    "Risk Engineering": {
+        "value": 2
+    },
+    "Affinity Programs": {
+        "value": 1
+    },
+    "Workers’ Compensation": {
+        "value": 3
+    },
+    "Employment Practices Liability": {
+        "value": 2
+    },
+    "Cyber Coverage": {
+        "value": 1
+    },
+    "Data Breach": {
+        "value": 1
+    },
+    "Fleet Safety 360": {
+        "value": 1
+    },
+    "Farm and Ranch": {
+        "value": 1
+    },
+    "Farm Auto": {
+        "value": 1
+    },
+    "Farm Umbrella": {
+        "value": 1
+    },
+    "Trailer Insurance": {
+        "value": 2
+    },
+    "Off-Road Vehicle Insurance": {
+        "value": 3
+    },
+    "Golf Car Insurance": {
+        "value": 1
+    },
+    "Home Warranty": {
+        "value": 2
+    },
+    "Valuable Articles Insurance": {
+        "value": 1
+    },
+    "Pet Health Insurance": {
+        "value": 1
+    },
+    "Identity Recovery Coverage": {
+        "value": 1
+    },
+    "Personal Umbrella Insurance": {
+        "value": 2
+    },
+    "Commercial Auto Insurance": {
+        "value": 11
+    },
+    "Business Owners Insurance": {
+        "value": 4
+    },
+    "Commercial Package Policy": {
+        "value": 1
+    },
+    "Individual Major Medical Health Insurance": {
+        "value": 1
+    },
+    "Long-term Care Insurance": {
+        "value": 3
+    },
+    "Disability Insurance": {
+        "value": 4
+    },
+    "High Risk Auto Insurance": {
+        "value": 1
+    },
+    "Recreational Vehicle Insurance": {
+        "value": 5
+    },
+    "Roadside Assistance Coverage": {
+        "value": 1
+    },
+    "RV & Camper Insurance": {
+        "value": 1
+    },
+    "Wespak Coverage (Home & Auto Bundle)": {
+        "value": 1
+    },
+    "Valuable Items Insurance": {
+        "value": 1
+    },
+    "Identity Protection": {
+        "value": 1
+    },
+    "Child Care Center Insurance": {
+        "value": 1
+    },
+    "Contractor Insurance": {
+        "value": 1
+    },
+    "Educational Institutions Insurance": {
+        "value": 1
+    },
+    "ERISA & Crime Program": {
+        "value": 1
+    },
+    "Errors & Omissions": {
+        "value": 1
+    },
+    "Founders Insurance": {
+        "value": 1
+    },
+    "Graphic Communications Insurance": {
+        "value": 1
+    },
+    "Libraries Insurance": {
+        "value": 1
+    },
+    "Light Manufacturing & Woodworking Insurance": {
+        "value": 1
+    },
+    "Premium Audit Reporting": {
+        "value": 1
+    },
+    "Professional Services": {
+        "value": 1
+    },
+    "Religious Institutions Insurance": {
+        "value": 1
+    },
+    "Restaurants Insurance": {
+        "value": 1
+    },
+    "Retailers Insurance": {
+        "value": 1
+    },
+    "Volunteer Fire Departments Insurance": {
+        "value": 1
+    },
+    "Workers Compensation": {
+        "value": 4
+    },
+    "Bonds": {
+        "value": 1
+    },
+    "Married": {
+        "value": 1
+    },
+    "Identity Theft": {
+        "value": 2
+    },
+    "Wholesalers Insurance": {
+        "value": 1
+    },
+    "Retail Insurance": {
+        "value": 1
+    },
+    "Auto Dealer Insurance": {
+        "value": 1
+    },
+    "Auto Service Insurance": {
+        "value": 1
+    },
+    "Boat Insurance (only in Michigan)": {
+        "value": 1
+    },
+    "Commercial auto Insurance": {
+        "value": 1
+    },
+    "Mexican auto Insurance": {
+        "value": 1
+    },
+    "Classic vehicle Insurance": {
+        "value": 1
+    },
+    "Boat/PWC Insurance": {
+        "value": 1
+    },
+    "Travel trailer Insurance": {
+        "value": 1
+    },
+    "Scooter Insurance": {
+        "value": 1
+    },
+    "Golf cart Insurance": {
+        "value": 1
+    },
+    "SegwayInsurance": {
+        "value": 1
+    },
+    "Recreational Vehicles": {
+        "value": 1
+    },
+    "Roadside Rescuer": {
+        "value": 1
+    },
+    "Mile-stone home and auto": {
+        "value": 1
+    },
+    "Identity Theft Protection": {
+        "value": 2
+    },
+    "Workers’s Compensation": {
+        "value": 1
+    },
+    "Beverage Manufacturing": {
+        "value": 1
+    },
+    "Cyber Insurance": {
+        "value": 3
+    },
+    "Risk Management": {
+        "value": 1
+    },
+    "Property Insurance": {
+        "value": 1
+    },
+    "Employment practices liability insurance": {
+        "value": 1
+    },
+    "Agritainment": {
+        "value": 1
+    },
+    "Special Events": {
+        "value": 1
+    },
+    "Clubs & Teams Insurance": {
+        "value": 1
+    },
+    "Recreational Vehicles Insurance": {
+        "value": 2
+    },
+    "Farm Vehicle Insurance": {
+        "value": 1
+    },
+    "Residential Equipment Insurance": {
+        "value": 1
+    },
+    "Personal Property Insurance": {
+        "value": 1
+    },
+    "SR-22": {
+        "value": 2
+    },
+    "Supplemental Insurance": {
+        "value": 1
+    },
+    "Accident Insurance": {
+        "value": 2
+    },
+    "Mechanical Repair": {
+        "value": 1
+    },
+    "Limited Medical Insurance": {
+        "value": 1
+    },
+    "Critical Illness Insurance": {
+        "value": 2
+    },
+    "Short Term Insurance": {
+        "value": 1
+    },
+    "Specialty Insurance": {
+        "value": 1
+    },
+    "Motorcycle and Scooter Insurance": {
+        "value": 1
+    },
+    "Earthquake Insurance": {
+        "value": 3
+    },
+    "Collector Vehicle Insurance": {
+        "value": 1
+    },
+    "Water & Sewer Line Insurance": {
+        "value": 1
+    },
+    "Homeowners insurance": {
+        "value": 1
+    },
+    "renters insurance": {
+        "value": 1
+    },
+    "condo insurance": {
+        "value": 1
+    },
+    "private client insurance": {
+        "value": 1
+    },
+    "flood insurance": {
+        "value": 1
+    },
+    "auto insurance": {
+        "value": 1
+    },
+    "motorcycle insurance": {
+        "value": 1
+    },
+    "snowmobile insurance": {
+        "value": 1
+    },
+    "classic car insurance": {
+        "value": 1
+    },
+    "ATV insurance": {
+        "value": 1
+    },
+    "RV insurance": {
+        "value": 1
+    },
+    "boat insurance": {
+        "value": 1
+    },
+    "personal watercraft insurance": {
+        "value": 1
+    },
+    "scooter insurance": {
+        "value": 1
+    },
+    "golf cart insurance": {
+        "value": 1
+    },
+    "life insurance": {
+        "value": 1
+    },
+    "pet insurance": {
+        "value": 1
+    },
+    "dental insurance": {
+        "value": 1
+    },
+    "umbrella insurance": {
+        "value": 1
+    },
+    "identity theft insurance": {
+        "value": 1
+    },
+    "accident medical insurance": {
+        "value": 1
+    },
+    "specialty liability insurance": {
+        "value": 1
+    },
+    "travel insurance and wedding insurance": {
+        "value": 1
+    },
+    "Business insurance": {
+        "value": 1
+    },
+    "workers’ compensation": {
+        "value": 1
+    },
+    "business property insurance": {
+        "value": 1
+    },
+    "excess & surplus insurance": {
+        "value": 1
+    },
+    "professional offices insurance": {
+        "value": 1
+    },
+    "consulting insurance": {
+        "value": 1
+    },
+    "food & beverage insurance": {
+        "value": 1
+    },
+    "farm & ranch insurance": {
+        "value": 1
+    },
+    "contractors insurance": {
+        "value": 1
+    },
+    "veterinarians insurance": {
+        "value": 1
+    },
+    "commercial agribusiness insurance": {
+        "value": 1
+    },
+    "construction insurance": {
+        "value": 1
+    },
+    "brewery insurance": {
+        "value": 1
+    },
+    "senior living insurance": {
+        "value": 1
+    },
+    "churches insurance": {
+        "value": 1
+    },
+    "manufacturing insurance": {
+        "value": 1
+    },
+    "surety bonds": {
+        "value": 1
+    },
+    "retail insurance": {
+        "value": 1
+    },
+    "Rental Dwelling Insurance": {
+        "value": 1
+    },
+    "Property & Valuables Insurance": {
+        "value": 1
+    },
+    "ATV & Off-road Vehicle Insurance": {
+        "value": 1
+    },
+    "Disability Income Insurance": {
+        "value": 1
+    },
+    "Workers Compensation Insurance": {
+        "value": 1
+    },
+    "Bonds Insurance": {
+        "value": 1
+    },
+    "Loss Control Insurance": {
+        "value": 1
+    },
+    "Commercial Umbrella Insurance": {
+        "value": 2
+    },
+    "Retail": {
+        "value": 1
+    },
+    "Retirement": {
+        "value": 1
+    },
+    "Collector and Classic Car Insurance": {
+        "value": 1
+    },
+    "Personal Valuables Insurance": {
+        "value": 1
+    },
+    "Personal Catastrophe Liability Insurance": {
+        "value": 2
+    },
+    "Identity Theft Recovery Coverage": {
+        "value": 1
+    },
+    "Long-Term Care Rider Insurance": {
+        "value": 1
+    },
+    "Brewery": {
+        "value": 1
+    },
+    "Winery": {
+        "value": 1
+    },
+    "Distillery Insurance": {
+        "value": 1
+    },
+    "Contractors": {
+        "value": 1
+    },
+    "Landlord & Property Owners": {
+        "value": 1
+    },
+    "Manufacturers Insurance": {
+        "value": 1
+    },
+    "Offices & Professional Services": {
+        "value": 1
+    },
+    "Restaurants": {
+        "value": 1
+    },
+    "Risk Control Services": {
+        "value": 2
+    },
+    "Wholesalers Distribution": {
+        "value": 1
+    },
+    "Antique and Classic Car Insurance": {
+        "value": 1
+    },
+    "Boat & Watercraft Insurance": {
+        "value": 2
+    },
+    "Tuition Insurance": {
+        "value": 1
+    },
+    "Business Owner’s Policy & Packages": {
+        "value": 1
+    },
+    "Commercial Auto": {
+        "value": 1
+    },
+    "Equipment Breakdown": {
+        "value": 1
+    },
+    "Excess Liability Insurance": {
+        "value": 1
+    },
+    "General Liability Insurance": {
+        "value": 2
+    },
+    "Group Programs": {
+        "value": 1
+    },
+    "Inland Marine": {
+        "value": 1
+    },
+    "Mergers and Acquisitions": {
+        "value": 1
+    },
+    "Commercial Property": {
+        "value": 2
+    },
+    "Surety Bonds": {
+        "value": 2
+    },
+    "Personal Articles": {
+        "value": 1
+    },
+    "Enhanced Replacement Cost (Home)": {
+        "value": 1
+    },
+    "Homeowner Plus": {
+        "value": 1
+    },
+    "Watercraft and Yachts": {
+        "value": 1
+    },
+    "Personal Cyber Protection": {
+        "value": 1
+    },
+    "Antique or Collector Car Insurance": {
+        "value": 1
+    },
+    "Auto Plus": {
+        "value": 1
+    },
+    "Gap Coverage": {
+        "value": 1
+    },
+    "Replacement Cost Plus (Auto)": {
+        "value": 1
+    },
+    "Roadside Insurance": {
+        "value": 1
+    },
+    "Individual Term Life Insurance": {
+        "value": 1
+    },
+    "Accident Medical Expenses": {
+        "value": 1
+    },
+    "Health Insurance Marketplace": {
+        "value": 1
+    },
+    "Emergency Protection": {
+        "value": 1
+    },
+    "Mexico Auto Insurance": {
+        "value": 2
+    },
+    "Auto insurance": {
+        "value": 1
+    },
+    "Valuables Insurance": {
+        "value": 2
+    },
+    "Boat insurance": {
+        "value": 1
+    },
+    "Naturual Disaster Insurance": {
+        "value": 1
+    },
+    "Boat & Yacht Insurance": {
+        "value": 1
+    },
+    "Wedding & Events Insurance": {
+        "value": 1
+    },
+    "Jewelry and Valuable Items Coverage": {
+        "value": 1
+    },
+    "Affinity Car & Home Program": {
+        "value": 1
+    },
+    "Commercial Auto and Trucking": {
+        "value": 1
+    },
+    "General Liability": {
+        "value": 1
+    },
+    "Management & Professional Liability": {
+        "value": 1
+    },
+    "Small Business Owner’s Policy": {
+        "value": 1
+    },
+    "Energy & Renewable Insurance": {
+        "value": 1
+    },
+    "Construction Insurance": {
+        "value": 1
+    },
+    "Financial Institutions": {
+        "value": 1
+    },
+    "Healthcare": {
+        "value": 1
+    },
+    "Manufacturing": {
+        "value": 1
+    },
+    "Real Estate": {
+        "value": 1
+    },
+    "Premiums Business Audit": {
+        "value": 1
+    },
+    "Risk Management Information Services": {
+        "value": 1
+    },
+    "Personal Umbrella": {
+        "value": 2
+    },
+    "Boat & Watercraft": {
+        "value": 1
+    },
+    "Small Business": {
+        "value": 1
+    },
+    "Farm Coverage": {
+        "value": 1
+    },
+    "Business Coverage": {
+        "value": 1
+    },
+    "Permanent Life Insurance": {
+        "value": 1
+    },
+    "Flexible Universal Life": {
+        "value": 1
+    },
+    "Church Insurance": {
+        "value": 1
+    },
+    "Personal Articles Insurance": {
+        "value": 1
+    },
+    "Umbrella Liability Insurance": {
+        "value": 1
+    },
+    "Home and Auto Insurance": {
+        "value": 1
+    },
+    "Carpartment Insurance (Auto + Renters)": {
+        "value": 1
+    },
+    "Farm & Ranch Insurance": {
+        "value": 2
+    },
+    "Rental Dwellings": {
+        "value": 1
+    },
+    "Personal Liability Insurance": {
+        "value": 1
+    },
+    "Automobile Insurance": {
+        "value": 1
+    },
+    "Personal Excess Liability Insurance": {
+        "value": 1
+    },
+    "Boatowners Insurance": {
+        "value": 1
+    },
+    "Business Owners Policy Insurancee": {
+        "value": 1
+    },
+    "Commercial Package Insurance": {
+        "value": 2
+    },
+    "Commercial Excess Liability": {
+        "value": 1
+    },
+    "Workers’ Compensation Insurance": {
+        "value": 2
+    },
+    "Commercial Garage Insurance": {
+        "value": 1
+    },
+    "Liquor Liability Insurance": {
+        "value": 1
+    },
+    "Contractor’s Errors & Omissions": {
+        "value": 1
+    },
+    "Commercial Loss Control Services": {
+        "value": 1
+    },
+    "Commercial Group Programs": {
+        "value": 1
+    },
+    "Commercial Premium Audit Services": {
+        "value": 1
+    },
+    "Title Insurance": {
+        "value": 1
+    },
+    "Business Owners Policy": {
+        "value": 1
+    },
+    "Commercial Flood Insurance": {
+        "value": 1
+    },
+    "Data Breach Insurance": {
+        "value": 1
+    },
+    "Home-based Business Insurance": {
+        "value": 1
+    },
+    "Management Liability Insurance": {
+        "value": 1
+    },
+    "Employment Practices Liability Insurance": {
+        "value": 1
+    },
+    "Marine Insurance": {
+        "value": 1
+    },
+    "Multinational Insurance": {
+        "value": 1
+    },
+    "Professional Liability Insurance": {
+        "value": 1
+    },
+    "Recreational Vehicle": {
+        "value": 1
+    },
+    "Medicare Supplement Insurance": {
+        "value": 1
+    },
+    "Long Term Care Insurance": {
+        "value": 1
+    },
+    "Winery Insurance": {
+        "value": 1
+    },
+    "Craft Brewery Insurance": {
+        "value": 1
+    },
+    "Livestock Insurance": {
+        "value": 1
+    },
+    "Country Estate Insurance": {
+        "value": 1
+    },
+    "Crop Insurance": {
+        "value": 1
+    },
+    "Business Auto Coverage": {
+        "value": 1
+    },
+    "Business Umbrella": {
+        "value": 1
+    },
+    "Vacant Home Insurance": {
+        "value": 1
+    },
+    "Seasonal Home Insurance": {
+        "value": 1
+    },
+    "Motorcyle Insurance": {
+        "value": 1
+    },
+    "Collectible Auto Insurance": {
+        "value": 1
+    },
+    "Motor Home Insurance": {
+        "value": 1
+    },
+    "Travel Trailer Insurance": {
+        "value": 1
+    },
+    "Fifth-Wheel Insurance": {
+        "value": 1
+    },
+    "Luxury Motor Coach Insurance": {
+        "value": 1
+    },
+    "Golf Cart Insurance": {
+        "value": 1
+    },
+    "Personal Watercraft Insurance": {
+        "value": 2
+    },
+    "Commercial General Liability": {
+        "value": 1
+    },
+    "Business Owners Policy Insurance": {
+        "value": 1
+    },
+    "Infinity DriverClub": {
+        "value": 1
+    },
+    "Manufactured/Mobile home": {
+        "value": 1
+    },
+    "Specialty Homeowners Insurance": {
+        "value": 1
+    },
+    "Auto Mechanical Breakdown Insurance": {
+        "value": 1
+    },
+    "Antique Auto Insurance": {
+        "value": 1
+    },
+    "401K Plan": {
+        "value": 1
+    },
+    "Personal Auto": {
+        "value": 1
+    },
+    "SR-22/FR-44 Filings": {
+        "value": 1
+    },
+    "Identity Fraud Insurance": {
+        "value": 1
+    },
+    "Package Insurance": {
+        "value": 1
+    },
+    "Liability Insurance": {
+        "value": 1
+    },
+    "Annuities Insurance": {
+        "value": 1
+    },
+    "Agribusiness Insurance": {
+        "value": 1
+    },
+    "Credit Life and Credit Disability Insurance": {
+        "value": 1
+    },
+    "Credit Involuntary Unemployment Insurance": {
+        "value": 1
+    },
+    "Collateral Protection Insurance": {
+        "value": 1
+    },
+    "Vendor’s Single Interest Insurance": {
+        "value": 1
+    },
+    "Credit Property Insurance": {
+        "value": 1
+    },
+    "Non-owned auto": {
+        "value": 1
+    },
+    "Motorcycle and Dirt Bike Insurance": {
+        "value": 1
+    },
+    "Personal Auto Insurance": {
+        "value": 1
+    },
+    "Nonstandard Personal Auto Insurance": {
+        "value": 1
+    }
+}
