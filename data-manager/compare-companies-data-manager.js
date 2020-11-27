@@ -6,6 +6,8 @@ const companies=c.rfSync('./data/json/companies_zebra_full.json');
 const productsList = c.rfSync('./data/json/ProductsRatings.json')
 const discountsList = c.rfSync('./data/json/DiscountsRatings.json')
 
+const discounsAndProductsEntry = 3
+
 var companies_compare={};
 class CompanyCompareDataManager extends DataManager {
     sortArray(arr)
@@ -192,7 +194,7 @@ class CompanyCompareDataManager extends DataManager {
                 pageData["discounts"]=[];
                 if(company1["discounts"])
                     for(let k=0;k<company1["discounts"].length;k++)
-						if (discountsList[company1["discounts"][k]]["value"]>0)
+						if (discountsList[company1["discounts"][k]]["value"]>=discounsAndProductsEntry)
 							pageData["discounts"].push([company1["discounts"][k],true,false])
                 if(company2["discounts"])
                     for(let k=0;k<company2["discounts"].length;k++)
@@ -207,7 +209,7 @@ class CompanyCompareDataManager extends DataManager {
                             }
                         }
                         if(!found)
-							if (discountsList[company2["discounts"][k]]["value"]>0)
+							if (discountsList[company2["discounts"][k]]["value"]>=discounsAndProductsEntry)
 								pageData["discounts"].push([company2["discounts"][k], false, true])
                     }
                 //products
@@ -230,7 +232,7 @@ class CompanyCompareDataManager extends DataManager {
                 pageData["products"]=[];
                 if(company1["products"])
                     for(let k=0;k<company1["products"].length;k++)
-						if (productsList[company1["products"][k]]["value"]>0)
+						if (productsList[company1["products"][k]]["value"]>=discounsAndProductsEntry)
 							pageData["products"].push([company1["products"][k],true,false])
                 if(company2["products"])
                     for(let k=0;k<company2["products"].length;k++)
@@ -245,7 +247,7 @@ class CompanyCompareDataManager extends DataManager {
                             }
                         }
                         if(!found)
-							if (productsList[company2["products"][k]]["value"]>0)
+							if (productsList[company2["products"][k]]["value"]>=discounsAndProductsEntry)
 								pageData["products"].push([company2["products"][k],false,true])
                     }
                 //states appereance
