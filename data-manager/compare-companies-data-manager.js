@@ -90,13 +90,13 @@ class CompanyCompareDataManager extends DataManager {
 			company["parent_company"] ? desc += ` by ${company["parent_company"]}` : null
 			desc+='. '
 		}
-
+        if(company["insurance_type"]===null)company["insurance_type"] = "insurance";
 		desc+=`${company.title} works as `
-		'aeoiyu'.includes(String(company["insurance_type"])[0].toLowerCase())
-			? desc+= 'an '
-			: desc+= 'a '
+        'aeoiyu'.includes(String(company["insurance_type"])[0].toLowerCase())
+            ? desc+= 'an '
+            : desc+= 'a '
 
-		desc+=`${company["insurance_type"]} company`.toLowerCase()
+            desc+=`${company["insurance_type"]} company`.toLowerCase()
 		if (company["head_quoters"] || company["number_of_employees"]){
 			company["number_of_employees"] ? desc+=` with a staff of ${company["number_of_employees"]} employees` : null
 			company["head_quoters"] ? desc+=` with the headquarters located in  ${company["head_quoters"]}` : null
@@ -115,6 +115,48 @@ class CompanyCompareDataManager extends DataManager {
 	addProdDesc(company1,company2){
 		return `In addition to car insurance ${company1} and ${company2} can offer you a variety of other packages. The types of insurance related to both companies are presented at the top of the table. Compare all available offers to choose the most suitable company for you. In some cases, you can get a discount by purchasing several insurance packages in the same company.`
 	}
+
+	///добавляет абзадц для квот
+    addQuoteDesc(company1,company2){
+        let desc="";
+
+        if(company1.maxRate!==null&&typeof company1.maxRate!=="undefined")
+        {
+            if(company2.maxRate!==null&&typeof company2.maxRate!=="undefined")
+            {
+                desc+=`The average price of auto insurance in ${company1.title} is about ${company1.avgRate} $, while ${company2.title} charges approximately ${company2.avgRate} $. Usually rates vary by state.`;
+                if(company1.maxRate!==company1.minRate&&company2.maxRate!==company2.minRate)
+                    desc+=` You can find the cheapest ${company1.title} offers in ${company1.minRateState} where monthly average rate is ${company1.minRate} $. The most expensive state average is ${company1.maxRate} $ in ${company1.maxRateState}. As for ${company2.title},the lowest rates are in ${company2.minRateState} with ${company2.minRate} $ and the most expensive state average is ${company2.maxRate} $ in ${company2.maxRateState}.`
+                else if(company1.maxRate===company1.minRate&&company2.maxRate!==company2.minRate)
+                    desc+=` You can find the cheapest ${company2.title} offers in ${company2.minRateState} where monthly average rate is ${company2.minRate} $. The most expensive state average is ${company2.maxRate} $ in ${company2.maxRateState}. At the moment the ${company1.title} provides services only in ${company1.minRateState}.`;
+                else if(company1.maxRate!==company1.minRate&&company2.maxRate===company2.minRate)
+                    desc+=` You can find the cheapest ${company1.title} offers in ${company1.minRateState} where monthly average rate is ${company1.minRate} $. The most expensive state average is ${company1.maxRate} $ in ${company1.maxRateState}. At the moment the ${company2.title} provides services only in ${company2.minRateState}.`;
+                else
+                    desc=`At the moment the ${company1.title} provides services only in ${company1.minRateState}. As for ${company2.title}, you can find them in ${company2.minRateState}`;
+
+            }
+            else
+            {
+                if(company1.maxRate!==company1.minRate)
+                    desc = `The average price of auto insurance in ${company1.title} is about ${company1.avgRate} $. Usually rates vary by state. You can find the cheapest ${company1.title} offers in ${company1.minRateState} where monthly average rate is ${company1.minRate} $. The most expensive state average is ${company1.maxRate} $ in ${company1.maxRateState}.`;
+                else
+                    desc = `The average price of auto insurance in ${company1.title} is about ${company1.avgRate} $. Usually rates vary by state. At the moment the ${company1.title} provides services only in ${company1.minRateState}.`;
+            }
+        }
+        else
+        {
+            if(company2.maxRate!==null&&typeof company2.maxRate!=="undefined")
+            {
+                if(company1.maxRate!==company1.minRate)
+                    desc = `The average price of auto insurance in ${company2.title} is about ${company2.avgRate} $. Usually rates vary by state. You can find the cheapest ${company2.title} offers in ${company2.minRateState} where monthly average rate is ${company2.minRate} $. The most expensive state average is ${company2.maxRate} $ in ${company2.maxRateState}.`;
+                else
+                    desc = `The average price of auto insurance in ${company2.title} is about ${company2.avgRate} $. Usually rates vary by state. At the moment the ${company2.title} provides services only in ${company2.minRateState} .`;
+            }
+            else
+                return null;
+        }
+        return desc;
+    }
 
     constructor() {
         super();
@@ -157,6 +199,9 @@ class CompanyCompareDataManager extends DataManager {
 
                 pageData["company1"]["contacts"]["website"]=company1["website"];
                 pageData["company2"]["contacts"]["website"]=company2["website"];
+
+                if(!(company1["phone"]||company1["address"]||company1["website"]))pageData["company1"]["contacts"]=null;
+                if(!(company2["phone"]||company2["address"]||company2["website"]))pageData["company2"]["contacts"]=null;
                 //ratings
 				pageData["company1"]["ratings"]=[];
 				pageData["company2"]["ratings"]=[];
@@ -165,9 +210,9 @@ class CompanyCompareDataManager extends DataManager {
                 if(company2["claims_raiting"]&&company2["claims_raiting"].toUpperCase()!=="NULL")
                     pageData["company2"]["ratings"].push(["Claims Rating",company2["claims_raiting"]]);
 
-                if(company1["user_satisfaction"])
+                if(company1["user_satisfaction"]&&company1["user_satisfaction"].toUpperCase()!=="NULL")
                     pageData["company1"]["ratings"].push(["User satisfaction",company1["user_satisfaction"]]);
-                if(company2["user_satisfaction"])
+                if(company2["user_satisfaction"]&&company2["user_satisfaction"].toUpperCase()!=="NULL")
                     pageData["company2"]["ratings"].push(["User satisfaction",company2["user_satisfaction"]]);
                 if(company1["moodies"])
                     pageData["company1"]["ratings"].push(["Moodies",company1["moodies"]]);
@@ -275,7 +320,6 @@ class CompanyCompareDataManager extends DataManager {
                 }
                 else
                     pageData["products"]=null;
-
                 //states appereance
                 pageData["states"]=[];
                 pageData["states"].push(["al".toUpperCase(),company1["al"] ? (company2["al"] ? 3 : 1) : (company2["al"]? 2 : 0)]);
@@ -371,11 +415,14 @@ class CompanyCompareDataManager extends DataManager {
                         }
                         company1.avgRate=Math.round(company1.avgRate/company1.rates.length);
                     }
-                    pageData.company1.maxQuote=company1.maxRate;
-                    pageData.company1.maxQuoteState=company1.maxRateState;
-                    pageData.company1.minQuote=company1.minRate;
-                    pageData.company1.minQuoteState=company1.minRateState;
-                    pageData.company1.avgQuote=company1.avgRate;
+                    if(company1.rates)
+                    {
+                        pageData.company1.maxQuote=company1.rates.length===0?null:company1.maxRate;
+                        pageData.company1.maxQuoteState=company1.rates.length===0?null:company1.maxRateState;
+                        pageData.company1.minQuote=company1.rates.length===0?null:company1.minRate;
+                        pageData.company1.minQuoteState=company1.rates.length===0?null:company1.minRateState;
+                        pageData.company1.avgQuote=company1.rates.length===0?null:company1.avgRate;
+                    }
                     if(company2.rates && !Array.isArray(company2.rates))
                     {
                         company2.rates=company2.rates.split(";");
@@ -401,12 +448,15 @@ class CompanyCompareDataManager extends DataManager {
                         }
                         company2.avgRate=Math.round(company2.avgRate/company2.rates.length);
                     }
-                    pageData.company2.maxQuote=company2.maxRate;
-                    pageData.company2.maxQuoteState=company2.maxRateState;
-                    pageData.company2.minQuote=company2.minRate;
-                    pageData.company2.minQuoteState=company2.minRateState;
-                    pageData.company2.avgQuote=company2.avgRate;
-
+                    if(company2.rates)
+                    {
+                        pageData.company2.maxQuote=company2.rates.length===0?null:company2.maxRate;
+                        pageData.company2.maxQuoteState=company2.rates.length===0?null:company2.maxRateState;
+                        pageData.company2.minQuote=company2.rates.length===0?null:company2.minRate;
+                        pageData.company2.minQuoteState=company2.rates.length===0?null:company2.minRateState;
+                        pageData.company2.avgQuote=company2.rates.length===0?null:company2.avgRate;
+                    }
+                    pageData.quot_desc=this.addQuoteDesc(company1,company2);
                     //array-quotes(rates)
                     pageData["quotes"]=[];
                     if(company1.rates)
