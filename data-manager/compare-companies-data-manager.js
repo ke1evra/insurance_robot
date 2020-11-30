@@ -6,7 +6,7 @@ const companies=c.rfSync('./data/json/companies_zebra_full.json');
 const productsList = c.rfSync('./data/json/ProductsRatings.json')
 const discountsList = c.rfSync('./data/json/DiscountsRatings.json')
 
-const discounsAndProductsEntry = 3
+const discountsAndProductsEntry = 5
 
 var companies_compare={};
 class CompanyCompareDataManager extends DataManager {
@@ -105,6 +105,17 @@ class CompanyCompareDataManager extends DataManager {
 		desc=desc.replace(/\.\./g,".").trim()
 		return desc
 	}
+
+	///добавляет абзац для скидок
+	addDiscDesc(company1,company2){
+		return `${company1} and ${company2} provide various discount programs. Offers related to both companies are presented at the top of the table. Compare the available discounts and choose the best deal for you.`
+	}
+
+	///добавляет абзац для продуктов
+	addProdDesc(company1,company2){
+		return `In addition to car insurance ${company1} and ${company2} can offer you a variety of other packages. The types of insurance related to both companies are presented at the top of the table. Compare all available offers to choose the most suitable company for you. In some cases, you can get a discount by purchasing several insurance packages in the same company.`
+	}
+
     constructor() {
         super();
         for(let i=0;i<companies.length;i++)
@@ -127,6 +138,10 @@ class CompanyCompareDataManager extends DataManager {
 
                 pageData["company1"]["short_desc"] = this.addDesc(company1);
 				pageData["company2"]["short_desc"] = this.addDesc(company2);
+
+				pageData["disc_desc"] = this.addDiscDesc(company1.title,company2.title);
+
+				pageData["prod_desc"] = this.addProdDesc(company1.title,company2.title);
 
                 pageData["company1"]["link"]="https://www.usainsurancerate.com/companies/"+company1["url-slug"];
                 pageData["company2"]["link"]="https://www.usainsurancerate.com/companies/"+company2["url-slug"];
@@ -194,7 +209,7 @@ class CompanyCompareDataManager extends DataManager {
                 pageData["discounts"]=[];
                 if(company1["discounts"])
                     for(let k=0;k<company1["discounts"].length;k++)
-						if (discountsList[company1["discounts"][k]]["value"]>=discounsAndProductsEntry)
+						if (discountsList[company1["discounts"][k]]["value"]>=discountsAndProductsEntry)
 							pageData["discounts"].push([company1["discounts"][k],true,false])
                 if(company2["discounts"])
                     for(let k=0;k<company2["discounts"].length;k++)
@@ -209,7 +224,7 @@ class CompanyCompareDataManager extends DataManager {
                             }
                         }
                         if(!found)
-							if (discountsList[company2["discounts"][k]]["value"]>=discounsAndProductsEntry)
+							if (discountsList[company2["discounts"][k]]["value"]>=discountsAndProductsEntry)
 								pageData["discounts"].push([company2["discounts"][k], false, true])
                     }
                 //products
@@ -232,7 +247,7 @@ class CompanyCompareDataManager extends DataManager {
                 pageData["products"]=[];
                 if(company1["products"])
                     for(let k=0;k<company1["products"].length;k++)
-						if (productsList[company1["products"][k]]["value"]>=discounsAndProductsEntry)
+						if (productsList[company1["products"][k]]["value"]>=discountsAndProductsEntry)
 							pageData["products"].push([company1["products"][k],true,false])
                 if(company2["products"])
                     for(let k=0;k<company2["products"].length;k++)
@@ -247,7 +262,7 @@ class CompanyCompareDataManager extends DataManager {
                             }
                         }
                         if(!found)
-							if (productsList[company2["products"][k]]["value"]>=discounsAndProductsEntry)
+							if (productsList[company2["products"][k]]["value"]>=discountsAndProductsEntry)
 								pageData["products"].push([company2["products"][k],false,true])
                     }
                 //states appereance

@@ -1,2015 +1,1418 @@
 {
-    "Pay in Full": {
-        "value": 1
-    },
-    "Multiple car": {
-        "value": 1
-    },
-    "Multiple Family": {
-        "value": 1
-    },
-    "Prior Insurance": {
-        "value": 4
-    },
-    "View Policy Online": {
-        "value": 1
-    },
-    "Pay Online": {
-        "value": 29
-    },
-    "Offer coverage in 11 states": {
-        "value": 1
-    },
-    "Good Student Discount": {
-        "value": 39
-    },
-    "Multi-Auto Discount": {
-        "value": 1
-    },
-    "Multi-Line Discount": {
-        "value": 1
-    },
-    "Good Driving Discount": {
-        "value": 1
-    },
-    "Steer Clear Safe Driver Discount": {
-        "value": 1
-    },
-    "Defensive Driving Course Discount": {
-        "value": 2
-    },
-    "Drive Safe & Save Discount": {
-        "value": 1
-    },
-    "Mobile Friendly": {
-        "value": 30
-    },
-    "Manage Your Account Online": {
-        "value": 9
-    },
-    "24x7 Support": {
-        "value": 53
-    },
-    "Steer Clear Safe Driver Course": {
-        "value": 1
-    },
-    "Drive Safe & Save Program": {
-        "value": 1
-    },
-    "Emergency Road Service": {
-        "value": 4
-    },
-    "Rental Car Coverage": {
-        "value": 10
-    },
-    "Travel Expenses Coverage": {
-        "value": 1
-    },
-    "Report Claims Online": {
-        "value": 26
-    },
-    "Continuous Insurance Discount": {
-        "value": 2
-    },
-    "Homeowner Discount": {
-        "value": 8
-    },
-    "Multi-Car & Multi-Policy Discount": {
-        "value": 1
-    },
-    "Student Discounts": {
-        "value": 37
-    },
-    "Safe Driver Discounts": {
-        "value": 6
-    },
-    "Paperless Discount": {
-        "value": 1
-    },
-    "Vehicle Safety Feature Discounts": {
-        "value": 28
-    },
-    "Driving Course Discounts": {
-        "value": 28
-    },
-    "Manage Your Policy Online": {
-        "value": 72
-    },
-    "Low Down Payments": {
-        "value": 7
-    },
-    "Accident Forgiveness": {
-        "value": 23
-    },
-    "Dynamite Deductible Program": {
-        "value": 1
-    },
-    "Towing & Labor Coverage": {
-        "value": 16
-    },
-    "Rental Reimbursement Coverage": {
-        "value": 10
-    },
-    "Safe Driver Discount": {
-        "value": 17
-    },
-    "Multi-Vehicle & Multi-Policy Discount": {
-        "value": 8
-    },
-    "Renewal Discount": {
-        "value": 9
-    },
-    "Rental Car Reimbursement Coverage": {
-        "value": 1
-    },
-    "Classic & Antique Auto Coverage": {
-        "value": 3
-    },
-    "Emergency Roadside Coverage": {
-        "value": 3
-    },
-    "Multi-Policy Discount": {
-        "value": 38
-    },
-    "Elite New Policy Discount": {
-        "value": 1
-    },
-    "Monoline Auto Preferred Discount": {
-        "value": 1
-    },
-    "Customer Loyalty Discount": {
-        "value": 4
-    },
-    "E-credit Discount": {
-        "value": 1
-    },
-    "Payment Timliness Discount": {
-        "value": 1
-    },
-    "Lockout Coverage": {
-        "value": 1
-    },
-    "Personal Effects Coverage": {
-        "value": 3
-    },
-    "Pet Injury Coverage": {
-        "value": 9
-    },
-    "Anniversary Discount": {
-        "value": 2
-    },
-    "Safety Glass Endorsement": {
-        "value": 1
-    },
-    "Farm Vehicle Coverage": {
-        "value": 1
-    },
-    "Roadside Service Coverage": {
-        "value": 1
-    },
-    "Trip Interruption Coverage": {
-        "value": 3
-    },
-    "Good Driver Discount": {
-        "value": 7
-    },
-    "Multi-Car Discount": {
-        "value": 17
-    },
-    "Occupational Discount": {
-        "value": 2
-    },
-    "Anti-Theft Discount": {
-        "value": 14
-    },
-    "Low Down Payment": {
-        "value": 7
-    },
-    "Local Agents": {
-        "value": 4
-    },
-    "Mobile Claim Reporting": {
-        "value": 8
-    },
-    "Roadside Assistance": {
-        "value": 22
-    },
-    "Rideshare Coverage Available": {
-        "value": 1
-    },
-    "Immediate Coverage": {
-        "value": 8
-    },
-    "Auto Pay Available": {
-        "value": 5
-    },
-    "Online ID Cards": {
-        "value": 5
-    },
-    "Scholastic Discount": {
-        "value": 1
-    },
-    "Defensive Driving Credit": {
-        "value": 1
-    },
-    "Multi-Vehicle Discount": {
-        "value": 34
-    },
-    "Roadside Assistance Coverage": {
-        "value": 7
-    },
-    "Transportation Expense Coverage": {
-        "value": 2
-    },
-    "Farm Bureau Membership Benefits \\": {
-        "value": 1
-    },
-    "Multi-Policy & Multi-Vehicle Discounts": {
-        "value": 4
-    },
-    "Vehicle Safety Features Discount": {
-        "value": 2
-    },
-    "Accident-Free Discount": {
-        "value": 4
-    },
-    "Teen Safe Driver Program": {
-        "value": 1
-    },
-    "Away at School Discount": {
-        "value": 3
-    },
-    "Defensive Driving Discount": {
-        "value": 3
-    },
-    "Driver Training Discount": {
-        "value": 4
-    },
-    "Loyal Member Discount": {
-        "value": 2
-    },
-    "Multi-Product Discount": {
-        "value": 1
-    },
-    "Family Discounts": {
-        "value": 1
-    },
-    "New Vehicle Discount": {
-        "value": 4
-    },
-    "Annual Mileage Discount": {
-        "value": 4
-    },
-    "Storage Discount": {
-        "value": 1
-    },
-    "Award Winning Customer Service": {
-        "value": 1
-    },
-    "USAA Membership Benefits": {
-        "value": 1
-    },
-    "Guaranteed Renewal": {
-        "value": 1
-    },
-    "Rental Reimbursement": {
-        "value": 20
-    },
-    "Paperless Billing": {
-        "value": 2
-    },
-    "Higher Deductible Discount": {
-        "value": 1
-    },
-    "Low Mileage Discount": {
-        "value": 5
-    },
-    "Student Away Discount": {
-        "value": 2
-    },
-    "Early Issue Discount": {
-        "value": 1
-    },
-    "Disappearing Deductible": {
-        "value": 5
-    },
-    "Pet Coverage": {
-        "value": 3
-    },
-    "Merit Rating Points": {
-        "value": 1
-    },
-    "Safe Driver Discount: Discount": {
-        "value": 1
-    },
-    "Multi-Line Discount: Discount": {
-        "value": 1
-    },
-    "Renewal Discount: Discount": {
-        "value": 1
-    },
-    "Good Student Discount: Discount": {
-        "value": 1
-    },
-    "Adult Driver Training Discount": {
-        "value": 1
-    },
-    "Youthful Driver Training Discount": {
-        "value": 1
-    },
-    "Roadside Assistance Program": {
-        "value": 1
-    },
-    "Driver Training Discounts": {
-        "value": 3
-    },
-    "Accident & Violation Free Discount": {
-        "value": 3
-    },
-    "Hybrid Vehicle Discount": {
-        "value": 5
-    },
-    "Auto/Life Discount": {
-        "value": 2
-    },
-    "Identity Theft Coverage": {
-        "value": 2
-    },
-    "Car Rental Reimbursement Coverage": {
-        "value": 3
-    },
-    "Anti-Theft Equipment Discount": {
-        "value": 1
-    },
-    "Passive Restraint Discount": {
-        "value": 8
-    },
-    "Accident Prevention Course Discount": {
-        "value": 1
-    },
-    "Companion Policy Discount": {
-        "value": 3
-    },
-    "Pet Injury Protection": {
-        "value": 4
-    },
-    "Customization Coverage": {
-        "value": 1
-    },
-    "Safety Glass Coverage": {
-        "value": 2
-    },
-    "GM/GMAC Customer Discounts": {
-        "value": 1
-    },
-    "Paid-in-Full Discount": {
-        "value": 1
-    },
-    "GM Loyalty Discount": {
-        "value": 1
-    },
-    "Safe-Driver Discounts": {
-        "value": 1
-    },
-    "OnStar Subscriber Discount": {
-        "value": 1
-    },
-    "GM Family First Discounts": {
-        "value": 1
-    },
-    "Affinity Discounts": {
-        "value": 1
-    },
-    "GM Supplier Discount": {
-        "value": 1
-    },
-    "File Claims Online": {
-        "value": 9
-    },
-    "SmartValet®": {
-        "value": 1
-    },
-    "Guaranteed Repairs": {
-        "value": 1
-    },
-    "Guaranteed Claims Service Satisfaction": {
-        "value": 1
-    },
-    "Emergency Expense Allowance": {
-        "value": 1
-    },
-    "SmartReplacement®": {
-        "value": 1
-    },
-    "SmartInspect®": {
-        "value": 1
-    },
-    "Family Plan Discounts": {
-        "value": 1
-    },
-    "Accident Free Discount": {
-        "value": 5
-    },
-    "Farm Bureau Discount": {
-        "value": 2
-    },
-    "Easy Pay Sign-Up Discount": {
-        "value": 1
-    },
-    "Affinity Discount": {
-        "value": 2
-    },
-    "24/7 Customer Service": {
-        "value": 6
-    },
-    "Vanishing Deductible": {
-        "value": 3
-    },
-    "Paperless Billing & Policy Options": {
-        "value": 1
-    },
-    "Buy Online": {
-        "value": 3
-    },
-    "New Car Replacement": {
-        "value": 5
-    },
-    "Rideshare Coverage": {
-        "value": 1
-    },
-    "Excellent Driver Discounts": {
-        "value": 1
-    },
-    "Group Discounts": {
-        "value": 3
-    },
-    "Student Away at School Discount": {
-        "value": 5
-    },
-    "Hybrid Discount": {
-        "value": 1
-    },
-    "eCustomer Discount": {
-        "value": 1
-    },
-    "Loyalty Discount": {
-        "value": 4
-    },
-    "Pesonal Effects Coverage": {
-        "value": 1
-    },
-    "Towing & Labor": {
-        "value": 12
-    },
-    "Age of Systems Discount": {
-        "value": 1
-    },
-    "Common Loss Deductible Discount": {
-        "value": 1
-    },
-    "Corporate Vehicle Discount": {
-        "value": 1
-    },
-    "Family Discount": {
-        "value": 3
-    },
-    "Loyalty Discount Discount": {
-        "value": 1
-    },
-    "Protective Device Discount": {
-        "value": 2
-    },
-    "No Surcharge Promise": {
-        "value": 1
-    },
-    "Full Glass Coverage": {
-        "value": 2
-    },
-    "Audio/Visual/Data Electronic Equipment Coverage": {
-        "value": 1
-    },
-    "New Vehicle Replacement Cost Coverage": {
-        "value": 1
-    },
-    "Member Discount": {
-        "value": 1
-    },
-    "Vehicle Safety Features Discounts": {
-        "value": 1
-    },
-    "Student Discount": {
-        "value": 1
-    },
-    "Multi-Vehicle & Multi-Policy Discounts": {
-        "value": 5
-    },
-    "Tenure Discount": {
-        "value": 1
-    },
-    "Lifetime Renewability": {
-        "value": 1
-    },
-    "Customizable ProtectionPackages": {
-        "value": 1
-    },
-    "Choose Your Repair Facility": {
-        "value": 1
-    },
-    "Windshield Repair Deductible Savings": {
-        "value": 1
-    },
-    "Flexible Payment Options": {
-        "value": 1
-    },
-    "Loss Free Discount": {
-        "value": 5
-    },
-    "Hybrid Auto Discount": {
-        "value": 1
-    },
-    "45 Plus Mature Drivers Discount": {
-        "value": 1
-    },
-    "Roadside Rescue": {
-        "value": 1
-    },
-    "Auto Guard Endorsement": {
-        "value": 1
-    },
-    "New Car Replacement Coverage": {
-        "value": 4
-    },
-    "Young Adult Protection Plus": {
-        "value": 1
-    },
-    "Next Generation Discount": {
-        "value": 1
-    },
-    "Defensive Driver Discount": {
-        "value": 6
-    },
-    "Company Car Discount": {
-        "value": 5
-    },
-    "Companion Car Discount": {
-        "value": 1
-    },
-    "Prior Carrier Discount": {
-        "value": 1
-    },
-    "Electronic Equipment Coverage": {
-        "value": 1
-    },
-    "Loan/Lease Coverage": {
-        "value": 3
-    },
-    "Replacement Cost Coverage": {
-        "value": 1
-    },
-    "Safe & Accident-Free Discount": {
-        "value": 1
-    },
-    "Financial Stability Discount": {
-        "value": 3
-    },
-    "Protective Devices Discount": {
-        "value": 1
-    },
-    "Resident Student Discount": {
-        "value": 1
-    },
-    "Anti-Lock Brakes Discount": {
-        "value": 9
-    },
-    "24-Hour Emergency Roadside Service": {
-        "value": 1
-    },
-    "Classic Car Coverage": {
-        "value": 1
-    },
-    "Referral Rewards": {
-        "value": 2
-    },
-    "Claim Free Cash Back Award": {
-        "value": 1
-    },
-    "Student Away At School Discount": {
-        "value": 1
-    },
-    "Passive Restraint Discounts": {
-        "value": 1
-    },
-    "Anti-Lock Brake System Discount": {
-        "value": 1
-    },
-    "Daytime Running Lamps Discount": {
-        "value": 1
-    },
-    "Anti-Theft System Discount": {
-        "value": 1
-    },
-    "Coupler Discount": {
-        "value": 1
-    },
-    "New Car Discount": {
-        "value": 4
-    },
-    "Paid In Full Discount": {
-        "value": 3
-    },
-    "Senior Discount": {
-        "value": 1
-    },
-    "Injury Protection Discount Program": {
-        "value": 1
-    },
-    "Claim Free Discount": {
-        "value": 3
-    },
-    "Submit Claims Online": {
-        "value": 1
-    },
-    "Business/Professional Group Discounts": {
-        "value": 1
-    },
-    "Alternative Fuel Vehicle Discount": {
-        "value": 1
-    },
-    "Paperless Policy Option": {
-        "value": 1
-    },
-    "Mobile Glass Repair Services": {
-        "value": 1
-    },
-    "Towing & Roadside Assistance Coverage": {
-        "value": 1
-    },
-    "Affinity Groups Discount": {
-        "value": 1
-    },
-    "Driving Experience Discount": {
-        "value": 2
-    },
-    "Anti-Theft Device Discount": {
-        "value": 7
-    },
-    "Annual Policy Discount": {
-        "value": 1
-    },
-    "Additional Insured": {
-        "value": 1
-    },
-    "Extended Transportation Expense Coverage": {
-        "value": 1
-    },
-    "Rental Gap Coverage": {
-        "value": 1
-    },
-    "Trip Interruption": {
-        "value": 5
-    },
-    "Personal Property Coverage": {
-        "value": 2
-    },
-    "Advance Quote Discount": {
-        "value": 3
-    },
-    "$0 Glass Deductible": {
-        "value": 1
-    },
-    "Driving Course Discount": {
-        "value": 2
-    },
-    "Secondary Vehicle Discount": {
-        "value": 1
-    },
-    "Print Proof of Insurance Online": {
-        "value": 1
-    },
-    "Car Rental Expense Coverage": {
-        "value": 1
-    },
-    "Emergency Road Service Coverage": {
-        "value": 2
-    },
-    "Prior Carrier Discounts": {
-        "value": 1
-    },
-    "Newer Car Replacement Coverage": {
-        "value": 1
-    },
-    "Deductible Dividends": {
-        "value": 1
-    },
-    "Pet Injury Protection Coverage": {
-        "value": 1
-    },
-    "Bundled Discount": {
-        "value": 1
-    },
-    "Go Green Vehicle Discount": {
-        "value": 1
-    },
-    "Anti-Lock Brake Discount": {
-        "value": 1
-    },
-    "Electronic Stability Control Discount": {
-        "value": 1
-    },
-    "Daytime Running Lights Discount": {
-        "value": 2
-    },
-    "Replacement Coverage": {
-        "value": 1
-    },
-    "Newly Certified Teach Discount": {
-        "value": 1
-    },
-    "Vehicle Anti-Theft Discount": {
-        "value": 1
-    },
-    "Educator Benefits": {
-        "value": 1
-    },
-    "Direct Repair Program": {
-        "value": 1
-    },
-    "Antique Auto Insurance": {
-        "value": 1
-    },
-    "Towing & Roadside": {
-        "value": 1
-    },
-    "eDocuemnt Discount": {
-        "value": 1
-    },
-    "Advanced Driver Training Discount": {
-        "value": 1
-    },
-    "Age 65+ Discount": {
-        "value": 2
-    },
-    "Paid in Full Discount": {
-        "value": 9
-    },
-    "Advanced Issue Discount": {
-        "value": 1
-    },
-    "Motor Club Member Discount": {
-        "value": 1
-    },
-    "Mutli-Vehicle Discount": {
-        "value": 1
-    },
-    "Cell Phone & Laptop Replacement Coverage": {
-        "value": 1
-    },
-    "Substitute Transportation": {
-        "value": 2
-    },
-    "Loan / Lease Payoff Coverage": {
-        "value": 1
-    },
-    "Rideshare": {
-        "value": 1
-    },
-    "Auto Pay": {
-        "value": 1
-    },
-    "Air Bag Discount": {
-        "value": 1
-    },
-    "Companion Policy Discounts": {
-        "value": 1
-    },
-    "Multi-Vehcile Discount": {
-        "value": 1
-    },
-    "Claims Free Discount": {
-        "value": 2
-    },
-    "Farm Bureau Membership Benefits": {
-        "value": 5
-    },
-    "Homeowners Discount": {
-        "value": 12
-    },
-    "Passive Restraints Discount": {
-        "value": 1
-    },
-    "Good Students Discount": {
-        "value": 2
-    },
-    "Students Away at School Discount": {
-        "value": 1
-    },
-    "Driver’s Education Course Discount": {
-        "value": 1
-    },
-    "Weather Alerts": {
-        "value": 1
-    },
-    "Paperless Options": {
-        "value": 1
-    },
-    "Replacement Cost Auto Coverage": {
-        "value": 1
-    },
-    "Fast 5 Discount": {
-        "value": 1
-    },
-    "Switch & Save Discount": {
-        "value": 1
-    },
-    "Safety Device Discount": {
-        "value": 2
-    },
-    "Loan/Lease Gap Coverage": {
-        "value": 2
-    },
-    "Custom Parts & Equipment Coverage": {
-        "value": 1
-    },
-    "Transportation Expenses": {
-        "value": 5
-    },
-    "Youthful Driver Program": {
-        "value": 1
-    },
-    "Employer & Affinity Discounts": {
-        "value": 1
-    },
-    "Electric/Hybrid Discount": {
-        "value": 1
-    },
-    "Low Annual Mileage Discount": {
-        "value": 1
-    },
-    "Married Status Discount": {
-        "value": 1
-    },
-    "Payroll Deduction -for GE Employees": {
-        "value": 1
-    },
-    "New Car Replacement Cost Coverage": {
-        "value": 1
-    },
-    "Risk Coach™ Tool": {
-        "value": 1
-    },
-    "Great Driver™ App": {
-        "value": 1
-    },
-    "Renewal Discounts": {
-        "value": 1
-    },
-    "StartSmart Teen Driver Discount": {
-        "value": 1
-    },
-    "College Graduate Discount": {
-        "value": 2
-    },
-    "Auto Replacement Coverage": {
-        "value": 1
-    },
-    "Come-To-You Auto Glass Repair": {
-        "value": 1
-    },
-    "The Protector Network": {
-        "value": 1
-    },
-    "Valued Policyholder Discount": {
-        "value": 1
-    },
-    "Early Quoting Discount": {
-        "value": 1
-    },
-    "Select Pay Discount": {
-        "value": 1
-    },
-    "New Home Discount": {
-        "value": 1
-    },
-    "Claim Free / Violation Free Discount": {
-        "value": 1
-    },
-    "Umbrella Coverage Discount": {
-        "value": 1
-    },
-    "Hybrid Car Discount": {
-        "value": 1
-    },
-    "Identity Theft Protection": {
-        "value": 1
-    },
-    "Pet Protection": {
-        "value": 1
-    },
-    "Travel & Medical Assistance": {
-        "value": 1
-    },
-    "Longevity Discount": {
-        "value": 3
-    },
-    "Empty Nest Discounts": {
-        "value": 1
-    },
-    "Emergency Roadside Assistance": {
-        "value": 1
-    },
-    "A Mutual Company": {
-        "value": 3
-    },
-    "Continued In-Force Discount": {
-        "value": 1
-    },
-    "Driven to Safety Discount": {
-        "value": 1
-    },
-    "One Deductible Advantage": {
-        "value": 1
-    },
-    "Trailer Personal Effects Coverage": {
-        "value": 1
-    },
-    "Identity Services & Fraud Protection": {
-        "value": 1
-    },
-    "Teen Driver First Mile Discount": {
-        "value": 1
-    },
-    "Multi-car": {
-        "value": 1
-    },
-    "Offers coverage in 13 states": {
-        "value": 1
-    },
-    "Offers home": {
-        "value": 1
-    },
-    "condo": {
-        "value": 1
-    },
-    "and renters coverage": {
-        "value": 1
-    },
-    "Instant Proof of Insurance": {
-        "value": 1
-    },
-    "Convenient Mobile App & Online Policy Maintenance": {
-        "value": 1
-    },
-    "Hassle-free Automatic Payments": {
-        "value": 1
-    },
-    "Excess Vehicle Discount": {
-        "value": 1
-    },
-    "Motor Homes Limited Use Discount": {
-        "value": 1
-    },
-    "Travel Pac Endorsement": {
-        "value": 1
-    },
-    "Antique Auto Endorsement": {
-        "value": 1
-    },
-    "Lock in Your Rate": {
-        "value": 1
-    },
-    "Luxury and Vintage Vehicles": {
-        "value": 1
-    },
-    "24/7 Roadside Assistance": {
-        "value": 1
-    },
-    "Rental Car Reimbursement": {
-        "value": 3
-    },
-    "Incident Free Discount": {
-        "value": 1
-    },
-    "Auto Loan/Lease": {
-        "value": 1
-    },
-    "Educator Discount": {
-        "value": 2
-    },
-    "New Customer Discount": {
-        "value": 3
-    },
-    "Alternative Commuting Discount": {
-        "value": 1
-    },
-    "Safety/Security Feature Discounts": {
-        "value": 1
-    },
-    "University of WA Alumni Discount": {
-        "value": 1
-    },
-    "Auto Loan Coverage": {
-        "value": 1
-    },
-    "Parked Auto Collision Coverage": {
-        "value": 1
-    },
-    "Accidental Air Bag Deployment": {
-        "value": 1
-    },
-    "Emergency Travel Expense": {
-        "value": 2
-    },
-    "Towing & Labor Costs": {
-        "value": 1
-    },
-    "Lock In Your Rates": {
-        "value": 2
-    },
-    "Roadside Assistance Packages": {
-        "value": 1
-    },
-    "Anti-Theft Device discount": {
-        "value": 1
-    },
-    "Multi-vehicle discount": {
-        "value": 1
-    },
-    "Good student discount": {
-        "value": 1
-    },
-    "Green Discount": {
-        "value": 2
-    },
-    "Group/Franchise Discount": {
-        "value": 1
-    },
-    "Mature Drivers Discount": {
-        "value": 1
-    },
-    "Multi-Policy & Multi-Vehicle Discount": {
-        "value": 2
-    },
-    "Safe Drivers Discount": {
-        "value": 1
-    },
-    "Road Trouble Service": {
-        "value": 1
-    },
-    "Bundled Policies Discount": {
-        "value": 1
-    },
-    "Safe Driving Discount": {
-        "value": 1
-    },
-    "Emergency Assistance Package": {
-        "value": 1
-    },
-    "Antique & Classic Car Coverage": {
-        "value": 1
-    },
-    "Payment Plan Discounts": {
-        "value": 1
-    },
-    "Youthful Driver Discount": {
-        "value": 1
-    },
-    "Reduced Usage Discount": {
-        "value": 1
-    },
-    "Windshield Coverage": {
-        "value": 1
-    },
-    "Locksmith Services": {
-        "value": 2
-    },
-    "Diminishing Deductible": {
-        "value": 1
-    },
-    "Road Service Coverage": {
-        "value": 2
-    },
-    "Shop Smart Discount": {
-        "value": 1
-    },
-    "Safe Driver Plan Discount": {
-        "value": 1
-    },
-    "Account Discount": {
-        "value": 2
-    },
-    "Drivers Training Discount": {
-        "value": 1
-    },
-    "Student Away From Home Discount": {
-        "value": 1
-    },
-    "Financial Management Discount": {
-        "value": 1
-    },
-    "AAA Member Discount": {
-        "value": 1
-    },
-    "Disappearing Deductibles": {
-        "value": 1
-    },
-    "Preferred Payment Methods Discount": {
-        "value": 1
-    },
-    "Vehicle Safety Feature Discount": {
-        "value": 1
-    },
-    "Teen Driver Discount": {
-        "value": 1
-    },
-    "New Graduate Discount": {
-        "value": 1
-    },
-    "Newly Married Discount": {
-        "value": 1
-    },
-    "New Move Discount": {
-        "value": 1
-    },
-    "Newly Retired Discount": {
-        "value": 1
-    },
-    "With Liberty Mutual you’ll receive:": {
-        "value": 1
-    },
-    "Guidance from a licensed insurance agent": {
-        "value": 1
-    },
-    "Outstanding customer service": {
-        "value": 1
-    },
-    "Insurance coverage from a Fortune 100 company": {
-        "value": 1
-    },
-    "Enhanced Replacement Cost": {
-        "value": 1
-    },
-    "Accident Free Discounts": {
-        "value": 1
-    },
-    "Truck & SUV Discounts": {
-        "value": 1
-    },
-    "Senior Driver Discount": {
-        "value": 1
-    },
-    "Student Away to School Discount": {
-        "value": 1
-    },
-    "4-Wheel Antilock Brakes Discount": {
-        "value": 1
-    },
-    "Active or Passive Restraint Devices Discounts": {
-        "value": 1
-    },
-    "Newly Acquired Vehicle Coverage": {
-        "value": 1
-    },
-    "Senior Citizen Discount": {
-        "value": 1
-    },
-    "Military Discount": {
-        "value": 4
-    },
-    "Mileage Discount": {
-        "value": 1
-    },
-    "Welcome Back Discount": {
-        "value": 1
-    },
-    "Towing Coverage": {
-        "value": 4
-    },
-    "Customize Your Payments": {
-        "value": 1
-    },
-    "Live Chat Option": {
-        "value": 1
-    },
-    "Roadside Assistance & Towing": {
-        "value": 1
-    },
-    "Glass Coverage Options": {
-        "value": 1
-    },
-    "Identity Resolution Services": {
-        "value": 1
-    },
-    "Paperless ePolicy": {
-        "value": 1
-    },
-    "More Cars Than Drivers Discount": {
-        "value": 1
-    },
-    "Coverage Enhancements": {
-        "value": 1
-    },
-    "Hybrid/Electric Vehicle Discount": {
-        "value": 1
-    },
-    "Early Quote Discount": {
-        "value": 1
-    },
-    "Payment Discount": {
-        "value": 1
-    },
-    "IntelliDrive Discount": {
-        "value": 1
-    },
-    "Accident & Violation Forgiveness": {
-        "value": 1
-    },
-    "Decreasing Deductible": {
-        "value": 1
-    },
-    "IntelliDrive Usage Based Program": {
-        "value": 1
-    },
-    "Original Owner Discount": {
-        "value": 1
-    },
-    "Garage Parking Discount": {
-        "value": 1
-    },
-    "Hybrid/Alternative Fuel Discount": {
-        "value": 1
-    },
-    "Muli-Policy & Multi-Vehicle Discounts": {
-        "value": 2
-    },
-    "24x7 Roadside Assistance": {
-        "value": 1
-    },
-    "AAA Accident Assist": {
-        "value": 1
-    },
-    "AAA OnBoard": {
-        "value": 1
-    },
-    "e-Delivery Policy Options": {
-        "value": 1
-    },
-    "Roadside Assistance & Towing Coverage": {
-        "value": 1
-    },
-    "Identity Theft Resolution Services": {
-        "value": 1
-    },
-    "Bonus Renewal Discount": {
-        "value": 1
-    },
-    "Rental Vehicle Coverage": {
-        "value": 1
-    },
-    "Airbag Deployment Coverage": {
-        "value": 1
-    },
-    "Full Safety Glass Coverage": {
-        "value": 1
-    },
-    "Pet Medical Coverage": {
-        "value": 1
-    },
-    "Emergency Lockout Coverage": {
-        "value": 1
-    },
-    "eDocument Delivery Discount": {
-        "value": 1
-    },
-    "Unique Enhancement Packages": {
-        "value": 1
-    },
-    "Advance Driver Training Discount": {
-        "value": 1
-    },
-    "Advance Purchase Discount": {
-        "value": 1
-    },
-    "Merit Rating Discount": {
-        "value": 1
-    },
-    "Accidental Airbag Discharge Coverage": {
-        "value": 1
-    },
-    "Excellent Driver Deductible Credit": {
-        "value": 1
-    },
-    "New Car Protection": {
-        "value": 1
-    },
-    "Membership Longevity Discount": {
-        "value": 1
-    },
-    "Ultra Preferred Auto Rate Discount": {
-        "value": 1
-    },
-    "Multiple Policies Discount": {
-        "value": 1
-    },
-    "Multiple Car Discount": {
-        "value": 1
-    },
-    "Premier Driver Discount": {
-        "value": 2
-    },
-    "Senior Operator Accident Prevention Course Discount": {
-        "value": 1
-    },
-    "Preferred New Business Discount": {
-        "value": 1
-    },
-    "Safe Cars Discount": {
-        "value": 1
-    },
-    "Motor Club Discount": {
-        "value": 1
-    },
-    "e-Billing Options": {
-        "value": 1
-    },
-    "Youthful Operator Discounts": {
-        "value": 1
-    },
-    "Roadside Coverage Option": {
-        "value": 1
-    },
-    "Loss of Income Coverage Option": {
-        "value": 1
-    },
-    "Senior Operator Accident Prevention Discount": {
-        "value": 1
-    },
-    "Auto Safety Devices Discount": {
-        "value": 1
-    },
-    "Active Property Discount": {
-        "value": 1
-    },
-    "School Bus Driver Discount": {
-        "value": 1
-    },
-    "Umbrella Discount": {
-        "value": 1
-    },
-    "Medical Payments": {
-        "value": 1
-    },
-    "Safe Driver Discount Discount": {
-        "value": 1
-    },
-    "Driver Training Course Discount": {
-        "value": 1
-    },
-    "Accident Prevenation Course Discount": {
-        "value": 1
-    },
-    "Companion Life Discount": {
-        "value": 1
-    },
-    "Window ID System Discount": {
-        "value": 1
-    },
-    "Emergency Road Service Reimbursement": {
-        "value": 1
-    },
-    "Gap Insurance": {
-        "value": 1
-    },
-    "Loss of Use Coverage": {
-        "value": 1
-    },
-    "Military Discounts": {
-        "value": 2
-    },
-    "Hybrid/Electric Discount": {
-        "value": 1
-    },
-    "Renwal Discount": {
-        "value": 1
-    },
-    "Low Mileage Discounts": {
-        "value": 1
-    },
-    "Pay Online Option": {
-        "value": 1
-    },
-    "Custom Care Package": {
-        "value": 1
-    },
-    "Personal Property Endorsement": {
-        "value": 1
-    },
-    "Renewal Claim Free Discount": {
-        "value": 1
-    },
-    "Safe Driver Renewal Discount": {
-        "value": 1
-    },
-    "Safety Belt Discount": {
-        "value": 1
-    },
-    "Pleasure Use Discount": {
-        "value": 1
-    },
-    "Insurance Scoring Discount": {
-        "value": 1
-    },
-    "Trailer Coverage": {
-        "value": 1
-    },
-    "New Model Discount": {
-        "value": 1
-    },
-    "GPS Tracking Discount": {
-        "value": 1
-    },
-    "Identity Recovery Coverage": {
-        "value": 1
-    },
-    "Lock Replacement Coverage": {
-        "value": 1
-    },
-    "Locked Vehicle Coverage": {
-        "value": 1
-    },
-    "Theft of Personal Effects Coverage": {
-        "value": 1
-    },
-    "Air Bag Coverage": {
-        "value": 1
-    },
-    "Glass Repair Coverage": {
-        "value": 1
-    },
-    "Guaranteed Auto Repairs": {
-        "value": 1
-    },
-    "e-Billing": {
-        "value": 1
-    },
-    "Identity Protection Program": {
-        "value": 1
-    },
-    "Travel Interruption Coverage": {
-        "value": 1
-    },
-    "New Vehicle Replacement Coverage": {
-        "value": 1
-    },
-    "Pet Accidental Death Benefit": {
-        "value": 1
-    },
-    "Theft of a GPS System Benefit": {
-        "value": 1
-    },
-    "Carpooling Discounts": {
-        "value": 1
-    },
-    "Superior Driver Discounts": {
-        "value": 1
-    },
-    "Online Claims Reporting": {
-        "value": 3
-    },
-    "Defensive Driver Credit": {
-        "value": 1
-    },
-    "Home & Auto Insurance Bundle": {
-        "value": 1
-    },
-    "Driver Training Credit": {
-        "value": 1
-    },
-    "Air Bags Discount": {
-        "value": 1
-    },
-    "Lifetime Car Repair Assurance": {
-        "value": 1
-    },
-    "24/7 customer service": {
-        "value": 1
-    },
-    "Paperless policy discount": {
-        "value": 1
-    },
-    "Mobile claim reporting": {
-        "value": 1
-    },
-    "Roadside assistance": {
-        "value": 1
-    },
-    "Ride share": {
-        "value": 1
-    },
-    "EFT payments": {
-        "value": 1
-    },
-    "Online ID cards": {
-        "value": 1
-    },
-    "Identity Theft Services": {
-        "value": 1
-    },
-    "Antique & Classic Auto": {
-        "value": 1
-    },
-    "Community Servant Benefits": {
-        "value": 1
-    },
-    "Engaged Couple Discount": {
-        "value": 1
-    },
-    "Occupation Discount": {
-        "value": 1
-    },
-    "Renters Coverage": {
-        "value": 1
-    },
-    "Multi-Vehicle": {
-        "value": 1
-    },
-    "Mature Driver": {
-        "value": 1
-    },
-    "Loss Free Renewal": {
-        "value": 1
-    },
-    "Anti-Theft Device": {
-        "value": 1
-    },
-    "Youthful Driver Discounts": {
-        "value": 1
-    },
-    "Go Paperless Discount": {
-        "value": 1
-    },
-    "Paperless Policy Discount": {
-        "value": 1
-    },
-    "Rideshare Endorsement Available": {
-        "value": 2
-    },
-    "Free Mobile App": {
-        "value": 1
-    },
-    "Per-mile Rates": {
-        "value": 1
-    },
-    "24/7 Claims Support": {
-        "value": 1
-    },
-    "Personalized Customer Support": {
-        "value": 1
-    },
-    "Roadtrip Friendly": {
-        "value": 1
-    },
-    "Rental Car Coverage*": {
-        "value": 1
-    },
-    "Unlimited Roadside Assistance*": {
-        "value": 1
-    },
-    "Pet Injury Protection*": {
-        "value": 1
-    },
-    "*Available with comp./collision coverage.": {
-        "value": 1
-    },
-    "Association Discount": {
-        "value": 1
-    },
-    "Driver Safety Course Discount": {
-        "value": 2
-    },
-    "Airbag Discount": {
-        "value": 1
-    },
-    "Tavelink Discount": {
-        "value": 1
-    },
-    "Mature Driver Discount": {
-        "value": 4
-    },
-    "Claims Handling by Nationwide": {
-        "value": 2
-    },
-    "Route 1000 Discount": {
-        "value": 1
-    },
-    "EFT Discount": {
-        "value": 2
-    },
-    "Extended Household Discount": {
-        "value": 1
-    },
-    "Multi-line Discount": {
-        "value": 1
-    },
-    "Multi-vehicle Discount": {
-        "value": 1
-    },
-    "Multi Car": {
-        "value": 1
-    },
-    "Multi Policy": {
-        "value": 1
-    },
-    "Educator": {
-        "value": 1
-    },
-    "Offers policies in 7 states plus D.C.": {
-        "value": 1
-    },
-    "24/7 claim servicing": {
-        "value": 1
-    },
-    "Backed by Liberty Mutual": {
-        "value": 1
-    },
-    "Occasional Operator Discount": {
-        "value": 1
-    },
-    "Transfer Discount": {
-        "value": 5
-    },
-    "Auto Glass Express Program": {
-        "value": 1
-    },
-    "Minor Child Discount": {
-        "value": 1
-    },
-    "Company Vehicles Discount": {
-        "value": 1
-    },
-    "Account Credit Discount": {
-        "value": 1
-    },
-    "Safety Features Discount": {
-        "value": 1
-    },
-    "Towing and Labor Coverage": {
-        "value": 1
-    },
-    "Emergency Lodging Expenses": {
-        "value": 1
-    },
-    "Emergency First Aid Expenses": {
-        "value": 1
-    },
-    "Affiliation Discount": {
-        "value": 1
-    },
-    "Online Claims Filing": {
-        "value": 1
-    },
-    "Medical payment coverage": {
-        "value": 1
-    },
-    "Rental expense coverage": {
-        "value": 1
-    },
-    "Mature Driver Improvement Course Discount": {
-        "value": 1
-    },
-    "Multi-car and good driver discount": {
-        "value": 1
-    },
-    "Convenient Payment Options": {
-        "value": 1
-    },
-    "Immediate ID cards": {
-        "value": 1
-    },
-    "Budget Friendly": {
-        "value": 1
-    },
-    "Payment Frequency Discounts": {
-        "value": 2
-    },
-    "Easy SR-22 / FR-44 filings": {
-        "value": 2
-    },
-    "Bilingual Claims & Customer Service": {
-        "value": 2
-    },
-    "Foreign License Accepted": {
-        "value": 2
-    },
-    "Claims Free Renewal Discount": {
-        "value": 1
-    },
-    "Multiple Vehicle Discount": {
-        "value": 1
-    },
-    "Manage Account Online": {
-        "value": 1
-    },
-    "Bilingual Website": {
-        "value": 2
-    },
-    "EZ Pay Discount": {
-        "value": 1
-    },
-    "Prior Insurance Discount": {
-        "value": 1
-    },
-    "Residence Discount": {
-        "value": 1
-    },
-    "No Credit Check": {
-        "value": 1
-    },
-    "Defensive Driver": {
-        "value": 1
-    },
-    "Good Student": {
-        "value": 1
-    },
-    "Young Driver Safety": {
-        "value": 1
-    },
-    "Anti-Theft": {
-        "value": 1
-    },
-    "Offers coverage in 14 states": {
-        "value": 1
-    },
-    "Access to policy 24/7 online": {
-        "value": 1
-    },
-    "No-Surcharge Promise": {
-        "value": 1
-    },
-    "Good Student Discounts": {
-        "value": 1
-    },
-    "Membership Benefits": {
-        "value": 1
-    },
-    "Marriage Discount": {
-        "value": 1
-    },
-    "Airbags Discount": {
-        "value": 1
-    },
-    "Rental Coverage Included": {
-        "value": 1
-    },
-    "Special Rates for Mature Drivers": {
-        "value": 1
-    },
-    "No Deductible on Windshield Repair": {
-        "value": 1
-    },
-    "Advanced Shopping Discount": {
-        "value": 1
-    },
-    "Non-Credit Scored": {
-        "value": 1
-    },
-    "#1 Wholesale Broker in the US": {
-        "value": 1
-    },
-    "Loss-Free Discount": {
-        "value": 1
-    },
-    "Companion Discount": {
-        "value": 1
-    },
-    "New Car Repair Coverage": {
-        "value": 1
-    },
-    "Loss Forgiveness": {
-        "value": 1
-    },
-    "Responsible Youthful Driver Discount": {
-        "value": 1
-    },
-    "Driver Education Discount": {
-        "value": 1
-    },
-    "Deductible Credits": {
-        "value": 1
-    },
-    "Non-Smoker Discounts": {
-        "value": 1
-    },
-    "Domestic Vehicle Discount": {
-        "value": 1
-    },
-    "Focused Driver Pledge Discount": {
-        "value": 1
-    },
-    "Superior Driver Discount": {
-        "value": 1
-    },
-    "Multi-Policy Discounts": {
-        "value": 1
-    },
-    "Budget friendly": {
-        "value": 1
-    },
-    "100% online via MetLife Auto & Home MyDirect": {
-        "value": 1
-    },
-    "Hassle-free click to chat assistance": {
-        "value": 1
-    },
-    "Convenient payment options": {
-        "value": 1
-    },
-    "Coverage from a company you know and trust": {
-        "value": 1
-    },
-    "AAA Discount": {
-        "value": 1
-    },
-    "Pay Online 24x7": {
-        "value": 1
-    },
-    "Mexican & Non-Licensed Accepted": {
-        "value": 1
-    },
-    "Bilingual Website & Staff": {
-        "value": 1
-    },
-    "Personal Account Credit": {
-        "value": 1
-    },
-    "Auto Safety Features Credit": {
-        "value": 1
-    },
-    "Over-55 Discount": {
-        "value": 1
-    },
-    "Towing Services": {
-        "value": 1
-    },
-    "Repair or Replacement Cost Coverage": {
-        "value": 1
-    },
-    "Specializes in Non-Standard Auto": {
-        "value": 1
-    },
-    "Towing & Rental Coverage Available": {
-        "value": 1
-    },
-    "Usage-Based Insurance": {
-        "value": 1
-    },
-    "Telematics": {
-        "value": 1
-    },
-    "Low-Mileage Discounts": {
-        "value": 1
-    },
-    "Rental Coverage": {
-        "value": 1
-    },
-    "Persistency Discount": {
-        "value": 1
-    },
-    "Live Chat": {
-        "value": 1
-    },
-    "Roadside Assistance Programs": {
-        "value": 1
-    },
-    "In-House Claims Handling": {
-        "value": 1
-    },
-    "Low Down Payment Options": {
-        "value": 1
-    },
-    "Bilingual Customer Service": {
-        "value": 1
-    },
-    "Full Coverage Discount": {
-        "value": 1
-    },
-    "Safe-Driver Discount": {
-        "value": 1
-    },
-    "Bilingual Staff": {
-        "value": 1
-    },
-    "Collision Rental Covergae": {
-        "value": 1
-    },
-    "SAFE Driver Discount": {
-        "value": 1
-    },
-    "No Credit Scoring": {
-        "value": 1
-    },
-    "Flexible Billing": {
-        "value": 1
-    },
-    "Prior In-House Coverage Discount": {
-        "value": 1
-    },
-    "Manage You Policy Online": {
-        "value": 1
-    },
-    "Print ID Cards Online": {
-        "value": 1
-    },
-    "Same Day Bind": {
-        "value": 1
-    },
-    "Distant Student Discount": {
-        "value": 1
-    },
-    "Educated Worker Discount": {
-        "value": 1
-    },
-    "Special Equipment Coverage": {
-        "value": 1
-    },
-    "EFT": {
-        "value": 1
-    },
-    "Loyalty": {
-        "value": 2
-    },
-    "EFT Payments": {
-        "value": 1
-    },
-    "Multiple vehicle": {
-        "value": 1
-    },
-    "Multiple policy": {
-        "value": 1
-    },
-    "Good driving": {
-        "value": 1
-    },
-    "Good student": {
-        "value": 1
-    },
-    "Offers coverage in 9 states": {
-        "value": 1
-    },
-    "plus D.C.": {
-        "value": 1
-    },
-    "Claim service 24/7": {
-        "value": 1
-    },
-    "Online policy management": {
-        "value": 1
-    },
-    "Proactive Clients Discount": {
-        "value": 1
-    },
-    "Pre-Paid Premiums Discount": {
-        "value": 1
-    },
-    "Teen Drivers Discount": {
-        "value": 1
-    },
-    "Multi-Car & Fleets Discount": {
-        "value": 1
-    },
-    "Senior Citizens Discount": {
-        "value": 1
-    },
-    "Client Longevity Discount": {
-        "value": 1
-    },
-    "Good Credit Discount": {
-        "value": 1
-    },
-    "Non-Smoking Discount": {
-        "value": 1
-    },
-    "No Cell Phone Use Discount": {
-        "value": 1
-    },
-    "Total Account Discount": {
-        "value": 1
-    },
-    "Preferred Driver Discount": {
-        "value": 1
-    },
-    "E85 / Hybrid Discount": {
-        "value": 1
-    },
-    "Transportation & Travel Expenses": {
-        "value": 1
-    },
-    "Loss of Personal Property": {
-        "value": 1
-    },
-    "New Vehicle Replacement": {
-        "value": 1
-    },
-    "Reducing Deductible": {
-        "value": 1
-    }
+  "Pay in Full": {
+    "value": 1
+  },
+  "Multiple Family": {
+    "value": 1
+  },
+  "Prior Insurance": {
+    "value": 5
+  },
+  "View Policy Online": {
+    "value": 1
+  },
+  "Pay Online": {
+    "value": 30
+  },
+  "Offer coverage in 11 states": {
+    "value": 1
+  },
+  "Multi-Car Discount": {
+    "value": 20
+  },
+  "Good Driver Discount": {
+    "value": 9
+  },
+  "Drive Safe & Save Discount": {
+    "value": 2
+  },
+  "Good Student Discount": {
+    "value": 46
+  },
+  "Multi-Auto Discount": {
+    "value": 1
+  },
+  "Multi-Line Discount": {
+    "value": 2
+  },
+  "Steer Clear Safe Driver Discount": {
+    "value": 2
+  },
+  "Defensive Driving Course Discount": {
+    "value": 2
+  },
+  "Mobile Friendly": {
+    "value": 30
+  },
+  "Manage Your Account Online": {
+    "value": 10
+  },
+  "24x7 Support": {
+    "value": 53
+  },
+  "Emergency Road Service": {
+    "value": 7
+  },
+  "Rental Car Coverage": {
+    "value": 11
+  },
+  "Travel Expenses Coverage": {
+    "value": 1
+  },
+  "Report Claims Online": {
+    "value": 26
+  },
+  "Homeowners Discount": {
+    "value": 20
+  },
+  "Paperless Policy Discount": {
+    "value": 3
+  },
+  "Safe Driver Discount": {
+    "value": 30
+  },
+  "Towing & Labor": {
+    "value": 30
+  },
+  "Continuous Insurance Discount": {
+    "value": 2
+  },
+  "Multi-Car & Multi-Policy Discount": {
+    "value": 1
+  },
+  "Student Discounts": {
+    "value": 38
+  },
+  "Vehicle Safety Feature Discounts": {
+    "value": 32
+  },
+  "Driving Course Discounts": {
+    "value": 32
+  },
+  "Manage Your Policy Online": {
+    "value": 73
+  },
+  "Accident Forgiveness": {
+    "value": 23
+  },
+  "Dynamite Deductible Program": {
+    "value": 1
+  },
+  "Low Down Payment": {
+    "value": 15
+  },
+  "Rental Reimbursement": {
+    "value": 36
+  },
+  "Renewal Discount": {
+    "value": 11
+  },
+  "Classic & Antique Auto Coverage": {
+    "value": 3
+  },
+  "Emergency Roadside Coverage": {
+    "value": 4
+  },
+  "Multi-Policy & Multi-Vehicle Discounts": {
+    "value": 21
+  },
+  "Multi-Policy Discount": {
+    "value": 41
+  },
+  "Elite New Policy Discount": {
+    "value": 1
+  },
+  "Monoline Auto Preferred Discount": {
+    "value": 1
+  },
+  "Customer Loyalty Discount": {
+    "value": 4
+  },
+  "E-credit Discount": {
+    "value": 1
+  },
+  "Payment Timliness Discount": {
+    "value": 1
+  },
+  "Lockout Coverage": {
+    "value": 1
+  },
+  "Personal Effects Coverage": {
+    "value": 3
+  },
+  "Pet Injury Coverage": {
+    "value": 18
+  },
+  "Anniversary Discount": {
+    "value": 2
+  },
+  "Farm Vehicle Coverage": {
+    "value": 1
+  },
+  "Roadside Service Coverage": {
+    "value": 1
+  },
+  "Safety Glass Coverage": {
+    "value": 3
+  },
+  "Trip Interruption": {
+    "value": 8
+  },
+  "Occupational Discount": {
+    "value": 3
+  },
+  "Anti-Theft Discount": {
+    "value": 15
+  },
+  "Local Agents": {
+    "value": 4
+  },
+  "Mobile Claim Reporting": {
+    "value": 9
+  },
+  "Roadside Assistance": {
+    "value": 33
+  },
+  "Immediate Coverage": {
+    "value": 8
+  },
+  "Auto Pay Available": {
+    "value": 6
+  },
+  "Online ID Cards": {
+    "value": 6
+  },
+  "Rideshare Coverage": {
+    "value": 4
+  },
+  "Farm Bureau Membership Benefits": {
+    "value": 6
+  },
+  "Defensive Driver Discount": {
+    "value": 12
+  },
+  "Scholastic Discount": {
+    "value": 1
+  },
+  "Multi-Vehicle Discount": {
+    "value": 41
+  },
+  "Transportation Expenses": {
+    "value": 7
+  },
+  "Accident-Free Discount": {
+    "value": 10
+  },
+  "Teen Safe Driver Program": {
+    "value": 1
+  },
+  "Away at School Discount": {
+    "value": 3
+  },
+  "Driver Training Discount": {
+    "value": 9
+  },
+  "Loyal Member Discount": {
+    "value": 2
+  },
+  "Multi-Product Discount": {
+    "value": 1
+  },
+  "New Vehicle Discount": {
+    "value": 4
+  },
+  "Annual Mileage Discount": {
+    "value": 4
+  },
+  "Storage Discount": {
+    "value": 1
+  },
+  "Award Winning Customer Service": {
+    "value": 1
+  },
+  "USAA Membership Benefits": {
+    "value": 1
+  },
+  "Guaranteed Renewal": {
+    "value": 1
+  },
+  "Family Discount": {
+    "value": 5
+  },
+  "Paperless Billing": {
+    "value": 2
+  },
+  "Early Quote Discount": {
+    "value": 3
+  },
+  "Higher Deductible Discount": {
+    "value": 1
+  },
+  "Low Mileage Discount": {
+    "value": 7
+  },
+  "Student Away Discount": {
+    "value": 3
+  },
+  "Disappearing Deductible": {
+    "value": 6
+  },
+  "Merit Rating Discount": {
+    "value": 2
+  },
+  "Adult Driver Training Discount": {
+    "value": 1
+  },
+  "Youthful Driver Discount": {
+    "value": 3
+  },
+  "Accident & Violation Free Discount": {
+    "value": 3
+  },
+  "Hybrid Vehicle Discount": {
+    "value": 8
+  },
+  "Auto/Life Discount": {
+    "value": 2
+  },
+  "Identity Theft Coverage": {
+    "value": 3
+  },
+  "Car Rental Reimbursement Coverage": {
+    "value": 4
+  },
+  "Anti-Theft Device Discount": {
+    "value": 11
+  },
+  "Passive Restraint Discount": {
+    "value": 10
+  },
+  "Accident Prevention Course Discount": {
+    "value": 2
+  },
+  "Companion Policy Discount": {
+    "value": 4
+  },
+  "Customization Coverage": {
+    "value": 1
+  },
+  "Affinity Discount": {
+    "value": 4
+  },
+  "GM/GMAC Customer Discounts": {
+    "value": 1
+  },
+  "GM Loyalty Discount": {
+    "value": 1
+  },
+  "OnStar Subscriber Discount": {
+    "value": 1
+  },
+  "GM Family First Discounts": {
+    "value": 1
+  },
+  "GM Supplier Discount": {
+    "value": 1
+  },
+  "File Claims Online": {
+    "value": 9
+  },
+  "SmartValet®": {
+    "value": 1
+  },
+  "Guaranteed Claims Service Satisfaction": {
+    "value": 1
+  },
+  "Emergency Expense Allowance": {
+    "value": 1
+  },
+  "SmartReplacement®": {
+    "value": 1
+  },
+  "SmartInspect®": {
+    "value": 1
+  },
+  "Guaranteed Auto Repairs": {
+    "value": 2
+  },
+  "Paid in Full Discount": {
+    "value": 10
+  },
+  "Farm Bureau Discount": {
+    "value": 2
+  },
+  "Easy Pay Sign-Up Discount": {
+    "value": 1
+  },
+  "24/7 Customer Service": {
+    "value": 7
+  },
+  "Vanishing Deductible": {
+    "value": 3
+  },
+  "Paperless Billing & Policy Options": {
+    "value": 1
+  },
+  "Buy Online": {
+    "value": 3
+  },
+  "New Car Replacement": {
+    "value": 11
+  },
+  "Excellent Driver Discounts": {
+    "value": 2
+  },
+  "Group Discounts": {
+    "value": 4
+  },
+  "Student Away at School Discount": {
+    "value": 7
+  },
+  "eCustomer Discount": {
+    "value": 1
+  },
+  "Loyalty Discount": {
+    "value": 7
+  },
+  "Pesonal Effects Coverage": {
+    "value": 1
+  },
+  "Age of Systems Discount": {
+    "value": 1
+  },
+  "Common Loss Deductible Discount": {
+    "value": 1
+  },
+  "Corporate Vehicle Discount": {
+    "value": 1
+  },
+  "Protective Device Discount": {
+    "value": 3
+  },
+  "No Surcharge Promise": {
+    "value": 2
+  },
+  "Full Glass Coverage": {
+    "value": 3
+  },
+  "Audio/Visual/Data Electronic Equipment Coverage": {
+    "value": 1
+  },
+  "New Vehicle Replacement": {
+    "value": 3
+  },
+  "Member Discount": {
+    "value": 1
+  },
+  "Tenure Discount": {
+    "value": 1
+  },
+  "Lifetime Renewability": {
+    "value": 1
+  },
+  "Customizable ProtectionPackages": {
+    "value": 1
+  },
+  "Choose Your Repair Facility": {
+    "value": 1
+  },
+  "Windshield Repair Deductible Savings": {
+    "value": 1
+  },
+  "Flexible Payment Options": {
+    "value": 1
+  },
+  "Loss Free Discount": {
+    "value": 5
+  },
+  "45 Plus Mature Drivers Discount": {
+    "value": 1
+  },
+  "Roadside Rescue": {
+    "value": 1
+  },
+  "Auto Guard Endorsement": {
+    "value": 1
+  },
+  "Young Adult Protection Plus": {
+    "value": 1
+  },
+  "Next Generation Discount": {
+    "value": 1
+  },
+  "Company Car Discount": {
+    "value": 5
+  },
+  "Companion Car Discount": {
+    "value": 1
+  },
+  "Prior Carrier Discount": {
+    "value": 2
+  },
+  "Electronic Equipment Coverage": {
+    "value": 1
+  },
+  "Loan/Lease Coverage": {
+    "value": 6
+  },
+  "Replacement Coverage": {
+    "value": 3
+  },
+  "Safe & Accident-Free Discount": {
+    "value": 1
+  },
+  "Financial Stability Discount": {
+    "value": 3
+  },
+  "Resident Student Discount": {
+    "value": 1
+  },
+  "Anti-Lock Brakes Discount": {
+    "value": 11
+  },
+  "Classic Car Coverage": {
+    "value": 1
+  },
+  "Referral Rewards": {
+    "value": 2
+  },
+  "Claim Free Cash Back Award": {
+    "value": 1
+  },
+  "24/7 Roadside Assistance": {
+    "value": 3
+  },
+  "Daytime Running Lights Discount": {
+    "value": 3
+  },
+  "Coupler Discount": {
+    "value": 1
+  },
+  "New Car Discount": {
+    "value": 4
+  },
+  "Paid In Full Discount": {
+    "value": 3
+  },
+  "Senior Discount": {
+    "value": 2
+  },
+  "Injury Protection Discount Program": {
+    "value": 1
+  },
+  "Claim Free Discount": {
+    "value": 5
+  },
+  "Submit Claims Online": {
+    "value": 1
+  },
+  "Business/Professional Group Discounts": {
+    "value": 1
+  },
+  "Alternative Fuel Vehicle Discount": {
+    "value": 1
+  },
+  "Paperless Policy Option": {
+    "value": 3
+  },
+  "Mobile Glass Repair Services": {
+    "value": 1
+  },
+  "Towing & Roadside": {
+    "value": 2
+  },
+  "Driving Experience Discount": {
+    "value": 2
+  },
+  "Annual Policy Discount": {
+    "value": 1
+  },
+  "Additional Insured": {
+    "value": 1
+  },
+  "Extended Transportation Expense Coverage": {
+    "value": 1
+  },
+  "Rental Gap Coverage": {
+    "value": 1
+  },
+  "Personal Property Coverage": {
+    "value": 3
+  },
+  "Advance Quote Discount": {
+    "value": 3
+  },
+  "$0 Glass Deductible": {
+    "value": 1
+  },
+  "Secondary Vehicle Discount": {
+    "value": 1
+  },
+  "Print Proof of Insurance Online": {
+    "value": 1
+  },
+  "Deductible Dividends": {
+    "value": 1
+  },
+  "Bundled Discount": {
+    "value": 2
+  },
+  "Go Green Vehicle Discount": {
+    "value": 1
+  },
+  "Electronic Stability Control Discount": {
+    "value": 1
+  },
+  "Educator Discount": {
+    "value": 4
+  },
+  "Antique Auto Endorsement": {
+    "value": 2
+  },
+  "Newly Certified Teach Discount": {
+    "value": 1
+  },
+  "Vehicle Anti-Theft Discount": {
+    "value": 1
+  },
+  "Direct Repair Program": {
+    "value": 1
+  },
+  "eDocuemnt Discount": {
+    "value": 2
+  },
+  "Advanced Driver Training Discount": {
+    "value": 1
+  },
+  "Age 65+ Discount": {
+    "value": 2
+  },
+  "Advanced Issue Discount": {
+    "value": 1
+  },
+  "Cell Phone & Laptop Replacement Coverage": {
+    "value": 1
+  },
+  "Substitute Transportation": {
+    "value": 2
+  },
+  "Motor Club Discount": {
+    "value": 2
+  },
+  "Air Bag Discount": {
+    "value": 3
+  },
+  "Weather Alerts": {
+    "value": 1
+  },
+  "Fast 5 Discount": {
+    "value": 1
+  },
+  "Switch & Save Discount": {
+    "value": 1
+  },
+  "Safety Device Discount": {
+    "value": 2
+  },
+  "Custom Parts & Equipment Coverage": {
+    "value": 1
+  },
+  "Youthful Driver Program": {
+    "value": 1
+  },
+  "Employer & Affinity Discounts": {
+    "value": 1
+  },
+  "Electric/Hybrid Discount": {
+    "value": 1
+  },
+  "Low Annual Mileage Discount": {
+    "value": 1
+  },
+  "Married Status Discount": {
+    "value": 1
+  },
+  "Payroll Deduction -for GE Employees": {
+    "value": 1
+  },
+  "Risk Coach™ Tool": {
+    "value": 1
+  },
+  "Great Driver™ App": {
+    "value": 1
+  },
+  "StartSmart Teen Driver Discount": {
+    "value": 1
+  },
+  "College Graduate Discount": {
+    "value": 2
+  },
+  "Auto Replacement Coverage": {
+    "value": 1
+  },
+  "Come-To-You Auto Glass Repair": {
+    "value": 1
+  },
+  "The Protector Network": {
+    "value": 1
+  },
+  "Valued Policyholder Discount": {
+    "value": 1
+  },
+  "Select Pay Discount": {
+    "value": 1
+  },
+  "New Home Discount": {
+    "value": 1
+  },
+  "Claim Free / Violation Free Discount": {
+    "value": 1
+  },
+  "Pet Protection": {
+    "value": 1
+  },
+  "Travel & Medical Assistance": {
+    "value": 1
+  },
+  "Umbrella Discount": {
+    "value": 2
+  },
+  "Longevity Discount": {
+    "value": 3
+  },
+  "Empty Nest Discounts": {
+    "value": 1
+  },
+  "A Mutual Company": {
+    "value": 3
+  },
+  "Continued In-Force Discount": {
+    "value": 1
+  },
+  "Driven to Safety Discount": {
+    "value": 1
+  },
+  "One Deductible Advantage": {
+    "value": 1
+  },
+  "Identity Services & Fraud Protection": {
+    "value": 1
+  },
+  "Trailer Coverage": {
+    "value": 2
+  },
+  "Teen Driver First Mile Discount": {
+    "value": 1
+  },
+  "Offers coverage in 13 states": {
+    "value": 1
+  },
+  "Offers home": {
+    "value": 1
+  },
+  "Instant Proof of Insurance": {
+    "value": 1
+  },
+  "Convenient Mobile App & Online Policy Maintenance": {
+    "value": 1
+  },
+  "Hassle-free Automatic Payments": {
+    "value": 1
+  },
+  "Excess Vehicle Discount": {
+    "value": 1
+  },
+  "Motor Homes Limited Use Discount": {
+    "value": 1
+  },
+  "Travel Pac Endorsement": {
+    "value": 1
+  },
+  "Lock In Your Rates": {
+    "value": 3
+  },
+  "Luxury and Vintage Vehicles": {
+    "value": 1
+  },
+  "Incident Free Discount": {
+    "value": 1
+  },
+  "Auto Loan/Lease": {
+    "value": 1
+  },
+  "New Customer Discount": {
+    "value": 3
+  },
+  "Alternative Commuting Discount": {
+    "value": 1
+  },
+  "Safety/Security Feature Discounts": {
+    "value": 1
+  },
+  "University of WA Alumni Discount": {
+    "value": 1
+  },
+  "Auto Loan Coverage": {
+    "value": 1
+  },
+  "Parked Auto Collision Coverage": {
+    "value": 1
+  },
+  "Accidental Air Bag Deployment": {
+    "value": 1
+  },
+  "Emergency Travel Expense": {
+    "value": 2
+  },
+  "Mature Driver Discount": {
+    "value": 7
+  },
+  "Green Discount": {
+    "value": 2
+  },
+  "Road Trouble Service": {
+    "value": 1
+  },
+  "Antique & Classic Auto": {
+    "value": 2
+  },
+  "Emergency Assistance Package": {
+    "value": 1
+  },
+  "Payment Plan Discounts": {
+    "value": 1
+  },
+  "Reduced Usage Discount": {
+    "value": 1
+  },
+  "Windshield Coverage": {
+    "value": 1
+  },
+  "Locksmith Services": {
+    "value": 2
+  },
+  "Diminishing Deductible": {
+    "value": 1
+  },
+  "Road Service Coverage": {
+    "value": 2
+  },
+  "AAA Discount": {
+    "value": 2
+  },
+  "Shop Smart Discount": {
+    "value": 1
+  },
+  "Safe Driver Plan Discount": {
+    "value": 1
+  },
+  "Account Discount": {
+    "value": 3
+  },
+  "Student Away From Home Discount": {
+    "value": 1
+  },
+  "Financial Management Discount": {
+    "value": 1
+  },
+  "Preferred Payment Methods Discount": {
+    "value": 1
+  },
+  "Teen Driver Discount": {
+    "value": 2
+  },
+  "New Graduate Discount": {
+    "value": 1
+  },
+  "Newly Married Discount": {
+    "value": 1
+  },
+  "New Move Discount": {
+    "value": 1
+  },
+  "Newly Retired Discount": {
+    "value": 1
+  },
+  "Guidance from a licensed insurance agent": {
+    "value": 1
+  },
+  "Outstanding customer service": {
+    "value": 1
+  },
+  "Insurance coverage from a Fortune 100 company": {
+    "value": 1
+  },
+  "Enhanced Replacement Cost": {
+    "value": 1
+  },
+  "Truck & SUV Discounts": {
+    "value": 1
+  },
+  "4-Wheel Antilock Brakes Discount": {
+    "value": 1
+  },
+  "Active or Passive Restraint Devices Discounts": {
+    "value": 1
+  },
+  "Newly Acquired Vehicle Coverage": {
+    "value": 1
+  },
+  "Senior Citizen Discount": {
+    "value": 2
+  },
+  "Military Discount": {
+    "value": 6
+  },
+  "Mileage Discount": {
+    "value": 1
+  },
+  "Welcome Back Discount": {
+    "value": 1
+  },
+  "Towing Coverage": {
+    "value": 5
+  },
+  "Customize Your Payments": {
+    "value": 1
+  },
+  "Live Chat Option": {
+    "value": 2
+  },
+  "Roadside Assistance & Towing": {
+    "value": 2
+  },
+  "Glass Coverage Options": {
+    "value": 1
+  },
+  "Identity Resolution Services": {
+    "value": 1
+  },
+  "More Cars Than Drivers Discount": {
+    "value": 1
+  },
+  "Coverage Enhancements": {
+    "value": 1
+  },
+  "Hybrid/Electric Vehicle Discount": {
+    "value": 2
+  },
+  "IntelliDrive Discount": {
+    "value": 1
+  },
+  "Accident & Violation Forgiveness": {
+    "value": 1
+  },
+  "Decreasing Deductible": {
+    "value": 1
+  },
+  "IntelliDrive Usage Based Program": {
+    "value": 1
+  },
+  "Payment Frequency Discounts": {
+    "value": 3
+  },
+  "Original Owner Discount": {
+    "value": 1
+  },
+  "Garage Parking Discount": {
+    "value": 1
+  },
+  "Hybrid/Alternative Fuel Discount": {
+    "value": 1
+  },
+  "AAA Accident Assist": {
+    "value": 1
+  },
+  "AAA OnBoard": {
+    "value": 1
+  },
+  "e-Delivery Policy Options": {
+    "value": 1
+  },
+  "Identity Theft Services": {
+    "value": 2
+  },
+  "Bonus Renewal Discount": {
+    "value": 1
+  },
+  "Rental Vehicle Coverage": {
+    "value": 1
+  },
+  "Airbag Deployment Coverage": {
+    "value": 1
+  },
+  "Pet Medical Coverage": {
+    "value": 1
+  },
+  "Emergency Lockout Coverage": {
+    "value": 1
+  },
+  "Unique Enhancement Packages": {
+    "value": 1
+  },
+  "Advance Driver Training Discount": {
+    "value": 1
+  },
+  "Advance Purchase Discount": {
+    "value": 1
+  },
+  "Accidental Airbag Discharge Coverage": {
+    "value": 1
+  },
+  "New Car Protection": {
+    "value": 1
+  },
+  "Membership Longevity Discount": {
+    "value": 1
+  },
+  "Ultra Preferred Auto Rate Discount": {
+    "value": 1
+  },
+  "Premier Driver Discount": {
+    "value": 2
+  },
+  "Preferred New Business Discount": {
+    "value": 1
+  },
+  "Senior Operator Accident Prevention Discount": {
+    "value": 2
+  },
+  "Safe Cars Discount": {
+    "value": 1
+  },
+  "e-Billing Options": {
+    "value": 2
+  },
+  "Youthful Operator Discounts": {
+    "value": 1
+  },
+  "Roadside Coverage Option": {
+    "value": 1
+  },
+  "Loss of Income Coverage Option": {
+    "value": 1
+  },
+  "Auto Safety Devices Discount": {
+    "value": 1
+  },
+  "Active Property Discount": {
+    "value": 1
+  },
+  "School Bus Driver Discount": {
+    "value": 1
+  },
+  "Medical Payments": {
+    "value": 2
+  },
+  "Companion Life Discount": {
+    "value": 1
+  },
+  "Window ID System Discount": {
+    "value": 1
+  },
+  "Gap Insurance": {
+    "value": 1
+  },
+  "Loss of Use Coverage": {
+    "value": 1
+  },
+  "Renwal Discount": {
+    "value": 1
+  },
+  "Custom Care Package": {
+    "value": 1
+  },
+  "Renewal Claim Free Discount": {
+    "value": 1
+  },
+  "Safe Driver Renewal Discount": {
+    "value": 1
+  },
+  "Safety Belt Discount": {
+    "value": 1
+  },
+  "Pleasure Use Discount": {
+    "value": 1
+  },
+  "Insurance Scoring Discount": {
+    "value": 1
+  },
+  "New Model Discount": {
+    "value": 1
+  },
+  "GPS Tracking Discount": {
+    "value": 1
+  },
+  "Identity Recovery Coverage": {
+    "value": 1
+  },
+  "Lock Replacement Coverage": {
+    "value": 1
+  },
+  "Locked Vehicle Coverage": {
+    "value": 1
+  },
+  "Theft of Personal Effects Coverage": {
+    "value": 1
+  },
+  "Glass Repair Coverage": {
+    "value": 1
+  },
+  "Identity Protection Program": {
+    "value": 1
+  },
+  "Travel Interruption Coverage": {
+    "value": 1
+  },
+  "Pet Accidental Death Benefit": {
+    "value": 1
+  },
+  "Theft of a GPS System Benefit": {
+    "value": 1
+  },
+  "Carpooling Discounts": {
+    "value": 1
+  },
+  "Superior Driver Discounts": {
+    "value": 2
+  },
+  "Online Claims Reporting": {
+    "value": 4
+  },
+  "Home & Auto Insurance Bundle": {
+    "value": 1
+  },
+  "Lifetime Car Repair Assurance": {
+    "value": 1
+  },
+  "EFT Payments": {
+    "value": 3
+  },
+  "Community Servant Benefits": {
+    "value": 1
+  },
+  "Engaged Couple Discount": {
+    "value": 1
+  },
+  "Renters Coverage": {
+    "value": 1
+  },
+  "Loss Free Renewal": {
+    "value": 1
+  },
+  "Go Paperless Discount": {
+    "value": 1
+  },
+  "Rideshare Endorsement Available": {
+    "value": 2
+  },
+  "Free Mobile App": {
+    "value": 1
+  },
+  "Per-mile Rates": {
+    "value": 1
+  },
+  "24/7 Claims Support": {
+    "value": 3
+  },
+  "Personalized Customer Support": {
+    "value": 1
+  },
+  "Roadtrip Friendly": {
+    "value": 1
+  },
+  "Unlimited Roadside Assistance*": {
+    "value": 1
+  },
+  "*Available with comp./collision coverage.": {
+    "value": 1
+  },
+  "Association Discount": {
+    "value": 1
+  },
+  "Driver Safety Course Discount": {
+    "value": 2
+  },
+  "Airbag Discount": {
+    "value": 2
+  },
+  "Tavelink Discount": {
+    "value": 1
+  },
+  "Claims Handling by Nationwide": {
+    "value": 2
+  },
+  "Route 1000 Discount": {
+    "value": 1
+  },
+  "EFT Discount": {
+    "value": 2
+  },
+  "Extended Household Discount": {
+    "value": 1
+  },
+  "Multi-line Discount": {
+    "value": 1
+  },
+  "Multi Car": {
+    "value": 1
+  },
+  "Multi Policy": {
+    "value": 1
+  },
+  "Offers policies in 7 states plus D.C.": {
+    "value": 1
+  },
+  "Backed by Liberty Mutual": {
+    "value": 1
+  },
+  "Occasional Operator Discount": {
+    "value": 1
+  },
+  "Transfer Discount": {
+    "value": 5
+  },
+  "Auto Glass Express Program": {
+    "value": 1
+  },
+  "Minor Child Discount": {
+    "value": 1
+  },
+  "Company Vehicles Discount": {
+    "value": 1
+  },
+  "Safety Features Discount": {
+    "value": 1
+  },
+  "Emergency Lodging Expenses": {
+    "value": 1
+  },
+  "Emergency First Aid Expenses": {
+    "value": 1
+  },
+  "Affiliation Discount": {
+    "value": 1
+  },
+  "Rental expense coverage": {
+    "value": 1
+  },
+  "Multi-car and good driver discount": {
+    "value": 1
+  },
+  "Convenient Payment Options": {
+    "value": 2
+  },
+  "Immediate ID cards": {
+    "value": 1
+  },
+  "Budget Friendly": {
+    "value": 2
+  },
+  "Easy SR-22 / FR-44 filings": {
+    "value": 2
+  },
+  "Bilingual Claims & Customer Service": {
+    "value": 2
+  },
+  "Foreign License Accepted": {
+    "value": 2
+  },
+  "Claims Free Renewal Discount": {
+    "value": 1
+  },
+  "Bilingual Website": {
+    "value": 2
+  },
+  "EZ Pay Discount": {
+    "value": 1
+  },
+  "Residence Discount": {
+    "value": 1
+  },
+  "No Credit Check": {
+    "value": 1
+  },
+  "Young Driver Safety": {
+    "value": 1
+  },
+  "Offers coverage in 14 states": {
+    "value": 1
+  },
+  "Access to policy 24/7 online": {
+    "value": 1
+  },
+  "Membership Benefits": {
+    "value": 1
+  },
+  "Marriage Discount": {
+    "value": 1
+  },
+  "Special Rates for Mature Drivers": {
+    "value": 1
+  },
+  "No Deductible on Windshield Repair": {
+    "value": 1
+  },
+  "Advanced Shopping Discount": {
+    "value": 1
+  },
+  "#1 Wholesale Broker in the US": {
+    "value": 1
+  },
+  "No Credit Scoring": {
+    "value": 2
+  },
+  "Loss-Free Discount": {
+    "value": 1
+  },
+  "Companion Discount": {
+    "value": 1
+  },
+  "New Car Repair Coverage": {
+    "value": 1
+  },
+  "Loss Forgiveness": {
+    "value": 1
+  },
+  "Responsible Youthful Driver Discount": {
+    "value": 1
+  },
+  "Driver Education Discount": {
+    "value": 1
+  },
+  "Deductible Credits": {
+    "value": 1
+  },
+  "Non-Smoker Discounts": {
+    "value": 2
+  },
+  "Domestic Vehicle Discount": {
+    "value": 1
+  },
+  "Focused Driver Pledge Discount": {
+    "value": 1
+  },
+  "100% online via MetLife Auto & Home MyDirect": {
+    "value": 1
+  },
+  "Hassle-free click to chat assistance": {
+    "value": 1
+  },
+  "Coverage from a company you know and trust": {
+    "value": 1
+  },
+  "Mexican & Non-Licensed Accepted": {
+    "value": 1
+  },
+  "Bilingual Website & Staff": {
+    "value": 1
+  },
+  "24x7 Pay Online": {
+    "value": 1
+  },
+  "Personal Account Credit": {
+    "value": 1
+  },
+  "Auto Safety Features Credit": {
+    "value": 1
+  },
+  "Over-55 Discount": {
+    "value": 1
+  },
+  "Repair or Replacement Cost Coverage": {
+    "value": 1
+  },
+  "Specializes in Non-Standard Auto": {
+    "value": 1
+  },
+  "Towing & Rental Coverage Available": {
+    "value": 1
+  },
+  "Usage-Based Insurance": {
+    "value": 1
+  },
+  "Telematics": {
+    "value": 1
+  },
+  "Persistency Discount": {
+    "value": 1
+  },
+  "In-House Claims Handling": {
+    "value": 1
+  },
+  "Bilingual Customer Service": {
+    "value": 1
+  },
+  "Full Coverage Discount": {
+    "value": 1
+  },
+  "Bilingual Staff": {
+    "value": 1
+  },
+  "Collision Rental Covergae": {
+    "value": 1
+  },
+  "Flexible Billing": {
+    "value": 1
+  },
+  "Prior In-House Coverage Discount": {
+    "value": 1
+  },
+  "Print ID Cards Online": {
+    "value": 1
+  },
+  "Same Day Bind": {
+    "value": 1
+  },
+  "Distant Student Discount": {
+    "value": 1
+  },
+  "Educated Worker Discount": {
+    "value": 1
+  },
+  "Special Equipment Coverage": {
+    "value": 1
+  },
+  "Good driving": {
+    "value": 1
+  },
+  "Offers coverage in 9 states": {
+    "value": 1
+  },
+  "Online Policy Management": {
+    "value": 1
+  },
+  "Proactive Clients Discount": {
+    "value": 1
+  },
+  "Pre-Paid Premiums Discount": {
+    "value": 1
+  },
+  "Multi-Car & Fleets Discount": {
+    "value": 1
+  },
+  "Client Longevity Discount": {
+    "value": 1
+  },
+  "No Cell Phone Use Discount": {
+    "value": 1
+  },
+  "Total Account Discount": {
+    "value": 1
+  },
+  "Preferred Driver Discount": {
+    "value": 1
+  },
+  "E85 / Hybrid Discount": {
+    "value": 1
+  },
+  "Transportation & Travel Expenses": {
+    "value": 1
+  },
+  "Loss of Personal Property": {
+    "value": 1
+  },
+  "Reducing Deductible": {
+    "value": 1
+  }
 }
