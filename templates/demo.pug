@@ -8,24 +8,27 @@
             .col-md-6
                 h2.h2 What is #{company2.name}?
                 p=company2.short_desc
-    .container.pt-5
-        .row
-            .col-md-6
-                h3.h3 What are #{company1.name} ratings?
-                .row.company-box-rating-wrap.mb-32px
-                    each rating in company1.ratings
-                        .col-6.col-md-4.col-lg-2.mb-3
-                            .company-box-rating
-                                div #{rating[1]}
-                                span #{rating[0]}
-            .col-md-6
-                h3.h3 What are #{company2.name} ratings?
-                .row.company-box-rating-wrap.mb-32px
-                    each rating in company2.ratings
-                        .col-6.col-md-4.col-lg-2.mb-3
-                            .company-box-rating
-                                div #{rating[1]}
-                                span #{rating[0]}
+    if ((company1.ratings > 0) || (company2.ratings > 0))
+        .container.pt-5
+            .row
+                .col-md-6
+                    if (company1.ratings > 0)
+                        h3.h3 What are #{company1.name} ratings?
+                        .row.company-box-rating-wrap.mb-32px
+                            each rating in company1.ratings
+                                .col-6.col-md-4.col-lg-2.mb-3
+                                    .company-box-rating
+                                        div #{rating[1]}
+                                        span #{rating[0]}
+                .col-md-6
+                    if (company2.ratings > 0)
+                        h3.h3 What are #{company2.name} ratings?
+                        .row.company-box-rating-wrap.mb-32px
+                            each rating in company2.ratings
+                                .col-6.col-md-4.col-lg-2.mb-3
+                                    .company-box-rating
+                                        div #{rating[1]}
+                                        span #{rating[0]}
     if ((company1.statesCount > 0) || (company1.statesCount > 0))
         .container.pt-5
             .row
@@ -36,166 +39,175 @@
             .row.py-5
                 .col-md-6.m-auto.text-center
                     p.d-flex.justify-content-between
-                        span
-                            i.fas.fa-square(style='color: #6d9eeb')
-                            |  #{company1.name} is present
-                        span
-                            i.fas.fa-square(style='color: #e06666')
-                            |  #{company2.name} is present
-                        span
-                            i.fas.fa-square(style='color: #ffd966')
-                            |  Both companies are present
-    .container.pt-5
-        h2.h2 Discounts comparison
-        p=disc_desc
-        .table-overflow
-            table.table-condensed.carrier-comparison-table.table-check.table-striped#discounts
-                thead
-                    tr
-                        th Discount
-                        th(style='border-bottom-color: #999; text-align: center;')
-                            if company1.link
-                                a(href=`${company1.link}`) #{company1.name}
-                            else
-                                | #{company1.name}
-                        th(style='border-bottom-color: #05477d; text-align: center;')
-                            if company2.link
-                                a(href=`${company2.link}`) #{company2.name}
-                            else
-                                | #{company2.name}
-                tbody
-                    each discount in discounts
+                        if (company1.statesCount > 0)
+                            span
+                                i.fas.fa-square(style='color: #6d9eeb')
+                                |  #{company1.name} is present
+                        if (company2.statesCount > 0)
+                            span
+                                i.fas.fa-square(style='color: #e06666')
+                                |  #{company2.name} is present
+                        if ((company1.statesCount > 0) && (company1.statesCount > 0))
+                            span
+                                i.fas.fa-square(style='color: #ffd966')
+                                |  Both companies are present
+    if (discounts)
+        .container.pt-5
+            h2.h2 Discounts comparison
+            p=disc_desc
+            .table-overflow
+                table.table-condensed.carrier-comparison-table.table-check.table-striped#discounts
+                    thead
                         tr
-                            td.fbold
-                                | #{discount[0]}
-                            td.text-center
-                                if discount[1]
-                                    svg.table-checkbox(height='35px', viewbox='0 0 34 34', width='35px', xmlns='http://www.w3.org/2000/svg')
-                                        g(fill='none', fill-rule='evenodd')
-                                            path.green(d='M33,1 L11,33 L1,18')
+                            th Discount
+                            th(style='border-bottom-color: #999; text-align: center;')
+                                if company1.link
+                                    a(href=`${company1.link}`) #{company1.name}
                                 else
-                                    svg.table-checkbox(height='35', viewbox='0 0 34 34', width='35', xmlns='http://www.w3.org/2000/svg')
-                                        g(fill='none', fill-rule='evenodd')
-                                            path.red(d='M33,1 L1,33 M1,1 L1,1 L33,33 L17,17')
-                            td.text-center
-                                if discount[2]
-                                    svg.table-checkbox(height='35px', viewbox='0 0 34 34', width='35px', xmlns='http://www.w3.org/2000/svg')
-                                        g(fill='none', fill-rule='evenodd')
-                                            path.green(d='M33,1 L11,33 L1,18')
+                                    | #{company1.name}
+                            th(style='border-bottom-color: #05477d; text-align: center;')
+                                if company2.link
+                                    a(href=`${company2.link}`) #{company2.name}
                                 else
-                                    svg.table-checkbox(height='35', viewbox='0 0 34 34', width='35', xmlns='http://www.w3.org/2000/svg')
-                                        g(fill='none', fill-rule='evenodd')
-                                            path.red(d='M33,1 L1,33 M1,1 L1,1 L33,33 L17,17')
-    .container.pt-5
-        h2.h2 Products comparison
-        p=prod_desc
-        .table-overflow
-            table.table-condensed.carrier-comparison-table.table-check.table-striped#products
-                thead
-                    tr
-                        th Product
-                        th(style='border-bottom-color: #999; text-align: center;')
-                            if company1.link
-                                a(href=`${company1.link}`) #{company1.name}
-                            else
-                                | #{company1.name}
-                        th(style='border-bottom-color: #05477d; text-align: center;')
-                            if company2.link
-                                a(href=`${company2.link}`) #{company2.name}
-                            else
-                                | #{company2.name}
-                tbody
-                    each product in products
+                                    | #{company2.name}
+                    tbody
+                        each discount in discounts
+                            tr
+                                td.fbold
+                                    | #{discount[0]}
+                                td.text-center
+                                    if discount[1]
+                                        svg.table-checkbox(height='35px', viewbox='0 0 34 34', width='35px', xmlns='http://www.w3.org/2000/svg')
+                                            g(fill='none', fill-rule='evenodd')
+                                                path.green(d='M33,1 L11,33 L1,18')
+                                    else
+                                        svg.table-checkbox(height='35', viewbox='0 0 34 34', width='35', xmlns='http://www.w3.org/2000/svg')
+                                            g(fill='none', fill-rule='evenodd')
+                                                path.red(d='M33,1 L1,33 M1,1 L1,1 L33,33 L17,17')
+                                td.text-center
+                                    if discount[2]
+                                        svg.table-checkbox(height='35px', viewbox='0 0 34 34', width='35px', xmlns='http://www.w3.org/2000/svg')
+                                            g(fill='none', fill-rule='evenodd')
+                                                path.green(d='M33,1 L11,33 L1,18')
+                                    else
+                                        svg.table-checkbox(height='35', viewbox='0 0 34 34', width='35', xmlns='http://www.w3.org/2000/svg')
+                                            g(fill='none', fill-rule='evenodd')
+                                                path.red(d='M33,1 L1,33 M1,1 L1,1 L33,33 L17,17')
+    if (products)
+        .container.pt-5
+            h2.h2 Products comparison
+            p=prod_desc
+            .table-overflow
+                table.table-condensed.carrier-comparison-table.table-check.table-striped#products
+                    thead
                         tr
-                            td.fbold
-                                | #{product[0]}
-                            td.text-center
-                                if product[1]
-                                    svg.table-checkbox(height='35px', viewbox='0 0 34 34', width='35px', xmlns='http://www.w3.org/2000/svg')
-                                        g(fill='none', fill-rule='evenodd')
-                                            path.green(d='M33,1 L11,33 L1,18')
+                            th Product
+                            th(style='border-bottom-color: #999; text-align: center;')
+                                if company1.link
+                                    a(href=`${company1.link}`) #{company1.name}
                                 else
-                                    svg.table-checkbox(height='35', viewbox='0 0 34 34', width='35', xmlns='http://www.w3.org/2000/svg')
-                                        g(fill='none', fill-rule='evenodd')
-                                            path.red(d='M33,1 L1,33 M1,1 L1,1 L33,33 L17,17')
-                            td.text-center
-                                if product[2]
-                                    svg.table-checkbox(height='35px', viewbox='0 0 34 34', width='35px', xmlns='http://www.w3.org/2000/svg')
-                                        g(fill='none', fill-rule='evenodd')
-                                            path.green(d='M33,1 L11,33 L1,18')
+                                    | #{company1.name}
+                            th(style='border-bottom-color: #05477d; text-align: center;')
+                                if company2.link
+                                    a(href=`${company2.link}`) #{company2.name}
                                 else
-                                    svg.table-checkbox(height='35', viewbox='0 0 34 34', width='35', xmlns='http://www.w3.org/2000/svg')
-                                        g(fill='none', fill-rule='evenodd')
-                                            path.red(d='M33,1 L1,33 M1,1 L1,1 L33,33 L17,17')
-    .container.pt-5
-        h2.h2 Car insurance quotes
-        p
-            |The average price of auto insurance in #{company1.name} is about #{company1.avgQuote} $, while #{company2.name} charges approximately #{company2.avgQuote} $. Usually rates vary by state. You can find the cheapest #{company1.name} offers in #{company1.minQuoteState} where monthly average rate is #{company1.minQuote} $. The most expensive state average is #{company1.maxQuote} $ in #{company1.maxQuoteState}. As for #{company2.name},the lowest rates are in #{company2.minQuoteState} with #{company2.minQuote} $ and the most expensive state average is #{company2.maxQuote} $ in #{company2.maxQuoteState}.
-        .table-overflow
-            table.table-condensed.carrier-comparison-table.table-check.table-striped
-                thead
-                    tr
-                        th State
-                        th(style='border-bottom-color: #999; text-align: center;')
-                            if company1.link
-                                a(href=`${company1.link}`) #{company1.name}
-                            else
-                                | #{company1.name}
-                        th(style='border-bottom-color: #05477d; text-align: center;')
-                            if company2.link
-                                a(href=`${company2.link}`) #{company2.name}
-                            else
-                                | #{company2.name}
-                tbody
-                    each quote in quotes
+                                    | #{company2.name}
+                    tbody
+                        each product in products
+                            tr
+                                td.fbold
+                                    | #{product[0]}
+                                td.text-center
+                                    if product[1]
+                                        svg.table-checkbox(height='35px', viewbox='0 0 34 34', width='35px', xmlns='http://www.w3.org/2000/svg')
+                                            g(fill='none', fill-rule='evenodd')
+                                                path.green(d='M33,1 L11,33 L1,18')
+                                    else
+                                        svg.table-checkbox(height='35', viewbox='0 0 34 34', width='35', xmlns='http://www.w3.org/2000/svg')
+                                            g(fill='none', fill-rule='evenodd')
+                                                path.red(d='M33,1 L1,33 M1,1 L1,1 L33,33 L17,17')
+                                td.text-center
+                                    if product[2]
+                                        svg.table-checkbox(height='35px', viewbox='0 0 34 34', width='35px', xmlns='http://www.w3.org/2000/svg')
+                                            g(fill='none', fill-rule='evenodd')
+                                                path.green(d='M33,1 L11,33 L1,18')
+                                    else
+                                        svg.table-checkbox(height='35', viewbox='0 0 34 34', width='35', xmlns='http://www.w3.org/2000/svg')
+                                            g(fill='none', fill-rule='evenodd')
+                                                path.red(d='M33,1 L1,33 M1,1 L1,1 L33,33 L17,17')
+    if (quotes)
+        .container.pt-5
+            h2.h2 Car insurance quotes
+            p
+                |The average price of auto insurance in #{company1.name} is about #{company1.avgQuote} $, while #{company2.name} charges approximately #{company2.avgQuote} $. Usually rates vary by state. You can find the cheapest #{company1.name} offers in #{company1.minQuoteState} where monthly average rate is #{company1.minQuote} $. The most expensive state average is #{company1.maxQuote} $ in #{company1.maxQuoteState}. As for #{company2.name},the lowest rates are in #{company2.minQuoteState} with #{company2.minQuote} $ and the most expensive state average is #{company2.maxQuote} $ in #{company2.maxQuoteState}.
+            .table-overflow
+                table.table-condensed.carrier-comparison-table.table-check.table-striped#quotes
+                    thead
                         tr
-                            td.fbold
-                                | #{quote[0]}
-                            td.text-center
-                                | #{quote[1]? `${quote[1]} $` : '-'}
-                            td.text-center
-                                | #{quote[2]? `${quote[2]} $` : '-'}
-                    tr
-                        td(style='border-top-width: 3px;border-top-color: #999;').fbold
-                            | Average Quote
-                        td(style='border-top-width: 3px;border-top-color: #999;').text-center
-                            | #{company1.avgQuote ? `${company1.avgQuote} $` : '-'}
-                        td(style='border-top-width: 3px;border-top-color: #999;').text-center
-                            | #{company2.avgQuote ? `${company2.avgQuote} $` : '-'}
-    .container.pt-5
-        .row
-            .col-md-6
-                h3.h3 How can you contact #{company1.name}?
-                table.table
-                    if company1.contacts.website
+                            th State
+                            th(style='border-bottom-color: #999; text-align: center;')
+                                if company1.link
+                                    a(href=`${company1.link}`) #{company1.name}
+                                else
+                                    | #{company1.name}
+                            th(style='border-bottom-color: #05477d; text-align: center;')
+                                if company2.link
+                                    a(href=`${company2.link}`) #{company2.name}
+                                else
+                                    | #{company2.name}
+                    tbody
+                        each quote in quotes
+                            tr
+                                td.fbold
+                                    | #{quote[0]}
+                                td.text-center
+                                    | #{quote[1]? `${quote[1]} $` : '-'}
+                                td.text-center
+                                    | #{quote[2]? `${quote[2]} $` : '-'}
                         tr
-                            td website
-                            td
-                                a(href="//" + company1.contacts.website target='_blank') #{company1.contacts.website}
-                    if company1.contacts.phone
-                        tr
-                            td phone
-                            td
-                                a(href=`tel: ${company1.contacts.phone}`) #{company1.contacts.phone}
-                    if company1.contacts.address
-                        tr
-                            td address
-                            td #{company1.contacts.address}
-            .col-md-6
-                h3.h3 How can you contact #{company2.name}?
-                table.table
-                    if company2.contacts.website
-                        tr
-                            td website
-                            td
-                                a(href="//" + company2.contacts.website target='_blank') #{company2.contacts.website}
-                    if company2.contacts.phone
-                        tr
-                            td phone
-                            td
-                                a(href=`tel: ${company2.contacts.phone}`) #{company2.contacts.phone}
-                    if company2.contacts.address
-                        tr
-                            td address
-                            td #{company2.contacts.address}
+                            td(style='border-top-width: 3px;border-top-color: #999;').fbold
+                                | Average Quote
+                            td(style='border-top-width: 3px;border-top-color: #999;').text-center
+                                | #{company1.avgQuote ? `${company1.avgQuote} $` : '-'}
+                            td(style='border-top-width: 3px;border-top-color: #999;').text-center
+                                | #{company2.avgQuote ? `${company2.avgQuote} $` : '-'}
+    if ((company1.contacts) || (company2.contacts))
+        .container.pt-5
+            .row
+                .col-md-6
+                    if (company1.contacts)
+                        h3.h3 How can you contact #{company1.name}?
+                        table.table
+                            if company1.contacts.website
+                                tr
+                                    td website
+                                    td
+                                        a(href="//" + company1.contacts.website target='_blank') #{company1.contacts.website}
+                            if company1.contacts.phone
+                                tr
+                                    td phone
+                                    td
+                                        a(href=`tel: ${company1.contacts.phone}`) #{company1.contacts.phone}
+                            if company1.contacts.address
+                                tr
+                                    td address
+                                    td #{company1.contacts.address}
+                .col-md-6
+                    if (company2.contacts)
+                        h3.h3 How can you contact #{company2.name}?
+                        table.table
+                            if company2.contacts.website
+                                tr
+                                    td website
+                                    td
+                                        a(href="//" + company2.contacts.website target='_blank') #{company2.contacts.website}
+                            if company2.contacts.phone
+                                tr
+                                    td phone
+                                    td
+                                        a(href=`tel: ${company2.contacts.phone}`) #{company2.contacts.phone}
+                            if company2.contacts.address
+                                tr
+                                    td address
+                                    td #{company2.contacts.address}
 | [sc name="comparison_page_scritps" data="#{states}"]
