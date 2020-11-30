@@ -189,82 +189,93 @@ class CompanyCompareDataManager extends DataManager {
                 if(company2["bbb"])
                     pageData["company2"]["ratings"].push(["BBB",company2["bbb"]]);
                 //discounts
-                if(company1["discounts"])
+                if(company1["discounts"]||company2["discounts"])
                 {
-                    if(!Array.isArray(company1["discounts"]))
+                    if(company1["discounts"])
                     {
-                        company1["discounts"]=company1["discounts"].split("; ");
+                        if(!Array.isArray(company1["discounts"]))
+                        {
+                            company1["discounts"]=company1["discounts"].split("; ");
+                        }
+                        pageData.company1.discounts_count=company1.discounts.length;
                     }
-                    pageData.company1.discounts_count=company1.discounts.length;
-                }
-                if(company2["discounts"])
-                {
-                    if(!Array.isArray(company2["discounts"]))
+                    if(company2["discounts"])
                     {
-                        company2["discounts"]=company2["discounts"].split("; ");
+                        if(!Array.isArray(company2["discounts"]))
+                        {
+                            company2["discounts"]=company2["discounts"].split("; ");
+                        }
+                        pageData.company2.discounts_count=company2.discounts.length;
                     }
-                    pageData.company2.discounts_count=company2.discounts.length;
-                }
 
-                pageData["discounts"]=[];
-                if(company1["discounts"])
-                    for(let k=0;k<company1["discounts"].length;k++)
-						if (discountsList[company1["discounts"][k]]["value"]>=discountsAndProductsEntry)
-							pageData["discounts"].push([company1["discounts"][k],true,false])
-                if(company2["discounts"])
-                    for(let k=0;k<company2["discounts"].length;k++)
-                    {
-                        let found=false;
-                        for(let l=0;l<pageData["discounts"].length;l++)
+                    pageData["discounts"]=[];
+                    if(company1["discounts"])
+                        for(let k=0;k<company1["discounts"].length;k++)
+                            if (discountsList[company1["discounts"][k]]["value"]>=discountsAndProductsEntry)
+                                pageData["discounts"].push([company1["discounts"][k],true,false])
+                    if(company2["discounts"])
+                        for(let k=0;k<company2["discounts"].length;k++)
                         {
-                            if(pageData["discounts"][l][0]===company2["discounts"][k])
+                            let found=false;
+                            for(let l=0;l<pageData["discounts"].length;l++)
                             {
-                                pageData["discounts"][l][2]=true;
-                                found=true;
+                                if(pageData["discounts"][l][0]===company2["discounts"][k])
+                                {
+                                    pageData["discounts"][l][2]=true;
+                                    found=true;
+                                }
                             }
+                            if(!found)
+                                if (discountsList[company2["discounts"][k]]["value"]>=discountsAndProductsEntry)
+                                    pageData["discounts"].push([company2["discounts"][k], false, true])
                         }
-                        if(!found)
-							if (discountsList[company2["discounts"][k]]["value"]>=discountsAndProductsEntry)
-								pageData["discounts"].push([company2["discounts"][k], false, true])
-                    }
+                }
+                else
+                    pageData["discounts"]=null;
                 //products
-                if(company1["products"])
+                if(company1["products"]||company2["products"])
                 {
-                    if(!Array.isArray(company1["products"]))
+                    if(company1["products"])
                     {
-                        company1["products"]=company1["products"].split(", ");
-                    }
-                    pageData.company1.products_count=company1.products.length;
-                }
-                if(company2["products"])
-                {
-                    if(!Array.isArray(company2["products"]))
-                    {
-                        company2["products"]=company2["products"].split(", ");
-                    }
-                    pageData.company2.products_count=company2.products.length;
-                }
-                pageData["products"]=[];
-                if(company1["products"])
-                    for(let k=0;k<company1["products"].length;k++)
-						if (productsList[company1["products"][k]]["value"]>=discountsAndProductsEntry)
-							pageData["products"].push([company1["products"][k],true,false])
-                if(company2["products"])
-                    for(let k=0;k<company2["products"].length;k++)
-                    {
-                        let found=false;
-                        for(let l=0;l<pageData["products"].length;l++)
+                        if(!Array.isArray(company1["products"]))
                         {
-                            if(pageData["products"][l][0]===company2["products"][k])
-                            {
-                                pageData["products"][l][2]=true;
-                                found=true;
-                            }
+                            company1["products"]=company1["products"].split(", ");
                         }
-                        if(!found)
-							if (productsList[company2["products"][k]]["value"]>=discountsAndProductsEntry)
-								pageData["products"].push([company2["products"][k],false,true])
+                        pageData.company1.products_count=company1.products.length;
                     }
+                    if(company2["products"])
+                    {
+                        if(!Array.isArray(company2["products"]))
+                        {
+                            company2["products"]=company2["products"].split(", ");
+                        }
+                        pageData.company2.products_count=company2.products.length;
+                    }
+                    pageData["products"]=[];
+                    if(company1["products"])
+                        for(let k=0;k<company1["products"].length;k++)
+                            if (productsList[company1["products"][k]]["value"]>=discountsAndProductsEntry)
+                                pageData["products"].push([company1["products"][k],true,false])
+                    if(company2["products"])
+                        for(let k=0;k<company2["products"].length;k++)
+                        {
+                            let found=false;
+                            for(let l=0;l<pageData["products"].length;l++)
+                            {
+                                if(pageData["products"][l][0]===company2["products"][k])
+                                {
+                                    pageData["products"][l][2]=true;
+                                    found=true;
+                                }
+                            }
+                            if(!found)
+                                if (productsList[company2["products"][k]]["value"]>=discountsAndProductsEntry)
+                                    pageData["products"].push([company2["products"][k],false,true])
+                        }
+                }
+                else
+                    pageData["products"]=null;
+
                 //states appereance
                 pageData["states"]=[];
                 pageData["states"].push(["al".toUpperCase(),company1["al"] ? (company2["al"] ? 3 : 1) : (company2["al"]? 2 : 0)]);
@@ -333,93 +344,101 @@ class CompanyCompareDataManager extends DataManager {
                     }
                 }
                 //rates
-                if(company1.rates && !Array.isArray(company1.rates))
+                if(company1.rates||company2.rates)
                 {
-                    company1.rates=company1.rates.split(";");
-                    company1.maxRate=0;
-                    company1.maxRateState="";
-                    company1.minRate=10000000;
-                    company1.minRateState="";
-                    company1.avgRate=0;
-                    for(let k=0;k<company1.rates.length;k++)
+                    if(company1.rates && !Array.isArray(company1.rates))
                     {
-                        company1.rates[k]=company1.rates[k].split(": ");
-                        company1.avgRate+=parseInt(company1.rates[k][1]);
-                        if(parseInt(company1.minRate)>parseInt(company1.rates[k][1]))
+                        company1.rates=company1.rates.split(";");
+                        company1.maxRate=0;
+                        company1.maxRateState="";
+                        company1.minRate=10000000;
+                        company1.minRateState="";
+                        company1.avgRate=0;
+                        for(let k=0;k<company1.rates.length;k++)
                         {
-                            company1.minRate=parseInt(company1.rates[k][1]);
-                            company1.minRateState=company1.rates[k][0];
-                        }
-                        if(parseInt(company1.maxRate)<parseInt(company1.rates[k][1]))
-                        {
-                            company1.maxRate=parseInt(company1.rates[k][1]);
-                            company1.maxRateState=company1.rates[k][0];
-                        }
-                    }
-                    company1.avgRate=Math.round(company1.avgRate/company1.rates.length);
-                }
-                pageData.company1.maxQuote=company1.maxRate;
-                pageData.company1.maxQuoteState=company1.maxRateState;
-                pageData.company1.minQuote=company1.minRate;
-                pageData.company1.minQuoteState=company1.minRateState;
-                pageData.company1.avgQuote=company1.avgRate;
-                if(company2.rates && !Array.isArray(company2.rates))
-                {
-                    company2.rates=company2.rates.split(";");
-                    company2.maxRate=0;
-                    company2.maxRateState="";
-                    company2.minRate=10000000;
-                    company2.minRateState="";
-                    company2.avgRate=0;
-                    for(let k=0;k<company2.rates.length;k++)
-                    {
-                        company2.rates[k]=company2.rates[k].split(": ");
-                        company2.avgRate+=parseInt(company2.rates[k][1]);
-                        if(parseInt(company2.minRate)>parseInt(company2.rates[k][1]))
-                        {
-                            company2.minRate=parseInt(company2.rates[k][1]);
-                            company2.minRateState=company2.rates[k][0];
-                        }
-                        if(parseInt(company2.maxRate)<parseInt(company2.rates[k][1]))
-                        {
-                            company2.maxRate=parseInt(company2.rates[k][1]);
-                            company2.maxRateState=company2.rates[k][0];
-                        }
-                    }
-                    company2.avgRate=Math.round(company2.avgRate/company2.rates.length);
-                }
-                pageData.company2.maxQuote=company2.maxRate;
-                pageData.company2.maxQuoteState=company2.maxRateState;
-                pageData.company2.minQuote=company2.minRate;
-                pageData.company2.minQuoteState=company2.minRateState;
-                pageData.company2.avgQuote=company2.avgRate;
-
-                //array-quotes(rates)
-                pageData["quotes"]=[];
-                if(company1.rates)
-                    for(let k=0;k<company1.rates.length;k++)
-                        pageData.quotes.push([company1.rates[k][0],company1.rates[k][1],null]);
-                if(company2.rates)
-                {
-                    for(let k=0;k<company2.rates.length;k++)
-                    {
-                        let found=false;
-                        for(let l=0;l<pageData.quotes.length;l++)
-                        {
-                            if(pageData.quotes[l][0]===company2.rates[k][0])
+                            company1.rates[k]=company1.rates[k].split(": ");
+                            company1.avgRate+=parseInt(company1.rates[k][1]);
+                            if(parseInt(company1.minRate)>parseInt(company1.rates[k][1]))
                             {
-                                found=true;
-                                pageData.quotes[l][2]=company2.rates[k][1];
-                                break;
+                                company1.minRate=parseInt(company1.rates[k][1]);
+                                company1.minRateState=company1.rates[k][0];
+                            }
+                            if(parseInt(company1.maxRate)<parseInt(company1.rates[k][1]))
+                            {
+                                company1.maxRate=parseInt(company1.rates[k][1]);
+                                company1.maxRateState=company1.rates[k][0];
                             }
                         }
-                        if(!found)
-                            pageData.quotes.push([company2.rates[k][0],null,company2.rates[k][1]]);
+                        company1.avgRate=Math.round(company1.avgRate/company1.rates.length);
+                    }
+                    pageData.company1.maxQuote=company1.maxRate;
+                    pageData.company1.maxQuoteState=company1.maxRateState;
+                    pageData.company1.minQuote=company1.minRate;
+                    pageData.company1.minQuoteState=company1.minRateState;
+                    pageData.company1.avgQuote=company1.avgRate;
+                    if(company2.rates && !Array.isArray(company2.rates))
+                    {
+                        company2.rates=company2.rates.split(";");
+                        company2.maxRate=0;
+                        company2.maxRateState="";
+                        company2.minRate=10000000;
+                        company2.minRateState="";
+                        company2.avgRate=0;
+                        for(let k=0;k<company2.rates.length;k++)
+                        {
+                            company2.rates[k]=company2.rates[k].split(": ");
+                            company2.avgRate+=parseInt(company2.rates[k][1]);
+                            if(parseInt(company2.minRate)>parseInt(company2.rates[k][1]))
+                            {
+                                company2.minRate=parseInt(company2.rates[k][1]);
+                                company2.minRateState=company2.rates[k][0];
+                            }
+                            if(parseInt(company2.maxRate)<parseInt(company2.rates[k][1]))
+                            {
+                                company2.maxRate=parseInt(company2.rates[k][1]);
+                                company2.maxRateState=company2.rates[k][0];
+                            }
+                        }
+                        company2.avgRate=Math.round(company2.avgRate/company2.rates.length);
+                    }
+                    pageData.company2.maxQuote=company2.maxRate;
+                    pageData.company2.maxQuoteState=company2.maxRateState;
+                    pageData.company2.minQuote=company2.minRate;
+                    pageData.company2.minQuoteState=company2.minRateState;
+                    pageData.company2.avgQuote=company2.avgRate;
+
+                    //array-quotes(rates)
+                    pageData["quotes"]=[];
+                    if(company1.rates)
+                        for(let k=0;k<company1.rates.length;k++)
+                            pageData.quotes.push([company1.rates[k][0],company1.rates[k][1],null]);
+                    if(company2.rates)
+                    {
+                        for(let k=0;k<company2.rates.length;k++)
+                        {
+                            let found=false;
+                            for(let l=0;l<pageData.quotes.length;l++)
+                            {
+                                if(pageData.quotes[l][0]===company2.rates[k][0])
+                                {
+                                    found=true;
+                                    pageData.quotes[l][2]=company2.rates[k][1];
+                                    break;
+                                }
+                            }
+                            if(!found)
+                                pageData.quotes.push([company2.rates[k][0],null,company2.rates[k][1]]);
+                        }
                     }
                 }
-                pageData.products=this.sortArray(pageData.products);
-                pageData.discounts=this.sortArray(pageData.discounts);
-                pageData.quotes=this.sortArray(pageData.quotes);
+                else
+                    pageData.quotes=null;
+                if(pageData.products)
+                    pageData.products=this.sortArray(pageData.products);
+                if(pageData.discounts)
+                    pageData.discounts=this.sortArray(pageData.discounts);
+                if(pageData.quotes)
+                    pageData.quotes=this.sortArray(pageData.quotes);
 
                 let page_name=company1.title.split(" ").join("")+"_"+company2.title.split(" ").join("")
                 pageData["page_name"]=page_name;
