@@ -100,9 +100,10 @@ class CompanyCompareDataManager extends DataManager {
 		if (company["head_quoters"] || company["number_of_employees"]){
 			company["number_of_employees"] ? desc+=` with a staff of ${company["number_of_employees"]} employees` : null
 			company["head_quoters"] ? desc+=` with the headquarters located in  ${company["head_quoters"]}` : null
-			desc+='. '
+			desc+='.'
 		}
-		desc=desc.replace(/\.\./g,".").trim()
+		desc+='. '
+		desc=desc.replace(/(\.+)/g,".").trim()
 		return desc
 	}
 
