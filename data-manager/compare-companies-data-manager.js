@@ -109,12 +109,25 @@ class CompanyCompareDataManager extends DataManager {
 
 	///добавляет абзац для скидок
 	addDiscDesc(company1,company2){
-		return `${company1} and ${company2} provide various discount programs. Offers related to both companies are presented at the top of the table. Compare the available discounts and choose the best deal for you.`
-	}
+    	let discDesc=null;
+    	if (company1["discounts"] && company2["discounts"]){
+			discDesc = `${company1.title} and ${company2.title} provide various discount programs. Offers related to both companies are presented at the top of the table. Compare the available discounts and choose the best deal for you.`
+    	} else if (company1["discounts"] || company2["discounts"]){
+			discDesc = `${company1["discounts"]? company1.title: company2.title} provides various discounts. The table below will help you to find the most beneficial offer.`
+		}
+		return discDesc
+    }
 
 	///добавляет абзац для продуктов
 	addProdDesc(company1,company2){
-		return `In addition to car insurance ${company1} and ${company2} can offer you a variety of other packages. The types of insurance related to both companies are presented at the top of the table. Compare all available offers to choose the most suitable company for you. In some cases, you can get a discount by purchasing several insurance packages in the same company.`
+    	let prodDesc=null;
+		if (company1["products"] && company2["products"]){
+			prodDesc = `In addition to car insurance ${company1.title} and ${company2.title} can offer you a variety of other packages. The types of insurance related to both companies are presented at the top of the table. Compare all available offers to choose the most suitable company for you. In some cases, you can get a discount by purchasing several insurance packages in the same company.`
+		} else if (company1["products"] || company2["products"]){
+			prodDesc =  `In addition to car insurance ${company1["products"]? company1.title: company2.title} can offer you a variety of other packages. Look through all available offers to get if ${company1["products"]? company1.title: company2.title} is convenient for you. In some cases, you can get a discount by purchasing several insurance packages in the same company.`
+		}
+
+		return prodDesc
 	}
 
 	///добавляет абзадц для квот
@@ -133,7 +146,7 @@ class CompanyCompareDataManager extends DataManager {
                 else if(company1.maxRate!==company1.minRate&&company2.maxRate===company2.minRate)
                     desc+=` You can find the cheapest ${company1.title} offers in ${company1.minRateState} where monthly average rate is ${company1.minRate} $. The most expensive state average is ${company1.maxRate} $ in ${company1.maxRateState}. At the moment the ${company2.title} provides services only in ${company2.minRateState}.`;
                 else
-                    desc=`At the moment the ${company1.title} provides services only in ${company1.minRateState}. As for ${company2.title}, you can find them in ${company2.minRateState}`;
+                    desc=`At the moment the ${company1.title} provides services only in ${company1.minRateState}. As for ${company2.title}, you can find them in ${company2.minRateState}.`;
 
             }
             else
@@ -151,7 +164,7 @@ class CompanyCompareDataManager extends DataManager {
                 if(company1.maxRate!==company1.minRate)
                     desc = `The average price of auto insurance in ${company2.title} is about ${company2.avgRate} $. Usually rates vary by state. You can find the cheapest ${company2.title} offers in ${company2.minRateState} where monthly average rate is ${company2.minRate} $. The most expensive state average is ${company2.maxRate} $ in ${company2.maxRateState}.`;
                 else
-                    desc = `The average price of auto insurance in ${company2.title} is about ${company2.avgRate} $. Usually rates vary by state. At the moment the ${company2.title} provides services only in ${company2.minRateState} .`;
+                    desc = `The average price of auto insurance in ${company2.title} is about ${company2.avgRate} $. Usually rates vary by state. At the moment the ${company2.title} provides services only in ${company2.minRateState}.`;
             }
             else
                 return null;
@@ -182,9 +195,9 @@ class CompanyCompareDataManager extends DataManager {
                 pageData["company1"]["short_desc"] = this.addDesc(company1);
 				pageData["company2"]["short_desc"] = this.addDesc(company2);
 
-				pageData["disc_desc"] = this.addDiscDesc(company1.title,company2.title);
+				pageData["disc_desc"] = this.addDiscDesc(company1,company2);
 
-				pageData["prod_desc"] = this.addProdDesc(company1.title,company2.title);
+				pageData["prod_desc"] = this.addProdDesc(company1,company2);
 
                 pageData["company1"]["link"]="https://www.usainsurancerate.com/companies/"+company1["url-slug"];
                 pageData["company2"]["link"]="https://www.usainsurancerate.com/companies/"+company2["url-slug"];
@@ -470,10 +483,10 @@ class CompanyCompareDataManager extends DataManager {
                             let found=false;
                             for(let l=0;l<pageData.quotes.length;l++)
                             {
-                                if(pageData.quotes[l][0]===company2.rates[k][0])
+                                if(pageData["quotes"][l][0]===company2.rates[k][0])
                                 {
                                     found=true;
-                                    pageData.quotes[l][2]=company2.rates[k][1];
+                                    pageData["quotes"][l][2]=company2.rates[k][1];
                                     break;
                                 }
                             }
