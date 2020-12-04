@@ -38,12 +38,12 @@
             |[sc name="company_page_states_widget"]
             .row.py-5
                 .col-md-6.m-auto.text-center
-                    p.d-flex.justify-content-between
-                        if (company1.statesCount > 0)
+                    p.d-flex.justify-content-center
+                        if ((company1.statesCount > 0) && (company2.statesCount < 50))
                             span
                                 i.fas.fa-square(style='color: #6d9eeb')
                                 |  #{company1.name} is present
-                        if (company2.statesCount > 0)
+                        if ((company2.statesCount > 0) && (company1.statesCount < 50))
                             span
                                 i.fas.fa-square(style='color: #e06666')
                                 |  #{company2.name} is present
