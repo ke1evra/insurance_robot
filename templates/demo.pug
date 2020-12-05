@@ -29,26 +29,31 @@
                                     .company-box-rating
                                         div #{rating[1]}
                                         span #{rating[0]}
-    if ((company1.statesCount > 0) || (company1.statesCount > 0))
+    if ((company1.statesCount > 0) || (company2.statesCount > 0))
         .container.pt-5
             .row
                 .col
                     h2.h2 #{company1.name} and #{company2.name} US states presence
-                    p #{company1.name} provides insurance services in #{company1.statesCount} #{company1.statesCount === 1 ? 'state' : 'states'} and #{company2.name} provides insurance services in #{company2.statesCount} #{company1.statesCount === 1 ? 'state' : 'states'}:
+                    if ((company1.statesCount > 0) && (company2.statesCount > 0))
+                        p #{company1.name} provides insurance services in #{company1.statesCount} #{company1.statesCount === 1 ? 'state' : 'states'} and #{company2.name} provides insurance services in #{company2.statesCount} #{company1.statesCount === 1 ? 'state' : 'states'}:
+                    else if (company1.statesCount > 0)
+                        p #{company1.name} provides insurance services in #{company1.statesCount} #{company1.statesCount === 1 ? 'state' : 'states'}:
+                    else
+                        p #{company2.name} provides insurance services in #{company2.statesCount} #{company2.statesCount === 1 ? 'state' : 'states'}:
             |[sc name="company_page_states_widget"]
             .row.py-5
                 .col-md-6.m-auto.text-center
                     p.d-flex.justify-content-center
                         if ((company1.statesCount > 0) && (company2.statesCount < 50))
-                            span
+                            span.px-3
                                 i.fas.fa-square(style='color: #6d9eeb')
                                 |  #{company1.name} is present
                         if ((company2.statesCount > 0) && (company1.statesCount < 50))
-                            span
+                            span.px-3
                                 i.fas.fa-square(style='color: #e06666')
                                 |  #{company2.name} is present
                         if ((company1.statesCount > 0) && (company2.statesCount > 0))
-                            span
+                            span.px-3
                                 i.fas.fa-square(style='color: #ffd966')
                                 |  Both companies are present
     if (discounts)
