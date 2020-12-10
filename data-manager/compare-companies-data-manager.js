@@ -1,7 +1,7 @@
 const DataManager = require('./new-data-manager.js');
 const c = require('../common.js');
 const pug = require('pug');
-const companies=c.rfSync('./data/json/companies_zebra_full.json');
+const companies=c.rfSync('./data/json/Zebra_after_research.json');
 
 const productsList = c.rfSync('./data/json/ProductsRatings.json')
 const discountsList = c.rfSync('./data/json/DiscountsRatings.json')
@@ -352,6 +352,8 @@ class CompanyCompareDataManager extends DataManager {
                     pageData["company1"]["ratings"].push(["BBB",company1["bbb"]]);
                 if(company2["bbb"])
                     pageData["company2"]["ratings"].push(["BBB",company2["bbb"]]);
+                if(pageData["company1"]["ratings"].length===0)pageData["company1"]["ratings"]=null;
+                if(pageData["company2"]["ratings"].length===0)pageData["company2"]["ratings"]=null;
                 //discounts
                 if(company1["discounts"]||company2["discounts"])
                 {
