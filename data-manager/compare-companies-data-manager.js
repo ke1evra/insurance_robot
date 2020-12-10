@@ -8,6 +8,62 @@ const discountsList = c.rfSync('./data/json/DiscountsRatings.json')
 
 const discountsAndProductsEntry = 5
 
+const USAStates = ["al","ak","az","ar","ca","co","ct","de","fl","ga","hi","id","il","IN","ia","ks","ky","la","me","md","ma","mi","mn","ms","mo","mt","ne","nv","nh","nj","nm","ny","nc","nd","oh","ok","OR","pa","ri","sc","sd","tn","tx","ut","vt","va","wa","dc","wv","wi","wy"]
+
+const state22chars = {
+	"Alabama" : "AL",
+	"Alaska" : "AK",
+	"Arizona" : "AZ",
+	"Arkansas" : "AR",
+	"California" : "CA",
+	"Colorado" : "CO",
+	"Connecticut" : "CT",
+	"Delaware" : "DE",
+	"Florida" : "FL",
+	"Georgia" : "GA",
+	"Hawaii" : "HI",
+	"Idaho" : "ID",
+	"Illinois" : "IL",
+	"Indiana" : "IN",
+	"Iowa" : "IA",
+	"Kansas" : "KS",
+	"Kentucky" : "KY",
+	"Louisiana" : "LA",
+	"Maine" : "ME",
+	"Maryland" : "MD",
+	"Massachusetts" : "MA",
+	"Michigan" : "MI",
+	"Minnesota" : "MN",
+	"Mississippi" : "MS",
+	"Missouri" : "MO",
+	"Montana" : "MT",
+	"Nebraska" : "NE",
+	"Nevada" : "NV",
+	"New Hampshire" : "NH",
+	"New Jersey" : "NJ",
+	"New Mexico" : "NM",
+	"New York" : "NY",
+	"North Carolina" : "NC",
+	"North Dakota" : "ND",
+	"Ohio" : "OH",
+	"Oklahoma" : "OK",
+	"Oregon" : "OR",
+	"Pennsylvania" : "PA",
+	"Rhode Island" : "RI",
+	"South Carolina" : "SC",
+	"South Dakota" : "SD",
+	"Tennessee" : "TN",
+	"Texas" : "TX",
+	"Utah" : "UT",
+	"Vermont" : "VT",
+	"Virginia" : "VA",
+	"Washington" : "WA",
+	"Washington D.C." : "DC",
+	"West Virginia" : "WV",
+	"Wisconsin" : "WI",
+	"Wyoming" : "WY",
+}
+
 var companies_compare={};
 class CompanyCompareDataManager extends DataManager {
     sortArray(arr)
@@ -79,6 +135,55 @@ class CompanyCompareDataManager extends DataManager {
         }
         return arr;
     }
+
+	checkStateAppearance(state,statesArray){
+    	let result=null;
+		state=state22chars[state];
+		for (let item of statesArray){
+			if (item[0] === state){
+				result = item[1]
+				break;
+			}
+		}
+		console.log("checkStateAppearance отработала".yellow)
+		return result
+	}
+
+	///Определяет, какую легенду добавлять на страницу:
+	///0: никакой... (0);
+	///1: только первая компания; (1);
+	///2: только вторая компания; (2);
+	///3: первая и вторая компании; (12);
+	///4: только обе (3);
+	///5: обе и только первая компания; (13);
+	///6: обе и только вторая компания; (23);
+	///7: обе и первая и вторая (123).
+	checkCompaniesOnWidget(statesArray){
+    	let buffResult="";
+		for (let item of statesArray){
+			buffResult.includes(item[1])
+				? null
+				: buffResult+=item[1]
+		}
+		((buffResult.length>1) && (buffResult.includes('0')))
+			? buffResult = buffResult.replace("0","")
+			: null;
+		buffResult = buffResult.split('').sort().join('');
+		let result;
+		switch (buffResult) {
+			case "0":result = 0; break;
+			case "1": result = 1; break;
+			case "2": result = 2; break;
+			case "12": result = 3; break;
+			case "3": result = 4; break;
+			case "13": result = 5; break;
+			case "23": result = 6; break;
+			case "123": result = 7; break;
+			default: result = 7; break;
+		}
+		console.log("checkCompaniesOnWidget отработала".yellow)
+		return result
+	}
 
     ///добавляет описание компании
     addDesc(company){
@@ -335,57 +440,13 @@ class CompanyCompareDataManager extends DataManager {
                 else
                     pageData["products"]=null;
                 //states appereance
+
                 pageData["states"]=[];
-                pageData["states"].push(["al".toUpperCase(),company1["al"] ? (company2["al"] ? 3 : 1) : (company2["al"]? 2 : 0)]);
-                pageData["states"].push(["ak".toUpperCase(),company1["ak"] ? (company2["ak"] ? 3 : 1) : (company2["ak"]? 2 : 0)]);
-                pageData["states"].push(["az".toUpperCase(),company1["az"] ? (company2["az"] ? 3 : 1) : (company2["az"]? 2 : 0)]);
-                pageData["states"].push(["ar".toUpperCase(),company1["ar"] ? (company2["ar"] ? 3 : 1) : (company2["ar"]? 2 : 0)]);
-                pageData["states"].push(["ca".toUpperCase(),company1["ca"] ? (company2["ca"] ? 3 : 1) : (company2["ca"]? 2 : 0)]);
-                pageData["states"].push(["co".toUpperCase(),company1["co"] ? (company2["co"] ? 3 : 1) : (company2["co"]? 2 : 0)]);
-                pageData["states"].push(["ct".toUpperCase(),company1["ct"] ? (company2["ct"] ? 3 : 1) : (company2["ct"]? 2 : 0)]);
-                pageData["states"].push(["de".toUpperCase(),company1["de"] ? (company2["de"] ? 3 : 1) : (company2["de"]? 2 : 0)]);
-                pageData["states"].push(["fl".toUpperCase(),company1["fl"] ? (company2["fl"] ? 3 : 1) : (company2["fl"]? 2 : 0)]);
-                pageData["states"].push(["ga".toUpperCase(),company1["ga"] ? (company2["ga"] ? 3 : 1) : (company2["ga"]? 2 : 0)]);
-                pageData["states"].push(["hi".toUpperCase(),company1["hi"] ? (company2["hi"] ? 3 : 1) : (company2["hi"]? 2 : 0)]);
-                pageData["states"].push(["id".toUpperCase(),company1["id"] ? (company2["id"] ? 3 : 1) : (company2["id"]? 2 : 0)]);
-                pageData["states"].push(["il".toUpperCase(),company1["il"] ? (company2["il"] ? 3 : 1) : (company2["il"]? 2 : 0)]);
-                pageData["states"].push(["IN".toUpperCase(),company1["IN"] ? (company2["IN"] ? 3 : 1) : (company2["IN"]? 2 : 0)]);
-                pageData["states"].push(["ia".toUpperCase(),company1["ia"] ? (company2["ia"] ? 3 : 1) : (company2["ia"]? 2 : 0)]);
-                pageData["states"].push(["ks".toUpperCase(),company1["ks"] ? (company2["ks"] ? 3 : 1) : (company2["ks"]? 2 : 0)]);
-                pageData["states"].push(["ky".toUpperCase(),company1["ky"] ? (company2["ky"] ? 3 : 1) : (company2["ky"]? 2 : 0)]);
-                pageData["states"].push(["la".toUpperCase(),company1["la"] ? (company2["la"] ? 3 : 1) : (company2["la"]? 2 : 0)]);
-                pageData["states"].push(["me".toUpperCase(),company1["me"] ? (company2["me"] ? 3 : 1) : (company2["me"]? 2 : 0)]);
-                pageData["states"].push(["md".toUpperCase(),company1["md"] ? (company2["md"] ? 3 : 1) : (company2["md"]? 2 : 0)]);
-                pageData["states"].push(["ma".toUpperCase(),company1["ma"] ? (company2["ma"] ? 3 : 1) : (company2["ma"]? 2 : 0)]);
-                pageData["states"].push(["mi".toUpperCase(),company1["mi"] ? (company2["mi"] ? 3 : 1) : (company2["mi"]? 2 : 0)]);
-                pageData["states"].push(["mn".toUpperCase(),company1["mn"] ? (company2["mn"] ? 3 : 1) : (company2["mn"]? 2 : 0)]);
-                pageData["states"].push(["ms".toUpperCase(),company1["ms"] ? (company2["ms"] ? 3 : 1) : (company2["ms"]? 2 : 0)]);
-                pageData["states"].push(["mo".toUpperCase(),company1["mo"] ? (company2["mo"] ? 3 : 1) : (company2["mo"]? 2 : 0)]);
-                pageData["states"].push(["mt".toUpperCase(),company1["mt"] ? (company2["mt"] ? 3 : 1) : (company2["mt"]? 2 : 0)]);
-                pageData["states"].push(["ne".toUpperCase(),company1["ne"] ? (company2["ne"] ? 3 : 1) : (company2["ne"]? 2 : 0)]);
-                pageData["states"].push(["nv".toUpperCase(),company1["nv"] ? (company2["nv"] ? 3 : 1) : (company2["nv"]? 2 : 0)]);
-                pageData["states"].push(["nh".toUpperCase(),company1["nh"] ? (company2["nh"] ? 3 : 1) : (company2["nh"]? 2 : 0)]);
-                pageData["states"].push(["nj".toUpperCase(),company1["nj"] ? (company2["nj"] ? 3 : 1) : (company2["nj"]? 2 : 0)]);
-                pageData["states"].push(["nm".toUpperCase(),company1["nm"] ? (company2["nm"] ? 3 : 1) : (company2["nm"]? 2 : 0)]);
-                pageData["states"].push(["ny".toUpperCase(),company1["ny"] ? (company2["ny"] ? 3 : 1) : (company2["ny"]? 2 : 0)]);
-                pageData["states"].push(["nc".toUpperCase(),company1["nc"] ? (company2["nc"] ? 3 : 1) : (company2["nc"]? 2 : 0)]);
-                pageData["states"].push(["nd".toUpperCase(),company1["nd"] ? (company2["nd"] ? 3 : 1) : (company2["nd"]? 2 : 0)]);
-                pageData["states"].push(["oh".toUpperCase(),company1["oh"] ? (company2["oh"] ? 3 : 1) : (company2["oh"]? 2 : 0)]);
-                pageData["states"].push(["ok".toUpperCase(),company1["ok"] ? (company2["ok"] ? 3 : 1) : (company2["ok"]? 2 : 0)]);
-                pageData["states"].push(["OR".toUpperCase(),company1["OR"] ? (company2["OR"] ? 3 : 1) : (company2["OR"]? 2 : 0)]);
-                pageData["states"].push(["pa".toUpperCase(),company1["pa"] ? (company2["pa"] ? 3 : 1) : (company2["pa"]? 2 : 0)]);
-                pageData["states"].push(["ri".toUpperCase(),company1["ri"] ? (company2["ri"] ? 3 : 1) : (company2["ri"]? 2 : 0)]);
-                pageData["states"].push(["sc".toUpperCase(),company1["sc"] ? (company2["sc"] ? 3 : 1) : (company2["sc"]? 2 : 0)]);
-                pageData["states"].push(["sd".toUpperCase(),company1["sd"] ? (company2["sd"] ? 3 : 1) : (company2["sd"]? 2 : 0)]);
-                pageData["states"].push(["tn".toUpperCase(),company1["tn"] ? (company2["tn"] ? 3 : 1) : (company2["tn"]? 2 : 0)]);
-                pageData["states"].push(["tx".toUpperCase(),company1["tx"] ? (company2["tx"] ? 3 : 1) : (company2["tx"]? 2 : 0)]);
-                pageData["states"].push(["ut".toUpperCase(),company1["ut"] ? (company2["ut"] ? 3 : 1) : (company2["ut"]? 2 : 0)]);
-                pageData["states"].push(["vt".toUpperCase(),company1["vt"] ? (company2["vt"] ? 3 : 1) : (company2["vt"]? 2 : 0)]);
-                pageData["states"].push(["va".toUpperCase(),company1["va"] ? (company2["va"] ? 3 : 1) : (company2["va"]? 2 : 0)]);
-                pageData["states"].push(["wa".toUpperCase(),company1["wa"] ? (company2["wa"] ? 3 : 1) : (company2["wa"]? 2 : 0)]);
-                pageData["states"].push(["wv".toUpperCase(),company1["wv"] ? (company2["wv"] ? 3 : 1) : (company2["wv"]? 2 : 0)]);
-                pageData["states"].push(["wi".toUpperCase(),company1["wi"] ? (company2["wi"] ? 3 : 1) : (company2["wi"]? 2 : 0)]);
-                pageData["states"].push(["wy".toUpperCase(),company1["wy"] ? (company2["wy"] ? 3 : 1) : (company2["wy"]? 2 : 0)]);
+                for (let item of USAStates){
+					pageData["states"].push([item.toUpperCase(),company1[item] ? (company2[item] ? 3 : 1) : (company2[item]? 2 : 0)]);
+				}
+
+                pageData.CompaniesOnWidget=this.checkCompaniesOnWidget(pageData["states"]);
 
                 pageData.company1["statesCount"]=0;
                 pageData.company2["statesCount"]=0;
@@ -475,7 +536,7 @@ class CompanyCompareDataManager extends DataManager {
                     pageData["quotes"]=[];
                     if(company1.rates)
                         for(let k=0;k<company1.rates.length;k++)
-                            pageData.quotes.push([company1.rates[k][0],company1.rates[k][1],null]);
+                            pageData.quotes.push([company1.rates[k][0],company1.rates[k][1],null,this.checkStateAppearance(company1.rates[k][0],pageData["states"])]);
                     if(company2.rates)
                     {
                         for(let k=0;k<company2.rates.length;k++)
@@ -487,13 +548,15 @@ class CompanyCompareDataManager extends DataManager {
                                 {
                                     found=true;
                                     pageData["quotes"][l][2]=company2.rates[k][1];
+									pageData["quotes"][l][3]=this.checkStateAppearance(company2.rates[k][0],pageData["states"]);
                                     break;
                                 }
                             }
                             if(!found)
-                                pageData.quotes.push([company2.rates[k][0],null,company2.rates[k][1]]);
+                                pageData.quotes.push([company2.rates[k][0],null,company2.rates[k][1],this.checkStateAppearance(company2.rates[k][0],pageData["states"])]);
                         }
                     }
+
                 }
                 else
                     pageData.quotes=null;

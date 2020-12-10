@@ -44,15 +44,15 @@
             .row.py-5
                 .col-md-6.m-auto.text-center
                     p.d-flex.justify-content-center
-                        if ((company1.statesCount > 0) && (company2.statesCount < 50))
+                        if ((CompaniesOnWidget===1)||(CompaniesOnWidget===3)||(CompaniesOnWidget===5)||(CompaniesOnWidget===7))
                             span.px-3
                                 i.fas.fa-square(style='color: #6d9eeb')
                                 |  #{company1.name} is present
-                        if ((company2.statesCount > 0) && (company1.statesCount < 50))
+                        if ((CompaniesOnWidget===2)||(CompaniesOnWidget===3)||(CompaniesOnWidget===6)||(CompaniesOnWidget===7))
                             span.px-3
                                 i.fas.fa-square(style='color: #e06666')
                                 |  #{company2.name} is present
-                        if ((company1.statesCount > 0) && (company2.statesCount > 0))
+                        if ((CompaniesOnWidget===4)||(CompaniesOnWidget===5)||(CompaniesOnWidget===6)||(CompaniesOnWidget===7))
                             span.px-3
                                 i.fas.fa-square(style='color: #ffd966')
                                 |  Both companies are present
@@ -165,9 +165,9 @@
                                 td.fbold
                                     | #{quote[0]}
                                 td.text-center
-                                    | #{quote[1]? `${quote[1]} $` : '-'}
+                                    | #{quote[1]? `${quote[1]} $` : ((quote[3]===1) || (quote[3]===3)) ? `n/a` : `-`}
                                 td.text-center
-                                    | #{quote[2]? `${quote[2]} $` : '-'}
+                                    | #{quote[2]? `${quote[2]} $` : ((quote[3]===2) || (quote[3]===3)) ? `n/a` : `-`}
                         tr
                             td(style='border-top-width: 3px;border-top-color: #999;').fbold
                                 | Average Quote
