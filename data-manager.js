@@ -215,7 +215,6 @@ class DataManager {
                 delete filteredList[key];
             }
         });
-        // console.log(filteredList);
         this.entryList = filteredList;
     }
 
