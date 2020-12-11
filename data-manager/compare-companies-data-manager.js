@@ -587,7 +587,7 @@ class CompanyCompareDataManager extends DataManager {
         this.setPageType('compare-companies');
         this.pageData.company = company;
         this.pageData.entry = company;
-        this.pageData.robotId = 1;
+        this.pageData.robotId = this.robotId;
         this.pageData.type = 'compare-companies';
 
         this.pageData.entry_index = this.pageData.index;
