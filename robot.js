@@ -87,8 +87,8 @@ const robot = {
             throw new Error(e);
         }
     },
-    async checkState(type){
-        const row = await gApi.getLastRowByType(type);
+    async checkState(type, id){
+        const row = await gApi.getLastRowByType(type, id);
         if(row){
             console.log(`Последняя добавленная страница id: ${row.page_id}, entry: ${row.entry}, entry_index: ${row.entry_index}, время: ${row.time}`.green);
             return parseInt(row.entry_index);

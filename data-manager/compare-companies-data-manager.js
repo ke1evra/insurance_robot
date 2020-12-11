@@ -145,7 +145,6 @@ class CompanyCompareDataManager extends DataManager {
 				break;
 			}
 		}
-		console.log("checkStateAppearance отработала".yellow)
 		return result
 	}
 
@@ -181,7 +180,6 @@ class CompanyCompareDataManager extends DataManager {
 			case "123": result = 7; break;
 			default: result = 7; break;
 		}
-		console.log("checkCompaniesOnWidget отработала".yellow)
 		return result
 	}
 
@@ -579,7 +577,7 @@ class CompanyCompareDataManager extends DataManager {
         this.data = companies_compare;
         this.pageData = {};
         this.pageFields = {};
-        this.pageType = 'company_compare';
+        this.pageType = 'compare-companies';
         this.entryList = companies_compare;
         //console.log(this.data);
     }
