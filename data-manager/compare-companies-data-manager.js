@@ -206,7 +206,72 @@ class CompanyCompareDataManager extends DataManager {
 			desc+='.'
 		}
 		desc+='. '
-		desc=desc.replace(/(\.+)/g,".").trim()
+		desc=desc.replace(/(\.+)/g,".").trim();
+
+        if(desc===`${company.title} works as an insurance company.`)
+        {
+            //console.log("States:",company.statesCount!==null,company.statesCount!=="undefined",company.statesCount>0);
+            //console.log("Products:",company.products_count!==null,company.products_count!=="undefined",company.products_count>0);
+            //console.log("Discounts:",company.discounts_count!==null,company.discounts_count!=="undefined",company.discounts_count>0);
+
+            desc=`${company.title} is an insurance company `;
+            if(company.statesCount!==null && company.statesCount!=="undefined" && company.statesCount>0)
+            {
+                desc+=" that provides services ";
+                if(company.statesCount>=35) desc+=`in most of the United States.`;
+                else if(company.statesCount>=15) desc+=`over a fairly large area of the United States.`;
+                else desc+=`in ${company.statesCount} US states.`;
+                if(company.products_count!==null && typeof company.products_count!=="undefined"&&company.products_count>0)
+                {
+                    desc+=`Also, ${company.title} offers `;
+                    if(company.products_count>=10) desc+="an enormous";
+                    else if(company.products_count>=5) desc+="a great";
+                    else desc+="a small";
+                    desc+=` variety of products that can be quite suitable for you.`;
+                    if(company.discounts_count!==null && typeof company.discounts_count!=="undefined"&&company.discounts_count>0)
+                    {
+                        desc+=` And, of course, ${company.title} provides `;
+                        if(company.discounts_count>=8) desc+="numerous opportunities to get a discount.";
+                        else if(company.discounts_count>=4) desc+="pretty nice opportunities to get a discount.";
+                        else desc+="some opportunities to get a discount.";
+                    }
+                }
+                else if(company.discounts_count!==null && typeof company.discounts_count!=="undefined"&&company.discounts_count>0)
+                {
+                    desc+=` Also, ${company.title} grants `;
+                    if(company.discounts_count>=8) desc+="numerous";
+                    else if(company.discounts_count>=4) desc+="pretty nice";
+                    else desc+="some";
+                    desc+=` opportunities to get a discount that can be quite suitable for you.`;
+                }
+            }
+            else if(company.products_count!==null && typeof company.products_count!=="undefined"&&company.products_count>0)
+            {
+                desc+=" that offers ";
+                if(company.products_count>=10) desc+="an enormous variety of products.";
+                else if(company.products_count>=5) desc+="a great variety of products.";
+                else desc+="a small variety of products.";
+                if(company.discounts_count!==null && typeof company.discounts_count!=="undefined"&&company.discounts_count>0)
+                {
+                    desc+=` Also, ${company.title} provides `;
+                    if(company.discounts_count>=8) desc+="numerous";
+                    else if(company.discounts_count>=4) desc+="pretty nice";
+                    else desc+="some";
+                    desc+=` opportunities to get a discount that can be quite suitable for you.`;
+                }
+            }
+            else if(company.discounts_count!==null && typeof company.discounts_count!=="undefined"&&company.discounts_count>0)
+            {
+                desc+=" that provides ";
+                if(company.discounts_count>=8) desc+="numerous opportunities to get a discount.";
+                else if(company.discounts_count>=4) desc+="pretty nice opportunities to get a discount.";
+                else desc+="some opportunities to get a discount.";
+            }
+            else
+            {
+                desc=`${company.title} is an ambitious insurance company that creates beneficial offers for their clients.`;
+            }
+        }
 		return desc
 	}
 
@@ -294,13 +359,6 @@ class CompanyCompareDataManager extends DataManager {
                 pageData["company2"]={};
                 pageData["company1"]["name"]=company1.title;
                 pageData["company2"]["name"]=company2.title;
-
-                pageData["company1"]["short_desc"] = this.addDesc(company1);
-				pageData["company2"]["short_desc"] = this.addDesc(company2);
-
-				pageData["disc_desc"] = this.addDiscDesc(company1,company2);
-
-				pageData["prod_desc"] = this.addProdDesc(company1,company2);
 
                 pageData["company1"]["link"]="https://www.usainsurancerate.com/companies/"+company1["url-slug"];
                 pageData["company2"]["link"]="https://www.usainsurancerate.com/companies/"+company2["url-slug"];
@@ -566,6 +624,22 @@ class CompanyCompareDataManager extends DataManager {
                     pageData.discounts=this.sortArray(pageData.discounts);
                 if(pageData.quotes)
                     pageData.quotes=this.sortArray(pageData.quotes);
+                //Описания
+                company1.statesCount=pageData.company1.statesCount;
+                company2.statesCount=pageData.company2.statesCount;
+                company1.products_count=pageData.company1.products_count;
+                company2.products_count=pageData.company2.products_count;
+                company1.discounts_count=pageData.company1.discounts_count;
+                company2.discounts_count=pageData.company2.discounts_count;
+                pageData["company1"]["short_desc"] = this.addDesc(company1);
+                pageData["company2"]["short_desc"] = this.addDesc(company2);
+                //костыль на одиннаковые описания
+                if(pageData["company1"]["short_desc"].indexOf("is an ambitious")>=0&&pageData["company2"]["short_desc"].indexOf("is an ambitious")>=0)
+                    pageData["company2"]["short_desc"]=`${company2.title} has established itself as a reliable auto insurance company that can provide a wide range of solutions for their customers.`;
+
+                pageData["disc_desc"] = this.addDiscDesc(company1,company2);
+
+                pageData["prod_desc"] = this.addProdDesc(company1,company2);
 
                 let page_name=company1.title.split(" ").join("")+"_"+company2.title.split(" ").join("")
                 pageData["page_name"]=page_name;
