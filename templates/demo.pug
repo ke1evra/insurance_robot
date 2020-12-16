@@ -41,7 +41,7 @@
                     else
                         p #{company2.name} provides insurance services in #{company2.statesCount} #{company2.statesCount === 1 ? 'state' : 'states'}:
             |[sc name="company_page_states_widget"]
-            .row.py-5
+            .row.pt-5
                 .col-md-6.m-auto.text-center
                     p.d-flex.justify-content-center
                         if ((CompaniesOnWidget===1)||(CompaniesOnWidget===3)||(CompaniesOnWidget===5)||(CompaniesOnWidget===7))
@@ -56,6 +56,7 @@
                             span.px-3
                                 i.fas.fa-square(style='color: #ffd966')
                                 |  Both companies are present
+    |[sc name="get_quotes_fast_and_secure"]
     if (discounts)
         .container.pt-5
             h2.h2 Discounts comparison
@@ -140,6 +141,7 @@
                                         svg.table-checkbox(height='35', viewbox='0 0 34 34', width='35', xmlns='http://www.w3.org/2000/svg')
                                             g(fill='none', fill-rule='evenodd')
                                                 path.red(d='M33,1 L1,33 M1,1 L1,1 L33,33 L17,17')
+    |[sc name="doubting_about_your_current_plan"]
     if (quotes)
         .container.pt-5
             h2.h2 Car insurance quotes
