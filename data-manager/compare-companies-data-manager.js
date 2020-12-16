@@ -2,6 +2,7 @@ const DataManager = require('./new-data-manager.js');
 const c = require('../common.js');
 const pug = require('pug');
 const companies=c.rfSync('./data/json/Zebra_after_research.json');
+const companiesUrls=c.rfSync('./data/json/companies_urls.json')
 
 const productsList = c.rfSync('./data/json/ProductsRatings.json')
 const discountsList = c.rfSync('./data/json/DiscountsRatings.json')
@@ -184,37 +185,39 @@ class CompanyCompareDataManager extends DataManager {
 	}
 
     ///добавляет описание компании
-    addDesc(company){
-    	let desc = '';
+    addDesc(company,link){
+    	let descFlag=false
+    	let desc = ''
 		if (company["founded_year"] || company["parent_company"] || company["founded"]){
-			desc+=`${company.title} was founded`
+			descFlag=true
+			desc+=` was founded`
 			company["founded"] ? desc += ` in ${company["founded"]}` : null
 			company["founded_year"] ? desc += ` in ${company["founded_year"]}` : null
 			company["parent_company"] ? desc += ` by ${company["parent_company"]}` : null
 			desc+='. '
 		}
         if(company["insurance_type"]===null)company["insurance_type"] = "insurance";
-		desc+=`${company.title} works as `
+		desc+=` works as `
         'aeoiyu'.includes(String(company["insurance_type"])[0].toLowerCase())
             ? desc+= 'an '
             : desc+= 'a '
 
             desc+=`${company["insurance_type"]} company`.toLowerCase()
 		if (company["head_quoters"] || company["number_of_employees"]){
+			descFlag=true
 			company["number_of_employees"] ? desc+=` with a staff of ${company["number_of_employees"]} employees` : null
 			company["head_quoters"] ? desc+=` with the headquarters located in  ${company["head_quoters"]}` : null
 			desc+='.'
 		}
 		desc+='. '
-		desc=desc.replace(/(\.+)/g,".").trim();
 
-        if(desc===`${company.title} works as an insurance company.`)
+        if(!descFlag)
         {
             //console.log("States:",company.statesCount!==null,company.statesCount!=="undefined",company.statesCount>0);
             //console.log("Products:",company.products_count!==null,company.products_count!=="undefined",company.products_count>0);
             //console.log("Discounts:",company.discounts_count!==null,company.discounts_count!=="undefined",company.discounts_count>0);
 
-            desc=`${company.title} is an insurance company `;
+            desc+=` is an insurance company `;
             if(company.statesCount!==null && company.statesCount!=="undefined" && company.statesCount>0)
             {
                 desc+=" that provides services ";
@@ -272,6 +275,7 @@ class CompanyCompareDataManager extends DataManager {
                 desc=`${company.title} is an ambitious insurance company that creates beneficial offers for their clients.`;
             }
         }
+        desc=" " + desc.replace(/( +)/g," ").replace(/(\.+)/g,".").trim()
 		return desc
 	}
 
@@ -360,8 +364,9 @@ class CompanyCompareDataManager extends DataManager {
                 pageData["company1"]["name"]=company1.title;
                 pageData["company2"]["name"]=company2.title;
 
-                pageData["company1"]["link"]="https://www.usainsurancerate.com/companies/"+company1["url-slug"];
-                pageData["company2"]["link"]="https://www.usainsurancerate.com/companies/"+company2["url-slug"];
+                pageData["company1"]["link"]="https://www.usainsurancerate.com/companies/"+company1["url-slug"]
+				pageData["company2"]["link"]="https://www.usainsurancerate.com/companies/"+company2["url-slug"]
+
                 //contacts
 				pageData["company1"]["contacts"]={};
 				pageData["company2"]["contacts"]={};
@@ -631,8 +636,9 @@ class CompanyCompareDataManager extends DataManager {
                 company2.products_count=pageData.company2.products_count;
                 company1.discounts_count=pageData.company1.discounts_count;
                 company2.discounts_count=pageData.company2.discounts_count;
-                pageData["company1"]["short_desc"] = this.addDesc(company1);
-                pageData["company2"]["short_desc"] = this.addDesc(company2);
+
+                pageData["company1"]["short_desc"] = this.addDesc(company1,pageData["company1"]["link"]);
+                pageData["company2"]["short_desc"] = this.addDesc(company2,pageData["company2"]["link"]);
                 //костыль на одиннаковые описания
                 if(pageData["company1"]["short_desc"].indexOf("is an ambitious")>=0&&pageData["company2"]["short_desc"].indexOf("is an ambitious")>=0)
                     pageData["company2"]["short_desc"]=`${company2.title} has established itself as a reliable auto insurance company that can provide a wide range of solutions for their customers.`;
