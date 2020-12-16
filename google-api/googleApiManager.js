@@ -38,14 +38,14 @@ const API = {
         });
         const rowsWithType = [];
         rows.map((row)=>{
-            if ((row._rawData[headerIndexes.type] === type) && (row._rawData[headerIndexes.robot_id] == id)){
+            if ((row._rawData[headerIndexes.type] === type) && (row._rawData[headerIndexes.robot_id] === id.toString())){
 
                 rowsWithType.push(row._rawData);
             }
         });
         if(rowsWithType.length){
             const lastRow = rowsWithType[rowsWithType.length - 1];
-            console.log(`Записей с типом ${type} найдено: ${rowsWithType.length}`.green);
+            console.log(`Записей с типом ${type}, сделанных роботом-${id} найдено: ${rowsWithType.length}`.green);
             const data = {};
             headers.map((val, index, arr)=>{
                 data[val] = lastRow[index];
