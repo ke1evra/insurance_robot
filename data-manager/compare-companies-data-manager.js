@@ -220,7 +220,7 @@ class CompanyCompareDataManager extends DataManager {
                 desc+=" that provides services ";
                 if(company.statesCount>=35) desc+=`in most of the United States.`;
                 else if(company.statesCount>=15) desc+=`over a fairly large area of the United States.`;
-                else desc+=`in ${company.statesCount} US states.`;
+                else desc+=`in ${company.statesCount} US state${company.statesCount!==1?"s":""}.`;
                 if(company.products_count!==null && typeof company.products_count!=="undefined"&&company.products_count>0)
                 {
                     desc+=`Also, ${company.title} offers `;
