@@ -346,6 +346,7 @@ class CompanyCompareDataManager extends DataManager {
 
     constructor() {
         super();
+        let page_index=1;
         for(let i=0;i<companies.length;i++)
         {
             for(let j=i+1;j<companies.length;j++)
@@ -649,7 +650,8 @@ class CompanyCompareDataManager extends DataManager {
 
                 let page_name=company1.title.split(" ").join("")+"_"+company2.title.split(" ").join("")
                 pageData["page_name"]=page_name;
-                    pageData["index"]=i*companies.length+j;
+                    pageData["index"]=page_index;
+                page_index++;
                 //console.log(pageData);
                 companies_compare[page_name]=pageData;
             }
