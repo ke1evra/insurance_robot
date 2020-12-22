@@ -1,18 +1,23 @@
 | [sc name="company_comparison_styles"]
 .container.pt-5
     h1.h1 #{company1.name} vs #{company2.name}
-    p
-        if company1.link
-            a(href=`${company1.link}`) #{company1.name}
-        else
-            | #{company1.name}
-        |#{company1.short_desc}
-    p
-        if company2.link
-            a(href=`${company2.link}`) #{company2.name}
-        else
-            | #{company2.name}
-        |#{company2.short_desc}
+.container.pt-5
+    .d-flex.justify-content-start(style='align-items:center')
+        img.img-fluid.pr-2(width="100" height="100" src=company1.imageLink alt=`${company1.name} logo`)
+        p(style='margin-bottom: 0px')
+            if company1.link
+                a(href=`${company1.link}`) #{company1.name}
+            else
+                | #{company1.name}
+            |#{company1.short_desc}
+    .d-flex.justify-content-start(style='align-items:center')
+        img.img-fluid.pr-2(width="100" height="100" src=company2.imageLink alt=`${company2.name} logo`)
+        p(style='margin-bottom: 0px')
+            if company2.link
+                a(href=`${company2.link}`) #{company2.name}
+            else
+                | #{company2.name}
+            |#{company2.short_desc}
 if (company1.ratings || company2.ratings)
     .container.pt-5
         .row
@@ -146,7 +151,7 @@ if (products)
                                     svg.table-checkbox(height='35', viewbox='0 0 34 34', width='35', xmlns='http://www.w3.org/2000/svg')
                                         g(fill='none', fill-rule='evenodd')
                                             path.red(d='M33,1 L1,33 M1,1 L1,1 L33,33 L17,17')
-if ((products)||(discounts))
+if ((products)&&(discounts))
     |[sc name="doubting_about_your_current_plan"]
 if (quotes)
     .container.pt-5

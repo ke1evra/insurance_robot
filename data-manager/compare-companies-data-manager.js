@@ -368,6 +368,9 @@ class CompanyCompareDataManager extends DataManager {
                 pageData["company1"]["link"]="https://www.usainsurancerate.com/companies/"+company1["url-slug"]
 				pageData["company2"]["link"]="https://www.usainsurancerate.com/companies/"+company2["url-slug"]
 
+				pageData["company1"]["imageLink"]=company1["img_url"].replace(".png","-150x150.png")
+				pageData["company2"]["imageLink"]=company2["img_url"].replace(".png","-150x150.png")
+
                 //contacts
 				pageData["company1"]["contacts"]={};
 				pageData["company2"]["contacts"]={};
