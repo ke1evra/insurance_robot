@@ -691,7 +691,7 @@ class CompanyCompareDataManager extends DataManager {
     }
 
     renderMetaTitle(){
-        this.pageData.metaTitle = `${this.pageData.company1.name} and ${this.pageData["company2"].name} insurance company compare`
+        this.pageData.metaTitle = `Compare ${this.pageData.company1.name} and ${this.pageData["company2"].name} companies`
     }
 
     renderMetaDescription(){
