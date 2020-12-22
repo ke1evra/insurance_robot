@@ -651,7 +651,7 @@ class CompanyCompareDataManager extends DataManager {
 
                 pageData["prod_desc"] = this.addProdDesc(company1,company2);
 
-                let page_name=company1.title.split(" ").join("")+"_"+company2.title.split(" ").join("")
+                let page_name=company1.title.split(" ").join("")+"-"+company2.title.split(" ").join("")
                 pageData["page_name"]=page_name;
                     pageData["index"]=page_index;
                 page_index++;
