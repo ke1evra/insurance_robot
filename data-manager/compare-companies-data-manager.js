@@ -189,25 +189,28 @@ class CompanyCompareDataManager extends DataManager {
     	let descFlag=false
     	let desc = ''
 		if (company["founded_year"] || company["parent_company"] || company["founded"]){
-			descFlag=true
 			desc+=` was founded`
 			company["founded"] ? desc += ` in ${company["founded"]}` : null
 			company["founded_year"] ? desc += ` in ${company["founded_year"]}` : null
 			company["parent_company"] ? desc += ` by ${company["parent_company"]}` : null
 			desc+='. '
-		}
-        if(company["insurance_type"]===null)company["insurance_type"] = "insurance";
-		desc+=` works as `
-        'aeoiyu'.includes(String(company["insurance_type"])[0].toLowerCase())
-            ? desc+= 'an '
-            : desc+= 'a '
-
-            desc+=`${company["insurance_type"]} company`.toLowerCase()
-		if (company["head_quoters"] || company["number_of_employees"]){
 			descFlag=true
+		}
+
+		if (company["head_quoters"] || company["number_of_employees"]){
+			if(company["insurance_type"]===null)
+				company["insurance_type"] = "insurance";
+			descFlag
+				? desc+=`${company.title} works as `
+				: desc+=` works as `
+			'aeoiyu'.includes(String(company["insurance_type"])[0].toLowerCase())
+				? desc+= 'an '
+				: desc+= 'a '
+			desc+=`${company["insurance_type"]} company`.toLowerCase()
 			company["number_of_employees"] ? desc+=` with a staff of ${company["number_of_employees"]} employees` : null
 			company["head_quoters"] ? desc+=` with the headquarters located in  ${company["head_quoters"]}` : null
-			desc+='.'
+			desc+='. '
+			descFlag=true
 		}
 		desc+='. '
 
@@ -217,26 +220,26 @@ class CompanyCompareDataManager extends DataManager {
             //console.log("Products:",company.products_count!==null,company.products_count!=="undefined",company.products_count>0);
             //console.log("Discounts:",company.discounts_count!==null,company.discounts_count!=="undefined",company.discounts_count>0);
 
-            desc+=` is an insurance company `;
+            desc=` is an insurance company `;
             if(company.statesCount!==null && company.statesCount!=="undefined" && company.statesCount>0)
             {
                 desc+=" that provides services ";
-                if(company.statesCount>=35) desc+=`in most of the United States.`;
-                else if(company.statesCount>=15) desc+=`over a fairly large area of the United States.`;
-                else desc+=`in ${company.statesCount} US state${company.statesCount!==1?"s":""}.`;
+                if(company.statesCount>=35) desc+=`in most of the United States. `;
+                else if(company.statesCount>=15) desc+=`over a fairly large area of the United States. `;
+                else desc+=`in ${company.statesCount} US state${company.statesCount!==1?"s":""}. `;
                 if(company.products_count!==null && typeof company.products_count!=="undefined"&&company.products_count>0)
                 {
                     desc+=`Also, ${company.title} offers `;
                     if(company.products_count>=10) desc+="an enormous";
                     else if(company.products_count>=5) desc+="a great";
                     else desc+="a small";
-                    desc+=` variety of products that can be quite suitable for you.`;
+                    desc+=` variety of products that can be quite suitable for you. `;
                     if(company.discounts_count!==null && typeof company.discounts_count!=="undefined"&&company.discounts_count>0)
                     {
                         desc+=` And, of course, ${company.title} provides `;
-                        if(company.discounts_count>=8) desc+="numerous opportunities to get a discount.";
-                        else if(company.discounts_count>=4) desc+="pretty nice opportunities to get a discount.";
-                        else desc+="some opportunities to get a discount.";
+                        if(company.discounts_count>=8) desc+="numerous opportunities to get a discount. ";
+                        else if(company.discounts_count>=4) desc+="pretty nice opportunities to get a discount. ";
+                        else desc+="some opportunities to get a discount. ";
                     }
                 }
                 else if(company.discounts_count!==null && typeof company.discounts_count!=="undefined"&&company.discounts_count>0)
@@ -245,34 +248,34 @@ class CompanyCompareDataManager extends DataManager {
                     if(company.discounts_count>=8) desc+="numerous";
                     else if(company.discounts_count>=4) desc+="pretty nice";
                     else desc+="some";
-                    desc+=` opportunities to get a discount that can be quite suitable for you.`;
+                    desc+=` opportunities to get a discount that can be quite suitable for you. `;
                 }
             }
             else if(company.products_count!==null && typeof company.products_count!=="undefined"&&company.products_count>0)
             {
                 desc+=" that offers ";
-                if(company.products_count>=10) desc+="an enormous variety of products.";
-                else if(company.products_count>=5) desc+="a great variety of products.";
-                else desc+="a small variety of products.";
+                if(company.products_count>=10) desc+="an enormous variety of products. ";
+                else if(company.products_count>=5) desc+="a great variety of products. ";
+                else desc+="a small variety of products. ";
                 if(company.discounts_count!==null && typeof company.discounts_count!=="undefined"&&company.discounts_count>0)
                 {
                     desc+=` Also, ${company.title} provides `;
                     if(company.discounts_count>=8) desc+="numerous";
                     else if(company.discounts_count>=4) desc+="pretty nice";
                     else desc+="some";
-                    desc+=` opportunities to get a discount that can be quite suitable for you.`;
+                    desc+=` opportunities to get a discount that can be quite suitable for you. `;
                 }
             }
             else if(company.discounts_count!==null && typeof company.discounts_count!=="undefined"&&company.discounts_count>0)
             {
                 desc+=" that provides ";
-                if(company.discounts_count>=8) desc+="numerous opportunities to get a discount.";
-                else if(company.discounts_count>=4) desc+="pretty nice opportunities to get a discount.";
-                else desc+="some opportunities to get a discount.";
+                if(company.discounts_count>=8) desc+="numerous opportunities to get a discount. ";
+                else if(company.discounts_count>=4) desc+="pretty nice opportunities to get a discount. ";
+                else desc+="some opportunities to get a discount. ";
             }
             else
             {
-                desc=`${company.title} is an ambitious insurance company that creates beneficial offers for their clients.`;
+                desc=` is an ambitious insurance company that creates beneficial offers for their clients. `;
             }
         }
         desc=" " + desc.replace(/( +)/g," ").replace(/(\.+)/g,".").trim()
