@@ -207,8 +207,9 @@ class CompanyCompareDataManager extends DataManager {
 				? desc+= 'an '
 				: desc+= 'a '
 			desc+=`${company["insurance_type"]} company`.toLowerCase()
-			company["number_of_employees"] ? desc+=` with a staff of ${company["number_of_employees"]} employees` : null
-			company["head_quoters"] ? desc+=` with the headquarters located in  ${company["head_quoters"]}` : null
+			company["number_of_employees"] ? desc+=` with a staff of ${company["number_of_employees"]} employees` : null;
+			company["number_of_employees"] && company["head_quoters"] ? desc+=" and" : desc+="";
+			company["head_quoters"] ? desc+=` with the headquarters located in  ${company["head_quoters"]}` : null;
 			desc+='. '
 			descFlag=true
 		}
